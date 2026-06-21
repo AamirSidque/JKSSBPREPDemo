@@ -1,0 +1,598 @@
+{
+  "id": "simple_compound_interest",
+  "subject_id": "reasoning_numeracy",
+  "title": "Simple and Compound Interest",
+  "subtopics": [
+    {
+      "id": "si_basics",
+      "title": "Simple Interest – Definitions and Formula",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Simple Interest",
+          "subtitle": "Interest Calculated Only on Principal",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "Principal (P)",
+          "content": "The original sum of money borrowed or invested.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⏳",
+          "title": "Rate (R) and Time (T)",
+          "content": "Rate is the percentage of interest per annum (p.a.). Time is the duration for which the money is borrowed or invested (usually in years)."
+        },
+        {
+          "type": "formula",
+          "title": "Simple Interest Formula",
+          "formula": "SI = (P × R × T) / 100",
+          "description": "Amount (A) = P + SI."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Find SI and Amount",
+          "given": ["P = ₹5000", "R = 10% p.a.", "T = 3 years"],
+          "find": "SI and Amount",
+          "steps": [
+            "SI = (5000 × 10 × 3) / 100 = 1500",
+            "Amount = 5000 + 1500 = 6500"
+          ],
+          "answer": "SI = ₹1500, Amount = ₹6500",
+          "formula_used": "SI = P×R×T/100"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Find Time",
+          "given": ["P = ₹8000", "SI = ₹2400", "R = 6% p.a."],
+          "find": "Time (T)",
+          "steps": [
+            "T = (SI × 100) / (P × R) = (2400 × 100) / (8000 × 6) = 240000 / 48000 = 5 years"
+          ],
+          "answer": "5 years",
+          "formula_used": "T = (SI×100)/(P×R)"
+        },
+        {
+          "type": "table",
+          "title": "Simple Interest Quick Table",
+          "headers": ["P", "R", "T", "SI", "Amount"],
+          "rows": [
+            ["1000", "10%", "2", "200", "1200"],
+            ["2000", "8%", "3", "480", "2480"],
+            ["5000", "12%", "5", "3000", "8000"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "SI is directly proportional to P, R, and T.",
+            "Always convert time to years if given in months/days.",
+            "Amount = P + SI.",
+            "Formulas to find P, R, T can be derived."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci_basics",
+      "title": "Compound Interest – Definition and Formula",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Compound Interest",
+          "subtitle": "Interest on Interest – The Power of Compounding",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Definition",
+          "content": "Compound interest is interest calculated on the initial principal and also on the accumulated interest of previous periods. It is 'interest on interest'.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Compound Interest Formula",
+          "formula": "A = P × (1 + R/100)^T\nCI = A – P",
+          "description": "Where A = Amount, P = Principal, R = Rate per annum, T = Time in years (for annual compounding)."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Find CI and Amount",
+          "given": ["P = ₹5000", "R = 10% p.a.", "T = 3 years"],
+          "find": "CI and Amount",
+          "steps": [
+            "A = 5000 × (1 + 10/100)^3 = 5000 × (1.1)^3 = 5000 × 1.331 = 6655",
+            "CI = 6655 – 5000 = 1655"
+          ],
+          "answer": "Amount = ₹6655, CI = ₹1655",
+          "formula_used": "A = P(1 + R/100)^T"
+        },
+        {
+          "type": "comparison",
+          "title": "SI vs CI",
+          "left_header": "Simple Interest",
+          "right_header": "Compound Interest",
+          "rows": [
+            { "left": "Interest on principal only.", "right": "Interest on principal + accumulated interest." },
+            { "left": "Linear growth.", "right": "Exponential growth." },
+            { "left": "A = P + P×R×T/100", "right": "A = P(1+R/100)^T" },
+            { "left": "SI < CI for T > 1 (same P,R,T)", "right": "CI > SI for T > 1" }
+          ]
+        },
+        {
+          "type": "exam_trap",
+          "title": "Common Mistake",
+          "wrong": "Using SI formula for CI questions.",
+          "correct": "Identify if interest is compounded or simple.",
+          "tip": "Look for keywords: 'compound', 'compounded annually'."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "CI is always greater than SI for the same P, R, T (T>1).",
+            "For T=1, SI = CI.",
+            "The compound interest formula is used extensively."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci_variations",
+      "title": "Compound Interest – Different Compounding Periods",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Compounding Frequency",
+          "subtitle": "Half-Yearly, Quarterly, and More",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "General Formula",
+          "content": "A = P × (1 + R/(100×n))^(n×T), where n = number of compounding periods per year.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Half-Yearly Compounding",
+          "formula": "A = P × (1 + R/200)^(2T)",
+          "description": "When interest is compounded half-yearly, R is divided by 2, and time is multiplied by 2."
+        },
+        {
+          "type": "formula",
+          "title": "Quarterly Compounding",
+          "formula": "A = P × (1 + R/400)^(4T)",
+          "description": "For quarterly, R/4 and 4T."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Half-Yearly Compounding",
+          "given": ["P = ₹10000", "R = 12% p.a.", "T = 1.5 years", "Compounded half-yearly"],
+          "find": "Amount",
+          "steps": [
+            "n = 2, R/200 = 12/200 = 0.06, nT = 2×1.5 = 3",
+            "A = 10000 × (1 + 0.06)^3 = 10000 × (1.06)^3 ≈ 10000 × 1.191016 = 11910.16"
+          ],
+          "answer": "₹11910.16",
+          "formula_used": "A = P(1 + R/200)^(2T)"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Quarterly Compounding",
+          "given": ["P = ₹8000", "R = 16% p.a.", "T = 1 year", "Compounded quarterly"],
+          "find": "Amount",
+          "steps": [
+            "n=4, R/400 = 16/400 = 0.04, nT = 4",
+            "A = 8000 × (1.04)^4 ≈ 8000 × 1.1698586 = 9358.87"
+          ],
+          "answer": "₹9358.87",
+          "formula_used": "A = P(1 + R/400)^(4T)"
+        },
+        {
+          "type": "table",
+          "title": "Compounding Periods – Quick Reference",
+          "headers": ["Period", "Rate Divisor", "Time Multiplier"],
+          "rows": [
+            ["Annual", "1", "1"],
+            ["Half-Yearly", "2", "2"],
+            ["Quarterly", "4", "4"],
+            ["Monthly", "12", "12"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting to adjust time",
+          "wrong": "Using annual formula for half-yearly compounding.",
+          "correct": "Always adjust R and T per the compounding period.",
+          "tip": "Remember: n = frequency, R = R/n, T = n×T years."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "More frequent compounding yields higher amount.",
+            "Adjust R and T accordingly.",
+            "Formula: A = P(1 + R/(100×n))^(n×T)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci_si_difference",
+      "title": "Difference between CI and SI",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "CI – SI Difference",
+          "subtitle": "Common Exam Questions",
+          "tags": ["High Weightage", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "For 2 Years",
+          "content": "Difference between CI and SI for 2 years = P × (R/100)^2.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "For 3 Years",
+          "content": "Difference between CI and SI for 3 years = P × (R/100)^2 × (3 + R/100).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Difference for 2 years",
+          "given": ["P = ₹2000", "R = 10% p.a.", "T = 2 years"],
+          "find": "CI – SI",
+          "steps": [
+            "SI = (2000×10×2)/100 = 400",
+            "A = 2000×(1.1)^2 = 2000×1.21 = 2420, CI = 420",
+            "Difference = 420 – 400 = 20",
+            "Using formula: P×(R/100)^2 = 2000×(0.1)^2 = 20."
+          ],
+          "answer": "₹20",
+          "formula_used": "P×(R/100)^2"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Difference for 3 years",
+          "given": ["P = ₹5000", "R = 5% p.a.", "T = 3 years"],
+          "find": "CI – SI",
+          "steps": [
+            "SI = (5000×5×3)/100 = 750",
+            "A = 5000×(1.05)^3 = 5000×1.157625 = 5788.125, CI = 788.125",
+            "Difference = 38.125",
+            "Using formula: P×(R/100)^2×(3+R/100) = 5000×0.05²×(3+0.05) = 5000×0.0025×3.05 = 38.125."
+          ],
+          "answer": "₹38.125",
+          "formula_used": "P×(R/100)^2×(3+R/100)"
+        },
+        {
+          "type": "table",
+          "title": "Difference Formulas",
+          "headers": ["Time", "Formula for CI – SI"],
+          "rows": [
+            ["2 years", "P×(R/100)^2"],
+            ["3 years", "P×(R/100)^2×(3 + R/100)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using formula for 3 years when given 2 years.",
+          "wrong": "Using 3-year formula for 2-year question.",
+          "correct": "Use the specific formula for the given time.",
+          "tip": "Memorize these two formulas – they appear frequently."
+        },
+        {
+          "type": "revision",
+          "title": "Remember",
+          "points": [
+            "CI – SI for 2 years = P × (R/100)^2.",
+            "CI – SI for 3 years = P × (R/100)^2 × (3 + R/100).",
+            "For T=1, CI = SI.",
+            "These formulas save time in exams."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci_varying_rates",
+      "title": "Compound Interest with Varying Rates",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Varying Rates",
+          "subtitle": "When Rate Changes Each Year",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Concept",
+          "content": "Sometimes, the interest rate changes every year. For such cases, the formula becomes: A = P × (1 + R₁/100) × (1 + R₂/100) × ... for each year.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Rates change annually",
+          "given": ["P = ₹10000", "R₁=10%, R₂=12%, R₃=8% for 3 years"],
+          "find": "Amount and CI",
+          "steps": [
+            "A = 10000 × (1.10) × (1.12) × (1.08)",
+            "= 10000 × 1.10 × 1.12 × 1.08 = 10000 × 1.33056 = 13305.6",
+            "CI = 13305.6 – 10000 = 3305.6"
+          ],
+          "answer": "Amount = ₹13305.6, CI = ₹3305.6",
+          "formula_used": "A = P × ∏(1 + Rᵢ/100)"
+        },
+        {
+          "type": "note_card",
+          "title": "Important Note",
+          "variant": "important",
+          "content": "For varying rates, the product of (1+Rᵢ/100) factors is used. This applies only when compounding is done annually."
+        },
+        {
+          "type": "revision",
+          "title": "Key Point",
+          "points": [
+            "Vary rates: multiply factors for each year.",
+            "If rates are in fraction, convert carefully.",
+            "This type is less common but appears in advanced exams."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "installments",
+      "title": "Installments (EMI) – Simple and Compound Interest",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Installments",
+          "subtitle": "Equal Payments Over Time",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏦",
+          "title": "Concept",
+          "content": "When a loan is repaid in equal installments, the interest is calculated on the reducing balance. For simple interest, the total amount paid in installments equals the principal plus interest.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Simple Interest Installment Formula",
+          "formula": "Total Amount = Sum of installments + Interest on each installment",
+          "description": "For SI, the installments are usually equal and interest is calculated on the outstanding amount."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Installment with SI",
+          "given": ["Loan = ₹1200", "Rate = 10% p.a.", "Repaid in 3 equal annual installments"],
+          "find": "Amount of each installment",
+          "steps": [
+            "Let each installment = x.",
+            "Value of money: First installment after 1 year, second after 2, third after 3.",
+            "Equation: 1200 = x/(1+0.1) + x/(1+0.2) + x/(1+0.3) [using SI concept of present value]",
+            "Actually, SI installments are usually solved by equating: Principal = Sum of present values.",
+            "For SI, present value of an installment paid after t years = x / (1 + (R×t)/100).",
+            "So, 1200 = x/(1+0.1) + x/(1+0.2) + x/(1+0.3) = x/1.1 + x/1.2 + x/1.3",
+            "Find common denominator: 1.1×1.2×1.3 = 1.716",
+            "Sum = (1.2×1.3 + 1.1×1.3 + 1.1×1.2) / 1.716 = (1.56 + 1.43 + 1.32) / 1.716 = 4.31/1.716 ≈ 2.511",
+            "x = 1200 / 2.511 ≈ 477.9 ≈ 478"
+          ],
+          "answer": "Approx ₹478",
+          "formula_used": "Present value concept for SI installments."
+        },
+        {
+          "type": "note_card",
+          "title": "Exam Insight",
+          "variant": "caution",
+          "content": "Installment questions are rare in JKSSB, but they test your understanding. Focus on the concept, not the heavy calculation."
+        },
+        {
+          "type": "revision",
+          "title": "Remember",
+          "points": [
+            "Installment problems involve present value.",
+            "For SI, present value = installment / (1 + R×t/100).",
+            "For CI, use compound interest present value formula.",
+            "Often, questions give total interest and ask for installment amount."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shortcuts_interest",
+      "title": "Shortcuts and Tricks for Interest",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Interest Shortcuts",
+          "subtitle": "Speed Up Calculations",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 1 – For SI, find P, R, T quickly",
+          "content": "If SI and Amount are given, P = Amount – SI. Then use formulas to find R or T.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 2 – CI for 2 years",
+          "content": "CI for 2 years can be calculated as: CI = P × [ (1 + R/100)^2 – 1 ] = P × (2R/100 + (R/100)^2)."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: CI for 2 years shortcut",
+          "given": ["P = 5000", "R = 10%", "T = 2"],
+          "find": "CI",
+          "steps": [
+            "CI = 5000 × (0.10 + 0.01 + 0.10) ? Wait: CI = P[(1+0.1)^2 – 1] = 5000[(1.21 – 1)] = 5000×0.21 = 1050"
+          ],
+          "answer": "₹1050",
+          "formula_used": "CI = P × [(1+R/100)^2 – 1]"
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 3 – Interest on Recurring Deposits? Not needed.",
+          "content": "Focus on SI and CI basics, difference formulas, and discount."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using CI formula for SI.",
+          "wrong": "Using exponent for SI.",
+          "correct": "SI is linear; CI is exponential.",
+          "tip": "Identify the type from the question."
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "SICIDIFF",
+          "memory_trick": "SI: P×R×T/100; CI: P(1+R/100)^T; Difference 2 yrs: P(R/100)^2; 3 yrs: P(R/100)^2(3+R/100)."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "SI = P×R×T/100.",
+            "CI = P(1+R/100)^T – P.",
+            "CI – SI for 2 yrs = P(R/100)^2.",
+            "CI – SI for 3 yrs = P(R/100)^2(3+R/100).",
+            "For compounding more than annual, adjust rate and time.",
+            "Varying rates: multiply factors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interest_practice_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 25,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Simple & Compound Interest Practice",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ Pattern", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Identify the type: SI, CI, difference, varying rates, or installments. Use the appropriate formula.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the simple interest on ₹8000 at 6% p.a. for 3 years.",
+          "options": ["₹1240", "₹1440", "₹1640", "₹1840"],
+          "answer": 1,
+          "explanation": "SI = (8000×6×3)/100 = 1440.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "What will be the compound interest on ₹10000 at 10% p.a. for 2 years compounded annually?",
+          "options": ["₹2000", "₹2100", "₹2200", "₹2300"],
+          "answer": 1,
+          "explanation": "A = 10000×(1.1)^2 = 12100, CI = 2100.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "If the difference between CI and SI for 2 years is ₹20 and the rate is 10% p.a., find the principal.",
+          "options": ["₹1500", "₹1800", "₹2000", "₹2200"],
+          "answer": 2,
+          "explanation": "CI – SI = P×(R/100)^2 → 20 = P×(0.1)^2 → P = 20/0.01 = 2000.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "A sum of money doubles itself in 10 years at simple interest. The rate of interest is:",
+          "options": ["8%", "10%", "12%", "15%"],
+          "answer": 1,
+          "explanation": "SI = Amount – P = P. So, P = (P×R×10)/100 → R = 10%.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the compound interest on ₹5000 at 8% per annum for 2 years, compounded half-yearly.",
+          "options": ["₹824", "₹850", "₹860", "₹880"],
+          "answer": 0,
+          "explanation": "A = 5000×(1+8/200)^(2×2) = 5000×(1.04)^4 ≈ 5000×1.1698586 = 5849.29, CI ≈ 849.29 ≈ ₹850. (Option approximate) The correct is 849.29 ≈ 850, option 1 is 850.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "At what rate of compound interest does a sum become 1.44 times itself in 2 years?",
+          "options": ["20%", "24%", "40%", "44%"],
+          "answer": 0,
+          "explanation": "A/P = (1+R/100)^2 = 1.44 → (1+R/100)=1.2 → R=20%.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The simple interest on a sum for 4 years is 40% of the sum. The rate is:",
+          "options": ["5%", "8%", "10%", "12%"],
+          "answer": 2,
+          "explanation": "SI = 0.4P, (P×R×4)/100 = 0.4P → R = 10%.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the difference between CI and SI for ₹1000 at 10% p.a. for 3 years.",
+          "options": ["₹30", "₹31", "₹32", "₹33"],
+          "answer": 1,
+          "explanation": "Difference = P×(R/100)^2×(3+R/100) = 1000×0.01×3.1 = 31.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Check each answer and review the formula used. Focus on CI-SI difference questions; they are high-scoring."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Interest",
+          "points": [
+            "SI = P×R×T/100.",
+            "CI = P(1+R/100)^T – P.",
+            "For half-yearly: R/2, 2T; quarterly: R/4, 4T.",
+            "CI – SI for 2 yrs = P(R/100)^2.",
+            "CI – SI for 3 yrs = P(R/100)^2(3+R/100).",
+            "Varying rates: product of (1+Rᵢ/100).",
+            "Installments: present value concept.",
+            "Use shortcuts to save time."
+          ]
+        }
+      ]
+    }
+  ]
+}

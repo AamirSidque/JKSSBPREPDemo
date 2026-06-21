@@ -1,0 +1,641 @@
+{
+  "id": "profit_loss",
+  "subject_id": "reasoning_numeracy",
+  "title": "Profit and Loss",
+  "subtopics": [
+    {
+      "id": "pl_basics",
+      "title": "Basic Concepts – CP, SP, Profit, Loss",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Profit and Loss",
+          "subtitle": "Foundation of Business Mathematics",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "Cost Price (CP)",
+          "content": "The price at which an article is purchased. It includes all expenses incurred to bring the article to the point of sale (overheads).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💵",
+          "title": "Selling Price (SP)",
+          "content": "The price at which an article is sold. If SP > CP, there is a profit; if SP < CP, there is a loss."
+        },
+        {
+          "type": "formula",
+          "title": "Profit and Loss Formulas",
+          "formula": "Profit = SP – CP\nLoss = CP – SP\nProfit% = (Profit/CP) × 100\nLoss% = (Loss/CP) × 100",
+          "description": "Always calculated as percentage of Cost Price."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Find Profit%",
+          "given": ["CP = ₹500", "SP = ₹650"],
+          "find": "Profit percentage",
+          "steps": [
+            "Profit = 650 – 500 = ₹150",
+            "Profit% = (150/500) × 100 = 30%"
+          ],
+          "answer": "30%",
+          "formula_used": "Profit% = (Profit/CP) × 100"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Find Loss%",
+          "given": ["CP = ₹800", "SP = ₹680"],
+          "find": "Loss percentage",
+          "steps": [
+            "Loss = 800 – 680 = ₹120",
+            "Loss% = (120/800) × 100 = 15%"
+          ],
+          "answer": "15%",
+          "formula_used": "Loss% = (Loss/CP) × 100"
+        },
+        {
+          "type": "comparison",
+          "title": "Profit vs Loss",
+          "left_header": "Profit",
+          "right_header": "Loss",
+          "rows": [
+            { "left": "SP > CP", "right": "SP < CP" },
+            { "left": "Profit = SP – CP", "right": "Loss = CP – SP" },
+            { "left": "Profit% = (Profit/CP)×100", "right": "Loss% = (Loss/CP)×100" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "CP includes all overheads (transport, packaging, etc.).",
+            "Profit and Loss percentages are always based on CP.",
+            "If SP is given and profit/loss% is given, we can find CP: CP = SP × 100 / (100 + P%) or CP = SP × 100 / (100 – L%)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl_formula_variations",
+      "title": "Formula Variations – Finding CP/SP",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Finding CP and SP from Percentages",
+          "subtitle": "Reverse Calculations",
+          "tags": ["Important", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Important Relations",
+          "content": "1. CP = SP × 100 / (100 + P%) 2. CP = SP × 100 / (100 – L%) 3. SP = CP × (100 + P%) / 100 4. SP = CP × (100 – L%) / 100",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Find CP when SP and Profit% given",
+          "given": ["SP = ₹1320", "Profit% = 10%"],
+          "find": "CP",
+          "steps": [
+            "CP = SP × 100 / (100 + 10) = 1320 × 100 / 110 = 1200"
+          ],
+          "answer": "₹1200",
+          "formula_used": "CP = SP × 100 / (100 + P%)"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Find SP when CP and Loss% given",
+          "given": ["CP = ₹2000", "Loss% = 12%"],
+          "find": "SP",
+          "steps": [
+            "SP = CP × (100 – L%) / 100 = 2000 × 88 / 100 = 1760"
+          ],
+          "answer": "₹1760",
+          "formula_used": "SP = CP × (100 – L%) / 100"
+        },
+        {
+          "type": "table",
+          "title": "Quick Reference Formula Table",
+          "headers": ["Given", "Formula"],
+          "rows": [
+            ["SP, Profit%", "CP = SP × 100/(100+P%)"],
+            ["SP, Loss%", "CP = SP × 100/(100–L%)"],
+            ["CP, Profit%", "SP = CP × (100+P%)/100"],
+            ["CP, Loss%", "SP = CP × (100–L%)/100"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Common Mistake",
+          "wrong": "Adding profit% to SP to get CP.",
+          "correct": "Use the formula: CP = SP × 100/(100+P%).",
+          "tip": "Always verify by checking: CP + Profit% of CP = SP."
+        },
+        {
+          "type": "revision",
+          "title": "Remember",
+          "points": [
+            "Profit% and Loss% are always on CP.",
+            "Use these four formulas extensively.",
+            "In exams, questions often ask to find CP or SP given the other and percentage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl_marked_discount",
+      "title": "Marked Price and Discount",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Marked Price and Discount",
+          "subtitle": "Understanding Retail Pricing",
+          "tags": ["High Weightage", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏷️",
+          "title": "Definitions",
+          "content": "Marked Price (MP) is the price printed on the item. Discount is a reduction given on MP. Selling Price (SP) = MP – Discount.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Discount Formulas",
+          "formula": "Discount = MP × Discount%\nSP = MP × (100 – D%) / 100\nMP = SP × 100 / (100 – D%)",
+          "description": "Discount% is always on MP."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Find SP after discount",
+          "given": ["MP = ₹1200", "Discount% = 20%"],
+          "find": "SP",
+          "steps": [
+            "Discount = 20% of 1200 = 240",
+            "SP = 1200 – 240 = ₹960",
+            "Alternatively: SP = 1200 × (100-20)/100 = 1200 × 80/100 = 960"
+          ],
+          "answer": "₹960",
+          "formula_used": "SP = MP × (100 – D%) / 100"
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Relation between MP, CP, Profit% and Discount%",
+          "content": "If there is a profit after discount, then SP = CP × (100+P%)/100 and also SP = MP × (100–D%)/100. Equate the two to find MP or D%."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Find MP when CP, Profit%, Discount% given",
+          "given": ["CP = ₹800", "Profit% = 25%", "Discount% = 20%"],
+          "find": "MP",
+          "steps": [
+            "SP = CP × (100+25)/100 = 800 × 125/100 = 1000",
+            "Now, SP = MP × (100 – 20)/100 = MP × 80/100",
+            "1000 = MP × 0.8 → MP = 1250"
+          ],
+          "answer": "₹1250",
+          "formula_used": "Equate SP from CP and MP with discount"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Discount is on MP, not on CP.",
+          "wrong": "Calculating discount on CP.",
+          "correct": "Always apply discount on MP.",
+          "tip": "Read the question carefully – it often says 'marked price'."
+        },
+        {
+          "type": "table",
+          "title": "Discount Quick Table",
+          "headers": ["MP", "Discount%", "SP"],
+          "rows": [
+            ["100", "10%", "90"],
+            ["200", "25%", "150"],
+            ["500", "30%", "350"]
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Discount is always on MP.",
+            "SP = MP – Discount.",
+            "Relation: SP = MP × (100-D%)/100 = CP × (100+P%)/100.",
+            "Use these to solve combined problems."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl_successive_discounts",
+      "title": "Successive Discounts",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Successive Discounts",
+          "subtitle": "Multiple Discounts One After Another",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Concept",
+          "content": "When two or more discounts are applied successively, they are not simply added. The overall discount is less than the sum of individual discounts.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Successive Discount Formula",
+          "formula": "Equivalent Discount % = 100 – [ (100 – D₁) × (100 – D₂) / 100 ]",
+          "description": "For two discounts D₁% and D₂%. For more, multiply (100 – D%) successively and divide by 100^(n-1)."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Find single equivalent discount for 10% and 20% successive discounts.",
+          "given": ["D₁=10%, D₂=20%"],
+          "find": "Single discount equivalent",
+          "steps": [
+            "Equivalent % = 100 – [ (100-10) × (100-20) / 100 ]",
+            "= 100 – [ 90 × 80 / 100 ] = 100 – 72 = 28%"
+          ],
+          "answer": "28%",
+          "formula_used": "Equivalent discount formula"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Calculate SP after two successive discounts.",
+          "given": ["MP = ₹1000", "D₁=10%", "D₂=20%"],
+          "find": "Final SP",
+          "steps": [
+            "After first discount: 1000 × 90/100 = 900",
+            "After second: 900 × 80/100 = 720",
+            "Equivalent discount = 28%, SP = 1000 × 72/100 = 720"
+          ],
+          "answer": "₹720",
+          "formula_used": "Successive application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Common Mistake",
+          "wrong": "Adding discounts (10%+20%=30%).",
+          "correct": "Successive discounts of 10% and 20% ≠ 30%; actually 28%.",
+          "tip": "Always use the multiplication formula for successive discounts."
+        },
+        {
+          "type": "comparison",
+          "title": "Single vs Successive Discounts",
+          "left_header": "Single Discount",
+          "right_header": "Successive Discounts",
+          "rows": [
+            { "left": "Applied once", "right": "Applied in steps" },
+            { "left": "Final SP = MP × (1 - D/100)", "right": "Final SP = MP × (1-D₁/100) × (1-D₂/100) × ..." },
+            { "left": "Easier", "right": "More complex but common in exams" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Remember",
+          "points": [
+            "Successive discounts are not additive.",
+            "Equivalent discount % = 100 – (product of (100 – D%) / 100).",
+            "Practice with multiple discounts to avoid traps."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl_false_weights",
+      "title": "Profit/Loss with False Weights",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Profit/Loss with Dishonest Weights",
+          "subtitle": "When the Scale is Tampered",
+          "tags": ["Advanced", "Frequently Asked"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Concept",
+          "content": "A dishonest shopkeeper uses a weight that is not true (e.g., 900g instead of 1kg). This creates profit even without marking up the price.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Profit% due to false weight",
+          "formula": "Profit% = [ (True Weight – False Weight) / False Weight ] × 100",
+          "description": "If he sells at CP per unit weight, profit comes from the weight difference."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Shopkeeper uses 900g instead of 1kg, sells at CP.",
+          "given": ["True weight = 1000g", "False weight = 900g"],
+          "find": "Profit%",
+          "steps": [
+            "Profit = (1000 – 900) / 900 × 100 = (100/900)×100 = 11.11%"
+          ],
+          "answer": "11.11%",
+          "formula_used": "Profit% from weight difference"
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Combined Profit with Price Markup",
+          "content": "If he also marks up the price, overall profit% = [ (SP per unit / CP per unit) × (True Weight / False Weight) – 1 ] × 100."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Shopkeeper marks up 20% and uses 900g.",
+          "given": ["Markup% = 20%", "False weight = 900g"],
+          "find": "Overall profit%",
+          "steps": [
+            "Let CP per kg = 100. MP = 120. He gives 900g.",
+            "His cost for 900g = 100 × 900/1000 = 90.",
+            "He sells for ₹120 → Profit = 120 – 90 = 30.",
+            "Profit% = (30/90)×100 = 33.33%."
+          ],
+          "answer": "33.33%",
+          "formula_used": "Profit = (MP × True Wt / False Wt) – CP"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Profit% calculation",
+          "wrong": "Using profit as (True Wt – False Wt) / True Wt × 100.",
+          "correct": "Denominator is False Weight (what he actually paid for).",
+          "tip": "Always divide by the cost he incurred (the false weight)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "False weights create profit at no extra price.",
+            "Profit% = (True – False) / False × 100 when selling at CP.",
+            "If markup is included, combine: SP per unit ÷ (CP per unit × (False Wt / True Wt)).",
+            "Practice with different numbers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl_advanced_relations",
+      "title": "Advanced Relations – CP/SP with Multiple Items",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Problems",
+          "subtitle": "Selling Two Items with Same SP or Same CP",
+          "tags": ["Advanced", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Common Pattern",
+          "content": "Two items sold at the same SP – one at profit x%, other at loss x%. Then overall loss% = (x²/100)%.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Two items sold at ₹1000 each. One at 20% profit, other at 20% loss. Find overall profit/loss%.",
+          "given": ["SP1 = SP2 = 1000", "P=20%, L=20%"],
+          "find": "Overall result",
+          "steps": [
+            "CP1 = 1000 × 100/120 = 833.33, CP2 = 1000 × 100/80 = 1250.",
+            "Total CP = 2083.33, Total SP = 2000.",
+            "Loss = 83.33, Loss% = (83.33/2083.33)×100 ≈ 4%.",
+            "Using formula: Loss% = (20²/100) = 4%."
+          ],
+          "answer": "Loss 4%",
+          "formula_used": "Loss% = (x²/100)% when same SP and same x% profit/loss."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Another Pattern: Same CP, different SP",
+          "content": "If an item is sold at two different prices with different profit/loss percentages, we can find CP by equating."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: An article sold at ₹600 gives 20% profit. At what price should it be sold to get 30% profit?",
+          "given": ["SP1 = 600, P1=20%"],
+          "find": "SP2 for P2=30%",
+          "steps": [
+            "CP = SP1 × 100/(100+P1) = 600 × 100/120 = 500.",
+            "SP2 = CP × (100+30)/100 = 500 × 130/100 = 650."
+          ],
+          "answer": "₹650",
+          "formula_used": "Find CP first, then SP for new profit%."
+        },
+        {
+          "type": "table",
+          "title": "Quick Result Table",
+          "headers": ["Situation", "Overall"],
+          "rows": [
+            ["Two items same SP, P% & L% same", "Loss% = (x²/100)%"],
+            ["Two items same CP, different profit%", "Overall profit% = average of % if quantities equal"],
+            ["One at P%, one at L%, same quantity", "Net = (P – L)/2 if quantities equal"]
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Remember",
+          "points": [
+            "For same SP with same profit and loss %, net loss = x²/100 %.",
+            "For same CP, profit/loss can be averaged if quantities same.",
+            "Always find CP first when given SP and profit%."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl_shortcuts",
+      "title": "Shortcuts and Tricks",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Profit & Loss Shortcuts",
+          "subtitle": "Time-Saving Techniques",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 1 – CP from SP and Profit%",
+          "content": "CP = SP × 100 / (100 + P%). Example: SP=110, P=10% → CP=100.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 2 – CP from SP and Loss%",
+          "content": "CP = SP × 100 / (100 – L%). Example: SP=90, L=10% → CP=100."
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 3 – Equivalent Discount",
+          "content": "For two discounts D₁ and D₂, equivalent discount = D₁ + D₂ – (D₁×D₂)/100."
+        },
+        {
+          "type": "solved_example",
+          "title": "Use of Equivalent Discount Shortcut",
+          "given": ["D₁=10%, D₂=20%"],
+          "find": "Single equivalent discount",
+          "steps": [
+            "= 10 + 20 – (10×20)/100 = 30 – 2 = 28%."
+          ],
+          "answer": "28%",
+          "formula_used": "D₁ + D₂ – (D₁D₂)/100"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Discount formula",
+          "wrong": "D₁ + D₂ = 30%",
+          "correct": "Equivalent = 28%.",
+          "tip": "Always subtract the product divided by 100."
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "PCP",
+          "memory_trick": "Profit = SP – CP; CP is base for percentage; Discount = MP – SP."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "CP = SP × 100/(100±P/L%).",
+            "Equivalent discount for two = D₁ + D₂ – (D₁D₂)/100.",
+            "For same SP with equal P & L%, loss% = (x²/100)%.",
+            "For false weight profit% = (True – False)/False × 100."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl_practice_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 25,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Profit & Loss – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ Pattern", "SSC", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Identify the type: basic, discount, successive, false weight, or advanced relations. Apply the correct shortcut.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "A shopkeeper buys an article for ₹400 and sells it for ₹500. The profit percentage is:",
+          "options": ["20%", "25%", "30%", "35%"],
+          "answer": 1,
+          "explanation": "Profit = 100, CP=400, Profit% = (100/400)×100 = 25%.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "If an article is sold at ₹1800 with a profit of 20%, find the CP.",
+          "options": ["₹1400", "₹1500", "₹1600", "₹1700"],
+          "answer": 1,
+          "explanation": "CP = 1800 × 100/120 = 1500.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "A trader marks his goods 40% above CP and allows a discount of 20%. His profit% is:",
+          "options": ["8%", "10%", "12%", "16%"],
+          "answer": 2,
+          "explanation": "MP = 140, after 20% discount SP = 140 × 80/100 = 112. Profit% = (112-100)/100 = 12%.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Two successive discounts of 20% and 10% are equivalent to a single discount of:",
+          "options": ["28%", "30%", "32%", "35%"],
+          "answer": 0,
+          "explanation": "= 20+10 – (20×10)/100 = 28%.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "A dishonest shopkeeper uses 800g instead of 1kg and sells at CP. His profit% is:",
+          "options": ["20%", "25%", "30%", "35%"],
+          "answer": 1,
+          "explanation": "Profit% = (1000-800)/800 × 100 = 25%.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Two items sold at ₹1000 each. One at 10% profit, other at 10% loss. Overall loss% is:",
+          "options": ["0%", "1%", "2%", "4%"],
+          "answer": 1,
+          "explanation": "Loss% = (10²/100) = 1%.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "If CP of an article is ₹500 and SP is ₹650, what is the profit%?",
+          "options": ["25%", "30%", "35%", "40%"],
+          "answer": 1,
+          "explanation": "Profit=150, Profit%=150/500×100=30%.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Find the single discount equivalent to 30% and 20% successive discounts.",
+          "options": ["44%", "46%", "48%", "50%"],
+          "answer": 0,
+          "explanation": "= 30+20 – (30×20)/100 = 50 – 6 = 44%.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "A shopkeeper marks his goods 25% above CP and gives a discount of 10%. His profit% is:",
+          "options": ["10%", "12.5%", "15%", "17.5%"],
+          "answer": 1,
+          "explanation": "MP=125, SP after discount = 125×90/100=112.5, profit=12.5%.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review each mistake. Focus on formulas for discounts, false weight, and combined scenarios. Practice more similar questions."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Profit & Loss",
+          "points": [
+            "Profit = SP – CP; Loss = CP – SP.",
+            "Profit% and Loss% are on CP.",
+            "Discount is on MP.",
+            "Successive discount formula: D₁ + D₂ – (D₁D₂)/100.",
+            "Same SP with equal P% & L% → Loss = (x²/100)%.",
+            "False weight profit% = (True – False)/False × 100.",
+            "CP = SP × 100/(100+P%) ; CP = SP × 100/(100–L%).",
+            "Use shortcuts to save time."
+          ]
+        }
+      ]
+    }
+  ]
+}

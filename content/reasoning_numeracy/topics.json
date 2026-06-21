@@ -1,0 +1,56 @@
+{
+"subject_id": "reasoning_numeracy",
+"topics": [
+{
+"id": "percentage",
+"title": "Percentage",
+"file": "content/reasoning_numeracy/percentage.json",
+"available": true
+},
+{
+"id": "ratio_proportion",
+"title": "Ratio and Proportion",
+"file": "content/reasoning_numeracy/ratio_proportion.json",
+"available": true
+},
+{
+"id": "time_work",
+"title": "Time and Work",
+"file": "content/reasoning_numeracy/time_work.json",
+"available": true
+},
+  
+{
+"id": "profit_loss",
+"title": "Profit and Loss",
+"file": "content/reasoning_numeracy/profit_loss.json",
+"available": true
+},
+{
+"id": "simple_compound",
+"title": "Simple and Compound Interest",
+"file": "content/reasoning_numeracy/simple_compound.json",
+"available": true
+},
+  
+{
+"id": "average",
+"title": "Average",
+"file": "content/reasoning_numeracy/average.json",
+"available": true
+},
+  
+{
+"id": "time_speed_distance",
+"title": "Time, Speed and Distance",
+"file": "content/reasoning_numeracy/time_speed_distance.json",
+"available": true
+},
+  {
+"id": "elementary_statistics_data_interpretation",
+"title": "Elementary Statistics and Data Interpretation",
+"file": "content/reasoning_numeracy/elementary_statistics_data_interpretation.json",
+"available": true
+},
+]
+}

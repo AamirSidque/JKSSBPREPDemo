@@ -1,0 +1,581 @@
+{
+  "id": "average",
+  "subject_id": "reasoning_numeracy",
+  "title": "Average",
+  "subtopics": [
+    {
+      "id": "avg_basics",
+      "title": "Basic Concept and Formula",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Average",
+          "subtitle": "Fundamental Concept of Data Interpretation",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Definition",
+          "content": "The average (or arithmetic mean) of a set of numbers is the sum of all numbers divided by the count of numbers. It represents a typical value of the dataset.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Average Formula",
+          "formula": "Average = (Sum of observations) / (Number of observations)",
+          "description": "Also written as: Average = Total / Count."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Find the average",
+          "given": ["Numbers: 10, 20, 30, 40, 50"],
+          "find": "Average",
+          "steps": [
+            "Sum = 10+20+30+40+50 = 150",
+            "Count = 5",
+            "Average = 150/5 = 30"
+          ],
+          "answer": "30",
+          "formula_used": "Average = Sum/Count"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Find missing number",
+          "given": ["Average of 5 numbers is 30", "Four numbers: 25, 30, 35, 28"],
+          "find": "Fifth number",
+          "steps": [
+            "Sum of all 5 numbers = 30 × 5 = 150",
+            "Sum of given 4 = 25+30+35+28 = 118",
+            "Fifth number = 150 – 118 = 32"
+          ],
+          "answer": "32",
+          "formula_used": "Sum = Average × Count"
+        },
+        {
+          "type": "comparison",
+          "title": "Average vs Median vs Mode",
+          "left_header": "Average",
+          "right_header": "Median/Mode",
+          "rows": [
+            { "left": "Affected by extreme values", "right": "Median is less affected" },
+            { "left": "Used for numeric data", "right": "Mode used for categorical" },
+            { "left": "Most common in exams", "right": "Less frequent" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Average = Sum / Count.",
+            "Sum = Average × Count.",
+            "Average is sensitive to outliers.",
+            "Questions often involve finding a missing number."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avg_properties",
+      "title": "Properties and Tricks",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Properties of Average",
+          "subtitle": "Useful Shortcuts",
+          "tags": ["Important", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "Property 1 – Adding a Constant",
+          "content": "If each observation is increased by a constant k, the average also increases by k.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "Property 2 – Multiplying by a Constant",
+          "content": "If each observation is multiplied by a constant k, the average also becomes k times the original average."
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "Property 3 – Combining Groups",
+          "content": "When two groups with averages A₁ and A₂ (with counts n₁ and n₂) are combined, the overall average = (n₁A₁ + n₂A₂) / (n₁ + n₂)."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Combining groups",
+          "given": ["Group 1: 5 students, average 50", "Group 2: 7 students, average 60"],
+          "find": "Overall average",
+          "steps": [
+            "Total marks = 5×50 + 7×60 = 250 + 420 = 670",
+            "Total students = 5+7 = 12",
+            "Average = 670/12 = 55.83"
+          ],
+          "answer": "55.83",
+          "formula_used": "Weighted average formula"
+        },
+        {
+          "type": "table",
+          "title": "Quick Formula Summary",
+          "headers": ["Operation", "Effect on Average"],
+          "rows": [
+            ["Add constant k to each", "Average + k"],
+            ["Subtract constant k", "Average – k"],
+            ["Multiply by k", "Average × k"],
+            ["Divide by k", "Average ÷ k"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Remember",
+          "points": [
+            "Average of combined groups = (n₁A₁ + n₂A₂)/(n₁+n₂).",
+            "Addition/Multiplication of constant scales the average.",
+            "These properties are used in many DI questions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weighted_avg",
+      "title": "Weighted Average",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Weighted Average",
+          "subtitle": "When Observations Have Different Importance",
+          "tags": ["Advanced", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Concept",
+          "content": "In weighted average, each observation is multiplied by a weight (importance) before summing. Formula: Weighted Average = Σ (wᵢ × xᵢ) / Σ wᵢ.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Weighted average of marks",
+          "given": ["Subject A: 80 marks, weight 3", "Subject B: 70 marks, weight 2", "Subject C: 90 marks, weight 1"],
+          "find": "Weighted average",
+          "steps": [
+            "Sum of (weight × marks) = 3×80 + 2×70 + 1×90 = 240+140+90 = 470",
+            "Sum of weights = 3+2+1 = 6",
+            "Weighted average = 470/6 = 78.33"
+          ],
+          "answer": "78.33",
+          "formula_used": "Weighted average formula"
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Used in",
+          "content": "Weighted average is used in calculating CPI/CGPA, index numbers, and when observations have different significance."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Common Mistake",
+          "wrong": "Taking simple average when weights are different.",
+          "correct": "Always multiply by weights.",
+          "tip": "If weights are given, use weighted average."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Weighted average = Σ(w×x) / Σw.",
+            "If all weights are equal, it reduces to simple average.",
+            "Check if weights are explicitly given or implied."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avg_speed",
+      "title": "Average Speed",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Average Speed",
+          "subtitle": "Harmonic Mean Application",
+          "tags": ["JKSSB", "Frequently Asked"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚗",
+          "title": "Concept",
+          "content": "Average speed is not the arithmetic mean of speeds. It is total distance divided by total time.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Average Speed Formula",
+          "formula": "Average Speed = Total Distance / Total Time",
+          "description": "When equal distances are covered at different speeds, average speed = 2v₁v₂/(v₁+v₂)."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Equal distances",
+          "given": ["Person travels half distance at 40 km/h and half at 60 km/h"],
+          "find": "Average speed",
+          "steps": [
+            "Average speed = 2×40×60/(40+60) = 4800/100 = 48 km/h"
+          ],
+          "answer": "48 km/h",
+          "formula_used": "2v₁v₂/(v₁+v₂)"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Different distances",
+          "given": ["Distance 100 km at 50 km/h, then 200 km at 80 km/h"],
+          "find": "Average speed",
+          "steps": [
+            "Time1 = 100/50 = 2h, Time2 = 200/80 = 2.5h",
+            "Total distance = 300 km, Total time = 4.5h",
+            "Average speed = 300/4.5 = 66.67 km/h"
+          ],
+          "answer": "66.67 km/h",
+          "formula_used": "Total distance / Total time"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Taking arithmetic mean of speeds",
+          "wrong": "(40+60)/2 = 50 km/h (wrong for equal distances).",
+          "correct": "Use harmonic mean formula for equal distances.",
+          "tip": "Always compute total distance / total time."
+        },
+        {
+          "type": "comparison",
+          "title": "Average Speed vs Simple Average",
+          "left_header": "Equal Distances",
+          "right_header": "Equal Times",
+          "rows": [
+            { "left": "Average speed = 2v₁v₂/(v₁+v₂)", "right": "Average speed = (v₁+v₂)/2" },
+            { "left": "Harmonic mean", "right": "Arithmetic mean" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Average speed = total distance / total time.",
+            "For equal distances, use harmonic mean.",
+            "For equal times, use arithmetic mean.",
+            "Be careful with units."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avg_age",
+      "title": "Average Age and Replacements",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Average Age and Replacement Problems",
+          "subtitle": "Common in JKSSB",
+          "tags": ["High Weightage", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "Concept",
+          "content": "In average age problems, when a person is replaced or joins, the new average changes. The change in total sum gives the missing person's age.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Replacement",
+          "given": ["Average age of 10 persons is 40", "One person leaves, new average is 38"],
+          "find": "Age of the person who left",
+          "steps": [
+            "Total age before = 10×40 = 400",
+            "Total age after = 9×38 = 342",
+            "Age of person left = 400 – 342 = 58"
+          ],
+          "answer": "58 years",
+          "formula_used": "Difference in totals"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Joining/Replacement with new person",
+          "given": ["Average age of 10 persons is 40", "A person of age 58 leaves, a new person of age 30 joins"],
+          "find": "New average",
+          "steps": [
+            "Total before = 400",
+            "After removal: 400 – 58 = 342",
+            "After joining new: 342 + 30 = 372",
+            "New average = 372/10 = 37.2"
+          ],
+          "answer": "37.2 years",
+          "formula_used": "Update total and divide"
+        },
+        {
+          "type": "table",
+          "title": "Quick Formulas for Replacements",
+          "headers": ["Scenario", "Effect on Total"],
+          "rows": [
+            ["Person leaves", "Total decreases by that person's age"],
+            ["Person joins", "Total increases by that person's age"],
+            ["Person replaced", "Total changes by (new – old)"],
+            ["Some years pass", "Total increases by (count × years)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting time passage",
+          "wrong": "Not adding years when ages increase over time.",
+          "correct": "Add (number of people × years) to total.",
+          "tip": "If average is given after some years, account for the time."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Age problems are about totals.",
+            "Change in average = change in total / count.",
+            "When a person joins/leaves, update total.",
+            "If ages change over time, add (n×years) to total."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avg_mixture",
+      "title": "Average of Mixtures",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Average of Mixtures",
+          "subtitle": "Using Alligation",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧪",
+          "title": "Concept",
+          "content": "When two groups with different averages are mixed, the overall average lies between the two averages. The ratio of quantities can be found using alligation.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Mixing two groups",
+          "given": ["Group A average = 50 (n₁)", "Group B average = 70 (n₂)", "Overall average = 60"],
+          "find": "Ratio of n₁:n₂",
+          "steps": [
+            "Using alligation: (70-60) : (60-50) = 10:10 = 1:1",
+            "So, n₁:n₂ = 1:1"
+          ],
+          "answer": "1:1",
+          "formula_used": "Alligation rule for averages"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using simple average of averages.",
+          "wrong": "Assuming (50+70)/2 = 60, but the ratio depends on the counts.",
+          "correct": "Use alligation to find the ratio.",
+          "tip": "If counts are equal, then simple average works."
+        },
+        {
+          "type": "revision",
+          "title": "Remember",
+          "points": [
+            "For mixtures, overall average = weighted average.",
+            "Alligation helps find the ratio of quantities.",
+            "Formula: (Higher – Overall) : (Overall – Lower)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avg_shortcuts",
+      "title": "Shortcuts and Tricks for Average",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Average Shortcuts",
+          "subtitle": "Speed Up Calculations",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 1 – Using assumed average",
+          "content": "If numbers are close, assume an average and adjust: Average = Assumed + (sum of deviations)/count.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Using assumed average",
+          "given": ["Numbers: 48, 52, 55, 49, 51"],
+          "find": "Average",
+          "steps": [
+            "Assume average = 50",
+            "Deviations: -2, +2, +5, -1, +1",
+            "Sum of deviations = 5",
+            "Average = 50 + 5/5 = 51"
+          ],
+          "answer": "51",
+          "formula_used": "Assumed average + (sum deviations)/count"
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 2 – Average of consecutive numbers",
+          "content": "Average of consecutive numbers = (First + Last)/2."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Consecutive numbers",
+          "given": ["Numbers from 10 to 20"],
+          "find": "Average",
+          "steps": [
+            "(10+20)/2 = 15"
+          ],
+          "answer": "15",
+          "formula_used": "(First+Last)/2"
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 3 – Average speed trick",
+          "content": "When equal distances, use 2v₁v₂/(v₁+v₂)."
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "AVG",
+          "memory_trick": "Average = Sum/Count; Assumed average shortcut; Group combination (n₁A₁+n₂A₂)/(n₁+n₂)."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Assumed average: average = assumed + (Σ deviations)/count.",
+            "Consecutive numbers: (first+last)/2.",
+            "For equal distances speed: harmonic mean.",
+            "Weighted average for groups."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avg_practice_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 25,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Average – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ Pattern", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Identify the type: basic, weighted, speed, age, mixture. Apply the correct formula or shortcut.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the average of 15, 20, 25, 30, 35.",
+          "options": ["20", "25", "30", "35"],
+          "answer": 1,
+          "explanation": "Sum = 125, count = 5, average = 125/5 = 25.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The average of 6 numbers is 12. If one number is removed, the average becomes 11. The removed number is:",
+          "options": ["17", "18", "19", "20"],
+          "answer": 0,
+          "explanation": "Total before = 72, after = 5×11 = 55, removed = 72-55 = 17.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "A person covers 30 km at 40 km/h and 30 km at 60 km/h. What is his average speed?",
+          "options": ["48 km/h", "50 km/h", "54 km/h", "60 km/h"],
+          "answer": 0,
+          "explanation": "Average speed = 2×40×60/(40+60) = 4800/100 = 48 km/h.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The average age of 10 students is 15 years. If the teacher's age is included, the average becomes 16. What is the teacher's age?",
+          "options": ["20", "25", "26", "28"],
+          "answer": 2,
+          "explanation": "Total of 10 = 150, total of 11 = 16×11 = 176, teacher's age = 176-150 = 26.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "If the average of 5 numbers is 50 and the average of 3 of them is 40, find the average of the remaining 2.",
+          "options": ["60", "65", "70", "75"],
+          "answer": 1,
+          "explanation": "Total of all = 250, total of 3 = 120, remaining sum = 130, average = 65.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The average of consecutive even numbers from 2 to 20 is:",
+          "options": ["10", "11", "12", "13"],
+          "answer": 1,
+          "explanation": "Consecutive even numbers form AP; average = (first+last)/2 = (2+20)/2 = 11.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "A class has 20 boys and 15 girls. The average marks of boys is 60, girls is 70. Find the overall average.",
+          "options": ["63.5", "64.3", "65.0", "66.5"],
+          "answer": 1,
+          "explanation": "Total marks = 20×60 + 15×70 = 1200+1050 = 2250; total students = 35; average = 2250/35 = 64.285 ≈ 64.3.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "If the average of 10 numbers is 0, how many numbers can be positive?",
+          "options": ["At most 9", "At most 10", "Exactly 5", "Cannot be determined"],
+          "answer": 0,
+          "explanation": "If average is 0, sum is 0. At most 9 positive because if all 10 were positive, sum > 0.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review weighted average, average speed, and age problems. These are high-frequency in JKSSB."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Average",
+          "points": [
+            "Average = Sum/Count.",
+            "Sum = Average × Count.",
+            "Weighted average = Σ(w×x)/Σw.",
+            "Average speed = total distance/total time.",
+            "For equal distances: harmonic mean.",
+            "Age problems: update totals.",
+            "Alligation for mixtures.",
+            "Assumed average shortcut."
+          ]
+        }
+      ]
+    }
+  ]
+}

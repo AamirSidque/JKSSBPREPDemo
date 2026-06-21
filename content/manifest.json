@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "subjects": [
+     
+    {
+      "id": "reasoning_numeracy",
+      "title": "Reasoning and Numeracy",
+      "emoji": "🧠",
+      "theme_color": "#FFD700",
+      "description": "Build speed, Eliminate Negative marks, and Maximize your JKSSB exam score",
+      "topics_file": "content/reasoning_numeracy/topics.json"
+    }
+  ]
+}

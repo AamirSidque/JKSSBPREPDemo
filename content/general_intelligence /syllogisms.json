@@ -1,0 +1,484 @@
+{
+  "id": "syllogisms",
+  "subject_id": "general_intelligence_reasoning",
+  "title": "Syllogisms",
+  "subtopics": [
+    {
+      "id": "syllogism_basics",
+      "title": "Introduction to Syllogisms – Statements and Conclusions",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Syllogisms",
+          "subtitle": "Logical Deductions from Given Statements",
+          "tags": ["JKSSB", "High Weightage", "Reasoning"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What is a Syllogism?",
+          "content": "A syllogism is a form of logical reasoning where a conclusion is drawn from two or more given statements. It tests your ability to deduce valid conclusions from premises.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Structure",
+          "content": "Statement 1: All A are B.\nStatement 2: All B are C.\nConclusion: All A are C (valid).",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "Step-by-Step Approach",
+          "steps": [
+            "Step 1: Read all statements carefully.",
+            "Step 2: Identify the terms and their relationships.",
+            "Step 3: Use the Venn diagram method or logical rules.",
+            "Step 4: Check if the conclusion follows necessarily.",
+            "Step 5: Remember – the conclusion must be 100% true, not just possible."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "A syllogism is a deductive argument.",
+            "The conclusion must follow logically from the premises.",
+            "If there is any doubt, the conclusion is invalid.",
+            "Common terms: All, Some, No, Some Not."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statement_types",
+      "title": "Types of Statements – All, Some, No, Some Not",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Understanding Statement Types",
+          "subtitle": "The Four Types of Categorical Propositions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Four Statement Types",
+          "content": "1. Universal Affirmative: All A are B.\n2. Universal Negative: No A are B.\n3. Particular Affirmative: Some A are B.\n4. Particular Negative: Some A are not B.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Statement Types with Examples",
+          "headers": ["Type", "Form", "Example", "Logical Meaning"],
+          "rows": [
+            ["Universal Affirmative", "All A are B", "All cats are animals", "Every cat is an animal"],
+            ["Universal Negative", "No A are B", "No dogs are cats", "Dog and cat sets are completely separate"],
+            ["Particular Affirmative", "Some A are B", "Some animals are cats", "At least one animal is a cat"],
+            ["Particular Negative", "Some A are not B", "Some animals are not cats", "At least one animal is not a cat"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "comparison",
+          "title": "Statement Type Comparison",
+          "left_header": "All A are B",
+          "right_header": "Some A are B",
+          "rows": [
+            { "left": "Every A is B", "right": "At least one A is B" },
+            { "left": "No exception", "right": "There may be exceptions" },
+            { "left": "Stronger claim", "right": "Weaker claim" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "All = 100% of the set.",
+            "No = 0% overlap.",
+            "Some = at least one (can be all).",
+            "Some Not = at least one is not."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "venn_approach",
+      "title": "Venn Diagram Approach – Solving Syllogisms Visually",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Venn Diagram Method",
+          "subtitle": "Visualizing Set Relationships",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "How Venn Diagrams Work",
+          "content": "Represent each term as a circle. Overlapping circles show relationships. Shading indicates empty areas. Conclusions are checked by seeing if they are forced by the diagram.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: All A are B, All B are C",
+          "given": ["Statement 1: All A are B", "Statement 2: All B are C"],
+          "find": "Valid conclusions",
+          "steps": [
+            "Draw A inside B inside C.",
+            "Conclusion 1: All A are C (valid – follows).",
+            "Conclusion 2: Some C are A (valid – follows).",
+            "Conclusion 3: All C are B (invalid – C is larger than B)."
+          ],
+          "answer": "All A are C and Some C are A.",
+          "formula_used": "Venn diagram logic"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Some A are B, Some B are C",
+          "given": ["Statement 1: Some A are B", "Statement 2: Some B are C"],
+          "find": "Valid conclusions",
+          "steps": [
+            "Draw A and B overlapping. B and C overlapping.",
+            "A and C may or may not overlap.",
+            "Conclusion: Some A are C (does not necessarily follow).",
+            "Conclusion: All A are C (does not follow).",
+            "Only possible conclusion: Some B are A (already given)."
+          ],
+          "answer": "No definite conclusion beyond the statements.",
+          "formula_used": "Venn diagram logic"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: No A are B, All B are C",
+          "given": ["Statement 1: No A are B", "Statement 2: All B are C"],
+          "find": "Valid conclusions",
+          "steps": [
+            "A and B do not overlap. B is inside C.",
+            "A may or may not overlap with C.",
+            "Conclusion: Some C are not A (valid – C has B which is not A).",
+            "Conclusion: All A are C (invalid – no relation)."
+          ],
+          "answer": "Some C are not A.",
+          "formula_used": "Venn diagram logic"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Assuming a relationship that is not given.",
+          "wrong": "Some A are B and Some B are C → Some A are C.",
+          "correct": "This conclusion does not necessarily follow.",
+          "tip": "If the Venn diagram doesn't force a conclusion, it's invalid."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Venn diagrams are the most reliable way to solve syllogisms.",
+            "Draw the relationships carefully.",
+            "A conclusion is valid only if it is 100% forced by the diagram.",
+            "If multiple diagrams are possible, the conclusion must hold in all."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logical_rules",
+      "title": "Logical Rules and Quick Tricks",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Logical Rules",
+          "subtitle": "Quick Shortcuts for Syllogisms",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Rule 1 – Middle Term",
+          "content": "The middle term (common term) must be distributed at least once. Example: All A are B, All B are C → Middle term is B (distributed). Valid.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Rule 2 – Distribution",
+          "content": "In a valid syllogism, if the middle term is not distributed in any premise, the conclusion is invalid.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Quick Syllogism Rules",
+          "headers": ["Rule", "Description", "Example"],
+          "rows": [
+            ["All + All", "All A are B + All B are C → All A are C", "Valid"],
+            ["All + No", "All A are B + No B are C → No A are C", "Valid"],
+            ["Some + All", "Some A are B + All B are C → Some A are C", "Valid"],
+            ["Some + No", "Some A are B + No B are C → Some A are not C", "Valid"],
+            ["All + Some", "All A are B + Some B are C → No definite conclusion", "Invalid"],
+            ["Some + Some", "Some A are B + Some B are C → No definite conclusion", "Invalid"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Using Rules",
+          "given": ["All A are B", "All B are C"],
+          "find": "Conclusion",
+          "steps": [
+            "Middle term B is distributed in both premises.",
+            "Conclusion: All A are C (valid)."
+          ],
+          "answer": "All A are C",
+          "formula_used": "Rule of Syllogism"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "All + All → All (if middle term is distributed).",
+            "All + No → No.",
+            "Some + All → Some.",
+            "Some + No → Some Not.",
+            "Some + Some → No definite conclusion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complementary_pairs",
+      "title": "Complementary Pairs and Either-Or Cases",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Complementary Pairs",
+          "subtitle": "When Neither Conclusion Follows But One Must",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "What are Complementary Pairs?",
+          "content": "When two conclusions together cover all possibilities, but neither individually follows from the premises, then 'Either-Or' is valid.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Complementary Pair",
+          "given": ["Some A are B", "Some A are not B"],
+          "find": "Valid conclusion",
+          "steps": [
+            "These two statements are complementary – they cover all possibilities.",
+            "Conclusion: Either Some A are B or Some A are not B.",
+            "This is not a valid syllogism conclusion because it's a tautology (always true).",
+            "Better example: Some A are B and Some C are D – no relation.",
+            "Complementary pair example: All A are B and Some A are not B – these are contradictory."
+          ],
+          "answer": "Either All A are B or Some A are not B.",
+          "formula_used": "Complementary pair rule"
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Common Complementary Pairs",
+          "content": "1. All A are B and Some A are not B.\n2. No A are B and Some A are B.\n3. All A are B and No A are B (opposites).",
+          "highlight": true
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing complementary pairs with valid conclusions.",
+          "wrong": "Selecting 'Some A are B' when 'All A are B' and 'Some A are B' are both possible.",
+          "correct": "If both are possible but neither is guaranteed, it's an either-or case.",
+          "tip": "Check if the two conclusions together cover all scenarios."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Complementary pairs are used when neither conclusion follows individually.",
+            "The answer will have 'Either' or 'Either-Or'.",
+            "Common pairs: All/Some Not, No/Some."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syllogism_shortcuts",
+      "title": "Shortcuts and Memory Tricks",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Syllogism Shortcuts",
+          "subtitle": "Speed Up Your Solving",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 1 – Use the Middle Term",
+          "content": "If the middle term is not distributed in any premise, the conclusion is always invalid.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 2 – Remember the Four Combinations",
+          "content": "All+All → All\nAll+No → No\nSome+All → Some\nSome+No → Some Not",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 3 – If Both Premises are Particular",
+          "content": "If both premises are 'Some' or 'Some Not', no definite conclusion follows.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "A-S-S-N",
+          "memory_trick": "All + All = All; All + No = No; Some + All = Some; Some + No = Some Not."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "All + All → All (if middle term is distributed).",
+            "All + No → No.",
+            "Some + All → Some.",
+            "Some + No → Some Not.",
+            "If both premises are particular → no definite conclusion.",
+            "Complementary pairs → Either-Or."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syllogism_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Syllogisms – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Read the statements, draw Venn diagrams, check each conclusion. If the conclusion is not forced, reject it.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: All cats are animals. All animals are living beings. Conclusion: All cats are living beings.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 0,
+          "explanation": "All cats are animals, and all animals are living beings → All cats are living beings. The conclusion is True.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: Some dogs are pets. Some pets are cats. Conclusion: Some dogs are cats.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 3,
+          "explanation": "Some dogs are pets, and some pets are cats. Dogs and cats may or may not overlap. The conclusion does not necessarily follow.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: All books are pens. No pen is a pencil. Conclusion: No book is a pencil.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 0,
+          "explanation": "All books are pens → books are subset of pens. No pen is pencil → pens and pencils are separate → Books are separate from pencils. Hence, No book is a pencil is True.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: Some doctors are engineers. All engineers are graduates. Conclusion: Some doctors are graduates.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 0,
+          "explanation": "Some doctors are engineers → overlap between doctors and engineers. All engineers are graduates → engineers are subset of graduates. So, that overlapping part is also graduates → Some doctors are graduates is True.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: No man is a woman. No woman is a child. Conclusion: No man is a child.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 3,
+          "explanation": "No man is a woman → man and woman are separate. No woman is a child → woman and child are separate. But man and child may overlap or may not. No definite conclusion.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: All flowers are red. Some red are roses. Conclusion: All roses are flowers.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 3,
+          "explanation": "All flowers are red → flowers are subset of red. Some red are roses → roses overlap with red. Roses may or may not be flowers. No definite conclusion.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: All teachers are educated. Some educated are doctors. Conclusion: Some doctors are teachers.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 3,
+          "explanation": "Teachers are subset of educated. Doctors overlap with educated. They may or may not overlap with teachers. No definite conclusion.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: All birds are animals. No animals are insects. Conclusion: No birds are insects.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 0,
+          "explanation": "All birds are animals → birds are subset of animals. No animals are insects → animals and insects are separate. Hence, birds and insects are separate → No birds are insects is True.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: Some engineers are managers. All managers are leaders. Conclusion: Some leaders are engineers.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 0,
+          "explanation": "Some engineers are managers → overlap between engineers and managers. All managers are leaders → managers are subset of leaders. So, that overlapping part is also leaders → Some leaders are engineers is True.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Statements: No apple is a banana. Some bananas are sweet. Conclusion: Some apples are sweet.",
+          "options": ["True", "False", "Possibly True", "Cannot be determined"],
+          "answer": 3,
+          "explanation": "No apple is banana → apples and bananas are separate. Some bananas are sweet → only bananas are sweet. Apples may or may not be sweet. No definite conclusion.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Focus on All+All → All, All+No → No, Some+All → Some, Some+No → Some Not. Review complementary pairs for either-or questions."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Syllogisms",
+          "points": [
+            "All = 100%, No = 0%, Some = at least one.",
+            "All + All → All (if middle term distributed).",
+            "All + No → No.",
+            "Some + All → Some.",
+            "Some + No → Some Not.",
+            "If both premises are particular → no definite conclusion.",
+            "Complementary pairs → Either-Or.",
+            "Use Venn diagrams for complex questions."
+          ]
+        }
+      ]
+    }
+  ]
+}

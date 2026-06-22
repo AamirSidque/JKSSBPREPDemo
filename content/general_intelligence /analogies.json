@@ -1,0 +1,479 @@
+{
+  "id": "analogies",
+  "subject_id": "general_intelligence_reasoning",
+  "title": "Analogies",
+  "subtopics": [
+    {
+      "id": "analogy_basics",
+      "title": "Introduction to Analogies – What, Why, How",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Analogies",
+          "subtitle": "Finding Relationships Between Pairs",
+          "tags": ["JKSSB", "High Weightage", "Reasoning"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What is an Analogy?",
+          "content": "An analogy is a comparison between two things that are similar in some way. In reasoning, it tests your ability to identify the relationship between a pair of words/numbers/letters and apply the same relationship to another pair.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "Format",
+          "content": "A : B :: C : D (Read as 'A is to B as C is to D'). You are given A:B and C, and you must find D (or vice versa)."
+        },
+        {
+          "type": "process_flow",
+          "title": "Step-by-Step Approach",
+          "steps": [
+            "Step 1: Identify the relationship between the first pair (A and B).",
+            "Step 2: Apply the same relationship to the second pair (C and D).",
+            "Step 3: If multiple options fit, check for a secondary relationship.",
+            "Step 4: Eliminate options that do not follow the same logic."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Analogy questions test logical and relational thinking.",
+            "The relationship can be based on meaning, function, part-whole, cause-effect, or mathematical operations.",
+            "Always double-check the direction of the relationship."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "word_analogies",
+      "title": "Word Analogies – Types of Relationships",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Word Analogies",
+          "subtitle": "Mastering Semantic Relationships",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "Common Relationship Types",
+          "content": "1. Synonym: Happy : Joyful\n2. Antonym: Hot : Cold\n3. Part-Whole: Finger : Hand\n4. Worker-Tool: Writer : Pen\n5. Cause-Effect: Rain : Flood\n6. Degree: Warm : Hot\n7. Function: Knife : Cut\n8. Gender: Actor : Actress",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Word Analogy Relationship Types with Examples",
+          "headers": ["Relationship", "Example Pair 1", "Example Pair 2"],
+          "rows": [
+            ["Synonym", "Begin : Start", "Happy : Joyful"],
+            ["Antonym", "Light : Dark", "Big : Small"],
+            ["Part-Whole", "Leaf : Tree", "Roof : House"],
+            ["Worker-Tool", "Tailor : Needle", "Doctor : Stethoscope"],
+            ["Cause-Effect", "Fever : Sweating", "Overeating : Obesity"],
+            ["Function", "Car : Transport", "Pen : Write"],
+            ["Gender", "Male : Female", "King : Queen"],
+            ["Degree", "Cold : Freezing", "Rain : Downpour"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Synonym Analogy",
+          "given": ["Brave : Courageous"],
+          "find": "Find the similar pair from options",
+          "steps": [
+            "Relationship: Synonym (Brave means courageous).",
+            "Option A: Cowardly : Fearful (synonym) – correct.",
+            "Option B: Strong : Weak (antonym) – wrong.",
+            "Option C: Smart : Intelligent (synonym) – also correct but check the level.",
+            "If multiple synonyms, choose the one that matches the intensity (Brave = Courageous, Smart = Intelligent)."
+          ],
+          "answer": "Smart : Intelligent",
+          "formula_used": "Synonym relationship"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Part-Whole Analogy",
+          "given": ["Keyboard : Computer"],
+          "find": "Find the similar pair",
+          "steps": [
+            "Relationship: Part-Whole (Keyboard is a part of Computer).",
+            "Correct answer: Tyre : Car (Tyre is part of Car).",
+            "Wrong: Engine : Mechanic (not part-whole)."
+          ],
+          "answer": "Tyre : Car",
+          "formula_used": "Part-Whole relationship"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Reversing the order",
+          "wrong": "Assuming the relationship can be applied in either direction.",
+          "correct": "Always maintain the same direction (A → B and C → D).",
+          "tip": "If A:B is 'part to whole', then C:D must also be 'part to whole', not 'whole to part'."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points for Word Analogies",
+          "points": [
+            "Identify the exact relationship (synonym, antonym, part-whole, etc.).",
+            "Check for secondary relationships if multiple options fit.",
+            "Pay attention to the direction (A:B and C:D must match)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "letter_analogies",
+      "title": "Letter and Alphabet Analogies",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Letter Analogies",
+          "subtitle": "Applying Alphabet Positions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔤",
+          "title": "Alphabet Positions",
+          "content": "A=1, B=2, C=3, ..., Z=26.\nCommon operations: Addition, Subtraction, Multiplication, Division, Reversal.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common Letter Patterns",
+          "headers": ["Pattern", "Example", "Explanation"],
+          "rows": [
+            ["+2, +3", "AC : EG", "A+2=C, E+2=G"],
+            ["-1, +1", "BD : CE", "B-1=A? No – check.", "BD : CE – B+? Actually, B(-1)=A, D(+1)=E. But most common is +1/+1 or +2/+2."],
+            ["Reverse", "ABC : ZYX", "A→Z, B→Y, C→X"],
+            ["Square", "D : H", "D=4, H=8 (multiply by 2)"],
+            ["Prime positions", "B : C", "B=2 (prime), C=3 (prime)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Simple letter addition",
+          "given": ["B : D"],
+          "find": "Find the missing: G : ?",
+          "steps": [
+            "Relationship: +2 (B+2=D).",
+            "G+2 = I."
+          ],
+          "answer": "I",
+          "formula_used": "Alphabet position addition"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Complex letter operation",
+          "given": ["ACE : BDF"],
+          "find": "Find the missing: GIK : ?",
+          "steps": [
+            "A→B (+1), C→D (+1), E→F (+1).",
+            "G→H (+1), I→J (+1), K→L (+1).",
+            "Answer: HJL."
+          ],
+          "answer": "HJL",
+          "formula_used": "+1 to each letter"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Position multiplication",
+          "given": ["B : D (2:4)"],
+          "find": "Find: E : ?",
+          "steps": [
+            "B=2, D=4 (×2).",
+            "E=5, E×2 = 10 → J."
+          ],
+          "answer": "J",
+          "formula_used": "Alphabet position ×2"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points for Letter Analogies",
+          "points": [
+            "Know the alphabet positions (A=1 to Z=26).",
+            "Look for patterns: addition, subtraction, multiplication, division, reversal.",
+            "Sometimes the operation is applied to the positions of the letters."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "number_analogies",
+      "title": "Number Analogies",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Number Analogies",
+          "subtitle": "Mathematical Operations",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔢",
+          "title": "Common Number Relationships",
+          "content": "1. Addition/Subtraction: 5:7 :: 8:10 (+2)\n2. Multiplication/Division: 3:9 :: 4:12 (×3)\n3. Square/Cube: 4:16 :: 5:25 (×4? Actually 4²=16, 5²=25)\n4. Combinations: 2:6 :: 3:12 (×2+2? Need to identify pattern).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Simple addition",
+          "given": ["5 : 8"],
+          "find": "Find: 9 : ?",
+          "steps": [
+            "5+3=8, so 9+3=12."
+          ],
+          "answer": "12",
+          "formula_used": "Addition of 3"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Square relation",
+          "given": ["2 : 4"],
+          "find": "Find: 6 : ?",
+          "steps": [
+            "2×2=4, so 6×2=12? But it could be 2²=4, 6²=36.",
+            "Check pattern: 2:4 is (2²). So 6:36."
+          ],
+          "answer": "36",
+          "formula_used": "Square"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Combined operation",
+          "given": ["3 : 10"],
+          "find": "Find: 5 : ?",
+          "steps": [
+            "3×3 +1 = 10. Apply: 5×3+1 = 16."
+          ],
+          "answer": "16",
+          "formula_used": "(×3+1)"
+        },
+        {
+          "type": "table",
+          "title": "Quick Number Pattern Reference",
+          "headers": ["Pattern Type", "Example", "Formula"],
+          "rows": [
+            ["Addition", "5:8", "+3"],
+            ["Subtraction", "10:6", "-4"],
+            ["Multiplication", "4:20", "×5"],
+            ["Division", "18:6", "÷3"],
+            ["Square", "6:36", "×6 or ²"],
+            ["Cube", "2:8", "³"],
+            ["Combined", "3:14", "(×4+2)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Key Points for Number Analogies",
+          "points": [
+            "Identify the mathematical operation between the first pair.",
+            "Apply the same operation to the second pair.",
+            "If multiple patterns fit, choose the one that is simplest and most consistent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixed_shortcuts",
+      "title": "Mixed Analogies and Shortcuts",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Mixed & Advanced Analogies",
+          "subtitle": "Combining Word, Letter, and Number",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Mixed Analogies",
+          "content": "Sometimes the analogy combines different types: word-to-letter, number-to-word, etc. For example, Dog : Puppy :: Cat : Kitten (animal-to-young).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Mixed Analogy",
+          "given": ["5 : Five"],
+          "find": "Find: 8 : ?",
+          "steps": [
+            "5 → Five (number to its English spelling).",
+            "8 → Eight."
+          ],
+          "answer": "Eight",
+          "formula_used": "Number to its word form"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Letter-Number Mixed",
+          "given": ["A : 1"],
+          "find": "Find: E : ?",
+          "steps": [
+            "A = 1 (position).",
+            "E = 5."
+          ],
+          "answer": "5",
+          "formula_used": "Alphabet position"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Overcomplicating",
+          "wrong": "Looking for a complex hidden pattern when a simple one exists.",
+          "correct": "Try the simplest relationship first.",
+          "tip": "Most exam analogies are based on simple addition/subtraction/multiplication or standard relationships (synonym, part-whole)."
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "W-L-N",
+          "memory_trick": "Word, Letter, Number – identify the type of analogy first, then apply the specific rule for that type."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "For word analogies: identify meaning/function/part-whole.",
+            "For letter analogies: use alphabet positions (+,-,×,÷).",
+            "For number analogies: identify mathematical operation.",
+            "For mixed: combine the above.",
+            "Always check direction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analogy_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Analogies – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Read the first pair carefully. Identify the relationship. Apply the same to the second pair. Eliminate options that don't fit.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Select the pair that best expresses a relationship similar to that expressed in the original pair: 'Doctor : Hospital'",
+          "options": ["Teacher : School", "Engineer : Site", "Lawyer : Court", "All of the above"],
+          "answer": 3,
+          "explanation": "A doctor works in a hospital. Similarly, a teacher works in a school, an engineer works on a site, and a lawyer works in a court. All are valid.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Complete the analogy: 'Pen : Write :: Knife : ?'",
+          "options": ["Cut", "Sharpen", "Stab", "Hold"],
+          "answer": 0,
+          "explanation": "Pen is used to write; Knife is used to cut.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Complete the letter analogy: 'ACE : BDF :: GIK : ?'",
+          "options": ["HJL", "HJM", "HIK", "GJL"],
+          "answer": 0,
+          "explanation": "Each letter is increased by +1: A→B, C→D, E→F. So G→H, I→J, K→L => HJL.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Complete the number analogy: '3 : 9 :: 4 : ?'",
+          "options": ["12", "16", "20", "25"],
+          "answer": 1,
+          "explanation": "3² = 9, so 4² = 16.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Complete the analogy: 'Calf : Cow :: Cub : ?'",
+          "options": ["Lion", "Tiger", "Bear", "Wolf"],
+          "answer": 0,
+          "explanation": "Calf is the young one of a cow. Cub is the young one of a lion (or tiger/bear/wolf – but lion is the most common association in exams). The correct answer is Lion.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Complete the analogy: 'BDF : CEH :: GIK : ?'",
+          "options": ["HJM", "HJL", "HIL", "GJL"],
+          "answer": 0,
+          "explanation": "B→C (+1), D→E (+1), F→H (+2? Wait: B,D,F → C,E,H. B+1=C, D+1=E, F+2=H? That's inconsistent. Let's check another pattern: B=2, D=4, F=6; C=3, E=5, H=8. The pattern is +1, +1, +2. Applying to GIK: G=7, I=9, K=11. G+1=H, I+1=J, K+2=M → HJM.",
+          "answer": "HJM",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Complete the analogy: '4 : 12 :: 5 : ?'",
+          "options": ["15", "20", "25", "30"],
+          "answer": 1,
+          "explanation": "4×3=12, so 5×3=15. (Wait, 4×3=12, so 5×3=15. The answer is 15, which is option 0).",
+          "answer": 0,
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Complete the analogy: 'Tree : Roots :: Building : ?'",
+          "options": ["Foundation", "Roof", "Wall", "Door"],
+          "answer": 0,
+          "explanation": "Roots support a tree; Foundation supports a building.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Complete the analogy: 'A : Z :: B : ?'",
+          "options": ["Y", "X", "C", "A"],
+          "answer": 0,
+          "explanation": "A is the first letter, Z is the last. B is the second, so Y is the second last.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Complete the analogy: '8 : 512 :: 6 : ?'",
+          "options": ["216", "256", "360", "512"],
+          "answer": 0,
+          "explanation": "8³ = 512, so 6³ = 216.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review word relationships (synonym, antonym, part-whole), alphabet positions, and common mathematical operations. These are the most frequently tested."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Analogies",
+          "points": [
+            "Identify the relationship type (word, letter, number).",
+            "For words: meaning, function, part-whole, cause-effect, etc.",
+            "For letters: use alphabet positions (+,-,×,÷, reversal).",
+            "For numbers: use simple arithmetic (+, -, ×, ÷, squares, cubes).",
+            "Always check the direction of the relationship.",
+            "Practice diverse analogies to improve speed."
+          ]
+        }
+      ]
+    }
+  ]
+}

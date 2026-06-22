@@ -1,0 +1,554 @@
+{
+  "id": "number_letter_series",
+  "subject_id": "general_intelligence_reasoning",
+  "title": "Number and Letter Series",
+  "subtopics": [
+    {
+      "id": "series_basics",
+      "title": "Introduction to Series – Finding Patterns",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Number and Letter Series",
+          "subtitle": "Identifying Hidden Patterns",
+          "tags": ["JKSSB", "High Weightage", "Reasoning"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔢",
+          "title": "What is a Series?",
+          "content": "A series is a sequence of numbers or letters that follow a specific pattern. You need to identify the rule and find the missing term.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Common Patterns",
+          "content": "• Addition/Subtraction (constant difference)\n• Multiplication/Division (constant ratio)\n• Square/Cube\n• Alternating operations\n• Mixed patterns (two or more rules combined)",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "Step-by-Step Approach",
+          "steps": [
+            "Step 1: Find the difference between consecutive terms.",
+            "Step 2: If differences are constant → simple arithmetic progression.",
+            "Step 3: If differences are changing → try multiplication, division, or squares.",
+            "Step 4: Look for alternating patterns (odd/even positions).",
+            "Step 5: Apply the pattern to find the missing term."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Series questions test pattern recognition.",
+            "Check both forward and backward differences.",
+            "Sometimes patterns are based on prime numbers, squares, cubes, or Fibonacci.",
+            "Letters follow alphabet positions (A=1, B=2, ... Z=26)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "number_series_basic",
+      "title": "Number Series – Addition, Subtraction, Multiplication",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Basic Number Series",
+          "subtitle": "Arithmetic and Geometric Progressions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "➕",
+          "title": "Addition/Subtraction Series",
+          "content": "Constant difference: 2, 5, 8, 11, 14, ... (+3 each time).\nVariable difference: 3, 6, 10, 15, 21, ... (+3, +4, +5, +6).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "✖️",
+          "title": "Multiplication/Division Series",
+          "content": "Constant ratio: 2, 6, 18, 54, ... (×3 each time).\nVariable ratio: 2, 4, 12, 48, ... (×2, ×3, ×4).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Constant Addition",
+          "given": ["Series: 3, 7, 11, 15, ?"],
+          "find": "Missing term",
+          "steps": [
+            "Difference: 7-3=4, 11-7=4, 15-11=4.",
+            "Next = 15+4 = 19."
+          ],
+          "answer": "19",
+          "formula_used": "Common difference of +4"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Constant Multiplication",
+          "given": ["Series: 2, 6, 18, 54, ?"],
+          "find": "Missing term",
+          "steps": [
+            "Ratio: 6/2=3, 18/6=3, 54/18=3.",
+            "Next = 54×3 = 162."
+          ],
+          "answer": "162",
+          "formula_used": "Common ratio of ×3"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Variable Difference (Increasing)",
+          "given": ["Series: 1, 3, 6, 10, 15, ?"],
+          "find": "Missing term",
+          "steps": [
+            "Differences: 2, 3, 4, 5.",
+            "Next difference = 6.",
+            "Next term = 15+6 = 21."
+          ],
+          "answer": "21",
+          "formula_used": "Differences increase by 1"
+        },
+        {
+          "type": "table",
+          "title": "Common Number Series Patterns",
+          "headers": ["Pattern Type", "Example", "Rule"],
+          "rows": [
+            ["Addition", "2, 4, 6, 8, ?", "+2"],
+            ["Subtraction", "20, 16, 12, 8, ?", "-4"],
+            ["Multiplication", "1, 3, 9, 27, ?", "×3"],
+            ["Division", "64, 32, 16, 8, ?", "÷2"],
+            ["Square", "1, 4, 9, 16, ?", "1², 2², 3², 4²"],
+            ["Cube", "1, 8, 27, 64, ?", "1³, 2³, 3³, 4³"],
+            ["Prime", "2, 3, 5, 7, 11, ?", "Prime numbers"],
+            ["Fibonacci", "1, 1, 2, 3, 5, ?", "Sum of previous two"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Check the difference or ratio first.",
+            "If not constant, check for squares, cubes, or alternating patterns.",
+            "Prime numbers and Fibonacci are less common but appear in advanced exams."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "number_series_advanced",
+      "title": "Advanced Number Series – Alternating and Mixed Patterns",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Number Series",
+          "subtitle": "Alternating, Squares, Cubes, and More",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Alternating Series",
+          "content": "Two patterns interleaved. Example: 1, 10, 3, 20, 5, 30, ?\nOdd terms: 1, 3, 5, ? (+2) → 7\nEven terms: 10, 20, 30 (+10)",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Mixed Operations",
+          "content": "Example: 2, 5, 11, 23, 47, ?\nPattern: ×2+1, ×2+1, ×2+1, ... → 95.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Alternating Series",
+          "given": ["Series: 2, 5, 4, 10, 6, 15, 8, ?"],
+          "find": "Missing term",
+          "steps": [
+            "Odd terms: 2, 4, 6, 8 (+2)",
+            "Even terms: 5, 10, 15 (+5)",
+            "Next even term = 15+5 = 20."
+          ],
+          "answer": "20",
+          "formula_used": "Alternating patterns"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Mixed Operation (×2+1)",
+          "given": ["Series: 3, 7, 15, 31, ?"],
+          "find": "Missing term",
+          "steps": [
+            "3×2+1 = 7",
+            "7×2+1 = 15",
+            "15×2+1 = 31",
+            "31×2+1 = 63"
+          ],
+          "answer": "63",
+          "formula_used": "×2+1"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Square and Addition",
+          "given": ["Series: 2, 5, 10, 17, 26, ?"],
+          "find": "Missing term",
+          "steps": [
+            "Pattern: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26.",
+            "Next: 6²+1 = 37."
+          ],
+          "answer": "37",
+          "formula_used": "n² + 1"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 4: Alternating × and ÷",
+          "given": ["Series: 2, 8, 4, 16, 8, 32, ?"],
+          "find": "Missing term",
+          "steps": [
+            "Pattern: ×4, ÷2, ×4, ÷2, ×4, ...",
+            "32 ÷ 2 = 16."
+          ],
+          "answer": "16",
+          "formula_used": "×4, ÷2 alternating"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Overlooking alternating patterns",
+          "wrong": "Looking at all terms as one sequence.",
+          "correct": "Split into odd and even positions if a single pattern doesn't work.",
+          "tip": "Always check alternate terms when the main pattern fails."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Alternating series have two interleaved sequences.",
+            "Mixed operations combine multiplication and addition/subtraction.",
+            "Square and cube patterns are common in advanced series."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "letter_series",
+      "title": "Letter Series – Alphabet Patterns",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Letter Series",
+          "subtitle": "Patterns in the Alphabet",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔤",
+          "title": "Alphabet Positions",
+          "content": "A=1, B=2, C=3, ..., Z=26.\nLetter series follow the same rules as number series but applied to alphabet positions.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Simple Letter Addition",
+          "given": ["Series: A, C, E, G, ?"],
+          "find": "Missing letter",
+          "steps": [
+            "Positions: 1, 3, 5, 7.",
+            "Difference: +2.",
+            "Next position = 9 → I."
+          ],
+          "answer": "I",
+          "formula_used": "+2 alphabet positions"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Letter Alternating",
+          "given": ["Series: A, Z, B, Y, C, ?"],
+          "find": "Missing letter",
+          "steps": [
+            "Odd terms: A, B, C (+1)",
+            "Even terms: Z, Y, ? (-1)",
+            "Next even = Y-1 = X."
+          ],
+          "answer": "X",
+          "formula_used": "Alternating +1/-1"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Letter with Square Pattern",
+          "given": ["Series: A, D, I, P, ?"],
+          "find": "Missing letter",
+          "steps": [
+            "Positions: 1, 4, 9, 16 (1², 2², 3², 4²).",
+            "Next = 5² = 25 → Y."
+          ],
+          "answer": "Y",
+          "formula_used": "n² positions"
+        },
+        {
+          "type": "table",
+          "title": "Common Letter Patterns",
+          "headers": ["Pattern", "Example", "Rule"],
+          "rows": [
+            ["+1", "A, B, C, D, ?", "E"],
+            ["+2", "A, C, E, G, ?", "I"],
+            ["+3", "A, D, G, J, ?", "M"],
+            ["-1", "Z, Y, X, W, ?", "V"],
+            ["Alternating", "A, Z, B, Y, C, ?", "X"],
+            ["Square", "A, D, I, P, ?", "Y (25th position)"],
+            ["Reverse letters", "Z, X, V, T, ?", "R (reverse +2)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Convert letters to positions (A=1 to Z=26).",
+            "Apply the same number series rules to positions.",
+            "Convert back to letters to find the answer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixed_series",
+      "title": "Mixed Letter-Number Series",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Mixed Series",
+          "subtitle": "Combining Letters and Numbers",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔀",
+          "title": "Mixed Series",
+          "content": "Some series alternate between letters and numbers, or combine both in a single sequence.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Letter-Number Alternating",
+          "given": ["Series: A1, B2, C3, D4, ?"],
+          "find": "Missing term",
+          "steps": [
+            "Letters: A, B, C, D (+1)",
+            "Numbers: 1, 2, 3, 4 (+1)",
+            "Next = E5."
+          ],
+          "answer": "E5",
+          "formula_used": "Both increase by 1"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Number-Letter with Operation",
+          "given": ["Series: 1A, 2C, 3E, 4G, ?"],
+          "find": "Missing term",
+          "steps": [
+            "Numbers: 1, 2, 3, 4 (+1)",
+            "Letters: A, C, E, G (+2 positions)",
+            "Next = 5I."
+          ],
+          "answer": "5I",
+          "formula_used": "+1 for numbers, +2 for letters"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Treating letters and numbers separately",
+          "wrong": "Looking at the entire term as a single unit.",
+          "correct": "Break into letters and numbers, then apply patterns separately.",
+          "tip": "Mixed series are easier when you split the components."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Split mixed series into letter and number components.",
+            "Apply independent patterns to each.",
+            "Combine them to get the next term."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "series_shortcuts",
+      "title": "Shortcuts and Tricks for Series",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Series Shortcuts",
+          "subtitle": "Speed Up Pattern Recognition",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 1 – Check Differences First",
+          "content": "Always calculate the difference between consecutive terms first. Many series are simple arithmetic progressions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 2 – Alternating Positions",
+          "content": "If the difference pattern is not consistent, try splitting into odd and even positions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 3 – Common Mathematical Series",
+          "content": "Memorize: Squares (1,4,9,16,...), Cubes (1,8,27,64,...), Prime numbers (2,3,5,7,11,...).",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "DAMP",
+          "memory_trick": "Difference, Alternating, Multiplication, Powers – the four main pattern types."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Check differences first.",
+            "If not constant, check ratios (multiplication/division).",
+            "If still stuck, check alternating positions.",
+            "Look for squares, cubes, primes, or Fibonacci.",
+            "For letters, convert to positions and apply same rules."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "series_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Number & Letter Series – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Quickly check differences. If not constant, split into odds/evens or try multiplication/square patterns.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the next number: 2, 6, 12, 20, 30, ?",
+          "options": ["40", "42", "44", "48"],
+          "answer": 1,
+          "explanation": "Differences: 4, 6, 8, 10. Next difference = 12. 30+12=42.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Find the next number: 3, 9, 27, 81, ?",
+          "options": ["162", "243", "324", "405"],
+          "answer": 1,
+          "explanation": "Each term is multiplied by 3. 81×3=243.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Find the missing number: 1, 4, 9, 16, ?",
+          "options": ["20", "25", "30", "36"],
+          "answer": 1,
+          "explanation": "Squares of natural numbers: 1², 2², 3², 4², 5²=25.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the missing number: 2, 5, 10, 17, 26, ?",
+          "options": ["35", "37", "40", "42"],
+          "answer": 1,
+          "explanation": "n²+1: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Find the missing letter: B, D, G, K, ?",
+          "options": ["N", "O", "P", "Q"],
+          "answer": 0,
+          "explanation": "Positions: 2, 4, 7, 11. Differences: 2, 3, 4. Next difference = 5. 11+5=16 → P.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the missing number: 5, 9, 17, 33, ?",
+          "options": ["65", "63", "67", "69"],
+          "answer": 0,
+          "explanation": "×2-1: 5×2-1=9, 9×2-1=17, 17×2-1=33, 33×2-1=65.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Find the missing term: 1, 8, 27, 64, ?",
+          "options": ["100", "125", "144", "169"],
+          "answer": 1,
+          "explanation": "Cubes: 1³, 2³, 3³, 4³, 5³=125.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the missing number: 2, 3, 5, 7, 11, ?",
+          "options": ["13", "14", "15", "17"],
+          "answer": 0,
+          "explanation": "Prime numbers sequence.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Find the missing term: A1, B2, C3, D4, ?",
+          "options": ["E5", "E6", "F5", "F6"],
+          "answer": 0,
+          "explanation": "Letter +1, Number +1. Next = E5.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Find the missing letter: Z, X, V, T, ?",
+          "options": ["R", "S", "Q", "P"],
+          "answer": 0,
+          "explanation": "Positions: 26, 24, 22, 20 (-2 each). Next = 18 → R.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review square/cube patterns, alternating series, and mixed operations. These are the most frequently tested types."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Number & Letter Series",
+          "points": [
+            "Check differences first (add/subtract).",
+            "Check ratios (multiply/divide).",
+            "Check squares, cubes, primes, Fibonacci.",
+            "Check alternating patterns (odd/even positions).",
+            "Check mixed operations (×n±k).",
+            "For letters, use alphabet positions.",
+            "Practice various patterns to improve speed."
+          ]
+        }
+      ]
+    }
+  ]
+}

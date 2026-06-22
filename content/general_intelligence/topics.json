@@ -1,0 +1,11 @@
+{
+  "subject_id": "general_intelligence_reasoning",
+  "topics": [
+    { "id": "analogies", "title": "Analogies", "file": "content/general_intelligence/analogies.json", "available": true},
+    { "id": "number_letter_series",    "title": "Number and Letter Series",    "file": "content/general_intelligence/number_letter_series.json",    "available": true },
+    { "id": "coding_decoding",    "title": "Coding - Decoding",    "file": "content/general_intelligence/coding_decoding.json",    "available": true },
+    { "id": "syllogisms", "title": "Syllogisms", "file": "content/general_intelligence/syllogisms.json", "available": true},
+    { "id": "blood_relations",    "title": "Blood Relations",    "file": "content/general_intelligence/blood_relations.json",    "available": true },
+    { "id": "logical_reasoning_patterns", "title": "Logical Reasoning and Pattern Recognition", "file": "content/general_intelligence/logical_reasoning_patterns.json", "available": true}
+  ]
+}

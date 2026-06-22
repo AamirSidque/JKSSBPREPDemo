@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "subjects": [
      
     {
@@ -9,6 +9,14 @@
       "theme_color": "#9B59B6",
       "description": "Build speed, Eliminate Negative marks, and Maximize your JKSSB exam score",
       "topics_file": "content/reasoning_numeracy/topics.json"
+    },
+    {
+      "id": "general_intelligence",
+      "title": "General Intelligence and Reasoning",
+      "emoji": "🧠",
+      "theme_color": "#9B59B6",
+      "description": "This Subjects Checks Your Mind Presence.",
+      "topics_file": "content/general_intelligence/topics.json"
     }
   ]
 }

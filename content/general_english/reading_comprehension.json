@@ -1,0 +1,818 @@
+{
+  "id": "reading_comprehension",
+  "subject_id": "general_english",
+  "title": "Reading Comprehension",
+  "subtopics": [
+    {
+      "id": "rc_intro",
+      "title": "Introduction to Reading Comprehension – What, Why, How",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reading Comprehension",
+          "subtitle": "Understanding and Interpreting Written Text",
+          "tags": ["JKSSB", "High Weightage", "English"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📖",
+          "title": "What is Reading Comprehension?",
+          "content": "Reading Comprehension (RC) is the ability to read, understand, interpret, and analyze written text. It tests your ability to extract meaning, infer ideas, and evaluate the author's intent.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Why is RC Important in Exams?",
+          "content": "RC questions carry significant weight in competitive exams. They test not just vocabulary but critical thinking, inference, and analytical skills – which are essential for administrative roles.",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "The RC Mindset",
+          "steps": [
+            "Step 1: Read the passage actively – not passively.",
+            "Step 2: Ask yourself: What is the main idea?",
+            "Step 3: What is the author's tone?",
+            "Step 4: How is the passage structured?",
+            "Step 5: Annotate or underline key points (in your mind).",
+            "Step 6: Read the questions and refer back to the passage."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "RC tests understanding, inference, and analysis.",
+            "Active reading is essential – don't just scan words.",
+            "Focus on the main idea, tone, and structure.",
+            "Always refer back to the passage for answers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_passage_types",
+      "title": "Types of Passages – Factual, Narrative, Persuasive, Discursive",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Types of Passages",
+          "subtitle": "Recognising Different Writing Styles",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📰",
+          "title": "Factual (Expository)",
+          "content": "Presents facts, data, or information objectively. Common in science, history, and news articles. Look for: statistics, dates, events, and clear explanations.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📖",
+          "title": "Narrative",
+          "content": "Tells a story or describes a sequence of events. Often uses descriptive language, characters, and a plot. Common in fiction, biographies, and anecdotes.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗣️",
+          "title": "Persuasive",
+          "content": "Aims to convince the reader of a particular viewpoint. Uses arguments, opinions, rhetorical devices, and emotional appeals. Common in editorials and speeches.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💬",
+          "title": "Discursive (Analytical)",
+          "content": "Explores different perspectives on an issue without necessarily taking a firm stance. Often presents pros and cons, multiple viewpoints, and balanced arguments.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Passage Types – Quick Reference",
+          "headers": ["Type", "Purpose", "Key Features", "Example"],
+          "rows": [
+            ["Factual", "To inform", "Data, facts, objectivity", "A science report on climate change."],
+            ["Narrative", "To entertain/describe", "Story, characters, plot", "A short story or personal anecdote."],
+            ["Persuasive", "To convince", "Arguments, opinions, rhetoric", "An editorial on environmental policy."],
+            ["Discursive", "To explore/analyse", "Multiple perspectives, balance", "An essay on the pros and cons of AI."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Factual passages are objective and data-driven.",
+            "Narrative passages tell a story.",
+            "Persuasive passages aim to influence the reader.",
+            "Discursive passages present multiple viewpoints.",
+            "Recognising the type helps in answering questions accurately."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_reading_strategies",
+      "title": "Reading Strategies – Skimming, Scanning, Intensive Reading",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reading Strategies",
+          "subtitle": "Maximising Speed and Accuracy",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚀",
+          "title": "Skimming – Getting the Gist",
+          "content": "Reading quickly to get the main idea. Focus on headings, first sentences, and concluding paragraphs. Use skimming to understand the passage structure before reading deeply.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Scanning – Finding Specific Information",
+          "content": "Looking for specific words, numbers, names, or facts. Useful for fact-based questions (e.g., 'When did the event occur?').",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "Intensive Reading – Deep Understanding",
+          "content": "Reading slowly and carefully to understand nuances, tone, inference, and meaning. Essential for inference, tone, and main idea questions.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Skimming vs Scanning vs Intensive",
+          "left_header": "Skimming",
+          "right_header": "Scanning",
+          "rows": [
+            { "left": "Reading for main idea", "right": "Reading for specific details" },
+            { "left": "Covers entire passage quickly", "right": "Focuses on specific sections" },
+            { "left": "Use before answering questions", "right": "Use during question-solving" }
+          ]
+        },
+        {
+          "type": "process_flow",
+          "title": "Optimal RC Strategy (30-60 seconds per passage)",
+          "steps": [
+            "Step 1: Skim the passage (30 seconds) – get the main idea.",
+            "Step 2: Read the first and last paragraphs carefully.",
+            "Step 3: Read the topic sentence of each paragraph.",
+            "Step 4: Read the questions (scan for keywords).",
+            "Step 5: Go back to the passage to find answers (scanning/intensive).",
+            "Step 6: Eliminate wrong answers first."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Skim first for the big picture.",
+            "Scan for specific facts and numbers.",
+            "Use intensive reading for inference and tone questions.",
+            "Always read the questions before reading the passage in detail."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_question_types",
+      "title": "Types of RC Questions – Fact, Inference, Vocabulary, Tone, Main Idea",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "RC Question Types",
+          "subtitle": "Understanding What's Being Asked",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "✅",
+          "title": "Fact/Detail-Based Questions",
+          "content": "These ask for information directly stated in the passage. Answers can be found by scanning. Example: 'What year did the event happen?'",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Inference-Based Questions",
+          "content": "These ask for conclusions that are implied but not directly stated. You must connect ideas and 'read between the lines'. Example: 'What can be inferred from the author's description?'",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📖",
+          "title": "Vocabulary-Based Questions",
+          "content": "These ask the meaning of a word or phrase in context. The correct answer may not be the dictionary definition – it depends on how the word is used in the passage.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎭",
+          "title": "Tone/Attitude Questions",
+          "content": "These ask about the author's attitude or feeling (e.g., critical, supportive, neutral, sarcastic, humorous). Pay attention to word choice and emphasis.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Main Idea/Theme Questions",
+          "content": "These ask for the central point or purpose of the passage. Often the answer appears in the first or last paragraph, but not always – you need to synthesise the entire passage.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Question Types – Quick Reference",
+          "headers": ["Type", "Keywords", "How to Answer"],
+          "rows": [
+            ["Fact/Detail", "According to, which of the following, when, where", "Scan the passage for the exact information."],
+            ["Inference", "Implies, suggests, can be inferred, probably", "Connect ideas; don't choose what is directly stated."],
+            ["Vocabulary", "The word means, closest in meaning", "Read the sentence context; replace with options."],
+            ["Tone/Attitude", "The author's attitude, what is the tone", "Look at word choices and descriptions."],
+            ["Main Idea", "The main purpose, best describes, central theme", "Consider the passage as a whole."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Fact questions = find it directly in the passage.",
+            "Inference questions = connect the dots.",
+            "Vocabulary questions = context is key.",
+            "Tone questions = pay attention to word choice.",
+            "Main idea = synthesise the whole passage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_fact_questions",
+      "title": "Fact/Detail-Based Questions – Strategy and Examples",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Fact-Based Questions",
+          "subtitle": "Finding Answers Quickly",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Strategy for Fact Questions",
+          "content": "1. Read the question and identify the keyword(s).\n2. Scan the passage for that keyword or its synonym.\n3. Read the surrounding sentences.\n4. Select the option that matches the passage.",
+          "highlight": true
+        },
+        {
+          "type": "note_card",
+          "title": "Sample Passage (Factual)",
+          "variant": "gray_matter",
+          "content": "Passage:\n'The Indian Space Research Organisation (ISRO) launched the Chandrayaan-2 mission on July 22, 2019. The mission included an orbiter, a lander named Vikram, and a rover named Pragyan. The primary objective was to study the lunar south pole region. The orbiter continues to send data, even though the lander's landing attempt was not successful.'"
+        },
+        {
+          "type": "solved_example",
+          "title": "Fact Question Example",
+          "given": ["Passage above"],
+          "find": "What was the name of the lander?",
+          "steps": [
+            "Scan for 'lander' in the passage.",
+            "The passage says 'a lander named Vikram'.",
+            "Answer: Vikram."
+          ],
+          "answer": "Vikram",
+          "formula_used": "Scanning technique"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Choosing a Distractor",
+          "wrong": "Selecting 'Pragyan' (the rover, not the lander).",
+          "correct": "Vikram is the lander; Pragyan is the rover.",
+          "tip": "Read carefully – synonyms and similar names are often used as distractors."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Fact questions are about finding information.",
+            "Scan for keywords or synonyms.",
+            "Watch out for distractors (similar but wrong details).",
+            "The answer is always in the passage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_inference_questions",
+      "title": "Inference-Based Questions – Strategy and Examples",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Inference-Based Questions",
+          "subtitle": "Reading Between the Lines",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Strategy for Inference Questions",
+          "content": "1. Read the question and understand what is implied.\n2. Look for clues in the passage (tone, word choice, context).\n3. Connect ideas from different parts of the passage.\n4. Avoid options that are directly stated (inference goes beyond the text).\n5. Choose the option that is most logically supported.",
+          "highlight": true
+        },
+        {
+          "type": "note_card",
+          "title": "Sample Passage (Inference)",
+          "variant": "gray_matter",
+          "content": "Passage:\n'Despite his impressive qualifications and years of experience, Mr. Sharma was not selected for the promotion. Several junior employees were promoted ahead of him. His manager cited a need for 'fresh perspectives' and 'energised leadership'. Observers noted that Mr. Sharma had been vocal about workplace policies during the annual review.'"
+        },
+        {
+          "type": "solved_example",
+          "title": "Inference Question Example",
+          "given": ["Passage above"],
+          "find": "What can be inferred about Mr. Sharma?",
+          "steps": [
+            "The passage says he was qualified and experienced but not promoted.",
+            "It mentions he was vocal about policies.",
+            "The manager cited a need for 'fresh perspectives' – this may imply that Mr. Sharma was seen as not bringing fresh ideas or as a challenge to the status quo.",
+            "Answer: He was probably seen as a challenge to management or not aligned with the new direction."
+          ],
+          "answer": "He may have been seen as resistant to change or challenging management.",
+          "formula_used": "Inference from cause-effect and contextual clues"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Choosing an Extreme Option",
+          "wrong": "Mr. Sharma was incompetent (too extreme – not supported).",
+          "correct": "He may have been overlooked for non-technical reasons (moderate, supported).",
+          "tip": "Inference answers are usually moderate and well-supported, not extreme or absolute."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Inferences go beyond the literal text.",
+            "Look for clues in tone, word choice, and context.",
+            "Avoid options that are directly stated in the passage.",
+            "Avoid extreme or absolute statements in inference questions.",
+            "The best answer is the one most logically supported."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_vocabulary_tone",
+      "title": "Vocabulary and Tone Questions – Strategy and Examples",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Vocabulary & Tone Questions",
+          "subtitle": "Words Matter",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📖",
+          "title": "Strategy for Vocabulary Questions",
+          "content": "1. Locate the word in the passage.\n2. Read the sentence containing the word and the surrounding sentences (context).\n3. Replace the word with each option to see which fits best.\n4. The correct answer is the option that matches the contextual meaning.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎭",
+          "title": "Strategy for Tone Questions",
+          "content": "1. Read the passage and notice the author's word choices (positive/negative/neutral).\n2. Look for adjectives, adverbs, and descriptive language.\n3. Consider the author's purpose (inform, persuade, entertain, criticise).\n4. Choose the tone that best matches the overall attitude.",
+          "highlight": true
+        },
+        {
+          "type": "note_card",
+          "title": "Sample Passage (Vocabulary & Tone)",
+          "variant": "gray_matter",
+          "content": "Passage:\n'The government's 'laudable' initiative to provide free education to underprivileged children has been met with both praise and skepticism. While the intention is 'noble', critics argue that the execution remains 'half-hearted'. The lack of proper infrastructure and trained teachers continues to 'hamper' the program's effectiveness.'"
+        },
+        {
+          "type": "solved_example",
+          "title": "Vocabulary Question Example",
+          "given": ["Passage above", "The word 'hamper' in the passage means:"],
+          "find": "Meaning of 'hamper'",
+          "steps": [
+            "Context: 'The lack of proper infrastructure... continues to hamper the program's effectiveness.'",
+            "'Hamper' means to hinder, obstruct, or delay.",
+            "Options: A) Help, B) Hinder, C) Accelerate, D) Ignore.",
+            "Answer: Hinder."
+          ],
+          "answer": "Hinder",
+          "formula_used": "Contextual meaning"
+        },
+        {
+          "type": "solved_example",
+          "title": "Tone Question Example",
+          "given": ["Passage above"],
+          "find": "What is the author's tone in the passage?",
+          "steps": [
+            "The author uses words like 'laudable' and 'noble' (positive), but also 'skepticism', 'half-hearted', and 'hamper' (negative/concerned).",
+            "The tone is balanced – acknowledging positives while pointing out drawbacks.",
+            "Answer: Objective / Balanced / Critical-analytical."
+          ],
+          "answer": "Balanced and analytical",
+          "formula_used": "Word choice analysis"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Vocabulary questions: context is king.",
+            "Tone questions: pay attention to descriptive language.",
+            "Tones can be positive, negative, neutral, critical, appreciative, sarcastic, etc.",
+            "Practice with a variety of passages."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_main_idea",
+      "title": "Main Idea and Theme Questions – Strategy and Examples",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Main Idea Questions",
+          "subtitle": "Finding the Heart of the Passage",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Strategy for Main Idea Questions",
+          "content": "1. Identify the topic of the passage (who/what is it about?).\n2. Identify the author's key message or argument.\n3. Check the introduction and conclusion for the main idea.\n4. Choose the option that covers the entire passage, not just a part.",
+          "highlight": true
+        },
+        {
+          "type": "note_card",
+          "title": "Sample Passage (Main Idea)",
+          "variant": "gray_matter",
+          "content": "Passage:\n'Artificial Intelligence (AI) is rapidly transforming industries across the globe. In healthcare, AI algorithms can detect diseases earlier than human doctors. In finance, AI enables real-time fraud detection. In transportation, self-driving cars promise to reduce accidents. However, the rise of AI also brings challenges. Job displacement, ethical concerns, and privacy issues are significant hurdles that must be addressed to ensure AI benefits society equitably.'"
+        },
+        {
+          "type": "solved_example",
+          "title": "Main Idea Example",
+          "given": ["Passage above"],
+          "find": "What is the main idea of the passage?",
+          "steps": [
+            "The passage discusses both the benefits and challenges of AI.",
+            "It covers healthcare, finance, and transportation as examples.",
+            "The conclusion mentions job displacement, ethical concerns, and privacy issues.",
+            "Answer: AI has transformative potential but also poses significant challenges."
+          ],
+          "answer": "AI has transformative potential but also poses significant challenges.",
+          "formula_used": "Synthesis of introduction + conclusion + body"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Choosing a Detail as the Main Idea",
+          "wrong": "AI can detect diseases earlier than humans (this is just one detail).",
+          "correct": "AI has both benefits and challenges (covers the whole passage).",
+          "tip": "The main idea must cover the entire passage, not just one paragraph or example."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Main idea = the overall message of the passage.",
+            "It is usually found in the introduction or conclusion.",
+            "Avoid options that only cover a part of the passage.",
+            "The main idea is broader than a specific detail."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_common_traps",
+      "title": "Common Traps in Reading Comprehension – How to Avoid Them",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Common Traps in RC",
+          "subtitle": "What to Watch Out For",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 1 – The 'Mirror' Trap",
+          "wrong": "Choosing an option that repeats words from the passage but changes the meaning.",
+          "correct": "Always read the full sentence, not just keywords.",
+          "tip": "Distractors often use the same vocabulary but different context."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 2 – The 'Extreme' Trap",
+          "wrong": "Options with words like 'always', 'never', 'all', 'none', 'everyone'.",
+          "correct": "Look for moderate or qualified language.",
+          "tip": "Most correct answers are moderate, not absolute."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 3 – The 'Out of Scope' Trap",
+          "wrong": "An option that sounds correct but is not discussed in the passage.",
+          "correct": "Only choose options supported by the passage.",
+          "tip": "If it's not mentioned, it's probably wrong."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 4 – The 'Opposite' Trap",
+          "wrong": "An option that directly contradicts the passage.",
+          "correct": "Check if the option aligns with the author's argument.",
+          "tip": "If the passage says 'X is good', an option saying 'X is bad' is wrong."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 5 – The 'True but Irrelevant' Trap",
+          "wrong": "An option that is factually true but doesn't answer the question.",
+          "correct": "Focus on what the question specifically asks.",
+          "tip": "A true statement can still be the wrong answer."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Watch for extreme language (always/never).",
+            "Ensure answers are supported by the passage.",
+            "Don't fall for options that just repeat keywords.",
+            "Stay focused on what the question asks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_advanced_strategies",
+      "title": "Advanced Strategies for Difficult Passages",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced RC Strategies",
+          "subtitle": "Tackling Complex Passages",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Strategy 1 – Identify the Structure",
+          "content": "Look for signal words: 'however', 'therefore', 'for example', 'in addition', 'on the other hand'. These show relationships and help you understand the flow.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Strategy 2 – Summarise Each Paragraph",
+          "content": "Write a one-sentence summary of each paragraph in your head. This helps with main idea and structure questions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Strategy 3 – Read for Purpose, Not Content",
+          "content": "Ask: Why did the author write this? What is the author's goal? This helps with tone, inference, and main idea questions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Strategy 4 – Manage Time Effectively",
+          "content": "Don't spend more than 8-10 minutes on a passage. If you're stuck, skip and come back later.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "PARS",
+          "memory_trick": "Purpose, Author's View, Relationships, Structure – the four pillars of RC analysis."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Identify the passage structure using signal words.",
+            "Summarise each paragraph mentally.",
+            "Focus on the author's purpose, not just content.",
+            "Manage your time to avoid getting stuck on a single passage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rc_practice_passages",
+      "title": "Practice Passages with MCQs (PYQ Style)",
+      "estimated_minutes": 25,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reading Comprehension – Practice Set",
+          "subtitle": "Full Passages with Mixed Question Types",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Skim the passage first. Then read the questions. Then read the passage more carefully. Answer one question at a time, referring back to the text.",
+          "highlight": true
+        },
+        {
+          "type": "note_card",
+          "title": "Passage 1 – Factual (Science)",
+          "variant": "gray_matter",
+          "content": "The human brain is one of the most complex organs in the known universe. It contains approximately 86 billion neurons, each connected to thousands of others. Recent advances in neuroimaging have allowed scientists to map the brain's activity in real-time. These studies have revealed that different regions of the brain are responsible for different functions: the frontal lobe for decision-making, the temporal lobe for memory and language, and the occipital lobe for vision. However, the brain is highly adaptive. Through neuroplasticity, it can reorganise itself by forming new neural connections throughout life. This adaptability is the foundation of learning and recovery from injury."
+        },
+        {
+          "type": "mcq",
+          "question": "According to the passage, how many neurons does the human brain contain?",
+          "options": ["86 million", "86 billion", "86 trillion", "Not mentioned"],
+          "answer": 1,
+          "explanation": "The passage explicitly states 'approximately 86 billion neurons'. This is a fact-based question.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "What is the function of the temporal lobe?",
+          "options": [
+            "Decision-making",
+            "Memory and language",
+            "Vision",
+            "Motor control"
+          ],
+          "answer": 1,
+          "explanation": "The passage states: 'the temporal lobe for memory and language'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What can be inferred about neuroplasticity?",
+          "options": [
+            "It only occurs in children.",
+            "It is limited to the first year of life.",
+            "It happens throughout life.",
+            "It is not mentioned in the passage."
+          ],
+          "answer": 2,
+          "explanation": "The passage says 'throughout life', indicating it continues into adulthood. This is an inference question.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The word 'adaptability' in the passage is closest in meaning to:",
+          "options": ["Inflexibility", "Rigidity", "Flexibility", "Stability"],
+          "answer": 2,
+          "explanation": "'Adaptability' means the ability to adjust or change. 'Flexibility' is the closest synonym.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Passage 2 – Persuasive (Social Issue)",
+          "variant": "gray_matter",
+          "content": "The digital divide – the gap between those who have access to technology and those who do not – is one of the most pressing challenges of our time. While urban centres enjoy high-speed internet and smart devices, rural and underprivileged communities often lack even basic connectivity. This disparity is not merely a matter of convenience; it has profound implications for education, employment, and economic mobility. Students without internet access cannot participate in online learning. Job seekers without digital skills are locked out of the modern workforce. Governments and private organisations must therefore invest in infrastructure, digital literacy programs, and affordable devices. Without such action, the divide will only widen, creating a two-tier society where opportunity is determined by postal code."
+        },
+        {
+          "type": "mcq",
+          "question": "What is the author's primary purpose in this passage?",
+          "options": [
+            "To describe the digital divide.",
+            "To criticise technology companies.",
+            "To persuade readers to address the digital divide.",
+            "To predict future technological trends."
+          ],
+          "answer": 2,
+          "explanation": "The author highlights the problem and calls for action ('must therefore invest'), indicating a persuasive purpose.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT mentioned as an implication of the digital divide?",
+          "options": [
+            "Loss of cultural heritage",
+            "Limited educational opportunities",
+            "Reduced economic mobility",
+            "Workforce exclusion"
+          ],
+          "answer": 0,
+          "explanation": "The passage mentions education, employment, and economic mobility, but not cultural heritage.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The author's tone can best be described as:",
+          "options": [
+            "Indifferent",
+            "Concerned and urgent",
+            "Sarcastic",
+            "Optimistic"
+          ],
+          "answer": 1,
+          "explanation": "Words like 'pressing challenges', 'profound implications', and 'must therefore invest' show concern and a sense of urgency.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What does the phrase 'two-tier society' imply?",
+          "options": [
+            "A society with two political parties.",
+            "A society divided into two unequal groups.",
+            "A society with two social classes.",
+            "A society with two economic systems."
+          ],
+          "answer": 1,
+          "explanation": "It implies a society divided into two layers or groups, likely unequal in terms of opportunity.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Passage 3 – Discursive (Philosophical)",
+          "variant": "gray_matter",
+          "content": "Freedom is a concept that has captivated philosophers, politicians, and ordinary people for centuries. On one hand, freedom is understood as the absence of constraints – the ability to act without interference. On the other hand, some argue that true freedom requires the presence of conditions that enable one to make meaningful choices. For instance, a person who is free from legal constraints but lacks education or resources may not be truly free to pursue their aspirations. Thus, freedom is not merely the absence of external control, but also the presence of capacity and opportunity. This dual nature of freedom has profound implications for how we design social systems, from education to economic policy."
+        },
+        {
+          "type": "mcq",
+          "question": "What is the main idea of the passage?",
+          "options": [
+            "Freedom is the absence of constraints.",
+            "Freedom requires both absence of constraints and presence of capacity.",
+            "Freedom is not important for social systems.",
+            "Freedom is limited to legal rights."
+          ],
+          "answer": 1,
+          "explanation": "The passage presents both views and concludes that freedom requires both conditions.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following best represents the author's approach?",
+          "options": [
+            "One-sided argument",
+            "Balanced exploration of multiple perspectives",
+            "Emotional appeal",
+            "Humorous commentary"
+          ],
+          "answer": 1,
+          "explanation": "The passage uses phrases like 'on one hand... on the other hand', showing a balanced, discursive approach.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The author implies that a person without education or resources:",
+          "options": [
+            "Is still completely free.",
+            "May not be truly free.",
+            "Has more freedom than others.",
+            "Should be ignored in policy decisions."
+          ],
+          "answer": 1,
+          "explanation": "The passage states: 'a person... lacks education or resources may not be truly free'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The word 'profound' in the passage is closest in meaning to:",
+          "options": ["Surface-level", "Deep", "Shallow", "Negligible"],
+          "answer": 1,
+          "explanation": "'Profound' means deep, significant, or far-reaching.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the strategies for each question type. Practice identifying main ideas, tone, and inference. The more you practice, the faster you'll become."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Reading Comprehension",
+          "points": [
+            "Skim for the main idea; scan for facts.",
+            "Read the questions before reading the passage in detail.",
+            "Fact questions = find it in the text.",
+            "Inference questions = connect ideas (not directly stated).",
+            "Vocabulary questions = context is key.",
+            "Tone questions = look at word choice and emphasis.",
+            "Main idea = synthesise the whole passage.",
+            "Watch for common traps: extremes, mirror, out of scope.",
+            "Manage your time: 8-10 minutes per passage.",
+            "Practice regularly to improve speed and accuracy."
+          ]
+        }
+      ]
+    }
+  ]
+}

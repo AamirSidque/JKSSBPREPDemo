@@ -1,0 +1,50 @@
+{
+"subject_id": "grammar_tenses_modals_articles_prepositions",
+"topics": [
+{
+"id": "grammar_tenses_modals_articles_prepositions",
+"title": "Grammar: Tenses, Modals, Articles & Prepositions",
+"file": "content/general_english/grammar_tenses.json",
+"available": true
+},
+{
+"id": "active_passive_voice",
+"title": "Active and Passive Voice",
+"file": "content/general_english/active_passive_voice.json",
+"available": true
+},
+{
+"id": "direct_indirect_speech",
+"title": "Direct and Indirect Speech (Narration)",
+"file": "content/general_english/direct_indirect_speech.json",
+"available": true
+},
+  
+{
+"id": "synonyms_antonyms_idioms_phrases",
+"title": "Synonyms, Antonyms, Idioms and Phrases",
+"file": "content/general_english/synonyms_antonyms_idioms_phrases.json",
+"available": true
+},
+{
+"id": "reading_comprehension",
+"title": "Reading Comprehension",
+"file": "content/general_english/reading_comprehension.json",
+"available": true
+},
+  
+{
+"id": "error_spotting_sentence_improvement",
+"title": "Error Spotting and Sentence Improvement",
+"file": "content/general_english/error_spotting_sentence_improvement.json",
+"available": true
+},
+  
+{
+"id": "professional_communication",
+"title": "Professional Communication",
+"file": "content/general_english/professional_communication.json",
+"available": true
+}
+]
+}

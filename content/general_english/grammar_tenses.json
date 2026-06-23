@@ -1,0 +1,771 @@
+{
+  "id": "grammar_tenses_modals_articles_prepositions",
+  "subject_id": "general_english",
+  "title": "Grammar: Tenses, Modals, Articles & Prepositions",
+  "subtopics": [
+    {
+      "id": "grammar_intro",
+      "title": "Introduction to Grammar – Parts of Speech & Core Concepts",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "English Grammar Foundation",
+          "subtitle": "The Building Blocks of Communication",
+          "tags": ["JKSSB", "High Weightage", "English"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "What is Grammar?",
+          "content": "Grammar is the system of rules that governs the structure of language. It includes syntax (word order), morphology (word forms), and semantics (meaning).",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Parts of Speech – Quick Overview",
+          "left_header": "Part of Speech",
+          "right_header": "Function",
+          "rows": [
+            { "left": "Noun", "right": "Names a person, place, thing, or idea (e.g., John, London, table)." },
+            { "left": "Pronoun", "right": "Replaces a noun (e.g., he, she, it, they)." },
+            { "left": "Verb", "right": "Shows action or state of being (e.g., run, is, have)." },
+            { "left": "Adjective", "right": "Modifies a noun or pronoun (e.g., beautiful, tall)." },
+            { "left": "Adverb", "right": "Modifies a verb, adjective, or another adverb (e.g., quickly, very)." },
+            { "left": "Preposition", "right": "Shows relationship between a noun/pronoun and another word (e.g., on, in, at)." },
+            { "left": "Conjunction", "right": "Connects words, phrases, or clauses (e.g., and, but, because)." },
+            { "left": "Interjection", "right": "Expresses strong emotion (e.g., Wow!, Oh!)." }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Takeaway",
+          "points": [
+            "Understanding parts of speech is essential for mastering grammar.",
+            "Every word in a sentence belongs to at least one part of speech.",
+            "Words can change function depending on context (e.g., 'run' as a verb vs noun)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present_tenses",
+      "title": "Present Tenses – Indefinite, Continuous, Perfect & Perfect Continuous",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Present Tenses",
+          "subtitle": "Actions Happening Now, Regularly, or with Present Relevance",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "formula",
+          "title": "Present Tense Structures",
+          "formula": "1. Present Indefinite: Subject + V1 (s/es)\n2. Present Continuous: Subject + is/am/are + V1+ing\n3. Present Perfect: Subject + has/have + V3\n4. Present Perfect Continuous: Subject + has/have + been + V1+ing",
+          "description": "Time expressions: always, often, never, every day (Indefinite); now, at the moment (Continuous); already, yet, just, ever (Perfect); since, for (Perfect Continuous)."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Present Indefinite (Habit)",
+          "given": ["She (go) to the gym every morning."],
+          "find": "Correct verb form",
+          "steps": [
+            "Present Indefinite is used for habits/routines.",
+            "Subject is 'She' (third person singular) → add 'es' to go → 'goes'."
+          ],
+          "answer": "She goes to the gym every morning.",
+          "formula_used": "Subject + V1 (s/es)"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Present Perfect (Completed action with present relevance)",
+          "given": ["I (finish) my homework already."],
+          "find": "Correct verb form",
+          "steps": [
+            "Present Perfect is used for past actions with present relevance.",
+            "Keyword: 'already' signals Present Perfect.",
+            "I + have + V3 (finished)."
+          ],
+          "answer": "I have finished my homework already.",
+          "formula_used": "Subject + has/have + V3"
+        },
+        {
+          "type": "table",
+          "title": "Present Tenses – Quick Reference",
+          "headers": ["Tense", "Structure", "Usage", "Example"],
+          "rows": [
+            ["Present Indefinite", "Subject + V1 (s/es)", "Habits, Universal Truths", "The sun rises in the east."],
+            ["Present Continuous", "Subject + is/am/are + V1+ing", "Actions happening now, temporary", "He is reading a book."],
+            ["Present Perfect", "Subject + has/have + V3", "Completed actions with present effect", "I have lost my keys."],
+            ["Present Perfect Continuous", "Subject + has/have + been + V1+ing", "Actions started in past, continuing", "She has been working for 2 hours."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using Simple Present for Present Continuous situations.",
+          "wrong": "She is knowing the answer.",
+          "correct": "She knows the answer.",
+          "tip": "Stative verbs (know, like, belong, own, etc.) are NOT used in continuous forms."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Use 's/es' with third person singular in Indefinite.",
+            "Use 'is/am/are + V1+ing' for ongoing actions.",
+            "Use 'has/have + V3' for finished actions with present impact.",
+            "Use 'has/have been + V1+ing' for duration.",
+            "Stative verbs do not take continuous form."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past_tenses",
+      "title": "Past Tenses – Indefinite, Continuous, Perfect & Perfect Continuous",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Past Tenses",
+          "subtitle": "Actions Completed or Ongoing in the Past",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "formula",
+          "title": "Past Tense Structures",
+          "formula": "1. Past Indefinite: Subject + V2\n2. Past Continuous: Subject + was/were + V1+ing\n3. Past Perfect: Subject + had + V3\n4. Past Perfect Continuous: Subject + had been + V1+ing",
+          "description": "Time expressions: yesterday, last week (Indefinite); while, when (Continuous); before, after, by the time (Perfect); since, for (Perfect Continuous)."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Past Perfect (Earlier past action)",
+          "given": ["The train (leave) before I reached the station."],
+          "find": "Correct verb form",
+          "steps": [
+            "Two past actions: 'reached' is simple past. The train left before that.",
+            "Earlier action needs Past Perfect: had + V3 (left)."
+          ],
+          "answer": "The train had left before I reached the station.",
+          "formula_used": "Subject + had + V3"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Past Continuous (Interrupted action)",
+          "given": ["I (watch) TV when the power went off."],
+          "find": "Correct verb form",
+          "steps": [
+            "Action was in progress when another action interrupted it.",
+            "Use Past Continuous: was/were + V1+ing.",
+            "I + was + watching."
+          ],
+          "answer": "I was watching TV when the power went off.",
+          "formula_used": "Subject + was/were + V1+ing"
+        },
+        {
+          "type": "table",
+          "title": "Past Tenses – Quick Reference",
+          "headers": ["Tense", "Structure", "Usage", "Example"],
+          "rows": [
+            ["Past Indefinite", "Subject + V2", "Completed past action", "I bought a car yesterday."],
+            ["Past Continuous", "Subject + was/were + V1+ing", "Past action in progress", "He was sleeping at 10 pm."],
+            ["Past Perfect", "Subject + had + V3", "Earlier of two past actions", "She had left before I called."],
+            ["Past Perfect Continuous", "Subject + had been + V1+ing", "Duration before something in past", "They had been waiting for an hour."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using Past Perfect unnecessarily.",
+          "wrong": "I had seen him yesterday.",
+          "correct": "I saw him yesterday.",
+          "tip": "If the sequence of past actions is clear (using 'then', 'after'), past indefinite is preferred."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "V2 is used for past indefinite (regular verbs end in -ed).",
+            "Use Past Perfect for the earlier of two past actions.",
+            "Use Past Continuous for ongoing past actions, especially interrupted ones."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future_tenses",
+      "title": "Future Tenses – Indefinite, Continuous, Perfect & Perfect Continuous",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Future Tenses",
+          "subtitle": "Actions Yet to Happen",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "formula",
+          "title": "Future Tense Structures",
+          "formula": "1. Future Indefinite: Subject + will/shall + V1\n2. Future Continuous: Subject + will be + V1+ing\n3. Future Perfect: Subject + will have + V3\n4. Future Perfect Continuous: Subject + will have been + V1+ing",
+          "description": "Time expressions: tomorrow, next week, in two days, by 2025, by the time."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Future Perfect (Completion by a certain time)",
+          "given": ["By 2025, I (complete) my degree."],
+          "find": "Correct verb form",
+          "steps": [
+            "By 2025 signals a deadline in the future.",
+            "Use Future Perfect: will have + V3."
+          ],
+          "answer": "By 2025, I will have completed my degree.",
+          "formula_used": "Subject + will have + V3"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Future Continuous (Action in progress in future)",
+          "given": ["This time tomorrow, I (fly) to London."],
+          "find": "Correct verb form",
+          "steps": [
+            "Action will be in progress at a specific future time.",
+            "Use Future Continuous: will be + V1+ing."
+          ],
+          "answer": "This time tomorrow, I will be flying to London.",
+          "formula_used": "Subject + will be + V1+ing"
+        },
+        {
+          "type": "table",
+          "title": "Future Tenses – Quick Reference",
+          "headers": ["Tense", "Structure", "Usage", "Example"],
+          "rows": [
+            ["Future Indefinite", "Subject + will + V1", "Predictions, spontaneous decisions", "It will rain tomorrow."],
+            ["Future Continuous", "Subject + will be + V1+ing", "Actions in progress at a future time", "She will be working at 9 am."],
+            ["Future Perfect", "Subject + will have + V3", "Completion by a future time", "He will have finished by 5 pm."],
+            ["Future Perfect Continuous", "Subject + will have been + V1+ing", "Duration up to a future time", "I will have been working for 5 years."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "'Will' is used for most future situations.",
+            "'Shall' is used with I/we in formal British English.",
+            "Use Future Perfect for deadlines in the future.",
+            "Use Future Continuous for ongoing future actions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modals",
+      "title": "Modal Verbs – Can, Could, May, Might, Must, Should, Would, etc.",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Modal Verbs",
+          "subtitle": "Expressing Ability, Permission, Obligation, and Possibility",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "What are Modals?",
+          "content": "Modals are auxiliary verbs that express necessity, possibility, permission, or ability. They are used with the base form of the main verb (V1).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Modals – Meanings and Uses",
+          "headers": ["Modal", "Use", "Example"],
+          "rows": [
+            ["Can", "Ability, informal permission, possibility", "I can swim. Can I go? It can be difficult."],
+            ["Could", "Past ability, polite request, possibility", "I could run fast. Could you help me? It could rain."],
+            ["May", "Formal permission, possibility", "May I come in? It may rain today."],
+            ["Might", "Less certain possibility", "She might be late."],
+            ["Must", "Necessity, obligation, strong certainty", "You must stop. It must be true."],
+            ["Should", "Advice, obligation, expectation", "You should study. It should work."],
+            ["Would", "Polite request, habitual past, unreal situations", "Would you like tea? He would come every day. I would do it if I could."],
+            ["Shall", "Future (formal), suggestion", "I shall return. Shall we dance?"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Modal of Obligation",
+          "given": ["You (must/should) not smoke in public places."],
+          "find": "Choose the correct modal",
+          "steps": [
+            "Smoking in public is prohibited by law.",
+            "'Must not' indicates prohibition or strong obligation.",
+            "'Should not' is advice, not a legal rule."
+          ],
+          "answer": "You must not smoke in public places.",
+          "formula_used": "Must + V1 (prohibition)"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Modal of Past Ability",
+          "given": ["When I was young, I (can/could) climb any tree."],
+          "find": "Choose the correct modal",
+          "steps": [
+            "Past ability requires 'could'.",
+            "'Can' is used for present ability."
+          ],
+          "answer": "When I was young, I could climb any tree.",
+          "formula_used": "Could + V1 (past ability)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using 'may' for certainty.",
+          "wrong": "It may definitely rain today.",
+          "correct": "It will definitely rain today. / It may rain today.",
+          "tip": "'May' shows possibility (less than 100%). Use 'will' for certainty."
+        },
+        {
+          "type": "note_card",
+          "title": "Advanced: Modal Perfects",
+          "variant": "important",
+          "content": "Modal + have + V3: Must have (logical conclusion), Should have (past advice not taken), Could have (past ability not used), May have (past possibility), Might have (past less certain possibility).\nExample: 'He must have left already' (I'm sure he left)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Modals do not change form (no -s, -ed, -ing).",
+            "They are always followed by V1 (base form).",
+            "'Must not' is prohibition; 'don't have to' is absence of obligation.",
+            "Modal perfects are used for past situations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "articles",
+      "title": "Articles – Definite (The) and Indefinite (A, An)",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Articles",
+          "subtitle": "Specifying Nouns",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📌",
+          "title": "What are Articles?",
+          "content": "Articles are words that define a noun as specific or unspecific. 'A/An' are indefinite, 'The' is definite.",
+          "highlight": true
+        },
+        {
+          "type": "formula",
+          "title": "Article Rules",
+          "formula": "1. A – used before words starting with a consonant sound (a book, a university).\n2. An – used before words starting with a vowel sound (an apple, an hour).\n3. The – used for specific/unique items (the sun, the book on the table).",
+          "description": "Remember: The choice of 'a/an' depends on the SOUND, not just the first letter."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Choosing A vs An",
+          "given": ["She is ___ university professor."],
+          "find": "Fill with a/an",
+          "steps": [
+            "University starts with 'u' which makes a consonant sound (yoo).",
+            "So, use 'a'."
+          ],
+          "answer": "a university professor",
+          "formula_used": "A + consonant sound"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Choosing The vs No Article",
+          "given": ["___ honesty is the best policy."],
+          "find": "Fill with the/no article",
+          "steps": [
+            "Abstract nouns (honesty, truth, beauty) generally do not take an article.",
+            "However, 'the best' is a superlative, and 'the' is used with superlatives."
+          ],
+          "answer": "Honesty is the best policy.",
+          "formula_used": "No article before abstract nouns; 'the' before superlatives."
+        },
+        {
+          "type": "table",
+          "title": "Article Usage – Quick Reference",
+          "headers": ["Use", "Rule", "Example"],
+          "rows": [
+            ["A", "Consonant sound", "a cat, a university, a one-eyed man"],
+            ["An", "Vowel sound", "an apple, an hour, an honest man"],
+            ["The", "Specific/unique", "the Taj Mahal, the book I bought"],
+            ["No article", "Plural/general, abstract nouns", "Dogs are friendly. Honesty is good."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using 'an' with 'university'.",
+          "wrong": "an university",
+          "correct": "a university",
+          "tip": "Focus on the sound: university sounds like 'yoo-ni-ver-si-ty' – consonant sound."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "A/An are indefinite – used for first mention.",
+            "The is definite – used for specific or unique things.",
+            "No article is used with plural countable nouns and most uncountable nouns when speaking generally.",
+            "Remember the SOUND rule for a/an."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prepositions",
+      "title": "Prepositions – Time, Place, Movement, and Fixed Expressions",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Prepositions",
+          "subtitle": "Showing Relationships between Words",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📍",
+          "title": "What are Prepositions?",
+          "content": "Prepositions are words that show the relationship between a noun/pronoun and another word in the sentence. Common ones: in, on, at, by, with, for, from, under, over, etc.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Prepositions of Time, Place, and Movement",
+          "headers": ["Preposition", "Time", "Place", "Movement/Other"],
+          "rows": [
+            ["At", "at 5 pm, at night", "at the door, at the table", "Look at me."],
+            ["In", "in 2025, in the evening", "in the room, in London", "in a car (ride)"],
+            ["On", "on Monday, on time", "on the table, on the bus", "on foot"],
+            ["By", "by 2025 (deadline)", "by the river, by the door", "by car (transport)"],
+            ["For", "for 2 hours (duration)", "", "for you (purpose)"],
+            ["Since", "since 2020 (point in time)", "", "I have been here since morning."],
+            ["From", "from 9 to 5", "from Delhi (origin)", ""]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Preposition of Time",
+          "given": ["We have a meeting ___ Monday morning."],
+          "find": "Fill in the blank.",
+          "steps": [
+            "For specific days, use 'on'.",
+            "'In' is used for months/years, 'at' for specific times."
+          ],
+          "answer": "We have a meeting on Monday morning.",
+          "formula_used": "On + day"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Preposition of Place",
+          "given": ["She is sitting ___ the chair."],
+          "find": "Fill in the blank.",
+          "steps": [
+            "If you are sitting on a surface (chair), use 'on'.",
+            "'In' is used for vehicles (in a car) or enclosed spaces."
+          ],
+          "answer": "She is sitting on the chair.",
+          "formula_used": "On + surface"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing 'In' and 'Into'.",
+          "wrong": "He jumped in the water.",
+          "correct": "He jumped into the water.",
+          "tip": "'In' indicates position; 'Into' indicates movement toward the inside."
+        },
+        {
+          "type": "note_card",
+          "title": "Advanced: Fixed Prepositional Phrases",
+          "variant": "remember",
+          "content": "Many verbs and adjectives take fixed prepositions: \n- Interested in, Good at, Afraid of, Depend on, Succeed in, etc.\nMemorize common collocations (e.g., responsible for, proud of, satisfied with)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "At = specific time/point. In = larger periods (months/years). On = days/dates.",
+            "In = enclosed space. On = surface. At = point/position.",
+            "Into = movement (inside), In = position (inside).",
+            "Learn fixed prepositional phrases (verb + prep)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced_conditionals",
+      "title": "Advanced Grammar – Conditionals, Subjunctive, Modal Perfects",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Grammar Concepts",
+          "subtitle": "Conditionals, Subjunctive Mood & Modal Perfects",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Conditional Sentences",
+          "content": "Conditional sentences express 'if' scenarios. There are 4 types: Zero (always true), First (likely future), Second (unreal present/future), Third (unreal past).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Conditional Types – Structure & Usage",
+          "headers": ["Type", "If Clause", "Main Clause", "Usage", "Example"],
+          "rows": [
+            ["Zero", "If + Present", "Present", "Universal truths", "If you heat ice, it melts."],
+            ["First", "If + Present", "will + V1", "Real future", "If it rains, I will stay home."],
+            ["Second", "If + Past", "would + V1", "Unreal present", "If I were rich, I would travel."],
+            ["Third", "If + Past Perfect", "would have + V3", "Unreal past", "If I had known, I would have come."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Third Conditional (Unreal Past)",
+          "given": ["She (pass) the exam if she (study) harder."],
+          "find": "Correct verb forms.",
+          "steps": [
+            "This is an unreal past situation (she didn't study).",
+            "If clause: Past Perfect (had studied).",
+            "Main clause: would have + V3 (would have passed)."
+          ],
+          "answer": "She would have passed the exam if she had studied harder.",
+          "formula_used": "If + had + V3, would have + V3"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Subjunctive Mood",
+          "given": ["I suggest that he (study) more."],
+          "find": "Correct verb form.",
+          "steps": [
+            "After suggest, recommend, insist, etc., use base form (V1) in the that-clause.",
+            "This is the subjunctive mood."
+          ],
+          "answer": "I suggest that he study more.",
+          "formula_used": "Subjunctive: V1 (base form)"
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Modal Perfects Recap",
+          "content": "Must have = strong deduction. Should have = past advice (missed opportunity). Could have = ability not used. May have = possibility. Might have = less certain possibility.",
+          "highlight": false
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using 'was' instead of 'were' in Second Conditional.",
+          "wrong": "If I was you...",
+          "correct": "If I were you...",
+          "tip": "Always use 'were' (subjunctive) in the second conditional, regardless of the subject."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Zero: If + Present → Present.",
+            "First: If + Present → will + V1.",
+            "Second: If + Past → would + V1.",
+            "Third: If + Past Perfect → would have + V3.",
+            "Subjunctive: Base form after suggest, insist, etc.",
+            "Modal Perfects help express past deductions, advice, and possibilities."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common_grammar_errors",
+      "title": "Common Grammar Errors – Subject-Verb Agreement, Tenses, Prepositions",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Common Grammar Errors",
+          "subtitle": "Exam Favorites",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 1: Subject-Verb Agreement with Collective Nouns",
+          "wrong": "The team are playing well.",
+          "correct": "The team is playing well.",
+          "tip": "Collective nouns (team, group, committee) take singular verbs when acting as a unit."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 2: 'Each' and 'Every' are Singular",
+          "wrong": "Each of the boys are responsible.",
+          "correct": "Each of the boys is responsible.",
+          "tip": "Subjects with 'each', 'every', 'either', 'neither' take singular verbs."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 3: 'Since' vs 'For'",
+          "wrong": "I have been here since two hours.",
+          "correct": "I have been here for two hours.",
+          "tip": "'Since' is used with a point in time (since 2020). 'For' is used with a duration (for 2 hours)."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 4: 'Less' vs 'Fewer'",
+          "wrong": "I have less apples than you.",
+          "correct": "I have fewer apples than you.",
+          "tip": "'Fewer' is used with countable nouns (apples). 'Less' is used with uncountable nouns (water)."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 5: 'Who' vs 'Whom'",
+          "wrong": "Whom is coming today?",
+          "correct": "Who is coming today?",
+          "tip": "'Who' is the subject; 'Whom' is the object (Whom did you see? – you saw him)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Collective nouns take singular verbs.",
+            "Each/Every/Either/Neither take singular verbs.",
+            "Since = point in time, For = duration.",
+            "Fewer = countable, Less = uncountable.",
+            "Who = subject, Whom = object."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Grammar – Practice Set",
+          "subtitle": "Tenses, Modals, Articles, Prepositions",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Read the entire sentence. Check the subject-verb agreement. Look for time expressions to identify the correct tense. Verify prepositions and articles.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "He ______ to the office every day.",
+          "options": ["go", "goes", "going", "is going"],
+          "answer": 1,
+          "explanation": "'Every day' indicates a routine. Subject is 'He' (third person singular) → 'goes'.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "She ______ already ______ her homework.",
+          "options": ["has, finished", "have, finished", "had, finish", "has, finish"],
+          "answer": 0,
+          "explanation": "'Already' signals Present Perfect. Subject 'She' → 'has'. V3 of finish is 'finished'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "You ______ stop at the red signal.",
+          "options": ["must", "can", "may", "will"],
+          "answer": 0,
+          "explanation": "Red signal indicates a legal obligation → 'must'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "She is ______ honest woman.",
+          "options": ["a", "an", "the", "no article"],
+          "answer": 1,
+          "explanation": "'Honest' starts with a vowel sound (o). So, 'an' is used.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "We have been working ______ 10 am.",
+          "options": ["for", "from", "since", "by"],
+          "answer": 2,
+          "explanation": "10 am is a specific point in time → use 'since'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "If I ______ you, I would accept the offer.",
+          "options": ["was", "were", "am", "will be"],
+          "answer": 1,
+          "explanation": "Second conditional (unreal present) uses 'were' for all subjects.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "I suggest that he ______ immediately.",
+          "options": ["leave", "leaves", "left", "will leave"],
+          "answer": 0,
+          "explanation": "Subjunctive mood after 'suggest' → base form (leave).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The furniture ______ very expensive.",
+          "options": ["is", "are", "were", "have been"],
+          "answer": 0,
+          "explanation": "'Furniture' is an uncountable noun, hence singular verb 'is'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "He has ______ money than I have.",
+          "options": ["less", "fewer", "few", "little"],
+          "answer": 0,
+          "explanation": "'Money' is uncountable → 'less'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "By 2026, they ______ construction of the building.",
+          "options": ["will complete", "will have completed", "would complete", "will be completing"],
+          "answer": 1,
+          "explanation": "'By 2026' signals a deadline in the future → Future Perfect (will have completed).",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review subject-verb agreement rules, the usage of 'since' vs 'for', and the sound-based rule for 'a/an'. Practice conditional and subjunctive structures."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Grammar",
+          "points": [
+            "Tenses: Identify time expressions to choose the correct tense.",
+            "Modals: Must (obligation), Can (ability), Could (past ability), Should (advice).",
+            "Articles: A/An = sound-based; The = specific.",
+            "Prepositions: At (time/place), In (longer time/enclosed space), On (day/surface).",
+            "Conditionals: If + Present → will; If + Past → would; If + Past Perfect → would have.",
+            "Subjunctive: Base form after suggest/insist.",
+            "Common errors: Collective nouns (singular), Each/Every (singular), Since/For, Less/Fewer."
+          ]
+        }
+      ]
+    }
+  ]
+}

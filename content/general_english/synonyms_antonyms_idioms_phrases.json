@@ -1,0 +1,810 @@
+{
+  "id": "synonyms_antonyms_idioms_phrases",
+  "subject_id": "general_english",
+  "title": "Synonyms, Antonyms, Idioms and Phrases",
+  "subtopics": [
+    {
+      "id": "vocab_intro",
+      "title": "Introduction to Vocabulary – Synonyms, Antonyms, Idioms",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Synonyms, Antonyms, Idioms & Phrases",
+          "subtitle": "Building a Powerful Vocabulary",
+          "tags": ["JKSSB", "High Weightage", "English"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "Why Vocabulary Matters",
+          "content": "A strong vocabulary is essential for comprehension, writing, and competitive exams. Synonyms and antonyms test word relationships; idioms and phrases test cultural and contextual understanding.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "Key Definitions",
+          "content": "• Synonym: A word with the same or similar meaning (e.g., happy → joyful).\n• Antonym: A word with the opposite meaning (e.g., happy → sad).\n• Idiom: A fixed expression with a figurative meaning (e.g., 'kick the bucket' = die).\n• Phrase: A group of words that function as a unit (e.g., 'in a nutshell' = briefly).",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "How to Build Vocabulary",
+          "steps": [
+            "Step 1: Read extensively (newspapers, novels, magazines).",
+            "Step 2: Learn root words, prefixes, and suffixes.",
+            "Step 3: Maintain a vocabulary journal with example sentences.",
+            "Step 4: Practice with flashcards and word lists.",
+            "Step 5: Apply new words in writing and speaking."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Synonyms and antonyms test word relationships.",
+            "Idioms have figurative meanings (not literal).",
+            "Phrases function as single units in a sentence.",
+            "Consistent reading and practice is the best way to build vocabulary."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synonyms_types",
+      "title": "Types of Synonyms – Exact, Near, Contextual",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Understanding Synonyms",
+          "subtitle": "Exact, Near, and Contextual Equivalents",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔤",
+          "title": "Exact Synonyms",
+          "content": "Words that are interchangeable in almost all contexts with the same meaning. Example: 'begin' and 'start'.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔤",
+          "title": "Near Synonyms",
+          "content": "Words that share a general meaning but differ in nuance, formality, or usage. Example: 'happy' and 'content' – both mean positive emotion, but 'content' implies satisfaction.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔤",
+          "title": "Contextual Synonyms",
+          "content": "Words that are synonyms only in specific contexts. Example: 'run' can be a synonym of 'manage' (run a company) or 'operate' (run a machine).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Examples of Synonym Types",
+          "headers": ["Type", "Word", "Synonym(s)", "Context"],
+          "rows": [
+            ["Exact", "start", "begin", "Interchangeable anywhere."],
+            ["Near", "happy", "joyful, cheerful, content", "Joyful = very happy, content = satisfied."],
+            ["Contextual", "run", "manage (a company), operate (a machine)", "Depends on the noun being acted upon."],
+            ["Contextual", "fast", "quick (speed), firm (hold)", "Fast car vs fast friend."],
+            ["Near", "angry", "furious, annoyed, irritated", "Different intensity levels."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Choosing the Right Synonym",
+          "given": ["The word 'abundant' means plentiful."],
+          "find": "Which of these is the closest synonym: plentiful, scarce, enough, overflowing?",
+          "steps": [
+            "'Scarce' is an antonym.",
+            "'Enough' means sufficient, not abundant.",
+            "'Overflowing' implies excess, which is closer to abundant.",
+            "Answer: overflowing."
+          ],
+          "answer": "Overflowing",
+          "formula_used": "Contextual and intensity analysis."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Exact synonyms are interchangeable in all contexts.",
+            "Near synonyms have nuanced differences.",
+            "Contextual synonyms depend on the sentence context.",
+            "When choosing a synonym, always consider the context and intensity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antonyms_types",
+      "title": "Types of Antonyms – Complementary, Gradable, Relational",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Understanding Antonyms",
+          "subtitle": "Complementary, Gradable, and Relational Opposites",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Complementary Antonyms",
+          "content": "A binary pair where one excludes the other (A or Not A). Example: alive/dead, true/false, male/female. There is no middle ground.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Gradable Antonyms",
+          "content": "Words that exist on a spectrum with degrees in between. Example: hot/cold (warm, cool, lukewarm), big/small (huge, large, tiny).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Relational Antonyms",
+          "content": "Pairs that have a reciprocal relationship – one implies the other. Example: teacher/student, parent/child, buy/sell.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Examples of Antonym Types",
+          "headers": ["Type", "Pair", "Characteristics", "Example"],
+          "rows": [
+            ["Complementary", "alive/dead", "No middle ground.", "He is either alive or dead – not both."],
+            ["Complementary", "true/false", "Binary opposite.", "The statement is either true or false."],
+            ["Gradable", "hot/cold", "Degrees exist (warm, cool).", "The weather is hot, warm, cool, or cold."],
+            ["Gradable", "big/small", "Degrees exist (huge, large, tiny).", "The elephant is big; the ant is small."],
+            ["Relational", "teacher/student", "One implies the other.", "If there is a teacher, there must be a student."],
+            ["Relational", "buy/sell", "Reciprocal transaction.", "One person buys; the other sells."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Identifying Antonym Type",
+          "given": ["Pair: 'employer' and 'employee'"],
+          "find": "What type of antonym is this?",
+          "steps": [
+            "Employer and employee have a reciprocal relationship.",
+            "One cannot exist without the other.",
+            "Answer: Relational antonym."
+          ],
+          "answer": "Relational antonym",
+          "formula_used": "Check if one implies the other."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Complementary: No middle ground (alive/dead).",
+            "Gradable: Degrees in between (hot/cold).",
+            "Relational: One implies the other (teacher/student).",
+            "Identifying the type helps in understanding word relationships."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root_words",
+      "title": "Building Vocabulary – Root Words, Prefixes, and Suffixes",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Root Words, Prefixes, and Suffixes",
+          "subtitle": "The Building Blocks of English Vocabulary",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Why Root Words Work",
+          "content": "Over 60% of English words come from Latin and Greek roots. Learning roots helps you decode the meaning of unfamiliar words in exams.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common Root Words and Their Meanings",
+          "headers": ["Root", "Meaning", "Examples"],
+          "rows": [
+            ["bene", "good/well", "benefit, benevolent, benign"],
+            ["mal", "bad/evil", "malice, malicious, malignant"],
+            ["dict", "say/speak", "dictate, predict, dictionary"],
+            ["scrib/script", "write", "scribe, describe, manuscript"],
+            ["spec", "see/look", "inspect, spectator, speculation"],
+            ["port", "carry", "transport, import, export"],
+            ["aud", "hear", "audience, audible, auditorium"],
+            ["graph", "write", "autograph, biography, graphic"],
+            ["chron", "time", "chronology, chronic, synchronize"],
+            ["bio", "life", "biology, biography, biosphere"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Common Prefixes and Meanings",
+          "headers": ["Prefix", "Meaning", "Examples"],
+          "rows": [
+            ["un-", "not", "unhappy, unfair, unknown"],
+            ["re-", "again", "rewrite, redo, replay"],
+            ["pre-", "before", "preview, prefix, preheat"],
+            ["post-", "after", "postpone, postwar, postgraduate"],
+            ["mis-", "wrong", "misunderstand, misuse, misfire"],
+            ["anti-", "against", "antibiotic, antisocial, antiwar"],
+            ["sub-", "below/under", "submarine, subconscious, substandard"],
+            ["super-", "above/beyond", "superhuman, superpower, supermarket"],
+            ["inter-", "between", "interact, intercity, internet"],
+            ["trans-", "across", "transport, translate, transplant"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Common Suffixes and Meanings",
+          "headers": ["Suffix", "Meaning", "Examples"],
+          "rows": [
+            ["-tion", "state/action", "education, creation, revolution"],
+            ["-ment", "result/action", "enjoyment, government, arrangement"],
+            ["-ness", "state/quality", "happiness, kindness, sadness"],
+            ["-ity", "state/quality", "activity, reality, ability"],
+            ["-able/-ible", "capable of", "readable, visible, comfortable"],
+            ["-ous", "full of", "dangerous, famous, courageous"],
+            ["-ful", "full of", "beautiful, careful, hopeful"],
+            ["-less", "without", "careless, hopeless, fearless"],
+            ["-er/-or", "person who", "teacher, actor, writer"],
+            ["-ism", "belief/action", "capitalism, nationalism, heroism"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Using Root Words to Decode Meaning",
+          "given": ["The word 'benevolent' contains the root 'bene'."],
+          "find": "What is the meaning of 'benevolent'?",
+          "steps": [
+            "'Bene' = good/well.",
+            "'Volent' = wishing.",
+            "Combined: wishing good."
+          ],
+          "answer": "Kindly, good-hearted, charitable.",
+          "formula_used": "Root word + suffix analysis"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Root words carry the core meaning.",
+            "Prefixes modify meaning (e.g., un- = not).",
+            "Suffixes indicate part of speech or function.",
+            "Learning 100 roots can unlock thousands of words."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced_synonyms",
+      "title": "Advanced Synonyms List – Commonly Tested in Exams",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Synonyms",
+          "subtitle": "High-Frequency Words for Competitive Exams",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Top 30 Advanced Synonyms",
+          "headers": ["Word", "Synonyms"],
+          "rows": [
+            ["Abundant", "plentiful, ample, copious, profuse"],
+            ["Benevolent", "kind, charitable, generous, altruistic"],
+            ["Candid", "frank, open, honest, straightforward"],
+            ["Devious", "sly, cunning, deceptive, scheming"],
+            ["Eloquent", "articulate, fluent, expressive, persuasive"],
+            ["Futile", "useless, pointless, vain, fruitless"],
+            ["Gregarious", "sociable, outgoing, friendly, companionable"],
+            ["Haughty", "arrogant, proud, conceited, disdainful"],
+            ["Intrepid", "fearless, brave, courageous, daring"],
+            ["Jubilant", "joyful, ecstatic, triumphant, elated"],
+            ["Keen", "eager, enthusiastic, sharp, perceptive"],
+            ["Lethargic", "sluggish, lazy, listless, inactive"],
+            ["Meticulous", "careful, thorough, precise, diligent"],
+            ["Nostalgic", "sentimental, wistful, reminiscent, longing"],
+            ["Oblivious", "unaware, heedless, forgetful, inattentive"],
+            ["Pragmatic", "practical, realistic, sensible, rational"],
+            ["Querulous", "complaining, irritable, fretful, discontented"],
+            ["Resilient", "tough, strong, adaptable, flexible"],
+            ["Stoic", "calm, indifferent, unemotional, impassive"],
+            ["Tenacious", "persistent, determined, stubborn, resolute"],
+            ["Ubiquitous", "everywhere, omnipresent, pervasive, universal"],
+            ["Venerable", "respected, esteemed, honored, revered"],
+            ["Whimsical", "fanciful, playful, quirky, eccentric"],
+            ["Zealous", "passionate, enthusiastic, devoted, fervent"],
+            ["Arduous", "difficult, demanding, strenuous, laborious"],
+            ["Brevity", "conciseness, shortness, succinctness, briefness"],
+            ["Cohesive", "unified, integrated, coherent, connected"],
+            ["Docile", "obedient, submissive, compliant, teachable"],
+            ["Ephemeral", "short-lived, fleeting, temporary, transient"],
+            ["Frivolous", "trivial, silly, superficial, light-hearted"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "ABC",
+          "memory_trick": "Always Build Connections – link new words to words you already know."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Study synonyms in groups (e.g., intensity levels).",
+            "Pay attention to nuance (e.g., happy vs content vs ecstatic).",
+            "Use flashcards or apps to practice.",
+            "In exams, the closest synonym is often the most specific."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced_antonyms",
+      "title": "Advanced Antonyms List – Commonly Tested in Exams",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Antonyms",
+          "subtitle": "High-Frequency Opposite Pairs",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Top 30 Advanced Antonyms",
+          "headers": ["Word", "Antonym(s)"],
+          "rows": [
+            ["Abundant", "scarce, deficient, insufficient, sparse"],
+            ["Benevolent", "malevolent, cruel, unkind, malicious"],
+            ["Candid", "evasive, secretive, dishonest, deceptive"],
+            ["Devious", "honest, straightforward, direct, sincere"],
+            ["Eloquent", "inarticulate, tongue-tied, mumbled, hesitant"],
+            ["Futile", "fruitful, effective, useful, productive"],
+            ["Gregarious", "introverted, shy, reserved, aloof"],
+            ["Haughty", "humble, modest, meek, unassuming"],
+            ["Intrepid", "fearful, cowardly, timid, intimidated"],
+            ["Jubilant", "despondent, gloomy, melancholic, sorrowful"],
+            ["Keen", "indifferent, apathetic, uninterested, dull"],
+            ["Lethargic", "energetic, active, lively, animated"],
+            ["Meticulous", "careless, sloppy, negligent, hasty"],
+            ["Nostalgic", "unemotional, detached, indifferent, apathetic"],
+            ["Oblivious", "aware, mindful, conscious, attentive"],
+            ["Pragmatic", "idealistic, impractical, unrealistic, visionary"],
+            ["Querulous", "content, satisfied, happy, pleased"],
+            ["Resilient", "fragile, weak, delicate, vulnerable"],
+            ["Stoic", "emotional, expressive, passionate, vehement"],
+            ["Tenacious", "weak, infirm, irresolute, yielding"],
+            ["Ubiquitous", "rare, scarce, uncommon, limited"],
+            ["Venerable", "disrespected, dishonored, despised, scorned"],
+            ["Whimsical", "serious, sober, practical, logical"],
+            ["Zealous", "apathetic, indifferent, lukewarm, unenthusiastic"],
+            ["Arduous", "easy, effortless, simple, uncomplicated"],
+            ["Brevity", "lengthiness, verbosity, long-windedness, prolixity"],
+            ["Cohesive", "disjointed, fragmented, disconnected, divided"],
+            ["Docile", "rebellious, unruly, defiant, disobedient"],
+            ["Ephemeral", "permanent, enduring, everlasting, eternal"],
+            ["Frivolous", "serious, important, essential, grave"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Choosing a Synonym instead of an Antonym.",
+          "wrong": "If asked for an antonym of 'taciturn', selecting 'reserved'.",
+          "correct": "Antonym of 'taciturn' (quiet) is 'loquacious' (talkative).",
+          "tip": "Always read the question carefully – it will say 'synonym' or 'antonym'."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Antonyms test opposite relationships.",
+            "Some words have multiple antonyms depending on context.",
+            "Complementary antonyms have no middle ground.",
+            "Gradable antonyms have degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idioms_intro",
+      "title": "Introduction to Idioms – Definition and Usage",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Idioms",
+          "subtitle": "Figurative Language in English",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎭",
+          "title": "What is an Idiom?",
+          "content": "An idiom is a fixed expression with a figurative meaning that is different from the literal meaning of its individual words. Example: 'It's raining cats and dogs' means 'it's raining heavily'.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📖",
+          "title": "Characteristics of Idioms",
+          "content": "• Fixed structure (cannot change words).\n• Figurative meaning (not literal).\n• Culturally specific.\n• Often used in informal speech.",
+          "highlight": false
+        },
+        {
+          "type": "comparison",
+          "title": "Idioms vs Phrases",
+          "left_header": "Idioms",
+          "right_header": "Phrases",
+          "rows": [
+            { "left": "Figurative meaning (non-literal).", "right": "Literal or idiomatic (can be both)." },
+            { "left": "Cannot be changed word by word.", "right": "Can be modified." },
+            { "left": "Fixed expression.", "right": "Flexible structure." },
+            { "left": "Example: 'kick the bucket' = die", "right": "Example: 'in the morning' = time" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Idioms have figurative meanings.",
+            "They are fixed expressions.",
+            "Understanding idioms is essential for comprehension and writing.",
+            "In exams, idioms are often tested through fill-in-the-blanks or synonym/antonym of the idiom's meaning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common_idioms",
+      "title": "Common Idioms with Meanings and Examples",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Common Idioms",
+          "subtitle": "50+ Must-Know Idioms for Competitive Exams",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Common Idioms (A-I)",
+          "headers": ["Idiom", "Meaning", "Example"],
+          "rows": [
+            ["A blessing in disguise", "Something that seems bad but turns out good.", "Losing that job was a blessing in disguise."],
+            ["A dime a dozen", "Something very common.", "Cheap phones are a dime a dozen."],
+            ["A piece of cake", "Very easy.", "The test was a piece of cake."],
+            ["Bite the bullet", "Face a difficult situation bravely.", "I had to bite the bullet and apologize."],
+            ["Break the ice", "Start a conversation in a social setting.", "He told a joke to break the ice."],
+            ["Burn the midnight oil", "Work late into the night.", "She burned the midnight oil to finish the report."],
+            ["By the skin of your teeth", "Just barely.", "I passed the exam by the skin of my teeth."],
+            ["Cost an arm and a leg", "Very expensive.", "That car cost an arm and a leg."],
+            ["Cut corners", "Do something poorly to save time/money.", "Don't cut corners on safety."],
+            ["Devil's advocate", "One who argues for the sake of argument.", "He played devil's advocate to challenge the team."],
+            ["Don't cry over spilt milk", "Don't regret what can't be undone.", "It's done – don't cry over spilt milk."],
+            ["Drop in the bucket", "A very small amount compared to the whole.", "His donation was a drop in the bucket."],
+            ["Every cloud has a silver lining", "Every bad situation has a positive side.", "Every cloud has a silver lining – he found a better job."],
+            ["Get the ball rolling", "Start a process.", "I'll get the ball rolling with the introduction."],
+            ["Hit the sack", "Go to sleep.", "I'm tired – time to hit the sack."],
+            ["In the blink of an eye", "Very quickly.", "The accident happened in the blink of an eye."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Common Idioms (J-Z)",
+          "headers": ["Idiom", "Meaning", "Example"],
+          "rows": [
+            ["Jump on the bandwagon", "Join a popular trend.", "Everyone jumped on the bandwagon to support the team."],
+            ["Kill two birds with one stone", "Achieve two things with one action.", "I killed two birds with one stone by shopping while walking."],
+            ["Let the cat out of the bag", "Reveal a secret.", "She let the cat out of the bag about the surprise party."],
+            ["Make a mountain out of a molehill", "Exaggerate a small problem.", "Stop making a mountain out of a molehill."],
+            ["Miss the boat", "Miss an opportunity.", "I missed the boat on buying that stock."],
+            ["Once in a blue moon", "Very rarely.", "He visits us once in a blue moon."],
+            ["Piece of cake", "Very easy.", "The exam was a piece of cake."],
+            ["Pull someone's leg", "Play a joke on someone.", "Don't take it seriously – he's just pulling your leg."],
+            ["Sit on the fence", "Avoid making a decision.", "He sat on the fence during the debate."],
+            ["Spill the beans", "Reveal secret information.", "Who spilled the beans about the surprise?"],
+            ["The ball is in your court", "It's your turn to make a decision.", "I've done my part – the ball is in your court."],
+            ["Under the weather", "Feeling ill.", "I'm a bit under the weather today."],
+            ["Up in the air", "Uncertain.", "Our plans are still up in the air."],
+            ["When pigs fly", "Never.", "He'll be on time when pigs fly."],
+            ["Wrap up", "Finish something.", "Let's wrap up the meeting."],
+            ["You can't judge a book by its cover", "Don't judge by appearance.", "He may look rough, but you can't judge a book by its cover."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Idiom in Context",
+          "given": ["The new manager was a breath of fresh air for the team."],
+          "find": "What is the meaning of 'a breath of fresh air'?",
+          "steps": [
+            "Literal meaning: fresh air.",
+            "Figurative meaning: someone or something new that brings positive change.",
+            "Answer: A refreshing and positive change."
+          ],
+          "answer": "A refreshing and positive change.",
+          "formula_used": "Figurative interpretation."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Idioms are fixed expressions with figurative meanings.",
+            "Their meanings cannot be deduced from individual words.",
+            "Memorize the most common ones for exams.",
+            "Practice using them in sentences to retain meaning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common_phrases",
+      "title": "Common Phrases – Fixed Expressions",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Common Phrases",
+          "subtitle": "Everyday Fixed Expressions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "What are Phrases?",
+          "content": "A phrase is a group of words that function as a single unit in a sentence. They can be literal or idiomatic and are often used in daily conversation.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common Phrases with Meanings",
+          "headers": ["Phrase", "Meaning", "Example"],
+          "rows": [
+            ["In a nutshell", "Briefly, in a few words.", "In a nutshell, the plan failed."],
+            ["At the drop of a hat", "Without hesitation.", "He'll help at the drop of a hat."],
+            ["By and large", "Generally, on the whole.", "By and large, the project was successful."],
+            ["For good", "Permanently.", "He left for good."],
+            ["In the long run", "Over a long period.", "In the long run, it will save money."],
+            ["On the other hand", "Conversely, however.", "On the other hand, we could save money."],
+            ["Out of the blue", "Unexpectedly.", "He arrived out of the blue."],
+            ["To make matters worse", "To add to the problem.", "To make matters worse, it started raining."],
+            ["With flying colors", "Very successfully.", "She passed with flying colors."],
+            ["At all costs", "Regardless of the cost/effort.", "We must save them at all costs."],
+            ["In the nick of time", "Just in time.", "He arrived in the nick of time."],
+            ["On the dot", "Exactly on time.", "The meeting started at 10 am on the dot."],
+            ["Out of order", "Not working properly.", "The printer is out of order."],
+            ["To sum up", "To conclude.", "To sum up, we need more time."],
+            ["In one's element", "Doing what one is good at.", "She is in her element on stage."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "comparison",
+          "title": "Idioms vs Phrases – Key Differences",
+          "left_header": "Idioms",
+          "right_header": "Phrases",
+          "rows": [
+            { "left": "Always figurative.", "right": "Can be literal or figurative." },
+            { "left": "Fixed structure.", "right": "Can be modified." },
+            { "left": "Cannot change words.", "right": "Words can be changed." },
+            { "left": "Cultural and non-literal.", "right": "Often literal or common." },
+            { "left": "Example: kick the bucket = die", "right": "Example: in the morning = time" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Phrases are groups of words that function as units.",
+            "They can be literal or figurative.",
+            "Phrases are flexible and can be modified.",
+            "In exams, phrases are often tested in fill-in-the-blanks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idiom_phrases_shortcuts",
+      "title": "Shortcuts for Idioms and Phrases",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Shortcuts for Idioms & Phrases",
+          "subtitle": "Memory Aids",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Tip 1 – Group by Theme",
+          "content": "Group idioms by topic (e.g., weather: 'under the weather', 'rain cats and dogs'; animals: 'let the cat out of the bag', 'kill two birds with one stone').",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Tip 2 – Learn with Stories",
+          "content": "Create a short story using 5-10 idioms. This helps with recall.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Tip 3 – Use Flashcards",
+          "content": "Use apps like Anki or Quizlet for spaced repetition.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "STORY",
+          "memory_trick": "Sentences, Themes, Origins, Reading, Yell – methods to remember idioms."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Group idioms by theme for easier recall.",
+            "Create stories with multiple idioms.",
+            "Use flashcards for spaced repetition.",
+            "Practice with example sentences."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Vocabulary – Practice Set",
+          "subtitle": "Synonyms, Antonyms, Idioms & Phrases",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Read the question carefully. Identify whether it asks for a synonym or antonym. For idioms, understand the context before choosing the meaning.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the synonym of 'TENACIOUS'.",
+          "options": ["Weak", "Determined", "Lazy", "Fearful"],
+          "answer": 1,
+          "explanation": "'Tenacious' means persistent or determined. 'Weak' and 'lazy' are antonyms; 'fearful' is unrelated.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the antonym of 'EPHEMERAL'.",
+          "options": ["Temporary", "Permanent", "Short-lived", "Fleeting"],
+          "answer": 1,
+          "explanation": "'Ephemeral' means short-lived. 'Permanent' is its antonym. 'Temporary' and 'fleeting' are synonyms.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the meaning of the idiom 'Bite the bullet'?",
+          "options": [
+            "To eat quickly",
+            "To face a difficult situation bravely",
+            "To attack someone",
+            "To give up"
+          ],
+          "answer": 1,
+          "explanation": "'Bite the bullet' means to face a difficult or unpleasant situation with courage.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the synonym of 'BENEVOLENT'.",
+          "options": ["Cruel", "Kind", "Selfish", "Indifferent"],
+          "answer": 1,
+          "explanation": "'Benevolent' means kind and charitable. 'Cruel', 'selfish', and 'indifferent' are antonyms.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the antonym of 'CANDID'.",
+          "options": ["Honest", "Evasive", "Frank", "Straightforward"],
+          "answer": 1,
+          "explanation": "'Candid' means honest and frank. 'Evasive' (avoiding direct answers) is its antonym.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the meaning of the phrase 'By and large'?",
+          "options": ["Exactly", "Generally", "Completely", "Rarely"],
+          "answer": 1,
+          "explanation": "'By and large' means generally or on the whole.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the meaning of the idiom 'A piece of cake'?",
+          "options": ["Difficult", "Easy", "Expensive", "Delicious"],
+          "answer": 1,
+          "explanation": "'A piece of cake' means something very easy to do.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the synonym of 'GREGARIOUS'.",
+          "options": ["Sociable", "Shy", "Reserved", "Unfriendly"],
+          "answer": 0,
+          "explanation": "'Gregarious' means sociable and outgoing. 'Shy', 'reserved', and 'unfriendly' are antonyms.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the antonym of 'PRAGMATIC'.",
+          "options": ["Practical", "Realistic", "Idealistic", "Rational"],
+          "answer": 2,
+          "explanation": "'Pragmatic' means practical and realistic. 'Idealistic' is its antonym.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the meaning of the idiom 'Let the cat out of the bag'?",
+          "options": [
+            "Release an animal",
+            "Reveal a secret",
+            "Make a mistake",
+            "Tell a lie"
+          ],
+          "answer": 1,
+          "explanation": "'Let the cat out of the bag' means to reveal a secret or surprise.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the root words, prefixes, and suffixes. Practice with idiom groups. Use flashcards for spaced repetition."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Vocabulary",
+          "points": [
+            "Synonyms are words with similar meanings.",
+            "Antonyms are words with opposite meanings.",
+            "Idioms have figurative meanings (not literal).",
+            "Phrases are groups of words that function as units.",
+            "Root words help decode unfamiliar words.",
+            "Prefixes and suffixes modify root words.",
+            "Use grouping and storytelling to memorize idioms.",
+            "Practice with MCQs to improve speed."
+          ]
+        }
+      ]
+    }
+  ]
+}

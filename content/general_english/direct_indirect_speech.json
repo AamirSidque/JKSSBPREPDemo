@@ -1,0 +1,865 @@
+{
+  "id": "direct_indirect_speech",
+  "subject_id": "general_english",
+  "title": "Direct and Indirect Speech (Narration)",
+  "subtopics": [
+    {
+      "id": "narration_intro",
+      "title": "Introduction to Narration – Direct vs Indirect Speech",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Direct and Indirect Speech",
+          "subtitle": "Reporting What Someone Said",
+          "tags": ["JKSSB", "High Weightage", "English"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📢",
+          "title": "What is Narration?",
+          "content": "Narration is the art of reporting someone's words. There are two ways: Direct Speech (quoting exact words) and Indirect Speech (paraphrasing the meaning).",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Direct vs Indirect Speech",
+          "left_header": "Direct Speech",
+          "right_header": "Indirect Speech",
+          "rows": [
+            { "left": "Exact words are quoted.", "right": "Words are reported (not quoted)." },
+            { "left": "Uses quotation marks (\" \").", "right": "Does not use quotation marks." },
+            { "left": "Reporting verb is outside the quotes.", "right": "Reporting verb introduces the reported speech." },
+            { "left": "Example: He said, \"I am happy.\"", "right": "Example: He said that he was happy." }
+          ]
+        },
+        {
+          "type": "process_flow",
+          "title": "Basic Conversion Steps",
+          "steps": [
+            "Step 1: Remove quotation marks and replace with 'that' (for statements).",
+            "Step 2: Change the reporting verb (said → told, etc.) if needed.",
+            "Step 3: Change the tense of the reported speech (backshift).",
+            "Step 4: Change pronouns to match the new subject.",
+            "Step 5: Change adverbs of time and place (today → that day, here → there)."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Direct speech = quoting exact words with \"...\".",
+            "Indirect speech = paraphrasing without quotation marks.",
+            "The reporting verb is always outside the quoted part.",
+            "Three main changes: tense, pronouns, adverbs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_tense_changes",
+      "title": "Basic Rules – Tense Changes (Backshift)",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Tense Changes in Indirect Speech",
+          "subtitle": "The Backshift Rule",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "What is Backshift?",
+          "content": "When the reporting verb is in the past tense, the tense of the reported speech moves one step back in time (backshift).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Tense Changes – Direct to Indirect",
+          "headers": ["Direct Tense", "Indirect Tense", "Example (Direct)", "Example (Indirect)"],
+          "rows": [
+            ["Present Indefinite", "Past Indefinite", "He said, \"I write.\"", "He said that he wrote."],
+            ["Present Continuous", "Past Continuous", "He said, \"I am writing.\"", "He said that he was writing."],
+            ["Present Perfect", "Past Perfect", "He said, \"I have written.\"", "He said that he had written."],
+            ["Present Perfect Continuous", "Past Perfect Continuous", "He said, \"I have been writing.\"", "He said that he had been writing."],
+            ["Past Indefinite", "Past Perfect", "He said, \"I wrote.\"", "He said that he had written."],
+            ["Past Continuous", "Past Perfect Continuous", "He said, \"I was writing.\"", "He said that he had been writing."],
+            ["Past Perfect", "Past Perfect (No Change)", "He said, \"I had written.\"", "He said that he had written."],
+            ["Future Indefinite", "Future in Past (would)", "He said, \"I will write.\"", "He said that he would write."],
+            ["Future Continuous", "Future Continuous in Past", "He said, \"I will be writing.\"", "He said that he would be writing."],
+            ["Future Perfect", "Future Perfect in Past", "He said, \"I will have written.\"", "He said that he would have written."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Present to Past",
+          "given": ["She said, \"I work hard.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "Reporting verb: said (past) → backshift.",
+            "Present Indefinite → Past Indefinite (work → worked).",
+            "Pronoun change: I → she.",
+            "Add 'that'."
+          ],
+          "answer": "She said that she worked hard.",
+          "formula_used": "Present → Past (backshift)"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Past to Past Perfect",
+          "given": ["He said, \"I wrote a letter.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "Reporting verb: said (past) → backshift.",
+            "Past Indefinite → Past Perfect (wrote → had written).",
+            "Pronoun change: I → he."
+          ],
+          "answer": "He said that he had written a letter.",
+          "formula_used": "Past → Past Perfect (backshift)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: No backshift when reporting verb is in Present/Future.",
+          "wrong": "He says that he wrote a letter.",
+          "correct": "He says that he writes a letter. (If original is 'He says, \"I write a letter.\"')",
+          "tip": "Only the past reporting verb triggers the backshift."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "If reporting verb is in past, the reported speech tense shifts one step back.",
+            "Present → Past, Past → Past Perfect, Future → Future in Past (would).",
+            "Universal truths and habitual actions do NOT change tense.",
+            "If reporting verb is in present/future, no backshift occurs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_pronouns",
+      "title": "Pronoun, Possessive, and Adverb Changes",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Pronoun, Possessive, and Adverb Changes",
+          "subtitle": "Aligning with the New Subject",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔤",
+          "title": "Pronoun Changes",
+          "content": "Pronouns change to match the person of the new subject. First person (I, we) changes according to the subject; second person (you) changes according to the object; third person remains unchanged.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Adverb Changes – Direct to Indirect",
+          "headers": ["Direct", "Indirect", "Example (Direct)", "Example (Indirect)"],
+          "rows": [
+            ["now", "then", "He said, \"I am busy now.\"", "He said that he was busy then."],
+            ["today", "that day", "He said, \"I am free today.\"", "He said that he was free that day."],
+            ["tomorrow", "the next day", "He said, \"I will come tomorrow.\"", "He said that he would come the next day."],
+            ["yesterday", "the previous day", "He said, \"I came yesterday.\"", "He said that he had come the previous day."],
+            ["here", "there", "He said, \"I live here.\"", "He said that he lived there."],
+            ["this", "that", "He said, \"This is mine.\"", "He said that was his."],
+            ["these", "those", "He said, \"These are mine.\"", "He said that those were his."],
+            ["ago", "before", "He said, \"I met him 2 years ago.\"", "He said that he had met him 2 years before."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Comprehensive Change",
+          "given": ["She said to me, \"I will come here tomorrow.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "She said to me → She told me.",
+            "I → she (first person to subject).",
+            "will come → would come.",
+            "here → there.",
+            "tomorrow → the next day."
+          ],
+          "answer": "She told me that she would come there the next day.",
+          "formula_used": "Tense + Pronoun + Adverb changes"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "First person (I/we) → changes according to the subject.",
+            "Second person (you) → changes according to the object.",
+            "Third person (he/she/they) → no change.",
+            "Adverbs of time and place change to reflect the new perspective."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_assertive",
+      "title": "Reporting Assertive (Declarative) Sentences",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reporting Assertive Sentences",
+          "subtitle": "Statements that Declare Something",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "Rule for Assertive Sentences",
+          "content": "Remove quotation marks, add 'that', and make the required tense, pronoun, and adverb changes.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Simple Statement",
+          "given": ["He said, \"I am a teacher.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "Remove quotes → add 'that'.",
+            "I → he (subject).",
+            "am → was (backshift)."
+          ],
+          "answer": "He said that he was a teacher.",
+          "formula_used": "Statement reporting rules"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Universal Truth",
+          "given": ["The teacher said, \"The Earth revolves around the Sun.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "Universal truth → NO tense change.",
+            "Remove quotes → add 'that'."
+          ],
+          "answer": "The teacher said that the Earth revolves around the Sun.",
+          "formula_used": "Universal truth exception"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Changing tense of universal truths.",
+          "wrong": "The teacher said that the Earth revolved around the Sun.",
+          "correct": "The teacher said that the Earth revolves around the Sun.",
+          "tip": "Universal truths, historical facts, and habitual actions do NOT change tense."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Assertive sentences = statements.",
+            "Add 'that' after the reporting verb.",
+            "Apply backshift, pronoun, and adverb changes.",
+            "Universal truths do NOT change tense."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_interrogative",
+      "title": "Reporting Interrogative (Question) Sentences",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reporting Questions",
+          "subtitle": "Wh-Questions and Yes/No Questions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "❓",
+          "title": "Rules for Interrogative Sentences",
+          "content": "• Use 'asked', 'enquired', or 'questioned'.\n• Do NOT use 'that' – use 'if/whether' for Yes/No questions.\n• Use the Wh-word itself for Wh-questions.\n• Change the interrogative to affirmative structure.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Yes/No Question",
+          "given": ["She said to him, \"Are you coming?\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "She asked him if he was coming.",
+            "Said to → asked.",
+            "Are you coming → if he was coming (backshift + pronoun)."
+          ],
+          "answer": "She asked him if he was coming.",
+          "formula_used": "If/Whether + Affirmative structure"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Wh-Question",
+          "given": ["He said to me, \"What are you doing?\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "He asked me what I was doing.",
+            "Said to → asked.",
+            "What are you doing → what I was doing (Wh-word retained)."
+          ],
+          "answer": "He asked me what I was doing.",
+          "formula_used": "Wh-word + Affirmative structure"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Two-Part Question",
+          "given": ["The teacher said, \"Have you finished your homework?\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "The teacher asked if I had finished my homework.",
+            "Have you finished → if I had finished (backshift)."
+          ],
+          "answer": "The teacher asked if I had finished my homework.",
+          "formula_used": "If + Past Perfect (backshift)"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Use 'asked' or 'enquired' for questions.",
+            "Yes/No questions → use 'if' or 'whether'.",
+            "Wh-questions → use the same Wh-word.",
+            "Change the sentence structure from interrogative to affirmative.",
+            "Do NOT use 'that' for questions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_imperative",
+      "title": "Reporting Imperative (Commands, Requests, Suggestions) Sentences",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reporting Imperatives",
+          "subtitle": "Commands, Requests, and Suggestions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📢",
+          "title": "Rules for Imperatives",
+          "content": "• Use 'told', 'ordered', 'requested', 'advised', 'suggested' based on the tone.\n• Change the imperative to an infinitive ('to' + V1).\n• Negative imperatives: 'not to' + V1.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Command",
+          "given": ["The officer said to the clerk, \"Do this work.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "The officer ordered the clerk to do that work.",
+            "Said to → ordered (based on tone).",
+            "Do → to do (infinitive).",
+            "this → that (adverb change)."
+          ],
+          "answer": "The officer ordered the clerk to do that work.",
+          "formula_used": "Ordered + Object + to + V1"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Request",
+          "given": ["He said to me, \"Please help me.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "He requested me to help him.",
+            "Said to → requested.",
+            "help → to help (infinitive).",
+            "me → him (pronoun change)."
+          ],
+          "answer": "He requested me to help him.",
+          "formula_used": "Requested + Object + to + V1"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Negative Command",
+          "given": ["The teacher said, \"Don't talk in the class.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "The teacher ordered not to talk in the class.",
+            "Don't talk → not to talk.",
+            "If object is not mentioned, it's implied."
+          ],
+          "answer": "The teacher ordered not to talk in the class.",
+          "formula_used": "Ordered + not to + V1"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 4: Suggestion",
+          "given": ["He said, \"Let's go for a walk.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "He suggested going for a walk. OR He suggested that we go for a walk.",
+            "'Let's' → suggested + gerund or suggested that + should."
+          ],
+          "answer": "He suggested going for a walk.",
+          "formula_used": "Suggested + Gerund / Suggested that + should"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Imperatives → infinitive (to + V1).",
+            "Use appropriate reporting verb (ordered, requested, advised, suggested).",
+            "Negative → not to + V1.",
+            "'Let's' → suggested + gerund."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_exclamatory",
+      "title": "Reporting Exclamatory Sentences",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reporting Exclamatory Sentences",
+          "subtitle": "Expressing Strong Emotions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "😲",
+          "title": "Rules for Exclamatory Sentences",
+          "content": "• Use 'exclaimed' or 'exclaimed with joy/sorrow'.\n• Change the exclamation to an assertive statement.\n• Use 'that' to connect.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Exclamation of Joy",
+          "given": ["He said, \"What a beautiful day!\" (Or: \"How beautiful the day is!\")"],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "He exclaimed that it was a very beautiful day.",
+            "What a beautiful day! → it was a very beautiful day.",
+            "Use 'exclaimed'."
+          ],
+          "answer": "He exclaimed that it was a very beautiful day.",
+          "formula_used": "Exclaimed + that + assertive sentence"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Exclamation of Sorrow",
+          "given": ["She said, \"Alas! I am undone.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "She exclaimed with sorrow that she was undone.",
+            "Alas! → exclaimed with sorrow.",
+            "I → she."
+          ],
+          "answer": "She exclaimed with sorrow that she was undone.",
+          "formula_used": "Exclaimed with sorrow + that"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Exclamation of Surprise",
+          "given": ["He said, \"Oh! What a big house!\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "He exclaimed with surprise that it was a very big house.",
+            "Oh! What a big house! → it was a very big house."
+          ],
+          "answer": "He exclaimed with surprise that it was a very big house.",
+          "formula_used": "Exclaimed with surprise + that"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Exclamations become assertive statements in indirect speech.",
+            "Use 'exclaimed' (or with joy/sorrow/surprise).",
+            "Connect with 'that'.",
+            "Remove the exclamation mark."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_optative",
+      "title": "Reporting Optative (Wishes) Sentences",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reporting Optative Sentences",
+          "subtitle": "Expressing Wishes, Prayers, and Blessings",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🙏",
+          "title": "Rules for Optative Sentences",
+          "content": "• Use 'wished', 'prayed', or 'blessed'.\n• Change the structure to an assertive sentence with 'that'.\n• The verb often becomes 'might' or 'would'.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Wish",
+          "given": ["He said, \"May you live long!\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "He wished that I might live long.",
+            "May you → I might (backshift).",
+            "You → I (depending on context)."
+          ],
+          "answer": "He wished that I might live long.",
+          "formula_used": "Wished + that + might"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Prayer/Blessing",
+          "given": ["The mother said, \"May God bless you!\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "The mother prayed that God might bless me.",
+            "May God bless you → God might bless me."
+          ],
+          "answer": "The mother prayed that God might bless me.",
+          "formula_used": "Prayed + that + might"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Would that Wish",
+          "given": ["He said, \"Would that I were a bird!\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "He wished that he were a bird.",
+            "Would that I → he wished."
+          ],
+          "answer": "He wished that he were a bird.",
+          "formula_used": "Wished + that + were"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Optative sentences express wishes/prayers.",
+            "Use 'wished' or 'prayed'.",
+            "'May' becomes 'might'.",
+            "Connect with 'that'."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_advanced",
+      "title": "Advanced Rules – Exceptions and Special Cases",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Narration Rules",
+          "subtitle": "Exceptions, Mixed Conditions, and Reporting Verbs",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Exception 1 – No Backshift with Present/Future Reporting Verb",
+          "content": "If the reporting verb is in present or future tense, there is no backshift.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Present Reporting Verb",
+          "given": ["He says, \"I am fine.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "Reporting verb is present → no backshift.",
+            "He says that he is fine."
+          ],
+          "answer": "He says that he is fine.",
+          "formula_used": "No backshift with present/future reporting verb"
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Exception 2 – Reporting Verbs with Objects",
+          "content": "'Said to' changes to 'told' when the object is present. 'Said to' can also become 'asked' for questions, 'ordered' for commands, etc.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Said to → Told",
+          "given": ["He said to me, \"I am busy.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "He said to me → He told me.",
+            "I am busy → he was busy."
+          ],
+          "answer": "He told me that he was busy.",
+          "formula_used": "Said to → Told (with object)"
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Exception 3 – Reporting Verb Placement",
+          "content": "In direct speech, the reporting verb can be before, in the middle, or after the quoted words.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Middle Reporting Verb",
+          "given": ["\"I am fine,\" he said, \"and I will come tomorrow.\""],
+          "find": "Convert to Indirect Speech.",
+          "steps": [
+            "He said that he was fine and that he would come the next day.",
+            "Combine both parts with 'and'."
+          ],
+          "answer": "He said that he was fine and that he would come the next day.",
+          "formula_used": "Combine multiple sentences"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting the 'that' for assertions.",
+          "wrong": "He said he was busy.",
+          "correct": "He said that he was busy.",
+          "tip": "In formal English, 'that' is usually required after 'said' in indirect speech."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Present/Future reporting verb → no backshift.",
+            "'Said to' becomes 'told' when object present.",
+            "Multiple direct sentences are combined with 'and' or 'but'.",
+            "Always include 'that' for assertive sentences."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_errors",
+      "title": "Common Errors in Narration",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Common Narration Errors",
+          "subtitle": "Exam Favorites",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 1: Forgetting the Backshift",
+          "wrong": "He said that he is a doctor.",
+          "correct": "He said that he was a doctor. (If original: \"I am a doctor.\")",
+          "tip": "Check the tense of the reporting verb (past → backshift)."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 2: Wrong Pronoun Change",
+          "wrong": "She said that he was busy. (When original: \"I am busy.\")",
+          "correct": "She said that she was busy.",
+          "tip": "First person (I) changes according to the subject (she)."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 3: Using 'that' for Questions",
+          "wrong": "He asked that what I was doing.",
+          "correct": "He asked what I was doing.",
+          "tip": "Do NOT use 'that' for questions – use the Wh-word or 'if/whether'."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 4: Changing Universal Truths",
+          "wrong": "He said that the Sun rose in the East.",
+          "correct": "He said that the Sun rises in the East.",
+          "tip": "Universal truths, historical facts, and habitual actions do NOT change tense."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Check backshift carefully.",
+            "Pronoun changes must match the new subject/object.",
+            "Questions → no 'that'.",
+            "Universal truths → no tense change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narration_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Direct & Indirect Speech – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Identify the type of sentence (assertive, interrogative, imperative, exclamatory, optative). Apply the appropriate rules.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "He said, \"I am going to the market.\"",
+          "options": [
+            "He said that he is going to the market.",
+            "He said that he was going to the market.",
+            "He said that he went to the market.",
+            "He said that he had gone to the market."
+          ],
+          "answer": 1,
+          "explanation": "Reporting verb is past (said) → backshift: am going → was going. He said that he was going to the market.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "She said to me, \"Do you like coffee?\"",
+          "options": [
+            "She asked me if I liked coffee.",
+            "She asked me do you like coffee.",
+            "She said that I like coffee.",
+            "She asked me that I liked coffee."
+          ],
+          "answer": 0,
+          "explanation": "Question → use 'asked' + if/whether. Do you like → if I liked (backshift).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The teacher said, \"Don't make noise in the class.\"",
+          "options": [
+            "The teacher said not to make noise in the class.",
+            "The teacher ordered not to make noise in the class.",
+            "The teacher told that don't make noise.",
+            "The teacher asked not to make noise."
+          ],
+          "answer": 1,
+          "explanation": "Imperative negative → ordered + not to + V1. 'Don't make' → not to make.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "He said, \"What a beautiful sunset!\"",
+          "options": [
+            "He exclaimed that it was a very beautiful sunset.",
+            "He said what a beautiful sunset.",
+            "He asked what a beautiful sunset.",
+            "He exclaimed what a beautiful sunset."
+          ],
+          "answer": 0,
+          "explanation": "Exclamatory → exclaimed + that + assertive sentence. 'What a beautiful sunset!' → it was a very beautiful sunset.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "He said to me, \"I will meet you tomorrow.\"",
+          "options": [
+            "He told me that he would meet me tomorrow.",
+            "He told me that he will meet me the next day.",
+            "He told me that he would meet me the next day.",
+            "He told me that I will meet you tomorrow."
+          ],
+          "answer": 2,
+          "explanation": "Said to → told. I → he. Will → would. You → me. Tomorrow → the next day.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "She said, \"The Earth revolves around the Sun.\"",
+          "options": [
+            "She said that the Earth revolved around the Sun.",
+            "She said that the Earth revolves around the Sun.",
+            "She said that the Earth is revolving around the Sun.",
+            "She said that the Earth had revolved around the Sun."
+          ],
+          "answer": 1,
+          "explanation": "Universal truth → no tense change. 'The Earth revolves around the Sun' remains unchanged.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "He said, \"Please help me.\"",
+          "options": [
+            "He said to help me.",
+            "He requested to help me.",
+            "He said please help me.",
+            "He requested me to help him."
+          ],
+          "answer": 3,
+          "explanation": "Request → requested + object + to + V1. Please help me → requested me to help him.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "She said, \"May you succeed!\"",
+          "options": [
+            "She said that you may succeed.",
+            "She wished that I might succeed.",
+            "She prayed that you might succeed.",
+            "She said may you succeed."
+          ],
+          "answer": 1,
+          "explanation": "Optative → wished/prayed + that + might. May you succeed → wished that I might succeed.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "He said, \"Where are you going?\"",
+          "options": [
+            "He asked me where I was going.",
+            "He asked where I am going.",
+            "He said where are you going.",
+            "He asked that where I was going."
+          ],
+          "answer": 0,
+          "explanation": "Wh-question → Wh-word + affirmative structure. Where are you going? → where I was going.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "He said, \"Let's go for a picnic.\"",
+          "options": [
+            "He said let's go for a picnic.",
+            "He suggested going for a picnic.",
+            "He suggested to go for a picnic.",
+            "He said to go for a picnic."
+          ],
+          "answer": 1,
+          "explanation": "'Let's' → suggested + gerund. 'Let's go' → suggested going.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review tense changes (backshift), pronoun changes, and the special rules for questions, commands, and exclamations. Practice with varied examples."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Direct & Indirect Speech",
+          "points": [
+            "Direct = quotes; Indirect = no quotes.",
+            "Backshift: Present → Past, Past → Past Perfect, Future → would.",
+            "Pronouns: Change according to subject/object.",
+            "Adverbs: now→then, today→that day, tomorrow→the next day, here→there.",
+            "Assertive: Remove quotes, add 'that'.",
+            "Questions: Use 'asked' + if/whether or Wh-word (no 'that').",
+            "Imperatives: Use 'ordered/requested' + to + V1 (or not to + V1).",
+            "Exclamatory: Use 'exclaimed' + that.",
+            "Optative: Use 'wished/prayed' + that + might.",
+            "Universal truths: No tense change.",
+            "Present/Future reporting verb: No backshift."
+          ]
+        }
+      ]
+    }
+  ]
+}

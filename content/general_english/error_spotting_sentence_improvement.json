@@ -1,0 +1,1205 @@
+{
+  "id": "error_spotting_sentence_improvement",
+  "subject_id": "general_english",
+  "title": "Error Spotting and Sentence Improvement",
+  "subtopics": [
+    {
+      "id": "esi_intro",
+      "title": "Introduction to Error Spotting & Sentence Improvement",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Error Spotting & Sentence Improvement",
+          "subtitle": "Mastering Grammatical Accuracy",
+          "tags": ["JKSSB", "High Weightage", "English"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "What is Error Spotting?",
+          "content": "Error spotting questions test your ability to identify grammatical, syntactical, or vocabulary errors in a sentence. You must recognise incorrect usage and choose the correct option.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "✏️",
+          "title": "What is Sentence Improvement?",
+          "content": "Sentence improvement questions ask you to replace an underlined or highlighted part of a sentence with a better option, or choose the best version from given alternatives.",
+          "highlight": true
+        },
+        {
+          "type": "process_flow",
+          "title": "Step-by-Step Approach for Error Spotting",
+          "steps": [
+            "Step 1: Read the entire sentence carefully.",
+            "Step 2: Identify the subject and verb – check agreement.",
+            "Step 3: Check the tense – does it match the context?",
+            "Step 4: Check prepositions, articles, and pronouns.",
+            "Step 5: Look for parallelism and modifier placement.",
+            "Step 6: Check for redundancy or word choice errors.",
+            "Step 7: If the sentence sounds wrong, it usually is."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Error spotting requires a strong grasp of grammar rules.",
+            "Sentence improvement tests your ability to choose the best expression.",
+            "Always read the full sentence before deciding on errors.",
+            "Trust your ear – if something sounds off, it likely is an error."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_subject_verb_agreement",
+      "title": "Subject-Verb Agreement Errors",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Subject-Verb Agreement",
+          "subtitle": "The Most Common Error Type",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "Core Rule",
+          "content": "A singular subject takes a singular verb; a plural subject takes a plural verb. Errors arise when the subject and verb are separated by intervening phrases or when the subject is not obvious.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common Subject-Verb Agreement Errors",
+          "headers": ["Rule", "Wrong", "Correct"],
+          "rows": [
+            [
+              "Collective nouns (team, group, committee) take singular verbs.",
+              "The team are playing well.",
+              "The team is playing well."
+            ],
+            [
+              "Each, every, either, neither are singular.",
+              "Each of the students are responsible.",
+              "Each of the students is responsible."
+            ],
+            [
+              "Intervening phrases do NOT change the subject.",
+              "The box of chocolates are on the table.",
+              "The box of chocolates is on the table."
+            ],
+            [
+              "Subjects joined by 'and' are plural.",
+              "The teacher and the student is coming.",
+              "The teacher and the student are coming."
+            ],
+            [
+              "Subjects joined by 'or/nor' agree with the nearest subject.",
+              "Neither the teacher nor the students is here.",
+              "Neither the teacher nor the students are here."
+            ],
+            [
+              "Indefinite pronouns (everyone, somebody, anyone) are singular.",
+              "Everyone are invited.",
+              "Everyone is invited."
+            ],
+            [
+              "Uncountable nouns take singular verbs.",
+              "The information are correct.",
+              "The information is correct."
+            ]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Collective Noun",
+          "given": ["The jury have reached a verdict."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'Jury' is a collective noun.",
+            "Collective nouns take singular verbs when acting as a unit.",
+            "The jury has reached a verdict."
+          ],
+          "answer": "has",
+          "formula_used": "Collective noun → singular verb"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Intervening Phrase",
+          "given": ["The list of requirements are too long."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "Subject is 'list' (singular), not 'requirements'.",
+            "The phrase 'of requirements' is an intervening phrase.",
+            "The list of requirements is too long."
+          ],
+          "answer": "is",
+          "formula_used": "Ignore intervening phrases"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Ignoring the true subject.",
+          "wrong": "Choosing the verb based on the noun closest to it.",
+          "correct": "Identify the true subject before choosing the verb.",
+          "tip": "Look beyond intervening phrases and clauses."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Collective nouns → singular verbs.",
+            "Each/Either/Neither → singular.",
+            "Intervening phrases don't change the subject.",
+            "Subjects with 'and' → plural.",
+            "Subjects with 'or/nor' → agree with nearest.",
+            "Indefinite pronouns → singular.",
+            "Uncountable nouns → singular."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_tenses",
+      "title": "Tense Errors – Incorrect Tense Usage",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Tense Errors",
+          "subtitle": "When the Time is Wrong",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Common Tense Errors",
+          "headers": ["Error Type", "Wrong", "Correct"],
+          "rows": [
+            [
+              "Present with Past marker",
+              "I have seen him yesterday.",
+              "I saw him yesterday."
+            ],
+            [
+              "Past with Present marker",
+              "She works here since 2020.",
+              "She has worked here since 2020."
+            ],
+            [
+              "Future in past context",
+              "He said he will come.",
+              "He said he would come."
+            ],
+            [
+              "Past Perfect needed",
+              "The train left before I arrived.",
+              "The train had left before I arrived."
+            ],
+            [
+              "Continuous tense confusion",
+              "I am knowing the answer.",
+              "I know the answer."
+            ]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Present with Past Marker",
+          "given": ["She has completed the project last week."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'Last week' is a past time marker.",
+            "Present Perfect ('has completed') cannot be used with past time markers.",
+            "She completed the project last week."
+          ],
+          "answer": "completed",
+          "formula_used": "Past Indefinite with past time markers"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Past Perfect with Two Past Actions",
+          "given": ["The movie started before we reached the theatre."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "Two past actions: 'started' and 'reached'.",
+            "The movie started first, so it should be Past Perfect.",
+            "The movie had started before we reached the theatre."
+          ],
+          "answer": "had started",
+          "formula_used": "Earlier past action → Past Perfect"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using Present Perfect with specific past time.",
+          "wrong": "He has arrived yesterday.",
+          "correct": "He arrived yesterday.",
+          "tip": "Past time markers (yesterday, last week, in 2010) require Past Indefinite."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Past time markers → Past Indefinite.",
+            "Since/for → Present Perfect.",
+            "Two past actions → Past Perfect for the earlier one.",
+            "Future in past → would.",
+            "Stative verbs → no continuous form."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_prepositions",
+      "title": "Preposition Errors",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Preposition Errors",
+          "subtitle": "Wrong Preposition, Wrong Meaning",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Common Preposition Errors",
+          "headers": ["Error Type", "Wrong", "Correct"],
+          "rows": [
+            [
+              "Since vs For",
+              "I have been here since two hours.",
+              "I have been here for two hours."
+            ],
+            [
+              "In vs Into",
+              "He jumped in the water.",
+              "He jumped into the water."
+            ],
+            [
+              "On vs At vs In (time)",
+              "I will meet you on 5 pm.",
+              "I will meet you at 5 pm."
+            ],
+            [
+              "On vs At vs In (place)",
+              "He is at the table.",
+              "He is on the table."
+            ],
+            [
+              "Between vs Among",
+              "Distribute this between the team members.",
+              "Distribute this among the team members."
+            ],
+            [
+              "Beside vs Besides",
+              "I have other books beside this.",
+              "I have other books besides this."
+            ]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Since vs For",
+          "given": ["She has been working here since 5 years."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'5 years' is a duration, not a point in time.",
+            "Use 'for' with duration, 'since' with a point in time.",
+            "She has been working here for 5 years."
+          ],
+          "answer": "for",
+          "formula_used": "Since = point in time, For = duration"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Between vs Among",
+          "given": ["The property was divided between the three brothers."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'Between' is used for two; 'Among' is used for more than two.",
+            "There are three brothers, so 'among' is correct.",
+            "The property was divided among the three brothers."
+          ],
+          "answer": "among",
+          "formula_used": "Between = two; Among = more than two"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing 'In' and 'Into'.",
+          "wrong": "He walked in the room.",
+          "correct": "He walked into the room.",
+          "tip": "'In' indicates position; 'Into' indicates movement toward the inside."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Since = point in time, For = duration.",
+            "In = position, Into = movement.",
+            "At = specific time/point, On = day/surface, In = month/year/enclosed.",
+            "Between = two, Among = more than two.",
+            "Beside = next to, Besides = in addition to."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_articles",
+      "title": "Article Errors – A, An, The, or No Article",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Article Errors",
+          "subtitle": "Definite, Indefinite, or Nothing",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Common Article Errors",
+          "headers": ["Error Type", "Wrong", "Correct"],
+          "rows": [
+            [
+              "Using 'a' before vowel sound",
+              "a honest man",
+              "an honest man"
+            ],
+            [
+              "Using 'an' before consonant sound",
+              "an university",
+              "a university"
+            ],
+            [
+              "Missing 'the' with superlatives",
+              "He is best student.",
+              "He is the best student."
+            ],
+            [
+              "Missing 'the' with unique things",
+              "sun rises in the east.",
+              "The sun rises in the east."
+            ],
+            [
+              "Using 'the' with abstract nouns",
+              "The honesty is the best policy.",
+              "Honesty is the best policy."
+            ],
+            [
+              "Using 'the' with plural general nouns",
+              "The dogs are loyal animals.",
+              "Dogs are loyal animals."
+            ]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: 'a' vs 'an'",
+          "given": ["She is a honest woman."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'Honest' starts with a vowel sound (o).",
+            "Use 'an' before vowel sounds.",
+            "She is an honest woman."
+          ],
+          "answer": "an",
+          "formula_used": "a/an = based on sound, not spelling"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Missing 'the' with Superlative",
+          "given": ["Mount Everest is highest peak in the world."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "Superlatives require 'the'.",
+            "Mount Everest is the highest peak in the world."
+          ],
+          "answer": "the",
+          "formula_used": "Superlatives → the"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using 'the' with abstract nouns in general sense.",
+          "wrong": "The happiness is important.",
+          "correct": "Happiness is important.",
+          "tip": "Abstract nouns (honesty, happiness, truth) in general sense take no article."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "A/An = based on sound (vowel/consonant).",
+            "The = specific/unique/superlative.",
+            "No article = plural general, abstract nouns.",
+            "First mention = a/an; second mention = the."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_pronouns",
+      "title": "Pronoun Errors – Case, Agreement, Reference",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Pronoun Errors",
+          "subtitle": "Case, Agreement, and Ambiguous Reference",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Common Pronoun Errors",
+          "headers": ["Error Type", "Wrong", "Correct"],
+          "rows": [
+            [
+              "Subjective vs Objective case",
+              "Me and him went to the store.",
+              "He and I went to the store."
+            ],
+            [
+              "Pronoun-agreement error",
+              "Everyone should bring their own lunch.",
+              "Everyone should bring his or her own lunch."
+            ],
+            [
+              "Ambiguous reference",
+              "He told John that he was wrong.",
+              "He told John that John was wrong."
+            ],
+            [
+              "Reflexive pronoun error",
+              "I hurt myself.",
+              "I hurt myself."
+            ],
+            [
+              "Who vs Whom",
+              "Who did you meet?",
+              "Whom did you meet?"
+            ]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Subjective vs Objective Case",
+          "given": ["Me and my friend are going to the party."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "The pronoun is the subject of the sentence.",
+            "Subjective case should be used: 'I' not 'me'.",
+            "My friend and I are going to the party."
+          ],
+          "answer": "My friend and I",
+          "formula_used": "Subjective case for subjects"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Ambiguous Reference",
+          "given": ["Rita told Priya that she was late."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'She' could refer to Rita or Priya – ambiguous.",
+            "Rewrite to clarify: Rita told Priya that Priya was late.",
+            "Or: Rita told Priya that she herself was late."
+          ],
+          "answer": "Rita told Priya that Priya was late.",
+          "formula_used": "Avoid ambiguous pronouns"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using objective case for the subject.",
+          "wrong": "Me and him are friends.",
+          "correct": "He and I are friends.",
+          "tip": "Always use subjective case (I, he, she, we, they) for subjects."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Subjective case (I, he, she, we, they) = subject.",
+            "Objective case (me, him, her, us, them) = object.",
+            "Pronouns must agree with their antecedents.",
+            "Avoid ambiguous pronoun references.",
+            "Who = subject; Whom = object."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_modifiers",
+      "title": "Modifier Errors – Dangling, Misplaced, Squinting",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Modifier Errors",
+          "subtitle": "Words That Need to Be Close to What They Modify",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔧",
+          "title": "Types of Modifier Errors",
+          "content": "• Dangling: The modifier doesn't have a clear subject to modify.\n• Misplaced: The modifier is too far from the word it modifies.\n• Squinting: The modifier could refer to either of two words.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common Modifier Errors",
+          "headers": ["Error Type", "Wrong", "Correct"],
+          "rows": [
+            [
+              "Dangling",
+              "Walking down the street, the flowers looked beautiful.",
+              "Walking down the street, I thought the flowers looked beautiful."
+            ],
+            [
+              "Misplaced",
+              "He almost drove his car for an hour.",
+              "He drove his car for almost an hour."
+            ],
+            [
+              "Squinting",
+              "Students who study rarely get good grades.",
+              "Students who rarely study get good grades."
+            ],
+            [
+              "Misplaced",
+              "She only ate vegetables.",
+              "She ate only vegetables."
+            ]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Dangling Modifier",
+          "given": ["Running fast, the finish line appeared."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "Who was running fast? The finish line wasn't running.",
+            "Add a clear subject: Running fast, the athlete reached the finish line.",
+            "Or: The athlete, running fast, reached the finish line."
+          ],
+          "answer": "Running fast, the athlete reached the finish line.",
+          "formula_used": "Modifier must have a clear subject"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Misplaced Modifier",
+          "given": ["He almost ate the entire pizza."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'Almost' modifies 'ate' – he almost ate = he didn't eat.",
+            "But the intended meaning is he ate almost the entire pizza.",
+            "He ate almost the entire pizza."
+          ],
+          "answer": "He ate almost the entire pizza.",
+          "formula_used": "Place modifiers close to what they modify"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Misplacing 'only', 'almost', 'just'.",
+          "wrong": "She only speaks French.",
+          "correct": "She speaks only French.",
+          "tip": "Place 'only' before the word it modifies."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Dangling: Missing subject for the modifier.",
+            "Misplaced: Modifier too far from what it modifies.",
+            "Squinting: Modifier could refer to two things.",
+            "Place modifiers close to the words they modify."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_parallelism",
+      "title": "Parallelism Errors – Inconsistent Structure",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Parallelism Errors",
+          "subtitle": "Keeping Structures Balanced",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "What is Parallelism?",
+          "content": "Parallelism is the use of similar grammatical structures for similar ideas. Errors occur when the items in a list or comparison are not in the same form.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common Parallelism Errors",
+          "headers": ["Error Type", "Wrong", "Correct"],
+          "rows": [
+            [
+              "List of items",
+              "She likes swimming, running, and to bike.",
+              "She likes swimming, running, and biking."
+            ],
+            [
+              "Comparison with 'than'",
+              "He is better at math than his brother is.",
+              "He is better at math than his brother."
+            ],
+            [
+              "Correlative conjunctions (not only...but also)",
+              "He is not only smart but also he is kind.",
+              "He is not only smart but also kind."
+            ],
+            [
+              "Correlative conjunctions (either...or)",
+              "She is either studying or she is working.",
+              "She is either studying or working."
+            ]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: List of Items",
+          "given": ["I enjoy reading books, listening to music, and to travel."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "The list uses 'reading' and 'listening' (gerunds).",
+            "'To travel' breaks the pattern – should be 'travelling'.",
+            "I enjoy reading books, listening to music, and travelling."
+          ],
+          "answer": "travelling",
+          "formula_used": "Maintain consistent form in lists"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Not Only...But Also",
+          "given": ["She is not only intelligent but also she is hardworking."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "After 'but also', we expect the same grammatical form.",
+            "'Intelligent' is an adjective; so 'hardworking' should be an adjective.",
+            "She is not only intelligent but also hardworking."
+          ],
+          "answer": "hardworking",
+          "formula_used": "Maintain parallel structure after correlatives"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Lists must have consistent grammatical forms.",
+            "Comparisons must compare like items.",
+            "Correlative conjunctions (not only...but also, either...or) require parallel structure.",
+            "Parallel structure makes sentences clear and balanced."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_redundancy",
+      "title": "Redundancy and Word Choice Errors",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Redundancy & Word Choice",
+          "subtitle": "Avoiding Unnecessary Words",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Common Redundancy Errors",
+          "headers": ["Error Type", "Wrong", "Correct"],
+          "rows": [
+            [
+              "Repeating meaning",
+              "The reason is because...",
+              "The reason is that..."
+            ],
+            [
+              "Repeating words",
+              "The same identical issue",
+              "The same issue"
+            ],
+            [
+              "Unnecessary addition",
+              "He returned back home.",
+              "He returned home."
+            ],
+            [
+              "Repeating thought",
+              "The final conclusion",
+              "The conclusion"
+            ],
+            [
+              "Repeating subject",
+              "The government, they passed the law.",
+              "The government passed the law."
+            ]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Redundancy",
+          "given": ["The reason for his absence is because he is sick."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'The reason is' already implies a cause.",
+            "'Because' repeats the idea of causation.",
+            "The reason for his absence is that he is sick."
+          ],
+          "answer": "The reason for his absence is that he is sick.",
+          "formula_used": "Avoid 'reason...because'"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Unnecessary Words",
+          "given": ["He returned back to the office."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'Returned' already means 'came back'.",
+            "'Back' is redundant.",
+            "He returned to the office."
+          ],
+          "answer": "He returned to the office.",
+          "formula_used": "Remove redundant words"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Avoid 'reason...because' → use 'reason...that'.",
+            "Avoid 'return back' → use 'return'.",
+            "Avoid 'final conclusion' → use 'conclusion'.",
+            "Avoid 'same identical' → use 'same'.",
+            "Concise writing is preferred in exams."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_conjunctions",
+      "title": "Conjunction and Connectives Errors",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Conjunction Errors",
+          "subtitle": "Connecting Ideas Correctly",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Common Conjunction Errors",
+          "headers": ["Error Type", "Wrong", "Correct"],
+          "rows": [
+            [
+              "Because vs Although",
+              "Because he was sick, he went to work.",
+              "Although he was sick, he went to work."
+            ],
+            [
+              "Inspite of vs Despite",
+              "Inspite of the rain, the match continued.",
+              "In spite of the rain, the match continued."
+            ],
+            [
+              "Unless with double negative",
+              "You cannot pass unless you do not study.",
+              "You cannot pass unless you study."
+            ],
+            [
+              "So...that vs Too...to",
+              "He is so tired that he cannot walk.",
+              "He is too tired to walk."
+            ]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Because vs Although",
+          "given": ["Because he worked hard, he failed the exam."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "Working hard and failing doesn't make logical sense.",
+            "The correct conjunction should be 'Although'.",
+            "Although he worked hard, he failed the exam."
+          ],
+          "answer": "Although",
+          "formula_used": "Choose conjunction that fits the logical relationship"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Double Negative with Unless",
+          "given": ["You cannot succeed unless you do not work hard."],
+          "find": "Identify and correct the error.",
+          "steps": [
+            "'Unless' already means 'if not'.",
+            "Adding another negative creates a positive meaning.",
+            "You cannot succeed unless you work hard."
+          ],
+          "answer": "unless you work hard",
+          "formula_used": "Avoid double negatives with unless"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Because = reason; Although = contrast.",
+            "Despite/In spite of = contrast (followed by noun/gerund).",
+            "Unless = if not (don't add another negative).",
+            "So...that = result; Too...to = excess preventing action."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_advanced_strategies",
+      "title": "Advanced Strategies for Error Spotting & Improvement",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Strategies",
+          "subtitle": "Tackling Tricky Questions",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Strategy 1 – Read Aloud (in your head)",
+          "content": "Reading the sentence silently in your mind helps you catch errors. If it sounds wrong, it probably is.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Strategy 2 – Split the Sentence",
+          "content": "Break the sentence into clauses. Check each clause separately for grammar and logic.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Strategy 3 – Eliminate Options",
+          "content": "In sentence improvement, eliminate options that are grammatically incorrect or wordy. The best option is often the simplest and clearest.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Strategy 4 – Check for 'No Error' Options",
+          "content": "If the sentence sounds perfect, check all rules carefully. Sometimes 'No error' is the correct answer.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "SPARTA",
+          "memory_trick": "Subject, Prepositions, Articles, Redundancy, Tense, Agreement – the six areas to check for errors."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Read sentences carefully and trust your ear.",
+            "Break sentences into clauses for analysis.",
+            "Eliminate options systematically.",
+            "Don't automatically assume there's an error – 'No error' is often correct."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "esi_error_mcqs",
+      "title": "Practice MCQs – Error Spotting (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Error Spotting – Practice Set",
+          "subtitle": "Find the Error in Each Sentence",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Read the sentence carefully. Check each part for errors: subject-verb agreement, tense, preposition, article, pronoun, parallelism, and word choice.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Each of the students ______ responsible for their own work.",
+          "options": ["are", "is", "am", "were"],
+          "answer": 1,
+          "explanation": "'Each' is singular. The correct verb is 'is'.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "She has been working here ______ 2015.",
+          "options": ["for", "since", "from", "by"],
+          "answer": 1,
+          "explanation": "'2015' is a point in time → use 'since'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The reason for his delay is ______ he missed the bus.",
+          "options": ["because", "that", "since", "as"],
+          "answer": 1,
+          "explanation": "'The reason is that' is the correct construction – not 'reason because'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "He is ______ honest man.",
+          "options": ["a", "an", "the", "no article"],
+          "answer": 1,
+          "explanation": "'Honest' starts with a vowel sound (o) → use 'an'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Between you and ______, this is a secret.",
+          "options": ["I", "me", "myself", "mine"],
+          "answer": 1,
+          "explanation": "Objective case 'me' is used after the preposition 'between'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "He is better at math ______ his brother.",
+          "options": ["then", "than", "as", "like"],
+          "answer": 1,
+          "explanation": "'Than' is used for comparisons.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Neither the manager nor the employees ______ responsible for the error.",
+          "options": ["is", "are", "am", "was"],
+          "answer": 1,
+          "explanation": "With 'neither...nor', the verb agrees with the nearest subject ('employees' = plural) → 'are'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "She is not only smart ______ also hardworking.",
+          "options": ["but", "so", "and", "for"],
+          "answer": 0,
+          "explanation": "The correct correlative pair is 'not only...but also'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The committee ______ divided in their opinions.",
+          "options": ["is", "are", "was", "were"],
+          "answer": 1,
+          "explanation": "Collective noun 'committee' takes singular verb if acting as a unit. However, 'in their opinions' indicates individual members, so plural is acceptable in this context. The correct answer is 'are' as the committee members are acting individually.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "He ______ to the party yesterday.",
+          "options": ["has gone", "went", "goes", "had went"],
+          "answer": 1,
+          "explanation": "'Yesterday' indicates past → Past Indefinite 'went' is correct.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review – Error Spotting",
+          "variant": "important",
+          "content": "Review subject-verb agreement, tense consistency, preposition usage, and article rules. These are the most frequently tested error types."
+        }
+      ]
+    },
+    {
+      "id": "esi_improvement_mcqs",
+      "title": "Practice MCQs – Sentence Improvement (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Sentence Improvement – Practice Set",
+          "subtitle": "Choose the Best Version",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Read the sentence and identify the issue. Choose the option that makes the sentence grammatically correct, concise, and clear. The simplest correct option is often the best.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "I have seen him ______.",
+          "options": ["yesterday", "last week", "a year ago", "in 2010"],
+          "answer": 0,
+          "explanation": "The sentence uses Present Perfect 'have seen'. Present Perfect cannot be used with past time markers. All options are past time markers – but the question is about the entire improvement. Actually, the sentence should be changed to 'I saw him yesterday' if 'yesterday' is the option. The best improvement is to change the tense to Past Indefinite.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is the best improvement for: 'He is more smarter than his brother.'",
+          "options": [
+            "He is more smart than his brother.",
+            "He is smarter than his brother.",
+            "He is much smarter than his brother.",
+            "He is more smarter than his brother."
+          ],
+          "answer": 1,
+          "explanation": "'Smarter' is already comparative. 'More smarter' is double comparative and incorrect. The correct form is 'smarter than'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Improve: 'She is the best and greatest dancer.'",
+          "options": [
+            "She is the best dancer.",
+            "She is the greatest dancer.",
+            "She is the best and greatest dancer.",
+            "She is the best dancer and greatest."
+          ],
+          "answer": 0,
+          "explanation": "'Best' and 'greatest' are redundant – they mean almost the same. Choose one to avoid redundancy. The simplest version is 'She is the best dancer.'",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Improve: 'Despite of the rain, the match continued.'",
+          "options": [
+            "Despite the rain, the match continued.",
+            "In spite of the rain, the match continued.",
+            "Despite of the rain, the match continued.",
+            "Both (a) and (b)"
+          ],
+          "answer": 3,
+          "explanation": "'Despite' does not take 'of'. The correct forms are 'Despite the rain' or 'In spite of the rain'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Improve: 'The news are very good.'",
+          "options": [
+            "The news is very good.",
+            "The news are very good.",
+            "The news were very good.",
+            "The news have been good."
+          ],
+          "answer": 0,
+          "explanation": "'News' is an uncountable noun and takes a singular verb → 'The news is very good.'",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Improve: 'He returned back home.'",
+          "options": [
+            "He returned back home.",
+            "He returned home.",
+            "He returned to home.",
+            "He returned back to home."
+          ],
+          "answer": 1,
+          "explanation": "'Returned' already means 'came back' – 'back' is redundant. The correct version is 'He returned home.'",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Improve: 'I am very much tired.'",
+          "options": [
+            "I am very tired.",
+            "I am much tired.",
+            "I am very much tired.",
+            "I am tired very much."
+          ],
+          "answer": 0,
+          "explanation": "'Much' is not used with 'very' to modify an adjective. 'Very tired' is the correct form.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Improve: 'He is one of those men who loves their country.'",
+          "options": [
+            "He is one of those men who love their country.",
+            "He is one of those men who loves his country.",
+            "He is one of the men who loves their country.",
+            "He is one of those men who love his country."
+          ],
+          "answer": 0,
+          "explanation": "The antecedent of 'who' is 'men' (plural), so the verb should be 'love' (plural). The pronoun should be 'their' to agree with 'men'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Improve: 'He is the tallest of all the other students.'",
+          "options": [
+            "He is the tallest of all the students.",
+            "He is the tallest of all the other students.",
+            "He is the tallest among all the other students.",
+            "He is taller than all the other students."
+          ],
+          "answer": 3,
+          "explanation": "When comparing one person to others, use 'taller than all the other students'. 'Tallest of all' is used when comparing against a group that includes the person.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Improve: 'The Principal and the staff is present.'",
+          "options": [
+            "The Principal and the staff are present.",
+            "The Principal and the staff is present.",
+            "The Principal and staff is present.",
+            "The Principal with the staff is present."
+          ],
+          "answer": 0,
+          "explanation": "The subject is compound ('Principal and staff') – plural, so 'are' is correct.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review – Sentence Improvement",
+          "variant": "important",
+          "content": "Focus on choosing the simplest, clearest, and most grammatically correct version. Avoid redundancy, double comparatives, and agreement errors."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Error Spotting & Sentence Improvement",
+          "points": [
+            "Subject-Verb Agreement: Collective nouns, each/every, intervening phrases.",
+            "Tenses: Past time markers, Present Perfect, Past Perfect.",
+            "Prepositions: Since vs For, In vs Into, Between vs Among.",
+            "Articles: A/An based on sound, The for specific/superlative.",
+            "Pronouns: Case (subjective/objective), agreement, clear reference.",
+            "Modifiers: Avoid dangling, misplaced, and squinting modifiers.",
+            "Parallelism: Keep lists and comparisons parallel.",
+            "Redundancy: Remove unnecessary words.",
+            "Conjunctions: Use the correct logical connector.",
+            "Read aloud to catch errors.",
+            "Eliminate options systematically.",
+            "Trust your ear – if it sounds wrong, it probably is."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "active_passive_voice",
+  "subject_id": "general_english",
+  "title": "Active and Passive Voice",
+  "subtopics": [
+    {
+      "id": "voice_intro",
+      "title": "Introduction to Voice – Active vs Passive",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Active and Passive Voice",
+          "subtitle": "Focusing on the Doer or the Action",
+          "tags": ["JKSSB", "High Weightage", "English"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "What is Voice?",
+          "content": "Voice is the form of a verb that indicates whether the subject performs the action (Active) or receives the action (Passive).",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Active vs Passive Voice",
+          "left_header": "Active Voice",
+          "right_header": "Passive Voice",
+          "rows": [
+            { "left": "Subject performs the action.", "right": "Subject receives the action." },
+            { "left": "Focus is on the doer.", "right": "Focus is on the action/object." },
+            { "left": "Example: Ram eats an apple.", "right": "Example: An apple is eaten by Ram." },
+            { "left": "More direct and concise.", "right": "More formal and indirect." },
+            { "left": "Preferred in most writing.", "right": "Preferred in scientific/formal writing." }
+          ]
+        },
+        {
+          "type": "process_flow",
+          "title": "Basic Conversion Steps",
+          "steps": [
+            "Step 1: Identify the subject, verb, and object in the active sentence.",
+            "Step 2: Make the object the subject of the passive sentence.",
+            "Step 3: Use the appropriate form of 'be' + past participle (V3).",
+            "Step 4: Add 'by' before the original subject (if needed).",
+            "Step 5: Ensure the verb agrees with the new subject."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Only transitive verbs (verbs with objects) can be changed to passive.",
+            "Intransitive verbs (die, sleep, arrive) have no passive form.",
+            "The passive voice is formed with 'be' + V3.",
+            "'By' is used to introduce the doer of the action."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_rules",
+      "title": "Rules for Converting Active to Passive – Tense-wise Structure",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Tense-wise Conversion Rules",
+          "subtitle": "The Formula for Every Tense",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "formula",
+          "title": "Passive Structure Formula",
+          "formula": "Active: Subject + Verb + Object\nPassive: Object + be (appropriate tense) + V3 + by + Subject",
+          "description": "The verb 'be' changes according to the tense of the active sentence."
+        },
+        {
+          "type": "table",
+          "title": "Tense-wise Passive Voice Structures",
+          "headers": ["Tense", "Active Structure", "Passive Structure", "Example (Active)", "Example (Passive)"],
+          "rows": [
+            ["Present Indefinite", "Sub + V1 (s/es) + Obj", "Obj + is/am/are + V3 + by + Sub", "She writes a letter.", "A letter is written by her."],
+            ["Present Continuous", "Sub + is/am/are + V1+ing + Obj", "Obj + is/am/are + being + V3 + by + Sub", "She is writing a letter.", "A letter is being written by her."],
+            ["Present Perfect", "Sub + has/have + V3 + Obj", "Obj + has/have + been + V3 + by + Sub", "She has written a letter.", "A letter has been written by her."],
+            ["Past Indefinite", "Sub + V2 + Obj", "Obj + was/were + V3 + by + Sub", "She wrote a letter.", "A letter was written by her."],
+            ["Past Continuous", "Sub + was/were + V1+ing + Obj", "Obj + was/were + being + V3 + by + Sub", "She was writing a letter.", "A letter was being written by her."],
+            ["Past Perfect", "Sub + had + V3 + Obj", "Obj + had + been + V3 + by + Sub", "She had written a letter.", "A letter had been written by her."],
+            ["Future Indefinite", "Sub + will + V1 + Obj", "Obj + will + be + V3 + by + Sub", "She will write a letter.", "A letter will be written by her."],
+            ["Future Perfect", "Sub + will have + V3 + Obj", "Obj + will have + been + V3 + by + Sub", "She will have written a letter.", "A letter will have been written by her."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Passive of Present Perfect Continuous / Past Perfect Continuous.",
+          "wrong": "The book is being written for 2 hours.",
+          "correct": "The book has been written for 2 hours? Actually, continuous perfect tenses are rarely used in passive.",
+          "tip": "Passive forms of Present Perfect Continuous and Past Perfect Continuous are generally avoided. Use Present Perfect or Past Perfect passive instead."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "The 'be' verb changes to match the tense of the active sentence.",
+            "The main verb is always in the past participle (V3) form.",
+            "The subject of the active sentence becomes the object of the preposition 'by'."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_present_tenses",
+      "title": "Passive Voice – Present Tenses",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Present Tenses in Passive",
+          "subtitle": "Indefinite, Continuous, and Perfect",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Present Indefinite Passive",
+          "given": ["The teacher (teach) English every day."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: The teacher teaches English every day.",
+            "Object: English. Subject: The teacher.",
+            "Passive: English + is + taught + by the teacher + every day."
+          ],
+          "answer": "English is taught by the teacher every day.",
+          "formula_used": "Obj + is/am/are + V3 + by + Sub"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Present Continuous Passive",
+          "given": ["The chef (prepare) the meal now."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: The chef is preparing the meal now.",
+            "Object: The meal. Subject: The chef.",
+            "Passive: The meal + is being + prepared + by the chef + now."
+          ],
+          "answer": "The meal is being prepared by the chef now.",
+          "formula_used": "Obj + is/am/are + being + V3 + by + Sub"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Present Perfect Passive",
+          "given": ["They (complete) the project already."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: They have completed the project already.",
+            "Object: The project. Subject: They.",
+            "Passive: The project + has been + completed + by them + already."
+          ],
+          "answer": "The project has been completed by them already.",
+          "formula_used": "Obj + has/have + been + V3 + by + Sub"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Present Indefinite: is/am/are + V3.",
+            "Present Continuous: is/am/are + being + V3.",
+            "Present Perfect: has/have + been + V3."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_past_tenses",
+      "title": "Passive Voice – Past Tenses",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Past Tenses in Passive",
+          "subtitle": "Indefinite, Continuous, and Perfect",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Past Indefinite Passive",
+          "given": ["The police (arrest) the thief."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: The police arrested the thief.",
+            "Object: The thief. Subject: The police.",
+            "Passive: The thief + was + arrested + by the police."
+          ],
+          "answer": "The thief was arrested by the police.",
+          "formula_used": "Obj + was/were + V3 + by + Sub"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Past Continuous Passive",
+          "given": ["The workers (build) the bridge when the earthquake struck."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: The workers were building the bridge when the earthquake struck.",
+            "Object: The bridge. Subject: The workers.",
+            "Passive: The bridge + was being + built + by the workers + when the earthquake struck."
+          ],
+          "answer": "The bridge was being built by the workers when the earthquake struck.",
+          "formula_used": "Obj + was/were + being + V3 + by + Sub"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Past Perfect Passive",
+          "given": ["The manager (finish) the report before the meeting."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: The manager had finished the report before the meeting.",
+            "Object: The report. Subject: The manager.",
+            "Passive: The report + had been + finished + by the manager + before the meeting."
+          ],
+          "answer": "The report had been finished by the manager before the meeting.",
+          "formula_used": "Obj + had + been + V3 + by + Sub"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Past Indefinite: was/were + V3.",
+            "Past Continuous: was/were + being + V3.",
+            "Past Perfect: had + been + V3."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_future_tenses",
+      "title": "Passive Voice – Future Tenses",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Future Tenses in Passive",
+          "subtitle": "Indefinite and Perfect",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Future Indefinite Passive",
+          "given": ["The company (launch) a new product next month."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: The company will launch a new product next month.",
+            "Object: A new product. Subject: The company.",
+            "Passive: A new product + will be + launched + by the company + next month."
+          ],
+          "answer": "A new product will be launched by the company next month.",
+          "formula_used": "Obj + will be + V3 + by + Sub"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Future Perfect Passive",
+          "given": ["By next year, they (complete) the construction."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: By next year, they will have completed the construction.",
+            "Object: The construction. Subject: They.",
+            "Passive: By next year, the construction + will have been + completed + by them."
+          ],
+          "answer": "By next year, the construction will have been completed by them.",
+          "formula_used": "Obj + will have been + V3 + by + Sub"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Future Indefinite: will be + V3.",
+            "Future Perfect: will have been + V3.",
+            "Future Continuous (will be + V1+ing) has NO passive form."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_modals",
+      "title": "Passive Voice with Modal Verbs",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Passive with Modals",
+          "subtitle": "Can, Could, May, Might, Must, Should, Would",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "formula",
+          "title": "Modal Passive Formula",
+          "formula": "Active: Subject + Modal + V1 + Object\nPassive: Object + Modal + be + V3 + by + Subject",
+          "description": "Modals are followed by 'be' + past participle in passive."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Modal of Obligation",
+          "given": ["You must finish the work."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: You must finish the work.",
+            "Object: The work. Subject: You.",
+            "Passive: The work + must + be + finished + by you."
+          ],
+          "answer": "The work must be finished by you.",
+          "formula_used": "Modal + be + V3"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Modal of Ability",
+          "given": ["She can solve this puzzle."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: She can solve this puzzle.",
+            "Object: This puzzle. Subject: She.",
+            "Passive: This puzzle + can + be + solved + by her."
+          ],
+          "answer": "This puzzle can be solved by her.",
+          "formula_used": "Modal + be + V3"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Modal Perfect Passive",
+          "given": ["They should have informed us."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: They should have informed us.",
+            "Object: Us. Subject: They.",
+            "Passive: We + should have + been + informed + by them."
+          ],
+          "answer": "We should have been informed by them.",
+          "formula_used": "Modal + have + been + V3"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Modal + be + V3 for present/future passive.",
+            "Modal + have been + V3 for past passive.",
+            "Remember: 'be' is always used after the modal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_imperatives",
+      "title": "Passive Voice – Imperative Sentences",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Passive of Imperatives",
+          "subtitle": "Commands, Requests, and Suggestions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📢",
+          "title": "Rules for Imperatives",
+          "content": "Imperative sentences (commands, requests) are converted to passive using 'Let' or 'You are requested/ordered to...'.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Command (Let)",
+          "given": ["Open the door."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: Open the door.",
+            "Passive structure: Let + object + be + V3.",
+            "Let the door be opened."
+          ],
+          "answer": "Let the door be opened.",
+          "formula_used": "Let + Obj + be + V3"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Request",
+          "given": ["Please help me."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: Please help me.",
+            "Passive structure: You are requested + to + V1.",
+            "You are requested to help me."
+          ],
+          "answer": "You are requested to help me.",
+          "formula_used": "You are requested to + V1"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Negative Imperative",
+          "given": ["Do not waste water."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: Do not waste water.",
+            "Passive structure: Let not + object + be + V3.",
+            "Let not water be wasted."
+          ],
+          "answer": "Let not water be wasted.",
+          "formula_used": "Let not + Obj + be + V3"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Commands → Let + object + be + V3.",
+            "Requests → You are requested to + V1.",
+            "Negative commands → Let not + object + be + V3."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_interrogatives",
+      "title": "Passive Voice – Interrogative Sentences",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Passive of Interrogatives",
+          "subtitle": "Wh-questions and Yes/No Questions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "❓",
+          "title": "Rules for Interrogatives",
+          "content": "In passive, the helping verb comes before the new subject (object of active). The question word remains at the beginning.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Yes/No Question",
+          "given": ["Did she write a letter?"],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: Did she write a letter?",
+            "Object: A letter. Subject: She.",
+            "Passive: Was a letter written by her?"
+          ],
+          "answer": "Was a letter written by her?",
+          "formula_used": "Helping verb (be) + Object + V3 + by + Subject"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Wh-Question",
+          "given": ["Who wrote this book?"],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: Who wrote this book?",
+            "Object: This book. Subject: Who? (doer).",
+            "Passive: By whom was this book written?"
+          ],
+          "answer": "By whom was this book written?",
+          "formula_used": "By whom + helping verb + object + V3"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Wh-Question with 'What'",
+          "given": ["What do you want?"],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: What do you want?",
+            "Object: What. Subject: You.",
+            "Passive: What is wanted by you?"
+          ],
+          "answer": "What is wanted by you?",
+          "formula_used": "What + helping verb + V3 + by + subject"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Yes/No Questions: Helping verb (be) + Object + V3 + by + Subject.",
+            "Wh-Questions: Wh-word + helping verb + Object + V3 + by + Subject.",
+            "For 'Who' questions, use 'By whom'."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_double_objects",
+      "title": "Passive with Two Objects (Double Object Verbs)",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Passive with Two Objects",
+          "subtitle": "Verbs like Give, Send, Tell, Show, Teach",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "What are Double Object Verbs?",
+          "content": "Verbs that take both a direct and indirect object (e.g., give, send, tell, show, teach, promise). Examples: 'She gave me a book' (me = indirect, book = direct).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Two Passive Options",
+          "given": ["The teacher gave the students a lesson."],
+          "find": "Convert to passive in two ways.",
+          "steps": [
+            "Active: The teacher gave the students a lesson.",
+            "Object 1 (Indirect): The students. Object 2 (Direct): A lesson.",
+            "Option A: The students were given a lesson by the teacher.",
+            "Option B: A lesson was given to the students by the teacher."
+          ],
+          "answer": "Option A: The students were given a lesson by the teacher.\nOption B: A lesson was given to the students by the teacher.",
+          "formula_used": "Either object can become the subject."
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Preference for Indirect Object",
+          "given": ["She showed me the photograph."],
+          "find": "Convert to passive (preferred form).",
+          "steps": [
+            "Active: She showed me the photograph.",
+            "Indirect Object (me) is preferred as the subject.",
+            "Passive: I was shown the photograph by her."
+          ],
+          "answer": "I was shown the photograph by her.",
+          "formula_used": "Indirect object as subject (most common in exams)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using wrong preposition with the retained object.",
+          "wrong": "A lesson was given the students.",
+          "correct": "A lesson was given to the students.",
+          "tip": "When the direct object is the subject, the indirect object takes 'to' or 'for'."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Verbs like give, send, tell, show, teach, offer, promise take two objects.",
+            "Either object can become the subject.",
+            "When direct object becomes the subject, use 'to' or 'for' before the indirect object."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_advanced",
+      "title": "Advanced Passive – With Prepositions, Bare Infinitives, and Infinitives",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Passive Structures",
+          "subtitle": "Prepositional Verbs, Bare Infinitives, and Infinitives",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Passive with Prepositional Verbs",
+          "content": "When the verb is followed by a preposition (e.g., look at, laugh at, talk about), the preposition is retained in the passive.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Prepositional Verb",
+          "given": ["They laughed at the old man."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: They laughed at the old man.",
+            "Object: The old man (preposition 'at' remains).",
+            "Passive: The old man was laughed at by them."
+          ],
+          "answer": "The old man was laughed at by them.",
+          "formula_used": "Object + was/were + V3 + preposition + by + Subject"
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Passive with Infinitives",
+          "content": "Sentences with 'to + V1' (infinitive) become 'to be + V3' in passive.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Passive with Infinitive",
+          "given": ["I want you to help me."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: I want you to help me.",
+            "Object: me. Infinitive: to help.",
+            "Passive: I want to be helped by you."
+          ],
+          "answer": "I want to be helped by you.",
+          "formula_used": "I want + to be + V3 + by + Subject"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: Bare Infinitive",
+          "given": ["We saw him cross the river."],
+          "find": "Convert to passive voice.",
+          "steps": [
+            "Active: We saw him cross the river.",
+            "After verbs of perception (see, hear, watch), the passive takes 'to + V1'.",
+            "Passive: He was seen to cross the river by us."
+          ],
+          "answer": "He was seen to cross the river by us.",
+          "formula_used": "Subject + was/were + seen/heard + to + V1 + by + agent"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Prepositions remain with the verb in passive.",
+            "Infinitives become 'to be + V3'.",
+            "Bare infinitives after perception verbs become 'to + V1' in passive."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_common_errors",
+      "title": "Common Errors in Active-Passive Voice",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Common Errors",
+          "subtitle": "Exam Favorites",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 1: Passive of Intransitive Verbs",
+          "wrong": "He was died.",
+          "correct": "He died. (Intransitive verbs have no passive.)",
+          "tip": "Verbs like die, sleep, arrive, happen, occur have no passive form."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 2: Wrong form of 'be'",
+          "wrong": "The book is wrote by him.",
+          "correct": "The book is written by him.",
+          "tip": "Always use the past participle (V3) form."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 3: Omitting 'by' with agent",
+          "wrong": "The letter was sent the manager.",
+          "correct": "The letter was sent by the manager.",
+          "tip": "Use 'by' before the doer in passive."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap 4: Passive of 'Let' in Negative",
+          "wrong": "Let not waste water.",
+          "correct": "Let not water be wasted.",
+          "tip": "Negative passive of imperative: Let not + object + be + V3."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Intransitive verbs have no passive.",
+            "Always use V3 (past participle) after 'be'.",
+            "Use 'by' to introduce the doer.",
+            "Check imperative and interrogative rules carefully."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Active & Passive Voice – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Identify the tense of the active sentence. Apply the correct passive structure. Check subject-verb agreement in passive.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The book ______ by the teacher yesterday.",
+          "options": ["is given", "was given", "has been given", "was being given"],
+          "answer": 1,
+          "explanation": "'Yesterday' indicates past time. Passive of Past Indefinite: was/were + V3. 'Book' is singular → was given.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "A new bridge ______ across the river.",
+          "options": ["is building", "is being built", "is built", "was built"],
+          "answer": 1,
+          "explanation": "The action is ongoing (present continuous passive) → is being built.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The thief ______ by the police last night.",
+          "options": ["has arrested", "is arrested", "was arrested", "were arrested"],
+          "answer": 2,
+          "explanation": "'Last night' indicates past time. Passive of Past Indefinite: was/were + V3. 'Thief' is singular → was arrested.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Please ______ the door.",
+          "options": ["let opened", "let be opened", "let the door opened", "let the door be opened"],
+          "answer": 3,
+          "explanation": "Imperative passive: Let + object + be + V3 → Let the door be opened.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The work ______ by tomorrow.",
+          "options": ["will finish", "will be finished", "is finished", "was finished"],
+          "answer": 1,
+          "explanation": "'By tomorrow' indicates future passive: will be + V3.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Why ______ the letter by him?",
+          "options": ["was posted", "was post", "were posted", "is posted"],
+          "answer": 0,
+          "explanation": "Passive of Past Indefinite question: Was + object + V3 + by + subject → Why was the letter posted by him?",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The students ______ to study hard by the principal.",
+          "options": ["advised", "were advised", "are advising", "have advised"],
+          "answer": 1,
+          "explanation": "Passive of Past Indefinite: were + V3 → The students were advised to study hard by the principal.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "She ______ a gift by her friend yesterday.",
+          "options": ["gave", "was given", "has given", "given"],
+          "answer": 1,
+          "explanation": "'Yesterday' indicates past. Passive: She + was + given + by her friend.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who ______ this letter?",
+          "options": ["was written by", "was written", "has written", "is written by"],
+          "answer": 0,
+          "explanation": "Passive of 'Who wrote this letter?' → 'By whom was this letter written?' In options, 'Who was this letter written by?' is also acceptable. 'Who was written by' is the passive interrogative form.",
+          "answer": 0,
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The baby ______ by the mother carefully.",
+          "options": ["is looking after", "is being looked after", "was looking after", "looked after"],
+          "answer": 1,
+          "explanation": "Present Continuous Passive: is being looked after.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the tense-wise structures. Practice double object and prepositional verb passives. Remember that intransitive verbs have no passive."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Active & Passive Voice",
+          "points": [
+            "Active: Subject + Verb + Object.",
+            "Passive: Object + be (tense) + V3 + by + Subject.",
+            "Only transitive verbs have passive.",
+            "Imperatives: Let + object + be + V3.",
+            "Interrogatives: Helping verb + object + V3 + by + subject.",
+            "Double objects: Either can be subject (use 'to/for' for the other).",
+            "Prepositional verbs: Preposition remains.",
+            "Modal passive: Modal + be + V3.",
+            "Intransitive verbs: No passive."
+          ]
+        }
+      ]
+    }
+  ]
+}

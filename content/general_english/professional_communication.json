@@ -1,0 +1,801 @@
+{
+  "id": "professional_communication",
+  "subject_id": "general_english",
+  "title": "Professional Communication: Official Drafting, Email Etiquette & Technical Terminology",
+  "subtopics": [
+    {
+      "id": "pc_intro",
+      "title": "Introduction to Professional Communication",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Professional Communication",
+          "subtitle": "Mastering Workplace and Official Correspondence",
+          "tags": ["JKSSB", "High Weightage", "English"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💼",
+          "title": "What is Professional Communication?",
+          "content": "Professional communication is the exchange of information in a business or official context. It includes written correspondence (letters, emails, memos, reports), verbal communication, and non-verbal cues. In government jobs, official drafting and documentation are critical skills.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Key Areas of Professional Communication",
+          "content": "1. Official Drafting (Notices, Circulars, Office Orders, Memos, Reports)\n2. Email Etiquette (Professional emails, structure, tone)\n3. Technical Terminology (Administrative, legal, and official vocabulary)\n4. Business Correspondence (Letters, proposals, executive summaries)\n5. Minutes of Meetings (Recording decisions and action items)\n6. Public Communication (Press releases, speeches, presentations)",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "The 7 C's of Professional Communication",
+          "steps": [
+            "1. Clear – The message should be easy to understand.",
+            "2. Concise – Use as few words as possible.",
+            "3. Concrete – Be specific and use facts.",
+            "4. Correct – Ensure grammatical and factual accuracy.",
+            "5. Coherent – The message should be logical and well-organized.",
+            "6. Complete – Provide all necessary information.",
+            "7. Courteous – Maintain a respectful and professional tone."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Professional communication is essential in government and corporate settings.",
+            "The 7 C's guide effective communication.",
+            "Official drafting requires precision, clarity, and adherence to format.",
+            "Email etiquette is a crucial skill in modern workplaces."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc_official_drafting",
+      "title": "Official Drafting – Notices, Circulars, Office Orders, and Memorandums",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Official Drafting",
+          "subtitle": "Creating Formal Documents",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📄",
+          "title": "What is Official Drafting?",
+          "content": "Official drafting refers to the creation of formal government and organizational documents such as notices, circulars, office orders, memorandums, and reports. These documents are used for communication within and outside the organization.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Official Documents",
+          "headers": ["Document Type", "Purpose", "Key Features"],
+          "rows": [
+            ["Notice", "To inform about an event, meeting, or announcement", "Clear, concise, includes date/time/venue, formal tone"],
+            ["Circular", "To communicate policy changes or instructions to all staff", "Wide circulation, formal, includes subject and details"],
+            ["Office Order", "To issue commands, appointments, or departmental decisions", "Numbered, signed by competent authority, legal effect"],
+            ["Memorandum (Memo)", "To communicate within an organization for internal matters", "Informal, concise, includes 'To', 'From', 'Subject', 'Date'"],
+            ["Letter", "External communication with individuals or organizations", "Formal structure: Sender, Recipient, Subject, Salutation, Body, Signature"],
+            ["Report", "To present findings, recommendations, or analyses", "Formal structure: Title, Summary, Introduction, Findings, Recommendations, Conclusion"],
+            ["Minutes of Meeting", "To record decisions and action items from a meeting", "Numbered, action-oriented, includes attendees, agenda, decisions"],
+            ["Press Release", "To announce news to the media", "Headline, dateline, body, boilerplate, media contact"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Drafting a Notice",
+          "given": ["The principal of a school needs to inform students about a holiday on 15th August."],
+          "find": "Draft a formal notice.",
+          "steps": [
+            "Header: School name and logo.",
+            "Title: 'NOTICE' in bold.",
+            "Date: 10th August 2025.",
+            "Body: 'All students are hereby informed that the school will remain closed on 15th August 2025 on account of Independence Day. Regular classes will resume on 16th August 2025.'",
+            "Signature: Principal's signature with name and designation."
+          ],
+          "answer": "NOTICE\nDate: 10/08/2025\nAll students are hereby informed that the school will remain closed on 15th August 2025 on account of Independence Day. Regular classes will resume on 16th August 2025.\nSd/-\nPrincipal",
+          "formula_used": "Notice structure"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Drafting an Office Order",
+          "given": ["The department has appointed Mr. Kumar as the new head of the Accounts section."],
+          "find": "Draft a formal office order.",
+          "steps": [
+            "Header: Department name and logo.",
+            "Title: 'OFFICE ORDER' in bold.",
+            "Order Number: Ref. No. 45/2025.",
+            "Date: 12th August 2025.",
+            "Body: 'In exercise of the powers conferred, Shri R. Kumar is hereby appointed as the Head of the Accounts Section with immediate effect. He shall report to the Director.'",
+            "Signature: Competent authority's signature."
+          ],
+          "answer": "OFFICE ORDER\nRef. No. 45/2025\nDate: 12/08/2025\nIn exercise of the powers conferred, Shri R. Kumar is hereby appointed as the Head of the Accounts Section with immediate effect. He shall report to the Director.\nSd/-\nDirector",
+          "formula_used": "Office order structure"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Notice and Circular.",
+          "wrong": "Using a circular when a notice is required.",
+          "correct": "Notices are for specific announcements; circulars are for wider policy communication.",
+          "tip": "Use notices for events/meetings; use circulars for policy/instruction dissemination."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Notices: Announcements, events, meetings.",
+            "Circulars: Policies, instructions, widespread communication.",
+            "Office Orders: Commands, appointments, official decisions.",
+            "Memos: Internal communication.",
+            "All official documents should be clear, concise, and formally structured.",
+            "Use proper headings, numbering, and signatures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc_email_etiquette",
+      "title": "Email Etiquette – Structure, Tone, and Best Practices",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Email Etiquette",
+          "subtitle": "Writing Professional Emails",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📧",
+          "title": "Why Email Etiquette Matters",
+          "content": "In government and corporate settings, email is the primary mode of formal communication. Professional emails leave a lasting impression and ensure clear communication. Poorly written emails can lead to misunderstandings and professional embarrassment.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Email Structure – The Professional Format",
+          "headers": ["Component", "Description", "Example"],
+          "rows": [
+            ["Subject Line", "Clear, concise, and descriptive", "'Meeting Scheduled for 15th August 2025'"],
+            ["Salutation", "Formal greeting based on relationship", "'Dear Sir/Madam', 'Dear Mr. Kumar'"],
+            ["Opening Line", "Polite introduction/context", "'I hope this email finds you well.'"],
+            ["Body", "Clear, logical, and to the point", "Explain purpose and details"],
+            ["Call to Action", "What you want the recipient to do", "'Kindly revert by 5 PM today.'"],
+            ["Closing", "Polite sign-off", "'Yours sincerely', 'Thanks and regards'"],
+            ["Signature Block", "Name, designation, contact details", "Your full name, job title, phone number"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Drafting a Professional Email",
+          "given": ["You need to request a meeting with your supervisor regarding a project update."],
+          "find": "Draft a professional email.",
+          "steps": [
+            "Subject: Request for Project Update Meeting",
+            "Salutation: Dear Sir,",
+            "Body: 'I would like to schedule a brief meeting with you to discuss the progress of the ongoing project. Please let me know a convenient time. I am available between 10 AM and 4 PM.'",
+            "Call to Action: 'Kindly revert with your preferred time.'",
+            "Closing: 'Thanks and regards,'",
+            "Signature: Your Name, Designation"
+          ],
+          "answer": "Subject: Request for Project Update Meeting\n\nDear Sir,\n\nI would like to schedule a brief meeting with you to discuss the progress of the ongoing project. Please let me know a convenient time. I am available between 10 AM and 4 PM.\n\nKindly revert with your preferred time.\n\nThanks and regards,\n[Your Name]\n[Designation]",
+          "formula_used": "Email structure"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using informal language in professional emails.",
+          "wrong": "'Hey, can we meet tomorrow?'",
+          "correct": "'I would like to request a meeting for tomorrow.'",
+          "tip": "Maintain a formal and respectful tone in all official emails."
+        },
+        {
+          "type": "note_card",
+          "title": "Email Do's and Don'ts",
+          "variant": "important",
+          "content": "Do's: \n• Use clear subject lines.\n• Proofread before sending.\n• Use professional salutations.\n• Keep emails concise.\n• Reply promptly.\n\nDon'ts: \n• Use ALL CAPS.\n• Use informal language or slang.\n• Send emails without proofreading.\n• Overuse CC and BCC.\n• Write lengthy paragraphs."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Professional emails have a clear structure: Subject, Salutation, Body, Call to Action, Closing, Signature.",
+            "Tone should be respectful, formal, and polite.",
+            "Proofread before sending.",
+            "Be concise and to the point."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc_business_letters",
+      "title": "Business Correspondence – Formal Letters, Proposals, and Reports",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Business Correspondence",
+          "subtitle": "External Communication with Individuals and Organizations",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "Types of Business Letters",
+          "content": "1. Inquiry Letter (requesting information)\n2. Complaint Letter (registering a grievance)\n3. Response Letter (replying to inquiries/complaints)\n4. Appreciation Letter (acknowledging someone)\n5. Application Letter (job applications)\n6. Proposal Letter (suggesting a project/service)\n7. Executive Summary (brief overview of a report)",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Structure of a Business Letter",
+          "headers": ["Component", "Description"],
+          "rows": [
+            ["Sender's Address", "Your address (top right)"],
+            ["Date", "Date of writing"],
+            ["Recipient's Address", "Name, designation, and address"],
+            ["Subject Line", "Brief description of purpose"],
+            ["Salutation", "Dear Mr./Ms./Dr. [Name]"],
+            ["Opening Paragraph", "Why you are writing"],
+            ["Body", "Details and explanation"],
+            ["Closing Paragraph", "Call to action or conclusion"],
+            ["Complimentary Close", "'Yours sincerely' / 'Yours faithfully'"],
+            ["Signature", "Your name, designation, and signature"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Drafting a Complaint Letter",
+          "given": ["You are a customer who received a damaged product."],
+          "find": "Draft a formal complaint letter.",
+          "steps": [
+            "Sender's Address: Your address",
+            "Date: Today's date",
+            "Recipient's Address: Company's address",
+            "Subject: Complaint regarding damaged product",
+            "Salutation: Dear Sir/Madam,",
+            "Body: 'I recently purchased a product (Order No. 12345). Unfortunately, the product arrived damaged. I request a replacement or a full refund.'",
+            "Closing: 'I look forward to your prompt response.'",
+            "Signature: Your name."
+          ],
+          "answer": "[Your Address]\n\nDate: 15/08/2025\n\nTo,\n[Company Address]\n\nSubject: Complaint regarding damaged product\n\nDear Sir/Madam,\n\nI recently purchased a product (Order No. 12345). Unfortunately, the product arrived damaged. I request a replacement or a full refund.\n\nI look forward to your prompt response.\n\nYours faithfully,\n[Your Name]",
+          "formula_used": "Business letter structure"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing 'Yours sincerely' and 'Yours faithfully'.",
+          "wrong": "Using 'Yours sincerely' when the recipient's name is unknown.",
+          "correct": "'Yours faithfully' is used when the recipient's name is not known; 'Yours sincerely' when the name is known.",
+          "tip": "Remember: Sincerely = known (S is for Seen); Faithfully = unknown (F is for First time)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Business letters follow a standard format.",
+            "Use 'Yours faithfully' when the recipient's name is unknown.",
+            "Use 'Yours sincerely' when the recipient's name is known.",
+            "Keep letters clear, concise, and professional."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc_minutes_reports",
+      "title": "Minutes of Meetings and Report Writing",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Minutes of Meetings & Report Writing",
+          "subtitle": "Recording and Presenting Information",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "What are Minutes of Meeting?",
+          "content": "Minutes of Meeting (MoM) are a formal record of the proceedings of a meeting. They include the agenda, key discussion points, decisions made, and action items with deadlines.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What is a Report?",
+          "content": "A report is a structured document that presents findings, analyses, or recommendations on a specific topic. Reports are used in government, business, and academia to share information.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Structure of Minutes of Meeting",
+          "headers": ["Component", "Description"],
+          "rows": [
+            ["Header", "Organization name, date, time, venue"],
+            ["Attendees", "List of members present and absent"],
+            ["Agenda", "List of topics to be discussed"],
+            ["Discussion", "Key points and decisions"],
+            ["Action Items", "Tasks assigned with deadlines"],
+            ["Next Meeting", "Date and time of next meeting"],
+            ["Signature", "Minutes taker's signature"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Structure of a Report",
+          "headers": ["Component", "Description"],
+          "rows": [
+            ["Title Page", "Title, author, date"],
+            ["Executive Summary", "Brief overview of findings"],
+            ["Introduction", "Background and purpose"],
+            ["Methodology", "How the report was compiled"],
+            ["Findings", "Detailed observations"],
+            ["Recommendations", "Proposed actions"],
+            ["Conclusion", "Summary"],
+            ["Appendices", "Supporting data"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Minutes of Meeting",
+          "given": ["A department meeting was held on 10th August to discuss the annual budget."],
+          "find": "Draft the minutes.",
+          "steps": [
+            "Header: Department of Finance, Meeting held on 10/08/2025.",
+            "Attendees: Mr. A (Chair), Ms. B, Mr. C, Ms. D.",
+            "Agenda: Discussion of annual budget.",
+            "Discussion: Budget allocated for project X was increased by 5%.",
+            "Action Items: Ms. B to prepare final budget by 15th August.",
+            "Next Meeting: 20th August."
+          ],
+          "answer": "MINUTES OF MEETING\nDepartment of Finance\nDate: 10/08/2025\nTime: 10:00 AM\nVenue: Conference Hall\n\nAttendees: Mr. A (Chair), Ms. B, Mr. C, Ms. D\n\nAgenda:\n1. Discussion of annual budget.\n\nDiscussion:\nBudget allocated for project X was increased by 5%.\n\nAction Items:\n1. Ms. B to prepare final budget by 15th August.\n\nNext Meeting: 20th August.\n\nSd/-\nMinutes Taker",
+          "formula_used": "Minutes structure"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Minutes of Meeting capture decisions and action items.",
+            "Reports present structured information and recommendations.",
+            "Both should be clear, accurate, and well-organized."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc_tech_terminology",
+      "title": "Technical Terminology – Administrative and Official Vocabulary",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Technical Terminology",
+          "subtitle": "Essential Administrative Vocabulary",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "What is Technical Terminology?",
+          "content": "Technical terminology refers to specialized vocabulary used in a particular field. In government and administrative contexts, it includes terms related to law, finance, policy, and official procedures.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common Administrative Terms – Definitions and Usage",
+          "headers": ["Term", "Definition", "Example Sentence"],
+          "rows": [
+            ["Quorum", "The minimum number of members required to conduct a meeting", "The meeting was adjourned due to lack of quorum."],
+            ["Adjourn", "To postpone or suspend a meeting", "The chairperson decided to adjourn the meeting."],
+            ["Agenda", "A list of items to be discussed in a meeting", "The agenda was circulated before the meeting."],
+            ["Minutes", "A written record of a meeting's proceedings", "The minutes of the meeting were approved."],
+            ["Memo", "A short written communication used in offices", "The memo was sent to all staff members."],
+            ["Circular", "A document sent to a group of people", "The circular was issued regarding the new policy."],
+            ["Notification", "A formal announcement or notice", "The notification was published in the gazette."],
+            ["Statute", "A written law passed by a legislative body", "The new statute was passed by Parliament."],
+            ["Ordinance", "A law issued by a government authority", "The ordinance was promulgated by the President."],
+            ["Gazette", "An official publication containing government notifications", "The decision was published in the official gazette."],
+            ["Affidavit", "A written statement confirmed by oath", "He submitted an affidavit to the court."],
+            ["Indemnity", "Protection against loss or damage", "The insurance policy provides indemnity."],
+            ["Liaison", "Communication between groups or organizations", "He serves as the liaison between the departments."],
+            ["Competent Authority", "An authority with legal power to act", "The matter was referred to the competent authority."],
+            ["Sanction", "Official approval or permission", "The project was approved after receiving sanction."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Common Financial/Administrative Acronyms",
+          "headers": ["Acronym", "Full Form", "Usage"],
+          "rows": [
+            ["GDP", "Gross Domestic Product", "Indicator of economic performance."],
+            ["CPI", "Consumer Price Index", "Measure of inflation."],
+            ["RBI", "Reserve Bank of India", "Central banking institution."],
+            ["ESIC", "Employees' State Insurance Corporation", "Social security scheme."],
+            ["PF", "Provident Fund", "Retirement savings scheme."],
+            ["GST", "Goods and Services Tax", "Indirect tax system."],
+            ["IT", "Income Tax", "Tax on income."],
+            ["PSU", "Public Sector Undertaking", "Government-owned company."],
+            ["AICTE", "All India Council for Technical Education", "Approves technical institutions."],
+            ["UGC", "University Grants Commission", "Regulates university education."],
+            ["SBI", "State Bank of India", "Public sector bank."],
+            ["CAG", "Comptroller and Auditor General", "Audits government accounts."],
+            ["MoU", "Memorandum of Understanding", "Agreement between parties."],
+            ["RTI", "Right to Information", "Act providing access to information."],
+            ["RTE", "Right to Education", "Act providing free education."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Using Technical Terms in Context",
+          "given": ["The committee needs to decide the agenda for the meeting."],
+          "find": "Rewrite using official terminology.",
+          "steps": [
+            "Use 'committee' (official body).",
+            "Use 'agenda' (list of items).",
+            "The committee will decide the agenda for the meeting."
+          ],
+          "answer": "The committee will decide the agenda for the meeting.",
+          "formula_used": "Official terminology"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Technical terminology is essential for official communication.",
+            "Learn common administrative, financial, and legal terms.",
+            "Use acronyms correctly.",
+            "Understanding official vocabulary is crucial for competitive exams."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc_public_communication",
+      "title": "Public Communication – Press Releases, Speeches, and Presentations",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Public Communication",
+          "subtitle": "Communicating with the Media and Public",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📢",
+          "title": "What is Public Communication?",
+          "content": "Public communication involves disseminating information to the general public, media, or large audiences. It includes press releases, speeches, public announcements, and presentations.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Press Release Structure",
+          "headers": ["Component", "Description"],
+          "rows": [
+            ["Headline", "Catchy and attention-grabbing"],
+            ["Dateline", "City, State, Date"],
+            ["Lead", "First paragraph – most important information"],
+            ["Body", "Details, quotes, supporting information"],
+            ["Boilerplate", "Short description of the organization"],
+            ["Media Contact", "Name, phone, email for further information"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Drafting a Press Release",
+          "given": ["Your department is launching a new public service initiative."],
+          "find": "Draft a press release.",
+          "steps": [
+            "Headline: 'New Initiative Launched to Enhance Public Service Delivery'",
+            "Dateline: Srinagar, 15th August 2025",
+            "Lead: 'The Department of Public Services announced the launch of a new initiative aimed at improving service delivery and citizen satisfaction.'",
+            "Body: Provide details of the initiative, features, and benefits.",
+            "Boilerplate: 'The Department of Public Services is committed to providing efficient and effective services to all citizens.'",
+            "Media Contact: Name, phone number, email."
+          ],
+          "answer": "FOR IMMEDIATE RELEASE\n\nHeadline: New Initiative Launched to Enhance Public Service Delivery\n\nSrinagar, 15th August 2025 – The Department of Public Services announced the launch of a new initiative aimed at improving service delivery and citizen satisfaction. The initiative will introduce digital platforms for faster grievance redressal and online service applications.\n\nThe Department of Public Services is committed to providing efficient and effective services to all citizens.\n\nMedia Contact:\nMr. R. Kumar\nPhone: 1234567890\nEmail: media@deptps.gov.in",
+          "formula_used": "Press release structure"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Press releases must be newsworthy and concise.",
+            "The lead paragraph should contain the most important information.",
+            "Provide clear media contact information.",
+            "Public communication must be accurate and professional."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc_report_improvement",
+      "title": "Report and Document Improvement",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Document Improvement",
+          "subtitle": "Editing and Proofreading Official Documents",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "✏️",
+          "title": "Why Editing and Proofreading Matter",
+          "content": "Official documents must be error-free. Errors in grammar, spelling, or formatting can undermine credibility and lead to misinterpretation.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Checklist for Document Improvement",
+          "headers": ["Area", "Check", "Action"],
+          "rows": [
+            ["Grammar", "Subject-verb agreement, tenses, punctuation", "Correct errors"],
+            ["Format", "Consistency in headings, numbering, spacing", "Standardise format"],
+            ["Clarity", "Jargon, ambiguity, complex sentences", "Simplify language"],
+            ["Accuracy", "Facts, figures, names, dates", "Verify information"],
+            ["Brevity", "Redundancy and wordiness", "Remove unnecessary words"],
+            ["Tone", "Respectful, formal, appropriate", "Maintain professionalism"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Improving a Draft Document",
+          "given": ["Dear Sir, I am writing to inform you that the meeting scheduled for tomorrow has been postponed. Kindly acknowledge."],
+          "find": "Improve the draft.",
+          "steps": [
+            "Add subject line.",
+            "Add a proper salutation.",
+            "Provide reason for postponement.",
+            "Add a clear call to action."
+          ],
+          "answer": "Subject: Postponement of Scheduled Meeting\n\nDear Sir,\n\nI am writing to inform you that the meeting scheduled for tomorrow has been postponed due to unforeseen circumstances. The revised date will be communicated shortly.\n\nKindly acknowledge receipt of this communication.\n\nThanks and regards,\n[Your Name]",
+          "formula_used": "Document improvement"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Always proofread official documents before submission.",
+            "Check for grammar, formatting, and accuracy.",
+            "Ensure the tone is professional and respectful.",
+            "Simplify complex sentences and avoid jargon."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc_shortcuts",
+      "title": "Shortcuts and Tips for Professional Communication",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Shortcuts for Professional Communication",
+          "subtitle": "Remembering the Essentials",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Tip 1 – The 7 C's",
+          "content": "Memorize: Clear, Concise, Concrete, Correct, Coherent, Complete, Courteous.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Tip 2 – Email Formula",
+          "content": "Subject + Salutation + Body + Call to Action + Closing + Signature.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Tip 3 – Official Document Checklist",
+          "content": "Check for: Date, Subject, Proper Salutation, Clear Body, Signature, Designation.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "DRAFT",
+          "memory_trick": "Draft, Review, Analyze, Format, Type – the five steps of official document creation."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Apply the 7 C's of effective communication.",
+            "Use email formula for all professional emails.",
+            "Follow official document checklists.",
+            "Practice drafting notices, circulars, and emails."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Professional Communication – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Understand the purpose of each document type. Recognize the correct format, terminology, and tone for official communication.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a type of official document?",
+          "options": ["Circular", "Notice", "Invoice", "Office Order"],
+          "answer": 2,
+          "explanation": "An invoice is a commercial document, not an official government document. Circulars, notices, and office orders are official documents.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The purpose of a circular is to:",
+          "options": [
+            "Announce a single event.",
+            "Communicate policies to a large group.",
+            "Record minutes of a meeting.",
+            "Respond to a complaint."
+          ],
+          "answer": 1,
+          "explanation": "Circulars are used to communicate policies, instructions, or information to a wide audience within an organization.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which salutation is appropriate for a formal letter when the recipient's name is NOT known?",
+          "options": [
+            "Dear Sir/Madam",
+            "Hi",
+            "Hello",
+            "Dear Mr. Kumar"
+          ],
+          "answer": 0,
+          "explanation": "'Dear Sir/Madam' is used when the recipient's name is unknown. 'Dear Mr. Kumar' is used when the name is known.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is the correct closing for a formal letter when the recipient's name is known?",
+          "options": [
+            "Yours faithfully",
+            "Yours sincerely",
+            "Thanks and regards",
+            "Kind regards"
+          ],
+          "answer": 1,
+          "explanation": "'Yours sincerely' is used when the recipient's name is known. 'Yours faithfully' is used when the name is not known.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What does the term 'quorum' refer to?",
+          "options": [
+            "The agenda of a meeting.",
+            "The minimum number of members required for a meeting.",
+            "The person who chairs the meeting.",
+            "The minutes of a meeting."
+          ],
+          "answer": 1,
+          "explanation": "'Quorum' is the minimum number of members required to conduct a meeting officially.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Minutes of Meeting (MoM) primarily document:",
+          "options": [
+            "The full transcript of the meeting.",
+            "The key decisions and action items.",
+            "The attendees' personal opinions.",
+            "The venue details."
+          ],
+          "answer": 1,
+          "explanation": "Minutes document key decisions, action items, and important discussions – not a full transcript.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the purpose of an office order?",
+          "options": [
+            "To announce a social event.",
+            "To issue commands or appointments.",
+            "To record meeting minutes.",
+            "To respond to a public query."
+          ],
+          "answer": 1,
+          "explanation": "Office orders are used to issue commands, appointments, or official decisions within an organization.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a component of a press release?",
+          "options": [
+            "Headline",
+            "Dateline",
+            "Boilerplate",
+            "Signature"
+          ],
+          "answer": 3,
+          "explanation": "Press releases typically include a headline, dateline, lead, body, boilerplate, and media contact – but not a personal signature.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What does the acronym RTI stand for?",
+          "options": [
+            "Right to Inspect",
+            "Right to Information",
+            "Real Time Intelligence",
+            "Response Time Initiative"
+          ],
+          "answer": 1,
+          "explanation": "RTI stands for 'Right to Information', an act providing citizens access to government records.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a characteristic of a well-drafted notice?",
+          "options": [
+            "It should be lengthy and detailed.",
+            "It should have a clear subject and date.",
+            "It should be informal and friendly.",
+            "It should not mention the venue."
+          ],
+          "answer": 1,
+          "explanation": "A good notice is clear, concise, and includes essential details like subject, date, time, and venue.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Focus on the purpose and format of each document type (notice, circular, office order, memo, letter, minutes, press release). Learn common administrative terms and acronyms."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Professional Communication",
+          "points": [
+            "Notices: Announce events/meetings.",
+            "Circulars: Disseminate policies to wide audiences.",
+            "Office Orders: Issue commands/appointments.",
+            "Memos: Internal communication.",
+            "Letters: External formal communication.",
+            "Minutes: Record meeting decisions and actions.",
+            "Reports: Present findings/recommendations.",
+            "Press Releases: Announce news to the media.",
+            "Email: Subject + Salutation + Body + Call to Action + Closing + Signature.",
+            "7 C's: Clear, Concise, Concrete, Correct, Coherent, Complete, Courteous.",
+            "Technical Terms: Quorum, Agenda, Memorandum, Liaison, Competent Authority, etc.",
+            "Acronyms: RTI, RTE, GST, GDP, CPI, RBI, etc."
+          ]
+        }
+      ]
+    }
+  ]
+}

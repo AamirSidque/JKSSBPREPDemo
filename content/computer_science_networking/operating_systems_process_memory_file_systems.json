@@ -1,0 +1,976 @@
+{
+  "id": "operating_systems_process_memory_file_systems",
+  "subject_id": "computer_science_networking",
+  "title": "Operating Systems: Process, Memory and File Systems",
+  "subtopics": [
+    {
+      "id": "os_intro",
+      "title": "Introduction to Operating Systems – What, Why, How",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Operating Systems",
+          "subtitle": "The Backbone of Every Computer",
+          "tags": ["JKSSB", "High Weightage", "Operating Systems"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🖥️",
+          "title": "What is an Operating System?",
+          "content": "An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs. It acts as an intermediary between users and the hardware.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "Key Functions of an OS",
+          "content": "1. **Process Management** – Scheduling, creation, termination.\n2. **Memory Management** – Allocation, paging, segmentation.\n3. **File System Management** – File creation, storage, access.\n4. **Device Management** – I/O device control.\n5. **Security & Protection** – Access control, authentication.\n6. **User Interface** – CLI, GUI.\n7. **Networking** – Communication between systems.",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "How an OS Works",
+          "steps": [
+            "Step 1: User interacts with the OS via CLI or GUI.",
+            "Step 2: OS translates user commands into system calls.",
+            "Step 3: OS schedules processes and allocates CPU time.",
+            "Step 4: OS manages memory and allocates resources.",
+            "Step 5: OS handles I/O operations and file access.",
+            "Step 6: OS provides security and error handling."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "OS is an interface between hardware and user.",
+            "It manages resources and provides services.",
+            "Key components: Process, Memory, File, I/O, Security.",
+            "Examples: Windows, Linux, macOS, Android, iOS."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process_management",
+      "title": "Process Management – PCB, States, and Lifecycle",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Process Management",
+          "subtitle": "Understanding Programs in Execution",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "What is a Process?",
+          "content": "A process is a program in execution. It includes the program code, its current activity, and the execution context (registers, program counter, stack, etc.).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Process Control Block (PCB)",
+          "content": "PCB is a data structure maintained by the OS for each process. It contains: Process ID (PID), Program Counter, CPU Registers, Memory Limits, List of Open Files, Process State, Priority, Scheduling Info.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Process States",
+          "headers": ["State", "Description", "Transition"],
+          "rows": [
+            ["New", "Process is being created.", "Admitted → Ready"],
+            ["Ready", "Process is waiting for CPU.", "Scheduled → Running"],
+            ["Running", "Process is executing on CPU.", "Interrupted → Ready, I/O → Waiting"],
+            ["Waiting", "Process is waiting for I/O or event.", "I/O Complete → Ready"],
+            ["Terminated", "Process has finished execution.", "Exit → Terminated"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Process Lifecycle",
+          "given": ["A user opens a text editor."],
+          "find": "Trace the process states.",
+          "steps": [
+            "New: OS creates the process.",
+            "Ready: Process is loaded into memory and waiting for CPU.",
+            "Running: CPU executes the text editor code.",
+            "Waiting: User types, process waits for keyboard input.",
+            "Running: Process resumes.",
+            "Terminated: User closes the editor, process exits."
+          ],
+          "answer": "New → Ready → Running ↔ Waiting → Terminated.",
+          "formula_used": "Process state transitions"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Process and Program.",
+          "wrong": "Process and Program are the same.",
+          "correct": "A program is a passive file (code); a process is an active execution instance.",
+          "tip": "Program = Static, Process = Dynamic."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Process = Program in execution.",
+            "PCB contains all process information.",
+            "States: New, Ready, Running, Waiting, Terminated.",
+            "Context switching saves and restores PCB."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "threads",
+      "title": "Threads – Lightweight Processes",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Threads",
+          "subtitle": "Multitasking within a Process",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧵",
+          "title": "What is a Thread?",
+          "content": "A thread is the smallest unit of execution within a process. Multiple threads can exist within the same process, sharing the same memory space (heap, global variables) but having their own stack and registers.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Process vs Thread",
+          "left_header": "Process",
+          "right_header": "Thread",
+          "rows": [
+            { "left": "Heavyweight (more resources).", "right": "Lightweight (fewer resources)." },
+            { "left": "Separate memory space.", "right": "Shared memory within the process." },
+            { "left": "Context switching is expensive.", "right": "Context switching is cheaper." },
+            { "left": "Inter-process communication (IPC) is slower.", "right": "Thread communication is faster." },
+            { "left": "Example: Multiple applications.", "right": "Example: Multiple tabs in a browser." }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Thread Models",
+          "headers": ["Model", "Description", "Example"],
+          "rows": [
+            ["User-Level Threads", "Managed by user library, OS unaware.", "POSIX threads (pthreads) in user space."],
+            ["Kernel-Level Threads", "Managed by OS kernel.", "Windows, Linux threads."],
+            ["Hybrid Model", "Combination of user and kernel threads.", "Solaris, Windows 7/8/10."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Multi-threading",
+          "given": ["A web browser has multiple tabs open."],
+          "find": "How does the browser handle multiple tabs?",
+          "steps": [
+            "The browser process contains multiple threads.",
+            "Each tab runs on a separate thread.",
+            "Threads share the browser's memory and resources.",
+            "This allows simultaneous loading and user interaction."
+          ],
+          "answer": "Multiple tabs run as threads within a single browser process.",
+          "formula_used": "Multi-threading concept"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Threads are always faster than processes.",
+          "wrong": "Threads are always faster than processes.",
+          "correct": "Threads are faster for communication and switching, but not always safer (shared memory leads to race conditions).",
+          "tip": "Synchronization is needed for thread safety."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Threads share memory space within a process.",
+            "Threads are lightweight compared to processes.",
+            "Threads require synchronization to avoid race conditions.",
+            "Multithreading improves responsiveness and resource utilization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cpu_scheduling",
+      "title": "CPU Scheduling Algorithms – FCFS, SJF, Round Robin, Priority",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "CPU Scheduling",
+          "subtitle": "Allocating CPU Time to Processes",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⏰",
+          "title": "What is CPU Scheduling?",
+          "content": "CPU scheduling is the process by which the OS decides which process will get the CPU and for how long. The goal is to maximize CPU utilization, throughput, and fairness.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "CPU Scheduling Algorithms",
+          "headers": ["Algorithm", "Description", "Advantages", "Disadvantages"],
+          "rows": [
+            ["FCFS (First Come First Serve)", "Non-preemptive, runs processes in arrival order.", "Simple to implement.", "Convoy effect (short processes wait for long)."],
+            ["SJF (Shortest Job First)", "Non-preemptive, runs the shortest process first.", "Minimizes average waiting time.", "Starvation of long processes."],
+            ["SRTF (Shortest Remaining Time First)", "Preemptive version of SJF.", "Optimal for minimizing average waiting time.", "Overhead of context switching."],
+            ["Round Robin (RR)", "Preemptive, each process gets a fixed time quantum.", "Fairness, responsive.", "Performance depends on quantum size."],
+            ["Priority Scheduling", "Processes with higher priority run first.", "Can support real-time systems.", "Starvation of low-priority processes."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Round Robin Scheduling",
+          "given": ["Processes: P1(4ms), P2(3ms), P3(2ms), Quantum = 2ms"],
+          "find": "Schedule the processes.",
+          "steps": [
+            "Time 0-2: P1 runs (remaining 2)",
+            "Time 2-4: P2 runs (remaining 1)",
+            "Time 4-6: P3 runs (remaining 0)",
+            "Time 6-8: P1 runs (remaining 0)",
+            "Time 8-9: P2 runs (remaining 0)",
+            "Completion: P3(6), P1(8), P2(9)"
+          ],
+          "answer": "RR schedule: P1, P2, P3, P1, P2.",
+          "formula_used": "Round Robin with quantum=2"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: FCFS Scheduling",
+          "given": ["Processes: P1(3ms), P2(6ms), P3(4ms), Arrival: 0, 1, 2"],
+          "find": "Calculate completion time.",
+          "steps": [
+            "P1 arrives at 0 → runs 0-3.",
+            "P2 arrives at 1, waits until 3 → runs 3-9.",
+            "P3 arrives at 2, waits until 9 → runs 9-13.",
+            "Completion: P1(3), P2(9), P3(13)"
+          ],
+          "answer": "P1=3, P2=9, P3=13",
+          "formula_used": "FCFS non-preemptive"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: FCFS is always better than SJF.",
+          "wrong": "FCFS is optimal for average waiting time.",
+          "correct": "SJF (non-preemptive) minimizes average waiting time.",
+          "tip": "SJF is optimal only if all processes are available at time 0."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "FCFS: Simple, non-preemptive, convoy effect.",
+            "SJF: Minimizes waiting time, starves long processes.",
+            "Round Robin: Fair, responsive, requires quantum tuning.",
+            "Priority: Supports real-time, but starves low-priority (solved by aging)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memory_management",
+      "title": "Memory Management – Paging, Segmentation, Virtual Memory",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Memory Management",
+          "subtitle": "Efficiently Using RAM",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What is Memory Management?",
+          "content": "Memory management is the process of allocating and deallocating memory for processes. It ensures that each process has enough memory to execute and that processes do not interfere with each other.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Memory Management Techniques",
+          "headers": ["Technique", "Description", "Key Feature"],
+          "rows": [
+            ["Contiguous Allocation", "Processes are allocated a single contiguous block of memory.", "Simple, but leads to fragmentation."],
+            ["Paging", "Memory is divided into fixed-size pages. Process pages are loaded into frames.", "Eliminates external fragmentation."],
+            ["Segmentation", "Process is divided into logical segments (code, data, stack).", "Reflects logical structure, but causes external fragmentation."],
+            ["Virtual Memory", "Uses disk as an extension of RAM (swap space).", "Allows execution of processes larger than physical memory."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Paging vs Segmentation",
+          "headers": ["Aspect", "Paging", "Segmentation"],
+          "rows": [
+            ["Unit", "Fixed-size pages.", "Variable-size segments."],
+            ["Fragmentation", "Internal fragmentation only.", "External fragmentation possible."],
+            ["Logical View", "Process is divided into pages (hardware).", "Process is divided into logical units (software)."],
+            ["Protection", "Page-level protection.", "Segment-level protection."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Paging",
+          "given": ["Logical address: 16-bit, page size: 4KB (2^12), page table entry: 2 bytes."],
+          "find": "Calculate number of pages and page table size.",
+          "steps": [
+            "Page size = 2^12 bytes = 4096 bytes.",
+            "Logical address = 16 bits, so page offset = 12 bits.",
+            "Number of pages = 2^(16-12) = 2^4 = 16 pages.",
+            "Page table size = 16 × 2 bytes = 32 bytes."
+          ],
+          "answer": "16 pages, page table = 32 bytes.",
+          "formula_used": "Pages = 2^(address_bits - page_offset_bits)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Virtual Memory is the same as physical memory.",
+          "wrong": "Virtual memory uses only physical RAM.",
+          "correct": "Virtual memory uses disk storage to extend physical RAM (swap space).",
+          "tip": "Virtual memory allows running programs larger than physical RAM."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Memory management allocates and tracks memory usage.",
+            "Paging = fixed-size blocks, no external fragmentation.",
+            "Segmentation = logical units, but causes external fragmentation.",
+            "Virtual memory = swap space on disk, extends RAM."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page_replacement",
+      "title": "Page Replacement Algorithms – FIFO, LRU, Optimal",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Page Replacement Algorithms",
+          "subtitle": "Handling Page Faults",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "What is Page Replacement?",
+          "content": "When a page fault occurs and there is no free frame, the OS must choose a page to evict from memory. Page replacement algorithms decide which page to remove to make room for the new page.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Page Replacement Algorithms",
+          "headers": ["Algorithm", "Description", "Advantages", "Disadvantages"],
+          "rows": [
+            ["FIFO (First In First Out)", "Evicts the oldest page in memory.", "Simple to implement.", "Suffers from Belady's anomaly (more frames can cause more faults)."],
+            ["LRU (Least Recently Used)", "Evicts the page that has not been used for the longest time.", "Good performance in practice.", "High implementation overhead (requires hardware support)."],
+            ["Optimal", "Evicts the page that will not be used for the longest time in the future.", "Optimal (lowest fault rate).", "Not implementable in practice (future is unknown)."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: FIFO Page Replacement",
+          "given": ["Page reference string: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5", "Frames = 3"],
+          "find": "Number of page faults.",
+          "steps": [
+            "Frames: [1,2,3] → fault",
+            "1,2,3,4 → replace 1 with 4 → fault",
+            "1,2,5 → replace 3 with 5 → fault",
+            "1,2,3 → replace 4 with 3 → fault",
+            "4,5 → replace 1 with 4 → fault",
+            "Total faults: 9"
+          ],
+          "answer": "9 page faults",
+          "formula_used": "FIFO page replacement"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: LRU Page Replacement",
+          "given": ["Same reference string: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5", "Frames = 3"],
+          "find": "Number of page faults.",
+          "steps": [
+            "Frames: [1,2,3] → fault",
+            "1,2,3,4 → replace 1 (least recently used) with 4 → fault",
+            "1,2,5 → replace 3 with 5 → fault",
+            "1,2,3 → replace 5 with 3 → fault",
+            "4,5 → replace 1 with 4 → fault",
+            "Total faults: 9"
+          ],
+          "answer": "9 page faults",
+          "formula_used": "LRU page replacement"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Optimal algorithm is implementable in practice.",
+          "wrong": "Optimal algorithm is used in real systems.",
+          "correct": "Optimal algorithm is theoretical; real systems use LRU or approximations.",
+          "tip": "Optimal requires knowing future accesses, which is impossible."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "FIFO: Evicts oldest page, simple, but can have Belady's anomaly.",
+            "LRU: Evicts least recently used, good performance.",
+            "Optimal: Evicts page not used longest in future (theoretical)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file_systems",
+      "title": "File Systems – Structure, Directories, Allocation Methods",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "File Systems",
+          "subtitle": "Organizing and Storing Data",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📁",
+          "title": "What is a File System?",
+          "content": "A file system is a method of storing and organizing files on a storage device. It defines how data is stored, retrieved, and managed. Examples: NTFS, FAT32, ext4, APFS.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "File Allocation Methods",
+          "headers": ["Method", "Description", "Advantages", "Disadvantages"],
+          "rows": [
+            ["Contiguous Allocation", "Each file occupies a contiguous block of blocks.", "Fast sequential and random access.", "External fragmentation, file size limited."],
+            ["Linked Allocation", "Each file is a linked list of blocks (each block points to next).", "No fragmentation, easy to grow.", "Slow random access (sequential reads)."],
+            ["Indexed Allocation", "A single index block contains pointers to all file blocks.", "Fast random access.", "Index block overhead, size limited by index block size."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Directory Structures",
+          "headers": ["Structure", "Description", "Example"],
+          "rows": [
+            ["Single-Level Directory", "All files are in one directory.", "Simple, but naming conflicts."],
+            ["Two-Level Directory", "Users have separate directories.", "Reduces conflicts."],
+            ["Tree-Structured Directory", "Hierarchical directories (subdirectories).", "Modern file systems (Linux, Windows)."],
+            ["Acyclic Graph", "Allows sharing via links (hard/soft links).", "Unix/Linux."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: File Allocation",
+          "given": ["A file of size 4 blocks needs allocation."],
+          "find": "Compare contiguous vs linked allocation.",
+          "steps": [
+            "Contiguous: Needs 4 consecutive free blocks (may cause fragmentation).",
+            "Linked: Can use any 4 free blocks (no fragmentation, but slower access)."
+          ],
+          "answer": "Contiguous = faster but fragmented; Linked = no fragmentation but slower.",
+          "formula_used": "Allocation method comparison"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: FAT32 is a journaling file system.",
+          "wrong": "FAT32 supports journaling.",
+          "correct": "FAT32 does not support journaling. NTFS and ext4 do.",
+          "tip": "Journaling file systems (NTFS, ext3/4) are more robust against crashes."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "File system organizes files on storage.",
+            "Allocation: Contiguous, Linked, Indexed.",
+            "Directory: Single-level, Two-level, Tree-structured.",
+            "Journaling improves reliability (NTFS, ext4)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deadlocks",
+      "title": "Deadlocks – Conditions, Detection, Recovery",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Deadlocks",
+          "subtitle": "When Processes Wait Forever",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⛔",
+          "title": "What is a Deadlock?",
+          "content": "A deadlock is a situation where two or more processes are waiting indefinitely for resources held by each other, preventing any of them from progressing.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Necessary Conditions for Deadlock (Coffman Conditions)",
+          "headers": ["Condition", "Description"],
+          "rows": [
+            ["Mutual Exclusion", "Resources cannot be shared (non-shareable)."],
+            ["Hold and Wait", "A process holds some resources while waiting for others."],
+            ["No Preemption", "Resources cannot be forcibly taken away; they must be released voluntarily."],
+            ["Circular Wait", "There is a cycle of processes, each waiting for a resource held by the next."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Deadlock Handling Strategies",
+          "headers": ["Strategy", "Description"],
+          "rows": [
+            ["Deadlock Prevention", "Break one of the four Coffman conditions."],
+            ["Deadlock Avoidance", "Ensure the system never enters a deadlock state (Banker's Algorithm)."],
+            ["Deadlock Detection", "Allow deadlocks to occur, then detect and recover."],
+            ["Deadlock Recovery", "Abort processes or preempt resources."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Banker's Algorithm",
+          "given": ["Processes: P0, P1 with allocated and max resources."],
+          "find": "Determine if the system is in a safe state.",
+          "steps": [
+            "Calculate available resources.",
+            "Find a process that can finish (need ≤ available).",
+            "Simulate allocation and release.",
+            "If all processes can finish → safe state."
+          ],
+          "answer": "System is in a safe state if a safe sequence exists.",
+          "formula_used": "Banker's Algorithm"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Deadlock prevention is always possible.",
+          "wrong": "Deadlock prevention is always possible in any system.",
+          "correct": "Deadlock prevention is not always practical (e.g., mutual exclusion is required for many resources).",
+          "tip": "Deadlock avoidance (Banker's) is more practical than prevention."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Deadlock requires all four Coffman conditions.",
+            "Prevention: Break one condition.",
+            "Avoidance: Banker's Algorithm (safe state).",
+            "Detection: Resource allocation graph.",
+            "Recovery: Process termination or resource preemption."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inter_process_communication",
+      "title": "Inter-Process Communication (IPC) – Pipes, Message Queues, Shared Memory, Signals",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Inter-Process Communication",
+          "subtitle": "How Processes Talk to Each Other",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📨",
+          "title": "What is IPC?",
+          "content": "Inter-Process Communication (IPC) is the mechanism that allows processes to communicate and synchronise their actions. IPC is essential for processes that need to share data or coordinate tasks.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "IPC Mechanisms",
+          "headers": ["Mechanism", "Description", "Example"],
+          "rows": [
+            ["Pipes", "Unidirectional data flow (like a pipe).", "Linux pipe(), | in shell."],
+            ["Named Pipes (FIFOs)", "Pipes with a name, bidirectional.", "mkfifo in Unix."],
+            ["Message Queues", "Messages are stored in a queue.", "System V message queues."],
+            ["Shared Memory", "Memory shared between processes.", "mmap(), System V shm."],
+            ["Semaphores", "Synchronisation primitives (lock).", "Counting semaphores."],
+            ["Signals", "Software interrupts for notifications.", "SIGINT, SIGTERM."],
+            ["Sockets", "Communication over network.", "TCP/IP sockets."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Shared Memory",
+          "given": ["Two processes need to share a counter."],
+          "find": "How can they communicate?",
+          "steps": [
+            "Use shared memory segment.",
+            "Both processes attach to the segment.",
+            "Update and read the counter using semaphores for synchronisation.",
+            "Memory is directly accessible (fast)."
+          ],
+          "answer": "Shared memory + semaphores.",
+          "formula_used": "Shared memory communication"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Pipes are bidirectional.",
+          "wrong": "Pipes are bidirectional.",
+          "correct": "Ordinary pipes are unidirectional. Named pipes (FIFOs) can be bidirectional.",
+          "tip": "Use pipes for one-way communication; shared memory for two-way."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "IPC allows processes to communicate and synchronise.",
+            "Mechanisms: Pipes, Message Queues, Shared Memory, Signals, Sockets.",
+            "Shared memory is the fastest IPC method.",
+            "Synchronisation is needed to avoid race conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "os_io",
+      "title": "I/O Management – Device Drivers, Buffering, Caching, Spooling",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "I/O Management",
+          "subtitle": "Handling Input and Output Devices",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "What is I/O Management?",
+          "content": "I/O management involves controlling input and output devices (keyboard, mouse, disk, printer, etc.) and ensuring smooth data transfer between devices and memory.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "I/O Management Techniques",
+          "headers": ["Technique", "Description", "Advantages", "Disadvantages"],
+          "rows": [
+            ["Polling", "CPU continuously checks the status of I/O device.", "Simple.", "Wastes CPU time."],
+            ["Interrupts", "Device interrupts the CPU when ready.", "Efficient, no polling.", "More complex."],
+            ["DMA (Direct Memory Access)", "Device transfers data directly to/from memory without CPU involvement.", "Frees the CPU.", "Requires DMA controller."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: DMA Transfer",
+          "given": ["A hard disk needs to read 1 MB of data."],
+          "find": "How does DMA help?",
+          "steps": [
+            "CPU sets up the DMA controller.",
+            "DMA controller reads data from disk to memory directly.",
+            "CPU is free to execute other tasks.",
+            "DMA interrupts CPU when transfer is complete."
+          ],
+          "answer": "DMA offloads data transfer from the CPU.",
+          "formula_used": "DMA operation"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Polling is more efficient than interrupts.",
+          "wrong": "Polling is more efficient than interrupts.",
+          "correct": "Interrupts are more efficient because they only use CPU when needed.",
+          "tip": "Polling is useful for simple systems with low I/O activity."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "I/O management controls device communication.",
+            "Interrupts are more efficient than polling.",
+            "DMA transfers data without CPU involvement.",
+            "Buffering, caching, and spooling improve I/O performance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "os_security",
+      "title": "OS Security and Protection – Authentication, Access Control, Encryption",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OS Security and Protection",
+          "subtitle": "Safeguarding System Resources",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "What is OS Security?",
+          "content": "OS security protects system resources (files, memory, CPU) from unauthorized access, modification, or destruction. It includes authentication, access control, and encryption.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Security Mechanisms",
+          "headers": ["Mechanism", "Description", "Example"],
+          "rows": [
+            ["Authentication", "Verifies user identity.", "Passwords, biometrics, multi-factor authentication."],
+            ["Access Control", "Restricts access to resources.", "Discretionary Access Control (DAC), Mandatory Access Control (MAC)."],
+            ["Encryption", "Protects data confidentiality.", "AES, RSA, TLS/SSL."],
+            ["Auditing", "Logs activities for monitoring.", "Event logs, system logs."],
+            ["Firewall", "Restricts network access.", "Hardware/software firewalls."],
+            ["Intrusion Detection", "Detects suspicious activities.", "IDS, IPS."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Access Control",
+          "given": ["A file has permissions: rwx r-x r-- (owner, group, others)."],
+          "find": "What permissions do others have?",
+          "steps": [
+            "Permissions: owner (rwx), group (r-x), others (r--).",
+            "Others have read-only (r--)."
+          ],
+          "answer": "Others have read-only permission.",
+          "formula_used": "Unix file permissions"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Authentication and Authorization are the same.",
+          "wrong": "Authentication and Authorization are the same.",
+          "correct": "Authentication verifies identity (who you are). Authorization determines access rights (what you can do).",
+          "tip": "Authentication = Login, Authorization = Permission."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Authentication verifies identity.",
+            "Authorization controls access.",
+            "Encryption protects data confidentiality.",
+            "Auditing monitors for security violations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "os_shortcuts",
+      "title": "Shortcuts and Memory Tricks for OS Concepts",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OS Shortcuts",
+          "subtitle": "Quick Memory Aids",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 1 – Process States",
+          "content": "New → Ready → Running ↔ Waiting → Terminated.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 2 – Scheduling Names",
+          "content": "FCFS (First Come First Serve), SJF (Shortest Job First), RR (Round Robin).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 3 – Deadlock Conditions",
+          "content": "M.H.N.C. – Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 4 – IPC Methods",
+          "content": "Pipes, Message Queues, Shared Memory, Signals, Sockets.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "PMPF",
+          "memory_trick": "Process, Memory, File, I/O – the four OS components."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Process States: New, Ready, Running, Waiting, Terminated.",
+            "CPU Scheduling: FCFS, SJF, RR, Priority.",
+            "Memory: Paging, Segmentation, Virtual Memory.",
+            "Page Replacement: FIFO, LRU, Optimal.",
+            "Deadlock: Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait.",
+            "IPC: Pipes, Message Queues, Shared Memory, Signals, Sockets."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "os_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Operating Systems – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on process states, scheduling algorithms, deadlock conditions, memory management (paging/segmentation), page replacement algorithms, and file systems.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a process state?",
+          "options": ["Ready", "Running", "Waiting", "All of the above"],
+          "answer": 3,
+          "explanation": "All three – Ready, Running, Waiting – are valid process states.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which scheduling algorithm is preemptive and uses time quantum?",
+          "options": ["FCFS", "SJF", "Round Robin", "Priority"],
+          "answer": 2,
+          "explanation": "Round Robin uses a time quantum and is preemptive.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a necessary condition for deadlock?",
+          "options": ["Mutual Exclusion", "Hold and Wait", "Preemption", "Circular Wait"],
+          "answer": 2,
+          "explanation": "No Preemption is a condition, not Preemption. Preemption can break a deadlock.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which page replacement algorithm is optimal?",
+          "options": ["FIFO", "LRU", "Optimal", "NRU"],
+          "answer": 2,
+          "explanation": "Optimal page replacement has the lowest page fault rate (theoretical).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the purpose of paging in memory management?",
+          "options": [
+            "To reduce fragmentation",
+            "To increase CPU speed",
+            "To allocate contiguous memory",
+            "To manage file systems"
+          ],
+          "answer": 0,
+          "explanation": "Paging eliminates external fragmentation by dividing memory into fixed-size frames.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which file allocation method uses an index block to store pointers?",
+          "options": ["Contiguous", "Linked", "Indexed", "None of the above"],
+          "answer": 2,
+          "explanation": "Indexed allocation uses an index block containing pointers to all file blocks.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What does PCB stand for?",
+          "options": [
+            "Process Control Block",
+            "Program Control Block",
+            "Process Communication Block",
+            "Program Counter Block"
+          ],
+          "answer": 0,
+          "explanation": "PCB stands for Process Control Block, which contains all information about a process.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is an IPC mechanism?",
+          "options": ["Pipes", "Message Queues", "Shared Memory", "All of the above"],
+          "answer": 3,
+          "explanation": "All three are IPC mechanisms.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the difference between a thread and a process?",
+          "options": [
+            "Threads share memory; processes have separate memory.",
+            "Processes share memory; threads have separate memory.",
+            "Threads are slower than processes.",
+            "There is no difference."
+          ],
+          "answer": 0,
+          "explanation": "Threads share memory within a process; processes have separate address spaces.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which algorithm is used to detect deadlocks?",
+          "options": ["Resource Allocation Graph", "Banker's Algorithm", "FCFS", "Round Robin"],
+          "answer": 0,
+          "explanation": "Resource Allocation Graph is used to detect deadlocks. Banker's Algorithm is used for avoidance.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review process states, scheduling algorithms, deadlock conditions, memory management techniques, and file allocation methods. Understand the difference between processes and threads."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Operating Systems",
+          "points": [
+            "Process States: New, Ready, Running, Waiting, Terminated.",
+            "CPU Scheduling: FCFS, SJF, Round Robin, Priority.",
+            "Memory Management: Paging, Segmentation, Virtual Memory.",
+            "Page Replacement: FIFO, LRU, Optimal.",
+            "File Allocation: Contiguous, Linked, Indexed.",
+            "Deadlock Conditions: Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait.",
+            "Deadlock Handling: Prevention, Avoidance (Banker's), Detection, Recovery.",
+            "IPC: Pipes, Message Queues, Shared Memory, Signals, Sockets.",
+            "I/O Management: Polling, Interrupts, DMA.",
+            "Security: Authentication, Authorization, Encryption.",
+            "Threads: Lightweight, shared memory within a process."
+          ]
+        }
+      ]
+    }
+  ]
+}

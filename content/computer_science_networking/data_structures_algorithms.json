@@ -1,0 +1,987 @@
+{
+  "id": "data_structures_algorithms",
+  "subject_id": "computer_science_networking",
+  "title": "Data Structures and Algorithms",
+  "subtopics": [
+    {
+      "id": "dsa_intro",
+      "title": "Introduction to Data Structures and Algorithms",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Data Structures and Algorithms",
+          "subtitle": "Organizing and Processing Data Efficiently",
+          "tags": ["JKSSB", "High Weightage", "Programming"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What are Data Structures?",
+          "content": "A data structure is a way of organizing and storing data in a computer so that it can be accessed and modified efficiently. Different data structures are suited for different tasks.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "What are Algorithms?",
+          "content": "An algorithm is a step-by-step procedure for solving a problem. It takes inputs, processes them, and produces outputs. Algorithms are implemented using data structures.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Data Structure Categories",
+          "headers": ["Category", "Description", "Examples"],
+          "rows": [
+            ["Linear", "Elements are arranged in a sequence.", "Arrays, Linked Lists, Stacks, Queues"],
+            ["Non-Linear", "Elements are arranged in a hierarchical or network structure.", "Trees, Graphs"],
+            ["Primitive", "Basic built-in data types.", "int, float, char, boolean"],
+            ["Abstract (ADT)", "Defined by behaviour, not implementation.", "List, Stack, Queue, Map"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "process_flow",
+          "title": "Steps to Choose a Data Structure",
+          "steps": [
+            "Step 1: Understand the problem requirements.",
+            "Step 2: Identify the operations needed (insert, delete, search, sort).",
+            "Step 3: Consider the frequency and complexity of operations.",
+            "Step 4: Choose the data structure that best fits the requirements.",
+            "Step 5: Implement and test."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Data structures organize data for efficient access.",
+            "Algorithms are procedures for solving problems.",
+            "The right data structure can significantly improve performance.",
+            "Data structures can be linear (arrays, lists) or non-linear (trees, graphs)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrays_dsa",
+      "title": "Arrays – The Most Basic Data Structure",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Arrays",
+          "subtitle": "Contiguous Memory Storage",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What is an Array?",
+          "content": "An array is a collection of elements of the same data type, stored in contiguous memory locations. Elements are accessed using an index (0-based in most languages).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Array Operations and Complexity",
+          "headers": ["Operation", "Description", "Time Complexity (Average)"],
+          "rows": [
+            ["Access", "Read an element by index.", "O(1)"],
+            ["Insertion at end", "Add an element at the end.", "O(1) (amortized)"],
+            ["Insertion at beginning", "Add at the start (shifts needed).", "O(n)"],
+            ["Deletion at end", "Remove last element.", "O(1)"],
+            ["Deletion at beginning", "Remove first element (shifts needed).", "O(n)"],
+            ["Search (Linear)", "Find an element by scanning.", "O(n)"],
+            ["Search (Binary)", "Find in sorted array.", "O(log n)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Array Operations",
+          "given": ["Array: [10, 20, 30, 40, 50]"],
+          "find": "Perform insertion and deletion.",
+          "steps": [
+            "Insert 25 at index 2: [10, 20, 25, 30, 40, 50] (shifted).",
+            "Delete at index 1: [10, 25, 30, 40, 50] (shifted)."
+          ],
+          "answer": "Insertion and deletion cause shifting.",
+          "formula_used": "Array shifting"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Array index out of bounds.",
+          "wrong": "Accessing arr[5] when size is 5.",
+          "correct": "Valid indices are 0 to size-1.",
+          "tip": "Always ensure index is within range."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Arrays store elements contiguously.",
+            "Access is O(1) (constant time).",
+            "Insertion/deletion at the beginning is O(n).",
+            "Binary search works only on sorted arrays."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linked_lists",
+      "title": "Linked Lists – Dynamic Memory Allocation",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Linked Lists",
+          "subtitle": "Nodes Connected by Pointers",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "What is a Linked List?",
+          "content": "A linked list is a linear data structure where each element (node) contains data and a pointer (reference) to the next node. Nodes are not stored contiguously in memory.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Linked Lists",
+          "headers": ["Type", "Description", "Memory"],
+          "rows": [
+            ["Singly Linked List", "Each node points to the next node.", "Single pointer per node"],
+            ["Doubly Linked List", "Each node points to both next and previous nodes.", "Two pointers per node (more memory)"],
+            ["Circular Linked List", "Last node points back to the first node.", "Can be singly or doubly"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Linked List Operations and Complexity",
+          "headers": ["Operation", "Description", "Time Complexity (Average)"],
+          "rows": [
+            ["Access (by index)", "Find element at a specific position.", "O(n)"],
+            ["Search (by value)", "Find element by scanning.", "O(n)"],
+            ["Insertion at beginning", "Add node at the head.", "O(1)"],
+            ["Insertion at end", "Add node at the tail (with tail pointer).", "O(1) or O(n)"],
+            ["Deletion at beginning", "Remove head node.", "O(1)"],
+            ["Deletion by value", "Find and remove node.", "O(n)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Singly Linked List",
+          "given": ["Node structure: data + next pointer."],
+          "find": "Implement insertion at the beginning.",
+          "steps": [
+            "class Node { int data; Node next; }",
+            "void insertAtHead(int value) {",
+            "  Node newNode = new Node(value);",
+            "  newNode.next = head;",
+            "  head = newNode;",
+            "}"
+          ],
+          "answer": "Insertion at head is O(1).",
+          "formula_used": "Linked list insertion"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting to update the tail pointer.",
+          "wrong": "Inserting at the end without updating tail.",
+          "correct": "Always update tail when adding to the end.",
+          "tip": "Maintain a tail pointer for O(1) insertion at the end."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Linked lists use dynamic memory allocation.",
+            "Insertion/deletion at the head is O(1).",
+            "Access/search is O(n) (sequential).",
+            "Doubly linked lists support traversal in both directions.",
+            "Circular linked lists are useful for round-robin scheduling."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stacks",
+      "title": "Stacks – LIFO Data Structure",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Stacks",
+          "subtitle": "Last In, First Out",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "What is a Stack?",
+          "content": "A stack is a linear data structure that follows the LIFO (Last In, First Out) principle. Elements are added (pushed) and removed (popped) from the top only.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Stack Operations",
+          "headers": ["Operation", "Description", "Time Complexity"],
+          "rows": [
+            ["push()", "Adds an element to the top of the stack.", "O(1)"],
+            ["pop()", "Removes and returns the top element.", "O(1)"],
+            ["peek() / top()", "Returns the top element without removing it.", "O(1)"],
+            ["isEmpty()", "Checks if the stack is empty.", "O(1)"],
+            ["size()", "Returns the number of elements.", "O(1)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Stack Implementation",
+          "given": ["A stack with operations push(), pop(), and peek()."],
+          "find": "Simulate stack operations.",
+          "steps": [
+            "push(10) → [10]",
+            "push(20) → [10, 20]",
+            "push(30) → [10, 20, 30]",
+            "pop() → 30, stack: [10, 20]",
+            "peek() → 20"
+          ],
+          "answer": "Stack follows LIFO: 30 is popped first.",
+          "formula_used": "LIFO principle"
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Applications of Stacks",
+          "content": "1. Function call stack (recursion).\n2. Expression evaluation (infix, postfix, prefix).\n3. Undo/Redo operations.\n4. Backtracking (e.g., maze solving).\n5. Browser history.",
+          "highlight": false
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Stack and Queue.",
+          "wrong": "Stack follows FIFO.",
+          "correct": "Stack follows LIFO; Queue follows FIFO.",
+          "tip": "Stack = Last In, First Out; Queue = First In, First Out."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Stack = LIFO (Last In, First Out).",
+            "Operations: push() [O(1)], pop() [O(1)], peek() [O(1)].",
+            "Implementable using arrays or linked lists.",
+            "Widely used in recursion and expression evaluation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queues",
+      "title": "Queues – FIFO Data Structure",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Queues",
+          "subtitle": "First In, First Out",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚶",
+          "title": "What is a Queue?",
+          "content": "A queue is a linear data structure that follows the FIFO (First In, First Out) principle. Elements are added at the rear (enqueue) and removed from the front (dequeue).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Queue Operations",
+          "headers": ["Operation", "Description", "Time Complexity"],
+          "rows": [
+            ["enqueue()", "Adds an element to the rear of the queue.", "O(1)"],
+            ["dequeue()", "Removes and returns the front element.", "O(1)"],
+            ["front() / peek()", "Returns the front element without removing it.", "O(1)"],
+            ["isEmpty()", "Checks if the queue is empty.", "O(1)"],
+            ["size()", "Returns the number of elements.", "O(1)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Queue Implementation",
+          "given": ["A queue with operations enqueue() and dequeue()."],
+          "find": "Simulate queue operations.",
+          "steps": [
+            "enqueue(10) → [10]",
+            "enqueue(20) → [10, 20]",
+            "enqueue(30) → [10, 20, 30]",
+            "dequeue() → 10, queue: [20, 30]",
+            "front() → 20"
+          ],
+          "answer": "Queue follows FIFO: 10 is dequeued first.",
+          "formula_used": "FIFO principle"
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Types of Queues",
+          "content": "1. **Simple Queue** – Basic FIFO.\n2. **Circular Queue** – Reuses memory by connecting the rear to the front.\n3. **Deque (Double-Ended Queue)** – Insert/delete from both ends.\n4. **Priority Queue** – Elements are removed based on priority.",
+          "highlight": false
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Queue and Priority Queue.",
+          "wrong": "Priority Queue follows FIFO.",
+          "correct": "Priority Queue removes the element with the highest priority, not necessarily the oldest.",
+          "tip": "Priority Queue uses a heap internally for ordering."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Queue = FIFO (First In, First Out).",
+            "Operations: enqueue() [O(1)], dequeue() [O(1)], front() [O(1)].",
+            "Circular queue saves memory.",
+            "Priority queue uses heap (highest priority first)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trees",
+      "title": "Trees – Hierarchical Data Structure",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Trees",
+          "subtitle": "Hierarchical Data Organization",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌳",
+          "title": "What is a Tree?",
+          "content": "A tree is a non-linear data structure with a hierarchical structure. It consists of nodes connected by edges. The topmost node is the root, and nodes with no children are leaves.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Tree Terminology",
+          "headers": ["Term", "Definition"],
+          "rows": [
+            ["Root", "Topmost node of the tree."],
+            ["Parent", "Node that has a child."],
+            ["Child", "Node that has a parent."],
+            ["Leaf", "Node with no children."],
+            ["Siblings", "Nodes with the same parent."],
+            ["Ancestor", "Any node on the path from root to the node."],
+            ["Descendant", "Any node in the subtree of a node."],
+            ["Depth", "Number of edges from root to the node."],
+            ["Height", "Number of edges from node to the deepest leaf."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Types of Trees",
+          "headers": ["Type", "Description", "Common Use"],
+          "rows": [
+            ["Binary Tree", "Each node has at most two children.", "General tree structure."],
+            ["Binary Search Tree (BST)", "Left child < Parent < Right child.", "Efficient searching."],
+            ["AVL Tree", "Self-balancing BST (height balanced).", "Balanced operations."],
+            ["Red-Black Tree", "Self-balancing BST with color properties.", "Used in C++ STL, Java TreeMap."],
+            ["Heap", "Complete binary tree with heap property.", "Priority queue implementation."],
+            ["Trie", "Tree for string storage and search.", "Dictionary, autocomplete."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Binary Search Tree",
+          "given": ["Insert values: 50, 30, 20, 40, 70, 60, 80"],
+          "find": "Build the BST.",
+          "steps": [
+            "50 is the root.",
+            "30 < 50 → left child of 50.",
+            "20 < 30 → left child of 30.",
+            "40 > 30 → right child of 30.",
+            "70 > 50 → right child of 50.",
+            "60 < 70 → left child of 70.",
+            "80 > 70 → right child of 70."
+          ],
+          "answer": "BST structure: root=50, left=30, right=70, etc.",
+          "formula_used": "BST insertion rule (left < parent < right)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: BST vs Heap.",
+          "wrong": "Heap follows BST properties.",
+          "correct": "Heap follows heap property (parent >= children in max-heap), not BST property.",
+          "tip": "BST: Left < Parent < Right; Heap: Parent >= Children (max-heap)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Tree = Hierarchical structure with root and leaves.",
+            "BST: Left < Parent < Right for efficient search (O(log n)).",
+            "Self-balancing trees (AVL, Red-Black) ensure O(log n) performance.",
+            "Heaps are used for priority queues."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graphs",
+      "title": "Graphs – Networks of Nodes",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Graphs",
+          "subtitle": "Connecting Nodes with Edges",
+          "tags": ["JKSSB", "Advanced"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕸️",
+          "title": "What is a Graph?",
+          "content": "A graph is a non-linear data structure consisting of vertices (nodes) connected by edges. Graphs can represent networks like social media, road maps, or communication networks.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Graph Terminology",
+          "headers": ["Term", "Definition"],
+          "rows": [
+            ["Vertex (Node)", "A single point in the graph."],
+            ["Edge", "Connection between two vertices."],
+            ["Directed Graph", "Edges have a direction."],
+            ["Undirected Graph", "Edges have no direction."],
+            ["Weighted Graph", "Edges have weights (costs)."],
+            ["Adjacency", "Two vertices connected by an edge."],
+            ["Degree", "Number of edges incident to a vertex."],
+            ["Path", "Sequence of vertices connected by edges."],
+            ["Cycle", "Path that starts and ends at the same vertex."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Graph Representations",
+          "headers": ["Representation", "Description", "Memory", "Use Case"],
+          "rows": [
+            ["Adjacency Matrix", "2D array: [v][v] where 1 indicates edge.", "O(V²)", "Dense graphs"],
+            ["Adjacency List", "Array of lists: each vertex has a list of neighbors.", "O(V+E)", "Sparse graphs"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Graph Traversal Algorithms",
+          "headers": ["Algorithm", "Description", "Data Structure", "Time Complexity"],
+          "rows": [
+            ["BFS (Breadth-First Search)", "Explores neighbors level by level.", "Queue", "O(V+E)"],
+            ["DFS (Depth-First Search)", "Explores as far as possible along each branch.", "Stack (Recursion)", "O(V+E)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: BFS Traversal",
+          "given": ["Graph: A-B, A-C, B-D, B-E, C-F"],
+          "find": "Perform BFS starting from A.",
+          "steps": [
+            "Queue: A",
+            "Visit A, enqueue B, C → Queue: B, C",
+            "Visit B, enqueue D, E → Queue: C, D, E",
+            "Visit C, enqueue F → Queue: D, E, F",
+            "Visit D, E, F in order."
+          ],
+          "answer": "BFS: A, B, C, D, E, F",
+          "formula_used": "BFS algorithm (Queue)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: BFS and DFS are the same.",
+          "wrong": "BFS and DFS use the same data structure.",
+          "correct": "BFS uses a Queue; DFS uses a Stack.",
+          "tip": "BFS = Queue (FIFO), DFS = Stack (LIFO)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Graph = Vertices + Edges.",
+            "BFS = Queue, Level-by-level.",
+            "DFS = Stack/Recursion, Branch-first.",
+            "Adjacency List is more memory-efficient for sparse graphs.",
+            "Adjacency Matrix is faster for dense graphs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sorting_algorithms",
+      "title": "Sorting Algorithms – Bubble, Selection, Insertion, Merge, Quick",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Sorting Algorithms",
+          "subtitle": "Arranging Data in Order",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Comparison of Sorting Algorithms",
+          "headers": ["Algorithm", "Average Complexity", "Best Case", "Worst Case", "Stable", "In-Place"],
+          "rows": [
+            ["Bubble Sort", "O(n²)", "O(n)", "O(n²)", "Yes", "Yes"],
+            ["Selection Sort", "O(n²)", "O(n²)", "O(n²)", "No", "Yes"],
+            ["Insertion Sort", "O(n²)", "O(n)", "O(n²)", "Yes", "Yes"],
+            ["Merge Sort", "O(n log n)", "O(n log n)", "O(n log n)", "Yes", "No"],
+            ["Quick Sort", "O(n log n)", "O(n log n)", "O(n²)", "No", "Yes"],
+            ["Heap Sort", "O(n log n)", "O(n log n)", "O(n log n)", "No", "Yes"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Bubble Sort",
+          "given": ["Array: [5, 1, 4, 2, 8]"],
+          "find": "Sort using Bubble Sort.",
+          "steps": [
+            "Pass 1: [1, 4, 2, 5, 8]",
+            "Pass 2: [1, 2, 4, 5, 8]",
+            "Pass 3: [1, 2, 4, 5, 8] (no swaps, done)"
+          ],
+          "answer": "Sorted array: [1, 2, 4, 5, 8]",
+          "formula_used": "Bubble Sort (swapping adjacent elements)"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Merge Sort",
+          "given": ["Array: [38, 27, 43, 3, 9, 82, 10]"],
+          "find": "Sort using Merge Sort.",
+          "steps": [
+            "Divide: [38,27,43,3] and [9,82,10]",
+            "Further divide until single elements.",
+            "Merge: [27,38,43,3?] Actually, merge sorted halves.",
+            "Final sorted: [3, 9, 10, 27, 38, 43, 82]"
+          ],
+          "answer": "Sorted array: [3, 9, 10, 27, 38, 43, 82]",
+          "formula_used": "Divide and Conquer"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Quick Sort worst-case.",
+          "wrong": "Quick Sort always runs in O(n log n).",
+          "correct": "Quick Sort can degrade to O(n²) if the pivot is poorly chosen.",
+          "tip": "Use randomized pivot or median-of-three for better performance."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Bubble, Selection, Insertion: O(n²) (simple, slow).",
+            "Merge Sort: O(n log n), stable, not in-place.",
+            "Quick Sort: O(n log n) average, unstable, in-place.",
+            "Heap Sort: O(n log n), unstable, in-place.",
+            "Merge Sort is preferred for large data sets (stable).",
+            "Quick Sort is preferred for average-case speed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "searching_algorithms",
+      "title": "Searching Algorithms – Linear and Binary Search",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Searching Algorithms",
+          "subtitle": "Finding Elements Efficiently",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Searching Algorithms",
+          "headers": ["Algorithm", "Description", "Time Complexity", "Requirement"],
+          "rows": [
+            ["Linear Search", "Checks each element sequentially.", "O(n)", "No sorting required."],
+            ["Binary Search", "Divides the search space in half.", "O(log n)", "Array must be sorted."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Binary Search",
+          "given": ["Sorted array: [2, 5, 8, 12, 16, 23, 38, 56], Target: 23"],
+          "find": "Find the index using Binary Search.",
+          "steps": [
+            "Low = 0, High = 7",
+            "Mid = 3 (value 12) → 23 > 12 → Low = 4",
+            "Mid = 5 (value 23) → Found at index 5"
+          ],
+          "answer": "23 found at index 5.",
+          "formula_used": "Binary Search (divide and conquer)"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Linear Search",
+          "given": ["Array: [5, 3, 8, 1, 9, 2], Target: 9"],
+          "find": "Find using Linear Search.",
+          "steps": [
+            "Check 5 (no), 3 (no), 8 (no), 1 (no), 9 (yes).",
+            "Found at index 4."
+          ],
+          "answer": "9 found at index 4.",
+          "formula_used": "Sequential checking"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Binary Search on unsorted array.",
+          "wrong": "Using Binary Search on an unsorted array.",
+          "correct": "Binary Search only works on sorted arrays.",
+          "tip": "Always sort the array before applying Binary Search."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Linear Search: O(n), works on any array.",
+            "Binary Search: O(log n), requires sorted array.",
+            "Binary Search is much faster for large sorted datasets.",
+            "Implement Binary Search iteratively or recursively."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complexity_analysis",
+      "title": "Complexity Analysis – Big O Notation",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Complexity Analysis",
+          "subtitle": "Evaluating Algorithm Efficiency",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What is Complexity Analysis?",
+          "content": "Complexity analysis measures the time and space required by an algorithm as a function of the input size (n). It helps in comparing algorithms and choosing the most efficient one.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common Big O Notations",
+          "headers": ["Notation", "Name", "Example Algorithm"],
+          "rows": [
+            ["O(1)", "Constant", "Array access, Stack push/pop"],
+            ["O(log n)", "Logarithmic", "Binary Search"],
+            ["O(n)", "Linear", "Linear Search, Array traversal"],
+            ["O(n log n)", "Linearithmic", "Merge Sort, Quick Sort (average)"],
+            ["O(n²)", "Quadratic", "Bubble Sort, Selection Sort, Nested loops"],
+            ["O(2^n)", "Exponential", "Recursive Fibonacci (naive)"],
+            ["O(n!)", "Factorial", "Traveling Salesman Problem (brute force)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Analysing Complexity",
+          "given": ["A nested loop: for i in 1..n: for j in 1..n: print(i,j)"],
+          "find": "What is the time complexity?",
+          "steps": [
+            "Outer loop runs n times.",
+            "Inner loop runs n times for each outer iteration.",
+            "Total iterations = n × n = n².",
+            "Time complexity = O(n²)."
+          ],
+          "answer": "O(n²)",
+          "formula_used": "Nested loop complexity"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing average and worst-case complexity.",
+          "wrong": "Quick Sort is always O(n log n).",
+          "correct": "Quick Sort is O(n log n) on average, but O(n²) in the worst case.",
+          "tip": "Always specify best, average, and worst-case complexity."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Big O describes the upper bound (worst-case) of growth rate.",
+            "O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2^n) < O(n!).",
+            "Space complexity measures memory usage.",
+            "Choose algorithms with lower time and space complexity for large inputs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hash_tables",
+      "title": "Hash Tables – Key-Value Storage",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Hash Tables",
+          "subtitle": "Constant Time Access",
+          "tags": ["JKSSB", "Advanced"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "What is a Hash Table?",
+          "content": "A hash table (or hash map) is a data structure that maps keys to values using a hash function. It provides O(1) average time complexity for insertion, deletion, and lookup.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Hash Table Components",
+          "headers": ["Component", "Description"],
+          "rows": [
+            ["Hash Function", "Converts a key into an index in the array."],
+            ["Array", "Stores the key-value pairs."],
+            ["Collision", "Two keys produce the same index."],
+            ["Collision Resolution", "Handles collisions (Chaining, Open Addressing)."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Collision Resolution Techniques",
+          "headers": ["Technique", "Description", "Example"],
+          "rows": [
+            ["Chaining", "Each index contains a linked list of colliding entries.", "Java HashMap"],
+            ["Open Addressing (Linear Probing)", "Find the next available slot.", "Probing until empty slot found."],
+            ["Open Addressing (Quadratic Probing)", "Uses a quadratic function to find the next slot.", "Reduces primary clustering."],
+            ["Double Hashing", "Uses a second hash function for the step size.", "More uniform distribution."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Hash Table Operations",
+          "given": ["Hash table with keys: 'A', 'B', 'C'."],
+          "find": "Show insertion and lookup.",
+          "steps": [
+            "Insert 'A' → hash to index 2.",
+            "Insert 'B' → hash to index 5.",
+            "Insert 'C' → hash to index 2 (collision).",
+            "Resolve collision using chaining.",
+            "Lookup 'C' → hash to index 2, search the chain."
+          ],
+          "answer": "Hash table with chaining handles collisions.",
+          "formula_used": "Hash function + collision resolution"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Hash Table worst-case performance.",
+          "wrong": "Hash Tables are always O(1).",
+          "correct": "Hash Tables are O(1) on average, but can degrade to O(n) with poor hash function or many collisions.",
+          "tip": "Use a good hash function and load factor control."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Hash Table = Key-Value storage with O(1) average access.",
+            "Hash function maps keys to array indices.",
+            "Collisions are resolved using chaining or open addressing.",
+            "Load factor determines when to resize the table."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dsa_shortcuts",
+      "title": "Shortcuts and Memory Tricks for DSA",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "DSA Shortcuts",
+          "subtitle": "Quick Memory Aids",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 1 – Big O Order",
+          "content": "O(1) < O(log n) < O(n) < O(n log n) < O(n²).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 2 – Linear vs Non-Linear",
+          "content": "Linear: Arrays, Lists, Stacks, Queues.\nNon-Linear: Trees, Graphs.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 3 – Sorting Memory",
+          "content": "Merge Sort = Stable, O(n log n), extra memory.\nQuick Sort = Unstable, O(n log n) average, in-place.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "ALSTG",
+          "memory_trick": "Arrays, Linked Lists, Stacks, Trees, Graphs – the five core data structures."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Arrays: O(1) access, O(n) insertion/deletion at start.",
+            "Linked Lists: O(1) insertion/deletion at head, O(n) access.",
+            "Stacks: LIFO, O(1) push/pop.",
+            "Queues: FIFO, O(1) enqueue/dequeue.",
+            "Trees: Hierarchical, BST O(log n) search.",
+            "Graphs: BFS (Queue), DFS (Stack).",
+            "Sorting: O(n log n) for efficient sorts (Merge, Quick).",
+            "Hash Tables: O(1) average access."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dsa_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "DSA – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the properties of data structures (LIFO/FIFO), complexity analysis (Big O), sorting algorithms, and traversal algorithms (BFS/DFS).",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which data structure follows LIFO (Last In, First Out) principle?",
+          "options": ["Queue", "Stack", "Array", "Linked List"],
+          "answer": 1,
+          "explanation": "Stack follows LIFO. Queue follows FIFO.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which data structure follows FIFO (First In, First Out) principle?",
+          "options": ["Stack", "Queue", "Tree", "Graph"],
+          "answer": 1,
+          "explanation": "Queue follows FIFO. Stack follows LIFO.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the time complexity of Binary Search on a sorted array of size n?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+          "answer": 1,
+          "explanation": "Binary Search divides the search space in half each step, giving O(log n) complexity.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which sorting algorithm has the worst-case time complexity of O(n²)?",
+          "options": ["Merge Sort", "Quick Sort", "Bubble Sort", "Heap Sort"],
+          "answer": 2,
+          "explanation": "Bubble Sort has O(n²) worst-case. Quick Sort also has O(n²) worst-case, but Bubble Sort is the classic example.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which data structure is used in BFS (Breadth-First Search)?",
+          "options": ["Stack", "Queue", "Array", "Tree"],
+          "answer": 1,
+          "explanation": "BFS uses a Queue to explore vertices level by level.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which data structure is used in DFS (Depth-First Search)?",
+          "options": ["Queue", "Stack", "Array", "Linked List"],
+          "answer": 1,
+          "explanation": "DFS uses a Stack (or recursion) to explore deep branches first.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the time complexity of Merge Sort?",
+          "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+          "answer": 1,
+          "explanation": "Merge Sort has O(n log n) time complexity in all cases.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which data structure is a non-linear data structure?",
+          "options": ["Array", "Linked List", "Stack", "Tree"],
+          "answer": 3,
+          "explanation": "Tree is a non-linear data structure. Arrays, Linked Lists, and Stacks are linear.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the time complexity of accessing an element by index in an array?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+          "answer": 0,
+          "explanation": "Array access by index is O(1) (constant time).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which sorting algorithm is stable?",
+          "options": ["Quick Sort", "Heap Sort", "Merge Sort", "Selection Sort"],
+          "answer": 2,
+          "explanation": "Merge Sort is stable. Quick Sort and Heap Sort are unstable.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the differences between stacks and queues, complexity notations (Big O), and sorting algorithms. Understand BFS vs DFS and the properties of trees and graphs."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – DSA",
+          "points": [
+            "Stack: LIFO, push/pop O(1).",
+            "Queue: FIFO, enqueue/dequeue O(1).",
+            "Array: O(1) access, O(n) insertion/deletion at start.",
+            "Linked List: O(1) insertion at head, O(n) access.",
+            "Tree: Hierarchical, BST O(log n) search.",
+            "Graph: BFS (Queue), DFS (Stack).",
+            "Big O: O(1) < O(log n) < O(n) < O(n log n) < O(n²).",
+            "Sorting: Bubble/Selection/Insertion O(n²), Merge/Quick/Heap O(n log n).",
+            "Search: Linear O(n), Binary O(log n).",
+            "Hash Table: O(1) average access."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1044 @@
+{
+  "id": "object_oriented_concepts",
+  "subject_id": "computer_science_networking",
+  "title": "Object-Oriented Concepts",
+  "subtopics": [
+    {
+      "id": "oop_intro",
+      "title": "Introduction to Object-Oriented Programming – Why OOP?",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Object-Oriented Concepts",
+          "subtitle": "Building Software with Objects",
+          "tags": ["JKSSB", "High Weightage", "Programming"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "What is Object-Oriented Programming?",
+          "content": "OOP is a programming paradigm that organizes software design around objects rather than functions and logic. An object is a self-contained entity that contains both data (attributes) and behaviour (methods).",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Procedural vs Object-Oriented Programming",
+          "left_header": "Procedural Programming",
+          "right_header": "Object-Oriented Programming",
+          "rows": [
+            { "left": "Focuses on functions/procedures.", "right": "Focuses on objects." },
+            { "left": "Data and functions are separate.", "right": "Data and functions are encapsulated together." },
+            { "left": "Less reusable and modular.", "right": "Highly reusable and modular." },
+            { "left": "Examples: C, Pascal.", "right": "Examples: C++, Java, Python, C#." }
+          ]
+        },
+        {
+          "type": "process_flow",
+          "title": "Key OOP Concepts",
+          "steps": [
+            "Step 1: Class – Blueprint for objects.",
+            "Step 2: Object – Instance of a class.",
+            "Step 3: Encapsulation – Hiding internal details.",
+            "Step 4: Inheritance – Reusing code from parent classes.",
+            "Step 5: Polymorphism – Many forms of a single interface.",
+            "Step 6: Abstraction – Hiding implementation details."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "OOP models real-world entities as objects.",
+            "Objects have properties (attributes) and behaviours (methods).",
+            "The four pillars of OOP: Encapsulation, Inheritance, Polymorphism, Abstraction.",
+            "OOP promotes code reuse, modularity, and maintainability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classes_objects",
+      "title": "Classes and Objects – The Building Blocks",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Classes and Objects",
+          "subtitle": "Blueprints and Instances",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "What is a Class?",
+          "content": "A class is a blueprint or template that defines the properties and behaviours that objects of that class will have. It does not occupy memory until an object is created.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "What is an Object?",
+          "content": "An object is an instance of a class. It occupies memory and has actual values for its properties. Multiple objects can be created from a single class.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Class and Object",
+          "given": ["Define a class 'Car' with attributes brand, model, and year."],
+          "find": "Create an object of the class.",
+          "steps": [
+            "class Car {",
+            "  String brand;",
+            "  String model;",
+            "  int year;",
+            "}",
+            "Car myCar = new Car();",
+            "myCar.brand = \"Toyota\";",
+            "myCar.model = \"Camry\";",
+            "myCar.year = 2022;"
+          ],
+          "answer": "myCar is an object of the Car class.",
+          "formula_used": "Class and Object creation"
+        },
+        {
+          "type": "table",
+          "title": "Class Components",
+          "headers": ["Component", "Description", "Example"],
+          "rows": [
+            ["Attributes (Fields)", "Variables that store data.", "String name, int age"],
+            ["Methods (Functions)", "Behaviours of the class.", "void display() { print(name); }"],
+            ["Constructor", "Initializes objects.", "public Car() { brand = \"Unknown\"; }"],
+            ["Access Modifiers", "Control visibility.", "public, private, protected"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Class and Object.",
+          "wrong": "Class is an instance of an object.",
+          "correct": "An object is an instance of a class.",
+          "tip": "Class = Blueprint; Object = Instance."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Class: Blueprint, no memory allocation.",
+            "Object: Instance, memory allocated.",
+            "Objects have state (attributes) and behaviour (methods).",
+            "Multiple objects can be created from one class."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "encapsulation",
+      "title": "Encapsulation – Data Hiding and Protection",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Encapsulation",
+          "subtitle": "Protecting Data from Unauthorized Access",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔒",
+          "title": "What is Encapsulation?",
+          "content": "Encapsulation is the mechanism of wrapping data (attributes) and methods (behaviour) together as a single unit and restricting direct access to data. It is achieved using access modifiers (private, public, protected).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "Benefits of Encapsulation",
+          "content": "1. **Data Hiding** – Internal details are hidden from outside.\n2. **Security** – Prevents unauthorized access and modification.\n3. **Maintainability** – Internal implementation can change without affecting outside code.\n4. **Modularity** – Each class is a self-contained unit.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Encapsulation in Java",
+          "given": ["A class 'BankAccount' with balance attribute."],
+          "find": "Implement encapsulation.",
+          "steps": [
+            "class BankAccount {",
+            "  private double balance;",
+            "  public void deposit(double amount) {",
+            "    if (amount > 0) { balance += amount; }",
+            "  }",
+            "  public double getBalance() { return balance; }",
+            "}"
+          ],
+          "answer": "balance is private and accessed only through methods.",
+          "formula_used": "private attribute + public getters/setters"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Making all attributes public.",
+          "wrong": "public int age; (exposes data directly).",
+          "correct": "private int age; with public getter/setter.",
+          "tip": "Always use private attributes and provide access through methods."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Encapsulation = Wrapping data + methods into a single unit.",
+            "Access modifiers control visibility.",
+            "Private = hidden, Public = accessible, Protected = inheritance.",
+            "Data hiding protects integrity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inheritance",
+      "title": "Inheritance – Reusing Code from Parent Classes",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Inheritance",
+          "subtitle": "Creating Hierarchies of Classes",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧬",
+          "title": "What is Inheritance?",
+          "content": "Inheritance is a mechanism where a new class (child/subclass) derives properties and behaviours from an existing class (parent/superclass). It promotes code reuse and establishes a hierarchical relationship.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Inheritance",
+          "headers": ["Type", "Description", "Example"],
+          "rows": [
+            ["Single", "One child class inherits from one parent.", "Animal ← Dog"],
+            ["Multilevel", "Class inherits from a class that inherits from another.", "Animal ← Mammal ← Dog"],
+            ["Hierarchical", "Multiple child classes inherit from one parent.", "Animal ← Dog, Animal ← Cat"],
+            ["Multiple", "Class inherits from multiple parents.", "Not supported in Java/C#, supported in C++"],
+            ["Hybrid", "Combination of multiple and hierarchical.", "Complex, supported in C++."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Inheritance in Java",
+          "given": ["Parent class 'Vehicle' with a method start()."],
+          "find": "Create a child class 'Car' that inherits from 'Vehicle'.",
+          "steps": [
+            "class Vehicle {",
+            "  void start() { print(\"Vehicle starting\"); }",
+            "}",
+            "class Car extends Vehicle {",
+            "  void honk() { print(\"Honking\"); }",
+            "}",
+            "Car myCar = new Car();",
+            "myCar.start(); // Inherited method",
+            "myCar.honk(); // Own method"
+          ],
+          "answer": "Car inherits start() from Vehicle and adds honk().",
+          "formula_used": "extends keyword"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Multiple inheritance is supported in all languages.",
+          "wrong": "Multiple inheritance is supported in Java.",
+          "correct": "Java does not support multiple inheritance of classes (uses interfaces instead).",
+          "tip": "Check language-specific inheritance rules."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Inheritance = Code reuse + Hierarchical classification.",
+            "Subclass inherits all non-private members.",
+            "Use 'extends' in Java/C#, ':' in C++.",
+            "Multiple inheritance is not supported in Java/C#."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polymorphism",
+      "title": "Polymorphism – Many Forms of a Single Interface",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Polymorphism",
+          "subtitle": "Same Interface, Different Behaviours",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎭",
+          "title": "What is Polymorphism?",
+          "content": "Polymorphism means 'many forms'. It allows objects of different classes to be treated as objects of a common superclass, and each can respond to the same method call in its own way.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Polymorphism",
+          "headers": ["Type", "Description", "Example"],
+          "rows": [
+            ["Compile-Time (Static)", "Method overloading – multiple methods with same name but different parameters.", "void add(int a, int b) and void add(int a, int b, int c)"],
+            ["Run-Time (Dynamic)", "Method overriding – subclass provides its own implementation of a superclass method.", "Animal.makeSound() → Dog.bark(), Cat.meow()"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Method Overloading (Compile-Time)",
+          "given": ["A class 'MathOperations'."],
+          "find": "Implement method overloading.",
+          "steps": [
+            "class MathOperations {",
+            "  int add(int a, int b) { return a + b; }",
+            "  int add(int a, int b, int c) { return a + b + c; }",
+            "  double add(double a, double b) { return a + b; }",
+            "}",
+            "// Calling: add(2,3) → 5; add(2,3,4) → 9; add(2.5,3.5) → 6.0"
+          ],
+          "answer": "Three overloaded methods with different signatures.",
+          "formula_used": "Method overloading"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Method Overriding (Run-Time)",
+          "given": ["Parent class 'Animal' and child class 'Dog'."],
+          "find": "Override a method.",
+          "steps": [
+            "class Animal {",
+            "  void sound() { print(\"Animal sound\"); }",
+            "}",
+            "class Dog extends Animal {",
+            "  @Override",
+            "  void sound() { print(\"Bark\"); }",
+            "}",
+            "Animal a = new Dog();",
+            "a.sound(); // Outputs: Bark"
+          ],
+          "answer": "Dog overrides sound() with its own implementation.",
+          "formula_used": "Method overriding"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Overloading and Overriding.",
+          "wrong": "Overloading and overriding are the same.",
+          "correct": "Overloading = same method name, different parameters (compile-time). Overriding = same method signature, different implementation (run-time).",
+          "tip": "Overloading happens in the same class; Overriding happens in subclasses."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Polymorphism = Many forms.",
+            "Overloading (compile-time): Same name, different parameters.",
+            "Overriding (run-time): Subclass replaces parent method.",
+            "Polymorphism enables flexible and extensible code."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abstraction",
+      "title": "Abstraction – Hiding Implementation Details",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Abstraction",
+          "subtitle": "Focusing on What, Not How",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What is Abstraction?",
+          "content": "Abstraction is the process of hiding implementation details and exposing only the essential features of an object. It reduces complexity by focusing on what the object does rather than how it does it.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Abstraction in Java/C#",
+          "content": "1. **Abstract Classes** – Cannot be instantiated, may have abstract methods (no body).\n2. **Interfaces** – 100% abstract (before Java 8), define a contract for classes to implement.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Abstract Class",
+          "given": ["A class 'Shape' with an abstract method area()."],
+          "find": "Implement concrete classes.",
+          "steps": [
+            "abstract class Shape {",
+            "  abstract double area();",
+            "}",
+            "class Circle extends Shape {",
+            "  double radius;",
+            "  double area() { return 3.14 * radius * radius; }",
+            "}",
+            "class Rectangle extends Shape {",
+            "  double length, width;",
+            "  double area() { return length * width; }",
+            "}"
+          ],
+          "answer": "Circle and Rectangle provide concrete implementations.",
+          "formula_used": "Abstract class and method"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Interface",
+          "given": ["An interface 'Drawable' with a method draw()."],
+          "find": "Implement the interface.",
+          "steps": [
+            "interface Drawable {",
+            "  void draw();",
+            "}",
+            "class Circle implements Drawable {",
+            "  public void draw() { print(\"Drawing Circle\"); }",
+            "}"
+          ],
+          "answer": "Circle implements the Drawable interface.",
+          "formula_used": "Interface implementation"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Abstract classes can be instantiated.",
+          "wrong": "Abstract classes can be instantiated using new.",
+          "correct": "Abstract classes cannot be instantiated directly.",
+          "tip": "Abstract classes require concrete subclasses."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Abstraction = Hiding implementation, exposing interface.",
+            "Abstract classes: cannot be instantiated, may have abstract methods.",
+            "Interfaces: define contracts for classes to implement.",
+            "Abstraction reduces complexity and increases flexibility."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "constructors",
+      "title": "Constructors – Initializing Objects",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Constructors",
+          "subtitle": "Setting Up Objects on Creation",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "What is a Constructor?",
+          "content": "A constructor is a special method that is automatically called when an object is created. It initializes the object's attributes and performs any setup tasks.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Constructors",
+          "headers": ["Type", "Description", "Example (Java)"],
+          "rows": [
+            ["Default Constructor", "No parameters, provided automatically if no constructor is defined.", "public Car() { brand = \"Unknown\"; }"],
+            ["Parameterized Constructor", "Accepts parameters to initialize attributes.", "public Car(String b, String m, int y) { brand = b; model = m; year = y; }"],
+            ["Copy Constructor", "Creates an object by copying another object.", "public Car(Car other) { this.brand = other.brand; }"],
+            ["Constructor Overloading", "Multiple constructors with different parameters.", "Same class with default and parameterized constructors."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Constructors",
+          "given": ["A class 'Student' with name and age."],
+          "find": "Implement default and parameterized constructors.",
+          "steps": [
+            "class Student {",
+            "  String name; int age;",
+            "  Student() { name = \"Unknown\"; age = 0; }",
+            "  Student(String n, int a) { name = n; age = a; }",
+            "}",
+            "Student s1 = new Student(); // Default",
+            "Student s2 = new Student(\"John\", 20); // Parameterized"
+          ],
+          "answer": "Both constructors are defined and used.",
+          "formula_used": "Constructor overloading"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Constructor name must match class name.",
+          "wrong": "public void Student() { ... } (void makes it a method, not a constructor).",
+          "correct": "public Student() { ... } (no return type).",
+          "tip": "Constructors have no return type."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Constructor = Special method for object initialization.",
+            "Same name as the class, no return type.",
+            "Default constructor (no parameters) is provided automatically if none is defined.",
+            "Constructor overloading allows multiple ways to create objects."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "this_super",
+      "title": "The 'this' and 'super' Keywords – Referring to Members",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "this and super Keywords",
+          "subtitle": "Navigating the Object Hierarchy",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "The 'this' Keyword",
+          "content": "'this' refers to the current object. It is used to distinguish instance variables from parameters, and to call other constructors of the same class.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "The 'super' Keyword",
+          "content": "'super' refers to the parent class. It is used to call parent class methods, constructors, and access parent class members.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: 'this' Keyword",
+          "given": ["A class with a parameter same name as an attribute."],
+          "find": "Use 'this' to resolve ambiguity.",
+          "steps": [
+            "class Person {",
+            "  String name;",
+            "  Person(String name) {",
+            "    this.name = name; // this.name = attribute, name = parameter",
+            "  }",
+            "}"
+          ],
+          "answer": "'this.name' refers to the instance variable.",
+          "formula_used": "this keyword"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: 'super' Keyword",
+          "given": ["Child class overrides a parent method."],
+          "find": "Call the parent method using 'super'.",
+          "steps": [
+            "class Parent {",
+            "  void display() { print(\"Parent\"); }",
+            "}",
+            "class Child extends Parent {",
+            "  void display() {",
+            "    super.display(); // Calls Parent's display",
+            "    print(\"Child\");",
+            "  }",
+            "}"
+          ],
+          "answer": "super.display() calls the parent's method.",
+          "formula_used": "super keyword"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using 'this' in a static context.",
+          "wrong": "static void method() { this.print(); } (this cannot be used in static).",
+          "correct": "Only non-static members can use 'this'.",
+          "tip": "'this' is not available in static methods."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "'this' = current object reference.",
+            "'super' = parent class reference.",
+            "Use 'this' to distinguish attributes from parameters.",
+            "Use 'super' to call parent methods and constructors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solid_principles",
+      "title": "SOLID Principles – Design for Maintainable Code",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "SOLID Principles",
+          "subtitle": "Writing Clean, Maintainable OOP Code",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "What are SOLID Principles?",
+          "content": "SOLID is an acronym for five design principles that help developers create more maintainable, understandable, and flexible software. They were introduced by Robert C. Martin (Uncle Bob).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "SOLID Principles",
+          "headers": ["Principle", "Description", "Key Idea"],
+          "rows": [
+            ["S – Single Responsibility", "A class should have only one reason to change.", "One class = One job."],
+            ["O – Open/Closed", "A class should be open for extension but closed for modification.", "Add new features without changing existing code."],
+            ["L – Liskov Substitution", "Subtypes must be substitutable for their base types.", "Child class should be able to replace parent."],
+            ["I – Interface Segregation", "Clients should not be forced to depend on interfaces they don't use.", "Fat interfaces should be split."],
+            ["D – Dependency Inversion", "High-level modules should not depend on low-level modules; both should depend on abstractions.", "Depend on interfaces, not concrete classes."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Single Responsibility",
+          "given": ["A class 'Report' that calculates and prints data."],
+          "find": "Apply Single Responsibility Principle.",
+          "steps": [
+            "Split into two classes:",
+            "class ReportCalculator { calculate(); }",
+            "class ReportPrinter { print(); }",
+            "Now each class has only one reason to change."
+          ],
+          "answer": "Two classes with single responsibilities.",
+          "formula_used": "Single Responsibility Principle"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Open/Closed Principle",
+          "given": ["A class 'AreaCalculator' that calculates area of shapes."],
+          "find": "Make it open for extension.",
+          "steps": [
+            "Use polymorphism:",
+            "abstract class Shape { abstract double area(); }",
+            "class Circle extends Shape { ... }",
+            "class Rectangle extends Shape { ... }",
+            "AreaCalculator works with any Shape."
+          ],
+          "answer": "New shapes can be added without changing AreaCalculator.",
+          "formula_used": "Open/Closed Principle"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing SOLID principles.",
+          "wrong": "Liskov Substitution is about interfaces.",
+          "correct": "Liskov Substitution is about inheritance and subtype substitutability.",
+          "tip": "Study each principle in detail to avoid confusion."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "S: Single Responsibility – One job per class.",
+            "O: Open/Closed – Extend without modifying.",
+            "L: Liskov Substitution – Subtypes must work where base types work.",
+            "I: Interface Segregation – Separate large interfaces.",
+            "D: Dependency Inversion – Depend on abstractions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "composition_vs_inheritance",
+      "title": "Composition vs Inheritance – Favoring Composition",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Composition vs Inheritance",
+          "subtitle": "Has-a vs Is-a Relationship",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Inheritance (Is-a Relationship)",
+          "content": "Inheritance represents an 'is-a' relationship. Example: A Dog 'is-a' Animal. Subclasses inherit from a superclass. It is a strong relationship but can lead to tight coupling.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Composition (Has-a Relationship)",
+          "content": "Composition represents a 'has-a' relationship. Example: A Car 'has-a' Engine. An object contains references to other objects. It is more flexible and loosely coupled than inheritance.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Inheritance vs Composition",
+          "left_header": "Inheritance",
+          "right_header": "Composition",
+          "rows": [
+            { "left": "Is-a relationship.", "right": "Has-a relationship." },
+            { "left": "Tight coupling between classes.", "right": "Loose coupling between classes." },
+            { "left": "Less flexible (fixed hierarchy).", "right": "More flexible (can change behaviour dynamically)." },
+            { "left": "Code reuse through extension.", "right": "Code reuse through delegation." },
+            { "left": "Example: Dog extends Animal.", "right": "Example: Car has Engine." }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Composition",
+          "given": ["A class 'Car' needs an 'Engine'."],
+          "find": "Implement using composition.",
+          "steps": [
+            "class Engine { void start() { ... } }",
+            "class Car {",
+            "  Engine engine;",
+            "  Car(Engine e) { this.engine = e; }",
+            "  void start() { engine.start(); }",
+            "}"
+          ],
+          "answer": "Car has an Engine reference (has-a).",
+          "formula_used": "Composition (has-a)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Overusing inheritance.",
+          "wrong": "Using inheritance when composition would be better.",
+          "correct": "Favor composition over inheritance.",
+          "tip": "Use inheritance only when the relationship is truly 'is-a'."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Inheritance = Is-a (Dog is an Animal).",
+            "Composition = Has-a (Car has an Engine).",
+            "Composition is more flexible and loosely coupled.",
+            "Favor composition over inheritance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interfaces",
+      "title": "Interfaces – Contracts for Classes",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Interfaces",
+          "subtitle": "Defining What, Not How",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "What is an Interface?",
+          "content": "An interface defines a contract that implementing classes must fulfill. It declares methods but does not provide implementations. Interfaces support multiple inheritance of behaviour.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Interface Characteristics",
+          "headers": ["Feature", "Description"],
+          "rows": [
+            ["Methods", "All methods are abstract (in Java 8, default/static methods allowed)."],
+            ["Fields", "All fields are public, static, final (constants)."],
+            ["Multiple Inheritance", "A class can implement multiple interfaces."],
+            ["Purpose", "Defines a contract for classes to implement."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Multiple Interfaces",
+          "given": ["A class 'Bird' that can fly and swim."],
+          "find": "Implement using interfaces.",
+          "steps": [
+            "interface Flyable { void fly(); }",
+            "interface Swimmable { void swim(); }",
+            "class Bird implements Flyable, Swimmable {",
+            "  public void fly() { print(\"Flying\"); }",
+            "  public void swim() { print(\"Swimming\"); }",
+            "}"
+          ],
+          "answer": "Bird implements both interfaces.",
+          "formula_used": "Multiple interfaces"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Interface = Contract for classes.",
+            "All methods are abstract (before Java 8).",
+            "A class can implement multiple interfaces.",
+            "Interfaces support multiple inheritance of behaviour."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oop_advanced",
+      "title": "Advanced OOP Concepts – Aggregation, Association, and Delegation",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced OOP Concepts",
+          "subtitle": "Aggregation, Association, and Delegation",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Association",
+          "content": "Association is a relationship between two classes where one class uses the other. It is a general relationship (not ownership). Example: A Teacher teaches a Student.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Aggregation",
+          "content": "Aggregation is a weak 'has-a' relationship where the child can exist independently of the parent. Example: A Department has Employees (employees can exist without the department).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔒",
+          "title": "Composition (Strong Aggregation)",
+          "content": "Composition is a strong 'has-a' relationship where the child cannot exist without the parent. Example: A House has Rooms (rooms cannot exist without the house).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📤",
+          "title": "Delegation",
+          "content": "Delegation is a technique where an object delegates certain responsibilities to another object. It is an alternative to inheritance for code reuse.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Association vs Aggregation vs Composition",
+          "headers": ["Relationship", "Type", "Ownership", "Example"],
+          "rows": [
+            ["Association", "Uses-a", "No ownership", "Teacher → Student"],
+            ["Aggregation", "Has-a (weak)", "Child can exist independently", "Department → Employees"],
+            ["Composition", "Has-a (strong)", "Child cannot exist independently", "House → Rooms"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Delegation",
+          "given": ["A class 'Printer' needs to print documents."],
+          "find": "Implement delegation.",
+          "steps": [
+            "class Printer {",
+            "  void print(String doc) { ... }",
+            "}",
+            "class Document {",
+            "  Printer printer = new Printer();",
+            "  void print() { printer.print(this.content); }",
+            "}"
+          ],
+          "answer": "Document delegates printing to Printer.",
+          "formula_used": "Delegation pattern"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Association = General connection between classes.",
+            "Aggregation = Weak ownership (child can exist alone).",
+            "Composition = Strong ownership (child cannot exist alone).",
+            "Delegation = Forwarding responsibilities to another object."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oop_shortcuts",
+      "title": "Shortcuts and Memory Tricks for OOP Concepts",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OOP Shortcuts",
+          "subtitle": "Quick Memory Aids",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 1 – The Four Pillars",
+          "content": "EIPA: Encapsulation, Inheritance, Polymorphism, Abstraction.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 2 – Class vs Object",
+          "content": "Class = Blueprint (no memory). Object = Instance (has memory).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 3 – Overloading vs Overriding",
+          "content": "Overloading = Same name, different parameters (compile-time). Overriding = Same signature, different implementation (run-time).",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "EPIA",
+          "memory_trick": "Encapsulation, Polymorphism, Inheritance, Abstraction – the four pillars of OOP."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "E: Encapsulation = Data hiding.",
+            "P: Polymorphism = Many forms (overloading + overriding).",
+            "I: Inheritance = Code reuse.",
+            "A: Abstraction = Hiding implementation.",
+            "Class = Blueprint, Object = Instance.",
+            "this = current object, super = parent object."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oop_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Object-Oriented Concepts – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the four pillars (Encapsulation, Inheritance, Polymorphism, Abstraction). Understand the difference between overloading and overriding. Know SOLID principles and constructors.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which OOP principle hides internal details and protects data?",
+          "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"],
+          "answer": 2,
+          "explanation": "Encapsulation hides internal details and protects data from unauthorized access.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which OOP principle allows a class to have multiple methods with the same name but different parameters?",
+          "options": ["Method Overriding", "Method Overloading", "Inheritance", "Abstraction"],
+          "answer": 1,
+          "explanation": "Method Overloading allows methods with the same name but different parameters (compile-time polymorphism).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the process of creating a new class from an existing class called?",
+          "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+          "answer": 1,
+          "explanation": "Inheritance is the process of creating a new class (child) from an existing class (parent).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which keyword is used to refer to the parent class in Java?",
+          "options": ["this", "super", "base", "parent"],
+          "answer": 1,
+          "explanation": "'super' is used to refer to the parent class in Java.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which OOP principle allows objects of different classes to respond to the same method call in different ways?",
+          "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+          "answer": 2,
+          "explanation": "Polymorphism allows objects of different classes to respond to the same method call in their own way.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which principle states that a class should have only one reason to change?",
+          "options": ["Open/Closed", "Single Responsibility", "Liskov Substitution", "Interface Segregation"],
+          "answer": 1,
+          "explanation": "Single Responsibility Principle states that a class should have only one reason to change.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a feature of an interface in Java?",
+          "options": ["All methods are abstract", "Fields are static and final", "Can be instantiated", "Supports multiple inheritance"],
+          "answer": 2,
+          "explanation": "Interfaces cannot be instantiated. They are implemented by classes.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the difference between overloading and overriding?",
+          "options": [
+            "Overloading is run-time, overriding is compile-time.",
+            "Overloading is compile-time, overriding is run-time.",
+            "Both are compile-time.",
+            "Both are run-time."
+          ],
+          "answer": 1,
+          "explanation": "Overloading is compile-time polymorphism; overriding is run-time polymorphism.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which relationship describes 'has-a'?",
+          "options": ["Inheritance", "Composition", "Polymorphism", "Abstraction"],
+          "answer": 1,
+          "explanation": "Composition represents a 'has-a' relationship (e.g., Car has an Engine).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which SOLID principle states that high-level modules should not depend on low-level modules?",
+          "options": ["Single Responsibility", "Open/Closed", "Liskov Substitution", "Dependency Inversion"],
+          "answer": 3,
+          "explanation": "Dependency Inversion Principle: Depend on abstractions, not concretions.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the four pillars of OOP. Understand the difference between overloading and overriding. Study SOLID principles and the difference between inheritance and composition."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – OOP Concepts",
+          "points": [
+            "Encapsulation: Data hiding, private attributes.",
+            "Inheritance: Code reuse, is-a relationship.",
+            "Polymorphism: Overloading (compile-time), Overriding (run-time).",
+            "Abstraction: Abstract classes and interfaces.",
+            "this: Current object, super: Parent object.",
+            "Constructors: Initialization of objects.",
+            "SOLID: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.",
+            "Composition: Has-a, more flexible than inheritance.",
+            "Interfaces: Contracts for classes, support multiple inheritance."
+          ]
+        }
+      ]
+    }
+  ]
+}

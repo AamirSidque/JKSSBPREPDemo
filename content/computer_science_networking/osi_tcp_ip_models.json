@@ -1,0 +1,707 @@
+{
+  "id": "osi_tcp_ip_models",
+  "subject_id": "computer_science_networking",
+  "title": "OSI and TCP/IP Models",
+  "subtopics": [
+    {
+      "id": "osi_intro",
+      "title": "Introduction to Network Models – Why We Need Layers",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OSI and TCP/IP Models",
+          "subtitle": "The Blueprint of Computer Networks",
+          "tags": ["JKSSB", "High Weightage", "Networking"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "What is a Network Model?",
+          "content": "A network model is a conceptual framework that defines how data is transmitted, formatted, and received across a network. It breaks down the complex process into manageable layers, each with specific functions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Why Layered Architecture?",
+          "content": "1. **Interoperability** – Different vendors can build devices that work together.\n2. **Modularity** – Each layer can be developed independently.\n3. **Simplification** – Breaks complex networking into smaller tasks.\n4. **Standardisation** – Provides a common reference for all networking professionals.",
+          "highlight": false
+        },
+        {
+          "type": "comparison",
+          "title": "OSI vs TCP/IP – High Level Overview",
+          "left_header": "OSI Model",
+          "right_header": "TCP/IP Model",
+          "rows": [
+            { "left": "7 Layers (Theoretical)", "right": "4 Layers (Practical/Implementation)" },
+            { "left": "Developed by ISO (International Standards Organization)", "right": "Developed by DARPA (Defense Advanced Research Projects Agency)" },
+            { "left": "Highly detailed and structured", "right": "Less rigid, more practical" },
+            { "left": "Defined after TCP/IP", "right": "Developed first and used in the Internet" }
+          ]
+        },
+        {
+          "type": "process_flow",
+          "title": "How Data Travels Through Layers (Encapsulation)",
+          "steps": [
+            "Step 1: Application Layer (User Data)",
+            "Step 2: Transport Layer adds a header (Segment/Datagram)",
+            "Step 3: Network Layer adds IP header (Packet)",
+            "Step 4: Data Link Layer adds frame header and trailer (Frame)",
+            "Step 5: Physical Layer converts to bits (Signals)",
+            "Step 6: The reverse process occurs at the destination (De-encapsulation)"
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Network models provide structured communication.",
+            "Both models are layered but have different architectures.",
+            "Encapsulation adds headers at each layer for transmission.",
+            "Understanding these models is essential for troubleshooting and design."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osi_layer_7_5",
+      "title": "OSI Layers 7, 6, 5 – Application, Presentation, Session",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OSI Upper Layers",
+          "subtitle": "User Interaction, Data Formatting, and Session Management",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🖥️",
+          "title": "Layer 7 – Application Layer",
+          "content": "This is the layer closest to the user. It provides network services directly to applications like web browsers, email clients, and file transfer tools. Protocols: HTTP, FTP, SMTP, DNS, Telnet.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔐",
+          "title": "Layer 6 – Presentation Layer",
+          "content": "This layer handles data formatting, encryption, compression, and translation. It ensures that data from the application layer can be understood by the receiving system. Responsible for: data encryption (SSL/TLS), character encoding (ASCII, Unicode), and data compression.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤝",
+          "title": "Layer 5 – Session Layer",
+          "content": "This layer establishes, manages, and terminates sessions (connections) between two communicating applications. It controls dialogue direction (half-duplex, full-duplex) and manages checkpointing (synchronization) to recover from failures.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Upper OSI Layers – Quick Reference",
+          "headers": ["Layer", "Name", "Primary Function", "Key Protocols/Examples"],
+          "rows": [
+            ["7", "Application", "User interface for network services", "HTTP, FTP, SMTP, DNS"],
+            ["6", "Presentation", "Data format, encryption, compression", "SSL/TLS, JPEG, MPEG"],
+            ["5", "Session", "Establish, manage, terminate sessions", "NetBIOS, RPC"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Identifying the Layer",
+          "given": ["A user opens a web browser and types a URL."],
+          "find": "Which OSI layer does the web browser operate at?",
+          "steps": [
+            "The web browser is an application that uses HTTP (Hypertext Transfer Protocol).",
+            "HTTP is a protocol that operates at the Application Layer.",
+            "Therefore, the web browser operates at Layer 7 (Application Layer)."
+          ],
+          "answer": "Layer 7 – Application Layer",
+          "formula_used": "Application identification"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Presentation and Application Layers.",
+          "wrong": "Encryption is done at the Application Layer.",
+          "correct": "Encryption is a function of the Presentation Layer (Layer 6) or sometimes at lower layers (SSL/TLS).",
+          "tip": "Remember: Application is user interaction; Presentation is data formatting."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Application Layer (7): User services.",
+            "Presentation Layer (6): Data formatting, encryption.",
+            "Session Layer (5): Connection management.",
+            "These layers are often handled by the operating system and application software."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osi_layer_4",
+      "title": "OSI Layer 4 – Transport Layer (Segmentation, Flow Control, Error Control)",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Transport Layer",
+          "subtitle": "End-to-End Communication",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚚",
+          "title": "What is the Transport Layer?",
+          "content": "Layer 4 is responsible for end-to-end communication between applications. It segments data into smaller units, ensures delivery, and provides flow control. Key protocols: TCP (Transmission Control Protocol) and UDP (User Datagram Protocol).",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "TCP vs UDP",
+          "left_header": "TCP",
+          "right_header": "UDP",
+          "rows": [
+            { "left": "Connection-oriented", "right": "Connectionless" },
+            { "left": "Reliable delivery (acknowledgements)", "right": "Best-effort delivery (no ACKs)" },
+            { "left": "Segments with sequence numbers", "right": "Datagrams without ordering" },
+            { "left": "Flow control and error correction", "right": "No flow control" },
+            { "left": "Slower but reliable", "right": "Faster but unreliable" },
+            { "left": "Examples: HTTP, FTP, SSH", "right": "Examples: DNS, VoIP, streaming" }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Choosing TCP or UDP",
+          "given": ["A video conferencing application needs real-time data streaming."],
+          "find": "Which transport protocol is suitable?",
+          "steps": [
+            "Video conferencing requires speed and real-time delivery.",
+            "Losing a few frames is acceptable, but delay is not.",
+            "UDP (User Datagram Protocol) is connectionless and faster.",
+            "TCP would introduce delays due to retransmissions."
+          ],
+          "answer": "UDP",
+          "formula_used": "Application requirement analysis"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Port Numbers",
+          "given": ["A server is running a web service on port 80."],
+          "find": "What is the purpose of port numbers?",
+          "steps": [
+            "Port numbers identify specific applications on a host.",
+            "Port 80 is the standard port for HTTP (web).",
+            "The transport layer uses port numbers to deliver data to the correct application."
+          ],
+          "answer": "Port numbers are used for application identification.",
+          "formula_used": "Port addressing"
+        },
+        {
+          "type": "table",
+          "title": "Common Port Numbers",
+          "headers": ["Port", "Protocol", "Application"],
+          "rows": [
+            ["21", "TCP", "FTP"],
+            ["22", "TCP", "SSH"],
+            ["25", "TCP", "SMTP (Email)"],
+            ["53", "TCP/UDP", "DNS"],
+            ["80", "TCP", "HTTP"],
+            ["443", "TCP", "HTTPS (Secure Web)"],
+            ["110", "TCP", "POP3 (Email)"],
+            ["143", "TCP", "IMAP (Email)"],
+            ["161", "UDP", "SNMP (Network Management)"],
+            ["3389", "TCP", "RDP (Remote Desktop)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing TCP and UDP use cases.",
+          "wrong": "DNS uses TCP for all queries.",
+          "correct": "DNS primarily uses UDP (port 53) for quick queries, but may fall back to TCP for large responses.",
+          "tip": "Remember: Speed = UDP, Reliability = TCP."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Transport Layer provides end-to-end communication.",
+            "TCP: Reliable, connection-oriented, slow.",
+            "UDP: Unreliable, connectionless, fast.",
+            "Port numbers identify applications on a host.",
+            "Segmentation breaks data into manageable units."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osi_layer_3",
+      "title": "OSI Layer 3 – Network Layer (Logical Addressing, Routing, Packet Forwarding)",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Network Layer",
+          "subtitle": "Logical Addressing and Routing",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧭",
+          "title": "What is the Network Layer?",
+          "content": "Layer 3 is responsible for logical addressing (IP addresses) and routing. It determines the best path for data to travel from source to destination across multiple networks. Key protocol: IP (Internet Protocol).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "Packet and Routing",
+          "content": "Data at this layer is called a **Packet**. Routing is the process of selecting the best path across networks using routing tables and algorithms.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: IP Addressing",
+          "given": ["A device has the IP address 192.168.1.10."],
+          "find": "What is the purpose of this IP address?",
+          "steps": [
+            "IP addresses uniquely identify devices on a network.",
+            "The Network Layer uses this address for routing.",
+            "It can be private (e.g., 192.168.x.x) or public."
+          ],
+          "answer": "To uniquely identify the device on the network.",
+          "formula_used": "Logical addressing"
+        },
+        {
+          "type": "comparison",
+          "title": "Network Layer vs Data Link Layer",
+          "left_header": "Network Layer (Layer 3)",
+          "right_header": "Data Link Layer (Layer 2)",
+          "rows": [
+            { "left": "Logical addressing (IP)", "right": "Physical addressing (MAC)" },
+            { "left": "Routing across networks", "right": "Switching within a network" },
+            { "left": "Packets", "right": "Frames" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Network Layer = Logical addressing + Routing.",
+            "IP is the key protocol at this layer.",
+            "Routers operate at this layer.",
+            "Data is called a packet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osi_layer_2_1",
+      "title": "OSI Layers 2 and 1 – Data Link and Physical Layers",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Lower OSI Layers",
+          "subtitle": "Switching, Framing, and Physical Transmission",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Layer 2 – Data Link Layer",
+          "content": "This layer provides node-to-node delivery of data. It adds a frame header (with MAC addresses) and a frame trailer (error checking). Key functions: Framing, Error Detection, Flow Control, MAC Addressing, and Switching.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Layer 1 – Physical Layer",
+          "content": "This is the hardware layer that deals with physical transmission of raw bits over the network medium (cables, fibre, wireless). It defines electrical, mechanical, and functional specifications for the physical media.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Lower OSI Layers – Quick Reference",
+          "headers": ["Layer", "Name", "Primary Function", "Key Elements"],
+          "rows": [
+            ["2", "Data Link", "Node-to-node delivery, error detection", "MAC addresses, switches, frames"],
+            ["1", "Physical", "Raw bit transmission", "Cables, connectors, electrical signals, bits"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing MAC and IP addresses.",
+          "wrong": "MAC addresses are used for routing across networks.",
+          "correct": "MAC addresses are used for communication within a single network (Layer 2), while IP addresses are used for routing across networks (Layer 3).",
+          "tip": "MAC = Physical (Hardware), IP = Logical (Software)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Data Link Layer: MAC addresses, frames, error checking.",
+            "Physical Layer: Raw bits, cables, signals.",
+            "Switches operate at Layer 2; Hubs operate at Layer 1.",
+            "MAC addresses are burnt into the NIC (Network Interface Card)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tcp_ip_4_layers",
+      "title": "TCP/IP Model – Application, Transport, Internet, Network Access Layers",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "TCP/IP Model",
+          "subtitle": "The Internet's Protocol Suite",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌐",
+          "title": "TCP/IP Model Overview",
+          "content": "The TCP/IP model is a practical, 4-layer model that forms the foundation of the Internet. It is more widely used than the OSI model, which is considered more theoretical.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "TCP/IP Layers – Functions and Protocols",
+          "headers": ["Layer", "Function", "Key Protocols"],
+          "rows": [
+            ["Application", "Provides user services and handles application-level communication", "HTTP, FTP, SMTP, DNS, SSH, Telnet"],
+            ["Transport", "End-to-end communication, segmentation, flow control", "TCP (Reliable), UDP (Fast)"],
+            ["Internet", "Logical addressing, routing, packet forwarding", "IP (IPv4, IPv6), ICMP, ARP"],
+            ["Network Access", "Physical transmission, framing, MAC addressing", "Ethernet, Wi-Fi (802.11), PPP"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "comparison",
+          "title": "OSI vs TCP/IP Layer Mapping",
+          "left_header": "OSI Model",
+          "right_header": "TCP/IP Model",
+          "rows": [
+            { "left": "Application (7)", "right": "Application (4)" },
+            { "left": "Presentation (6)", "right": "Application (4)" },
+            { "left": "Session (5)", "right": "Application (4)" },
+            { "left": "Transport (4)", "right": "Transport (3)" },
+            { "left": "Network (3)", "right": "Internet (2)" },
+            { "left": "Data Link (2)", "right": "Network Access (1)" },
+            { "left": "Physical (1)", "right": "Network Access (1)" }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: TCP/IP Layer Identification",
+          "given": ["A user sends an email using SMTP."],
+          "find": "Which TCP/IP layer does SMTP belong to?",
+          "steps": [
+            "SMTP (Simple Mail Transfer Protocol) is a protocol for sending emails.",
+            "It is a user service protocol.",
+            "Therefore, it belongs to the Application Layer of the TCP/IP model."
+          ],
+          "answer": "Application Layer",
+          "formula_used": "Protocol-to-layer mapping"
+        },
+        {
+          "type": "note_card",
+          "title": "Important Note",
+          "variant": "remember",
+          "content": "In exams, questions often ask: 'Which layer does HTTP operate in?' – The answer depends on the model. In OSI: Layer 7 (Application). In TCP/IP: Application Layer. Always check which model is being referenced."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "TCP/IP has 4 layers: Application, Transport, Internet, Network Access.",
+            "It is the practical model used on the Internet.",
+            "The Internet Layer corresponds to the OSI Network Layer.",
+            "The Network Access Layer combines OSI Data Link and Physical Layers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "encapsulation",
+      "title": "Data Encapsulation and De-encapsulation – PDU Units",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Encapsulation Process",
+          "subtitle": "How Data Transforms as it Travels",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "What is Encapsulation?",
+          "content": "Encapsulation is the process of adding headers (and sometimes trailers) to data as it moves down the OSI or TCP/IP layers. Each layer adds its own header, which contains control information for that layer.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Protocol Data Units (PDUs) by Layer",
+          "headers": ["Layer", "PDU (Data Unit)", "Example"],
+          "rows": [
+            ["Application", "Data", "User message"],
+            ["Transport", "Segment (TCP) / Datagram (UDP)", "TCP segment with port numbers"],
+            ["Network", "Packet", "IP packet with source/destination IP"],
+            ["Data Link", "Frame", "Ethernet frame with MAC addresses + trailer"],
+            ["Physical", "Bits", "Electrical/optical signals"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Encapsulation Flow",
+          "given": ["A user sends a message from Application Layer down to the Physical Layer."],
+          "find": "Describe the encapsulation process.",
+          "steps": [
+            "Application Layer: Data (user message).",
+            "Transport Layer: Adds TCP/UDP header → Segment/Datagram.",
+            "Internet/Network Layer: Adds IP header → Packet.",
+            "Data Link/Network Access Layer: Adds Frame header and trailer → Frame.",
+            "Physical Layer: Converts frame to bits → Signals."
+          ],
+          "answer": "Data → Segment → Packet → Frame → Bits.",
+          "formula_used": "PDU chain"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using the wrong PDU name.",
+          "wrong": "The Network Layer uses frames.",
+          "correct": "The Network Layer uses packets; the Data Link Layer uses frames.",
+          "tip": "Memorize the PDU sequence: Data → Segment → Packet → Frame → Bits."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Data → Segment → Packet → Frame → Bits.",
+            "Encapsulation adds headers at each layer.",
+            "De-encapsulation removes headers at the destination.",
+            "PDU names are layer-specific."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osi_advanced",
+      "title": "Advanced OSI Concepts – Service, Interface, Protocol (SIP)",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced OSI – SIP Model",
+          "subtitle": "Understanding Layer Interaction",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "SIP Model – Service, Interface, Protocol",
+          "content": "1. **Service**: What a layer offers to the layer above it.\n2. **Interface**: How the layer communicates with the layer above/below.\n3. **Protocol**: How the layer communicates with its peer layer on another device.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: SIP in the Transport Layer",
+          "given": ["The Transport Layer provides reliable communication to the Application Layer."],
+          "find": "Identify the Service, Interface, and Protocol.",
+          "steps": [
+            "Service: Reliable end-to-end communication (TCP).",
+            "Interface: The API (socket) used by applications to request services.",
+            "Protocol: TCP (how the transport layer communicates with the peer transport layer)."
+          ],
+          "answer": "Service = Reliable Communication, Interface = Socket API, Protocol = TCP.",
+          "formula_used": "SIP analysis"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Service = What the layer provides.",
+            "Interface = How it's accessed.",
+            "Protocol = How peers communicate.",
+            "Understanding SIP helps in grasping the layered architecture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osi_tcp_ip_differences",
+      "title": "Key Differences – OSI vs TCP/IP (Exam View)",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OSI vs TCP/IP – The Ultimate Comparison",
+          "subtitle": "Exam-Focused Differences",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "OSI vs TCP/IP – Detailed Comparison",
+          "headers": ["Aspect", "OSI Model", "TCP/IP Model"],
+          "rows": [
+            ["Full Form", "Open Systems Interconnection", "Transmission Control Protocol/Internet Protocol"],
+            ["Number of Layers", "7 Layers", "4 Layers"],
+            ["Development", "Developed by ISO (International Organization for Standardization)", "Developed by DARPA"],
+            ["Approach", "Theoretical/Generic", "Practical/Implementation"],
+            ["Layer Names", "Application, Presentation, Session, Transport, Network, Data Link, Physical", "Application, Transport, Internet, Network Access"],
+            ["Protocol Support", "Not tied to any specific protocol", "Tied to TCP/IP protocol suite"],
+            ["Session/ Presentation", "Separate layers for session and presentation", "Merged into the Application layer"],
+            ["Physical/Data Link", "Separate layers", "Combined into Network Access layer"],
+            ["Connection Service", "Can be connection-oriented or connectionless", "TCP is connection-oriented, UDP is connectionless"],
+            ["Adoption", "Theoretical reference model", "Used in the actual Internet"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "APSTNDP",
+          "memory_trick": "All People Seem To Need Data Processing – the 7 layers of OSI in order: Application, Presentation, Session, Transport, Network, Data Link, Physical."
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: OSI is more popular than TCP/IP.",
+          "wrong": "OSI is used more often in real networks than TCP/IP.",
+          "correct": "TCP/IP is the practical model used in real networks and the Internet.",
+          "tip": "OSI is a reference model; TCP/IP is the implementation model."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "OSI = Theoretical (7 layers), TCP/IP = Practical (4 layers).",
+            "TCP/IP is used on the Internet.",
+            "OSI separates Presentation and Session; TCP/IP merges them into Application.",
+            "OSI separates Physical and Data Link; TCP/IP merges them into Network Access."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osi_tcp_ip_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OSI & TCP/IP – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on layer numbering, protocol-to-layer mapping, and PDU names. Memorize the differences between OSI and TCP/IP.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which OSI layer is responsible for routing and logical addressing?",
+          "options": ["Transport", "Network", "Data Link", "Physical"],
+          "answer": 1,
+          "explanation": "The Network Layer (Layer 3) handles logical addressing (IP) and routing.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which protocol operates at the Transport Layer of the OSI model?",
+          "options": ["IP", "TCP", "HTTP", "Ethernet"],
+          "answer": 1,
+          "explanation": "TCP (Transmission Control Protocol) operates at Layer 4 (Transport Layer).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "How many layers does the TCP/IP model have?",
+          "options": ["4", "5", "7", "6"],
+          "answer": 0,
+          "explanation": "The TCP/IP model has 4 layers: Application, Transport, Internet, and Network Access.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which OSI layer is responsible for data encryption and compression?",
+          "options": ["Application", "Presentation", "Session", "Transport"],
+          "answer": 1,
+          "explanation": "The Presentation Layer (Layer 6) handles encryption, compression, and data formatting.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the PDU (Protocol Data Unit) at the Data Link Layer called?",
+          "options": ["Segment", "Packet", "Frame", "Bits"],
+          "answer": 2,
+          "explanation": "The PDU at the Data Link Layer is called a Frame.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which protocol is used for secure web browsing?",
+          "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+          "answer": 2,
+          "explanation": "HTTPS (HTTP over SSL/TLS) is used for secure web browsing.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "In the OSI model, which layer establishes, manages, and terminates sessions?",
+          "options": ["Application", "Presentation", "Session", "Transport"],
+          "answer": 2,
+          "explanation": "The Session Layer (Layer 5) is responsible for establishing, managing, and terminating sessions.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which TCP/IP layer is equivalent to the OSI Network Layer?",
+          "options": ["Application", "Transport", "Internet", "Network Access"],
+          "answer": 2,
+          "explanation": "The Internet Layer of TCP/IP corresponds to the Network Layer (Layer 3) of OSI.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the primary function of the Physical Layer in the OSI model?",
+          "options": ["Routing", "Logical addressing", "Raw bit transmission", "Error detection"],
+          "answer": 2,
+          "explanation": "The Physical Layer (Layer 1) handles the transmission of raw bits over the physical medium.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the 7 layers of OSI with their functions, PDU names, and key protocols. Compare with TCP/IP layers and understand the mapping."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – OSI & TCP/IP",
+          "points": [
+            "OSI: 7 Layers (Application, Presentation, Session, Transport, Network, Data Link, Physical).",
+            "TCP/IP: 4 Layers (Application, Transport, Internet, Network Access).",
+            "PDUs: Data → Segment → Packet → Frame → Bits.",
+            "Key Protocols: HTTP (App), TCP (Transport), IP (Network), Ethernet (Data Link).",
+            "OSI is theoretical; TCP/IP is practical.",
+            "Presentation = encryption; Session = connection management.",
+            "MAC = Layer 2; IP = Layer 3.",
+            "TCP = Reliable (slow); UDP = Fast (unreliable)."
+          ]
+        }
+      ]
+    }
+  ]
+}

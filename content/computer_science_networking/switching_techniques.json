@@ -1,0 +1,818 @@
+{
+  "id": "switching_techniques",
+  "subject_id": "computer_science_networking",
+  "title": "Switching Techniques",
+  "subtopics": [
+    {
+      "id": "switching_intro",
+      "title": "Introduction to Switching – Why We Need Switching",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Switching Techniques",
+          "subtitle": "Moving Data Across Networks",
+          "tags": ["JKSSB", "High Weightage", "Networking"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "What is Switching?",
+          "content": "Switching is the process of transferring data from one device to another within a network. It determines the path that data takes from source to destination.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗺️",
+          "title": "Types of Switching",
+          "content": "There are three main switching techniques:\n1. **Circuit Switching** – Dedicated path for the entire communication.\n2. **Packet Switching** – Data is divided into packets and sent independently.\n3. **Message Switching** – Entire message is sent as a single unit.",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "How Switching Works",
+          "steps": [
+            "Step 1: Data is received at a switch or router.",
+            "Step 2: The switch reads the destination address.",
+            "Step 3: The switch consults its switching table.",
+            "Step 4: The switch determines the output port.",
+            "Step 5: The data is forwarded to the next hop."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Switching determines how data traverses a network.",
+            "Circuit, Packet, and Message switching are the three main types.",
+            "Switches operate at Layer 2 (Data Link) and Layer 3 (Network)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "circuit_switching",
+      "title": "Circuit Switching – Dedicated Communication Path",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Circuit Switching",
+          "subtitle": "Reserved Connection for the Entire Call",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📞",
+          "title": "What is Circuit Switching?",
+          "content": "Circuit switching establishes a dedicated, physical communication path between two devices for the entire duration of the communication. The path remains reserved even when no data is being transmitted.",
+          "highlight": true
+        },
+        {
+          "type": "process_flow",
+          "title": "Circuit Switching Phases",
+          "steps": [
+            "Phase 1: **Circuit Establishment** – A dedicated path is set up from source to destination.",
+            "Phase 2: **Data Transfer** – Data is transmitted over the dedicated path.",
+            "Phase 3: **Circuit Teardown** – The path is released when communication ends."
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Circuit Switching Characteristics",
+          "headers": ["Characteristic", "Description"],
+          "rows": [
+            ["Path", "Dedicated end-to-end connection."],
+            ["Bandwidth", "Reserved for the entire communication."],
+            ["Delay", "Fixed delay (no queuing delays)."],
+            ["Resource Utilisation", "Inefficient (resources reserved even when idle)."],
+            ["Examples", "Traditional telephone network (PSTN)."],
+            ["Advantages", "Guaranteed quality of service, no contention."],
+            ["Disadvantages", "Wasteful of bandwidth, long setup time."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Circuit Switching in Action",
+          "given": ["Two users make a phone call using the traditional telephone network."],
+          "find": "How does circuit switching work in this scenario?",
+          "steps": [
+            "The telephone exchange establishes a dedicated circuit between the two users.",
+            "The circuit remains open for the entire call duration.",
+            "No other communication can use that path during the call.",
+            "When the call ends, the circuit is released."
+          ],
+          "answer": "A dedicated physical path is established for the entire call duration.",
+          "formula_used": "Circuit switching model"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Circuit Switching with Packet Switching.",
+          "wrong": "Circuit switching is more efficient in data networks than packet switching.",
+          "correct": "Circuit switching is inefficient for bursty data traffic because resources are reserved even when idle.",
+          "tip": "Circuit switching is ideal for voice (constant bit rate); packet switching is ideal for data (bursty)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Circuit switching reserves a dedicated path.",
+            "Three phases: Setup, Data Transfer, Teardown.",
+            "Inefficient for data networks (wastes bandwidth).",
+            "Used in traditional telephone networks (PSTN)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "packet_switching",
+      "title": "Packet Switching – Store-and-Forward Communication",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Packet Switching",
+          "subtitle": "Breaking Data into Small Packets",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "What is Packet Switching?",
+          "content": "Packet switching breaks data into small packets and sends them independently across the network. Each packet contains a header with source and destination addresses. Packets can travel via different routes.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Advantages of Packet Switching",
+          "content": "• **Efficient bandwidth utilisation** – shared resources.\n• **No dedicated path required** – packets can take different routes.\n• **Network resilience** – if one path fails, another can be used.\n• **Scalability** – supports large networks.\n• **Cost-effective** – no reservation overhead.",
+          "highlight": false
+        },
+        {
+          "type": "comparison",
+          "title": "Circuit vs Packet Switching",
+          "left_header": "Circuit Switching",
+          "right_header": "Packet Switching",
+          "rows": [
+            { "left": "Dedicated path.", "right": "Shared path." },
+            { "left": "Fixed bandwidth.", "right": "Dynamic bandwidth." },
+            { "left": "Inefficient for bursty data.", "right": "Efficient for bursty data." },
+            { "left": "Fixed delay.", "right": "Variable delay (queuing)." },
+            { "left": "Call setup required.", "right": "No setup required." },
+            { "left": "Used in voice networks.", "right": "Used in data networks (Internet)." }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Packet Switching in Action",
+          "given": ["A user sends an email over the Internet."],
+          "find": "How does packet switching handle the email?",
+          "steps": [
+            "The email is broken into small packets.",
+            "Each packet has the sender's and receiver's IP addresses.",
+            "Packets are sent independently across the network.",
+            "They may take different routes.",
+            "Packets are reassembled at the destination."
+          ],
+          "answer": "The email is split into packets, sent independently, and reassembled at the destination.",
+          "formula_used": "Packet switching model"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Packets always take the same path.",
+          "wrong": "All packets of a message take the same path.",
+          "correct": "Packets can take different paths in packet switching (connectionless).",
+          "tip": "In datagram packet switching, each packet is independent and may take a different route."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Packet switching breaks data into packets.",
+            "Packets are sent independently.",
+            "Efficient for data networks (bursty traffic).",
+            "Used in the Internet (IP).",
+            "Two types: Datagram and Virtual Circuit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "datagram_vc",
+      "title": "Datagram vs Virtual Circuit Packet Switching",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Datagram vs Virtual Circuit",
+          "subtitle": "Connectionless vs Connection-Oriented Packet Switching",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📨",
+          "title": "Datagram Packet Switching",
+          "content": "In datagram switching, each packet is treated independently and is routed separately. This is also called **connectionless** packet switching. Example: IP (Internet Protocol).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Virtual Circuit Packet Switching",
+          "content": "In virtual circuit switching, a logical path is established before data transmission. All packets follow the same path, but resources are not reserved. This is also called **connection-oriented** packet switching. Example: X.25, Frame Relay.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Datagram vs Virtual Circuit",
+          "left_header": "Datagram",
+          "right_header": "Virtual Circuit",
+          "rows": [
+            { "left": "Connectionless.", "right": "Connection-oriented." },
+            { "left": "No path setup required.", "right": "Path setup required." },
+            { "left": "Each packet routed independently.", "right": "All packets follow the same path." },
+            { "left": "Packets may arrive out of order.", "right": "Packets arrive in order." },
+            { "left": "No resource reservation.", "right": "Logical resources reserved." },
+            { "left": "Example: IP.", "right": "Example: X.25, Frame Relay." },
+            { "left": "Less overhead (no setup).", "right": "More overhead (setup phase)." }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Datagram vs Virtual Circuit",
+          "given": ["A company needs to send large files with minimal delay and packet loss."],
+          "find": "Which packet switching method is more suitable?",
+          "steps": [
+            "Large files require reliable, ordered delivery.",
+            "Virtual circuit provides in-order delivery and avoids out-of-order reassembly overhead.",
+            "Datagram may cause out-of-order packets, requiring reassembly.",
+            "Virtual circuit is better for large, steady file transfers.",
+            "But for the Internet, datagram (IP) is used."
+          ],
+          "answer": "Virtual Circuit is more suitable for large, reliable transfers.",
+          "formula_used": "Application requirements analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Virtual Circuit with Circuit Switching.",
+          "wrong": "Virtual circuit switching reserves physical resources like circuit switching.",
+          "correct": "Virtual circuit switching reserves only logical resources; physical resources are shared.",
+          "tip": "Virtual circuit = logical path; Circuit switching = physical path."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Datagram: Connectionless, each packet routed independently, Example: IP.",
+            "Virtual Circuit: Connection-oriented, path established before data transfer, Example: X.25.",
+            "Virtual circuit packets arrive in order; datagram packets may not.",
+            "Virtual circuit has setup overhead; datagram has no setup."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "message_switching",
+      "title": "Message Switching – Store-and-Forward of Entire Messages",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Message Switching",
+          "subtitle": "The Store-and-Forward Approach",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📨",
+          "title": "What is Message Switching?",
+          "content": "Message switching sends the entire message as a single unit from source to destination. Each intermediate node stores the entire message and then forwards it to the next hop. This is a **store-and-forward** technique.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Message Switching Characteristics",
+          "headers": ["Characteristic", "Description"],
+          "rows": [
+            ["Transmission", "Entire message is sent as a single unit."],
+            ["Storage", "Each node stores the message temporarily."],
+            ["Delay", "High delay due to store-and-forward."],
+            ["Reliability", "Can be reliable (error-checking)."],
+            ["Efficiency", "Less efficient for large messages."],
+            ["Example", "Email (historically), Telex."],
+            ["Advantages", "Can wait for network availability."],
+            ["Disadvantages", "Large messages can block the network."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Message Switching",
+          "given": ["A large file is sent over a store-and-forward network."],
+          "find": "How does message switching handle the file?",
+          "steps": [
+            "The entire file is sent as one message.",
+            "The first node receives the full file and stores it.",
+            "It then forwards the file to the next node.",
+            "This continues until the destination receives the file."
+          ],
+          "answer": "The entire file is stored at each node and forwarded to the next hop.",
+          "formula_used": "Store-and-forward method"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Message Switching with Packet Switching.",
+          "wrong": "Message switching breaks messages into small packets.",
+          "correct": "Message switching sends the entire message as a single unit (no fragmentation).",
+          "tip": "Packet switching = fragmentation; Message switching = whole message."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Message switching sends the entire message as one unit.",
+            "Store-and-forward at each node.",
+            "High delay, inefficient for large messages.",
+            "Historically used in telegraph and early email systems."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "switching_methods",
+      "title": "Switching Methods – Store-and-Forward, Cut-Through, Fragment-Free",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Switching Methods",
+          "subtitle": "How Switches Forward Frames",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "What are Switching Methods?",
+          "content": "Switching methods determine how a network switch forwards frames. The three main methods are Store-and-Forward, Cut-Through, and Fragment-Free. Each has a trade-off between speed and reliability.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Switching Methods – Comparison",
+          "headers": ["Method", "How it Works", "Latency", "Error Detection", "Use Case"],
+          "rows": [
+            ["Store-and-Forward", "Receives the entire frame, checks CRC, then forwards.", "High", "Yes", "Enterprise networks, reliability first."],
+            ["Cut-Through", "Forwards as soon as destination address is read (first 6 bytes).", "Low", "No", "High-speed networks, low latency required."],
+            ["Fragment-Free", "Receives first 64 bytes (to check for collision fragments), then forwards.", "Medium", "Partial", "Good balance of speed and reliability."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Choosing a Switching Method",
+          "given": ["A data centre requires minimal latency and can tolerate occasional errors."],
+          "find": "Which switching method is most suitable?",
+          "steps": [
+            "Low latency is the priority.",
+            "Cut-through switching forwards frames immediately with minimal delay.",
+            "It does not check for errors, but latency is the priority.",
+            "Answer: Cut-through switching."
+          ],
+          "answer": "Cut-Through Switching",
+          "formula_used": "Latency vs reliability trade-off"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Store-and-Forward in Action",
+          "given": ["A switch receives a frame with a CRC error."],
+          "find": "How does store-and-forward switching handle it?",
+          "steps": [
+            "Store-and-forward receives the entire frame.",
+            "It calculates the CRC (error check).",
+            "If the CRC fails, the frame is discarded.",
+            "Only error-free frames are forwarded."
+          ],
+          "answer": "The frame is discarded due to CRC error.",
+          "formula_used": "Error detection and correction"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Cut-through forwards the entire frame before error checking.",
+          "wrong": "Cut-through waits for the entire frame and then checks for errors.",
+          "correct": "Cut-through forwards the frame as soon as the destination address is read, without error checking.",
+          "tip": "Cut-through = low latency, no error checking; Store-and-Forward = high latency, error checking."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Store-and-Forward: Slow but reliable (CRC check).",
+            "Cut-Through: Fast but no error checking.",
+            "Fragment-Free: Medium speed, checks for collisions (first 64 bytes).",
+            "Choose based on network requirements (latency vs reliability)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frame_forwarding",
+      "title": "Frame Forwarding – How Switches Learn and Forward",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Frame Forwarding",
+          "subtitle": "Switches and MAC Address Tables",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "How Switches Learn MAC Addresses",
+          "content": "Switches learn MAC addresses by examining the source MAC address of incoming frames. They build a MAC address table (CAM table) that maps MAC addresses to ports.",
+          "highlight": true
+        },
+        {
+          "type": "process_flow",
+          "title": "MAC Address Learning and Forwarding",
+          "steps": [
+            "Step 1: Switch receives a frame on a port.",
+            "Step 2: Switch reads the source MAC address.",
+            "Step 3: If the source MAC is not in the table, it is added with the port number.",
+            "Step 4: Switch reads the destination MAC address.",
+            "Step 5: If the destination MAC is known, the frame is forwarded to the specific port.",
+            "Step 6: If the destination MAC is unknown, the frame is flooded to all ports (except the incoming port)."
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Switch Forwarding Decision",
+          "headers": ["Destination MAC Known?", "Action"],
+          "rows": [
+            ["Yes", "Forward to the specific port (unicast)."],
+            ["No", "Flood to all ports (except the incoming port)."],
+            ["Broadcast/Multicast", "Flood to all ports."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: MAC Address Learning",
+          "given": ["A switch with three ports receives a frame from MAC address AA:AA:AA:AA:AA:01 on port 1."],
+          "find": "What does the switch do?",
+          "steps": [
+            "The switch learns the source MAC address (AA:AA:AA:AA:AA:01) and associates it with port 1.",
+            "It adds this entry to the MAC address table."
+          ],
+          "answer": "The switch adds MAC AA:AA:AA:AA:AA:01 to the table on port 1.",
+          "formula_used": "MAC address learning"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Switches flood traffic when the destination MAC is unknown.",
+          "wrong": "Switches drop frames with unknown destination MAC addresses.",
+          "correct": "Switches flood the frame to all ports (except the incoming port) when the destination MAC is unknown.",
+          "tip": "Unknown destination = Flood; Known destination = Unicast forward."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Switches build a MAC address table (CAM table).",
+            "They learn MAC addresses from the source address of incoming frames.",
+            "Known destination MAC = Forward to specific port.",
+            "Unknown destination MAC = Flood to all ports.",
+            "Broadcast and multicast frames are also flooded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "broadcast_domain",
+      "title": "Broadcast Domains, Collision Domains, and VLANs",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Broadcast and Collision Domains",
+          "subtitle": "Understanding Network Segmentation",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "Broadcast Domain",
+          "content": "A broadcast domain is a logical segment of a network where any device can send a broadcast frame that will be received by all other devices in the same domain. Switches do not break broadcast domains; routers and VLANs do.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚦",
+          "title": "Collision Domain",
+          "content": "A collision domain is a network segment where collisions can occur. Hubs (Layer 1) connect devices in a single collision domain; switches (Layer 2) break collision domains by providing dedicated ports.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Broadcast Domain vs Collision Domain",
+          "left_header": "Broadcast Domain",
+          "right_header": "Collision Domain",
+          "rows": [
+            { "left": "Where broadcast frames are received.", "right": "Where collisions can occur." },
+            { "left": "Switches do NOT break broadcast domains.", "right": "Switches break collision domains." },
+            { "left": "Routers break broadcast domains.", "right": "Routers also break collision domains." },
+            { "left": "VLANs create separate broadcast domains.", "right": "VLANs also create separate broadcast domains." },
+            { "left": "Example: All devices on the same subnet.", "right": "Example: Devices connected to a hub." }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔀",
+          "title": "VLANs (Virtual Local Area Networks)",
+          "content": "VLANs are logical groupings of devices that behave as if they are on the same physical network, even if they are not. VLANs break broadcast domains and improve security and performance.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Broadcast Domain in a Switched Network",
+          "given": ["A network has 10 switches connected together without any router."],
+          "find": "How many broadcast domains does this network have?",
+          "steps": [
+            "Switches do not break broadcast domains.",
+            "All devices are in the same broadcast domain.",
+            "There is 1 broadcast domain."
+          ],
+          "answer": "1 broadcast domain",
+          "formula_used": "Broadcast domain definition"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing switches and routers for breaking broadcast domains.",
+          "wrong": "Switches break broadcast domains.",
+          "correct": "Switches break collision domains but NOT broadcast domains. Routers break broadcast domains.",
+          "tip": "Routers = Break broadcast domains; Switches = Break collision domains; Hubs = Break nothing."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Broadcast Domain = Where broadcast frames are received.",
+            "Collision Domain = Where collisions can occur.",
+            "Switches break collision domains, not broadcast domains.",
+            "Routers break broadcast domains.",
+            "VLANs create separate broadcast domains within a switch."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2_l3_switching",
+      "title": "Layer 2 vs Layer 3 Switching",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Layer 2 vs Layer 3 Switching",
+          "subtitle": "Switches That Route",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔀",
+          "title": "What is Layer 2 Switching?",
+          "content": "Layer 2 switching uses MAC addresses to forward frames. It operates at the Data Link Layer (OSI Layer 2). Standard switches are Layer 2 switches.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌐",
+          "title": "What is Layer 3 Switching?",
+          "content": "Layer 3 switching combines switching and routing capabilities. It uses IP addresses to make forwarding decisions and can route between VLANs without a separate router.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Layer 2 vs Layer 3 Switching",
+          "left_header": "Layer 2 Switch",
+          "right_header": "Layer 3 Switch",
+          "rows": [
+            { "left": "Operates at OSI Layer 2 (Data Link).", "right": "Operates at OSI Layer 3 (Network)." },
+            { "left": "Uses MAC addresses.", "right": "Uses IP addresses." },
+            { "left": "Cannot route between VLANs.", "right": "Can route between VLANs (inter-VLAN routing)." },
+            { "left": "Faster (no IP header processing).", "right": "Slightly slower (IP header processing)." },
+            { "left": "Standard Ethernet switches.", "right": "Multilayer switches (e.g., Cisco Catalyst 6500)." }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Layer 3 Switch Use Case",
+          "given": ["A company has 100 users across multiple VLANs and needs high-speed inter-VLAN communication."],
+          "find": "Should they use a Layer 2 or Layer 3 switch?",
+          "steps": [
+            "Inter-VLAN routing is required.",
+            "A Layer 3 switch can route between VLANs at wire speed.",
+            "A Layer 2 switch would need an external router (slower).",
+            "Answer: Layer 3 switch."
+          ],
+          "answer": "Layer 3 switch",
+          "formula_used": "Inter-VLAN routing requirements"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Layer 3 switches are always faster than routers.",
+          "wrong": "Layer 3 switches are always faster than dedicated routers.",
+          "correct": "Layer 3 switches are faster for inter-VLAN routing within a campus network, but dedicated routers are better for WAN connections.",
+          "tip": "Layer 3 switches = Fast internal routing; Routers = WAN and complex routing."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Layer 2 switch: MAC addresses, no inter-VLAN routing.",
+            "Layer 3 switch: IP addresses, supports inter-VLAN routing.",
+            "Layer 3 switches are multilayer switches.",
+            "Use Layer 3 switches for campus networks; routers for WAN."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "switching_shortcuts",
+      "title": "Shortcuts and Memory Tricks for Switching",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Switching Shortcuts",
+          "subtitle": "Quick Memory Aids",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 1 – Switching Types",
+          "content": "C = Circuit, P = Packet, M = Message.\nCircuit = Dedicated path.\nPacket = Packetised data.\nMessage = Whole message store-and-forward.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 2 – Switching Methods",
+          "content": "Store-and-Forward = Full frame + CRC (reliable).\nCut-Through = Just destination MAC (fast).\nFragment-Free = First 64 bytes (compromise).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 3 – Broadcast vs Collision",
+          "content": "Collision = Layer 1 (Hub).\nBroadcast = Layer 2/3 (Switch/Router).\nSwitches break Collision; Routers break Broadcast.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "SCP",
+          "memory_trick": "Switching = Circuit, Packet, Message – the three types."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Circuit Switching: Dedicated path, voice (PSTN).",
+            "Packet Switching: Datagram (IP) and Virtual Circuit (X.25).",
+            "Message Switching: Store-and-forward, whole message.",
+            "Switching Methods: Store-and-Forward, Cut-Through, Fragment-Free.",
+            "Broadcast Domains: Broken by routers and VLANs.",
+            "Collision Domains: Broken by switches."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "switching_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Switching Techniques – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Understand the differences between circuit, packet, and message switching. Know the switching methods (store-and-forward, cut-through). Understand broadcast and collision domains.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which switching technique establishes a dedicated physical path between sender and receiver?",
+          "options": ["Packet Switching", "Circuit Switching", "Message Switching", "Datagram Switching"],
+          "answer": 1,
+          "explanation": "Circuit switching establishes a dedicated physical path for the entire communication.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which switching technique breaks data into small units called packets?",
+          "options": ["Circuit Switching", "Message Switching", "Packet Switching", "All of the above"],
+          "answer": 2,
+          "explanation": "Packet switching breaks data into small packets that are sent independently.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a characteristic of store-and-forward switching?",
+          "options": ["Low latency", "No error checking", "High latency but reliable", "Forwards before receiving full frame"],
+          "answer": 2,
+          "explanation": "Store-and-forward has high latency because it receives the entire frame and checks for errors before forwarding.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which switching method forwards a frame as soon as the destination MAC address is read?",
+          "options": ["Store-and-Forward", "Cut-Through", "Fragment-Free", "Message Switching"],
+          "answer": 1,
+          "explanation": "Cut-Through switching forwards the frame as soon as the destination MAC address (first 6 bytes) is read.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which device breaks a broadcast domain?",
+          "options": ["Hub", "Switch", "Router", "Bridge"],
+          "answer": 2,
+          "explanation": "Routers break broadcast domains. Switches do not break broadcast domains; they only break collision domains.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which device breaks a collision domain?",
+          "options": ["Hub", "Switch", "Router", "Both (b) and (c)"],
+          "answer": 3,
+          "explanation": "Both switches and routers break collision domains. Hubs do not break collision domains.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of packet switching requires a path to be established before data transfer?",
+          "options": ["Datagram", "Virtual Circuit", "Both", "None"],
+          "answer": 1,
+          "explanation": "Virtual Circuit switching requires a logical path to be established before data transfer.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which switching technique sends the entire message as a single unit, storing it at each node?",
+          "options": ["Circuit Switching", "Packet Switching", "Message Switching", "Datagram Switching"],
+          "answer": 2,
+          "explanation": "Message switching sends the entire message as a single unit, storing it at each intermediate node.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the primary advantage of cut-through switching?",
+          "options": ["High reliability", "Low latency", "Error detection", "Better security"],
+          "answer": 1,
+          "explanation": "Cut-through switching has low latency because it forwards frames immediately without error checking.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the primary disadvantage of circuit switching?",
+          "options": ["High latency", "Inefficient bandwidth utilisation", "Packet loss", "Security issues"],
+          "answer": 1,
+          "explanation": "Circuit switching reserves bandwidth for the entire communication, leading to inefficient utilisation when the link is idle.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the differences between circuit, packet, and message switching. Memorize the switching methods (store-and-forward, cut-through, fragment-free). Understand the difference between broadcast and collision domains."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Switching Techniques",
+          "points": [
+            "Circuit Switching: Dedicated path, PSTN.",
+            "Packet Switching: Datagram (IP) and Virtual Circuit (X.25).",
+            "Message Switching: Store-and-forward whole message.",
+            "Store-and-Forward: Full frame + CRC (reliable, slow).",
+            "Cut-Through: Destination MAC only (fast, no error check).",
+            "Fragment-Free: First 64 bytes (medium speed, partial check).",
+            "Broadcast Domain: Broken by routers and VLANs.",
+            "Collision Domain: Broken by switches.",
+            "Layer 2 Switch: MAC addresses.",
+            "Layer 3 Switch: IP addresses + inter-VLAN routing."
+          ]
+        }
+      ]
+    }
+  ]
+}

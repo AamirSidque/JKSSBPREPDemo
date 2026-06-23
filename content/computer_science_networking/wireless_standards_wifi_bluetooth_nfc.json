@@ -1,0 +1,798 @@
+{
+  "id": "wireless_standards_wifi_bluetooth_nfc",
+  "subject_id": "computer_science_networking",
+  "title": "Wireless Standards: Wi-Fi, Bluetooth, NFC",
+  "subtopics": [
+    {
+      "id": "wireless_intro",
+      "title": "Introduction to Wireless Communication – Why Wireless?",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Wireless Standards",
+          "subtitle": "Wi-Fi, Bluetooth, and NFC – The Wireless World",
+          "tags": ["JKSSB", "High Weightage", "Networking"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📶",
+          "title": "What is Wireless Communication?",
+          "content": "Wireless communication is the transfer of information between two or more points without the use of physical cables. It uses electromagnetic waves (radio frequencies, infrared, microwave) to transmit data.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌐",
+          "title": "Key Wireless Technologies",
+          "content": "1. **Wi-Fi (IEEE 802.11)** – Local area networking (WLAN).\n2. **Bluetooth** – Short-range device-to-device communication.\n3. **NFC (Near Field Communication)** – Very short-range contactless communication.\n4. **Cellular (4G/5G)** – Wide area mobile communication.\n5. **ZigBee, LoRa, Z-Wave** – IoT and low-power applications.",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "How Wireless Communication Works",
+          "steps": [
+            "Step 1: Data is encoded and modulated onto a carrier frequency.",
+            "Step 2: The signal is transmitted through the air via an antenna.",
+            "Step 3: The receiving device captures the signal.",
+            "Step 4: The signal is demodulated and decoded.",
+            "Step 5: Data is recovered and processed by the receiving device."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Wireless communication uses electromagnetic waves.",
+            "Key technologies: Wi-Fi, Bluetooth, NFC, Cellular.",
+            "Wireless offers mobility, flexibility, and cost savings.",
+            "Challenges: Interference, security, and limited range."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wifi_80211",
+      "title": "Wi-Fi Standards – IEEE 802.11 Family",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Wi-Fi (IEEE 802.11)",
+          "subtitle": "The Family of Wireless LAN Standards",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📶",
+          "title": "What is Wi-Fi?",
+          "content": "Wi-Fi is a family of wireless networking standards based on the IEEE 802.11 specifications. It enables devices to connect to the Internet and communicate with each other within a local area network (WLAN).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Wi-Fi Standards – Complete Comparison",
+          "headers": ["Standard", "Year", "Frequency Band", "Max Data Rate", "Range (Indoor)", "Key Features"],
+          "rows": [
+            ["802.11 (Legacy)", "1997", "2.4 GHz", "2 Mbps", "~20m", "Original standard, obsolete."],
+            ["802.11a", "1999", "5 GHz", "54 Mbps", "~35m", "First 5 GHz, less interference."],
+            ["802.11b", "1999", "2.4 GHz", "11 Mbps", "~35m", "Popular in early home networks."],
+            ["802.11g", "2003", "2.4 GHz", "54 Mbps", "~35m", "Backward compatible with 802.11b."],
+            ["802.11n (Wi-Fi 4)", "2009", "2.4/5 GHz", "600 Mbps", "~70m", "MIMO, multiple antennas."],
+            ["802.11ac (Wi-Fi 5)", "2013", "5 GHz", "1.3 Gbps (3.5 Gbps with MU-MIMO)", "~70m", "MU-MIMO, beamforming, wider channels."],
+            ["802.11ax (Wi-Fi 6)", "2019", "2.4/5 GHz (6 GHz for Wi-Fi 6E)", "9.6 Gbps", "~70m", "OFDMA, Target Wake Time, better efficiency."],
+            ["802.11be (Wi-Fi 7)", "2024", "2.4/5/6 GHz", "46 Gbps", "~70m", "Multi-link operation, 320 MHz channels, MLO."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Choosing a Wi-Fi Standard",
+          "given": ["A company needs high-speed wireless for many users in a busy office."],
+          "find": "Which Wi-Fi standard should they choose?",
+          "steps": [
+            "High user density requires efficient spectrum usage.",
+            "Wi-Fi 6 (802.11ax) uses OFDMA to serve multiple users simultaneously.",
+            "It provides better performance in crowded environments.",
+            "Answer: Wi-Fi 6 (802.11ax)."
+          ],
+          "answer": "Wi-Fi 6 (802.11ax)",
+          "formula_used": "Requirement analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing 802.11n with 802.11ac.",
+          "wrong": "802.11n operates only on 5 GHz.",
+          "correct": "802.11n operates on both 2.4 GHz and 5 GHz. 802.11ac operates only on 5 GHz.",
+          "tip": "Remember: n = Dual-band, ac = 5 GHz only."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Wi-Fi standards are part of the IEEE 802.11 family.",
+            "Common standards: b, g, n, ac, ax (Wi-Fi 4, 5, 6).",
+            "2.4 GHz: Better range, more interference.",
+            "5 GHz: Higher speed, less interference.",
+            "6 GHz (Wi-Fi 6E): More spectrum, less congestion.",
+            "Wi-Fi 7 (802.11be): Extremely high speed, multi-link operation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wifi_frequency",
+      "title": "Wi-Fi Frequency Bands and Channels",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Wi-Fi Frequency Bands",
+          "subtitle": "2.4 GHz, 5 GHz, 6 GHz",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "2.4 GHz Band",
+          "content": "• Longer range, better penetration through walls.\n• More interference (microwaves, Bluetooth, other devices).\n• 14 channels (1-11 in US, 1-13 in Europe, 1-14 in Japan).\n• Only 3 non-overlapping channels: 1, 6, 11.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "5 GHz Band",
+          "content": "• Higher speed, less interference.\n• Shorter range, less penetration.\n• More channels (23 non-overlapping channels).\n• Supports wider channels (40, 80, 160 MHz).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "6 GHz Band (Wi-Fi 6E / Wi-Fi 7)",
+          "content": "• New spectrum allocation (1200 MHz).\n• Minimal interference (no legacy devices).\n• Supports very wide channels (160, 320 MHz).\n• Used by Wi-Fi 6E and Wi-Fi 7.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Wi-Fi Band Comparison",
+          "headers": ["Feature", "2.4 GHz", "5 GHz", "6 GHz"],
+          "rows": [
+            ["Range", "Best", "Medium", "Short"],
+            ["Speed", "Slowest", "Fast", "Fastest"],
+            ["Interference", "High", "Low", "None"],
+            ["Penetration", "Excellent", "Good", "Poor"],
+            ["Non-overlapping Channels", "3", "23", "59"],
+            ["Usage", "Legacy devices, IoT", "Modern devices", "Wi-Fi 6E/7 devices"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Channel Selection",
+          "given": ["A home network has many neighbouring Wi-Fi networks on the 2.4 GHz band."],
+          "find": "Which channels should be used to avoid interference?",
+          "steps": [
+            "2.4 GHz has only 3 non-overlapping channels.",
+            "Use channels 1, 6, or 11.",
+            "Avoid channels in between (they overlap).",
+            "Choose the least congested among 1, 6, 11."
+          ],
+          "answer": "Channels 1, 6, or 11.",
+          "formula_used": "Channel selection rule"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All 2.4 GHz channels are non-overlapping.",
+          "wrong": "Any 2.4 GHz channel can be used without interference.",
+          "correct": "Only channels 1, 6, and 11 are non-overlapping in the 2.4 GHz band.",
+          "tip": "Channels 1, 6, 11 – memorize this!"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "2.4 GHz: Longer range, more interference.",
+            "5 GHz: Higher speed, less interference.",
+            "6 GHz: New, no interference, high speed.",
+            "Only channels 1, 6, 11 are non-overlapping in 2.4 GHz.",
+            "5 GHz has many non-overlapping channels."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wifi_security",
+      "title": "Wi-Fi Security Protocols – WEP, WPA, WPA2, WPA3",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Wi-Fi Security",
+          "subtitle": "Protecting Wireless Networks",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔒",
+          "title": "Why Wi-Fi Security Matters",
+          "content": "Wireless signals can be intercepted by anyone within range. Without encryption, data sent over Wi-Fi can be read by attackers. Security protocols encrypt data to protect confidentiality and integrity.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Wi-Fi Security Protocols – Comparison",
+          "headers": ["Protocol", "Year", "Encryption", "Key Strength", "Security Status"],
+          "rows": [
+            ["WEP", "1999", "RC4", "64/128-bit", "Broken/Obsolete"],
+            ["WPA", "2003", "TKIP (RC4)", "128-bit", "Vulnerable/Obsolete"],
+            ["WPA2", "2004", "AES-CCMP", "128-bit", "Strong (but vulnerable to KRACK)"],
+            ["WPA3", "2018", "AES-GCMP-256", "192-bit (strong)", "Most secure"],
+            ["WPA3 (SAE)", "2018", "Simultaneous Authentication of Equals", "256-bit", "Protects against dictionary attacks"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Choosing a Security Protocol",
+          "given": ["A new router supports all security protocols."],
+          "find": "Which protocol should be used for maximum security?",
+          "steps": [
+            "WEP and WPA are obsolete and insecure.",
+            "WPA2 is still acceptable but has vulnerabilities.",
+            "WPA3 is the most secure and latest standard.",
+            "Answer: WPA3."
+          ],
+          "answer": "WPA3",
+          "formula_used": "Security best practice"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: WEP is still secure.",
+          "wrong": "WEP provides strong security for Wi-Fi networks.",
+          "correct": "WEP is broken and can be cracked in minutes. Never use WEP.",
+          "tip": "Always recommend WPA2 or WPA3 for security."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "WEP: Broken, RC4 encryption.",
+            "WPA: TKIP, vulnerable.",
+            "WPA2: AES-CCMP, strong but KRACK vulnerability.",
+            "WPA3: AES-GCMP, SAE authentication, most secure.",
+            "Always use WPA2 or WPA3 for wireless networks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bluetooth",
+      "title": "Bluetooth – Short-Range Device Communication",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Bluetooth",
+          "subtitle": "Connecting Devices Without Cables",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔷",
+          "title": "What is Bluetooth?",
+          "content": "Bluetooth is a short-range wireless technology standard used for exchanging data between fixed and mobile devices over short distances. It uses UHF radio waves in the ISM band (2.4-2.485 GHz).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Bluetooth Versions – Evolution",
+          "headers": ["Version", "Year", "Key Features", "Data Rate"],
+          "rows": [
+            ["Bluetooth 1.0", "1999", "Basic functionality", "1 Mbps"],
+            ["Bluetooth 2.0 + EDR", "2004", "Enhanced Data Rate", "2-3 Mbps"],
+            ["Bluetooth 3.0 + HS", "2009", "High Speed (802.11)", "24 Mbps"],
+            ["Bluetooth 4.0", "2010", "BLE (Low Energy)", "1 Mbps"],
+            ["Bluetooth 4.2", "2014", "IP support, privacy improvements", "1 Mbps"],
+            ["Bluetooth 5.0", "2016", "Longer range, faster speed, broadcast", "2 Mbps"],
+            ["Bluetooth 5.1", "2019", "Direction finding", "2 Mbps"],
+            ["Bluetooth 5.2", "2020", "LE Audio, isochronous channels", "2 Mbps"],
+            ["Bluetooth 5.3", "2021", "Improved connection reliability", "2 Mbps"],
+            ["Bluetooth 5.4", "2023", "Enhanced periodic advertising", "2 Mbps"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔋",
+          "title": "Bluetooth Low Energy (BLE)",
+          "content": "BLE is a power-efficient variant of Bluetooth introduced in Bluetooth 4.0. It is designed for IoT devices that run on small batteries (e.g., fitness trackers, smartwatches, beacons). It has lower data rates but consumes much less power.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Bluetooth Use Case",
+          "given": ["A company wants to deploy battery-powered sensors in a warehouse."],
+          "find": "Which Bluetooth version should be used?",
+          "steps": [
+            "Sensors need to operate on battery for months.",
+            "BLE (Bluetooth Low Energy) is ideal for this.",
+            "Bluetooth 5.x supports BLE with improved range and speed.",
+            "Answer: Bluetooth 5.x with BLE."
+          ],
+          "answer": "Bluetooth 5.x with BLE",
+          "formula_used": "IoT power requirements"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Bluetooth and Wi-Fi are the same technology.",
+          "wrong": "Bluetooth and Wi-Fi are identical.",
+          "correct": "Bluetooth is for short-range, low-power device communication. Wi-Fi is for high-speed Internet access and LAN networking.",
+          "tip": "Bluetooth = PAN (Personal Area Network); Wi-Fi = LAN (Local Area Network)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Bluetooth is a short-range wireless technology.",
+            "Uses 2.4 GHz ISM band.",
+            "BLE (Low Energy) introduced in Bluetooth 4.0.",
+            "Bluetooth 5.x: Longer range, faster speed, BLE enhanced.",
+            "Used for IoT, headphones, speakers, wearables."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bluetooth_architecture",
+      "title": "Bluetooth Architecture – Piconets, Scatternets, and Profiles",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Bluetooth Architecture",
+          "subtitle": "How Bluetooth Networks Are Formed",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Piconet",
+          "content": "A piconet is the basic Bluetooth network. It consists of one master device and up to 7 active slave devices. All devices in a piconet share the same channel and timing.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌐",
+          "title": "Scatternet",
+          "content": "A scatternet is formed when multiple piconets overlap. A device can act as a slave in one piconet and a master in another, bridging the two piconets.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Bluetooth Roles and Profiles",
+          "headers": ["Role/Profile", "Description", "Example"],
+          "rows": [
+            ["Master", "Controls the piconet, sets timing and hopping.", "Smartphone"],
+            ["Slave", "Follows the master's instructions.", "Wireless earbuds"],
+            ["A2DP", "Advanced Audio Distribution Profile", "Streaming music to headphones"],
+            ["HFP", "Hands-Free Profile", "Car hands-free system"],
+            ["HID", "Human Interface Device Profile", "Wireless keyboard/mouse"],
+            ["SPP", "Serial Port Profile", "Connecting devices over virtual serial port"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Piconet Formation",
+          "given": ["A smartphone connects to two Bluetooth speakers simultaneously."],
+          "find": "What is the network topology?",
+          "steps": [
+            "The smartphone is the master.",
+            "The two speakers are slaves.",
+            "This forms a piconet with one master and two slaves."
+          ],
+          "answer": "Piconet (1 master, 2 slaves)",
+          "formula_used": "Bluetooth topology rules"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: A scatternet is the same as a piconet.",
+          "wrong": "Scatternet and piconet are the same.",
+          "correct": "A piconet is a single network with one master. A scatternet is multiple interconnected piconets.",
+          "tip": "Piconet = 1 master; Scatternet = multiple piconets connected."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Piconet: 1 master + up to 7 slaves.",
+            "Scatternet: Multiple interconnected piconets.",
+            "Bluetooth profiles define the functionality (A2DP, HFP, HID)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nfc",
+      "title": "NFC – Near Field Communication",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "NFC",
+          "subtitle": "Short-Range Contactless Communication",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📱",
+          "title": "What is NFC?",
+          "content": "NFC (Near Field Communication) is a short-range wireless technology that enables communication between devices over a distance of 4 cm or less. It is used for contactless payments, data exchange, and device pairing.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "NFC Characteristics",
+          "headers": ["Characteristic", "Description"],
+          "rows": [
+            ["Range", "Up to 4 cm (10 cm maximum)"],
+            ["Frequency", "13.56 MHz (HF RFID band)"],
+            ["Data Rate", "106, 212, or 424 kbps"],
+            ["Communication Modes", "Read/Write, Peer-to-Peer, Card Emulation"],
+            ["Power", "Passive (tag) or Active (device)"],
+            ["Security", "Inherently secure due to short range"],
+            ["Use Cases", "Contactless payments, access control, device pairing, smart posters"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "💳",
+          "title": "NFC Modes",
+          "content": "1. **Read/Write Mode**: Reads information from NFC tags.\n2. **Peer-to-Peer Mode**: Two NFC devices exchange data (e.g., sharing contacts).\n3. **Card Emulation Mode**: Device acts as a contactless card (e.g., mobile payments).",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: NFC Use Case",
+          "given": ["A user pays for a product by tapping their smartphone on a payment terminal."],
+          "find": "Which NFC mode is being used?",
+          "steps": [
+            "The smartphone acts as a contactless payment card.",
+            "The terminal reads the card information.",
+            "This is Card Emulation Mode."
+          ],
+          "answer": "Card Emulation Mode",
+          "formula_used": "NFC mode identification"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: NFC requires a power source for both devices.",
+          "wrong": "Both NFC devices must be powered.",
+          "correct": "NFC tags are passive and do not require a power source. The active device powers them via RF field.",
+          "tip": "NFC tags = passive; NFC readers = active."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "NFC: Very short range (4 cm).",
+            "Frequency: 13.56 MHz.",
+            "Modes: Read/Write, Peer-to-Peer, Card Emulation.",
+            "Used for contactless payments, access control, pairing.",
+            "Passive tags require no battery."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wireless_comparison",
+      "title": "Wi-Fi vs Bluetooth vs NFC – Comparison",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Wi-Fi vs Bluetooth vs NFC",
+          "subtitle": "Choosing the Right Technology",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Wi-Fi vs Bluetooth vs NFC – Detailed Comparison",
+          "headers": ["Aspect", "Wi-Fi", "Bluetooth", "NFC"],
+          "rows": [
+            ["Range", "Up to 100m", "Up to 100m (Bluetooth 5.0+)", "Up to 4cm"],
+            ["Frequency", "2.4/5/6 GHz", "2.4 GHz", "13.56 MHz"],
+            ["Data Rate", "Up to 9.6 Gbps (Wi-Fi 6)", "Up to 2 Mbps", "424 kbps"],
+            ["Power Consumption", "High", "Low", "Very Low (passive)"],
+            ["Security", "WPA2/WPA3", "AES-CCM", "Inherent (short range)"],
+            ["Use Case", "Internet access, LAN", "Device connectivity", "Contactless payments"],
+            ["Network Type", "LAN", "PAN", "Very short-range"],
+            ["Application", "Home/Office", "Personal devices", "Payments/access"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Choosing the Right Technology",
+          "given": ["A company needs to stream high-definition video to multiple users."],
+          "find": "Which technology should be used?",
+          "steps": [
+            "High-definition video requires high bandwidth.",
+            "Wi-Fi offers high data rates (up to Gbps).",
+            "Bluetooth and NFC are too slow.",
+            "Answer: Wi-Fi."
+          ],
+          "answer": "Wi-Fi",
+          "formula_used": "Bandwidth requirements"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: NFC is faster than Bluetooth.",
+          "wrong": "NFC has higher data rates than Bluetooth.",
+          "correct": "Bluetooth has higher data rates (up to 2 Mbps) compared to NFC (424 kbps).",
+          "tip": "NFC: short range, slow speed, but simple and secure."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Wi-Fi: High speed, longer range, high power.",
+            "Bluetooth: Medium speed, short range, low power.",
+            "NFC: Very short range, slow speed, very low power.",
+            "Choose based on range, speed, and power requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wireless_advanced",
+      "title": "Advanced Wireless Concepts – MIMO, OFDMA, Mesh, and IoT",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Wireless Concepts",
+          "subtitle": "MIMO, OFDMA, Mesh Networking, and IoT",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "MIMO (Multiple-Input Multiple-Output)",
+          "content": "MIMO uses multiple antennas at both the transmitter and receiver to improve communication performance. It increases data throughput and range. SU-MIMO (single-user) and MU-MIMO (multi-user).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📶",
+          "title": "OFDMA (Orthogonal Frequency Division Multiple Access)",
+          "content": "OFDMA is a technology used in Wi-Fi 6 (802.11ax) that divides a channel into smaller sub-carriers, allowing multiple users to transmit simultaneously. This improves efficiency in crowded networks.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕸️",
+          "title": "Mesh Networking",
+          "content": "In a mesh network, each node (AP) connects to multiple other nodes, creating multiple paths. If one node fails, traffic is rerouted. Provides better coverage and reliability than traditional star topology.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📱",
+          "title": "IoT (Internet of Things) Wireless Technologies",
+          "content": "• **ZigBee** – Low-power, mesh networking for IoT (IEEE 802.15.4).\n• **LoRa** – Long-range, low-power for IoT (LPWAN).\n• **Z-Wave** – Low-power, reliable for home automation.\n• **Thread** – IPv6-based, low-power mesh for IoT.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: MU-MIMO Use Case",
+          "given": ["A busy office with 50 employees streaming video simultaneously."],
+          "find": "Which Wi-Fi feature improves performance in this scenario?",
+          "steps": [
+            "MU-MIMO allows multiple users to receive data simultaneously.",
+            "Wi-Fi 5 (802.11ac) introduced MU-MIMO (downlink only).",
+            "Wi-Fi 6 (802.11ax) improved MU-MIMO (downlink and uplink).",
+            "Answer: MU-MIMO (Wi-Fi 6)."
+          ],
+          "answer": "MU-MIMO (Wi-Fi 6)",
+          "formula_used": "Multi-user efficiency"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "MIMO: Multiple antennas for better performance.",
+            "MU-MIMO: Multi-user MIMO (Wi-Fi 5/6).",
+            "OFDMA: Sub-channel division (Wi-Fi 6).",
+            "Mesh: Multiple interconnected nodes for coverage.",
+            "IoT: ZigBee, LoRa, Z-Wave, Thread."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wireless_shortcuts",
+      "title": "Shortcuts and Memory Tricks for Wireless Standards",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Wireless Shortcuts",
+          "subtitle": "Quick Memory Aids",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 1 – Wi-Fi Standard Progression",
+          "content": "Wi-Fi 4 (n) → 5 (ac) → 6 (ax) → 7 (be).\nSpeed increases with each generation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 2 – Frequency Bands",
+          "content": "2.4 GHz = Long range, slow.\n5 GHz = Short range, fast.\n6 GHz = Short range, fastest.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 3 – Wireless Tech Uses",
+          "content": "Wi-Fi = Internet and LAN.\nBluetooth = Device pairing.\nNFC = Payments and tags.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "BWN",
+          "memory_trick": "Bluetooth = Personal (PAN), Wi-Fi = Local (LAN), NFC = Pocket (Very short)."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Wi-Fi 4 (n) = 600 Mbps, 2.4/5 GHz.",
+            "Wi-Fi 5 (ac) = 1.3 Gbps, 5 GHz.",
+            "Wi-Fi 6 (ax) = 9.6 Gbps, 2.4/5/6 GHz.",
+            "Wi-Fi 7 (be) = 46 Gbps, 2.4/5/6 GHz.",
+            "Bluetooth 5.x = 2 Mbps, longer range, BLE.",
+            "NFC = 4 cm, 424 kbps, contactless.",
+            "WPA2 > WPA > WEP (security).",
+            "Channels 1, 6, 11 for 2.4 GHz."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wireless_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Wireless Standards – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on Wi-Fi standard names (802.11a/b/g/n/ac/ax/be), frequency bands, security protocols (WEP/WPA/WPA2/WPA3), and Bluetooth/NFC characteristics.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Wi-Fi standard operates only on the 5 GHz frequency band?",
+          "options": ["802.11n", "802.11ac", "802.11b", "802.11g"],
+          "answer": 1,
+          "explanation": "802.11ac operates only on the 5 GHz band. 802.11n operates on both 2.4 GHz and 5 GHz.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which Wi-Fi security protocol is considered the most secure?",
+          "options": ["WEP", "WPA", "WPA2", "WPA3"],
+          "answer": 3,
+          "explanation": "WPA3 is the latest and most secure Wi-Fi security protocol.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the maximum data rate of Wi-Fi 6 (802.11ax)?",
+          "options": ["1.3 Gbps", "3.5 Gbps", "9.6 Gbps", "46 Gbps"],
+          "answer": 2,
+          "explanation": "Wi-Fi 6 (802.11ax) has a maximum data rate of 9.6 Gbps.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Bluetooth version introduced Low Energy (BLE)?",
+          "options": ["Bluetooth 2.0", "Bluetooth 3.0", "Bluetooth 4.0", "Bluetooth 5.0"],
+          "answer": 2,
+          "explanation": "Bluetooth 4.0 introduced Low Energy (BLE) for power-efficient IoT applications.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the maximum range of NFC communication?",
+          "options": ["4 cm", "10 cm", "1 m", "10 m"],
+          "answer": 0,
+          "explanation": "NFC typically operates within 4 cm (maximum 10 cm).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a non-overlapping channel in the 2.4 GHz band?",
+          "options": ["1", "3", "5", "9"],
+          "answer": 0,
+          "explanation": "Channels 1, 6, and 11 are the only non-overlapping channels in the 2.4 GHz band.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Wi-Fi standard is also known as Wi-Fi 7?",
+          "options": ["802.11ac", "802.11ax", "802.11be", "802.11n"],
+          "answer": 2,
+          "explanation": "802.11be is known as Wi-Fi 7.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which wireless technology is used for contactless payments?",
+          "options": ["Wi-Fi", "Bluetooth", "NFC", "ZigBee"],
+          "answer": 2,
+          "explanation": "NFC (Near Field Communication) is used for contactless payments.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What does MU-MIMO stand for in Wi-Fi?",
+          "options": [
+            "Multi-User Multiple Input Multiple Output",
+            "Multi-User Multiple Input Multiple Operation",
+            "Multiple Unit Multiple Input Multiple Output",
+            "Multi-Unit Multiple Input Multiple Output"
+          ],
+          "answer": 0,
+          "explanation": "MU-MIMO stands for Multi-User Multiple Input Multiple Output.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Bluetooth profile is used for streaming music?",
+          "options": ["HFP", "HID", "A2DP", "SPP"],
+          "answer": 2,
+          "explanation": "A2DP (Advanced Audio Distribution Profile) is used for streaming music.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review Wi-Fi standard specifications (frequency, speed, year). Memorize WEP/WPA/WPA2/WPA3 differences. Understand Bluetooth versions and NFC characteristics."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Wireless Standards",
+          "points": [
+            "Wi-Fi 4 (n): 600 Mbps, 2.4/5 GHz.",
+            "Wi-Fi 5 (ac): 1.3 Gbps, 5 GHz.",
+            "Wi-Fi 6 (ax): 9.6 Gbps, 2.4/5/6 GHz.",
+            "Wi-Fi 7 (be): 46 Gbps, 2.4/5/6 GHz.",
+            "2.4 GHz: channels 1, 6, 11 (non-overlapping).",
+            "WPA3 is the most secure Wi-Fi security.",
+            "Bluetooth 4.0 introduced BLE.",
+            "NFC: 4 cm range, 13.56 MHz.",
+            "MU-MIMO improves multi-user performance.",
+            "OFDMA improves spectrum efficiency (Wi-Fi 6)."
+          ]
+        }
+      ]
+    }
+  ]
+}

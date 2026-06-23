@@ -1,0 +1,70 @@
+{
+"subject_id": "computer_science_networking",
+"topics": [
+{
+"id": "osi_tcp_ip_models",
+"title": "OSI and TCP/IP Models",
+"file": "content/computer_science_networking/osi_tcp_ip_models.json",
+"available": true
+},
+{
+"id": "ip_addressing_subnetting_cidr",
+"title": "IP Addressing, Subnetting and CIDR",
+"file": "content/computer_science_networking/ip_addressing_subnetting_cidr.json",
+"available": true
+},
+{
+"id": "routing_protocols_rip_ospf",
+"title": "Routing Protocols: RIP and OSPF",
+"file": "content/computer_science_networking/routing_protocols_rip_ospf.json",
+"available": true
+},
+  
+{
+"id": "switching_techniques",
+"title": "Switching Techniques",
+"file": "content/computer_science_networking/switching_techniques.json",
+"available": true
+},
+{
+"id": "network_devices_router_switch_hub",
+"title": "Network Devices: Router, Switch, Hub",
+"file": "content/computer_science_networking/network_devices_router_switch_hub.json",
+"available": true
+},
+  
+{
+"id": "wireless_standards_wifi_bluetooth_nfc",
+"title": "Wireless Standards: Wi-Fi, Bluetooth, NFC",
+"file": "content/computer_science_networking/wireless_standards_wifi_bluetooth_nfc.json",
+"available": true
+},
+  
+{
+"id": "programming_fundamentals",
+"title": "Programming Fundamentals",
+"file": "content/computer_science_networking/programming_fundamentals.json",
+"available": true
+},
+  {
+"id": "object_oriented_concepts",
+"title": "Object-Oriented Concepts",
+"file": "content/computer_science_networking/object_oriented_concepts.json",
+"available": true
+},
+  {
+"id": "data_structures_algorithms",
+"title": "Data Structures and Algorithms",
+"file": "content/computer_science_networking/data_structures_algorithms.json",
+"available": true
+},
+  {
+"id": "operating_systems_process_memory_file_systems",
+"title": "Operating Systems: Process, Memory and File Systems",
+"file": "content/computer_science_networking/operating_systems_process_memory_file_systems.json",
+"available": true
+}
+]
+}
+
+

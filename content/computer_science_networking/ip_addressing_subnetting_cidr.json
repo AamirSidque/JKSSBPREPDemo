@@ -1,0 +1,682 @@
+{
+  "id": "ip_addressing_subnetting_cidr",
+  "subject_id": "computer_science_networking",
+  "title": "IP Addressing, Subnetting and CIDR",
+  "subtopics": [
+    {
+      "id": "ip_intro",
+      "title": "Introduction to IP Addressing – What, Why, How",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "IP Addressing and Subnetting",
+          "subtitle": "The Foundation of Internet Communication",
+          "tags": ["JKSSB", "High Weightage", "Networking"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌐",
+          "title": "What is an IP Address?",
+          "content": "An IP (Internet Protocol) address is a unique numerical identifier assigned to each device connected to a network. It enables devices to locate and communicate with each other.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔢",
+          "title": "IPv4 vs IPv6",
+          "content": "**IPv4**: 32-bit address (e.g., 192.168.1.1) – approximately 4.3 billion addresses.\n**IPv6**: 128-bit address (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334) – virtually unlimited addresses.",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "Anatomy of an IPv4 Address",
+          "steps": [
+            "Step 1: 32 bits divided into 4 octets (8 bits each).",
+            "Step 2: Each octet ranges from 0 to 255 (decimal).",
+            "Step 3: Binary representation: 11000000.10101000.00000001.00000001 (192.168.1.1).",
+            "Step 4: Network Portion + Host Portion.",
+            "Step 5: Subnet mask determines which part is network and which is host."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "IP addresses uniquely identify devices on a network.",
+            "IPv4 uses 32 bits, IPv6 uses 128 bits.",
+            "An IPv4 address has a network portion and a host portion.",
+            "The subnet mask separates the network and host portions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ipv4_classes",
+      "title": "IPv4 Address Classes – Class A, B, C, D, E",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "IPv4 Address Classes",
+          "subtitle": "The Original Classification System",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Classful Addressing",
+          "content": "Originally, IPv4 addresses were divided into 5 classes (A, B, C, D, E) based on the first few bits. Classes A, B, and C are used for unicast addressing; D is for multicast; E is reserved.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "IPv4 Address Classes – Quick Reference",
+          "headers": ["Class", "First Octet Range", "Default Subnet Mask", "Network Bits", "Host Bits", "Total Networks", "Hosts per Network"],
+          "rows": [
+            ["A", "1-126", "255.0.0.0 (/8)", "8", "24", "126", "16,777,214"],
+            ["B", "128-191", "255.255.0.0 (/16)", "16", "16", "16,384", "65,534"],
+            ["C", "192-223", "255.255.255.0 (/24)", "24", "8", "2,097,152", "254"],
+            ["D", "224-239", "N/A (Multicast)", "N/A", "N/A", "N/A", "N/A"],
+            ["E", "240-255", "N/A (Reserved)", "N/A", "N/A", "N/A", "N/A"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "Special IP Addresses",
+          "content": "**Loopback**: 127.0.0.1 (localhost)\n**Network Address**: All host bits are 0 (e.g., 192.168.1.0)\n**Broadcast Address**: All host bits are 1 (e.g., 192.168.1.255)\n**Private Addresses**: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Identifying the Class",
+          "given": ["IP Address: 172.25.10.5"],
+          "find": "Which class does it belong to?",
+          "steps": [
+            "First octet is 172.",
+            "Range for Class B is 128-191.",
+            "172 falls within this range."
+          ],
+          "answer": "Class B",
+          "formula_used": "First octet range mapping"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting the reserved ranges.",
+          "wrong": "127.0.0.1 is a valid public IP address.",
+          "correct": "127.0.0.1 is the loopback address (localhost) and cannot be used as a public IP.",
+          "tip": "Memorize: 0.0.0.0/8, 127.0.0.0/8, 169.254.0.0/16, and private ranges are not routable on the Internet."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Class A: 1-126 (large networks).",
+            "Class B: 128-191 (medium networks).",
+            "Class C: 192-223 (small networks).",
+            "Class D: 224-239 (multicast).",
+            "Class E: 240-255 (reserved).",
+            "Private IPs are not routable on the Internet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subnet_mask",
+      "title": "Subnet Mask – Understanding Binary and Decimal Representation",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Subnet Mask",
+          "subtitle": "Separating Network and Host Portions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔢",
+          "title": "What is a Subnet Mask?",
+          "content": "A subnet mask is a 32-bit number that divides an IP address into network and host portions. Binary: 1s represent the network portion; 0s represent the host portion.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Subnet Masks – Common Representations",
+          "headers": ["CIDR Notation", "Subnet Mask", "Binary Representation", "Number of Hosts"],
+          "rows": [
+            ["/8", "255.0.0.0", "11111111.00000000.00000000.00000000", "16,777,214"],
+            ["/16", "255.255.0.0", "11111111.11111111.00000000.00000000", "65,534"],
+            ["/24", "255.255.255.0", "11111111.11111111.11111111.00000000", "254"],
+            ["/25", "255.255.255.128", "11111111.11111111.11111111.10000000", "126"],
+            ["/26", "255.255.255.192", "11111111.11111111.11111111.11000000", "62"],
+            ["/27", "255.255.255.224", "11111111.11111111.11111111.11100000", "30"],
+            ["/28", "255.255.255.240", "11111111.11111111.11111111.11110000", "14"],
+            ["/29", "255.255.255.248", "11111111.11111111.11111111.11111000", "6"],
+            ["/30", "255.255.255.252", "11111111.11111111.11111111.11111100", "2"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Determining Network and Host Address",
+          "given": ["IP: 192.168.1.50", "Subnet Mask: 255.255.255.0 (/24)"],
+          "find": "Network Address and Broadcast Address",
+          "steps": [
+            "Network Address: Perform AND operation: 192.168.1.50 AND 255.255.255.0 = 192.168.1.0.",
+            "Broadcast Address: Set all host bits to 1: 192.168.1.255."
+          ],
+          "answer": "Network: 192.168.1.0, Broadcast: 192.168.1.255",
+          "formula_used": "AND operation for Network; OR operation for Broadcast"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Subnet Mask and Wildcard Mask.",
+          "wrong": "The subnet mask 255.255.255.0 is the same as the wildcard mask.",
+          "correct": "Wildcard mask is the inverse of the subnet mask (e.g., /24 → 0.0.0.255). Wildcard masks are used in ACLs.",
+          "tip": "Subnet mask = 1s for network, 0s for host; Wildcard mask = 0s for network, 1s for host."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Subnet mask: 1s = network, 0s = host.",
+            "Network Address: All host bits are 0.",
+            "Broadcast Address: All host bits are 1.",
+            "CIDR notation: /n indicates number of 1s in the subnet mask.",
+            "Hosts = 2^(number of host bits) – 2."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subnetting_basics",
+      "title": "Subnetting Basics – Why and How We Subnet",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Subnetting Fundamentals",
+          "subtitle": "Dividing Networks into Smaller Subnetworks",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "✂️",
+          "title": "What is Subnetting?",
+          "content": "Subnetting is the process of dividing a single network into multiple smaller subnetworks (subnets). It helps in efficient IP address allocation, reducing broadcast traffic, and improving security.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Why Subnet?",
+          "content": "1. Efficient use of IP addresses.\n2. Reduced network traffic (broadcast domains).\n3. Improved security (isolation of subnets).\n4. Simplified network management and troubleshooting.",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "Step-by-Step Subnetting Process",
+          "steps": [
+            "Step 1: Determine the number of subnets needed.",
+            "Step 2: Calculate the number of bits to borrow from the host portion.",
+            "Step 3: Calculate the new subnet mask.",
+            "Step 4: Determine the subnet addresses.",
+            "Step 5: Determine the usable host ranges for each subnet.",
+            "Step 6: Assign IP addresses accordingly."
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Simple Subnetting",
+          "given": ["Network: 192.168.1.0/24", "Need 4 subnets"],
+          "find": "Subnet addresses and host ranges",
+          "steps": [
+            "Need 4 subnets: 2^n ≥ 4 → n = 2 bits borrowed.",
+            "New subnet mask: /24 + 2 = /26 (255.255.255.192).",
+            "Subnet addresses: 192.168.1.0, 192.168.1.64, 192.168.1.128, 192.168.1.192.",
+            "Usable hosts per subnet: 2^6 – 2 = 62 hosts.",
+            "Subnet 1: 192.168.1.1 – 192.168.1.62."
+          ],
+          "answer": "4 subnets: .0, .64, .128, .192 with 62 usable hosts each.",
+          "formula_used": "2^n ≥ number of subnets; 2^host_bits – 2 = usable hosts"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting to subtract 2 for network and broadcast addresses.",
+          "wrong": "A /28 subnet has 16 usable IP addresses.",
+          "correct": "A /28 subnet has 16 total addresses but only 14 usable (16 – 2).",
+          "tip": "Always subtract 2: one for network address, one for broadcast address."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Subnetting divides a network into smaller subnets.",
+            "Borrow bits from the host portion of the subnet mask.",
+            "Each subnet has a network address, broadcast address, and usable host range.",
+            "Formula: 2^(host bits) – 2 = usable hosts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cidr",
+      "title": "CIDR – Classless Inter-Domain Routing",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "CIDR",
+          "subtitle": "Overcoming Classful Addressing Limitations",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "What is CIDR?",
+          "content": "CIDR (Classless Inter-Domain Routing) is a method of IP address allocation that replaces classful addressing. It allows variable-length subnet masks (VLSM) and more efficient use of IP addresses.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "CIDR Notation",
+          "content": "CIDR notation represents an IP address and its subnet mask using a slash (/) followed by the number of network bits. Example: 192.168.1.0/24 means the first 24 bits are the network portion.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: CIDR to Subnet Mask Conversion",
+          "given": ["Prefix: /20"],
+          "find": "Subnet mask in decimal",
+          "steps": [
+            "/20 means 20 network bits (1s) and 12 host bits (0s).",
+            "Binary: 11111111.11111111.11110000.00000000.",
+            "Decimal: 255.255.240.0."
+          ],
+          "answer": "255.255.240.0",
+          "formula_used": "Convert binary to decimal"
+        },
+        {
+          "type": "comparison",
+          "title": "Classful vs Classless (CIDR)",
+          "left_header": "Classful Addressing",
+          "right_header": "CIDR (Classless)",
+          "rows": [
+            { "left": "Fixed subnet masks (A, B, C).", "right": "Variable-length subnet masks (VLSM)." },
+            { "left": "Wasteful IP allocation.", "right": "Efficient IP allocation." },
+            { "left": "Limited to 3 classes for hosts.", "right": "No class restrictions." },
+            { "left": "Route summarization is difficult.", "right": "Supports route summarization." }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "CIDR replaces classful addressing.",
+            "CIDR uses variable-length subnet masks (VLSM).",
+            "Notation: IP/Prefix (e.g., 192.168.1.0/24).",
+            "More efficient IP allocation and route summarization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vlsm",
+      "title": "VLSM – Variable Length Subnet Masking",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "VLSM",
+          "subtitle": "Flexible Subnet Masking for Different Needs",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📏",
+          "title": "What is VLSM?",
+          "content": "VLSM (Variable Length Subnet Masking) allows you to use different subnet masks for different subnets within the same network. This provides flexibility and efficient IP address allocation.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: VLSM Subnetting",
+          "given": ["Network: 192.168.1.0/24", "Need: 5 subnets with 50, 20, 10, 5, and 2 hosts respectively."],
+          "find": "Subnet addresses and masks",
+          "steps": [
+            "Sort subnets by size: 50, 20, 10, 5, 2.",
+            "50 hosts need at least 6 host bits (2^6=64) → /26 (255.255.255.192).",
+            "Allocate: 192.168.1.0/26 (hosts: 192.168.1.1-62).",
+            "Next: 20 hosts → /27 (2^5=32) → 192.168.1.64/27.",
+            "Next: 10 hosts → /28 (2^4=16) → 192.168.1.96/28.",
+            "Next: 5 hosts → /29 (2^3=8) → 192.168.1.112/29.",
+            "Next: 2 hosts → /30 (2^2=4) → 192.168.1.120/30."
+          ],
+          "answer": "192.168.1.0/26, 192.168.1.64/27, 192.168.1.96/28, 192.168.1.112/29, 192.168.1.120/30.",
+          "formula_used": "VLSM allocation (largest to smallest)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Not ordering subnets by size.",
+          "wrong": "Allocating addresses in arbitrary order.",
+          "correct": "Always allocate the largest subnets first to avoid wastage.",
+          "tip": "Use the 'largest first' approach for VLSM."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "VLSM allows different subnet masks in the same network.",
+            "Allocate subnets from largest to smallest.",
+            "Saves IP addresses and provides flexibility.",
+            "CIDR and VLSM work together."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ipv6",
+      "title": "IPv6 – Addressing and Transition from IPv4",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "IPv6",
+          "subtitle": "The Future of IP Addressing",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚀",
+          "title": "Why IPv6?",
+          "content": "IPv4 has a limited address space (4.3 billion). With the explosion of internet-connected devices, IPv6 (128-bit) provides virtually unlimited addresses (3.4 × 10^38).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "IPv6 Address Format",
+          "content": "IPv6 addresses are 128 bits, written in 8 groups of 4 hexadecimal digits (16 bits each). Example: 2001:0db8:85a3:0000:0000:8a2e:0370:7334.\n**Shortened**: Leading zeros and consecutive zeros can be compressed (2001:db8:85a3::8a2e:370:7334).",
+          "highlight": false
+        },
+        {
+          "type": "comparison",
+          "title": "IPv4 vs IPv6",
+          "left_header": "IPv4",
+          "right_header": "IPv6",
+          "rows": [
+            { "left": "32-bit address", "right": "128-bit address" },
+            { "left": "Dotted decimal notation", "right": "Hexadecimal notation" },
+            { "left": "4.3 billion addresses", "right": "3.4 × 10^38 addresses" },
+            { "left": "Supports NAT (Network Address Translation)", "right": "Does not require NAT" },
+            { "left": "Limited security features", "right": "Built-in IPSec support" },
+            { "left": "Complex header", "right": "Simplified header" }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: IPv6 Address Compression",
+          "given": ["2001:0db8:0000:0000:0000:8a2e:0370:7334"],
+          "find": "Compressed form",
+          "steps": [
+            "Remove leading zeros: 2001:db8:0:0:0:8a2e:370:7334.",
+            "Compress consecutive zeros with '::': 2001:db8::8a2e:370:7334."
+          ],
+          "answer": "2001:db8::8a2e:370:7334",
+          "formula_used": "IPv6 compression rules"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "IPv6 uses 128-bit addresses.",
+            "Written in 8 groups of 4 hex digits.",
+            "Leading zeros and consecutive zeros can be compressed.",
+            "IPv6 has built-in security (IPSec).",
+            "Transition mechanisms: Dual Stack, Tunneling, Translation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subnetting_practice",
+      "title": "Advanced Subnetting Practice – Step-by-Step Calculations",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Subnetting Practice",
+          "subtitle": "Mastering IP Address Calculations",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: Finding Subnet Address",
+          "given": ["IP: 10.20.30.40/24"],
+          "find": "Network Address, Broadcast Address, First Host, Last Host",
+          "steps": [
+            "Subnet Mask: 255.255.255.0.",
+            "Network Address: 10.20.30.0 (AND operation).",
+            "Broadcast Address: 10.20.30.255 (set host bits to 1).",
+            "First Host: 10.20.30.1.",
+            "Last Host: 10.20.30.254."
+          ],
+          "answer": "Network: 10.20.30.0, Broadcast: 10.20.30.255, First: 10.20.30.1, Last: 10.20.30.254.",
+          "formula_used": "AND/OR operations"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: Subnetting a Class C Network",
+          "given": ["Network: 192.168.10.0/24", "Need 8 subnets"],
+          "find": "Subnet mask, subnet addresses, and host ranges.",
+          "steps": [
+            "Need 8 subnets: 2^n ≥ 8 → n = 3 bits borrowed.",
+            "New mask: /27 (255.255.255.224).",
+            "Subnet increment: 256 – 224 = 32.",
+            "Subnets: .0, .32, .64, .96, .128, .160, .192, .224.",
+            "Host ranges: .1-.30, .33-.62, .65-.94, .97-.126, .129-.158, .161-.190, .193-.222, .225-.254."
+          ],
+          "answer": "8 subnets: .0/27, .32/27, .64/27, .96/27, .128/27, .160/27, .192/27, .224/27 with 30 usable hosts each.",
+          "formula_used": "2^n for subnets, increment = 256 – mask_value"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using the wrong increment value.",
+          "wrong": "For /27, the increment is 31.",
+          "correct": "For /27, the increment is 32 (256 – 224).",
+          "tip": "Increment = 256 – value of the last non-zero octet in the subnet mask."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Network Address: IP AND Mask.",
+            "Broadcast Address: IP OR (~Mask).",
+            "First Host: Network Address + 1.",
+            "Last Host: Broadcast Address – 1.",
+            "Subnet Increment: 256 – mask_value.",
+            "Hosts: 2^host_bits – 2."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ip_shortcuts",
+      "title": "Shortcuts and Tricks for IP Calculations",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "IP Shortcuts",
+          "subtitle": "Speed Up Your Calculations",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 1 – Quick Subnet Mask Identification",
+          "content": "/24 = 255.255.255.0, /16 = 255.255.0.0, /8 = 255.0.0.0.\nFor /27, remember the last octet is 224. For /29, it's 248.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 2 – Usable Hosts from CIDR",
+          "content": "Hosts = 2^(32 – n) – 2. Example: /26 → 2^6 – 2 = 62 hosts.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Shortcut 3 – Subnet Increment",
+          "content": "Increment = 256 – (last non-zero octet of the mask). Example: /27 (224) → 256 – 224 = 32.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "NBH",
+          "memory_trick": "Network, Broadcast, Hosts – the three things to calculate in subnetting."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Subnet Mask Table: Memorize common masks.",
+            "Usable Hosts: 2^(host bits) – 2.",
+            "Increment: 256 – mask_value.",
+            "Network Address: IP AND Mask.",
+            "Broadcast Address: IP OR (~Mask)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ip_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "IP Addressing & Subnetting – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Identify the IP class, subnet mask, and perform calculations for network, broadcast, and usable hosts. Practice CIDR to subnet mask conversions.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a Class B IP address?",
+          "options": ["10.10.10.10", "172.16.10.10", "192.168.1.1", "224.0.0.1"],
+          "answer": 1,
+          "explanation": "Class B ranges from 128 to 191. 172.16.10.10 falls in this range.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "What is the subnet mask for a /28 network?",
+          "options": ["255.255.255.0", "255.255.255.128", "255.255.255.192", "255.255.255.240"],
+          "answer": 3,
+          "explanation": "/28 means 28 bits for network, 4 bits for host. Subnet mask = 255.255.255.240.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "How many usable hosts are there in a /26 network?",
+          "options": ["64", "62", "126", "128"],
+          "answer": 1,
+          "explanation": "/26 → 2^(32-26) = 2^6 = 64 total; usable = 64 – 2 = 62.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the network address for 192.168.5.25 with a subnet mask of 255.255.255.0?",
+          "options": ["192.168.5.0", "192.168.5.25", "192.168.0.0", "192.168.5.255"],
+          "answer": 0,
+          "explanation": "192.168.5.25 AND 255.255.255.0 = 192.168.5.0.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the broadcast address for 10.20.30.40/24?",
+          "options": ["10.20.30.0", "10.20.30.40", "10.20.30.255", "10.20.30.254"],
+          "answer": 2,
+          "explanation": "For /24, broadcast address is the network address with all host bits set to 1: 10.20.30.255.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "How many subnets are created by borrowing 3 bits from the host portion?",
+          "options": ["6", "8", "16", "32"],
+          "answer": 1,
+          "explanation": "2^3 = 8 subnets.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a private IP address?",
+          "options": ["8.8.8.8", "172.31.10.5", "203.0.113.1", "192.0.2.1"],
+          "answer": 1,
+          "explanation": "172.31.10.5 falls in the private range 172.16.0.0/12.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the CIDR prefix for the subnet mask 255.255.255.252?",
+          "options": ["/28", "/29", "/30", "/31"],
+          "answer": 2,
+          "explanation": "255.255.255.252 has 30 network bits → /30.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "In VLSM, which subnets should be allocated first?",
+          "options": ["Smallest subnets", "Largest subnets", "Any order", "Alphabetical order"],
+          "answer": 1,
+          "explanation": "Largest subnets should be allocated first to avoid wastage.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is an IPv6 address?",
+          "options": ["192.168.1.1", "2001:db8::1", "10.0.0.1", "255.255.255.0"],
+          "answer": 1,
+          "explanation": "2001:db8::1 is a valid IPv6 address.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review subnet mask conversions, network/broadcast calculations, and CIDR notation. Practice VLSM allocation problems."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – IP Addressing & Subnetting",
+          "points": [
+            "IPv4: 32-bit, Classes A, B, C, D, E.",
+            "Subnet Mask: Separates network and host.",
+            "CIDR: Classless, uses VLSM.",
+            "Network Address: IP AND Mask.",
+            "Broadcast Address: IP OR (~Mask).",
+            "Usable Hosts: 2^(host_bits) – 2.",
+            "Increment: 256 – mask_value.",
+            "VLSM: Allocate largest subnets first.",
+            "IPv6: 128-bit, hexadecimal, compression rules.",
+            "Private IPs: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16."
+          ]
+        }
+      ]
+    }
+  ]
+}

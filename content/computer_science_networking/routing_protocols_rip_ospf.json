@@ -1,0 +1,889 @@
+{
+  "id": "routing_protocols_rip_ospf",
+  "subject_id": "computer_science_networking",
+  "title": "Routing Protocols: RIP and OSPF",
+  "subtopics": [
+    {
+      "id": "routing_intro",
+      "title": "Introduction to Routing – Static vs Dynamic Routing",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Routing Protocols: RIP and OSPF",
+          "subtitle": "Building the Internet's Routing Infrastructure",
+          "tags": ["JKSSB", "High Weightage", "Networking"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗺️",
+          "title": "What is Routing?",
+          "content": "Routing is the process of selecting the best path for data packets to travel from source to destination across a network. Routing protocols are the algorithms that routers use to determine the optimal path.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Static vs Dynamic Routing",
+          "left_header": "Static Routing",
+          "right_header": "Dynamic Routing",
+          "rows": [
+            { "left": "Manually configured by an administrator.", "right": "Automatically learns routes via protocols." },
+            { "left": "Does not adapt to network changes.", "right": "Adapts to network changes automatically." },
+            { "left": "Suitable for small networks.", "right": "Suitable for large and complex networks." },
+            { "left": "No overhead on routers.", "right": "Consumes router CPU and bandwidth." },
+            { "left": "Example: Manual entry of routes.", "right": "Examples: RIP, OSPF, EIGRP, BGP." }
+          ]
+        },
+        {
+          "type": "process_flow",
+          "title": "How Dynamic Routing Works",
+          "steps": [
+            "Step 1: Routers discover their directly connected networks.",
+            "Step 2: Routers exchange routing information with neighbors.",
+            "Step 3: Routers build a routing table with best paths.",
+            "Step 4: Routers share updates when network topology changes.",
+            "Step 5: Convergence occurs when all routers have consistent routing tables."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Static routing is manual and doesn't adapt.",
+            "Dynamic routing is automatic and adapts to changes.",
+            "Routing protocols are classified as Distance Vector or Link State.",
+            "RIP (Distance Vector) and OSPF (Link State) are the most commonly tested protocols."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "routing_metrics_ad",
+      "title": "Routing Metrics and Administrative Distance",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Routing Metrics and Administrative Distance",
+          "subtitle": "Choosing the Best Path",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What are Routing Metrics?",
+          "content": "Metrics are values used by routing protocols to determine the best path to a destination. Common metrics include hop count, bandwidth, delay, cost, and reliability.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Routing Metrics by Protocol",
+          "headers": ["Protocol", "Metric", "Description"],
+          "rows": [
+            ["RIP", "Hop Count", "Number of routers between source and destination (max 15)."],
+            ["OSPF", "Cost", "Based on bandwidth (10^8 / bandwidth)."],
+            ["EIGRP", "Composite Metric", "Bandwidth + Delay + Reliability + Load + MTU."],
+            ["BGP", "Path Attributes", "AS Path Length, Local Preference, MED, etc."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Administrative Distance (AD)",
+          "content": "AD is a value that indicates the trustworthiness of a routing source. Lower AD = more trusted. When a router receives multiple routes to the same destination from different sources, the one with the lowest AD is chosen.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Administrative Distance Values",
+          "headers": ["Routing Source", "AD Value"],
+          "rows": [
+            ["Connected Interface", "0"],
+            ["Static Route", "1"],
+            ["EIGRP Summary Route", "5"],
+            ["EIGRP Internal", "90"],
+            ["OSPF", "110"],
+            ["RIP", "120"],
+            ["External EIGRP", "170"],
+            ["Unknown/Unreliable", "255"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Administrative Distance in Action",
+          "given": ["A router receives routes to 10.0.0.0/8 from RIP (AD 120) and OSPF (AD 110)."],
+          "find": "Which route will be installed in the routing table?",
+          "steps": [
+            "OSPF has an AD of 110.",
+            "RIP has an AD of 120.",
+            "Lower AD is preferred.",
+            "OSPF route (110) is chosen over RIP (120)."
+          ],
+          "answer": "OSPF route will be installed.",
+          "formula_used": "Lower AD = Higher Trustworthiness"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Metric and Administrative Distance.",
+          "wrong": "Metric is used to choose between routing protocols.",
+          "correct": "Metric is used within a protocol to choose the best path; AD is used to choose between protocols.",
+          "tip": "AD = Which protocol to trust; Metric = Which path within a protocol."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Metric = Used within a protocol to find the best path.",
+            "AD = Used to choose between different protocols.",
+            "Lower AD is preferred.",
+            "OSPF AD = 110; RIP AD = 120."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "distance_vector",
+      "title": "Distance Vector Routing – Overview and Characteristics",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Distance Vector Routing",
+          "subtitle": "The 'Routing by Rumor' Protocol Family",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "What is Distance Vector?",
+          "content": "Distance Vector protocols use the Bellman-Ford algorithm. Routers share their entire routing table with directly connected neighbors periodically. Each router 'hears' about destinations from neighbors – hence 'routing by rumor'.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Distance Vector Characteristics",
+          "headers": ["Characteristic", "Description"],
+          "rows": [
+            ["Algorithm", "Bellman-Ford"],
+            ["Updates", "Periodic updates (every 30 seconds for RIP)"],
+            ["Information Shared", "Full routing table"],
+            ["Metric", "Hop count (RIP), Composite metric (EIGRP)"],
+            ["Convergence", "Slow"],
+            ["Loop Prevention", "Split Horizon, Route Poisoning, Hold-down Timers"],
+            ["Scalability", "Limited (max 15 hops for RIP)"],
+            ["Protocols", "RIP, IGRP, EIGRP (partly)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Counting to Infinity Problem",
+          "given": ["A network has 3 routers: A, B, C in a line. The link between A and B fails."],
+          "find": "What problem occurs with Distance Vector protocols?",
+          "steps": [
+            "When A-B link fails, B thinks it can reach A via C (if C has a route to A).",
+            "C thinks it can reach A via B.",
+            "This creates a loop until the hop count reaches infinity (16 for RIP).",
+            "This is called the 'Counting to Infinity' problem."
+          ],
+          "answer": "Counting to Infinity problem.",
+          "formula_used": "Distance Vector limitation"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Thinking Distance Vector is always slow.",
+          "wrong": "All Distance Vector protocols are slower than Link State.",
+          "correct": "EIGRP is a Distance Vector protocol that converges faster than traditional DV due to DUAL algorithm.",
+          "tip": "EIGRP is an exception – it's a hybrid protocol."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Distance Vector = Share full table with neighbors.",
+            "Uses Bellman-Ford algorithm.",
+            "Prone to routing loops (split horizon, poison reverse help).",
+            "Slow convergence.",
+            "RIP is the classic example."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rip",
+      "title": "RIP – Routing Information Protocol (Versions 1 and 2)",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "RIP – Routing Information Protocol",
+          "subtitle": "The Simplest Dynamic Routing Protocol",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "What is RIP?",
+          "content": "RIP (Routing Information Protocol) is a Distance Vector routing protocol that uses hop count as its metric. The maximum hop count is 15 (16 is considered unreachable). It is simple to configure but has limitations in scalability.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "RIP v1 vs RIP v2",
+          "left_header": "RIP v1",
+          "right_header": "RIP v2",
+          "rows": [
+            { "left": "Classful routing protocol.", "right": "Classless (supports CIDR/VLSM)." },
+            { "left": "No authentication.", "right": "Supports MD5 authentication." },
+            { "left": "Broadcast updates (255.255.255.255).", "right": "Multicast updates (224.0.0.9)." },
+            { "left": "No subnet mask in updates.", "right": "Carries subnet mask in updates." },
+            { "left": "Older, less used.", "right": "More common in smaller networks." },
+            { "left": "Maximum hop count: 15.", "right": "Maximum hop count: 15." }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "RIP Timers",
+          "headers": ["Timer", "Default Value", "Function"],
+          "rows": [
+            ["Update Timer", "30 seconds", "Periodic routing table updates are sent."],
+            ["Invalid Timer", "180 seconds", "Route is marked invalid if no update received."],
+            ["Hold-down Timer", "180 seconds", "Prevents a route from being updated during instability."],
+            ["Flush Timer", "240 seconds", "Route is removed from the routing table."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: RIP Hop Count Calculation",
+          "given": ["A network has 3 routers: R1 → R2 → R3. PC is connected to R1."],
+          "find": "What is the hop count from PC to R3?",
+          "steps": [
+            "Hop count counts the number of routers a packet must traverse.",
+            "From PC to R1: 0 hops (directly connected).",
+            "R1 to R2: 1 hop.",
+            "R2 to R3: 2 hops.",
+            "Total hop count = 2."
+          ],
+          "answer": "2 hops",
+          "formula_used": "Hop count = number of routers along the path"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting the maximum hop count of RIP.",
+          "wrong": "RIP can support 30 hops.",
+          "correct": "RIP has a maximum hop count of 15. Any path with 16 hops is considered unreachable.",
+          "tip": "Remember the '16 is infinity' rule for RIP."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "RIP is a Distance Vector protocol.",
+            "Metric: Hop count (max 15).",
+            "RIP v1 is classful; RIP v2 is classless (supports VLSM).",
+            "RIP v2 supports authentication.",
+            "Timers: Update (30s), Invalid (180s), Hold-down (180s), Flush (240s)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rip_loop_prevention",
+      "title": "RIP Loop Prevention Mechanisms",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Loop Prevention in RIP",
+          "subtitle": "Keeping the Network Stable",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Loop Prevention Techniques",
+          "content": "Distance Vector protocols are prone to routing loops. RIP uses several mechanisms to prevent loops: Split Horizon, Route Poisoning, Poison Reverse, and Hold-down Timers.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "RIP Loop Prevention Mechanisms",
+          "headers": ["Mechanism", "Description"],
+          "rows": [
+            ["Split Horizon", "A router does not advertise a route back to the router from which it learned it."],
+            ["Route Poisoning", "A route is advertised with a metric of 16 (infinite) to indicate it is unreachable."],
+            ["Poison Reverse", "A router sends a poisoned route back to the source, overriding split horizon."],
+            ["Hold-down Timers", "A route is held in a 'possibly down' state for 180 seconds to prevent rapid flapping."],
+            ["Maximum Hop Count", "16 hops = unreachable, limiting the count-to-infinity problem."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Split Horizon in Action",
+          "given": ["R1 → R2 → R3. R1 learns about network X from R2."],
+          "find": "Will R1 advertise network X back to R2?",
+          "steps": [
+            "R1 learned network X from R2.",
+            "Split Horizon prevents R1 from advertising network X back to R2.",
+            "This prevents a routing loop."
+          ],
+          "answer": "No, split horizon prevents it.",
+          "formula_used": "Split Horizon rule"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Split Horizon: Don't advertise routes back to the source.",
+            "Route Poisoning: Mark route as unreachable (metric 16).",
+            "Hold-down Timer: Stabilize route during network changes.",
+            "These mechanisms make RIP reliable in small networks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ospf_intro",
+      "title": "OSPF – Open Shortest Path First (Overview and Characteristics)",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OSPF – Open Shortest Path First",
+          "subtitle": "The Link State Protocol for Large Networks",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "What is OSPF?",
+          "content": "OSPF (Open Shortest Path First) is a Link State routing protocol that uses the Dijkstra algorithm (SPF) to calculate the shortest path. It is a widely used Interior Gateway Protocol (IGP) in enterprise networks.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔑",
+          "title": "OSPF Characteristics",
+          "content": "• Link State Protocol\n• Uses Dijkstra SPF algorithm\n• Metric = Cost (based on bandwidth)\n• Supports VLSM and CIDR\n• Fast convergence\n• Hierarchical design with Areas\n• Supports authentication\n• Multicast updates (224.0.0.5, 224.0.0.6)",
+          "highlight": false
+        },
+        {
+          "type": "comparison",
+          "title": "Distance Vector vs Link State",
+          "left_header": "Distance Vector (RIP)",
+          "right_header": "Link State (OSPF)",
+          "rows": [
+            { "left": "Routing by rumor.", "right": "Complete network topology known." },
+            { "left": "Periodic full-table updates.", "right": "Triggered updates (changes only)." },
+            { "left": "Slow convergence.", "right": "Fast convergence." },
+            { "left": "Metric: Hop Count.", "right": "Metric: Cost (Bandwidth-based)." },
+            { "left": "Limited scalability (15 hops).", "right": "Highly scalable." },
+            { "left": "Less CPU/memory intensive.", "right": "More CPU/memory intensive." }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: OSPF Cost Calculation",
+          "given": ["A link has a bandwidth of 100 Mbps."],
+          "find": "Calculate the OSPF cost.",
+          "steps": [
+            "OSPF cost formula: 10^8 / bandwidth (in bps).",
+            "100 Mbps = 100,000,000 bps.",
+            "Cost = 100,000,000 / 100,000,000 = 1."
+          ],
+          "answer": "Cost = 1",
+          "formula_used": "Cost = 10^8 / bandwidth (bps)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: OSPF cost formula uses bandwidth in bits per second.",
+          "wrong": "Using bandwidth in Mbps directly.",
+          "correct": "Convert to bps: 1 Mbps = 1,000,000 bps.",
+          "tip": "Cost = 10^8 / Bandwidth (in bits per second)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "OSPF is a Link State protocol.",
+            "Uses Dijkstra SPF algorithm.",
+            "Metric = Cost = 10^8 / bandwidth (bps).",
+            "Supports areas for scalability.",
+            "Fast convergence and hierarchical design."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ospf_areas",
+      "title": "OSPF Areas – Hierarchical Design, DR/BDR, LSAs",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OSPF Hierarchical Design",
+          "subtitle": "Areas, DR/BDR, and LSA Types",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "OSPF Areas",
+          "content": "OSPF uses areas to create a hierarchical network design. This reduces routing overhead and improves scalability. Area 0 (Backbone) is the central area; all other areas must connect to it.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "OSPF Area Types",
+          "headers": ["Area Type", "Description"],
+          "rows": [
+            ["Backbone Area (0)", "The central area; all inter-area traffic goes through it."],
+            ["Standard Area", "Any non-backbone area that connects to Area 0."],
+            ["Stub Area", "Does not accept external routes (Type 5 LSAs)."],
+            ["Totally Stubby Area", "Does not accept external or inter-area routes."],
+            ["Not-So-Stubby Area (NSSA)", "Accepts external routes but filters them."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "DR (Designated Router) and BDR (Backup DR)",
+          "content": "On multi-access networks (like Ethernet), OSPF elects a Designated Router (DR) and Backup DR to reduce the number of adjacencies. All routers send updates to the DR/BDR, which then floods the information.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "OSPF LSA Types",
+          "headers": ["LSA Type", "Name", "Description"],
+          "rows": [
+            ["Type 1", "Router LSA", "Describes a router's links and interfaces."],
+            ["Type 2", "Network LSA", "Describes a multi-access network (generated by DR)."],
+            ["Type 3", "Summary LSA", "Advertises inter-area routes (ABR)."],
+            ["Type 4", "ASBR Summary LSA", "Advertises ASBR (Autonomous System Boundary Router)."],
+            ["Type 5", "External LSA", "Advertises routes from external autonomous systems (ASBR)."],
+            ["Type 7", "NSSA External LSA", "Advertises external routes within an NSSA."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: OSPF Area Design",
+          "given": ["A network has a main office (Area 0) and two branch offices (Area 1 and Area 2)."],
+          "find": "How are the areas connected?",
+          "steps": [
+            "Area 1 and Area 2 must connect to Area 0 via Area Border Routers (ABRs).",
+            "Routers connecting Area 1 to Area 0 are ABRs.",
+            "Routers connecting Area 2 to Area 0 are ABRs.",
+            "Area 0 receives summaries from other areas."
+          ],
+          "answer": "Both branch areas connect to Area 0 via ABRs.",
+          "formula_used": "OSPF hierarchical design"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting that all OSPF areas must connect to Area 0.",
+          "wrong": "Area 2 can connect directly to Area 3.",
+          "correct": "All non-backbone areas must connect to Area 0 (backbone).",
+          "tip": "The backbone area (0) is mandatory for inter-area routing."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Area 0 is the backbone area.",
+            "All other areas must connect to Area 0.",
+            "DR/BDR elected on multi-access networks.",
+            "LSA Types carry different types of routing information.",
+            "ABR (Area Border Router) connects areas.",
+            "ASBR (Autonomous System Boundary Router) connects to external networks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ospf_config",
+      "title": "OSPF Configuration and Operation",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "OSPF Configuration",
+          "subtitle": "Basic Setup and Verification",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Basic OSPF Configuration Steps",
+          "content": "1. Enable OSPF with a process ID: `router ospf 1`\n2. Define networks: `network 192.168.1.0 0.0.0.255 area 0`\n3. Configure OSPF router ID: `router-id 1.1.1.1`\n4. Adjust interface cost if needed: `ip ospf cost 10`\n5. Verify with `show ip ospf neighbor` and `show ip route`.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "OSPF Verification Commands",
+          "headers": ["Command", "Purpose"],
+          "rows": [
+            ["show ip ospf neighbor", "Displays OSPF neighbor relationships."],
+            ["show ip ospf database", "Displays the OSPF link-state database (LSDB)."],
+            ["show ip route ospf", "Displays OSPF-learned routes."],
+            ["show ip ospf interface", "Shows OSPF settings on interfaces."],
+            ["debug ip ospf events", "Troubleshoots OSPF operations."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: OSPF Neighbor States",
+          "given": ["Two routers are connected and OSPF is enabled."],
+          "find": "What are the OSPF neighbor states during adjacency formation?",
+          "steps": [
+            "1. Down: No hello received.",
+            "2. Init: Hello received from neighbor.",
+            "3. 2-Way: Bi-directional communication established.",
+            "4. Exstart: Master/slave election.",
+            "5. Exchange: DBD (Database Description) exchange.",
+            "6. Loading: LSR (Link State Request) and LSU (Link State Update).",
+            "7. Full: Fully adjacent, databases synchronized."
+          ],
+          "answer": "Down → Init → 2-Way → Exstart → Exchange → Loading → Full.",
+          "formula_used": "OSPF neighbor state machine"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing OSPF neighbor states with EIGRP.",
+          "wrong": "OSPF uses 'Init' and 'Exstart' states similar to EIGRP.",
+          "correct": "EIGRP has different states; OSPF has its own 7-state process.",
+          "tip": "Memorize: Down, Init, 2-Way, Exstart, Exchange, Loading, Full."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "OSPF configuration uses process ID and area number.",
+            "Network statements use wildcard masks.",
+            "Neighbor states progress through 7 stages.",
+            "Verification commands help troubleshoot."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rip_ospf_comparison",
+      "title": "RIP vs OSPF – Comprehensive Comparison",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "RIP vs OSPF",
+          "subtitle": "Which Protocol to Use When?",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "RIP vs OSPF – Detailed Comparison",
+          "headers": ["Aspect", "RIP", "OSPF"],
+          "rows": [
+            ["Type", "Distance Vector", "Link State"],
+            ["Algorithm", "Bellman-Ford", "Dijkstra (SPF)"],
+            ["Metric", "Hop Count (max 15)", "Cost (Bandwidth-based)"],
+            ["Convergence", "Slow", "Fast"],
+            ["Updates", "Periodic (30s) full table", "Triggered (changes only)"],
+            ["Scalability", "Limited (small networks)", "Highly scalable (large networks)"],
+            ["VLSM Support", "RIP v2 only", "Yes"],
+            ["Authentication", "RIP v2 only", "Yes"],
+            ["Hierarchical Design", "No", "Yes (Areas)"],
+            ["CPU/Memory Usage", "Low", "High"],
+            ["Administrative Distance", "120", "110"],
+            ["Common Use", "Small office/lab networks", "Enterprise networks"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Choosing the Right Protocol",
+          "given": ["A network has 200 routers and needs fast convergence and support for VLSM."],
+          "find": "Which routing protocol should be used?",
+          "steps": [
+            "200 routers is a large network.",
+            "RIP has a limit of 15 hops and slow convergence.",
+            "OSPF is scalable, fast-converging, and supports VLSM.",
+            "OSPF is the better choice."
+          ],
+          "answer": "OSPF",
+          "formula_used": "Network size and requirements"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Thinking RIP is more secure than OSPF.",
+          "wrong": "RIP v2 supports stronger authentication than OSPF.",
+          "correct": "OSPF supports MD5 and SHA authentication, which is stronger than RIP's authentication.",
+          "tip": "OSPF is more secure and scalable than RIP."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "RIP: Distance Vector, Hop Count, max 15, slow convergence, simple.",
+            "OSPF: Link State, Cost, fast convergence, scalable, complex.",
+            "Choose RIP for small networks; OSPF for large enterprise networks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced_routing",
+      "title": "Advanced Routing Concepts – Route Summarization and Convergence",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Routing Concepts",
+          "subtitle": "Route Summarization and Faster Convergence",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "Route Summarization (Route Aggregation)",
+          "content": "Route summarization is the process of combining multiple routes into a single, more specific route. It reduces the size of routing tables, improves performance, and enhances stability.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Route Summarization",
+          "given": ["Routes: 192.168.1.0/24, 192.168.2.0/24, 192.168.3.0/24, 192.168.4.0/24"],
+          "find": "Summarize these routes.",
+          "steps": [
+            "All routes start with 192.168.",
+            "The first 16 bits are common.",
+            "The next 4 bits cover 1-4 (0001 to 0100).",
+            "The summary route is 192.168.0.0/20."
+          ],
+          "answer": "192.168.0.0/20",
+          "formula_used": "Find common bits and count them."
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Convergence",
+          "content": "Convergence is the time taken for all routers in a network to have consistent and accurate routing information. Faster convergence means less downtime during network changes.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "RIP vs OSPF Convergence",
+          "left_header": "RIP",
+          "right_header": "OSPF",
+          "rows": [
+            { "left": "Convergence: 3-5 minutes (with timers)", "right": "Convergence: a few seconds" },
+            { "left": "Slow due to periodic updates", "right": "Fast due to triggered updates" },
+            { "left": "Susceptible to routing loops", "right": "Loops are avoided with SPF tree" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Route summarization reduces routing table size.",
+            "Convergence = time for all routers to agree on network topology.",
+            "OSPF has faster convergence than RIP.",
+            "Route summarization is commonly used in OSPF at Area Border Routers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "routing_shortcuts",
+      "title": "Shortcuts and Memory Tricks for Routing Protocols",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Routing Shortcuts",
+          "subtitle": "Remembering Key Facts",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 1 – AD Values",
+          "content": "Memorize: Connected (0), Static (1), EIGRP (90), OSPF (110), RIP (120).\nHigher = Less Trusted.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 2 – RIP Timers",
+          "content": "Update (30), Invalid (180), Hold-down (180), Flush (240).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 3 – OSPF Cost",
+          "content": "Cost = 100,000,000 / Bandwidth (bps).\n10 Mbps = 10, 100 Mbps = 1, 1 Gbps = 0.1? Actually, 10^8 / 1,000,000,000 = 0.1 → rounded to 1.",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "DOLCE",
+          "memory_trick": "Distance Vector (RIP) vs Link State (OSPF) – remember: D = Rumor, L = Full Map."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "AD: Connected 0, Static 1, EIGRP 90, OSPF 110, RIP 120.",
+            "RIP: max 15 hops, 30s updates.",
+            "OSPF: Cost = 10^8 / bandwidth.",
+            "OSPF areas must connect to Area 0."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "routing_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Routing Protocols – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on RIP vs OSPF differences, hop count limits, administrative distance values, and OSPF area concepts. Practice cost calculations.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the maximum hop count in RIP?",
+          "options": ["10", "15", "16", "255"],
+          "answer": 1,
+          "explanation": "RIP has a maximum hop count of 15. A route with 16 hops is considered unreachable.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which routing protocol uses the Dijkstra SPF algorithm?",
+          "options": ["RIP", "OSPF", "BGP", "EIGRP"],
+          "answer": 1,
+          "explanation": "OSPF uses the Dijkstra Shortest Path First (SPF) algorithm.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the Administrative Distance of OSPF?",
+          "options": ["90", "110", "120", "170"],
+          "answer": 1,
+          "explanation": "OSPF has an AD of 110. RIP has 120, EIGRP has 90.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a Distance Vector routing protocol?",
+          "options": ["OSPF", "RIP", "IS-IS", "BGP"],
+          "answer": 1,
+          "explanation": "RIP is a Distance Vector protocol. OSPF and IS-IS are Link State protocols.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which timer in RIP controls how often routing updates are sent?",
+          "options": ["Invalid Timer", "Hold-down Timer", "Update Timer", "Flush Timer"],
+          "answer": 2,
+          "explanation": "The Update Timer in RIP is 30 seconds, controlling how often updates are sent.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the OSPF cost for a 100 Mbps link?",
+          "options": ["1", "10", "100", "1000"],
+          "answer": 0,
+          "explanation": "Cost = 10^8 / 100,000,000 = 1.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which OSPF area is the backbone area?",
+          "options": ["Area 0", "Area 1", "Area 0.0.0.1", "Area 255"],
+          "answer": 0,
+          "explanation": "Area 0 is the backbone area. All other areas must connect to it.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a difference between RIP v1 and RIP v2?",
+          "options": [
+            "RIP v1 supports VLSM, RIP v2 does not.",
+            "RIP v1 is classful, RIP v2 is classless.",
+            "RIP v1 uses multicast updates, RIP v2 uses broadcast.",
+            "RIP v1 has a higher hop count limit."
+          ],
+          "answer": 1,
+          "explanation": "RIP v1 is classful and does not support VLSM. RIP v2 is classless and supports VLSM.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the purpose of DR (Designated Router) in OSPF?",
+          "options": [
+            "To connect the area to the backbone.",
+            "To reduce OSPF traffic on multi-access networks.",
+            "To authenticate all OSPF messages.",
+            "To generate Type 1 LSAs."
+          ],
+          "answer": 1,
+          "explanation": "The DR reduces OSPF traffic on multi-access networks by centralizing link-state updates.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a loop prevention mechanism in RIP?",
+          "options": [
+            "Split Horizon",
+            "Poison Reverse",
+            "Hold-down Timer",
+            "SPF Tree"
+          ],
+          "answer": 3,
+          "explanation": "SPF Tree is used in OSPF, not in RIP. RIP uses Split Horizon, Poison Reverse, and Hold-down Timers.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the differences between Distance Vector and Link State protocols. Memorize AD values, RIP timers, and OSPF cost formula. Understand the OSPF area hierarchy."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Routing Protocols",
+          "points": [
+            "Distance Vector: RIP (hop count, max 15, AD 120, 30s updates).",
+            "Link State: OSPF (cost, fast convergence, AD 110, areas).",
+            "RIP v1 (classful) vs RIP v2 (classless + auth).",
+            "OSPF Areas: Area 0 backbone; all others connect to it.",
+            "OSPF costs: 10^8 / bandwidth (bps).",
+            "DR/BDR on multi-access networks.",
+            "OSPF LSA Types: 1 (Router), 2 (Network), 3 (Summary), 5 (External).",
+            "Route summarization reduces routing table size.",
+            "Convergence time: RIP (slow), OSPF (fast)."
+          ]
+        }
+      ]
+    }
+  ]
+}

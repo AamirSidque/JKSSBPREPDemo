@@ -1,0 +1,1020 @@
+{
+  "id": "programming_fundamentals",
+  "subject_id": "computer_science_networking",
+  "title": "Programming Fundamentals: Logic Building, Data Types, Loops, Functions",
+  "subtopics": [
+    {
+      "id": "prog_intro",
+      "title": "Introduction to Programming – Algorithms and Flowcharts",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Programming Fundamentals",
+          "subtitle": "Building the Logic of Software",
+          "tags": ["JKSSB", "High Weightage", "Programming"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What is Programming?",
+          "content": "Programming is the process of creating a set of instructions that tell a computer how to perform a specific task. It involves problem-solving, logic building, and translating algorithms into code.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Algorithm – The Blueprint",
+          "content": "An algorithm is a step-by-step procedure for solving a problem. It is written in plain language and is independent of any programming language.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Flowchart – Visual Representation",
+          "content": "A flowchart is a graphical representation of an algorithm using symbols (start/end, input/output, decision, process, connectors). It helps in visualizing the flow of logic.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Flowchart Symbols",
+          "headers": ["Symbol", "Name", "Purpose"],
+          "rows": [
+            ["Oval", "Start/End", "Indicates the beginning or end of a program."],
+            ["Parallelogram", "Input/Output", "Represents reading input or displaying output."],
+            ["Rectangle", "Process", "Represents a computation or operation."],
+            ["Diamond", "Decision", "Represents a conditional branch (if/else)."],
+            ["Arrow", "Flow Line", "Shows the direction of control flow."],
+            ["Circle", "Connector", "Connects different parts of the flowchart."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "process_flow",
+          "title": "Steps to Solve a Programming Problem",
+          "steps": [
+            "Step 1: Understand the problem statement.",
+            "Step 2: Identify inputs, processes, and outputs.",
+            "Step 3: Write an algorithm (step-by-step logic).",
+            "Step 4: Draw a flowchart (visual logic).",
+            "Step 5: Write code in a programming language.",
+            "Step 6: Test, debug, and refine the code."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Programming is about solving problems using logic.",
+            "Algorithm = Step-by-step solution.",
+            "Flowchart = Visual representation of logic.",
+            "Both are language-independent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "variables_datatypes",
+      "title": "Variables and Data Types – Storing Information",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Variables and Data Types",
+          "subtitle": "The Building Blocks of Data Storage",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "What is a Variable?",
+          "content": "A variable is a named memory location that stores a value. It has a name, a type, and a value. The value can change during program execution.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔢",
+          "title": "What are Data Types?",
+          "content": "Data types define the type of data that can be stored in a variable. Common data types include:\n• Integer (int) – whole numbers\n• Floating Point (float/double) – decimal numbers\n• Character (char) – single character\n• Boolean (bool) – true/false\n• String – sequence of characters",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common Data Types in Programming",
+          "headers": ["Data Type", "Description", "Memory Size (Typical)", "Example"],
+          "rows": [
+            ["int", "Integer (whole number)", "4 bytes", "age = 25"],
+            ["float", "Single-precision decimal", "4 bytes", "price = 19.99"],
+            ["double", "Double-precision decimal", "8 bytes", "pi = 3.1415926535"],
+            ["char", "Single character", "1 byte", "grade = 'A'"],
+            ["bool", "Boolean (true/false)", "1 byte", "flag = true"],
+            ["string", "Sequence of characters", "Varies", "name = \"John\""]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Declaring Variables",
+          "given": ["A program needs to store a student's name, age, and average score."],
+          "find": "Choose appropriate data types.",
+          "steps": [
+            "Name: String (e.g., studentName = \"John\")",
+            "Age: Integer (e.g., age = 20)",
+            "Average Score: Float (e.g., avgScore = 85.5)"
+          ],
+          "answer": "String, int, float",
+          "formula_used": "Data type selection"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using the wrong data type for a value.",
+          "wrong": "age = \"25\" (string instead of integer).",
+          "correct": "age = 25 (integer).",
+          "tip": "Choose the data type that matches the nature of the data."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Variables store data in memory.",
+            "Data types define the kind of data stored.",
+            "Common types: int, float, char, bool, string.",
+            "Correct data types prevent errors and save memory."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operators",
+      "title": "Operators – Arithmetic, Relational, Logical, Assignment",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Operators in Programming",
+          "subtitle": "Performing Operations on Data",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "➕",
+          "title": "What are Operators?",
+          "content": "Operators are symbols that perform operations on operands (variables or values). Common categories: Arithmetic, Relational, Logical, Assignment, and Bitwise operators.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Arithmetic Operators",
+          "headers": ["Operator", "Description", "Example (a=10, b=3)"],
+          "rows": [
+            ["+", "Addition", "a + b = 13"],
+            ["-", "Subtraction", "a - b = 7"],
+            ["*", "Multiplication", "a * b = 30"],
+            ["/", "Division", "a / b = 3"],
+            ["%", "Modulo (Remainder)", "a % b = 1"],
+            ["++", "Increment", "a++ = 11"],
+            ["--", "Decrement", "a-- = 9"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Relational and Logical Operators",
+          "headers": ["Category", "Operator", "Description", "Example"],
+          "rows": [
+            ["Relational", "==", "Equal to", "5 == 5 → true"],
+            ["Relational", "!=", "Not equal to", "5 != 3 → true"],
+            ["Relational", ">", "Greater than", "5 > 3 → true"],
+            ["Relational", "<", "Less than", "5 < 3 → false"],
+            ["Relational", ">=", "Greater than or equal", "5 >= 5 → true"],
+            ["Relational", "<=", "Less than or equal", "5 <= 3 → false"],
+            ["Logical", "&&", "AND", "(5 > 3 && 2 < 4) → true"],
+            ["Logical", "||", "OR", "(5 > 3 || 2 > 4) → true"],
+            ["Logical", "!", "NOT", "!(5 > 3) → false"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Assignment Operators",
+          "headers": ["Operator", "Description", "Example (a=5)"],
+          "rows": [
+            ["=", "Assignment", "a = 5 → a = 5"],
+            ["+=", "Add and assign", "a += 3 → a = 8"],
+            ["-=", "Subtract and assign", "a -= 2 → a = 6"],
+            ["*=", "Multiply and assign", "a *= 3 → a = 15"],
+            ["/=", "Divide and assign", "a /= 2 → a = 7.5"],
+            ["%=", "Modulo and assign", "a %= 3 → a = 2"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Using Operators",
+          "given": ["int a = 10, b = 3; int c = a + b * 2;"],
+          "find": "What is the value of c?",
+          "steps": [
+            "Operator precedence: Multiplication before Addition.",
+            "b * 2 = 3 * 2 = 6.",
+            "a + 6 = 10 + 6 = 16.",
+            "c = 16."
+          ],
+          "answer": "16",
+          "formula_used": "Operator precedence"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting operator precedence.",
+          "wrong": "(a + b) * 2 and a + b * 2 are the same.",
+          "correct": "a + b * 2 = a + (b * 2) due to precedence.",
+          "tip": "Use parentheses to make precedence explicit."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Arithmetic: +, -, *, /, %, ++, --.",
+            "Relational: ==, !=, >, <, >=, <=.",
+            "Logical: &&, ||, !.",
+            "Assignment: =, +=, -=, *=, /=, %=.",
+            "Operator precedence: Parentheses → */% → +- → && → ||."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control_structures",
+      "title": "Control Structures – if, if-else, switch",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Control Structures",
+          "subtitle": "Decision Making in Programs",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "What are Control Structures?",
+          "content": "Control structures determine the flow of execution in a program. They allow the program to make decisions and execute different paths based on conditions.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Decision-Making Structures",
+          "headers": ["Structure", "Syntax (Pseudocode)", "Description", "Example Use"],
+          "rows": [
+            ["if", "if (condition) { statement; }", "Executes code if condition is true.", "if (age >= 18) { print(\"Adult\"); }"],
+            ["if-else", "if (condition) { statement1; } else { statement2; }", "Executes one block if true, another if false.", "if (marks >= 40) { print(\"Pass\"); } else { print(\"Fail\"); }"],
+            ["else-if", "if (c1) { s1; } else if (c2) { s2; } else { s3; }", "Chains multiple conditions.", "if (score >= 90) { grade = 'A'; } else if (score >= 80) { grade = 'B'; } else { grade = 'C'; }"],
+            ["switch", "switch (value) { case v1: s1; break; case v2: s2; break; default: s3; }", "Selects one of many code blocks to execute.", "switch (day) { case 1: print(\"Monday\"); break; case 2: print(\"Tuesday\"); break; default: print(\"Weekend\"); }"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: if-else Statement",
+          "given": ["A program checks if a number is positive, negative, or zero."],
+          "find": "Write the logic.",
+          "steps": [
+            "if (num > 0) { print(\"Positive\"); }",
+            "else if (num < 0) { print(\"Negative\"); }",
+            "else { print(\"Zero\"); }"
+          ],
+          "answer": "if-else-if structure",
+          "formula_used": "Conditional logic"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: switch Statement",
+          "given": ["A program prints the day of the week based on a number 1-7."],
+          "find": "Write the logic.",
+          "steps": [
+            "switch (day) {",
+            "case 1: print(\"Monday\"); break;",
+            "case 2: print(\"Tuesday\"); break;",
+            "...",
+            "default: print(\"Invalid day\");",
+            "}"
+          ],
+          "answer": "switch-case structure",
+          "formula_used": "Multi-way branching"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting the 'break' statement in switch.",
+          "wrong": "Without break, execution falls through to the next case.",
+          "correct": "Always use break to prevent fall-through.",
+          "tip": "Break is essential in switch unless fall-through is intended."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "if: Single condition.",
+            "if-else: Two-way branching.",
+            "else-if: Multiple conditions.",
+            "switch: Multi-way branching based on a value.",
+            "Use break in switch to prevent fall-through."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loops",
+      "title": "Loops – for, while, do-while",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Loops",
+          "subtitle": "Repeating Actions",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "What are Loops?",
+          "content": "Loops are control structures that repeat a block of code multiple times. They are used when you need to perform the same task repeatedly, such as iterating over arrays or processing data.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Loop Types – Comparison",
+          "headers": ["Loop", "Syntax (Pseudocode)", "Execution Count", "Best Use Case"],
+          "rows": [
+            ["for", "for (init; condition; update) { statement; }", "Fixed number of times", "When you know how many iterations are needed."],
+            ["while", "while (condition) { statement; }", "Zero or more times", "When you need to repeat until a condition changes."],
+            ["do-while", "do { statement; } while (condition);", "One or more times", "When you need to execute at least once."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 1: for Loop",
+          "given": ["Print numbers from 1 to 10."],
+          "find": "Write the loop.",
+          "steps": [
+            "for (int i = 1; i <= 10; i++) {",
+            "print(i);",
+            "}"
+          ],
+          "answer": "for (int i = 1; i <= 10; i++) { print(i); }",
+          "formula_used": "for loop syntax"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 2: while Loop",
+          "given": ["Print numbers from 10 down to 1."],
+          "find": "Write the loop.",
+          "steps": [
+            "int i = 10;",
+            "while (i >= 1) {",
+            "print(i);",
+            "i--;",
+            "}"
+          ],
+          "answer": "while (i >= 1) { print(i); i--; }",
+          "formula_used": "while loop syntax"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example 3: do-while Loop",
+          "given": ["Prompt the user for input until they enter a positive number."],
+          "find": "Write the loop.",
+          "steps": [
+            "do {",
+            "input = getInput();",
+            "} while (input < 0);"
+          ],
+          "answer": "do-while loop",
+          "formula_used": "do-while syntax"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Infinite loops.",
+          "wrong": "for (int i = 0; i < 10; i--) – i decreases, never reaching 10.",
+          "correct": "Update the loop variable correctly.",
+          "tip": "Check the update condition to avoid infinite loops."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "for: Fixed iterations, initialization, condition, update.",
+            "while: Condition checked before execution (may run 0 times).",
+            "do-while: Condition checked after execution (runs at least once).",
+            "Avoid infinite loops by ensuring the condition becomes false.",
+            "Loops are used for repetitive tasks and data processing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jump_statements",
+      "title": "Jump Statements – break, continue, return",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Jump Statements",
+          "subtitle": "Controlling Loop Execution",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⏩",
+          "title": "What are Jump Statements?",
+          "content": "Jump statements alter the normal flow of program execution. They allow you to exit loops early, skip iterations, or return values from functions.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Jump Statements – Comparison",
+          "headers": ["Statement", "Description", "Example"],
+          "rows": [
+            ["break", "Exits the loop immediately.", "for (i=0; i<10; i++) { if (i == 5) break; }"],
+            ["continue", "Skips the current iteration and moves to the next.", "for (i=0; i<10; i++) { if (i % 2 == 0) continue; }"],
+            ["return", "Exits a function and returns a value.", "int add(int a, int b) { return a + b; }"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: break in a Loop",
+          "given": ["Find the first number divisible by 7 between 1 and 100."],
+          "find": "Write the loop.",
+          "steps": [
+            "for (int i = 1; i <= 100; i++) {",
+            "if (i % 7 == 0) { print(i); break; }",
+            "}"
+          ],
+          "answer": "break statement",
+          "formula_used": "break to exit early"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: continue in a Loop",
+          "given": ["Print all numbers from 1 to 10 except even numbers."],
+          "find": "Write the loop.",
+          "steps": [
+            "for (int i = 1; i <= 10; i++) {",
+            "if (i % 2 == 0) continue;",
+            "print(i);",
+            "}"
+          ],
+          "answer": "continue statement",
+          "formula_used": "continue to skip iterations"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Using break in a switch without intending to exit.",
+          "wrong": "Forgetting break causes fall-through.",
+          "correct": "Use break to prevent fall-through.",
+          "tip": "Break is used in both loops and switch statements."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "break: Exits loop/switch.",
+            "continue: Skips to the next iteration.",
+            "return: Exits function and returns a value.",
+            "Use jump statements to control flow efficiently."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Functions – Modular Programming",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Functions",
+          "subtitle": "Breaking Down Code into Reusable Blocks",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "What is a Function?",
+          "content": "A function is a block of code that performs a specific task. It can be called multiple times from different parts of the program. Functions promote code reusability and modularity.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Components of a Function",
+          "content": "1. **Return Type**: The type of value returned (void if no return).\n2. **Function Name**: A unique identifier.\n3. **Parameters**: Inputs to the function.\n4. **Body**: The code that executes.\n5. **Return Statement**: Returns a value to the caller.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Function Syntax and Examples",
+          "headers": ["Component", "Syntax", "Example"],
+          "rows": [
+            ["Function Declaration", "returnType functionName(parameters);", "int add(int a, int b);"],
+            ["Function Definition", "returnType functionName(parameters) { body }", "int add(int a, int b) { return a + b; }"],
+            ["Function Call", "functionName(arguments);", "int sum = add(5, 3);"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Writing a Function",
+          "given": ["Write a function that calculates the factorial of a number."],
+          "find": "Define and call the function.",
+          "steps": [
+            "int factorial(int n) {",
+            "int fact = 1;",
+            "for (int i = 1; i <= n; i++) { fact *= i; }",
+            "return fact;",
+            "}",
+            "int result = factorial(5); // result = 120"
+          ],
+          "answer": "factorial(5) = 120",
+          "formula_used": "Function definition and call"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting the return statement.",
+          "wrong": "int add(int a, int b) { a + b; } → no return.",
+          "correct": "int add(int a, int b) { return a + b; }",
+          "tip": "A function with a non-void return type must have a return statement."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Functions promote code reusability.",
+            "They have a return type, name, parameters, and body.",
+            "Void functions do not return a value.",
+            "Functions should be modular and focused on a single task."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion – Functions Calling Themselves",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Recursion",
+          "subtitle": "Solving Problems by Self-Reference",
+          "tags": ["JKSSB", "Advanced"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "What is Recursion?",
+          "content": "Recursion is a technique where a function calls itself to solve a problem. Each recursive call reduces the problem size until it reaches a base case (stopping condition).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Recursive Factorial",
+          "given": ["Factorial of n: n! = n × (n-1) × ... × 1."],
+          "find": "Write a recursive function.",
+          "steps": [
+            "int factorial(int n) {",
+            "if (n <= 1) return 1; // Base case",
+            "return n * factorial(n - 1); // Recursive call",
+            "}"
+          ],
+          "answer": "factorial(5) = 5 * 4 * 3 * 2 * 1 = 120",
+          "formula_used": "Recursion: n! = n * (n-1)!"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Recursive Fibonacci",
+          "given": ["Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8..."],
+          "find": "Write a recursive function.",
+          "steps": [
+            "int fibonacci(int n) {",
+            "if (n <= 1) return n; // Base case",
+            "return fibonacci(n-1) + fibonacci(n-2);",
+            "}"
+          ],
+          "answer": "fibonacci(6) = 8",
+          "formula_used": "Fibonacci: f(n) = f(n-1) + f(n-2)"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Forgetting the base case.",
+          "wrong": "int factorial(int n) { return n * factorial(n-1); } → infinite recursion.",
+          "correct": "Always include a base case to stop recursion.",
+          "tip": "Recursion must have a stopping condition (base case)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Recursion = function calling itself.",
+            "Every recursive function must have a base case.",
+            "Use recursion for problems that can be broken into smaller sub-problems.",
+            "Recursion can be less efficient than iteration (due to function call overhead)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrays",
+      "title": "Arrays – Storing Collections of Data",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Arrays",
+          "subtitle": "Working with Multiple Values",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What is an Array?",
+          "content": "An array is a data structure that stores a fixed-size sequential collection of elements of the same data type. Each element is accessed by an index (starting from 0).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Array Operations",
+          "headers": ["Operation", "Syntax (Pseudocode)", "Description"],
+          "rows": [
+            ["Declaration", "int arr[5];", "Declares an array of 5 integers."],
+            ["Initialization", "int arr[5] = {1, 2, 3, 4, 5};", "Declares and initializes the array."],
+            ["Access", "arr[0] = 10;", "Sets the first element to 10."],
+            ["Retrieval", "int x = arr[2];", "Gets the value at index 2."],
+            ["Loop", "for (i=0; i<5; i++) { print arr[i]; }", "Iterates through the array."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Finding the Largest Element",
+          "given": ["Array: {5, 10, 3, 8, 15}"],
+          "find": "Find the largest element.",
+          "steps": [
+            "int max = arr[0];",
+            "for (i=1; i<5; i++) {",
+            "if (arr[i] > max) max = arr[i];",
+            "}",
+            "max = 15"
+          ],
+          "answer": "15",
+          "formula_used": "Array traversal"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Array index out of bounds.",
+          "wrong": "arr[5] when the array size is 5 (valid indices 0-4).",
+          "correct": "Always ensure index is within range.",
+          "tip": "Array indices start at 0 and end at size-1."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Arrays store multiple values of the same type.",
+            "Elements are accessed by index (0-based).",
+            "Arrays can be iterated using loops.",
+            "Common operations: traversal, search, update."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strings",
+      "title": "Strings – Working with Text",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Strings",
+          "subtitle": "Storing and Manipulating Text",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "What is a String?",
+          "content": "A string is a sequence of characters (letters, digits, symbols). Strings are used to store text in programs. They are typically treated as arrays of characters.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Common String Operations",
+          "headers": ["Operation", "Description", "Example"],
+          "rows": [
+            ["Length", "Number of characters", "strlen(\"Hello\") = 5"],
+            ["Concatenation", "Joining two strings", "\"Hello\" + \"World\" = \"HelloWorld\""],
+            ["Comparison", "Comparing two strings", "strcmp(\"ABC\", \"ABC\") = 0"],
+            ["Substring", "Extracting part of a string", "\"Hello\".substring(1,3) = \"el\""],
+            ["Search", "Finding a character/word", "str.find(\"o\") = 4"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: String Concatenation",
+          "given": ["string firstName = \"John\";", "string lastName = \"Doe\";"],
+          "find": "Combine them into a full name.",
+          "steps": [
+            "string fullName = firstName + \" \" + lastName;",
+            "fullName = \"John Doe\""
+          ],
+          "answer": "\"John Doe\"",
+          "formula_used": "String concatenation"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Strings are mutable in all languages.",
+          "wrong": "Strings are mutable in Java.",
+          "correct": "In Java, strings are immutable. In C/C++, strings are mutable (arrays).",
+          "tip": "Know the language-specific behavior of strings."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Strings are sequences of characters.",
+            "Common operations: length, concatenation, comparison, search.",
+            "In many languages, strings are immutable (Java, Python).",
+            "In C/C++, strings are character arrays (mutable)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pointers_dynamic",
+      "title": "Pointers and Dynamic Memory Allocation (Conceptual)",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Pointers and Dynamic Memory",
+          "subtitle": "Managing Memory Efficiently",
+          "tags": ["Advanced", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📍",
+          "title": "What is a Pointer?",
+          "content": "A pointer is a variable that stores the memory address of another variable. Pointers allow direct memory access and are fundamental to C/C++ programming.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Dynamic Memory Allocation",
+          "content": "Dynamic memory allocation allows memory to be allocated at runtime. In C: malloc(), calloc(), realloc(), free(). In C++: new and delete operators.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Dynamic Memory Functions",
+          "headers": ["Function (C)", "Function (C++)", "Purpose"],
+          "rows": [
+            ["malloc()", "new", "Allocates memory of a specified size."],
+            ["calloc()", "new (with initialization)", "Allocates and initializes memory to zero."],
+            ["realloc()", "Not directly available", "Resizes previously allocated memory."],
+            ["free()", "delete", "Frees dynamically allocated memory."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Dynamic Array",
+          "given": ["Allocate memory for an array of 10 integers at runtime."],
+          "find": "Write the code.",
+          "steps": [
+            "int *arr = (int*)malloc(10 * sizeof(int));",
+            "// Use the array",
+            "free(arr); // Free memory when done"
+          ],
+          "answer": "malloc() and free()",
+          "formula_used": "Dynamic memory allocation"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Memory leaks.",
+          "wrong": "Allocating memory without freeing it.",
+          "correct": "Always free dynamically allocated memory.",
+          "tip": "Memory leaks can cause programs to crash due to exhaustion."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Pointers store memory addresses.",
+            "Dynamic memory allocation occurs at runtime.",
+            "Use malloc()/calloc() and free() in C.",
+            "Use new and delete in C++.",
+            "Always free memory to prevent leaks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "programming_shortcuts",
+      "title": "Shortcuts and Memory Tricks for Programming",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Programming Shortcuts",
+          "subtitle": "Quick Memory Aids",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 1 – Loop Types",
+          "content": "for = fixed count, while = condition-based, do-while = at least once.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 2 – Data Types",
+          "content": "int = whole, float/double = decimal, char = one letter, string = text, bool = true/false.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 3 – Operators",
+          "content": "Arithmetic (math), Relational (compare), Logical (and/or/not), Assignment (=, +=).",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "FAD",
+          "memory_trick": "Functions, Arrays, Data types – the three pillars of programming."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Algorithm = Step-by-step solution.",
+            "Flowchart = Visual logic.",
+            "Variables store data, data types define storage.",
+            "if/else = decisions, loops = repetition.",
+            "Functions = code reusability.",
+            "Arrays = collections, strings = text.",
+            "Pointers = memory addresses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "programming_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Programming Fundamentals – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on data types, loops, control structures, and functions. Understand the syntax and logic of common programming concepts.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which data type is used to store decimal numbers?",
+          "options": ["int", "float", "char", "bool"],
+          "answer": 1,
+          "explanation": "float is used to store decimal numbers. int is for integers, char for characters, bool for true/false.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which loop is guaranteed to execute at least once?",
+          "options": ["for", "while", "do-while", "None of the above"],
+          "answer": 2,
+          "explanation": "do-while checks the condition after executing the body, so it always executes at least once.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the output of: int a = 5; a += 3; print(a);?",
+          "options": ["3", "5", "8", "15"],
+          "answer": 2,
+          "explanation": "a += 3 means a = a + 3 = 5 + 3 = 8.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which statement is used to exit a loop early?",
+          "options": ["continue", "break", "return", "exit"],
+          "answer": 1,
+          "explanation": "break is used to exit a loop early. continue skips the current iteration.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the correct syntax for an if-else statement?",
+          "options": [
+            "if (condition) { statement; } else { statement; }",
+            "if condition { statement; } else { statement; }",
+            "if (condition) { statement; } else statement;",
+            "All of the above"
+          ],
+          "answer": 0,
+          "explanation": "The correct syntax includes parentheses around the condition and braces for blocks.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is a function?",
+          "options": [
+            "A block of code that performs a specific task.",
+            "A variable that stores data.",
+            "A loop that repeats code.",
+            "A data type for text."
+          ],
+          "answer": 0,
+          "explanation": "A function is a reusable block of code that performs a specific task.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which operator is used for logical AND?",
+          "options": ["&&", "||", "!", "&"],
+          "answer": 0,
+          "explanation": "&& is the logical AND operator. || is OR, ! is NOT.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the index of the first element in an array?",
+          "options": ["0", "1", "-1", "Depends on the language"],
+          "answer": 0,
+          "explanation": "Array indices start at 0 in most programming languages (C, C++, Java, Python).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is recursion?",
+          "options": [
+            "A loop that repeats code.",
+            "A function that calls itself.",
+            "A data type for storing multiple values.",
+            "A way to declare variables."
+          ],
+          "answer": 1,
+          "explanation": "Recursion is a technique where a function calls itself.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the output of: int x = 10; int y = 3; int z = x / y; print(z);?",
+          "options": ["3", "3.33", "4", "10"],
+          "answer": 0,
+          "explanation": "Integer division truncates the decimal part. 10 / 3 = 3 (in integer arithmetic).",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review data types, control structures (if-else, switch), loops (for, while, do-while), and functions. Practice writing simple programs to reinforce concepts."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Programming Fundamentals",
+          "points": [
+            "Algorithm = Step-by-step logic.",
+            "Flowchart = Visual algorithm.",
+            "Data types: int, float, char, bool, string.",
+            "Operators: Arithmetic (+, -, *, /, %), Relational (==, !=, >, <), Logical (&&, ||, !).",
+            "if/else: Decision making.",
+            "switch: Multi-way branching.",
+            "for: Fixed iterations.",
+            "while: Condition-based iterations.",
+            "do-while: At least one iteration.",
+            "break: Exit loop, continue: Skip iteration.",
+            "Functions: Reusable code blocks.",
+            "Recursion: Function calling itself.",
+            "Arrays: Collections of similar data.",
+            "Strings: Text data.",
+            "Pointers: Memory addresses."
+          ]
+        }
+      ]
+    }
+  ]
+}

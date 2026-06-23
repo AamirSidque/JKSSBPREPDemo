@@ -1,0 +1,795 @@
+{
+  "id": "network_devices_router_switch_hub",
+  "subject_id": "computer_science_networking",
+  "title": "Network Devices: Router, Switch, Hub",
+  "subtopics": [
+    {
+      "id": "devices_intro",
+      "title": "Introduction to Network Devices – The Building Blocks of Networks",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Network Devices",
+          "subtitle": "Routers, Switches, Hubs, and More",
+          "tags": ["JKSSB", "High Weightage", "Networking"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔧",
+          "title": "What are Network Devices?",
+          "content": "Network devices are hardware components that connect computers, servers, and other devices to a network. They facilitate communication, routing, switching, and data transmission.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Categories of Network Devices",
+          "content": "1. **End Devices**: Computers, printers, servers.\n2. **Intermediary Devices**: Routers, switches, hubs, bridges, gateways, firewalls, modems.\n3. **Network Media**: Cables, wireless signals.",
+          "highlight": false
+        },
+        {
+          "type": "process_flow",
+          "title": "How Data Flows Through Network Devices",
+          "steps": [
+            "Step 1: End device generates data.",
+            "Step 2: Hub or switch receives the data (Layer 1/2).",
+            "Step 3: Switch forwards based on MAC address (Layer 2).",
+            "Step 4: Router receives data to forward between networks (Layer 3).",
+            "Step 5: Router uses IP addresses to find the best path.",
+            "Step 6: Data reaches the destination end device."
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Network devices are essential for connectivity and communication.",
+            "Different devices operate at different OSI layers.",
+            "Hubs = Layer 1, Switches = Layer 2, Routers = Layer 3.",
+            "Understanding device functions is crucial for network design and troubleshooting."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hub",
+      "title": "Hub – The Simplest Network Device (Layer 1)",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Hub",
+          "subtitle": "Layer 1 Broadcast Device",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "What is a Hub?",
+          "content": "A hub is a simple network device that connects multiple devices in a star topology. It operates at the Physical Layer (Layer 1) of the OSI model and broadcasts incoming data to all other ports.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Hub Characteristics",
+          "headers": ["Characteristic", "Description"],
+          "rows": [
+            ["OSI Layer", "Physical Layer (Layer 1)"],
+            ["Type", "Passive/Active"],
+            ["Forwarding", "Broadcasts data to all ports (except incoming)"],
+            ["Collision Domain", "Single collision domain (all devices share it)"],
+            ["Broadcast Domain", "Single broadcast domain"],
+            ["Intelligence", "None (dumb device)"],
+            ["Speed", "Slower than switches"],
+            ["Security", "No security (all devices see all traffic)"],
+            ["Use Case", "Legacy networks, small setups, testing"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚠️",
+          "title": "Hub Types",
+          "content": "1. **Passive Hub**: Simply forwards signals without amplification.\n2. **Active Hub**: Amplifies signals before forwarding (repeater).\n3. **Intelligent Hub**: Has basic management features.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Hub Broadcast Behavior",
+          "given": ["A hub has 4 ports. Device A sends a packet to Device B."],
+          "find": "What does the hub do?",
+          "steps": [
+            "The hub receives the packet on port 1.",
+            "It broadcasts the packet to all other ports (2, 3, and 4).",
+            "Devices B, C, and D all receive the packet.",
+            "Only Device B processes it (based on MAC address)."
+          ],
+          "answer": "The hub broadcasts the packet to all ports.",
+          "formula_used": "Hub forwarding logic"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Hubs and Switches are the same.",
+          "wrong": "Hubs are faster than switches.",
+          "correct": "Switches are faster and more efficient because they forward only to the destination port.",
+          "tip": "Hubs = Shared bandwidth, Switches = Dedicated bandwidth."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Hub = Layer 1 (Physical Layer).",
+            "Broadcasts to all ports.",
+            "Single collision domain.",
+            "Single broadcast domain.",
+            "No intelligence, no security.",
+            "Obsolescent technology (replaced by switches)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "switch",
+      "title": "Switch – The Intelligent Bridge (Layer 2)",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Switch",
+          "subtitle": "Layer 2 Intelligent Forwarding",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔀",
+          "title": "What is a Switch?",
+          "content": "A switch is a network device that connects devices within the same network. It operates at the Data Link Layer (Layer 2) and uses MAC addresses to forward frames to the correct destination port.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Switch Characteristics",
+          "headers": ["Characteristic", "Description"],
+          "rows": [
+            ["OSI Layer", "Data Link Layer (Layer 2)"],
+            ["Forwarding", "Unicast to destination port (based on MAC address)"],
+            ["Collision Domain", "Each port is a separate collision domain"],
+            ["Broadcast Domain", "Single broadcast domain (default)"],
+            ["Intelligence", "Learns MAC addresses (CAM table)"],
+            ["Speed", "Fast (dedicated bandwidth per port)"],
+            ["Security", "Better than hubs (isolation)"],
+            ["VLAN Support", "Can create VLANs (break broadcast domains)"],
+            ["Use Case", "All modern networks"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Switch Forwarding",
+          "given": ["A switch has a MAC address table: MAC A → Port 1, MAC B → Port 2."],
+          "find": "What happens when the switch receives a frame for MAC B on Port 3?",
+          "steps": [
+            "The switch looks up MAC B in its table.",
+            "It finds MAC B on Port 2.",
+            "The switch forwards the frame only to Port 2.",
+            "Other ports do not receive the frame."
+          ],
+          "answer": "The frame is forwarded only to Port 2.",
+          "formula_used": "Switch forwarding logic"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Switches break broadcast domains.",
+          "wrong": "Switches break broadcast domains like routers.",
+          "correct": "Switches do NOT break broadcast domains by default. VLANs are required to break broadcast domains on a switch.",
+          "tip": "Switches = Break collision domains; Routers = Break broadcast domains."
+        },
+        {
+          "type": "comparison",
+          "title": "Hub vs Switch",
+          "left_header": "Hub",
+          "right_header": "Switch",
+          "rows": [
+            { "left": "Layer 1 (Physical)", "right": "Layer 2 (Data Link)" },
+            { "left": "Broadcasts to all ports", "right": "Forwards to destination port" },
+            { "left": "Single collision domain", "right": "Each port is separate collision domain" },
+            { "left": "Slow", "right": "Fast" },
+            { "left": "No MAC address learning", "right": "Learns MAC addresses" },
+            { "left": "Inefficient", "right": "Efficient" }
+          ]
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Switch = Layer 2 (Data Link Layer).",
+            "Uses MAC addresses to forward frames.",
+            "Each port is a separate collision domain.",
+            "Learns MAC addresses (CAM table).",
+            "VLANs can break broadcast domains.",
+            "Modern networks use switches instead of hubs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "router",
+      "title": "Router – The Network Layer Device (Layer 3)",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Router",
+          "subtitle": "Connecting Networks and Routing Traffic",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌐",
+          "title": "What is a Router?",
+          "content": "A router is a network device that connects multiple networks and forwards data between them. It operates at the Network Layer (Layer 3) and uses IP addresses to determine the best path.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Router Characteristics",
+          "headers": ["Characteristic", "Description"],
+          "rows": [
+            ["OSI Layer", "Network Layer (Layer 3)"],
+            ["Addressing", "Uses IP addresses (logical addressing)"],
+            ["Forwarding", "Routes packets based on IP addresses and routing tables"],
+            ["Collision Domain", "Breaks collision domains"],
+            ["Broadcast Domain", "Breaks broadcast domains"],
+            ["Intelligence", "High (routing protocols, NAT, QoS, ACLs)"],
+            ["Speed", "Slower than switches (CPU intensive)"],
+            ["Security", "Supports ACLs, firewalls, VPNs"],
+            ["Use Case", "Connecting different networks, Internet access"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Router Forwarding",
+          "given": ["A router receives a packet with destination IP 8.8.8.8."],
+          "find": "How does the router forward it?",
+          "steps": [
+            "The router looks up the destination IP in its routing table.",
+            "If a matching route is found, it forwards the packet to the next hop.",
+            "If no route is found, the packet is dropped (or sent to default gateway)."
+          ],
+          "answer": "The router forwards based on the routing table.",
+          "formula_used": "Routing table lookup"
+        },
+        {
+          "type": "comparison",
+          "title": "Switch vs Router",
+          "left_header": "Switch",
+          "right_header": "Router",
+          "rows": [
+            { "left": "Layer 2 (Data Link)", "right": "Layer 3 (Network)" },
+            { "left": "Uses MAC addresses", "right": "Uses IP addresses" },
+            { "left": "Connects devices within same network", "right": "Connects different networks" },
+            { "left": "Forward frames", "right": "Forward packets" },
+            { "left": "Does not break broadcast domains", "right": "Breaks broadcast domains" },
+            { "left": "Faster", "right": "Slower" }
+          ]
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Routers use MAC addresses for forwarding.",
+          "wrong": "Routers use MAC addresses to forward packets between networks.",
+          "correct": "Routers use IP addresses for inter-network routing. MAC addresses are used only within the local network.",
+          "tip": "Routers = IP addresses (Layer 3); Switches = MAC addresses (Layer 2)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Router = Layer 3 (Network Layer).",
+            "Uses IP addresses to route packets.",
+            "Breaks collision and broadcast domains.",
+            "Connects different networks.",
+            "Uses routing tables and routing protocols.",
+            "Supports NAT, ACLs, QoS, and VPNs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "layer3_switch",
+      "title": "Layer 3 Switch – The Multilayer Device",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Layer 3 Switch",
+          "subtitle": "Switching and Routing in One Device",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔀",
+          "title": "What is a Layer 3 Switch?",
+          "content": "A Layer 3 switch combines the functionality of a switch and a router. It operates at Layer 2 (switching) and Layer 3 (routing). It can route between VLANs at wire speed.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Layer 3 Switch Characteristics",
+          "headers": ["Characteristic", "Description"],
+          "rows": [
+            ["OSI Layers", "Layer 2 (Switching) + Layer 3 (Routing)"],
+            ["Routing", "Inter-VLAN routing (without external router)"],
+            ["Speed", "Wire-speed routing (ASIC-based)"],
+            ["Cost", "More expensive than Layer 2 switches"],
+            ["Use Case", "Campus networks, enterprise LANs"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Layer 3 Switch Use Case",
+          "given": ["A company has 3 VLANs: Sales, HR, and IT. They need high-speed communication between them."],
+          "find": "Should they use a Layer 2 switch + router or a Layer 3 switch?",
+          "steps": [
+            "Inter-VLAN routing is required.",
+            "A Layer 2 switch + router would introduce latency (router bottleneck).",
+            "A Layer 3 switch can route between VLANs at wire speed.",
+            "Answer: Layer 3 switch."
+          ],
+          "answer": "Layer 3 switch",
+          "formula_used": "Inter-VLAN routing needs"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Layer 3 switches are just routers.",
+          "wrong": "Layer 3 switches are identical to routers.",
+          "correct": "Layer 3 switches are primarily switches with routing capabilities. They are faster for inter-VLAN routing but less feature-rich than dedicated routers.",
+          "tip": "Layer 3 switches = Campus routing; Routers = WAN routing."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Layer 3 switch = Switch + Router.",
+            "Supports inter-VLAN routing.",
+            "Wire-speed routing (ASIC-based).",
+            "Used in campus networks.",
+            "Cheaper and faster than router for internal routing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bridge_repeater",
+      "title": "Bridge and Repeater – Extending and Segmenting Networks",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Bridge and Repeater",
+          "subtitle": "Connecting and Extending Networks",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌉",
+          "title": "Bridge – Layer 2 Connection",
+          "content": "A bridge connects two network segments and forwards frames based on MAC addresses. It operates at Layer 2 and breaks collision domains. Bridges are less common now, replaced by switches.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "Repeater – Layer 1 Signal Booster",
+          "content": "A repeater receives a signal, regenerates it, and retransmits it. It operates at Layer 1 (Physical) and extends the range of a network. It does not make forwarding decisions.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Bridge vs Repeater",
+          "headers": ["Aspect", "Bridge", "Repeater"],
+          "rows": [
+            ["OSI Layer", "Layer 2 (Data Link)", "Layer 1 (Physical)"],
+            ["Function", "Connects two segments, filters frames", "Amplifies and regenerates signals"],
+            ["Forwarding", "Uses MAC addresses", "No decision making"],
+            ["Collision Domain", "Breaks collision domains", "Does not break collision domains"],
+            ["Intelligence", "Medium intelligence", "No intelligence"],
+            ["Use Case", "Segmenting networks", "Extending cable length"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Repeater Use Case",
+          "given": ["A network cable has a maximum length of 100 meters, but the distance between two devices is 150 meters."],
+          "find": "What device should be used?",
+          "steps": [
+            "The signal will degrade beyond 100 meters.",
+            "A repeater can regenerate the signal.",
+            "Place a repeater at 100 meters.",
+            "This extends the network to 200 meters."
+          ],
+          "answer": "A repeater should be used to extend the network.",
+          "formula_used": "Signal regeneration"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Repeaters break collision domains.",
+          "wrong": "Repeaters break collision domains like switches.",
+          "correct": "Repeaters do NOT break collision domains. They only regenerate signals.",
+          "tip": "Repeaters = Layer 1 (no intelligence); Bridges = Layer 2 (MAC addresses)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Bridge = Layer 2, connects and filters by MAC address.",
+            "Bridge breaks collision domains.",
+            "Repeater = Layer 1, regenerates signals.",
+            "Repeater does not break collision domains."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gateway_modem",
+      "title": "Gateway and Modem – Internet Connectivity Devices",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Gateway and Modem",
+          "subtitle": "Connecting to the Internet",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Gateway – Connecting Different Networks",
+          "content": "A gateway connects networks with different protocols (e.g., Ethernet to ATM, IPv4 to IPv6). It operates at multiple OSI layers and performs protocol translation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "Modem – Modulator-Demodulator",
+          "content": "A modem converts digital signals from a computer to analog signals for transmission over telephone lines (or vice versa). It modulates outgoing signals and demodulates incoming signals.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Gateway vs Modem",
+          "headers": ["Aspect", "Gateway", "Modem"],
+          "rows": [
+            ["Function", "Connects different networks, protocol translation", "Converts digital to analog and vice versa"],
+            ["OSI Layer", "Multiple layers (Application to Physical)", "Physical Layer"],
+            ["Protocol", "Can translate protocols", "Only signal conversion"],
+            ["Use Case", "Connecting enterprise networks, IPv6 to IPv4", "Internet over telephone/cable lines"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Gateway Use Case",
+          "given": ["A company uses IPv6 internally but needs to connect to the IPv4 Internet."],
+          "find": "What device is required?",
+          "steps": [
+            "IPv6 and IPv4 are different protocols.",
+            "A gateway can translate between the two.",
+            "The gateway will convert IPv6 packets to IPv4 and vice versa."
+          ],
+          "answer": "A gateway is required for protocol translation.",
+          "formula_used": "Protocol translation"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Gateway and Router.",
+          "wrong": "Gateway and router are the same.",
+          "correct": "A router forwards packets between networks using IP addresses. A gateway translates protocols (in addition to routing).",
+          "tip": "All gateways can route, but not all routers are gateways."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Gateway = Connects different networks and translates protocols.",
+            "Modem = Converts digital to analog (and vice versa).",
+            "Gateway works at multiple layers.",
+            "Modem works at the Physical Layer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "firewall_accesspoint",
+      "title": "Firewall and Access Point – Security and Wireless Connectivity",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Firewall and Access Point",
+          "subtitle": "Security and Wireless Access",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "Firewall – Network Security Device",
+          "content": "A firewall monitors incoming and outgoing network traffic and blocks or allows data based on predefined security rules. It can be hardware-based or software-based.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📶",
+          "title": "Access Point (AP) – Wireless Connectivity",
+          "content": "An Access Point (AP) connects wireless devices to a wired network. It bridges wireless and wired networks, allowing devices like laptops and smartphones to connect to the network.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Firewall vs Access Point",
+          "headers": ["Aspect", "Firewall", "Access Point"],
+          "rows": [
+            ["Function", "Security, traffic filtering", "Wireless connectivity"],
+            ["OSI Layer", "Layer 3-7 (packet inspection)", "Layer 2 (bridging)"],
+            ["Key Feature", "Rules, ACLs, IDS/IPS", "Wi-Fi signals, SSID, encryption"],
+            ["Use Case", "Protecting networks from threats", "Providing wireless access"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Firewall Rule",
+          "given": ["A firewall blocks all incoming traffic except HTTP (port 80)."],
+          "find": "What happens when a user tries to access port 22 (SSH) from outside?",
+          "steps": [
+            "The firewall inspects the traffic.",
+            "Port 22 is not allowed.",
+            "The connection is blocked."
+          ],
+          "answer": "The connection is blocked by the firewall.",
+          "formula_used": "Firewall rule application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Firewalls only operate at Layer 3.",
+          "wrong": "Firewalls only examine IP addresses and ports.",
+          "correct": "Modern firewalls can operate at Layers 3-7, inspecting application data as well (next-generation firewalls).",
+          "tip": "Stateful firewalls inspect entire sessions, not just packets."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Firewall = Security device (blocks/permits traffic).",
+            "Access Point = Wireless bridge (connects Wi-Fi devices).",
+            "Firewalls use rules and ACLs.",
+            "APs use SSID, encryption, and authentication."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "device_summary",
+      "title": "Device Summary Table – Quick Revision",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Network Devices – Summary Table",
+          "subtitle": "Quick Reference for All Devices",
+          "tags": ["Revision", "Important"]
+        },
+        {
+          "type": "table",
+          "title": "Network Devices Comparison",
+          "headers": ["Device", "OSI Layer", "Key Function", "Forwarding", "Domain Break"],
+          "rows": [
+            ["Hub", "Layer 1", "Connect devices", "Broadcast", "Breaks nothing"],
+            ["Repeater", "Layer 1", "Signal regeneration", "None", "Breaks nothing"],
+            ["Bridge", "Layer 2", "Connect segments", "MAC address", "Breaks collision domains"],
+            ["Switch", "Layer 2", "Connect devices", "MAC address", "Breaks collision domains"],
+            ["Router", "Layer 3", "Connect networks", "IP address", "Breaks broadcast & collision domains"],
+            ["Layer 3 Switch", "Layer 2+3", "Switch + Routing", "MAC + IP", "Breaks broadcast & collision domains"],
+            ["Gateway", "Multiple", "Protocol translation", "Multiple", "Breaks broadcast & collision domains"],
+            ["Firewall", "Layer 3-7", "Security filtering", "Rules", "Breaks broadcast & collision domains"],
+            ["Access Point", "Layer 2", "Wireless bridge", "MAC address", "Breaks collision domains"],
+            ["Modem", "Layer 1", "Digital to analog", "None", "Breaks nothing"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Hubs and repeaters = Layer 1, dumb devices.",
+            "Bridges and switches = Layer 2, MAC-based.",
+            "Routers = Layer 3, IP-based.",
+            "Layer 3 switches = Fast routing + switching.",
+            "Gateways = Protocol translation.",
+            "Firewalls = Security.",
+            "Access Points = Wireless connectivity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "device_shortcuts",
+      "title": "Shortcuts and Memory Tricks for Network Devices",
+      "estimated_minutes": 6,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Network Device Shortcuts",
+          "subtitle": "Quick Memory Aids",
+          "tags": ["Shortcuts", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 1 – OSI Layer Mapping",
+          "content": "Layer 1 = Hub/Repeater/Modem (Physical).\nLayer 2 = Switch/Bridge (Data Link).\nLayer 3 = Router/Layer 3 Switch (Network).\nMultiple = Gateway/Firewall.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 2 – Domain Breaking",
+          "content": "Hubs/Repeaters = Break nothing.\nSwitches/Bridges = Break collision domains.\nRouters = Break both collision and broadcast domains.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Shortcut 3 – Device Memory",
+          "content": "MAC = Switch (Layer 2).\nIP = Router (Layer 3).\nSignal = Hub/Repeater (Layer 1).",
+          "highlight": true
+        },
+        {
+          "type": "mnemonic",
+          "title": "Memory Trick",
+          "mnemonic": "SHBR",
+          "memory_trick": "Switch Hub Bridge Router – the progression of intelligence."
+        },
+        {
+          "type": "revision",
+          "title": "Shortcut Summary",
+          "points": [
+            "Hub/Repeater = Layer 1, no intelligence.",
+            "Switch/Bridge = Layer 2, MAC addresses.",
+            "Router/Layer 3 Switch = Layer 3, IP addresses.",
+            "Firewall = Security, multiple layers.",
+            "Access Point = Wireless connectivity.",
+            "Gateway = Protocol translation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "devices_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Network Devices – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on OSI layer mapping, domain breaking (collision vs broadcast), and forwarding logic of each device. Know the differences between hub, switch, and router.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which device operates at the Physical Layer (Layer 1) of the OSI model?",
+          "options": ["Switch", "Router", "Hub", "Bridge"],
+          "answer": 2,
+          "explanation": "A hub operates at Layer 1 (Physical Layer). It simply broadcasts signals to all ports.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which device uses MAC addresses to forward frames?",
+          "options": ["Hub", "Router", "Switch", "Repeater"],
+          "answer": 2,
+          "explanation": "A switch uses MAC addresses to forward frames to the correct destination port.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which device breaks broadcast domains?",
+          "options": ["Switch", "Hub", "Router", "Bridge"],
+          "answer": 2,
+          "explanation": "Routers break broadcast domains. Switches do not break broadcast domains by default.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which device is also known as a multiport bridge?",
+          "options": ["Hub", "Switch", "Router", "Gateway"],
+          "answer": 1,
+          "explanation": "A switch is often called a multiport bridge because it performs bridging functions on multiple ports.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which device is used to connect different networks with different protocols?",
+          "options": ["Router", "Switch", "Gateway", "Bridge"],
+          "answer": 2,
+          "explanation": "A gateway connects networks with different protocols and performs protocol translation.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which device regenerates signals to extend the range of a network?",
+          "options": ["Repeater", "Switch", "Router", "Bridge"],
+          "answer": 0,
+          "explanation": "A repeater regenerates signals and extends the range of a network.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which device operates at Layer 3 and is used for inter-network routing?",
+          "options": ["Switch", "Hub", "Router", "Bridge"],
+          "answer": 2,
+          "explanation": "A router operates at Layer 3 and routes packets between different networks using IP addresses.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which device breaks collision domains but does NOT break broadcast domains?",
+          "options": ["Router", "Switch", "Hub", "Gateway"],
+          "answer": 1,
+          "explanation": "A switch breaks collision domains but does not break broadcast domains (unless VLANs are used).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which device provides wireless connectivity to a wired network?",
+          "options": ["Firewall", "Access Point", "Router", "Modem"],
+          "answer": 1,
+          "explanation": "An Access Point (AP) provides wireless connectivity to a wired network.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which device performs protocol translation between different network architectures?",
+          "options": ["Router", "Gateway", "Switch", "Bridge"],
+          "answer": 1,
+          "explanation": "A gateway performs protocol translation between different network architectures.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the OSI layer of each device, domain breaking, and forwarding logic. Memorize the differences between hub, switch, and router. Understand the role of gateways and firewalls."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Network Devices",
+          "points": [
+            "Hub: Layer 1, broadcasts, no intelligence.",
+            "Switch: Layer 2, MAC addresses, breaks collision domains.",
+            "Router: Layer 3, IP addresses, breaks broadcast and collision domains.",
+            "Bridge: Layer 2, connects segments, breaks collision domains.",
+            "Repeater: Layer 1, regenerates signals.",
+            "Gateway: Multiple layers, protocol translation.",
+            "Firewall: Security, packet filtering.",
+            "Access Point: Wireless connectivity.",
+            "Modem: Digital to analog conversion.",
+            "Layer 3 Switch: Layer 2 + Layer 3, inter-VLAN routing."
+          ]
+        }
+      ]
+    }
+  ]
+}

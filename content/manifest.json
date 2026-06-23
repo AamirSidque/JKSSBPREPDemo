@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "subjects": [
      
     {
@@ -17,6 +17,14 @@
       "theme_color": "#9B59B6",
       "description": "This Subjects Checks Your Mind Presence.",
       "topics_file": "content/general_intelligence/topics.json"
+    },
+    {
+      "id": "grammar_tenses_modals_articles_prepositions",
+      "title": "General English and Comm. Skills",
+      "emoji": "📚",
+      "theme_color": "#9B59B6",
+      "description": "Grammar (Tenses, Modals, Articles, Prepositions)",
+      "topics_file": "content/general_english/topics.json"
     }
   ]
 }

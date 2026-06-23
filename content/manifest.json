@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "subjects": [
      
     {
@@ -25,6 +25,14 @@
       "theme_color": "#9B59B6",
       "description": "Grammar (Tenses, Modals, Articles, Prepositions)",
       "topics_file": "content/general_english/topics.json"
+    },
+    {
+      "id": "computer_science_networking",
+      "title": "Computer Science and Networking System",
+      "emoji": "💻",
+      "theme_color": "#9B59B6",
+      "description": "Study of computers, software, and network communication",
+      "topics_file": "content/computer_science_networking/topics.json"
     }
   ]
 }

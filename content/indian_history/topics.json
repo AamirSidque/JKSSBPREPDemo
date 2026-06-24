@@ -1,0 +1,12 @@
+{
+  "subject_id": "indian_history",
+  "topics": [
+    { "id": "ancient_india",    "title": "Ancient India: Beginnings to 700 CE",    "file": "content/indian_history/ancient_india.json",    "available": true },
+    { "id": "medieval_india", "title": "Medieval India: 700 CE to 1756 CE", "file": "content/indian_history/medieval_india.json", "available": true},
+    { "id": "british_colonial_rule",    "title": "British Colonial Rule and Resistance: 1757 CE to 1947 CE",    "file": "content/indian_history/british_colonial_rule.json",    "available": true },
+    { "id": "post_independence",    "title": "Post-Independence and Nation Building: 1947 to 1990",    "file": "content/indian_history/post_independence.json",    "available": true },
+    { "id": "economic_liberalization",    "title": "Economic Liberalization and the IT Era: 1991 to 2014",    "file": "content/indian_history/economic_liberalization.json",    "available": true },
+    { "id": "contemporary_india",    "title": "Contemporary India: 2015 to Present",    "file": "content/indian_history/contemporary_india.json",    "available": true }
+    
+  ]
+}

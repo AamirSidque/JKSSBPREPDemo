@@ -19,6 +19,14 @@
       "topics_file": "content/general_intelligence/topics.json"
     },
     {
+      "id": "indian_history",
+      "title": "History - Indian",
+      "emoji": "📜",
+      "theme_color": "#9B59B6",
+      "description": "History ( IVC to Present )",
+      "topics_file": "content/indian_history/topics.json"
+    },
+    {
       "id": "grammar_tenses_modals_articles_prepositions",
       "title": "General English and Comm. Skills",
       "emoji": "📚",

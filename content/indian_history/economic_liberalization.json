@@ -1,0 +1,480 @@
+{
+  "id": "economic_liberalization",
+  "subject_id": "indian_history",
+  "title": "Economic Liberalization and the IT Era: 1991 to 2014",
+  "subtopics": [
+    {
+      "id": "reforms_1991",
+      "title": "Economic Reforms of 1991 – The LPG Era",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Economic Reforms of 1991",
+          "subtitle": "Liberalization, Privatization, and Globalization (LPG)",
+          "tags": ["JKSSB", "High Weightage", "Modern India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "The Balance of Payment Crisis (1991)",
+          "content": "In 1991, India faced a severe balance of payments crisis. Foreign exchange reserves dropped to just $1 billion (enough for 3 weeks of imports). The Gulf War (1990) increased oil prices, and foreign investors withdrew their money. India had to pledge its gold reserves to the Bank of England to secure a loan.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "The New Economic Policy (NEP) 1991",
+          "content": "The NEP was introduced by Prime Minister P.V. Narasimha Rao and Finance Minister Dr. Manmohan Singh. It marked a shift from the state-controlled economy to a market-oriented economy. The reforms were based on three pillars: Liberalization, Privatization, and Globalization (LPG).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Liberalization",
+          "content": "Reduction of government control and restrictions on industries. Industrial licensing was abolished (except for 18 industries). The role of the public sector was reduced. The FDI (Foreign Direct Investment) limit was increased. Foreign technology agreements were simplified. The rupee was devalued to make exports competitive.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏭",
+          "title": "Privatization",
+          "content": "The government reduced its ownership and control over public sector enterprises. Disinvestment (selling government stakes) was introduced. Public sector monopolies were broken (telecom, aviation, banking). Private players were allowed in sectors earlier reserved for the public sector.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Globalization",
+          "content": "India opened its economy to the world. Trade barriers were reduced (import tariffs lowered). Foreign investment was encouraged. India joined the WTO (World Trade Organization) in 1995. The Indian economy became integrated with the global economy.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Reforms of 1991",
+          "headers": ["Sector", "Reform", "Impact"],
+          "rows": [
+            ["Industrial", "Abolition of licensing (except 18)", "Encouraged private investment."],
+            ["Trade", "Lower tariffs, devaluation of rupee", "Boosted exports."],
+            ["Financial", "Banking reforms, FDI limits increased", "Attracted foreign capital."],
+            ["Public Sector", "Disinvestment, privatization", "Reduced government burden."],
+            ["Foreign", "FDI allowed in many sectors", "Global integration."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The 1991 Devaluation of the Rupee",
+          "given": ["India devalued the rupee by 18-20% in July 1991."],
+          "find": "Why was the rupee devalued?",
+          "steps": [
+            "To make Indian exports cheaper and more competitive.",
+            "To attract foreign investment.",
+            "To address the balance of payments crisis.",
+            "To stabilize the economy and restore investor confidence."
+          ],
+          "answer": "The rupee devaluation made exports cheaper and boosted foreign exchange reserves.",
+          "formula_used": "Economic policy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The 1991 reforms were implemented by Indira Gandhi.",
+          "wrong": "The 1991 reforms were implemented by Indira Gandhi.",
+          "correct": "The 1991 reforms were implemented by P.V. Narasimha Rao and Manmohan Singh.",
+          "tip": "Indira Gandhi = 1960s–80s; 1991 reforms = Narasimha Rao + Manmohan Singh."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "1991: Balance of payment crisis, gold pledge.",
+            "New Economic Policy: LPG – Liberalization, Privatization, Globalization.",
+            "Liberalization: Reduced licensing, FDI, devaluation.",
+            "Privatization: Disinvestment, private players.",
+            "Globalization: WTO, foreign investment, trade liberalization.",
+            "India's economy grew rapidly after 1991."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coalition_foreign",
+      "title": "Coalition Politics and Foreign Relations (Vajpayee, Pokhran-II, Kargil, Look East)",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Coalition Politics and Foreign Relations",
+          "subtitle": "The Era of Coalition Governments and Nuclear Diplomacy",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Coalition Politics in India",
+          "content": "The 1990s and 2000s were marked by coalition governments. The decline of single-party dominance led to the formation of alliances: the National Democratic Alliance (NDA) led by the BJP, and the United Progressive Alliance (UPA) led by the Congress.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "☢️",
+          "title": "Pokhran-II Nuclear Tests (1998)",
+          "content": "On 11th and 13th May 1998, India conducted five nuclear tests at Pokhran, Rajasthan, under Prime Minister Atal Bihari Vajpayee. The tests were code-named 'Operation Shakti'. India declared itself a nuclear weapon state. The tests led to international sanctions (US, Japan), but India refused to sign the CTBT (Comprehensive Nuclear-Test-Ban Treaty).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Kargil War (1999)",
+          "content": "The Kargil War was fought between India and Pakistan in the Kargil district of Jammu & Kashmir. Pakistani soldiers and militants had infiltrated into Indian territory. The Indian Army launched 'Operation Vijay' to evict them. The war ended in July 1999 with India recapturing all positions. It was the first war fought after the nuclear tests.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌏",
+          "title": "Look East and Other Foreign Policies",
+          "content": "Prime Minister Atal Bihari Vajpayee and later leaders adopted a 'Look East' policy to strengthen ties with Southeast Asian countries (ASEAN). India also engaged with the US, Russia, and Israel, balancing multiple relationships. The foreign policy focused on economic cooperation, security, and countering terrorism.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Events in the Post-1991 Era",
+          "headers": ["Event", "Year", "Significance"],
+          "rows": [
+            ["Pokhran-II Tests", "1998", "India declared a nuclear power, 'Operation Shakti'."],
+            ["Kargil War", "1999", "India's victory, 'Operation Vijay'."],
+            ["Look East Policy", "1990s–2000s", "Strengthened ties with Southeast Asia (ASEAN)."],
+            ["NDA Government", "1998–2004", "First stable coalition under Vajpayee."],
+            ["UPA Government", "2004–2014", "Congress-led coalition under Manmohan Singh."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Pokhran-II – India's Nuclear Tests",
+          "given": ["India conducted nuclear tests in 1998 under Vajpayee."],
+          "find": "What was the significance of the Pokhran-II tests?",
+          "steps": [
+            "India became a nuclear weapons state.",
+            "Demonstrated India's scientific and technological capability.",
+            "Led to international sanctions but India remained firm.",
+            "Boosted national pride and strategic autonomy."
+          ],
+          "answer": "Pokhran-II established India as a nuclear power and sent a strong message globally.",
+          "formula_used": "Strategic analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Kargil War was fought in 1998.",
+          "wrong": "The Kargil War was fought in 1998.",
+          "correct": "The Kargil War was fought in 1999.",
+          "tip": "1998 = Pokhran-II; 1999 = Kargil War."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Coalition era: NDA (BJP-led) and UPA (Congress-led).",
+            "Pokhran-II (1998): India's nuclear tests, 'Operation Shakti'.",
+            "Kargil War (1999): Indian victory, 'Operation Vijay'.",
+            "Look East Policy: Strengthened ties with ASEAN nations.",
+            "Vajpayee era: Political stability, foreign policy successes.",
+            "India balanced relations with US, Russia, Israel."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it_services_boom",
+      "title": "The Information Technology and Services Boom",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The IT and Services Boom",
+          "subtitle": "India's Emergence as the Global Back Office",
+          "tags": ["JKSSB", "High Weightage", "Modern India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💻",
+          "title": "The IT Revolution in India",
+          "content": "India's IT industry grew exponentially after the 1991 reforms. The liberalisation policies, English-speaking workforce, and time-zone advantage made India a hub for software development and IT services. Key companies: Tata Consultancy Services (TCS), Infosys, Wipro, and HCL Technologies.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏙️",
+          "title": "Growth of Tech Hubs",
+          "content": "Bengaluru (Bangalore) became the 'Silicon Valley of India'. Hyderabad (HITEC City), Pune, Chennai, and the NCR region also became major IT hubs. These cities saw the growth of IT parks, software companies, and a booming real estate sector.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "The Rise of Outsourcing (BPO/KPO)",
+          "content": "Business Process Outsourcing (BPO) and Knowledge Process Outsourcing (KPO) grew rapidly. India became a preferred destination for call centres, back-office operations, and knowledge services (research, analytics, legal). The sector created millions of jobs, especially for the young population.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏠",
+          "title": "Expansion of the Middle Class",
+          "content": "The IT and services boom led to a massive expansion of India's middle class. Higher disposable incomes, increased consumption, and a rise in demand for consumer goods, real estate, and automobiles. The middle class became the backbone of India's economic growth and political change.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key IT and Services Milestones",
+          "headers": ["Event", "Year", "Significance"],
+          "rows": [
+            ["TCS Established", "1968", "India's first major IT company."],
+            ["Infosys Founded", "1981", "Pioneer of the Indian IT industry."],
+            ["Y2K Boom", "1999", "Huge demand for Indian IT services."],
+            ["BPO Growth", "2000s", "India became the BPO capital of the world."],
+            ["IT Exports", "2010", "$50 billion in IT exports."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Why India Became an IT Hub",
+          "given": ["India became the world's leading IT services provider."],
+          "find": "What factors contributed to India's IT boom?",
+          "steps": [
+            "Liberalisation policies opened the economy.",
+            "Large, English-speaking, educated workforce.",
+            "Cost advantage (lower wages compared to the West).",
+            "Strong educational institutions (IITs, NITs).",
+            "Government support (software technology parks)."
+          ],
+          "answer": "India's IT success was driven by liberalization, a skilled workforce, and cost advantage.",
+          "formula_used": "Economic analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The IT boom was purely due to government policy.",
+          "wrong": "Only government policy led to India's IT boom.",
+          "correct": "Government policy created the environment, but private enterprise, education, and English-speaking talent drove the IT boom.",
+          "tip": "Combination of policy, education, and private initiative."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "IT and services boom post-1991.",
+            "Bengaluru = Silicon Valley of India.",
+            "BPO/KPO created millions of jobs.",
+            "Rise of the middle class: Higher incomes, more consumption.",
+            "India became the world's back office (IT outsourcing)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welfare_rights",
+      "title": "Welfare Rights and Social Governance – MGNREGA, RTI, and More",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Welfare Rights and Social Governance",
+          "subtitle": "Empowering Citizens, Ensuring Rights",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👷",
+          "title": "MGNREGA – Mahatma Gandhi National Rural Employment Guarantee Act (2005)",
+          "content": "MGNREGA was enacted in 2005 under the UPA government. It guarantees 100 days of wage employment per year to every rural household. It is a demand-driven scheme, meaning anyone can apply for work. It has helped improve rural livelihoods and reduce seasonal migration.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "RTI – Right to Information Act (2005)",
+          "content": "The RTI Act was also passed in 2005. It empowers citizens to seek information from public authorities. It promotes transparency and accountability in governance. Citizens can ask for government records, decisions, and processes.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Other Welfare Initiatives",
+          "content": "1. **Mid-Day Meal Scheme**: Free meals in government schools (2001).\n2. **National Rural Health Mission**: Health services in rural areas (2005).\n3. **Aadhaar**: Unique identification number for residents (2009).\n4. **RTE (Right to Education) Act (2009)**: Free and compulsory education for children aged 6-14.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Welfare and Rights Legislation",
+          "headers": ["Act", "Year", "Key Feature"],
+          "rows": [
+            ["MGNREGA", "2005", "100 days of employment per year."],
+            ["RTI Act", "2005", "Right to information from public authorities."],
+            ["RTE Act", "2009", "Free and compulsory education for children aged 6-14."],
+            ["Aadhaar", "2009", "12-digit unique identification number for residents."],
+            ["Food Security Act", "2013", "Subsidized food grains to 67% of the population."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: MGNREGA – A Landmark Act",
+          "given": ["MGNREGA provides 100 days of wage employment to rural households."],
+          "find": "What was the significance of MGNREGA?",
+          "steps": [
+            "Guaranteed employment as a legal right.",
+            "Reduced rural poverty and distress migration.",
+            "Empowered rural workers (increased bargaining power).",
+            "Supported rural infrastructure (water conservation, roads)."
+          ],
+          "answer": "MGNREGA provided social security and reduced rural poverty.",
+          "formula_used": "Social policy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: MGNREGA was passed in 2006.",
+          "wrong": "MGNREGA was passed in 2006.",
+          "correct": "MGNREGA was passed in 2005.",
+          "tip": "MGNREGA and RTI were both passed in 2005."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "MGNREGA (2005): 100 days employment to rural households.",
+            "RTI Act (2005): Right to information, transparency.",
+            "RTE Act (2009): Free education for children 6-14.",
+            "Aadhaar (2009): Unique ID, service delivery.",
+            "These acts strengthened democracy and social security."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liberalization_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Economic Liberalization – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the 1991 reforms (LPG), key leaders (Narasimha Rao, Manmohan Singh), IT boom, and welfare acts (MGNREGA, RTI, RTE). Memorize important years.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the Finance Minister of India during the 1991 economic reforms?",
+          "options": ["P.V. Narasimha Rao", "Dr. Manmohan Singh", "Atal Bihari Vajpayee", "Yashwant Sinha"],
+          "answer": 1,
+          "explanation": "Dr. Manmohan Singh was the Finance Minister who introduced the 1991 economic reforms under Prime Minister P.V. Narasimha Rao.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "What does LPG stand for in the context of 1991 reforms?",
+          "options": [
+            "Liberalization, Privatization, Globalization",
+            "Liberalization, Public Sector, Government",
+            "Land, Population, Growth",
+            "Low, Private, Growth"
+          ],
+          "answer": 0,
+          "explanation": "LPG stands for Liberalization, Privatization, and Globalization – the three pillars of the 1991 reforms.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "India's nuclear tests at Pokhran in 1998 were code-named:",
+          "options": ["Operation Shakti", "Smiling Buddha", "Operation Vijay", "Operation Blue Star"],
+          "answer": 0,
+          "explanation": "Pokhran-II (1998) was code-named 'Operation Shakti'. The 1974 test was 'Smiling Buddha'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Kargil War was fought in which year?",
+          "options": ["1998", "1999", "2000", "2001"],
+          "answer": 1,
+          "explanation": "The Kargil War was fought between India and Pakistan in 1999.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The MGNREGA Act provides how many days of employment per year?",
+          "options": ["100 days", "150 days", "200 days", "50 days"],
+          "answer": 0,
+          "explanation": "MGNREGA guarantees 100 days of wage employment per year to every rural household.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which city is known as the 'Silicon Valley of India'?",
+          "options": ["Hyderabad", "Bengaluru", "Chennai", "Pune"],
+          "answer": 1,
+          "explanation": "Bengaluru (Bangalore) is known as the 'Silicon Valley of India' due to its concentration of IT companies.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Right to Information (RTI) Act was passed in which year?",
+          "options": ["2004", "2005", "2006", "2007"],
+          "answer": 1,
+          "explanation": "The RTI Act was passed in 2005, empowering citizens to seek information from public authorities.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which policy aimed at strengthening ties with Southeast Asian countries?",
+          "options": ["Look East", "Look West", "Act East", "Neighborhood First"],
+          "answer": 0,
+          "explanation": "'Look East' was a policy adopted to strengthen ties with Southeast Asian nations (ASEAN).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the Prime Minister of India during the Kargil War?",
+          "options": ["Atal Bihari Vajpayee", "Jawaharlal Nehru", "Indira Gandhi", "Rajiv Gandhi"],
+          "answer": 0,
+          "explanation": "Atal Bihari Vajpayee was the Prime Minister during the Kargil War (1999).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which act provides free and compulsory education for children aged 6-14?",
+          "options": ["MGNREGA", "RTE Act", "RTI Act", "Food Security Act"],
+          "answer": 1,
+          "explanation": "The Right to Education (RTE) Act (2009) provides free and compulsory education for children aged 6-14.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the 1991 reforms (LPG), key leaders (Narasimha Rao, Manmohan Singh), IT boom, and welfare acts (MGNREGA, RTI, RTE). Memorize important years."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Economic Liberalization",
+          "points": [
+            "1991 reforms: LPG (Liberalization, Privatization, Globalization).",
+            "Pokhran-II (1998): Operation Shakti.",
+            "Kargil War (1999): Operation Vijay.",
+            "IT boom: Bengaluru, BPO, middle class expansion.",
+            "MGNREGA (2005): 100 days employment.",
+            "RTI (2005): Right to information.",
+            "RTE (2009): Free education for children."
+          ]
+        }
+      ]
+    }
+  ]
+}

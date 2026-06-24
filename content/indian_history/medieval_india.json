@@ -1,0 +1,535 @@
+{
+  "id": "medieval_india_part1",
+  "subject_id": "indian_history",
+  "title": "Medieval India: 700 CE to 1756 CE",
+  "subtopics": [
+    {
+      "id": "tripartite_struggle",
+      "title": "Regional Powers and the Tripartite Struggle",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Tripartite Struggle",
+          "subtitle": "Three Empires, One Throne – Kanauj",
+          "tags": ["JKSSB", "High Weightage", "Medieval India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "What was the Tripartite Struggle?",
+          "content": "The Tripartite Struggle (c. 750–1000 CE) was a prolonged conflict between three major dynasties – the Gurjara-Pratiharas, the Palas, and the Rashtrakutas – for control over the city of Kanauj (in present-day Uttar Pradesh), which was considered the symbol of imperial power in northern India.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "The Three Dynasties",
+          "headers": ["Dynasty", "Region", "Key Ruler", "Key Feature"],
+          "rows": [
+            ["Gurjara-Pratihara", "Western/Central India (Gujarat, Rajasthan, MP)", "Nagabhata II, Bhoja I", "Strongest in the struggle, controlled Kanauj for longest."],
+            ["Pala", "Eastern India (Bengal, Bihar)", "Dharmapala, Devapala", "Patrons of Buddhism, built Vikramshila and Nalanda."],
+            ["Rashtrakuta", "Deccan (Karnataka, Maharashtra)", "Dantidurga, Amoghavarsha", "Largest empire, known for Kailasa temple at Ellora."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Gurjara-Pratihara Dynasty",
+          "content": "The Gurjara-Pratiharas emerged as the most powerful dynasty in northern India. Nagabhata II (c. 800 CE) defeated the Rashtrakutas and captured Kanauj. Bhoja I (c. 850–880 CE) expanded the empire and was a patron of literature. Their empire declined after the Ghaznavid invasions in the 11th century.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🪷",
+          "title": "Pala Dynasty",
+          "content": "The Palas ruled Bengal and Bihar from the 8th to the 12th century. Dharmapala (c. 770–810 CE) established the Pala empire and was a great patron of Buddhism. Devapala (c. 810–850 CE) expanded the empire to the northwest and south. They built the Vikramshila University and expanded Nalanda University. The Palas were known for their bronze sculptures and Buddhist art.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⛰️",
+          "title": "Rashtrakuta Dynasty",
+          "content": "The Rashtrakutas ruled the Deccan from the 8th to the 10th century. Dantidurga (c. 735–756 CE) established the dynasty by defeating the Chalukyas. Amoghavarsha I (c. 814–878 CE) was a great patron of Jainism and wrote the Kavirajamarga, the earliest work on Kannada poetry. The Rashtrakutas are famous for the Kailasa temple at Ellora (Ravana-ki-Khai), a massive rock-cut temple.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Importance of Kanauj",
+          "given": ["Kanauj was a strategic city in northern India during the early medieval period."],
+          "find": "Why was Kanauj so important?",
+          "steps": [
+            "Kanauj was located in the Gangetic plain, a fertile and prosperous region.",
+            "It was a major commercial and cultural centre.",
+            "Controlling Kanauj gave dominance over the trade routes and other kingdoms.",
+            "It was considered the 'crown of northern India' – whoever held Kanauj was seen as the paramount ruler."
+          ],
+          "answer": "Kanauj's strategic location and economic importance made it a coveted prize.",
+          "formula_used": "Historical significance analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Cholas were part of the Tripartite Struggle.",
+          "wrong": "The Cholas were involved in the Tripartite Struggle.",
+          "correct": "The Cholas were a southern dynasty and were not part of the Tripartite Struggle (which was a northern conflict).",
+          "tip": "The Cholas were active in the South; the Tripartite Struggle was in the North."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Tripartite Struggle = Gurjara-Pratiharas vs Palas vs Rashtrakutas (c. 750–1000 CE).",
+            "Gurjara-Pratiharas: Controlled Kanauj, Rajasthan, MP.",
+            "Palas: Bengal, Bihar, patrons of Buddhism.",
+            "Rashtrakutas: Deccan, Kailasa temple (Ellora).",
+            "Kanauj was the strategic prize of the struggle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delhi_sultanate",
+      "title": "The Delhi Sultanate – Rule of Five Dynasties",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Delhi Sultanate",
+          "subtitle": "Five Dynasties, 320 Years of Islamic Rule in India",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕌",
+          "title": "What was the Delhi Sultanate?",
+          "content": "The Delhi Sultanate was a series of five successive dynasties that ruled parts of India from 1206 to 1526 CE. It was founded by Qutb-ud-din Aibak after the victory of Muhammad Ghori over Prithviraj Chauhan in the Second Battle of Tarain (1192 CE).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "The Five Dynasties of the Delhi Sultanate",
+          "headers": ["Dynasty", "Period", "Founder", "Key Contributions"],
+          "rows": [
+            ["Mamluk (Slave)", "1206–1290", "Qutb-ud-din Aibak", "Qutb Minar, consolidation of Turkish rule."],
+            ["Khalji", "1290–1320", "Jalal-ud-din Khalji", "Military expansion, Alauddin Khalji's reforms."],
+            ["Tughlaq", "1320–1414", "Ghiyas-ud-din Tughlaq", "Mohammad bin Tughlaq's experiments, Firoz Shah's public works."],
+            ["Sayyid", "1414–1451", "Khizr Khan", "Weak rulers, decline of the Sultanate."],
+            ["Lodi", "1451–1526", "Bahlul Lodi", "Last dynasty, defeated by Babur at Panipat (1526)."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The Mamluk (Slave) Dynasty (1206–1290)",
+          "content": "Founded by Qutb-ud-din Aibak, a slave of Muhammad Ghori. Iltutmish (1211–1236) was the greatest ruler of this dynasty. He completed the Qutb Minar, introduced the 'Tanka' silver coin, and established the Delhi Sultanate's authority. Razia Sultan (1236–1240) was the only female ruler of the Delhi Sultanate.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Khalji Dynasty (1290–1320)",
+          "content": "Alauddin Khalji (1296–1316) was the most powerful ruler of this dynasty. He expanded the empire to the South (Deccan) and repelled Mongol invasions. He implemented price controls (market regulation) and a land revenue system (Kharaj).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "The Tughlaq Dynasty (1320–1414)",
+          "content": "Ghiyas-ud-din Tughlaq founded the dynasty. Mohammad bin Tughlaq (1325–1351) is known for his experiments: shifting the capital from Delhi to Daulatabad, token currency, and taxation in the Doab. His plans were visionary but poorly executed. Firoz Shah Tughlaq (1351–1388) built canals, hospitals, and towns (Hissar, Firozabad).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Alauddin Khalji's Market Reforms",
+          "given": ["Alauddin Khalji introduced price controls to regulate the market."],
+          "find": "What were his market reforms?",
+          "steps": [
+            "Fixed prices for all commodities (grain, cloth, horses, etc.).",
+            "Set up a department of market regulation (Diwan-i-Riyasat).",
+            "Appointed market inspectors (Shahna-i-Mandi).",
+            "Collected essential supplies directly to maintain price stability.",
+            "The reforms were aimed at maintaining a large army at low cost."
+          ],
+          "answer": "Alauddin Khalji's price controls ensured affordability and supported his military.",
+          "formula_used": "Economic policy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Mohammad bin Tughlaq's capital shift was a success.",
+          "wrong": "Mohammad bin Tughlaq's capital shift was successful.",
+          "correct": "His capital shift from Delhi to Daulatabad was a disaster and was reversed.",
+          "tip": "Remember Mohammad bin Tughlaq for his ambitious but failed experiments."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Delhi Sultanate (1206–1526): 5 dynasties.",
+            "Mamluk: Qutb Minar, Iltutmish, Razia Sultan.",
+            "Khalji: Alauddin's market reforms and southern conquests.",
+            "Tughlaq: Mohammad bin Tughlaq's experiments; Firoz's public works.",
+            "Sayyid & Lodi: Declining power; ended by Babur (1526)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bhakti_sufi",
+      "title": "The Bhakti and Sufi Movements – Religious Synthesis",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Bhakti and Sufi Movements",
+          "subtitle": "Bridging Communities, Transforming Faith",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕉️",
+          "title": "The Bhakti Movement",
+          "content": "The Bhakti movement was a devotional movement that emphasized personal love and devotion (bhakti) to God. It rejected caste discrimination, idol worship, and ritualism. It emerged in South India (Alvars and Nayanars) and spread to North India through saints like Ramanuja, Kabir, Mirabai, and Guru Nanak.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "☪️",
+          "title": "The Sufi Movement",
+          "content": "The Sufi movement was a mystical tradition within Islam that emphasized direct experience of God through love, devotion, and asceticism. Sufis (like Khwaja Moinuddin Chishti, Nizamuddin Auliya) spread Islam in India through peaceful means and spiritual practices.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Bhakti and Sufi Saints",
+          "headers": ["Name", "Tradition", "Key Teachings"],
+          "rows": [
+            ["Kabir", "Bhakt (Nirguna)", "One God, criticism of rituals, Hindu-Muslim unity."],
+            ["Mirabai", "Bhakt (Krishna)", "Devotion to Krishna, rejection of caste and gender norms."],
+            ["Guru Nanak", "Bhakt/Sikh", "Equality, truthful living, rejection of caste and rituals."],
+            ["Ramanuja", "Vishishtadvaita", "Qualified non-dualism, devotion to Vishnu."],
+            ["Khwaja Moinuddin Chishti", "Sufi (Chishti)", "Love, compassion, service to humanity."],
+            ["Nizamuddin Auliya", "Sufi (Chishti)", "Forgiveness, equality, human unity."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Kabir's Teachings",
+          "given": ["Kabir was a 15th-century mystic poet."],
+          "find": "What were his key teachings?",
+          "steps": [
+            "Belief in one God (Nirguna Brahm).",
+            "Criticism of both Hindu and Muslim orthodoxy (rituals, caste).",
+            "Emphasis on devotion (bhakti) and love.",
+            "His poems (Dohas) are famous for their simplicity and wisdom."
+          ],
+          "answer": "Kabir promoted unity, rejected rituals, and emphasized devotion to one God.",
+          "formula_used": "Religious synthesis analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Guru Nanak was a Hindu saint.",
+          "wrong": "Guru Nanak was a Hindu saint.",
+          "correct": "Guru Nanak was the founder of Sikhism, and his teachings synthesized Hindu and Islamic ideas.",
+          "tip": "Guru Nanak = Founder of Sikhism (not just a Bhakti saint)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Bhakti Movement: Devotion to God, rejection of caste/rituals.",
+            "Sufi Movement: Mystical Islam, love, compassion.",
+            "Synthesis: Both promoted unity, peace, and equality.",
+            "Key Saints: Kabir, Mirabai, Guru Nanak, Ramanuja, Moinuddin Chishti, Nizamuddin Auliya."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mughal_empire",
+      "title": "The Mughal Empire – Zenith and Architecture",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Mughal Empire",
+          "subtitle": "The Golden Age of Indian Architecture and Culture",
+          "tags": ["JKSSB", "High Weightage", "Medieval India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Founding of the Mughal Empire",
+          "content": "The Mughal Empire was founded by Babur in 1526 after defeating Ibrahim Lodi at the First Battle of Panipat. Babur was a descendant of Timur and Genghis Khan. He established Mughal rule in India and was succeeded by his son Humayun.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Akbar the Great (1556–1605)",
+          "content": "Akbar was the greatest Mughal emperor. He consolidated the empire through military conquests, administrative reforms, and a policy of religious tolerance. He introduced the Mansabdari system (military-administrative rank), abolished the Jizya tax, and founded a new religion called Din-i-Ilahi (Divine Faith). His court had nine gems (Navaratnas), including Tansen, Birbal, and Abul Fazl.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Shah Jahan (1628–1658) – The Builder Emperor",
+          "content": "Shah Jahan is known for his architectural achievements, including the Taj Mahal (built in memory of Mumtaz Mahal), the Red Fort (Delhi), and the Jama Masjid. He expanded the empire and maintained a prosperous economy. His reign is considered the peak of Mughal architecture and culture.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "Aurangzeb (1658–1707) – The Decline and Expansion",
+          "content": "Aurangzeb was the last great Mughal emperor. He expanded the empire to its greatest territorial extent, covering almost the entire Indian subcontinent. However, his policies of religious intolerance (reimposition of Jizya, destruction of temples) alienated the Hindu population. His long wars in the Deccan drained the treasury, leading to the empire's decline after his death.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Major Mughal Rulers and Their Contributions",
+          "headers": ["Ruler", "Period", "Key Contributions"],
+          "rows": [
+            ["Babur", "1526–1530", "Founder of the Mughal Empire, Battle of Panipat."],
+            ["Akbar", "1556–1605", "Administrative reforms, Mansabdari, Din-i-Ilahi, Navaratnas."],
+            ["Shah Jahan", "1628–1658", "Taj Mahal, Red Fort, Jama Masjid, Peacock Throne."],
+            ["Aurangzeb", "1658–1707", "Greatest territorial expansion, Deccan campaigns, religious intolerance."]
+          ],
+          "highlight_row": 1
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Akbar's Rajput Policy",
+          "given": ["Akbar adopted a policy of reconciliation with the Rajputs."],
+          "find": "What were the key features of Akbar's Rajput policy?",
+          "steps": [
+            "He married Rajput princesses (e.g., Jodha Bai).",
+            "He gave high positions to Rajput nobles in his administration.",
+            "He respected Hindu customs and abolished the Jizya tax.",
+            "This policy ensured stability and loyalty of the Rajput rulers."
+          ],
+          "answer": "Akbar's Rajput policy was based on matrimonial alliances and religious tolerance.",
+          "formula_used": "Diplomatic and administrative strategy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Aurangzeb was the most tolerant Mughal emperor.",
+          "wrong": "Aurangzeb was the most tolerant Mughal emperor.",
+          "correct": "Akbar was the most tolerant; Aurangzeb was intolerant (reimposed Jizya, destroyed temples).",
+          "tip": "Remember: Akbar = Tolerance; Aurangzeb = Intolerance."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Mughal Empire (1526–1857).",
+            "Akbar: Mansabdari, Din-i-Ilahi, Navaratnas, Rajput policy.",
+            "Shah Jahan: Taj Mahal, Red Fort, Jama Masjid.",
+            "Aurangzeb: Greatest expansion, Deccan wars, decline.",
+            "The Mughal Empire declined after Aurangzeb (1707) due to financial drain and Maratha resistance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "southern_maratha",
+      "title": "Southern Empires and the Maratha Confederacy",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Southern Empires and the Maratha Confederacy",
+          "subtitle": "Vijayanagara's Glory and Shivaji's Guerrilla Warfare",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "The Vijayanagara Empire (1336–1646)",
+          "content": "The Vijayanagara Empire was founded by Harihara and Bukka Raya in 1336. It was a powerful empire in South India that lasted over 300 years. The empire reached its peak under Krishna Deva Raya (1509–1529). He was a great patron of art, architecture, and literature. The empire declined after the Battle of Talikota (1565) against the Deccan Sultanates.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Krishna Deva Raya (1509–1529)",
+          "content": "Krishna Deva Raya was the greatest ruler of the Vijayanagara Empire. He expanded the empire, built many temples (including the Vittala Temple), and patronized Telugu literature. The famous poet Tenali Ramakrishna was a court poet. He also maintained friendly relations with the Portuguese.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏹",
+          "title": "The Maratha Confederacy – Rise of Shivaji Maharaj",
+          "content": "Shivaji Maharaj (1627–1680) founded the Maratha Empire. He used guerrilla warfare tactics (Ganimi Kava) to challenge the Mughal Empire. He was crowned Chhatrapati in 1674. His administration was efficient, with a strong navy and a council of ministers (Ashta Pradhan).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "Shivaji's Administration – The Ashta Pradhan",
+          "content": "Shivaji's council of eight ministers (Ashta Pradhan) included:\n1. Peshwa (Prime Minister)\n2. Senapati (Commander-in-Chief)\n3. Amatya (Finance Minister)\n4. Mantri (Foreign Minister)\n5. Nyayadhish (Chief Justice)\n6. Pandit Rao (Religious Affairs)\n7. Sari Naubat (Advisor)\n8. Dabir (Internal Affairs).",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Vijayanagara vs Maratha Comparison",
+          "headers": ["Aspect", "Vijayanagara", "Maratha"],
+          "rows": [
+            ["Founder", "Harihara & Bukka Raya", "Shivaji Maharaj"],
+            ["Capital", "Vijayanagara (Hampi)", "Raigad"],
+            ["Military Tactic", "Conventional warfare", "Guerrilla warfare (Ganimi Kava)"],
+            ["Peak Ruler", "Krishna Deva Raya", "Shivaji Maharaj"],
+            ["Decline", "Battle of Talikota (1565)", "Defeat by Mughals (later British)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Shivaji's Guerrilla Warfare",
+          "given": ["Shivaji used guerrilla warfare against the Mughal forces."],
+          "find": "What were the key features of his military strategy?",
+          "steps": [
+            "Used the terrain (hills and forests) to his advantage.",
+            "Used lightning attacks (surprise raids) and retreated before enemy could regroup.",
+            "Built a strong navy to protect the coast.",
+            "Captured forts (Torna, Raigad, Pratapgad) to establish strongholds."
+          ],
+          "answer": "Shivaji's guerrilla tactics were based on speed, surprise, and use of terrain.",
+          "formula_used": "Military strategy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Vijayanagara was in the Deccan.",
+          "wrong": "Vijayanagara was in the Deccan region.",
+          "correct": "Vijayanagara was in South India (Karnataka), not the Deccan (which is Central India).",
+          "tip": "Vijayanagara = South India; Deccan = Central India."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Vijayanagara Empire (1336–1646): Krishna Deva Raya, Hampi, Talikota.",
+            "Maratha Empire: Shivaji Maharaj, Ashta Pradhan, guerrilla warfare.",
+            "Both empires resisted Mughal expansion in their respective regions.",
+            "The Marathas continued to challenge the Mughals and later the British."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medieval_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Medieval India – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the five Delhi Sultanate dynasties, Mughal rulers (Akbar, Shah Jahan, Aurangzeb), and regional empires (Vijayanagara, Marathas). Memorize key battles and administrative reforms.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who founded the Delhi Sultanate?",
+          "options": ["Iltutmish", "Qutb-ud-din Aibak", "Alauddin Khalji", "Mohammad bin Tughlaq"],
+          "answer": 1,
+          "explanation": "Qutb-ud-din Aibak founded the Delhi Sultanate in 1206.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which Mughal emperor built the Taj Mahal?",
+          "options": ["Akbar", "Shah Jahan", "Aurangzeb", "Jahangir"],
+          "answer": 1,
+          "explanation": "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Tripartite Struggle was fought for control of which city?",
+          "options": ["Delhi", "Kanauj", "Pataliputra", "Ujjain"],
+          "answer": 1,
+          "explanation": "The Tripartite Struggle was for control over Kanauj.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who introduced the Mansabdari system?",
+          "options": ["Babur", "Akbar", "Shah Jahan", "Aurangzeb"],
+          "answer": 1,
+          "explanation": "Akbar introduced the Mansabdari system for military-administrative ranks.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which dynasty ruled the Delhi Sultanate after the Khiljis?",
+          "options": ["Mamluk", "Tughlaq", "Sayyid", "Lodi"],
+          "answer": 1,
+          "explanation": "The Tughlaq dynasty succeeded the Khalji dynasty.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the founder of the Maratha Empire?",
+          "options": ["Shivaji Maharaj", "Sambhaji", "Balaji Vishwanath", "Baji Rao I"],
+          "answer": 0,
+          "explanation": "Shivaji Maharaj founded the Maratha Empire in 1674.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Bhakti movement emphasized which of the following?",
+          "options": ["Caste discrimination", "Devotion to God", "Ritual sacrifices", "Idol worship"],
+          "answer": 1,
+          "explanation": "The Bhakti movement emphasized personal devotion to God, rejecting caste and rituals.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which battle led to the decline of the Vijayanagara Empire?",
+          "options": ["Battle of Panipat", "Battle of Talikota", "Battle of Plassey", "Battle of Buxar"],
+          "answer": 1,
+          "explanation": "The Battle of Talikota (1565) led to the decline of the Vijayanagara Empire.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who introduced the token currency in the Delhi Sultanate?",
+          "options": ["Alauddin Khalji", "Iltutmish", "Mohammad bin Tughlaq", "Firoz Shah Tughlaq"],
+          "answer": 2,
+          "explanation": "Mohammad bin Tughlaq introduced token currency (copper coins) which failed.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Sufi saint is buried in Ajmer, Rajasthan?",
+          "options": ["Nizamuddin Auliya", "Khwaja Moinuddin Chishti", "Mirabai", "Kabir"],
+          "answer": 1,
+          "explanation": "Khwaja Moinuddin Chishti's dargah is in Ajmer, Rajasthan.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the five Delhi Sultanate dynasties, key Mughal rulers, and the regional empires (Vijayanagara, Marathas). Focus on administrative reforms and major battles.",
+          "points": [
+            "Delhi Sultanate: Mamluk, Khalji, Tughlaq, Sayyid, Lodi.",
+            "Mughals: Babur, Akbar, Shah Jahan, Aurangzeb.",
+            "Vijayanagara: Krishna Deva Raya, Talikota.",
+            "Marathas: Shivaji, Ashta Pradhan, guerrilla warfare.",
+            "Bhakti/Sufi: Kabir, Mirabai, Guru Nanak, Moinuddin Chishti."
+          ]
+        }
+      ]
+    }
+  ]
+}

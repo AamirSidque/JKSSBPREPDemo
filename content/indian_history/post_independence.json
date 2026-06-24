@@ -1,0 +1,453 @@
+{
+  "id": "post_independence",
+  "subject_id": "indian_history",
+  "title": "Post-Independence and Nation Building: 1947 to 1990",
+  "subtopics": [
+    {
+      "id": "integration_constitution",
+      "title": "Integration of Princely States and Constitutional Foundation",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Integration and Constitutional Foundation",
+          "subtitle": "Building the Modern Indian State",
+          "tags": ["JKSSB", "High Weightage", "Modern India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🇮🇳",
+          "title": "Integration of Princely States",
+          "content": "At the time of independence, India had 565 princely states. Sardar Vallabhbhai Patel, the first Home Minister, played a key role in integrating these states. He used diplomacy, persuasion, and military force where necessary. Key states integrated: Hyderabad (Operation Polo), Junagadh, and Jammu & Kashmir.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Framing of the Constitution",
+          "content": "The Constituent Assembly was formed in 1946. Dr. B.R. Ambedkar chaired the Drafting Committee. The Constitution was adopted on 26th November 1949 and came into effect on 26th January 1950. It established India as a sovereign, socialist, secular, democratic republic.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Key Features of the Indian Constitution",
+          "content": "1. **Fundamental Rights** – Guarantees civil liberties.\n2. **Directive Principles** – Guidelines for the state.\n3. **Federal Structure** with strong centre.\n4. **Parliamentary System** of government.\n5. **Independent Judiciary**.\n6. **Universal Adult Franchise** (right to vote for all adults).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Sardar Patel's Role in Integration",
+          "given": ["Sardar Patel integrated 565 princely states into India."],
+          "find": "How did Patel achieve this monumental task?",
+          "steps": [
+            "Used diplomacy and persuasion to convince rulers.",
+            "Offered privy purses (financial allowances) to rulers.",
+            "Used military force in states like Hyderabad (Operation Polo).",
+            "Ensured that states had no option but to join India."
+          ],
+          "answer": "Sardar Patel used a combination of diplomacy, pressure, and force.",
+          "formula_used": "Historical analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Constitution was adopted on 26th January 1950.",
+          "wrong": "The Constitution was adopted on 26th January 1947.",
+          "correct": "The Constitution was adopted on 26th November 1949 and came into effect on 26th January 1950.",
+          "tip": "Adopted = 26 Nov 1949; Enforced = 26 Jan 1950."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "565 princely states integrated by Sardar Patel.",
+            "Dr. B.R. Ambedkar chaired the Drafting Committee.",
+            "Constitution adopted: 26 Nov 1949; Enforced: 26 Jan 1950.",
+            "India became a sovereign, socialist, secular, democratic republic.",
+            "Key features: Fundamental Rights, Directive Principles, Federal structure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foreign_policy_conflicts",
+      "title": "Foreign Policy and Geopolitical Conflicts",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Foreign Policy and Geopolitical Conflicts",
+          "subtitle": "India's Position in the World",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Non-Aligned Movement (NAM) – Nehru's Vision",
+          "content": "Jawaharlal Nehru, India's first Prime Minister, was a key architect of the Non-Aligned Movement. NAM was formed in 1961 with leaders like Nehru, Tito (Yugoslavia), and Nasser (Egypt). India followed a policy of non-alignment, not joining the US or Soviet blocs during the Cold War.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "India-Pakistan Wars",
+          "content": "1. **1948 War**: Pakistan's tribal invasion of Kashmir; UN ceasefire; Line of Control (LoC) established.\n2. **1965 War**: Over Kashmir; UN ceasefire; Tashkent Agreement signed.\n3. **1971 War**: Liberation of Bangladesh (East Pakistan); Indian victory; Shimla Agreement signed.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "India-China War (1962)",
+          "content": "India and China fought a brief war in 1962 over border disputes in the Himalayas (McMahon Line and Aksai Chin). India suffered a military defeat. The war exposed India's military unpreparedness and led to major defense reforms.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Major Post-Independence Conflicts",
+          "headers": ["Conflict", "Year", "Parties", "Outcome"],
+          "rows": [
+            ["India-Pakistan War", "1948", "India vs Pakistan", "UN ceasefire, LoC established."],
+            ["India-China War", "1962", "India vs China", "Chinese victory, India military reforms."],
+            ["India-Pakistan War", "1965", "India vs Pakistan", "UN ceasefire, Tashkent Agreement."],
+            ["India-Pakistan War", "1971", "India vs Pakistan", "Creation of Bangladesh (East Pakistan)."],
+            ["Bangladesh Liberation", "1971", "India supported Mukti Bahini", "East Pakistan becomes Bangladesh."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The 1971 War and Creation of Bangladesh",
+          "given": ["India's victory in 1971 led to the creation of Bangladesh."],
+          "find": "What was the significance of the 1971 war?",
+          "steps": [
+            "Pakistan's military crackdown in East Pakistan led to a refugee crisis in India.",
+            "India intervened militarily in support of the Mukti Bahini.",
+            "The Indian army captured Dhaka (now in Bangladesh).",
+            "East Pakistan became the independent nation of Bangladesh."
+          ],
+          "answer": "The 1971 war resulted in the creation of Bangladesh.",
+          "formula_used": "Geopolitical analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The 1962 war was with Pakistan.",
+          "wrong": "The 1962 war was with Pakistan.",
+          "correct": "The 1962 war was with China.",
+          "tip": "1962 = China; 1965 & 1971 = Pakistan."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Non-Aligned Movement (NAM): Founded in 1961, led by Nehru, Tito, Nasser.",
+            "1948 War: Kashmir conflict, LoC established.",
+            "1962 War: Defeat by China, defense reforms.",
+            "1965 War: Tashkent Agreement.",
+            "1971 War: Creation of Bangladesh."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "green_revolution_emergency",
+      "title": "The Green Revolution and Internal Politics",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Green Revolution and Internal Politics",
+          "subtitle": "Food Security and Political Turbulence",
+          "tags": ["JKSSB", "High Weightage", "Modern India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌾",
+          "title": "The Green Revolution – A Food Security Shift",
+          "content": "The Green Revolution was a period of agricultural transformation in India during the 1960s and 1970s. It involved the introduction of high-yielding variety (HYV) seeds, chemical fertilizers, pesticides, and modern irrigation techniques. It was led by agricultural scientist M.S. Swaminathan and supported by Prime Minister Lal Bahadur Shastri and Indira Gandhi.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌾",
+          "title": "Key Features of the Green Revolution",
+          "content": "1. Introduction of HYV seeds (wheat, rice).\n2. Use of chemical fertilizers (urea, DAP) and pesticides.\n3. Expansion of irrigation (canals, tube wells).\n4. Mechanisation of agriculture (tractors, harvesters).\n5. Government support through subsidies and MSP (Minimum Support Price).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Impact of the Green Revolution",
+          "content": "1. **Positive**: India achieved self-sufficiency in food grains; food grain production increased from 50 million tonnes (1950) to 150 million tonnes (1980); reduced dependence on food imports.\n2. **Negative**: Environmental degradation (soil, water); unequal distribution (benefited mainly Punjab, Haryana, UP); increased debt among small farmers.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The Emergency (1975–1977)",
+          "content": "On 25th June 1975, Prime Minister Indira Gandhi declared a state of Emergency under Article 356 of the Constitution. Civil liberties were suspended, the press was censored, and political opposition was suppressed. The Emergency lasted for 21 months and ended in March 1977, following the electoral defeat of the Congress party.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Events During the Emergency",
+          "headers": ["Event", "Year", "Significance"],
+          "rows": [
+            ["Emergency Declared", "1975", "Indira Gandhi's government, suspension of civil rights."],
+            ["Press Censorship", "1975", "No freedom of the press."],
+            ["Family Planning Programme", "1975", "Controversial forced sterilization programme."],
+            ["Janata Party Victory", "1977", "First non-Congress government, end of Emergency."],
+            ["Commission of Inquiry", "1978", "Shah Commission investigated Emergency excesses."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Green Revolution's Impact on India",
+          "given": ["The Green Revolution transformed Indian agriculture."],
+          "find": "What were its positive and negative impacts?",
+          "steps": [
+            "Positive: Food self-sufficiency, higher production, reduced poverty.",
+            "Negative: Environmental degradation, regional inequality, farmer debt."
+          ],
+          "answer": "The Green Revolution brought self-sufficiency but caused environmental and social issues.",
+          "formula_used": "Balanced analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Green Revolution was successful in all states.",
+          "wrong": "The Green Revolution was successful across all of India.",
+          "correct": "The Green Revolution was most successful in Punjab, Haryana, and UP; it failed in other states.",
+          "tip": "Punjab, Haryana, UP = Green Revolution heartland."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Green Revolution: HYV seeds, fertilizers, irrigation.",
+            "Led by M.S. Swaminathan, supported by Indira Gandhi.",
+            "India achieved food self-sufficiency.",
+            "Environmental and social costs (soil degradation, inequality).",
+            "Emergency (1975–1977): Civil liberties suspended, press censorship.",
+            "Emergency ended with the Janata Party victory in 1977."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industrial_scientific",
+      "title": "Industrial and Scientific Foundations – Five-Year Plans, IITs, ISRO, Pokhran",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Industrial and Scientific Foundations",
+          "subtitle": "Building India's Technological and Economic Base",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏭",
+          "title": "The Five-Year Plans",
+          "content": "The Five-Year Plans were a series of economic plans aimed at the development of India. The Planning Commission was established in 1950. The First Five-Year Plan (1951–1956) focused on agriculture. The Second Five-Year Plan (1956–1961) emphasized industrialization (Mahalanobis model).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎓",
+          "title": "Setting Up of IITs",
+          "content": "The Indian Institutes of Technology (IITs) were established as premier technical institutions. IIT Kharagpur was the first (1951), followed by IIT Bombay (1958), Madras (1959), and Kanpur (1959). They were set up with the help of foreign governments (USA, USSR, Germany) and became symbols of India's scientific and technological excellence.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚀",
+          "title": "ISRO – India's Space Program",
+          "content": "ISRO (Indian Space Research Organisation) was established in 1969. It was founded by Vikram Sarabhai (father of the Indian space program). Key achievements: Aryabhata (1975) – India's first satellite; SLV (1980) – India's first satellite launch vehicle; Chandrayaan and Mars Orbiter Mission (later milestones).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "☢️",
+          "title": "Pokhran Nuclear Tests",
+          "content": "India conducted its first nuclear test at Pokhran (Rajasthan) on 18th May 1974, code-named 'Smiling Buddha'. It was led by Prime Minister Indira Gandhi. The test made India the sixth nuclear power in the world. A second test, Pokhran-II (1998), was conducted under Atal Bihari Vajpayee.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "India's Scientific Milestones (1947–1990)",
+          "headers": ["Event", "Year", "Significance"],
+          "rows": [
+            ["IIT Kharagpur Established", "1951", "India's first IIT, symbol of technical excellence."],
+            ["First Five-Year Plan", "1951", "Focus on agriculture."],
+            ["Aryabhata (Satellite)", "1975", "India's first satellite (launched by USSR)."],
+            ["Pokhran-I ('Smiling Buddha')", "1974", "India's first nuclear test (Indira Gandhi)."],
+            ["ISRO Established", "1969", "Founder: Vikram Sarabhai."],
+            ["SLV-3 Launch", "1980", "India's first satellite launch vehicle."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Pokhran Nuclear Tests",
+          "given": ["India conducted its first nuclear test in 1974."],
+          "find": "What was the significance of the Pokhran tests?",
+          "steps": [
+            "India demonstrated its nuclear capability, becoming a nuclear power.",
+            "It led to international sanctions and isolation.",
+            "It boosted national pride and strategic autonomy.",
+            "It paved the way for Pokhran-II (1998) under Vajpayee."
+          ],
+          "answer": "The Pokhran tests established India as a nuclear power.",
+          "formula_used": "Strategic significance analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: ISRO was established before India's independence.",
+          "wrong": "ISRO was established before 1947.",
+          "correct": "ISRO was established in 1969, after independence.",
+          "tip": "ISRO = 1969 (Vikram Sarabhai)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Five-Year Plans: Focus on agriculture (First), industry (Second).",
+            "IITs: Premier technical institutions (Kharagpur 1951, Bombay 1958).",
+            "ISRO: Established 1969, Vikram Sarabhai, Aryabhata (1975).",
+            "Pokhran-I: First nuclear test (1974), 'Smiling Buddha'.",
+            "Scientific institutions laid the foundation for India's technological growth."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post_independence_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Post-Independence – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on key events: Integration of states, Constitutional features, Non-Aligned Movement, Green Revolution, Emergency, Five-Year Plans, and scientific achievements (IITs, ISRO, Pokhran).",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the Chairman of the Drafting Committee of the Indian Constitution?",
+          "options": ["Jawaharlal Nehru", "Dr. B.R. Ambedkar", "Sardar Patel", "Rajendra Prasad"],
+          "answer": 1,
+          "explanation": "Dr. B.R. Ambedkar chaired the Drafting Committee of the Indian Constitution.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which leader is known as the 'Iron Man of India'?",
+          "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Vallabhbhai Patel", "Subhas Chandra Bose"],
+          "answer": 2,
+          "explanation": "Sardar Vallabhbhai Patel is known as the 'Iron Man of India' for integrating princely states.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Non-Aligned Movement (NAM) was founded in which year?",
+          "options": ["1955", "1961", "1965", "1971"],
+          "answer": 1,
+          "explanation": "NAM was founded in 1961 with Nehru, Tito, and Nasser as key leaders.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which war led to the creation of Bangladesh?",
+          "options": ["1962 War", "1965 War", "1971 War", "1948 War"],
+          "answer": 2,
+          "explanation": "The 1971 war with Pakistan led to the creation of Bangladesh (formerly East Pakistan).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Green Revolution was most successful in which Indian state?",
+          "options": ["Bihar", "Odisha", "Punjab", "Kerala"],
+          "answer": 2,
+          "explanation": "The Green Revolution was most successful in Punjab, followed by Haryana and Uttar Pradesh.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What was the Emergency period in India?",
+          "options": ["1975–1977", "1975–1976", "1977–1979", "1974–1976"],
+          "answer": 0,
+          "explanation": "The Emergency was declared on 25th June 1975 and ended in March 1977.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who was known as the 'Father of the Indian Space Program'?",
+          "options": ["A.P.J. Abdul Kalam", "Vikram Sarabhai", "Homi Bhabha", "C.V. Raman"],
+          "answer": 1,
+          "explanation": "Vikram Sarabhai is known as the 'Father of the Indian Space Program' and founded ISRO.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "India's first nuclear test, code-named 'Smiling Buddha', was conducted in which year?",
+          "options": ["1971", "1974", "1975", "1980"],
+          "answer": 1,
+          "explanation": "India conducted its first nuclear test, 'Smiling Buddha', at Pokhran in 1974 under Indira Gandhi.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following was a feature of the Indian Constitution?",
+          "options": [
+            "Presidential system",
+            "Fundamental Rights",
+            "Directive Principles",
+            "Both (b) and (c)"
+          ],
+          "answer": 3,
+          "explanation": "The Constitution includes both Fundamental Rights and Directive Principles.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "IIT Kharagpur was established in which year?",
+          "options": ["1950", "1951", "1955", "1960"],
+          "answer": 1,
+          "explanation": "IIT Kharagpur was established in 1951 as India's first Indian Institute of Technology.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review key events: Integration of states, Constitution (1950), NAM, 1965/1971 wars, Green Revolution, Emergency (1975–1977), and scientific milestones (ISRO 1969, Pokhran 1974)."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Post-Independence",
+          "points": [
+            "Integration: Sardar Patel, 565 states.",
+            "Constitution: Adopted 1949, enforced 1950.",
+            "NAM: 1961, Nehru, Tito, Nasser.",
+            "Wars: 1962 (China), 1965 & 1971 (Pakistan).",
+            "Green Revolution: HYV seeds, M.S. Swaminathan, food security.",
+            "Emergency: 1975–1977, civil liberties suspended.",
+            "IITs: 1951 (Kharagpur).",
+            "ISRO: 1969 (Vikram Sarabhai).",
+            "Pokhran-I: 1974 (nuclear test)."
+          ]
+        }
+      ]
+    }
+  ]
+}
+  

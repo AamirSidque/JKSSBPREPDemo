@@ -1,0 +1,711 @@
+{
+  "id": "ancient_india",
+  "subject_id": "indian_history",
+  "title": "Ancient India: Beginnings to 700 CE",
+  "subtopics": [
+    {
+      "id": "prehistoric_india",
+      "title": "Prehistoric Roots – Paleolithic to Neolithic Evolution",
+      "estimated_minutes": 8,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Prehistoric India",
+          "subtitle": "From Stone Tools to Settled Life",
+          "tags": ["JKSSB", "High Weightage", "Ancient India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🪨",
+          "title": "Paleolithic Age (Old Stone Age)",
+          "content": "The earliest humans in India used crude stone tools. They were hunter-gatherers and lived in caves and rock shelters. Important sites: Bhimbetka (Madhya Pradesh), Hunsgi (Karnataka), and the Soan Valley (Pakistan). The period spans from 2 million years ago to about 10,000 BCE.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏹",
+          "title": "Mesolithic Age (Middle Stone Age)",
+          "content": "Transitional phase with smaller stone tools (microliths). People began domesticating animals and practicing rudimentary agriculture. Evidence of early art and burial practices. Sites: Langhnaj (Gujarat), Bagor (Rajasthan). Period: ~10,000 – 8,000 BCE.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌾",
+          "title": "Neolithic Age (New Stone Age)",
+          "content": "Marked by the beginning of agriculture and settled life. Domestication of cattle, sheep, and goats. Pottery making and weaving emerged. Key sites: Mehrgarh (Balochistan) – one of the earliest agricultural settlements in the world (7000 BCE), Burzahom (Kashmir), and Brahmagiri (Karnataka). Period: ~8,000 – 3,500 BCE.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Prehistoric Periods of India",
+          "headers": ["Period", "Time Frame", "Key Features", "Important Sites"],
+          "rows": [
+            ["Paleolithic", "2 mya – 10,000 BCE", "Hunter-gatherers, crude stone tools, cave paintings", "Bhimbetka, Hunsgi, Soan Valley"],
+            ["Mesolithic", "10,000 – 8,000 BCE", "Microliths, early domestication, burial practices", "Langhnaj, Bagor"],
+            ["Neolithic", "8,000 – 3,500 BCE", "Agriculture, pottery, weaving, settled life", "Mehrgarh, Burzahom, Brahmagiri"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Bhimbetka Rock Shelters",
+          "given": ["Bhimbetka in Madhya Pradesh contains over 700 rock shelters with prehistoric paintings."],
+          "find": "What do these paintings depict and what period do they belong to?",
+          "steps": [
+            "The paintings depict scenes of hunting, dancing, and daily life.",
+            "They include depictions of animals like bison, tigers, and elephants.",
+            "They belong to the Mesolithic period (10,000 – 8,000 BCE).",
+            "They are among the earliest examples of human art in India."
+          ],
+          "answer": "Bhimbetka paintings depict hunting and daily life from the Mesolithic period.",
+          "formula_used": "Archaeological interpretation"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Confusing Paleolithic and Neolithic tools.",
+          "wrong": "Neolithic tools were all made of metal.",
+          "correct": "Neolithic tools were made of polished stone (not metal). The Chalcolithic period marks the use of copper.",
+          "tip": "Paleolithic = crude stone; Neolithic = polished stone; Chalcolithic = copper + stone."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Paleolithic: Hunter-gatherers, crude tools, cave paintings.",
+            "Mesolithic: Microliths, early domestication.",
+            "Neolithic: Agriculture, pottery, polished stone tools, settled life.",
+            "Mehrgarh (7000 BCE) is the earliest Neolithic site in the subcontinent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indus_valley",
+      "title": "The Indus Valley Civilization – Urban Planning and Trade",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Indus Valley Civilization",
+          "subtitle": "The First Urban Civilization of India",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏙️",
+          "title": "Overview of the Indus Valley Civilization (IVC)",
+          "content": "The IVC flourished from about 2600 BCE to 1900 BCE. It was one of the three earliest urban civilizations (along with Mesopotamia and Egypt). It extended from Afghanistan to Gujarat.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Urban Planning",
+          "content": "Cities were planned on a grid system. Streets were wide and intersected at right angles. Advanced drainage systems with covered drains. The Great Bath at Mohenjo-daro. Granaries and fortified citadels.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Major Indus Valley Cities",
+          "headers": ["City", "Location", "Key Features"],
+          "rows": [
+            ["Harappa", "Punjab (Pakistan)", "First discovered, granaries, cemetery."],
+            ["Mohenjo-Daro", "Sindh (Pakistan)", "Great Bath, grid layout, bronze dancing girl."],
+            ["Dholavira", "Gujarat (India)", "Water reservoir, unique city planning."],
+            ["Lothal", "Gujarat (India)", "Dockyard, bead-making, trade hub."],
+            ["Kalibangan", "Rajasthan (India)", "Ploughed field, fire altars."],
+            ["Rakhigarhi", "Haryana (India)", "Largest IVC site in India."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Trade Networks of the IVC",
+          "given": ["The Indus Valley people traded with Mesopotamia."],
+          "find": "What goods were traded and what evidence exists?",
+          "steps": [
+            "Exports: Cotton textiles, beads (carnelian, lapis lazuli), ivory, and copper.",
+            "Imports: Silver, gold, and semi-precious stones.",
+            "Evidence: Seals found in Mesopotamia, and Mesopotamian texts mention 'Meluhha' (Indus region).",
+            "Lothal had a dockyard indicating maritime trade."
+          ],
+          "answer": "IVC traded cotton, beads, and ivory with Mesopotamia.",
+          "formula_used": "Archaeological and textual evidence"
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔤",
+          "title": "Script and Decline",
+          "content": "The Indus script has not been deciphered yet. The civilization declined around 1900 BCE due to climate change (drying of the Ghaggar-Hakra river), tectonic shifts, or invasion theories.",
+          "highlight": false
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Great Bath was found in Harappa.",
+          "wrong": "The Great Bath was in Harappa.",
+          "correct": "The Great Bath was in Mohenjo-daro.",
+          "tip": "Associate Mohenjo-daro with the Great Bath; Harappa with granaries."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "IVC = India's first urban civilization (2600-1900 BCE).",
+            "Grid layout, drainage systems, Great Bath, granaries.",
+            "Major cities: Harappa, Mohenjo-daro, Dholavira, Lothal.",
+            "Trade with Mesopotamia, undeciphered script.",
+            "Decline due to climate change or river shifts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vedic_age",
+      "title": "The Vedic Age – Vedas, Upanishads, and Social Structure",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Vedic Age",
+          "subtitle": "The Spiritual and Social Foundation of India",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "What is the Vedic Age?",
+          "content": "The Vedic Age (1500–500 BCE) marks the composition of the Vedas, the oldest sacred texts of India. It witnessed the transition from a pastoral to an agrarian society and the formation of the caste system.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "The Four Vedas",
+          "headers": ["Veda", "Contents", "Key Features"],
+          "rows": [
+            ["Rigveda", "Hymns to deities (Indra, Agni, Varuna)", "Oldest Veda, contains the Purusha Sukta."],
+            ["Samaveda", "Melodies/chants for rituals", "Musical and ritualistic."],
+            ["Yajurveda", "Prose mantras for sacrificial rituals", "Practical guide for priests."],
+            ["Atharvaveda", "Charms, spells, and incantations", "Folk beliefs, magic, medicine."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧘",
+          "title": "The Upanishads",
+          "content": "The Upanishads are philosophical texts that explore the nature of reality, the self (Atman), and the ultimate reality (Brahman). They form the basis of Vedanta philosophy. Key concepts: Karma (action), Samsara (rebirth), Moksha (liberation).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "Social Structure",
+          "content": "The Varna system (Brahmins, Kshatriyas, Vaishyas, Shudras) emerged. The Rigveda mentions the Purusha Sukta describing the origin of the four varnas from the cosmic being.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Purusha Sukta",
+          "given": ["The Purusha Sukta describes the origin of the four varnas."],
+          "find": "Explain the origins according to the Purusha Sukta.",
+          "steps": [
+            "The cosmic being (Purusha) was sacrificed by the gods.",
+            "From his mouth came the Brahmins (priests).",
+            "From his arms came the Kshatriyas (warriors).",
+            "From his thighs came the Vaishyas (merchants).",
+            "From his feet came the Shudras (servants)."
+          ],
+          "answer": "Varnas originated from the cosmic being (Purusha).",
+          "formula_used": "Vedic social theory"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Upanishads are part of the Vedas.",
+          "wrong": "The Upanishads are separate from the Vedas.",
+          "correct": "The Upanishads are considered the end part of the Vedas (Vedanta).",
+          "tip": "Vedanta = End of the Vedas (Upanishads)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Vedic Age: 1500–500 BCE.",
+            "Four Vedas: Rig, Sama, Yajur, Atharva.",
+            "Upanishads: Philosophy (Atman, Brahman, Karma, Moksha).",
+            "Varna system: Brahmins, Kshatriyas, Vaishyas, Shudras.",
+            "Emergence of Buddhism and Jainism (6th century BCE)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buddhism_jainism",
+      "title": "Emergence of Buddhism and Jainism",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Buddhism and Jainism",
+          "subtitle": "The Great Religious Revolt",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🪷",
+          "title": "Gautama Buddha and Buddhism",
+          "content": "Siddhartha Gautama (563-483 BCE) attained enlightenment under a Bodhi tree at Bodh Gaya. He taught the Four Noble Truths and the Eightfold Path. His teachings spread across Asia.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔱",
+          "title": "Mahavira and Jainism",
+          "content": "Vardhamana Mahavira (540-468 BCE) was the 24th Tirthankara. Jainism emphasizes Ahimsa (non-violence), Anekantavada (many-sidedness), and Syadvada (conditional predication).",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Buddhism vs Jainism",
+          "left_header": "Buddhism",
+          "right_header": "Jainism",
+          "rows": [
+            { "left": "Founded by Gautama Buddha (6th century BCE).", "right": "Founded by Mahavira (6th century BCE)." },
+            { "left": "Does not believe in a creator god.", "right": "Does not believe in a creator god." },
+            { "left": "Emphasizes the Middle Path (avoid extremes).", "right": "Emphasizes extreme asceticism." },
+            { "left": "Believes in practical non-violence.", "right": "Believes in absolute non-violence (Ahimsa)." },
+            { "left": "Spread widely to China, Japan, Sri Lanka.", "right": "Largely remained confined to India." }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Four Noble Truths",
+          "given": ["Buddha's first sermon at Sarnath."],
+          "find": "What are the Four Noble Truths?",
+          "steps": [
+            "1. Dukkha (Suffering) – Life is suffering.",
+            "2. Samudaya (Cause) – Suffering arises from desire.",
+            "3. Nirodha (Cessation) – Suffering ends when desire ends.",
+            "4. Magga (Path) – The Eightfold Path leads to liberation."
+          ],
+          "answer": "The Four Noble Truths form the core of Buddhist philosophy.",
+          "formula_used": "Buddhist doctrine"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Mahavira is the founder of Buddhism.",
+          "wrong": "Mahavira founded Buddhism.",
+          "correct": "Mahavira founded Jainism; Gautama Buddha founded Buddhism.",
+          "tip": "Buddha = Buddhism; Mahavira = Jainism."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Buddha = Four Noble Truths, Eightfold Path, Middle Path.",
+            "Mahavira = Ahimsa, Anekantavada, Syadvada.",
+            "Both emerged around the 6th century BCE.",
+            "Buddhism spread abroad; Jainism remained in India."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mauryan_empire",
+      "title": "The Mauryan Empire – Unification, Arthashastra, and Ashoka's Dhamma",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Mauryan Empire",
+          "subtitle": "India's First Imperial Power",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Rise of Magadha and the Mauryas",
+          "content": "The Magadha kingdom became the most powerful state in India. Chandragupta Maurya (321-297 BCE) founded the Mauryan Empire with the help of his mentor, Chanakya (Kautilya). He defeated the Nanda dynasty and consolidated power.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Chanakya's Arthashastra",
+          "content": "The Arthashastra is a treatise on statecraft, economics, and military strategy. Written by Chanakya, it covers governance, law, taxation, espionage, and foreign policy. It is a key text for understanding Mauryan administration.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🪨",
+          "title": "Ashoka the Great (268-232 BCE)",
+          "content": "Ashoka was the grandson of Chandragupta. After the bloody Kalinga War (261 BCE), he embraced Buddhism and promoted Dhamma (moral law). He erected rock and pillar edicts across the empire.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Major Ashokan Edicts",
+          "headers": ["Location", "Type", "Key Message"],
+          "rows": [
+            ["Girnar (Gujarat)", "Rock", "Dhamma policy, welfare measures."],
+            ["Dhauli (Odisha)", "Rock", "Renunciation of war (after Kalinga)."],
+            ["Lumbini (Nepal)", "Pillar", "Birthplace of Buddha, pilgrimage."],
+            ["Sarnath (UP)", "Pillar", "Lion Capital (national emblem), Dhamma."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Ashoka's Dhamma",
+          "given": ["Ashoka promoted Dhamma after the Kalinga War."],
+          "find": "What were the key principles of Ashoka's Dhamma?",
+          "steps": [
+            "Non-violence and respect for all living beings.",
+            "Tolerance towards all religions.",
+            "Welfare measures (hospitals, roads, wells).",
+            "Moral conduct, truthfulness, and obedience to parents."
+          ],
+          "answer": "Dhamma promoted non-violence, tolerance, and welfare.",
+          "formula_used": "Ashokan policies"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Ashoka's Dhamma is the same as Buddhism.",
+          "wrong": "Ashoka's Dhamma was Buddhism.",
+          "correct": "Ashoka's Dhamma was a moral code, not a religion. He respected all faiths.",
+          "tip": "Dhamma = moral law, not a specific religion."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Chandragupta Maurya founded the Mauryan Empire (321 BCE).",
+            "Chanakya wrote the Arthashastra (statecraft).",
+            "Ashoka converted to Buddhism after the Kalinga War.",
+            "Ashoka's edicts promoted Dhamma (non-violence, tolerance, welfare).",
+            "The Mauryan Empire was the largest empire in India at the time."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post_mauryan",
+      "title": "Post-Mauryan Period – Indo-Greeks, Shungas, Satavahanas, and Kushans",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Post-Mauryan Period",
+          "subtitle": "Foreign Invasions and Regional Powers",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "Indo-Greeks",
+          "content": "After the Mauryan decline, the Indo-Greeks (Yavanas) invaded northern India. Menander (Milinda) ruled from 155-130 BCE and adopted Buddhism. The Indo-Greeks introduced Hellenistic art and coinage.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Shunga Dynasty",
+          "content": "Pushyamitra Shunga (185 BCE) overthrew the Mauryan ruler and established the Shunga dynasty. They revived Brahmanical traditions and patronized the arts (e.g., the Great Stupa at Sanchi).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌊",
+          "title": "Satavahana Dynasty",
+          "content": "The Satavahanas ruled the Deccan (c. 1st century BCE – 2nd century CE). They patronized Buddhism and constructed many stupas (Amravati, Nagarjunakonda). Their rule marked the rise of maritime trade.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗿",
+          "title": "Kushan Empire",
+          "content": "The Kushans, under Kanishka (c. 127 CE), ruled a vast empire from Central Asia to northern India. They patronized Buddhism and the Gandhara art school (Greco-Buddhist fusion). Kanishka convened the Fourth Buddhist Council in Kashmir.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Post-Mauryan Dynasties",
+          "headers": ["Dynasty", "Ruler", "Key Contributions"],
+          "rows": [
+            ["Indo-Greeks", "Menander (Milinda)", "Hellenistic art, Buddhist patronage."],
+            ["Shunga", "Pushyamitra Shunga", "Sanchi Stupa, revival of Brahmanism."],
+            ["Satavahana", "Gautamiputra Satakarni", "Trade, Buddhist stupas."],
+            ["Kushan", "Kanishka", "Gandhara art, Fourth Buddhist Council."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Indo-Greeks: Hellenistic influence, Menander.",
+            "Shungas: Sanchi Stupa, Brahmanical revival.",
+            "Satavahanas: Deccan, trade, Buddhist stupas.",
+            "Kushans: Gandhara art, Kanishka, Fourth Buddhist Council."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gupta_empire",
+      "title": "The Gupta Empire – The Golden Age of India",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Gupta Empire",
+          "subtitle": "The Golden Age of Indian Culture",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Rise of the Guptas",
+          "content": "The Gupta Empire (c. 319–550 CE) was founded by Sri Gupta and expanded under Chandragupta I, Samudragupta, and Chandragupta II (Vikramaditya). They ruled Magadha (present-day Bihar) and brought much of northern India under their control.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧮",
+          "title": "Scientific Achievements",
+          "content": "• Zero and the decimal system: Invented by Aryabhata (476–550 CE).\n• Astronomy: Aryabhata calculated the Earth's rotation and circumference.\n• Mathematics: Brahmagupta wrote the Brahmasphutasiddhanta (rules for zero and negative numbers).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📖",
+          "title": "Sanskrit Literature",
+          "content": "Kalidasa, the greatest Sanskrit poet, wrote works like Abhijnanashakuntalam (Shakuntala), Meghaduta (Cloud Messenger), and Kumarasambhava. Other scholars: Vishnu Sharma (Panchatantra), Vatsyayana (Kamasutra).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Aryabhata's Contributions",
+          "given": ["Aryabhata was a mathematician-astronomer in the Gupta period."],
+          "find": "What were his key contributions?",
+          "steps": [
+            "Aryabhatiya: His seminal work on mathematics and astronomy.",
+            "Concept of zero and the decimal place value system.",
+            "Calculated the circumference of the Earth accurately.",
+            "Proposed that the Earth rotates on its axis."
+          ],
+          "answer": "Aryabhata contributed zero, decimal system, and astronomical calculations.",
+          "formula_used": "Scientific history"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Kalidasa was a mathematician.",
+          "wrong": "Kalidasa was a mathematician.",
+          "correct": "Kalidasa was a Sanskrit poet and dramatist.",
+          "tip": "Kalidasa = Literature; Aryabhata = Mathematics/Astronomy."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Gupta period = Golden Age (c. 319–550 CE).",
+            "Aryabhata: Zero, decimal system, astronomy.",
+            "Kalidasa: Shakuntala, Meghaduta, Kumarasambhava.",
+            "Chinese traveller Fa-Hien visited India during Chandragupta II's reign.",
+            "Administration: Decentralized, feudal system (land grants to Brahmins)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sangam_age",
+      "title": "The Sangam Age and Southern Dynasties – Cholas, Cheras, Pandyas",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Sangam Age",
+          "subtitle": "Tamil Literature and Maritime Empires",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The Sangam Literature",
+          "content": "Sangam literature (c. 300 BCE – 300 CE) is a collection of ancient Tamil poetry and prose. The three Sangams (assemblies) were held in Madurai. Key works: Tolkappiyam (grammar), Tirukkural (ethics by Thiruvalluvar).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏯",
+          "title": "The Three Great Powers – Cholas, Cheras, Pandyas",
+          "content": "1. **Cholas**: Ruled the Kaveri delta (present-day Tamil Nadu). Known for naval expeditions to Southeast Asia.\n2. **Cheras**: Ruled present-day Kerala. Known for trade with Rome (pepper, spices).\n3. **Pandyas**: Ruled the southern tip of India. Capital: Madurai. Patrons of the Sangam era.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Sangam Dynasties – Quick Overview",
+          "headers": ["Dynasty", "Capital", "Key Features"],
+          "rows": [
+            ["Cholas", "Uraiyur (early), Thanjavur (later)", "Naval expeditions, agriculture, trade."],
+            ["Cheras", "Vanji (Karur)", "Roman trade, spices, literature."],
+            ["Pandyas", "Madurai", "Sangam patronage, pearl fishery, temples."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Roman Trade with the Sangam Kingdoms",
+          "given": ["The Cholas, Cheras, and Pandyas traded extensively with the Roman Empire."],
+          "find": "What evidence supports this trade?",
+          "steps": [
+            "Roman coins have been found in Tamil Nadu.",
+            "Tamil literature mentions Yavanas (Greeks/Romans).",
+            "The Periplus of the Erythraean Sea describes trade ports.",
+            "Spices (pepper), gems, and textiles were exported to Rome."
+          ],
+          "answer": "Evidence includes Roman coins, Tamil texts, and Greek accounts.",
+          "formula_used": "Archaeological and textual evidence"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Sangam literature was written in Sanskrit.",
+          "wrong": "Sangam literature is in Sanskrit.",
+          "correct": "Sangam literature is in Tamil.",
+          "tip": "Sangam = Tamil; Sanskrit = Gupta period literature."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Sangam period = Early Tamil literature (c. 300 BCE – 300 CE).",
+            "Three kingdoms: Cholas (Kaveri), Cheras (Kerala), Pandyas (Madurai).",
+            "Key works: Tolkappiyam, Tirukkural.",
+            "Maritime trade with Rome and Southeast Asia.",
+            "The Sangam age laid the foundation for South Indian culture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ancient_history_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Ancient India – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on key periods: Indus Valley, Vedic Age, Mauryan, Gupta, and Sangam. Memorize important rulers, texts, and their contributions.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is the oldest Veda?",
+          "options": ["Samaveda", "Yajurveda", "Rigveda", "Atharvaveda"],
+          "answer": 2,
+          "explanation": "The Rigveda is the oldest Veda, composed around 1500–1200 BCE.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the founder of the Mauryan Empire?",
+          "options": ["Ashoka", "Bindusara", "Chandragupta Maurya", "Samudragupta"],
+          "answer": 2,
+          "explanation": "Chandragupta Maurya founded the Mauryan Empire in 321 BCE.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What was the capital of the Gupta Empire?",
+          "options": ["Pataliputra", "Ujjain", "Kannauj", "Thanjavur"],
+          "answer": 0,
+          "explanation": "The Gupta Empire's capital was Pataliputra (present-day Patna).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The famous 'Great Bath' was found at which Indus Valley site?",
+          "options": ["Harappa", "Mohenjo-daro", "Dholavira", "Lothal"],
+          "answer": 1,
+          "explanation": "The Great Bath was a major structure at Mohenjo-daro.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which text was written by Chanakya?",
+          "options": ["Arthashastra", "Manusmriti", "Mahabharata", "Ramayana"],
+          "answer": 0,
+          "explanation": "Chanakya (Kautilya) wrote the Arthashastra on statecraft and governance.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What was Ashoka's Dhamma?",
+          "options": ["A religion based on Buddhism", "A moral code of conduct", "A tax system", "A military strategy"],
+          "answer": 1,
+          "explanation": "Ashoka's Dhamma was a moral code promoting non-violence, tolerance, and welfare.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Gupta emperor is known as the 'Napoleon of India'?",
+          "options": ["Chandragupta I", "Samudragupta", "Chandragupta II", "Skandagupta"],
+          "answer": 1,
+          "explanation": "Samudragupta is called the 'Napoleon of India' for his military conquests.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which language was used in the Sangam literature?",
+          "options": ["Sanskrit", "Tamil", "Pali", "Prakrit"],
+          "answer": 1,
+          "explanation": "Sangam literature is in Tamil.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who is the author of 'Abhijnanashakuntalam'?",
+          "options": ["Aryabhata", "Kalidasa", "Brahmagupta", "Vishnu Sharma"],
+          "answer": 1,
+          "explanation": "Kalidasa wrote the famous play 'Abhijnanashakuntalam' (The Recognition of Shakuntala).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which kingdom was known for its naval expeditions to Southeast Asia?",
+          "options": ["Chera", "Pandya", "Chola", "Satavahana"],
+          "answer": 2,
+          "explanation": "The Cholas had a powerful navy and conducted naval expeditions to Southeast Asia.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the key periods and their contributions: Indus (urban planning), Vedic (scriptures), Mauryan (unification/Ashoka), Gupta (golden age), Sangam (Tamil literature)."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Ancient India",
+          "points": [
+            "Indus Valley: Harappa, Mohenjo-daro, grid layout, trade.",
+            "Vedic Age: Vedas, Upanishads, Varna system.",
+            "Buddhism & Jainism: Buddha, Mahavira, Four Noble Truths, Ahimsa.",
+            "Mauryan Empire: Chandragupta, Chanakya, Ashoka, Dhamma.",
+            "Post-Mauryan: Indo-Greeks, Shungas, Satavahanas, Kushans.",
+            "Gupta Empire: Aryabhata, Kalidasa, zero/decimal, golden age.",
+            "Sangam Age: Cholas, Cheras, Pandyas, Tamil literature."
+          ]
+        }
+      ]
+    }
+  ]
+}

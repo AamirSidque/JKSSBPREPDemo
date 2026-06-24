@@ -1,0 +1,408 @@
+{
+  "id": "contemporary_india",
+  "subject_id": "indian_history",
+  "title": "Contemporary India: 2015 to Present",
+  "subtopics": [
+    {
+      "id": "digital_transformation",
+      "title": "Digital Transformation and Economic Formalization – GST, UPI, and More",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Digital Transformation and Economic Formalization",
+          "subtitle": "India's Digital Revolution and Tax Reforms",
+          "tags": ["JKSSB", "High Weightage", "Contemporary India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📱",
+          "title": "Digital India Initiative (2015)",
+          "content": "The Digital India programme was launched by Prime Minister Narendra Modi in 2015. Its goal is to transform India into a digitally empowered society. Key pillars: Broadband highways, universal mobile connectivity, public internet access, e-governance, and digital literacy.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💳",
+          "title": "The UPI Revolution",
+          "content": "The Unified Payments Interface (UPI) is a real-time payment system developed by the National Payments Corporation of India (NPCI) in 2016. It enables instant money transfers between bank accounts using mobile phones. UPI has become one of the world's largest digital payment systems, processing billions of transactions monthly.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧾",
+          "title": "Goods and Services Tax (GST) – 2017",
+          "content": "GST is India's biggest tax reform, implemented on 1st July 2017. It replaced a complex system of multiple taxes (excise, VAT, service tax) with a single, unified tax structure. GST is a destination-based tax with rates: 0%, 5%, 12%, 18%, 28%. It simplified compliance, reduced cascading effects, and increased tax revenue.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏦",
+          "title": "Demonetisation (2016)",
+          "content": "On 8th November 2016, Prime Minister Narendra Modi announced the demonetisation of ₹500 and ₹1000 currency notes, which accounted for 86% of India's currency in circulation. The move was aimed at curbing black money, counterfeiting, and promoting digital payments.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Digital and Economic Initiatives",
+          "headers": ["Initiative", "Year", "Key Feature"],
+          "rows": [
+            ["Digital India", "2015", "Digital infrastructure, e-governance, digital literacy."],
+            ["UPI", "2016", "Real-time digital payments, instant transfers."],
+            ["Demonetisation", "2016", "Removal of ₹500/₹1000 notes, push for digital payments."],
+            ["GST", "2017", "Unified tax system, 'One Nation, One Tax'."],
+            ["Make in India", "2014", "Encouraging manufacturing, FDI."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Impact of GST",
+          "given": ["GST was implemented in 2017, replacing multiple taxes."],
+          "find": "What has been the impact of GST on the Indian economy?",
+          "steps": [
+            "Simplified tax compliance for businesses.",
+            "Reduced cascading effect (tax on tax).",
+            "Increased tax revenue due to improved compliance.",
+            "Created a common national market (One Nation, One Tax).",
+            "Boosted formalisation of the economy."
+          ],
+          "answer": "GST has simplified taxation, increased formalisation, and boosted tax revenue.",
+          "formula_used": "Economic policy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: GST was implemented in 2016.",
+          "wrong": "GST was implemented in 2016.",
+          "correct": "GST was implemented on 1st July 2017.",
+          "tip": "GST = 2017; Demonetisation = 2016; UPI = 2016."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Digital India (2015): Digital infrastructure, e-governance.",
+            "UPI (2016): India's largest digital payments platform.",
+            "Demonetisation (2016): Removed ₹500/₹1000 notes, push for digital payments.",
+            "GST (2017): Unified tax, 'One Nation, One Tax', simplified compliance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mega_infrastructure",
+      "title": "Mega Infrastructure and Connectivity – Highways, Rail Corridors, and Rural Electrification",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Mega Infrastructure and Connectivity",
+          "subtitle": "Building India's Physical Backbone",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛤️",
+          "title": "Rapid Expansion of National Highways",
+          "content": "India has witnessed a rapid expansion of its national highway network under the Bharatmala Pariyojana (2017). It aims to construct 83,000 km of highways. The pace of highway construction has increased from 12 km/day (2014) to over 30 km/day.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚄",
+          "title": "High-Speed Rail Corridors",
+          "content": "India's first high-speed rail corridor (bullet train) is being built between Mumbai and Ahmedabad. The project is being developed with Japanese technology (Shinkansen). It will connect India's financial capital with a major economic hub.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Rural Electrification",
+          "content": "The Saubhagya Scheme (2017) was launched to achieve universal household electrification. By 2019, all 2.8 crore un-electrified households were connected to the grid. India achieved 100% village electrification and household electrification.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚂",
+          "title": "Railway Modernisation",
+          "content": "Indian Railways has seen significant modernisation: Vande Bharat Express (semi-high-speed trains), electrification of railway lines (100% by 2024), and the development of Dedicated Freight Corridors (DFCs) to boost freight transport.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Major Infrastructure Initiatives",
+          "headers": ["Project", "Year", "Key Feature"],
+          "rows": [
+            ["Bharatmala", "2017", "83,000 km highways, improved connectivity."],
+            ["Mumbai-Ahmedabad Bullet Train", "2017 (Ongoing)", "High-speed rail (Shinkansen technology)."],
+            ["Saubhagya Scheme", "2017", "100% household electrification."],
+            ["Dedicated Freight Corridors", "Ongoing", "Boost freight transport."],
+            ["Vande Bharat Express", "2019", "India's first semi-high-speed train."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: India's 100% Rural Electrification",
+          "given": ["India achieved 100% household electrification under the Saubhagya Scheme."],
+          "find": "What was the significance of this achievement?",
+          "steps": [
+            "Improved quality of life in rural areas.",
+            "Boosted economic activities (small industries, shops).",
+            "Enabled digital connectivity and access to services.",
+            "Reduced reliance on kerosene and other fossil fuels."
+          ],
+          "answer": "Rural electrification improved living standards and boosted the economy.",
+          "formula_used": "Socio-economic analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Vande Bharat Express is a bullet train.",
+          "wrong": "Vande Bharat Express is a bullet train.",
+          "correct": "Vande Bharat Express is a semi-high-speed train (130-160 km/h). The Mumbai-Ahmedabad bullet train will be the first high-speed rail.",
+          "tip": "Vande Bharat = Semi-high speed; Bullet train = Mumbai-Ahmedabad."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Bharatmala: 83,000 km highways, improved connectivity.",
+            "Mumbai-Ahmedabad Bullet Train: India's first high-speed rail.",
+            "Saubhagya: 100% household electrification (2017-2019).",
+            "Vande Bharat: India's first semi-high-speed train (2019).",
+            "Infrastructure development has boosted economic growth and connectivity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "space_defense",
+      "title": "Advanced Space and Defense Horizons – Chandrayaan, Mangalyaan, Make in India",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Space and Defense Horizons",
+          "subtitle": "India's Giant Leaps in Space and Defense",
+          "tags": ["JKSSB", "High Weightage", "Contemporary India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚀",
+          "title": "ISRO's Space Achievements",
+          "content": "The Indian Space Research Organisation (ISRO) has achieved remarkable success in recent years. Key missions include the Mars Orbiter Mission (Mangalyaan, 2014) – India's first interplanetary mission, and Chandrayaan-2 (2019) – India's second lunar mission with an orbiter, lander (Vikram), and rover (Pragyan).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌕",
+          "title": "Chandrayaan-3 (2023) – A Historic Success",
+          "content": "Chandrayaan-3 was launched on 14th July 2023 and successfully landed near the lunar south pole on 23rd August 2023. India became the first country to land near the lunar south pole and the fourth country (after USA, Russia, China) to achieve a soft landing on the Moon. The Vikram lander and Pragyan rover conducted experiments on the lunar surface.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔭",
+          "title": "Aditya-L1 – India's Solar Mission (2023)",
+          "content": "Aditya-L1 is India's first space-based observatory to study the Sun. It was launched on 2nd September 2023. It will study solar dynamics, coronal mass ejections, and solar wind from the Lagrange Point 1 (L1) orbit.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "Defense Self-Reliance – Make in India in Defense",
+          "content": "The Indian government has promoted defense manufacturing under the 'Make in India' initiative. Key achievements: indigenous aircraft carrier INS Vikrant (commissioned in 2022), Tejas (indigenous fighter aircraft), Arjun (main battle tank), and Akash (surface-to-air missile system). India has also reduced dependence on foreign arms imports.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "✈️",
+          "title": "Light Combat Aircraft (LCA) Tejas",
+          "content": "Tejas is India's indigenous light combat aircraft developed by the Aeronautical Development Agency (ADA) and Hindustan Aeronautics Limited (HAL). It is a single-engine, multi-role fighter aircraft. It was inducted into the Indian Air Force in 2015. Tejas is a symbol of India's self-reliance in defense technology.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Major Space and Defense Achievements",
+          "headers": ["Mission/Project", "Year", "Significance"],
+          "rows": [
+            ["Mangalyaan (Mars Orbiter Mission)", "2014", "India's first interplanetary mission, reached Mars on first attempt."],
+            ["Chandrayaan-2", "2019", "India's second lunar mission; orbiter successful, lander lost contact."],
+            ["Chandrayaan-3", "2023", "First soft landing near lunar south pole, historic success."],
+            ["Aditya-L1", "2023", "India's first solar mission, studying the Sun."],
+            ["INS Vikrant", "2022", "India's first indigenous aircraft carrier."],
+            ["Tejas (LCA)", "2015", "Indigenous light combat aircraft."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Chandrayaan-3 – A Historic Mission",
+          "given": ["Chandrayaan-3 successfully landed near the lunar south pole in 2023."],
+          "find": "What was the significance of this mission?",
+          "steps": [
+            "India became the first country to land near the lunar south pole.",
+            "India became the fourth country to achieve a soft landing on the Moon.",
+            "The mission conducted experiments on the lunar surface (water ice, minerals).",
+            "It demonstrated India's advanced space technology and cost-effectiveness."
+          ],
+          "answer": "Chandrayaan-3 marked a historic achievement in lunar exploration.",
+          "formula_used": "Scientific and strategic analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Chandrayaan-2 was a complete success.",
+          "wrong": "Chandrayaan-2 was a complete success.",
+          "correct": "Chandrayaan-2's orbiter was successful, but the lander (Vikram) lost contact during the descent.",
+          "tip": "Chandrayaan-2: Orbiter = Success; Lander/Rover = Partial (lost contact)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Mangalyaan (2014): India's first Mars mission.",
+            "Chandrayaan-3 (2023): First soft landing near lunar south pole.",
+            "Aditya-L1 (2023): India's first solar mission.",
+            "INS Vikrant (2022): India's first indigenous aircraft carrier.",
+            "Tejas: India's indigenous light combat aircraft.",
+            "Make in India: Strengthened defense self-reliance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contemporary_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Contemporary India – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on GST and UPI (economic reforms), Digital India, Chandrayaan missions, defense initiatives, and infrastructure projects. Memorize key years and terms.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "GST was implemented in India in which year?",
+          "options": ["2016", "2017", "2018", "2019"],
+          "answer": 1,
+          "explanation": "GST was implemented on 1st July 2017. It replaced multiple indirect taxes with a unified tax system.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which Indian space mission successfully landed near the lunar south pole?",
+          "options": ["Chandrayaan-1", "Chandrayaan-2", "Chandrayaan-3", "Mangalyaan"],
+          "answer": 2,
+          "explanation": "Chandrayaan-3 successfully landed near the lunar south pole on 23rd August 2023.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What does UPI stand for?",
+          "options": [
+            "Unified Payments Interface",
+            "Universal Payments Initiative",
+            "Unique Payment Interface",
+            "Universal Payment Infrastructure"
+          ],
+          "answer": 0,
+          "explanation": "UPI stands for Unified Payments Interface, a real-time payment system developed by NPCI in 2016.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which initiative was launched to achieve 100% household electrification?",
+          "options": ["Bharatmala", "Saubhagya", "Digital India", "Make in India"],
+          "answer": 1,
+          "explanation": "The Saubhagya Scheme (2017) was launched to achieve universal household electrification, completed by 2019.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Mumbai-Ahmedabad bullet train project is being developed with which country's technology?",
+          "options": ["USA", "Japan", "France", "Germany"],
+          "answer": 1,
+          "explanation": "The Mumbai-Ahmedabad bullet train is being developed with Japanese technology (Shinkansen).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which is India's first indigenous aircraft carrier?",
+          "options": ["INS Vikramaditya", "INS Vikrant", "INS Viraat", "INS Nilgiri"],
+          "answer": 1,
+          "explanation": "INS Vikrant (2022) is India's first indigenous aircraft carrier.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Tejas is an indigenous:",
+          "options": ["Spacecraft", "Fighter Aircraft", "Tank", "Missile System"],
+          "answer": 1,
+          "explanation": "Tejas is India's indigenous light combat aircraft (LCA), developed by ADA and HAL.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which year was the Mars Orbiter Mission (Mangalyaan) launched?",
+          "options": ["2012", "2013", "2014", "2015"],
+          "answer": 2,
+          "explanation": "The Mars Orbiter Mission (Mangalyaan) was launched in November 2013 and reached Mars in 2014.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which scheme aims to construct 83,000 km of national highways?",
+          "options": ["Saubhagya", "Bharatmala", "Digital India", "Make in India"],
+          "answer": 1,
+          "explanation": "Bharatmala Pariyojana (2017) aims to construct 83,000 km of national highways.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What was the primary objective of demonetisation in 2016?",
+          "options": [
+            "To promote digital payments",
+            "To curb black money and counterfeiting",
+            "To reduce inflation",
+            "To increase foreign investment"
+          ],
+          "answer": 1,
+          "explanation": "Demonetisation in 2016 was aimed at curbing black money, counterfeiting, and promoting digital payments.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review key initiatives: GST (2017), UPI (2016), Digital India (2015), Chandrayaan-3 (2023), and defense achievements (INS Vikrant, Tejas). Memorize important years and their significance."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Contemporary India",
+          "points": [
+            "Digital India (2015): Digital infrastructure, e-governance.",
+            "UPI (2016): India's largest digital payment system.",
+            "GST (2017): 'One Nation, One Tax', unified tax system.",
+            "Chandrayaan-3 (2023): First soft landing near lunar south pole.",
+            "Aditya-L1 (2023): India's first solar mission.",
+            "INS Vikrant (2022): First indigenous aircraft carrier.",
+            "Tejas: India's indigenous light combat aircraft.",
+            "Bharatmala (2017): 83,000 km highways.",
+            "Saubhagya (2017): 100% household electrification.",
+            "Make in India: Strengthened defense manufacturing and self-reliance."
+          ]
+        }
+      ]
+    }
+  ]
+}

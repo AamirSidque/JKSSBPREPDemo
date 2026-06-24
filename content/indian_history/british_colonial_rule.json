@@ -1,0 +1,540 @@
+{
+  "id": "british_colonial_rule",
+  "subject_id": "indian_history",
+  "title": "British Colonial Rule and Resistance: 1757 CE to 1947 CE",
+  "subtopics": [
+    {
+      "id": "eic_expansion",
+      "title": "East India Company Expansion and Economic Drain",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "East India Company Expansion",
+          "subtitle": "From Trade to Empire – The Rise of British Power in India",
+          "tags": ["JKSSB", "High Weightage", "Modern India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "The Battle of Plassey (1757)",
+          "content": "The Battle of Plassey was fought between the British East India Company (led by Robert Clive) and Nawab Siraj-ud-Daulah of Bengal. The British won due to the treachery of Mir Jafar, who was made Nawab. This battle established British political power in India.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Battle of Buxar (1764)",
+          "content": "The Battle of Buxar was fought between the British and the combined forces of Mir Qasim (Nawab of Bengal), Shuja-ud-Daulah (Nawab of Awadh), and Shah Alam II (Mughal Emperor). The British victory established them as the dominant power in India. The Treaty of Allahabad (1765) gave the British the Diwani (tax-collecting rights) of Bengal, Bihar, and Odisha.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Subsidiary Alliance (1798)",
+          "content": "Introduced by Lord Wellesley, the Subsidiary Alliance was a system where Indian rulers had to accept British protection, maintain a British army, and pay for it. They lost their independence and had to accept British supremacy. Princely states like Hyderabad, Awadh, and Mysore were forced into this alliance.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "Economic Drain Theory",
+          "content": "Dadabhai Naoroji, in his book 'Poverty and Un-British Rule in India' (1901), described the economic drain of India. He argued that Britain was draining India's wealth through heavy taxes, unfair trade policies, and exploitation of resources. This led to widespread poverty and famines in India.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Events in EIC Expansion",
+          "headers": ["Year", "Event", "Significance"],
+          "rows": [
+            ["1757", "Battle of Plassey", "British victory, Mir Jafar as Nawab."],
+            ["1764", "Battle of Buxar", "British dominance over Bengal, Bihar, Odisha."],
+            ["1765", "Treaty of Allahabad", "Diwani rights to the British."],
+            ["1798", "Subsidiary Alliance", "Indian rulers lose independence."],
+            ["1857", "Rebellion", "End of Company rule, Crown takes over."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Doctrine of Lapse",
+          "given": ["Lord Dalhousie introduced the Doctrine of Lapse to annex princely states."],
+          "find": "What was the Doctrine of Lapse?",
+          "steps": [
+            "If a ruler died without a male heir, his state would be annexed by the British.",
+            "States annexed: Satara (1848), Jhansi (1853), Nagpur (1854).",
+            "This doctrine was one of the causes of the 1857 Rebellion.",
+            "Rani Lakshmibai of Jhansi became a symbol of resistance."
+          ],
+          "answer": "The Doctrine of Lapse allowed the British to annex states without male heirs.",
+          "formula_used": "Political analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Battle of Plassey was fought in 1764.",
+          "wrong": "The Battle of Plassey was fought in 1764.",
+          "correct": "The Battle of Plassey was fought in 1757. Buxar was in 1764.",
+          "tip": "Plassey = 1757 (Mir Jafar's treachery); Buxar = 1764."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Plassey (1757): British victory, Mir Jafar as Nawab.",
+            "Buxar (1764): British dominance, Diwani rights.",
+            "Subsidiary Alliance: Indian rulers lose independence.",
+            "Doctrine of Lapse: Annexation of states without male heirs.",
+            "Economic Drain: British exploitation of Indian wealth."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebellion_1857",
+      "title": "The Rebellion of 1857 and the Crown Takeover",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Rebellion of 1857",
+          "subtitle": "The First War of Indian Independence",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "Causes of the 1857 Rebellion",
+          "content": "1. **Political**: Doctrine of Lapse, Annexation of states, Subsidiary Alliance.\n2. **Economic**: Heavy taxation, economic drain, destruction of traditional industries.\n3. **Social**: Interference in social customs (abolition of Sati, widow remarriage).\n4. **Religious**: Fear of forced conversion, introduction of the Enfield rifle with greased cartridges (animal fat).\n5. **Military**: Low pay, poor conditions, and the greased cartridge issue.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Key Leaders of the Rebellion",
+          "content": "1. **Rani Lakshmibai** of Jhansi – Became a symbol of resistance.\n2. **Nana Saheb** – Led the revolt in Kanpur.\n3. **Bahadur Shah Zafar** – The Mughal emperor was proclaimed the leader of the revolt.\n4. **Kunwar Singh** – Led the revolt in Bihar.\n5. **Begum Hazrat Mahal** – Led the revolt in Awadh.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Impact of the Rebellion",
+          "content": "1. The Rebellion failed militarily but ended the rule of the East India Company.\n2. The British Crown (Queen Victoria) took direct control of India.\n3. The Government of India Act 1858 transferred power to the Crown.\n4. The British reorganized the army (more British soldiers, fewer Indians in key positions).\n5. India became a British colony (the British Raj).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Greased Cartridge Issue",
+          "given": ["The greased cartridge issue was the immediate cause of the 1857 Rebellion."],
+          "find": "What was the greased cartridge issue?",
+          "steps": [
+            "The Enfield rifle required cartridges to be bitten off before loading.",
+            "The cartridges were greased with animal fat (pig and cow).",
+            "This offended Hindu (cow) and Muslim (pig) soldiers.",
+            "Soldiers refused to use the cartridges, leading to their arrest and the beginning of the revolt."
+          ],
+          "answer": "The greased cartridges offended religious sentiments and triggered the revolt.",
+          "formula_used": "Historical cause analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The 1857 Rebellion spread across all of India.",
+          "wrong": "The 1857 Rebellion spread across the entire Indian subcontinent.",
+          "correct": "The Rebellion was concentrated in northern and central India (UP, Bihar, MP, Delhi, Jhansi).",
+          "tip": "South India and Punjab remained relatively unaffected."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Immediate cause: Greased cartridges.",
+            "Political, economic, social, religious causes.",
+            "Leaders: Rani Lakshmibai, Nana Saheb, Bahadur Shah Zafar.",
+            "Impact: End of Company rule, British Raj established.",
+            "Government of India Act 1858 transferred power to the Crown."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social_reform_nationalism",
+      "title": "Social Reform and the Rise of Nationalism",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Social Reform and Nationalism",
+          "subtitle": "The Awakening of Modern India",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕊️",
+          "title": "Raja Ram Mohan Roy (1772–1833)",
+          "content": "Raja Ram Mohan Roy is known as the 'Father of Modern India' and the 'Father of the Indian Renaissance'. He founded the Brahmo Samaj in 1828. He campaigned against Sati (widow burning), child marriage, and the caste system. He advocated for women's rights, modern education, and social equality.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕉️",
+          "title": "Swami Vivekananda (1863–1902)",
+          "content": "Swami Vivekananda was a disciple of Ramakrishna Paramahamsa. He founded the Ramakrishna Mission in 1897. He gave a famous speech at the World Parliament of Religions in Chicago (1893) on tolerance and universal acceptance. He emphasised self-confidence, service to humanity, and the greatness of Indian spirituality.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "The Indian National Congress (INC) – 1885",
+          "content": "The Indian National Congress was founded by A.O. Hume in 1885 with the support of 72 delegates. It was initially a moderate organization that sought reforms through constitutional means. Early leaders: Dadabhai Naoroji, Surendranath Banerjee, Gopal Krishna Gokhale, and Pherozeshah Mehta.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Social Reform Movements",
+          "headers": ["Reformer", "Movement/Organization", "Key Contributions"],
+          "rows": [
+            ["Raja Ram Mohan Roy", "Brahmo Samaj", "Abolition of Sati, widow remarriage, modern education."],
+            ["Swami Dayananda Saraswati", "Arya Samaj", "Vedic revival, caste reform, education."],
+            ["Jyotirao Phule", "Satyashodhak Samaj", "Dalit upliftment, women's education."],
+            ["Swami Vivekananda", "Ramakrishna Mission", "Social service, spiritual awakening."],
+            ["Sir Syed Ahmed Khan", "Aligarh Movement", "Modern education for Muslims, AMU."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Brahmo Samaj",
+          "given": ["Raja Ram Mohan Roy founded the Brahmo Samaj in 1828."],
+          "find": "What were the key teachings of the Brahmo Samaj?",
+          "steps": [
+            "Belief in one God (monotheism).",
+            "Opposition to idol worship and ritualism.",
+            "Criticism of the caste system and social evils.",
+            "Promotion of education and women's rights."
+          ],
+          "answer": "The Brahmo Samaj promoted monotheism, social reform, and modern education.",
+          "formula_used": "Socio-religious reform analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Indian National Congress was founded in 1905.",
+          "wrong": "The Indian National Congress was founded in 1905.",
+          "correct": "The Indian National Congress was founded in 1885.",
+          "tip": "INC was founded in 1885; the Partition of Bengal was in 1905."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Raja Ram Mohan Roy: Brahmo Samaj, abolition of Sati.",
+            "Swami Vivekananda: Ramakrishna Mission, Chicago speech.",
+            "Indian National Congress: Founded in 1885 (A.O. Hume).",
+            "Early leaders: Dadabhai Naoroji, Gopal Krishna Gokhale.",
+            "Reform movements laid the foundation for the freedom struggle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gandhian_era",
+      "title": "The Gandhian Era and Mass Movements",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Gandhian Era",
+          "subtitle": "Satyagraha, Swaraj, and the Mass Struggle for Freedom",
+          "tags": ["JKSSB", "High Weightage", "Modern India"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕊️",
+          "title": "Mahatma Gandhi – The Father of the Nation",
+          "content": "Mohandas Karamchand Gandhi (1869–1948) was the leader of the Indian independence movement. He introduced the philosophy of Satyagraha (truth-force) and Ahimsa (non-violence). He returned from South Africa in 1915 and transformed the freedom struggle into a mass movement.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "✊",
+          "title": "The Non-Cooperation Movement (1920–1922)",
+          "content": "The Non-Cooperation Movement was the first mass movement led by Gandhi. It was launched after the Jallianwala Bagh massacre (1919) and the Khilafat issue. The movement called for the boycott of foreign goods, educational institutions, and government services. It was withdrawn after the Chauri Chaura incident (1922) where a violent mob killed policemen.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧂",
+          "title": "The Civil Disobedience Movement and the Salt March (1930)",
+          "content": "The Civil Disobedience Movement was launched with the Dandi Salt March (March–April 1930). Gandhi and his followers marched 240 miles to the Arabian Sea to produce salt, defying British law. The movement spread across India, with people refusing to pay taxes and boycotting foreign goods.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "The Quit India Movement (1942)",
+          "content": "Launched in August 1942, the Quit India Movement was the final mass movement of the freedom struggle. Gandhi gave the call 'Do or Die'. The British responded with mass arrests and violence. The movement saw widespread protests, strikes, and the establishment of parallel governments in some regions (Ballia, Tamluk).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Satyagraha – The Philosophy of Non-Violence",
+          "content": "Satyagraha means 'holding onto truth'. It is a method of non-violent resistance where the truth-force is used to confront injustice. It involves peaceful protests, civil disobedience, and moral persuasion. Gandhi used Satyagraha in Champaran (1917), Ahmedabad (1918), and Kheda (1918) before the national movements.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Gandhian Movements",
+          "headers": ["Movement", "Year", "Key Features", "Outcome"],
+          "rows": [
+            ["Champaran", "1917", "Indigo planters' issues, Satyagraha", "Success – improved conditions."],
+            ["Kheda", "1918", "Tax relief for peasants", "Success – tax waivers."],
+            ["Non-Cooperation", "1920–1922", "Boycott, Khilafat support", "Withdrawn after Chauri Chaura."],
+            ["Salt March/Civil Disobedience", "1930", "Dandi March, salt law defiance", "Gandhi-Irwin Pact."],
+            ["Quit India", "1942", "'Do or Die', mass protests", "Mass arrests, movement crushed."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Salt March",
+          "given": ["Gandhi's Dandi March was a pivotal event in the freedom struggle."],
+          "find": "What was the significance of the Salt March?",
+          "steps": [
+            "It defied the British salt monopoly, which affected all Indians.",
+            "It became a symbol of resistance against colonial rule.",
+            "It inspired millions of Indians to join the freedom movement.",
+            "It brought international attention to India's struggle for independence."
+          ],
+          "answer": "The Salt March symbolised defiance of unjust British laws and galvanised the nation.",
+          "formula_used": "Historical significance analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Non-Cooperation Movement was launched before Jallianwala Bagh.",
+          "wrong": "The Non-Cooperation Movement was launched before Jallianwala Bagh.",
+          "correct": "Jallianwala Bagh massacre (1919) led to the Non-Cooperation Movement (1920).",
+          "tip": "Jallianwala Bagh → Non-Cooperation; Chauri Chaura → withdrawal."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Gandhi's philosophy: Satyagraha (truth-force), Ahimsa (non-violence).",
+            "Non-Cooperation (1920): Boycott of British goods, institutions.",
+            "Salt March (1930): Defiance of salt tax, Civil Disobedience.",
+            "Quit India (1942): 'Do or Die', final mass movement.",
+            "Gandhi's movements transformed the freedom struggle into a mass movement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolutionary_nationalism",
+      "title": "Revolutionary Nationalism, Partition, and Freedom",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Revolutionary Nationalism and Partition",
+          "subtitle": "The Armed Struggle and the Final Act of Freedom",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔥",
+          "title": "Bhagat Singh and the Revolutionary Movement",
+          "content": "Bhagat Singh (1907–1931) was a revolutionary who believed in armed struggle against British rule. He was a member of the Hindustan Socialist Republican Association (HSRA). He threw a bomb in the Central Legislative Assembly (1929) and was hanged for the murder of British official J.P. Saunders.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "Subhas Chandra Bose and the Indian National Army (INA)",
+          "content": "Subhas Chandra Bose (1897–1945) was a prominent leader who advocated for complete independence. He formed the Forward Bloc and later the Indian National Army (INA) with the support of Japan during World War II. He gave the famous slogan 'Jai Hind' and 'Give me blood and I will give you freedom'. The INA fought alongside the Japanese against the British in Burma and Northeast India.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The Mountbatten Plan (1947)",
+          "content": "Lord Mountbatten, the last Viceroy of India, proposed the Mountbatten Plan (June 1947) which included the partition of India into two nations – India and Pakistan. The plan was accepted by the Indian National Congress and the Muslim League. The transfer of power took place on 15th August 1947.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🇮🇳",
+          "title": "Independence and Partition – 15th August 1947",
+          "content": "India gained independence on 15th August 1947. The country was partitioned into India and Pakistan (East and West Pakistan). The partition led to massive violence, displacement, and the loss of millions of lives. Jawaharlal Nehru gave the famous 'Tryst with Destiny' speech on the eve of independence.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Revolutionary Leaders and Their Contributions",
+          "headers": ["Leader", "Organization", "Key Contributions"],
+          "rows": [
+            ["Bhagat Singh", "HSRA", "Assembly bomb, J.P. Saunders murder, anti-colonial writings."],
+            ["Subhas Chandra Bose", "INA (Azad Hind Fauj)", "Armed struggle with Japan, slogans like 'Jai Hind'."],
+            ["Chandrasekhar Azad", "HSRA", "Kakori conspiracy, revolutionary activities."],
+            ["Netaji", "Forward Bloc", "Elected Congress President (1938), breakaway to form INA."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Bhagat Singh's Trial and Hanging",
+          "given": ["Bhagat Singh was executed at a young age (23)."],
+          "find": "What was Bhagat Singh's contribution to the freedom struggle?",
+          "steps": [
+            "He symbolised the revolutionary spirit against British colonialism.",
+            "He inspired the youth to resist British rule.",
+            "His writings (e.g., 'Why I am an Atheist') left a lasting intellectual legacy.",
+            "His sacrifice made him a folk hero and a symbol of resistance."
+          ],
+          "answer": "Bhagat Singh inspired the youth and symbolised the revolutionary spirit.",
+          "formula_used": "Revolutionary contribution analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Subhas Chandra Bose was the first President of INC.",
+          "wrong": "Subhas Chandra Bose was the first President of the INC.",
+          "correct": "Subhas Chandra Bose was elected INC President in 1938, but he was not the first. W.C. Banerjee was the first.",
+          "tip": "W.C. Banerjee = First INC President; Bose = 1938 President (reelected 1939)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Bhagat Singh: Revolutionary, HSRA, executed at 23.",
+            "Subhas Chandra Bose: INA, 'Jai Hind', armed struggle.",
+            "Mountbatten Plan: Partition of India, 15 August 1947.",
+            "Independence: 15th August 1947, Nehru's 'Tryst with Destiny'.",
+            "Partition: Violence, displacement, creation of Pakistan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "British Colonial Rule – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on key battles (Plassey, Buxar), the 1857 Rebellion, Gandhian movements (Non-Cooperation, Salt March, Quit India), and revolutionary leaders (Bhagat Singh, Subhas Chandra Bose). Memorize important years.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Battle of Plassey was fought in which year?",
+          "options": ["1757", "1764", "1857", "1754"],
+          "answer": 0,
+          "explanation": "The Battle of Plassey was fought in 1757, leading to British control of Bengal.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the leader of the 1857 Rebellion in Jhansi?",
+          "options": ["Nana Saheb", "Rani Lakshmibai", "Kunwar Singh", "Begum Hazrat Mahal"],
+          "answer": 1,
+          "explanation": "Rani Lakshmibai led the rebellion in Jhansi.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who founded the Indian National Congress?",
+          "options": ["Dadabhai Naoroji", "A.O. Hume", "Gopal Krishna Gokhale", "Mahatma Gandhi"],
+          "answer": 1,
+          "explanation": "A.O. Hume founded the Indian National Congress in 1885.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which movement was launched by Gandhi after the Jallianwala Bagh massacre?",
+          "options": ["Salt March", "Non-Cooperation Movement", "Quit India Movement", "Civil Disobedience Movement"],
+          "answer": 1,
+          "explanation": "The Non-Cooperation Movement was launched in 1920 after Jallianwala Bagh and the Khilafat issue.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who gave the slogan 'Jai Hind'?",
+          "options": ["Bhagat Singh", "Subhas Chandra Bose", "Mahatma Gandhi", "Jawaharlal Nehru"],
+          "answer": 1,
+          "explanation": "Subhas Chandra Bose gave the slogan 'Jai Hind' and led the Indian National Army (INA).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What was the immediate cause of the 1857 Rebellion?",
+          "options": ["Doctrine of Lapse", "Greased cartridges", "Economic drain", "Social reforms"],
+          "answer": 1,
+          "explanation": "The greased cartridges (Enfield rifle) offended both Hindu and Muslim soldiers, triggering the revolt.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which act transferred the rule of India from the Company to the Crown?",
+          "options": ["Pitt's India Act", "Government of India Act 1858", "Indian Councils Act 1861", "Regulating Act 1773"],
+          "answer": 1,
+          "explanation": "The Government of India Act 1858 transferred power from the East India Company to the British Crown.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who founded the Brahmo Samaj?",
+          "options": ["Swami Vivekananda", "Dayananda Saraswati", "Raja Ram Mohan Roy", "Jyotirao Phule"],
+          "answer": 2,
+          "explanation": "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828 to reform Hindu society.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "When was the Quit India Movement launched?",
+          "options": ["1930", "1935", "1942", "1945"],
+          "answer": 2,
+          "explanation": "The Quit India Movement was launched in August 1942 with the call 'Do or Die'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The plan that led to the partition of India was the:",
+          "options": ["Cabinet Mission Plan", "Mountbatten Plan", "Cripps Mission Plan", "Simla Conference"],
+          "answer": 1,
+          "explanation": "The Mountbatten Plan (June 1947) proposed the partition of India into India and Pakistan.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review key battles (Plassey, Buxar), the 1857 Rebellion, Gandhian movements (Non-Cooperation, Salt March, Quit India), and revolutionary leaders (Bhagat Singh, Subhas Chandra Bose). Memorize important years and their significance."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – British Colonial Rule",
+          "points": [
+            "1757: Battle of Plassey – British victory.",
+            "1764: Battle of Buxar – British dominance.",
+            "1857: Rebellion – End of Company rule.",
+            "1885: Indian National Congress founded.",
+            "1920: Non-Cooperation Movement.",
+            "1930: Salt March / Civil Disobedience.",
+            "1942: Quit India Movement.",
+            "1947: Independence and Partition.",
+            "Key Leaders: Gandhi, Bhagat Singh, Subhas Chandra Bose, Rani Lakshmibai, Nana Saheb."
+          ]
+        }
+      ]
+    }
+  ]
+}
+  

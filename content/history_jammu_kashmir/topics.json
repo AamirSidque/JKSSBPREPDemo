@@ -1,1 +1,13 @@
-history_jammu_kashmir
+{
+  "subject_id": "history_jammu_kashmir",
+  "topics": [
+    { "id": "jammu_kashmir_ancient",    "title": "Ancient Foundations & Early Settlements: Prehistory – 10th Century",    "file": "content/history_jammu_kashmir/jammu_kashmir_ancient.json",    "available": true },
+    { "id": "jammu_kashmir_medieval", "title": "Medieval Sovereign Kingdoms: 10th Century – 1586", "file": "content/history_jammu_kashmir/jammu_kashmir_medieval.json", "available": true},
+    { "id": "jammu_kashmir_imperial",    "title": "Imperial Overlords & Brutal Transitions: 1586 – 1819",    "file": "content/history_jammu_kashmir/jammu_kashmir_imperial.json",    "available": true },
+    { "id": "jammu_kashmir_sikh",    "title": "The Sikh Empire & Frontier Conquests: 1819 – 1846",    "file": "content/history_jammu_kashmir/jammu_kashmir_sikh.json",    "available": true },
+    { "id": "jammu_kashmir_dogra",    "title": "The Dogra Dynasty & The Unified Princely State: 1846 – 1947",    "file": "content/history_jammu_kashmir/jammu_kashmir_dogra.json",    "available": true },
+    { "id": "jammu_kashmir_independence",    "title": "Independence, Partition & The Cold War Era: 1947 – 2019",    "file": "content/history_jammu_kashmir/jammu_kashmir_independence.json",    "available": true },
+    { "id": "jammu_kashmir_reorganization",    "title": "The Reorganization and Union Territory Era: 2019 – Present",    "file": "content/history_jammu_kashmir/jammu_kashmir_reorganization.json",    "available": true }
+    
+  ]
+}

@@ -27,6 +27,14 @@
       "topics_file": "content/indian_history/topics.json"
     },
     {
+      "id": "history_jammu_kashmir",
+      "title": "History - Jammu and Kashmir",
+      "emoji": "📜",
+      "theme_color": "#9B59B6",
+      "description": "History : Jammu and Kashmir Including Ladakh",
+      "topics_file": "content/history_jammu_kashmir/topics.json"
+    },
+    {
       "id": "grammar_tenses_modals_articles_prepositions",
       "title": "General English and Comm. Skills",
       "emoji": "📚",

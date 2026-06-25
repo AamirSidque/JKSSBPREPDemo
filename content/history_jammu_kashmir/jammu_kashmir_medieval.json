@@ -1,0 +1,514 @@
+{
+  "id": "jammu_kashmir_medieval",
+  "subject_id": "history_jammu_kashmir",
+  "title": "Medieval Sovereign Kingdoms: 10th Century – 1586",
+  "subtopics": [
+    {
+      "id": "jk_founding_maryul",
+      "title": "The Founding of Maryul (Independent Ladakh)",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Founding of Maryul",
+          "subtitle": "The Birth of an Independent Ladakhi Kingdom",
+          "tags": ["JKSSB", "High Weightage", "Jammu & Kashmir History"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏔️",
+          "title": "The Collapse of the Tibetan Empire",
+          "content": "The Tibetan Empire, which had dominated the Western Himalayas, collapsed in the 9th century due to internal strife and the assassination of the last emperor, Langdarma (c. 842 CE). This created a power vacuum in the region, allowing local rulers to assert their independence.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Prince Palgyigon and the Founding of Maryul",
+          "content": "Following the collapse of the Tibetan Empire, Prince Palgyigon, a descendant of the Tibetan royal line, fled to the Western Himalayas. He established an independent kingdom called Maryul (meaning 'Lowland' in Tibetan) in the 10th century. This kingdom encompassed the present-day Leh and Kargil regions of Ladakh.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏰",
+          "title": "Leh and Shey – The Strategic Capitals",
+          "content": "Maryul's rulers consolidated power around strategic fortresses in the upper Indus Valley. Shey, near Leh, became the first capital. Leh later emerged as the primary capital. This separation meant Ladakh was politically distinct from Tibet while maintaining strong cultural and religious ties (Buddhism).",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Palgyigon and the Creation of Maryul",
+          "given": ["Palgyigon established Maryul after the fall of the Tibetan Empire."],
+          "find": "What was the significance of this event?",
+          "steps": [
+            "It created an independent Ladakhi kingdom.",
+            "It separated Ladakh politically from Tibet.",
+            "It laid the foundation for the Namgyal dynasty.",
+            "It preserved Tibetan cultural and religious traditions in Ladakh."
+          ],
+          "answer": "The founding of Maryul marked the beginning of an independent Ladakhi kingdom.",
+          "formula_used": "Historical analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Maryul was a Tibetan province.",
+          "wrong": "Maryul was a province of Tibet.",
+          "correct": "Maryul was an independent Ladakhi kingdom, politically separate from Tibet.",
+          "tip": "Maryul = Independent Ladakh."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Tibetan Empire collapsed in the 9th century.",
+            "Prince Palgyigon founded Maryul (Ladakh) in the 10th century.",
+            "Shey was the first capital; Leh became the primary capital.",
+            "Ladakh became politically independent from Tibet but culturally connected."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_kashmir_sultanate",
+      "title": "The Rise of the Kashmir Sultanate",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Rise of the Kashmir Sultanate",
+          "subtitle": "From Hindu Rule to Islamic Sultanate",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Collapse of Hindu Rule in Kashmir",
+          "content": "By the early 14th century, Hindu rule in Kashmir was in decline. The Lohara dynasty had weakened due to internal conflicts and external threats. In 1320, a devastating Mongol invasion led by Dulacha ravaged the valley, destroying cities and temples and creating a political vacuum.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Sultan Sadruddin (Rinchan) – The First Muslim Ruler",
+          "content": "In 1320, a Ladakhi prince named Rinchan, who had converted to Islam, seized power in Kashmir. He became Sultan Sadruddin, the first Muslim ruler of Kashmir. His reign marked the beginning of Islamic rule in the valley. He adopted the title 'Sultan' and established a new administrative system.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The Shah Mir Dynasty (1339)",
+          "content": "After Sultan Sadruddin's death in 1323, a brief period of instability followed. In 1339, Shah Mir, a Muslim adventurer from Swat (present-day Pakistan), overthrew the last Hindu ruler and established the Shah Mir dynasty. This dynasty ruled Kashmir for over 200 years, consolidating Islamic rule.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Early Sultans of Kashmir",
+          "headers": ["Ruler", "Period", "Significance"],
+          "rows": [
+            ["Sultan Sadruddin (Rinchan)", "1320–1323", "First Muslim ruler of Kashmir (Ladakhi prince)."],
+            ["Shah Mir", "1339–1342", "Founded the Shah Mir dynasty."],
+            ["Sikandar Shah Mir", "1389–1413", "Known for iconoclasm and forced conversions."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Transition to Islamic Rule",
+          "given": ["Sultan Sadruddin (Rinchan) became the first Muslim ruler of Kashmir in 1320."],
+          "find": "How did Islamic rule begin in Kashmir?",
+          "steps": [
+            "Hindu rule collapsed after the Mongol invasion of 1320.",
+            "Rinchan, a Ladakhi prince, converted to Islam and seized power.",
+            "He became Sultan Sadruddin, the first Muslim ruler.",
+            "Shah Mir later established a stable dynasty."
+          ],
+          "answer": "Islamic rule began with Sultan Sadruddin (Rinchan) and was consolidated by the Shah Mir dynasty.",
+          "formula_used": "Historical transition analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Rinchan was a Kashmiri Pandit.",
+          "wrong": "Rinchan was a Kashmiri Pandit.",
+          "correct": "Rinchan was a Ladakhi prince who converted to Islam.",
+          "tip": "Rinchan = Ladakhi, not Kashmiri Pandit."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Hindu rule collapsed after the Mongol invasion (1320).",
+            "Sultan Sadruddin (Rinchan) was the first Muslim ruler (1320–1323).",
+            "The Shah Mir dynasty was established by Shah Mir in 1339.",
+            "The Shah Mir dynasty ruled Kashmir for over 200 years."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_sufi_rishi",
+      "title": "Cultural Transformation and Synthesis – Sufi-Rishi Movement",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Cultural Transformation and Synthesis",
+          "subtitle": "The Sufi-Rishi Movement and Syncretic Culture",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕌",
+          "title": "Sultan Sikandar and Iconoclasm (1389–1413)",
+          "content": "Sultan Sikandar (also known as Sikandar Butshikan – 'the Idol Breaker') was a ruler of the Shah Mir dynasty known for his religious zealotry. He implemented forced conversions, imposed religious taxes (Jizya) on non-Muslims, and ordered the destruction of ancient Hindu temples, including the Martand Sun Temple.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "☪️",
+          "title": "Mir Sayyid Ali Hamadani – The Pioneer of Sufism",
+          "content": "Mir Sayyid Ali Hamadani was a Persian Sufi saint who visited Kashmir in the 14th century. He is credited with spreading Islam in Kashmir through peaceful means. He brought Persian culture, handicrafts (carpet weaving, shawl making), and established many mosques and Sufi shrines.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕉️",
+          "title": "The Rishi Order and Nund Rishi (Sheikh Noor-ud-din)",
+          "content": "The Rishi order was a unique Kashmiri Sufi tradition founded by Nund Rishi (Sheikh Noor-ud-din, 1377–1438). He emphasized peace, tolerance, vegetarianism, and service to humanity. His poetry, known as Shruks, blended Islamic and Kashmiri Hindu elements. He is considered the patron saint of Kashmir ('Alamdar-e-Kashmir').",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕊️",
+          "title": "Lal Ded (Lalleshwari) – The Mystic Poet",
+          "content": "Lal Ded (c. 1320–1392) was a Kashmiri mystic poetess. She composed spiritual verses (Vaakh) that reflected a synthesis of Kashmiri Shaivism and Sufism. Her teachings transcended religious boundaries and influenced both Hindus and Muslims in Kashmir.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Figures of the Sufi-Rishi Movement",
+          "headers": ["Saint", "Tradition", "Key Teachings"],
+          "rows": [
+            ["Mir Sayyid Ali Hamadani", "Sufi (Persian)", "Spread Islam, Persian culture, handicrafts."],
+            ["Nund Rishi (Sheikh Noor-ud-din)", "Rishi (Indigenous)", "Peace, tolerance, vegetarianism, Shruks."],
+            ["Lal Ded (Lalleshwari)", "Mystic (Syncretic)", "Vaakh (spiritual verses), synthesis of Shaivism and Sufism."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Nund Rishi's Contributions",
+          "given": ["Nund Rishi is the patron saint of Kashmir."],
+          "find": "What were his key contributions?",
+          "steps": [
+            "He founded the Rishi order (peace and tolerance).",
+            "He composed poetry (Shruks) in Kashmiri.",
+            "He promoted vegetarianism and service to all beings.",
+            "He preached a syncretic message blending Islamic and Kashmiri traditions."
+          ],
+          "answer": "Nund Rishi created a unique Kashmiri Sufi tradition based on peace and tolerance.",
+          "formula_used": "Religious and cultural analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Lal Ded was a Muslim saint.",
+          "wrong": "Lal Ded was a Muslim saint.",
+          "correct": "Lal Ded was a mystic poetess who blended Kashmiri Shaivism and Sufism.",
+          "tip": "Lal Ded = Syncretic mystic."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Sultan Sikandar: Iconoclasm, forced conversions.",
+            "Mir Sayyid Ali Hamadani: Brought Sufism and Persian culture.",
+            "Nund Rishi: Founder of Rishi order, peace, tolerance.",
+            "Lal Ded: Mystic poetess, synthesis of Shaivism and Sufism.",
+            "The Sufi-Rishi movement created a unique syncretic culture in Kashmir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_budshah_namgyal",
+      "title": "The Eras of 'Budshah' and the Namgyal Dynasty",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Eras of Budshah and the Namgyal Dynasty",
+          "subtitle": "Kashmir's Golden Age and Ladakh's Royal Lineage",
+          "tags": ["JKSSB", "High Weightage", "Jammu & Kashmir History"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Sultan Zain-ul-Abidin (Budshah) – The Great King (1420–1470)",
+          "content": "Sultan Zain-ul-Abidin, also known as Budshah ('The Great King'), was the most renowned ruler of the Shah Mir dynasty. His reign (1420–1470) is considered the golden age of Kashmir. He was a tolerant ruler who abolished the Jizya tax, rebuilt Hindu temples, and promoted cultural and economic prosperity.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎨",
+          "title": "Introduction of Handicrafts from Samarkand",
+          "content": "Zain-ul-Abidin invited skilled artisans from Persia and Central Asia (particularly Samarkand) to Kashmir. He introduced iconic Kashmiri handicrafts, including carpet weaving, shawl making (Pashmina), and papier-mâché. These crafts became world-famous and formed the backbone of Kashmir's economy for centuries.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "Public Works and Urban Development",
+          "content": "Budshah built numerous bridges, canals, and irrigation systems. He constructed the Zaina Lank (an artificial island on Dal Lake) and the Zainagir (a pleasure garden). He also established schools and promoted literature, translating many Sanskrit texts into Persian.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The Namgyal Dynasty of Ladakh (1460–1842)",
+          "content": "In Ladakh, King Bhagan (1460) unified Upper and Lower Ladakh, overthrowing the old factions to establish the Namgyal lineage. The Namgyal dynasty ruled Ladakh until the Dogra conquest in the 19th century. They were patrons of Buddhism and built many monasteries, including Hemis, Thiksey, and Stok.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Contributions of Budshah and the Namgyals",
+          "headers": ["Ruler/Dynasty", "Period", "Key Contributions"],
+          "rows": [
+            ["Sultan Zain-ul-Abidin (Budshah)", "1420–1470", "Handicrafts (carpets, shawls), tolerance, public works."],
+            ["Namgyal Dynasty", "1460–1842", "Unified Ladakh, Buddhist monasteries."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Legacy of Sultan Zain-ul-Abidin",
+          "given": ["Sultan Zain-ul-Abidin is known as 'Budshah' (The Great King)."],
+          "find": "What were his key achievements?",
+          "steps": [
+            "Abolished Jizya and rebuilt Hindu temples.",
+            "Introduced carpet weaving, shawl making, and papier-mâché.",
+            "Built bridges, canals, and public buildings.",
+            "Promoted literature and translation of Sanskrit texts."
+          ],
+          "answer": "Budshah transformed Kashmir into a prosperous and culturally rich kingdom.",
+          "formula_used": "Historical legacy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Budshah was an intolerant ruler.",
+          "wrong": "Sultan Zain-ul-Abidin was an intolerant ruler.",
+          "correct": "Budshah was tolerant, abolished Jizya, and rebuilt Hindu temples.",
+          "tip": "Budshah = Tolerant, not intolerant."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Zain-ul-Abidin (Budshah): Golden age of Kashmir (1420–1470).",
+            "Introduced carpet weaving, shawl making, papier-mâché.",
+            "Abolished Jizya, rebuilt temples, promoted literature.",
+            "Namgyal Dynasty unified Ladakh (1460).",
+            "Namgyal rulers built Hemis, Thiksey, and Stok monasteries."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_chak_split",
+      "title": "The Chak Dynasty and the Split of Ladakh",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Chak Dynasty and the Split of Ladakh",
+          "subtitle": "Sectarian Conflicts and Regional Fragmentation",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Shia Chaks of Kashmir",
+          "content": "The Chaks were a military clan that overthrew the Shah Mir dynasty in 1561. They established their own rule, but their reign was marked by intense sectarian conflict between Shias (supporters of the Chaks) and Sunnis. The Chak rulers, including Yousuf Shah Chak, tried to consolidate power but faced constant rebellion.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Yousuf Shah Chak and Habba Khatoon",
+          "content": "Yousuf Shah Chak was the last significant ruler of the Chak dynasty. He is remembered for his tragic romance with Habba Khatoon, a poet-queen. Habba Khatoon's soulful poetry (in Kashmiri) lamented her love for Yousuf Shah and the loss of his kingdom. His reign ended with the Mughal conquest of Kashmir in 1586.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗺️",
+          "title": "The Fragmentation of Ladakh",
+          "content": "During this period, Ladakh was divided into competing principalities. The Purig region (Kargil) developed distinct cultural and political lines, heavily influenced by neighboring Baltistan (which had a predominantly Shia Muslim population). This division created a cultural rift between Leh (Buddhist) and Kargil (Shia Muslim), a division that persists to this day.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Events of the Chak Era",
+          "headers": ["Event", "Period", "Significance"],
+          "rows": [
+            ["Chak Dynasty Established", "1561", "Overthrew the Shah Mir dynasty."],
+            ["Yousuf Shah Chak's Reign", "1579–1586", "Last significant Chak ruler, Habba Khatoon."],
+            ["Mughal Conquest", "1586", "End of Kashmiri independence under Akbar."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Habba Khatoon's Contribution",
+          "given": ["Habba Khatoon was a poet-queen and the consort of Yousuf Shah Chak."],
+          "find": "What is her legacy?",
+          "steps": [
+            "She is one of the most celebrated Kashmiri poets.",
+            "Her poetry (Vaakh) expresses love, longing, and loss.",
+            "She is remembered as the 'Nightingale of Kashmir'.",
+            "Her work reflects the sorrow of the Chak era."
+          ],
+          "answer": "Habba Khatoon is remembered for her soulful poetry and tragic love story.",
+          "formula_used": "Cultural legacy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Chaks were Sunni Muslims.",
+          "wrong": "The Chaks were Sunni Muslims.",
+          "correct": "The Chaks were Shia Muslims, which led to sectarian conflicts.",
+          "tip": "Chaks = Shia; Shah Mir = Sunni."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Chak Dynasty (1561): Overthrew the Shah Mir dynasty.",
+            "Yousuf Shah Chak: Last significant Chak ruler.",
+            "Habba Khatoon: Poet-queen, 'Nightingale of Kashmir'.",
+            "Ladakh fragmented: Leh (Buddhist) and Kargil (Shia Muslim).",
+            "Mughal conquest (1586): End of Kashmiri independence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_medieval_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Medieval Sovereign Kingdoms – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on key rulers (Palgyigon, Rinchan, Shah Mir, Zain-ul-Abidin, Yousuf Shah Chak), cultural contributions (handicrafts, poetry), and the Sufi-Rishi movement.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Ladakhi prince founded Maryul, the independent Ladakhi kingdom?",
+          "options": ["Palgyigon", "Rinchan", "Bhagan", "Sengge Namgyal"],
+          "answer": 0,
+          "explanation": "Prince Palgyigon founded Maryul (independent Ladakh) in the 10th century after the collapse of the Tibetan Empire.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the first Muslim ruler of Kashmir?",
+          "options": ["Shah Mir", "Sultan Sadruddin (Rinchan)", "Zain-ul-Abidin", "Yousuf Shah Chak"],
+          "answer": 1,
+          "explanation": "Sultan Sadruddin (Rinchan) was the first Muslim ruler of Kashmir (1320–1323).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Kashmiri ruler is known as 'Budshah' (The Great King)?",
+          "options": ["Sikandar", "Shah Mir", "Zain-ul-Abidin", "Yousuf Shah Chak"],
+          "answer": 2,
+          "explanation": "Sultan Zain-ul-Abidin (1420–1470) is known as 'Budshah' for his tolerant and prosperous reign.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which handicraft was NOT introduced by Sultan Zain-ul-Abidin?",
+          "options": ["Carpet weaving", "Pashmina shawls", "Papier-mâché", "Silk weaving"],
+          "answer": 3,
+          "explanation": "Budshah introduced carpet weaving, Pashmina shawls, and papier-mâché from Samarkand. Silk weaving existed earlier.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who unified Upper and Lower Ladakh to establish the Namgyal dynasty?",
+          "options": ["Palgyigon", "Sengge Namgyal", "Bhagan", "Rinchan"],
+          "answer": 2,
+          "explanation": "King Bhagan unified Upper and Lower Ladakh in 1460, establishing the Namgyal dynasty.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Rishi order in Kashmir was founded by:",
+          "options": ["Mir Sayyid Ali Hamadani", "Nund Rishi", "Lal Ded", "Habba Khatoon"],
+          "answer": 1,
+          "explanation": "Nund Rishi (Sheikh Noor-ud-din) founded the Rishi order, which emphasized peace, tolerance, and vegetarianism.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the poet-queen of the Chak dynasty?",
+          "options": ["Lal Ded", "Habba Khatoon", "Nund Rishi", "Mir Sayyid Ali Hamadani"],
+          "answer": 1,
+          "explanation": "Habba Khatoon was the poet-queen and consort of Yousuf Shah Chak.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What was the primary cultural division in Ladakh during the medieval period?",
+          "options": ["Leh (Buddhist) and Kargil (Shia Muslim)", "Leh (Sunni) and Kargil (Shia)", "Leh (Hindu) and Kargil (Muslim)", "Shey (Buddhist) and Leh (Muslim)"],
+          "answer": 0,
+          "explanation": "Leh remained predominantly Buddhist, while Kargil (Purig) became heavily influenced by Shia Islam from Baltistan.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which dynasty ended Kashmir's independence and brought it under Mughal rule in 1586?",
+          "options": ["Shah Mir", "Chak", "Mughal", "Lohara"],
+          "answer": 2,
+          "explanation": "The Mughals, under Akbar, conquered Kashmir in 1586, ending its independence and the Chak dynasty.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who brought Persian culture and Sufism to Kashmir?",
+          "options": ["Nund Rishi", "Lal Ded", "Mir Sayyid Ali Hamadani", "Rinchan"],
+          "answer": 2,
+          "explanation": "Mir Sayyid Ali Hamadani, a Persian Sufi saint, brought Persian culture and Sufism to Kashmir in the 14th century.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review key rulers (Palgyigon, Rinchan, Shah Mir, Budshah, Yousuf Shah Chak), cultural contributions (handicrafts, Sufi-Rishi movement), and the fragmentation of Ladakh."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Medieval Sovereign Kingdoms",
+          "points": [
+            "Maryul founded by Palgyigon (10th century).",
+            "Rinchan (Sultan Sadruddin) first Muslim ruler (1320).",
+            "Shah Mir dynasty established (1339).",
+            "Budshah (Zain-ul-Abidin): Golden age, handicrafts.",
+            "Rishi order: Nund Rishi (peace, tolerance).",
+            "Namgyal dynasty: Unified Ladakh (1460).",
+            "Chak dynasty: Shia rule, Yousuf Shah Chak, Habba Khatoon.",
+            "Mughal conquest: 1586."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "id": "jammu_kashmir_reorganization",
+  "subject_id": "history_jammu_kashmir",
+  "title": "The Reorganization and Union Territory Era: 2019 – Present",
+  "subtopics": [
+    {
+      "id": "jk_reorganization_2019",
+      "title": "The Legislative Overhaul of August 2019 – Abrogation of Article 370",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Legislative Overhaul of August 2019",
+          "subtitle": "The Abrogation of Article 370 and the Reorganization Act",
+          "tags": ["JKSSB", "High Weightage", "Contemporary Jammu & Kashmir"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The Abrogation of Article 370 (5th August 2019)",
+          "content": "On 5th August 2019, the Indian Parliament rendered Article 370 inoperative. The government, led by Prime Minister Narendra Modi and Home Minister Amit Shah, introduced a resolution in the Rajya Sabha to revoke the special autonomous status of Jammu & Kashmir. Article 370 was declared a temporary provision, and its abrogation was effected through a Presidential Order.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "The Jammu & Kashmir Reorganization Act (2019)",
+          "content": "Along with the abrogation of Article 370, the Jammu & Kashmir Reorganization Act was passed. It split the state into two separate Union Territories: Jammu & Kashmir (with a legislature) and Ladakh (without a legislature). The Act came into effect on 31st October 2019.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "The Security Lockdowns (August 2019)",
+          "content": "Following the abrogation, the government imposed severe security restrictions in Jammu & Kashmir. Communication blackouts (internet and mobile phone services), curfews, and preventive detentions were enforced to prevent civil unrest. Many political leaders were placed under house arrest or detained. The restrictions were gradually eased over the following months.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Events of August 2019",
+          "headers": ["Event", "Date", "Significance"],
+          "rows": [
+            ["Abrogation of Article 370", "5th August 2019", "Special status revoked; Article 370 rendered inoperative."],
+            ["J&K Reorganization Act", "5th August 2019", "State split into two Union Territories: J&K and Ladakh."],
+            ["Communication Blackout", "5th August 2019", "Internet, phone, and media restrictions imposed."],
+            ["Preventive Detentions", "August 2019", "Political leaders detained to prevent unrest."],
+            ["New UTs Established", "31st October 2019", "J&K (with legislature) and Ladakh (without legislature) became UTs."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Abrogation of Article 370",
+          "given": ["Article 370 was abrogated on 5th August 2019."],
+          "find": "What was the significance of this event?",
+          "steps": [
+            "It ended the special autonomous status of J&K.",
+            "It integrated J&K fully into the Indian Union.",
+            "It allowed non-residents to buy land and apply for government jobs.",
+            "It split the state into two Union Territories (J&K and Ladakh).",
+            "It removed the separate constitution and flag of J&K."
+          ],
+          "answer": "The abrogation of Article 370 integrated J&K into the Indian Union and split it into two UTs.",
+          "formula_used": "Constitutional and political analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Article 370 was abrogated on 15th August 2019.",
+          "wrong": "Article 370 was abrogated on 15th August 2019.",
+          "correct": "Article 370 was abrogated on 5th August 2019.",
+          "tip": "Abrogation = 5th August 2019."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Article 370 abrogated on 5th August 2019.",
+            "J&K Reorganization Act: Split into two UTs.",
+            "Jammu & Kashmir UT (with legislature) and Ladakh UT (without legislature).",
+            "Security lockdowns: Communication blackouts, curfews, detentions.",
+            "The changes came into effect on 31st October 2019."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_post370_shifts",
+      "title": "Post-370 Legal Shifts and Constitutional Validation",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Post-370 Legal Shifts and Constitutional Validation",
+          "subtitle": "Domicile Laws, Delimitation, and the Supreme Court Judgment",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Domicile and Land Law Changes",
+          "content": "Following the abrogation, the old State Subject laws were repealed. New domicile rules were introduced, allowing any Indian citizen to become a domicile of J&K after residing there for a specified period. This allowed non-residents to buy land and apply for local government jobs. The changes significantly altered the demographic and economic landscape of the region.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗺️",
+          "title": "The Delimitation Commission (2022)",
+          "content": "The Delimitation Commission was constituted in 2022 to redraw the assembly constituencies in J&K. The commission increased the number of assembly seats from 83 to 90 (excluding the 24 reserved for Pakistan-occupied Kashmir). The delimitation gave Jammu region greater political weight compared to the Kashmir Valley, leading to political tensions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "The Supreme Court Judgment (2023)",
+          "content": "On 11th December 2023, the Supreme Court of India delivered a historic judgment upholding the abrogation of Article 370. The Court declared that Article 370 was a temporary transitional provision. The judgment affirmed the government's decision and provided constitutional validation to the 2019 changes.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Post-370 Developments",
+          "headers": ["Development", "Year", "Significance"],
+          "rows": [
+            ["Domicile Law Changes", "2020", "Allowed non-residents to buy land and apply for jobs."],
+            ["Delimitation Commission", "2022", "Redrew assembly seats, increased Jammu's political weight."],
+            ["Supreme Court Judgment", "2023", "Upheld the abrogation of Article 370."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Supreme Court Judgment on Article 370",
+          "given": ["The Supreme Court upheld the abrogation of Article 370 in December 2023."],
+          "find": "What was the significance of this judgment?",
+          "steps": [
+            "It validated the government's decision to abrogate Article 370.",
+            "It provided constitutional legitimacy to the 2019 changes.",
+            "It affirmed that Article 370 was a temporary provision.",
+            "It set a precedent for future constitutional amendments."
+          ],
+          "answer": "The Supreme Court judgment provided constitutional validation to the abrogation of Article 370.",
+          "formula_used": "Constitutional law analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Delimitation Commission reduced the number of seats.",
+          "wrong": "The Delimitation Commission reduced the number of assembly seats.",
+          "correct": "The Delimitation Commission increased the number of seats from 83 to 90.",
+          "tip": "Seats increased from 83 to 90."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Domicile laws: Allowed non-residents to buy land and apply for jobs.",
+            "Delimitation Commission (2022): Redrew seats, increased Jammu's weight.",
+            "Supreme Court (2023): Upheld abrogation of Article 370.",
+            "These changes integrated J&K into the Indian Union."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_contemporary_realities",
+      "title": "The Contemporary Realities of J&K and Ladakh",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Contemporary Realities of J&K and Ladakh",
+          "subtitle": "Democratic Returns, Ladakh Protests, and the Sixth Schedule Demand",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗳️",
+          "title": "Democratic Returns – DDC Elections and the 2024 J&K Elections",
+          "content": "Following the abrogation of Article 370, the first democratic exercise was the District Development Council (DDC) elections held in late 2020 and early 2021. In 2024, Jammu & Kashmir held its first Legislative Assembly elections since 2014. The elections resulted in a coalition government led by the National Conference and Congress, with Omar Abdullah as the Chief Minister.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📢",
+          "title": "The Ladakh Protests – The Demand for Statehood and Sixth Schedule",
+          "content": "In 2023 and 2024, massive, united protests erupted in both Leh and Kargil (Ladakh) against the central government's policies. The protests were led by figures like Sonam Wangchuk, a prominent education activist. The demands included statehood for Ladakh, a full legislative assembly, and protection under the Sixth Schedule (which grants tribal regions greater autonomy and protects land rights). The protesters argued that the fragile Himalayan ecosystem of Ladakh was being threatened by unchecked outside exploitation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "The Sixth Schedule Demand",
+          "content": "The Sixth Schedule of the Indian Constitution provides for the administration of tribal areas in Assam, Meghalaya, Tripura, and Mizoram. It gives tribal councils powers to manage land, forests, and local governance. The people of Ladakh demand its inclusion under the Sixth Schedule to protect their land rights, cultural identity, and environment. The central government has formed committees to discuss the demands.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Contemporary Events",
+          "headers": ["Event", "Year", "Significance"],
+          "rows": [
+            ["DDC Elections", "2020–2021", "First democratic exercise after Article 370 abrogation."],
+            ["Ladakh Protests", "2023–2024", "Demand for statehood, assembly, and Sixth Schedule."],
+            ["J&K Assembly Elections", "2024", "First elections since 2014, coalition government."],
+            ["Sonam Wangchuk's Leadership", "2023–2024", "Prominent leader of the Ladakh protest movement."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Ladakh Protests",
+          "given": ["Ladakh has witnessed massive protests demanding statehood and Sixth Schedule status."],
+          "find": "What are the key demands of the protesters?",
+          "steps": [
+            "Statehood for Ladakh with a full legislative assembly.",
+            "Inclusion of Ladakh under the Sixth Schedule to protect land rights.",
+            "Protection of Ladakh's fragile Himalayan ecosystem.",
+            "Greater autonomy and control over local governance."
+          ],
+          "answer": "The protesters demand statehood, a full assembly, and Sixth Schedule protection for Ladakh.",
+          "formula_used": "Political and environmental analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Ladakh already has statehood.",
+          "wrong": "Ladakh already has statehood.",
+          "correct": "Ladakh is a Union Territory without a legislature, not a state.",
+          "tip": "Ladakh = UT without legislature; Statehood = demand, not reality."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "DDC Elections (2020–2021): First democratic exercise after 2019.",
+            "Ladakh Protests (2023–2024): Demand for statehood, assembly, Sixth Schedule.",
+            "Sonam Wangchuk: Leader of the Ladakh protest movement.",
+            "J&K Assembly Elections (2024): First elections since 2014, coalition government.",
+            "Sixth Schedule: Tribal autonomy, land rights, environmental protection."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "jk_reorganization_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reorganization and Union Territory Era – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the abrogation of Article 370 (5th August 2019), the J&K Reorganization Act, the creation of two Union Territories, the 2023 Supreme Court judgment, domicile law changes, and the Ladakh protests demanding statehood and Sixth Schedule status.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "On which date was Article 370 abrogated?",
+          "options": ["15th August 2019", "5th August 2019", "26th October 2019", "31st October 2019"],
+          "answer": 1,
+          "explanation": "Article 370 was abrogated on 5th August 2019, ending the special autonomous status of Jammu & Kashmir.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The Jammu & Kashmir Reorganization Act split the state into how many Union Territories?",
+          "options": ["One", "Two", "Three", "Four"],
+          "answer": 1,
+          "explanation": "The Act split the state into two Union Territories: Jammu & Kashmir (with legislature) and Ladakh (without legislature).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Union Territory was created without a legislature?",
+          "options": ["Jammu & Kashmir", "Ladakh", "Delhi", "Puducherry"],
+          "answer": 1,
+          "explanation": "Ladakh was created as a Union Territory without a legislature, while J&K has a legislature.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Act allowed non-residents to buy land and apply for government jobs in J&K?",
+          "options": ["Delimitation Act", "Domicile Act", "J&K Reorganization Act", "State Subject Act"],
+          "answer": 1,
+          "explanation": "The Domicile Act (2020) allowed non-residents to buy land and apply for government jobs in J&K.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which commission redrew the assembly constituencies in J&K in 2022?",
+          "options": ["Election Commission", "Delimitation Commission", "Finance Commission", "Law Commission"],
+          "answer": 1,
+          "explanation": "The Delimitation Commission (2022) redrew the assembly constituencies, increasing seats from 83 to 90.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "In which year did the Supreme Court uphold the abrogation of Article 370?",
+          "options": ["2021", "2022", "2023", "2024"],
+          "answer": 2,
+          "explanation": "The Supreme Court upheld the abrogation of Article 370 on 11th December 2023.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The District Development Council (DDC) elections were held in J&K in which year?",
+          "options": ["2019", "2020–2021", "2022", "2023"],
+          "answer": 1,
+          "explanation": "The DDC elections were held in late 2020 and early 2021, marking the first democratic exercise after 2019.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which political leader led the National Conference to victory in the 2024 J&K Assembly elections?",
+          "options": ["Sheikh Abdullah", "Farooq Abdullah", "Omar Abdullah", "Mehbooba Mufti"],
+          "answer": 2,
+          "explanation": "Omar Abdullah led the National Conference to victory in the 2024 J&K Assembly elections and became Chief Minister.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the primary demand of the Ladakh protests (2023–2024)?",
+          "options": [
+            "Separate statehood and Sixth Schedule status",
+            "Full legislative assembly",
+            "Protection of land rights and environment",
+            "All of the above"
+          ],
+          "answer": 3,
+          "explanation": "The Ladakh protests demand statehood, a full legislative assembly, Sixth Schedule status, and environmental protection.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the prominent leader of the Ladakh protest movement in 2023–2024?",
+          "options": ["Sonam Wangchuk", "Sheikh Abdullah", "Farooq Abdullah", "Mehbooba Mufti"],
+          "answer": 0,
+          "explanation": "Sonam Wangchuk, a prominent education activist, led the Ladakh protest movement demanding statehood and Sixth Schedule status.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What does the Sixth Schedule of the Indian Constitution provide for?",
+          "options": [
+            "Administration of tribal areas with autonomy",
+            "Right to education",
+            "Protection of religious minorities",
+            "Land acquisition laws"
+          ],
+          "answer": 0,
+          "explanation": "The Sixth Schedule provides for the administration of tribal areas with autonomy over land, forests, and local governance.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the abrogation of Article 370 (5th August 2019), the J&K Reorganization Act, the creation of J&K and Ladakh UTs, the 2023 Supreme Court judgment, domicile law changes, and the Ladakh protests demanding statehood and Sixth Schedule status."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Reorganization and Union Territory Era",
+          "points": [
+            "Article 370 abrogated: 5th August 2019.",
+            "J&K Reorganization Act: Split into J&K (with legislature) and Ladakh (without legislature).",
+            "New UTs established: 31st October 2019.",
+            "Domicile Act (2020): Allowed non-residents to buy land and apply for jobs.",
+            "Delimitation Commission (2022): Increased seats from 83 to 90.",
+            "Supreme Court (2023): Upheld abrogation of Article 370.",
+            "DDC Elections: 2020–2021, first democratic exercise.",
+            "J&K Assembly Elections (2024): National Conference victory, Omar Abdullah as CM.",
+            "Ladakh Protests: Demand for statehood, Sixth Schedule, environmental protection.",
+            "Sonam Wangchuk: Leader of Ladakh protests."
+          ]
+        }
+      ]
+    }
+  ]
+}
+

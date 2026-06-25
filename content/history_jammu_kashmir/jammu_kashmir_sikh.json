@@ -1,0 +1,375 @@
+{
+  "id": "jammu_kashmir_sikh",
+  "subject_id": "history_jammu_kashmir",
+  "title": "The Sikh Empire & Frontier Conquests: 1819 – 1846",
+  "subtopics": [
+    {
+      "id": "jk_sikh_conquest",
+      "title": "The Sikh Conquest of Kashmir – The Battle of Shopian (1819)",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Sikh Conquest of Kashmir",
+          "subtitle": "The Battle of Shopian and the End of Afghan Rule",
+          "tags": ["JKSSB", "High Weightage", "Jammu & Kashmir History"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Battle of Shopian (1819)",
+          "content": "The Battle of Shopian was fought on 4th July 1819 between the Sikh Khalsa Army (under Maharaja Ranjit Singh) and the Afghan forces (under Jabbar Khan, the Afghan governor of Kashmir). The Sikhs, led by Generals Misr Diwan Chand and Hari Singh Nalwa, decisively defeated the Afghans. This victory ended centuries of Muslim rule in the valley and brought Kashmir under Sikh control.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Maharaja Ranjit Singh (1780–1839)",
+          "content": "Maharaja Ranjit Singh, the founder of the Sikh Empire, was a charismatic leader who united the Sikh misls under one banner. He conquered Punjab, Kashmir, and parts of the North-West Frontier. He was known as the 'Lion of Punjab'. His rule was marked by religious tolerance and administrative efficiency.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Sikh Governance – The Sikh Nizamat",
+          "content": "Kashmir was administered by Sikh governors (Nizams) appointed by Ranjit Singh. The Sikh Nizamat lasted from 1819 to 1846. The Sikhs imposed a revenue system and maintained a strong military presence. However, the region faced economic exploitation, and the shawl trade was monopolized by the Sikh state.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Economic Monopolies and the Famine of 1833",
+          "content": "The Sikh rulers imposed monopolies on the lucrative shawl trade, which devastated local Kashmiri artisans. In 1833, a severe famine struck the valley due to crop failure and economic mismanagement. The famine is estimated to have killed tens of thousands of people, severely depopulating parts of Kashmir.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Events of the Sikh Conquest",
+          "headers": ["Event", "Year", "Significance"],
+          "rows": [
+            ["Battle of Shopian", "1819", "End of Afghan rule, Sikh conquest of Kashmir."],
+            ["Sikh Nizamat Begins", "1819", "Kashmir under Sikh governors."],
+            ["Hari Singh Nalwa's Governorship", "1820s", "Strong military administration."],
+            ["Kashmir Famine", "1833", "Devastating famine due to mismanagement."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Battle of Shopian",
+          "given": ["The Battle of Shopian in 1819 ended Afghan rule in Kashmir."],
+          "find": "What was the significance of this battle?",
+          "steps": [
+            "It marked the end of Afghan (Durrani) rule in Kashmir.",
+            "It brought Kashmir under the Sikh Empire.",
+            "It established Sikh control over the valley for the next 27 years.",
+            "It paved the way for the Dogra dynasty to later rule Kashmir."
+          ],
+          "answer": "The Battle of Shopian ended Afghan rule and established Sikh control over Kashmir.",
+          "formula_used": "Historical significance analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Sikhs ruled Kashmir for over 50 years.",
+          "wrong": "The Sikhs ruled Kashmir for over 50 years.",
+          "correct": "The Sikhs ruled Kashmir from 1819 to 1846 (27 years).",
+          "tip": "Sikh rule = 1819–1846 (27 years)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Battle of Shopian (1819): Sikh victory, end of Afghan rule.",
+            "Maharaja Ranjit Singh: Founder of the Sikh Empire, religious tolerance.",
+            "Sikh Nizamat (1819–1846): Governors appointed by Ranjit Singh.",
+            "Economic monopolies on shawl trade, famine of 1833 devastated Kashmir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_dogra_conquest",
+      "title": "The Rise of the Dogras and the Conquest of Ladakh – Zorawar Singh's Campaigns",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Rise of the Dogras and the Conquest of Ladakh",
+          "subtitle": "Zorawar Singh's Legendary Himalayan Campaigns",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Gulab Singh – The Rise of a Dogra Warrior",
+          "content": "Gulab Singh was a fierce Dogra Rajput warrior from the Jammu region. He entered the service of Maharaja Ranjit Singh and rose through the ranks due to his military skills. In 1822, Ranjit Singh appointed Gulab Singh as the Raja of Jammu, making him a feudatory of the Sikh Empire.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "Zorawar Singh – The Legendary Dogra General",
+          "content": "Zorawar Singh (1786–1841) was the most famous Dogra general. He was appointed by Gulab Singh to lead the conquest of Ladakh. Between 1834 and 1840, he launched daring military expeditions from Jammu, marching through freezing mountain passes to conquer Kargil (Purig) and Leh, ending the independent Namgyal dynasty.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏔️",
+          "title": "The Conquest of Ladakh (1834–1836)",
+          "content": "Zorawar Singh's army crossed the treacherous Zoji La pass to enter Ladakh. In 1834, he defeated the forces of the Namgyal ruler and captured Leh. The Ladakhi ruler was forced to accept Dogra suzerainty. The conquest of Ladakh was completed by 1836. The Dogras then turned their attention to Baltistan and the frontiers of Tibet.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Zorawar Singh's Campaigns",
+          "headers": ["Campaign", "Year", "Key Features"],
+          "rows": [
+            ["Conquest of Kargil (Purig)", "1834", "First phase of the Ladakh campaign."],
+            ["Conquest of Leh (Ladakh)", "1834", "Capture of the Namgyal capital, end of Namgyal dynasty."],
+            ["Conquest of Baltistan", "1835–1836", "Subjugation of Balti rulers."],
+            ["Invasion of Tibet", "1841", "Zorawar Singh's final campaign (failed)."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Zorawar Singh's Military Strategy",
+          "given": ["Zorawar Singh conquered Ladakh through difficult mountain passes."],
+          "find": "What made his campaigns remarkable?",
+          "steps": [
+            "He crossed freezing mountain passes (Zoji La, 11,000 ft).",
+            "He used local guides and adapted to the terrain.",
+            "He employed speed and surprise tactics.",
+            "His campaigns resulted in the permanent annexation of Ladakh."
+          ],
+          "answer": "Zorawar Singh's campaigns were remarkable for their daring and strategic brilliance.",
+          "formula_used": "Military strategy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Zorawar Singh was a Sikh general.",
+          "wrong": "Zorawar Singh was a Sikh general.",
+          "correct": "Zorawar Singh was a Dogra general serving under Gulab Singh (and nominally under Ranjit Singh).",
+          "tip": "Zorawar Singh = Dogra, not Sikh."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Gulab Singh: Dogra Raja of Jammu, feudatory of Ranjit Singh.",
+            "Zorawar Singh: Dogra general who conquered Ladakh.",
+            "Ladakh was conquered between 1834 and 1836.",
+            "Kargil (Purig) and Leh were captured, ending the Namgyal dynasty."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_dogra_tibetan_war",
+      "title": "The Dogra-Tibetan War (1841–1842) – The Battle of Chushul",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Dogra-Tibetan War",
+          "subtitle": "The Battle of To-yo and the Consolidation of Ladakh",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "Zorawar Singh's Invasion of Tibet (1841)",
+          "content": "After conquering Ladakh and Baltistan, Zorawar Singh launched a military expedition into Tibet in 1841. He captured the Tibetan fort of To-yo. The Tibetan forces, under the leadership of the Dalai Lama's regent, launched a counter-attack. Zorawar Singh was killed in the Battle of To-yo (1841).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Battle of Chushul (1842)",
+          "content": "Following Zorawar Singh's death, the Dogra forces retreated. The Tibetan army advanced into Ladakh and attempted to recapture the region. The Battle of Chushul (1842) was fought between the Dogra forces (led by Gulab Singh's generals) and the Tibetan army. The Dogras emerged victorious, consolidating their control over Ladakh.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Outcome of the Dogra-Tibetan War",
+          "content": "The Dogra-Tibetan War ended with the Treaty of Leh (1842). The Tibetans recognised Dogra control over Ladakh. The border between Ladakh and Tibet was reaffirmed (similar to the Treaty of Tingmosgang). This cemented Dogra rule over the region, which lasted until 1947.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Events of the Dogra-Tibetan War",
+          "headers": ["Event", "Year", "Significance"],
+          "rows": [
+            ["Zorawar Singh's Invasion of Tibet", "1841", "Capture of To-yo, Zorawar Singh killed."],
+            ["Battle of To-yo", "1841", "Tibetan counter-attack, Zorawar Singh's death."],
+            ["Battle of Chushul", "1842", "Dogra victory, consolidated control over Ladakh."],
+            ["Treaty of Leh", "1842", "Tibet recognised Dogra control over Ladakh."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Treaty of Leh (1842)",
+          "given": ["The Treaty of Leh ended the Dogra-Tibetan War."],
+          "find": "What were the key outcomes of the treaty?",
+          "steps": [
+            "Tibet recognised Dogra control over Ladakh.",
+            "The border between Ladakh and Tibet was reaffirmed.",
+            "Trade relations between Ladakh and Tibet were restored.",
+            "Dogra rule over Ladakh was cemented until 1947."
+          ],
+          "answer": "The Treaty of Leh cemented Dogra control over Ladakh.",
+          "formula_used": "Geopolitical treaty analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Dogra-Tibetan War ended with a Tibetan victory.",
+          "wrong": "The Dogra-Tibetan War ended with a Tibetan victory.",
+          "correct": "The Dogra-Tibetan War ended with a Dogra victory at the Battle of Chushul (1842).",
+          "tip": "Dogra victory = Battle of Chushul (1842)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Zorawar Singh invaded Tibet in 1841, captured To-yo.",
+            "Zorawar Singh was killed in the Battle of To-yo (1841).",
+            "Battle of Chushul (1842): Dogra victory over Tibet.",
+            "Treaty of Leh (1842): Tibet recognised Dogra control.",
+            "Dogra rule over Ladakh was consolidated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_sikh_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Sikh Empire & Frontier Conquests – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the Battle of Shopian (1819), Maharaja Ranjit Singh, Zorawar Singh's campaigns, the Dogra-Tibetan War, and the Treaty of Leh (1842). Memorize key years and the roles of important figures.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Sikh conquest of Kashmir was finalized at the Battle of Shopian in which year?",
+          "options": ["1815", "1819", "1822", "1846"],
+          "answer": 1,
+          "explanation": "The Battle of Shopian was fought in 1819, leading to the Sikh conquest of Kashmir and the end of Afghan rule.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the founder of the Sikh Empire?",
+          "options": ["Guru Gobind Singh", "Maharaja Ranjit Singh", "Hari Singh Nalwa", "Zorawar Singh"],
+          "answer": 1,
+          "explanation": "Maharaja Ranjit Singh founded the Sikh Empire and unified the Sikh misls under his rule.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Dogra general is credited with the conquest of Ladakh between 1834 and 1836?",
+          "options": ["Gulab Singh", "Zorawar Singh", "Hari Singh Nalwa", "Misr Diwan Chand"],
+          "answer": 1,
+          "explanation": "Zorawar Singh, the legendary Dogra general, led the conquest of Ladakh, capturing Kargil and Leh.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "In which year did the Sikh rule over Kashmir end?",
+          "options": ["1834", "1841", "1846", "1849"],
+          "answer": 2,
+          "explanation": "Sikh rule over Kashmir ended in 1846 when the region was transferred to Gulab Singh under the Treaty of Amritsar.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Dogra ruler was appointed as the Raja of Jammu by Maharaja Ranjit Singh in 1822?",
+          "options": ["Zorawar Singh", "Gulab Singh", "Dhian Singh", "Hira Singh"],
+          "answer": 1,
+          "explanation": "Gulab Singh was appointed the Raja of Jammu in 1822, laying the foundation for Dogra rule.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What was the immediate cause of the Dogra-Tibetan War?",
+          "options": ["Zorawar Singh's invasion of Tibet", "Trade disputes", "Border skirmishes", "Religious conflicts"],
+          "answer": 0,
+          "explanation": "Zorawar Singh's invasion of Tibet in 1841 triggered the Dogra-Tibetan War.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Treaty of Leh (1842) resulted in which outcome?",
+          "options": ["Tibet gained control of Ladakh", "Dogra control over Ladakh was recognised", "Sikhs annexed Ladakh", "The Namgyal dynasty was restored"],
+          "answer": 1,
+          "explanation": "The Treaty of Leh (1842) recognised Dogra control over Ladakh and ended the Dogra-Tibetan War.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Sikh governor is known for his military campaigns and administration in Kashmir?",
+          "options": ["Gulab Singh", "Hari Singh Nalwa", "Zorawar Singh", "Dhian Singh"],
+          "answer": 1,
+          "explanation": "Hari Singh Nalwa was a renowned Sikh general and governor of Kashmir, known for his military and administrative skills.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What was the primary economic impact of Sikh rule on Kashmir?",
+          "options": ["Boom in agriculture", "Monopolies over shawl trade", "Industrial growth", "Increased trade with Central Asia"],
+          "answer": 1,
+          "explanation": "The Sikh rulers imposed monopolies over the shawl trade, which devastated local artisans and the economy.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Dogra general was killed in the Battle of To-yo (1841)?",
+          "options": ["Gulab Singh", "Zorawar Singh", "Hari Singh Nalwa", "Dhian Singh"],
+          "answer": 1,
+          "explanation": "Zorawar Singh was killed in the Battle of To-yo (1841) while invading Tibet.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Dogra-Tibetan War was officially ended by which treaty?",
+          "options": ["Treaty of Amritsar", "Treaty of Leh", "Treaty of Tingmosgang", "Treaty of Lahore"],
+          "answer": 1,
+          "explanation": "The Dogra-Tibetan War ended with the Treaty of Leh (1842).",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the Battle of Shopian (1819), Maharaja Ranjit Singh, Zorawar Singh's campaigns, and the Dogra-Tibetan War. Focus on key dates and the consolidation of Dogra power."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – The Sikh Empire & Frontier Conquests",
+          "points": [
+            "Battle of Shopian (1819): Sikh victory, end of Afghan rule.",
+            "Maharaja Ranjit Singh: Founder of Sikh Empire, religious tolerance.",
+            "Sikh Nizamat (1819–1846): Governors, economic exploitation.",
+            "Zorawar Singh: Dogra general, conquered Ladakh (1834–1836).",
+            "Dogra-Tibetan War (1841–1842): Zorawar Singh killed at To-yo.",
+            "Battle of Chushul (1842): Dogra victory over Tibet.",
+            "Treaty of Leh (1842): Tibet recognised Dogra control over Ladakh."
+          ]
+        }
+      ]
+    }
+  ]
+}

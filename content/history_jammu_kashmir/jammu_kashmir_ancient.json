@@ -1,0 +1,471 @@
+{
+  "id": "jammu_kashmir_ancient",
+  "subject_id": "history_jammu_kashmir",
+  "title": "Ancient Foundations & Early Settlements: Prehistory – 10th Century",
+  "subtopics": [
+    {
+      "id": "jk_prehistoric",
+      "title": "Prehistoric Beginnings and Geological Formations",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Prehistoric Kashmir and Ladakh",
+          "subtitle": "From the Drying of Karewa Lake to the First Settlers",
+          "tags": ["JKSSB", "High Weightage", "Jammu & Kashmir History"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏞️",
+          "title": "The Valley Eras – The Draining of the Karewa Lake",
+          "content": "The Kashmir Valley was once a vast prehistoric lake called the Karewa Lake. Over millions of years, the lake drained due to tectonic shifts, leaving behind the fertile valley floor and the elevated 'Karewa' terraces (alluvial deposits). These terraces are rich in fossils and archaeological evidence. The draining of the lake created the unique geography of the valley, surrounded by the Pir Panjal and Himalayan ranges.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🪨",
+          "title": "Early Paleolithic Discoveries",
+          "content": "Paleolithic stone tools (hand axes, scrapers, and blades) have been discovered in the Lidder Valley (near Pahalgam) and other river terraces. These tools indicate that early humans inhabited the region as early as 100,000 years ago. The tools were made from local quartzite and chert, used for hunting and processing food.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏠",
+          "title": "Neolithic Settlements – Burzahom (Kashmir)",
+          "content": "Burzahom, located near Srinagar, is one of the most important Neolithic sites in the Indian subcontinent (c. 3000–1000 BCE). It features pit-dwellings (dug into the ground for warmth), evidence of early farming (wheat, barley, lentils), domesticated animals (sheep, goat, cattle), and pottery. The site also has megalithic structures (stone circles) suggesting burial practices and belief in an afterlife.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏠",
+          "title": "Gufkral – Another Neolithic Settlement",
+          "content": "Gufkral (meaning 'Potter's Cave') in Kashmir is another early Neolithic site. It has provided evidence of pit-dwellings, pottery making, and bone tools. The site shows a transition from hunting-gathering to settled agriculture and animal domestication.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗻",
+          "title": "The Frontiers of Ladakh – Early Migrations",
+          "content": "The region of Ladakh was inhabited by Indo-Aryan groups such as the **Dards** and **Mons**. They migrated into the Indus Valley and settled in areas like Leh and Kargil. These early settlers introduced terrace farming on the steep slopes and left behind stone petroglyphs (carvings on rock) depicting animals, hunting scenes, and early symbols.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Prehistoric Sites in Jammu & Kashmir",
+          "headers": ["Site", "Location", "Period", "Key Features"],
+          "rows": [
+            ["Burzahom", "Near Srinagar", "Neolithic (3000–1000 BCE)", "Pit-dwellings, farming, megaliths."],
+            ["Gufkral", "Kashmir", "Neolithic", "Pit-dwellings, pottery, bone tools."],
+            ["Lidder Valley", "Pahalgam", "Paleolithic (100,000+ years)", "Stone tools (hand axes, scrapers)."],
+            ["Karewa Terraces", "Kashmir Valley", "Prehistoric", "Fossils, geological evidence."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Importance of Burzahom",
+          "given": ["Burzahom is one of the earliest Neolithic sites in India."],
+          "find": "What makes Burzahom significant in the history of Jammu & Kashmir?",
+          "steps": [
+            "It provides evidence of early human settlement in the valley.",
+            "The pit-dwellings indicate adaptation to the cold climate.",
+            "The farming evidence shows early agriculture in the region.",
+            "The megaliths suggest complex social structures and beliefs."
+          ],
+          "answer": "Burzahom is significant for its Neolithic pit-dwellings, early farming, and megalithic structures.",
+          "formula_used": "Archaeological analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Karewa Lake is still present in Kashmir.",
+          "wrong": "The Karewa Lake still exists in Kashmir.",
+          "correct": "The Karewa Lake drained millions of years ago, leaving behind terraced deposits known as 'Karewas'.",
+          "tip": "Karewa = Alluvial terraces, not a lake."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Karewa Lake drained to form the Kashmir Valley.",
+            "Lidder Valley: Paleolithic tools (100,000+ years).",
+            "Burzahom: Neolithic pit-dwellings, farming, megaliths.",
+            "Gufkral: Neolithic pottery and pit-dwellings.",
+            "Ladakh: Dard and Mon migrations, terrace farming, petroglyphs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_buddhist_mauryan",
+      "title": "The Buddhist Era and Mauryan Integration",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Buddhist Era and Mauryan Integration",
+          "subtitle": "Ashoka's Footprint and the Fourth Buddhist Council",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🪷",
+          "title": "Ashoka's Integration of Kashmir",
+          "content": "Emperor Ashoka (268–232 BCE) of the Mauryan Empire extended his rule to Kashmir. He is credited with founding the city of Srinagari (Srinagar). He sent Buddhist missionaries to the region, spreading the teachings of Buddhism. Ashoka built stupas and monasteries in Kashmir, making it a centre of Buddhist learning.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The Fourth Buddhist Council (Kashmir, c. 72 CE)",
+          "content": "Under the patronage of the Kushan Emperor Kanishka (c. 127–150 CE), the Fourth Buddhist Council was held in Kashmir. The council was presided over by Vasumitra and Asvaghosa. It led to the codification of the Mahayana Buddhist scriptures and commentaries. This council transformed Kashmir into a global centre for Buddhist philosophy.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⛰️",
+          "title": "Ladakh's Early Buddhist Influence",
+          "content": "Buddhism spread to Ladakh primarily through Kashmir, rather than directly from Tibet. Evidence includes the rock-cut Maitreya Buddhas at Mulbekh (Kargil). These 8th-9th century carvings depict the Future Buddha (Maitreya) and show Kashmiri artistic influence.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Buddhist Sites and Events in J&K",
+          "headers": ["Event/Site", "Period", "Significance"],
+          "rows": [
+            ["Ashoka's Mission", "268–232 BCE", "Spread of Buddhism in Kashmir, founding of Srinagari."],
+            ["Fourth Buddhist Council", "c. 72 CE", "Kanishka's patronage, Mahayana Buddhism codified."],
+            ["Mulbekh Maitreya Buddha", "8th–9th Century", "Rock-cut sculpture showing Kashmiri influence in Ladakh."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Kanishka and the Fourth Buddhist Council",
+          "given": ["Kanishka hosted the Fourth Buddhist Council in Kashmir."],
+          "find": "What was the significance of this council?",
+          "steps": [
+            "It codified Mahayana Buddhist scriptures.",
+            "It brought together scholars from across Asia.",
+            "It established Kashmir as a centre of Buddhist learning.",
+            "It influenced the development of Buddhist art and philosophy."
+          ],
+          "answer": "The Fourth Buddhist Council established Kashmir as a global Buddhist centre.",
+          "formula_used": "Religious and historical analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Buddhism came to Ladakh from Tibet first.",
+          "wrong": "Buddhism first came to Ladakh from Tibet.",
+          "correct": "Buddhism first came to Ladakh via Kashmir, evidenced by the Mulbekh Maitreya Buddhas.",
+          "tip": "Ladakh's early Buddhism = Kashmiri influence."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Ashoka integrated Kashmir into the Mauryan Empire.",
+            "Ashoka founded Srinagari (Srinagar).",
+            "Kanishka hosted the Fourth Buddhist Council in Kashmir.",
+            "Mahayana Buddhism was codified in Kashmir.",
+            "Buddhism spread to Ladakh via Kashmir (not Tibet).",
+            "Mulbekh Maitreya Buddhas show Kashmiri artistic influence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_hindu_golden_age",
+      "title": "The Golden Age of Hindu Dynasties in Jammu & Kashmir",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Golden Age of Hindu Dynasties",
+          "subtitle": "Karkotas, Utpalas, Loharas, and the Rise of Duggar",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The Karkota Empire (c. 625–855 CE)",
+          "content": "The Karkota dynasty was founded by Durlabhavardhana. The greatest ruler of this dynasty was King Lalitaditya Muktapida (c. 724–760 CE). He led successful military campaigns across North India, defeating the Gurjara-Pratiharas and the Palas. He constructed the Martand Sun Temple (Kashmir), a masterpiece of Kashmiri architecture. He also built the city of Parihasapura.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Martand Sun Temple",
+          "content": "The Martand Sun Temple, built by Lalitaditya Muktapida in the 8th century, is dedicated to Surya (the Sun God). It is a blend of Gandharan, Gupta, and Kashmiri architectural styles. The temple has a central sanctum surrounded by a colonnade. It was destroyed by Sultan Sikandar in the 14th century, but ruins still stand.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "The Utpala Dynasty (855–1003 CE)",
+          "content": "The Utpala dynasty was founded by Avantivarman (855–883 CE). He is known for his engineering projects, including the construction of the Avantiswami Temple and the development of irrigation systems (canals and waterworks) to boost agriculture. He also patronised literature and the arts.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The Lohara Dynasty and Queen Didda",
+          "content": "The Lohara dynasty ruled Kashmir from 1003 to 1320 CE. Queen Didda (c. 980–1003 CE) was a powerful and formidable ruler. She was known for her political cunning and her turbulent reign. She maintained control over the kingdom through alliances and military strength. The Lohara kings continued to rule Kashmir until the Muslim conquest.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏞️",
+          "title": "The Rise of Duggar (Jammu)",
+          "content": "The Jammu region (Duggar) saw the rise of the Dev dynasty. The Dev dynasty established its capital in Jammu, centred around the Tawi River. The region developed as a principality, maintaining its distinct identity while interacting with the larger kingdoms of Kashmir.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Hindu Dynasties of Jammu & Kashmir",
+          "headers": ["Dynasty", "Period", "Key Ruler", "Key Contributions"],
+          "rows": [
+            ["Karkota", "625–855 CE", "Lalitaditya Muktapida", "Martand Sun Temple, military conquests."],
+            ["Utpala", "855–1003 CE", "Avantivarman", "Irrigation systems, Avantiswami Temple."],
+            ["Lohara", "1003–1320 CE", "Queen Didda", "Political consolidation, turbulent reign."],
+            ["Dev Dynasty", "Early Medieval", "Various", "Founding of Jammu principality."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Lalitaditya Muktapida's Legacy",
+          "given": ["Lalitaditya Muktapida was the greatest ruler of the Karkota dynasty."],
+          "find": "What were his key achievements?",
+          "steps": [
+            "Military conquests across North India.",
+            "Construction of the Martand Sun Temple.",
+            "Building of Parihasapura (city).",
+            "Patronage of art and architecture."
+          ],
+          "answer": "Lalitaditya Muktapida was a great warrior, builder, and patron of art.",
+          "formula_used": "Historical legacy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Queen Didda was a weak ruler.",
+          "wrong": "Queen Didda was a weak and ineffective ruler.",
+          "correct": "Queen Didda was a powerful and politically astute ruler who maintained control over Kashmir.",
+          "tip": "Queen Didda = Powerful, not weak."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Karkota Dynasty: Lalitaditya Muktapida, Martand Sun Temple.",
+            "Utpala Dynasty: Avantivarman, irrigation projects.",
+            "Lohara Dynasty: Queen Didda's powerful reign.",
+            "Dev Dynasty: Rise of the Jammu principality.",
+            "Hindu dynasties built a rich cultural and architectural heritage."
+          ]
+        }
+      ]
+    },
+    
+    {
+      "id": "jk_tibetan_integration",
+      "title": "The Tibetan Integration of Ladakh",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Tibetan Integration of Ladakh",
+          "subtitle": "The Tibetan Empire and the Intellectual Hub of Sharada Peeth",
+          "tags": ["JKSSB", "High Weightage", "Jammu & Kashmir History"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏔️",
+          "title": "The Tibetan Empire's Expansion (7th–9th Century)",
+          "content": "The Tibetan Empire, under rulers like Songtsen Gampo and Trisong Detsen, expanded into the Western Himalayas during the 7th to 9th centuries. This military expansion permanently shaped Ladakh's language (Tibetan), script (Tibetan script), and ethnic makeup (predominantly Tibetan Buddhist). The region became a frontier zone between Tibet, India, and Central Asia.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "Sharada Peeth – The Premier Seat of Learning",
+          "content": "Sharada Peeth, located in the Neelum Valley (now in Pakistan-occupied Kashmir), was one of the most important centers of learning in ancient India. It was a leading center for Sanskrit and Buddhist studies from the 6th century onwards. Scholars from Kashmir, Tibet, China, and Central Asia came to study. It was also a key site for the development of the Sharada script (which gave its name to the goddess and the script).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Intellectual Exchanges Between Kashmir and Tibet",
+          "content": "Tibetan scholars visited Sharada Peeth to study Sanskrit, grammar, and Buddhist texts. Kashmiri Pandit scholars (like the great grammarian Shabara) taught at this institution. The exchange of knowledge between Kashmir and Tibet shaped Tibetan Buddhism and the development of Tibetan script and literature.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Aspects of Tibetan Integration",
+          "headers": ["Aspect", "Period", "Key Features"],
+          "rows": [
+            ["Tibetan Military Expansion", "7th–9th Century", "Ladakh's language, script, and ethnicity became Tibetan."],
+            ["Sharada Peeth", "6th Century onwards", "Premier center for Sanskrit and Buddhist studies."],
+            ["Kashmir-Tibet Intellectual Exchange", "7th–12th Century", "Tibetan scholars studied in Kashmir, shaping Tibetan Buddhism."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Role of Sharada Peeth",
+          "given": ["Sharada Peeth was a major center of learning in ancient Kashmir."],
+          "find": "What was the significance of Sharada Peeth?",
+          "steps": [
+            "It was a leading center for Sanskrit and Buddhist studies.",
+            "It attracted scholars from across Asia.",
+            "It played a key role in the development of the Sharada script.",
+            "It facilitated the exchange of knowledge between Kashmir and Tibet."
+          ],
+          "answer": "Sharada Peeth was a premier seat of learning that influenced the intellectual traditions of Kashmir and Tibet.",
+          "formula_used": "Historical significance analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Sharada Peeth is located in Kashmir (India).",
+          "wrong": "Sharada Peeth is located in Jammu & Kashmir (India).",
+          "correct": "Sharada Peeth is located in the Neelum Valley, which is now in Pakistan-occupied Kashmir.",
+          "tip": "Sharada Peeth = PoK (Neelum Valley)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Tibetan Empire (7th–9th Century) expanded into Ladakh.",
+            "Ladakh's language, script, and ethnicity were shaped by this integration.",
+            "Sharada Peeth was a major center for Sanskrit and Buddhist learning.",
+            "Scholars from Tibet, China, and Central Asia studied at Sharada Peeth.",
+            "The exchange of knowledge shaped Tibetan Buddhism and the Sharada script."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_ancient_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Ancient Foundations – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on key sites (Burzahom, Gufkral, Martand Temple), important rulers (Ashoka, Kanishka, Lalitaditya, Avantivarman), and cultural hubs (Sharada Peeth). Memorize key periods and their significance.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Neolithic site in Kashmir is known for its pit-dwellings and megaliths?",
+          "options": ["Gufkral", "Burzahom", "Lidder Valley", "Karewa"],
+          "answer": 1,
+          "explanation": "Burzahom is famous for its pit-dwellings, early farming, and megalithic structures, dating to the Neolithic period (c. 3000–1000 BCE).",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the first ruler to integrate Kashmir into the Mauryan Empire?",
+          "options": ["Bindusara", "Chandragupta Maurya", "Ashoka", "Kanishka"],
+          "answer": 2,
+          "explanation": "Ashoka integrated Kashmir into the Mauryan Empire and founded Srinagari (Srinagar).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Fourth Buddhist Council was hosted in Kashmir under whose patronage?",
+          "options": ["Ashoka", "Kanishka", "Lalitaditya Muktapida", "Avantivarman"],
+          "answer": 1,
+          "explanation": "The Fourth Buddhist Council was held in Kashmir under the patronage of the Kushan Emperor Kanishka (c. 72 CE).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which temple was built by Lalitaditya Muktapida in the 8th century?",
+          "options": ["Avantiswami Temple", "Martand Sun Temple", "Sharada Peeth", "Shalimar Garden"],
+          "answer": 1,
+          "explanation": "Lalitaditya Muktapida built the Martand Sun Temple, dedicated to Surya (the Sun God).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Kashmiri ruler is known for his irrigation and engineering projects?",
+          "options": ["Lalitaditya Muktapida", "Avantivarman", "Queen Didda", "Sultan Sikandar"],
+          "answer": 1,
+          "explanation": "Avantivarman (855–883 CE) of the Utpala dynasty is known for his irrigation projects and engineering works.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What was the significance of Sharada Peeth?",
+          "options": [
+            "It was a military fort.",
+            "It was a center for Sanskrit and Buddhist studies.",
+            "It was a royal palace.",
+            "It was a trading post."
+          ],
+          "answer": 1,
+          "explanation": "Sharada Peeth was a major center for Sanskrit and Buddhist studies, attracting scholars from across Asia.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which region of Jammu & Kashmir was influenced by the Tibetan Empire from the 7th to 9th centuries?",
+          "options": ["Kashmir Valley", "Jammu", "Ladakh", "PoK"],
+          "answer": 2,
+          "explanation": "Ladakh was integrated into the Tibetan Empire from the 7th to 9th centuries, which shaped its language, script, and ethnicity.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The rock-cut Maitreya Buddhas at Mulbekh (Kargil) are evidence of which cultural influence?",
+          "options": ["Tibetan influence", "Kashmiri influence", "Chinese influence", "Persian influence"],
+          "answer": 1,
+          "explanation": "The Mulbekh Maitreya Buddhas show Kashmiri artistic influence, indicating that Buddhism spread to Ladakh via Kashmir.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which dynasty ruled Kashmir during the 8th century and built the Martand Sun Temple?",
+          "options": ["Utpala", "Karkota", "Lohara", "Dev"],
+          "answer": 1,
+          "explanation": "The Karkota dynasty, under Lalitaditya Muktapida, ruled Kashmir in the 8th century and built the Martand Sun Temple.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the name of the ancient city founded by Ashoka in Kashmir?",
+          "options": ["Srinagari", "Parihasapura", "Martand", "Sharada"],
+          "answer": 0,
+          "explanation": "Ashoka founded the city of Srinagari, which later became Srinagar.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review key Neolithic sites (Burzahom, Gufkral), important rulers (Ashoka, Kanishka, Lalitaditya, Avantivarman), and cultural hubs (Sharada Peeth). Focus on Ladakh's Tibetan integration and the spread of Buddhism."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Ancient Foundations",
+          "points": [
+            "Prehistoric: Karewa Lake, Lidder Valley, Burzahom, Gufkral.",
+            "Mauryan: Ashoka's integration, Srinagari.",
+            "Buddhist: Kanishka's Fourth Council, Mulbekh Maitreya Buddhas.",
+            "Hindu Dynasties: Karkota (Lalitaditya, Martand), Utpala (Avantivarman), Lohara (Queen Didda).",
+            "Tibetan Integration: Tibetan Empire, Sharada Peeth."
+          ]
+        }
+      ]
+    }
+  ]
+}

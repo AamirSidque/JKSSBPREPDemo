@@ -1,0 +1,391 @@
+{
+  "id": "jammu_kashmir_dogra",
+  "subject_id": "history_jammu_kashmir",
+  "title": "The Dogra Dynasty & The Unified Princely State: 1846 – 1947",
+  "subtopics": [
+    {
+      "id": "jk_creation_state",
+      "title": "The Creation of Jammu & Kashmir State – Treaty of Amritsar (1846)",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Creation of Jammu & Kashmir State",
+          "subtitle": "The Treaty of Amritsar and the Birth of a Princely State",
+          "tags": ["JKSSB", "High Weightage", "Jammu & Kashmir History"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The First Anglo-Sikh War (1845–1846)",
+          "content": "The First Anglo-Sikh War was fought between the Sikh Empire and the British East India Company. The Sikh Empire was defeated, and the Treaty of Lahore (1846) was signed. As part of the treaty, the Sikhs ceded Kashmir to the British.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The Treaty of Amritsar (16th March 1846)",
+          "content": "On 16th March 1846, the British sold the sovereignty of the Kashmir Valley to Gulab Singh for 75 lakh Nanakshahi rupees. The Treaty of Amritsar formally created the Princely State of Jammu & Kashmir. Gulab Singh became the first Maharaja of the unified Dogra state.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗺️",
+          "title": "Geographical Mapping – The Three Regions",
+          "content": "The Dogra state was an artificial amalgamation of three distinct regions:\n1. **Jammu** – Hindu-majority, culturally linked to the plains.\n2. **Kashmir Valley** – Muslim-majority, distinct cultural identity.\n3. **Ladakh** – Buddhist/Shia Muslim, Tibetan cultural links.\nThis geographical division created long-term political and cultural tensions.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Provisions of the Treaty of Amritsar (1846)",
+          "headers": ["Provision", "Details"],
+          "rows": [
+            ["Transfer of Kashmir", "British sold Kashmir to Gulab Singh for 75 lakh rupees."],
+            ["Sovereignty", "Gulab Singh became the Maharaja of J&K."],
+            ["British Supremacy", "The Dogra state accepted British paramountcy."],
+            ["Boundaries", "The state included Jammu, Kashmir, Ladakh, Baltistan, and Gilgit."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Treaty of Amritsar",
+          "given": ["The Treaty of Amritsar (1846) created the princely state of Jammu & Kashmir."],
+          "find": "What was the significance of this treaty?",
+          "steps": [
+            "It created the unified Dogra state of Jammu & Kashmir.",
+            "It marked the beginning of Dogra rule over the valley.",
+            "It united three distinct regions under one ruler.",
+            "It placed the state under British paramountcy."
+          ],
+          "answer": "The Treaty of Amritsar created a unified but artificial state under Dogra rule.",
+          "formula_used": "Geopolitical treaty analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Kashmir was gifted to Gulab Singh.",
+          "wrong": "Kashmir was gifted to Gulab Singh by the British.",
+          "correct": "Kashmir was sold to Gulab Singh for 75 lakh rupees.",
+          "tip": "The British sold Kashmir – it was not a gift."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "First Anglo-Sikh War (1845–1846): British victory.",
+            "Treaty of Lahore (1846): Sikhs ceded Kashmir to British.",
+            "Treaty of Amritsar (1846): British sold Kashmir to Gulab Singh.",
+            "Jammu & Kashmir was formed as a unified princely state.",
+            "The state comprised three distinct regions: Jammu, Kashmir, Ladakh."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_modernization_great_game",
+      "title": "Modernization and the British 'Great Game' – Gilgit Agency and the Status of Ladakh",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Modernization and the British 'Great Game'",
+          "subtitle": "Infrastructure, Gilgit Agency, and the Status of Ladakh",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛤️",
+          "title": "Infrastructure Links – The Jhelum Valley Cart Road",
+          "content": "The construction of the Jhelum Valley Cart Road (also known as the Jhelum Valley Road) connected the Kashmir Valley to the outside world. It was built by the British to facilitate trade and military movement. It improved accessibility to the valley but also increased British influence over the region.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Reforms of Maharajas Ranbir Singh and Pratap Singh",
+          "content": "Maharaja Ranbir Singh (1856–1885) introduced administrative reforms, established schools, and promoted Sanskrit and Persian studies. Maharaja Pratap Singh (1885–1925) continued these reforms, focusing on education, revenue administration, and public works.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Gilgit Agency – A Buffer Against Russia",
+          "content": "The British took direct control of the strategic Gilgit region (in the northern frontier) to create a buffer zone against the Russian Empire during the 'Great Game' (a geopolitical rivalry between Britain and Russia for control of Central Asia). The Gilgit Agency was established in 1889.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏞️",
+          "title": "The Status of Ladakh – The Wazarat System",
+          "content": "Under Dogra rule, Ladakh was divided into two districts (Wazarats): Leh and Kargil. Dogra officials governed the region, and the old Namgyal dynasty was reduced to a figurehead status. The region suffered from economic stagnation as the old Silk Route trade declined. The Dogras also introduced land revenue systems.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Developments in the Dogra Era",
+          "headers": ["Development", "Period", "Significance"],
+          "rows": [
+            ["Jhelum Valley Cart Road", "19th Century", "Connected Kashmir to the outside world."],
+            ["Ranbir Singh's Reforms", "1856–1885", "Education, administrative reforms."],
+            ["Pratap Singh's Reforms", "1885–1925", "Public works, revenue administration."],
+            ["Gilgit Agency", "1889", "British control, buffer against Russia."],
+            ["Ladakh Wazarats", "19th Century", "Leh and Kargil as districts under Dogra control."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The British 'Great Game' in the Himalayas",
+          "given": ["The British established the Gilgit Agency in 1889."],
+          "find": "What was the purpose of the Gilgit Agency?",
+          "steps": [
+            "To create a buffer zone against Russian expansion.",
+            "To secure the northern frontiers of British India.",
+            "To protect the Silk Route trade.",
+            "To counter Russian influence in Central Asia."
+          ],
+          "answer": "The Gilgit Agency was created as a buffer against Russian expansion during the Great Game.",
+          "formula_used": "Geopolitical strategy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Gilgit Agency was under Dogra control.",
+          "wrong": "The Gilgit Agency was under Dogra control.",
+          "correct": "The Gilgit Agency was directly controlled by the British, not the Dogras.",
+          "tip": "Gilgit Agency = British control."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Jhelum Valley Cart Road connected Kashmir to the outside.",
+            "Ranbir Singh & Pratap Singh introduced administrative reforms.",
+            "Gilgit Agency (1889): British buffer against Russia.",
+            "Ladakh was divided into Leh and Kargil Wazarats.",
+            "Ladakh experienced economic stagnation under Dogra rule."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_socio_political_awakening",
+      "title": "Socio-Political Awakening and Revolt – July 13, 1931, Sheikh Abdullah, and the LBA",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Socio-Political Awakening and Revolt",
+          "subtitle": "The July 13th Incident, Sheikh Abdullah, and Ladakh's Early Demands",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📢",
+          "title": "The July 13, 1931 Incident",
+          "content": "On 13th July 1931, protests against the Dogra monarchy in Srinagar turned violent. State police opened fire on the crowd, killing several protesters. This event ignited the modern political freedom movement in Jammu & Kashmir. It marked the beginning of organized resistance against the Dogra rule.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Sheikh Mohammad Abdullah – The 'Lion of Kashmir'",
+          "content": "Sheikh Abdullah (1905–1982) was a prominent Kashmiri leader who led the political movement against the Dogra monarchy. He founded the Muslim Conference in 1932, which later became the National Conference in 1939. He launched the 'Quit Kashmir' movement in 1946 against Maharaja Hari Singh.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕊️",
+          "title": "The Conversion of Muslim Conference to National Conference (1939)",
+          "content": "In 1939, Sheikh Abdullah converted the Muslim Conference into the National Conference, making it a secular platform representing all Kashmiris. The party focused on social justice, land reforms, and the end of autocratic rule. The National Conference became the leading political party in the state.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Ladakh's Early Demands – The Formation of LBA",
+          "content": "The Ladakh Buddhist Association (LBA) was formed in 1930s to protect the distinct identity of the Ladakhi people. The LBA demanded greater political representation, protection of Buddhist culture, and a share in the state's resources. They felt that the political dynamics of Jammu and Srinagar were ignoring Ladakh's needs.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Figures and Events of the Awakening",
+          "headers": ["Event/Figure", "Period", "Significance"],
+          "rows": [
+            ["July 13, 1931 Incident", "1931", "Beginning of the political freedom movement in J&K."],
+            ["Sheikh Abdullah", "1932–1982", "Leader of National Conference, 'Quit Kashmir' movement."],
+            ["Muslim Conference", "1932", "Founded by Sheikh Abdullah."],
+            ["National Conference", "1939", "Converted to a secular platform."],
+            ["Ladakh Buddhist Association", "1930s", "Protecting Ladakhi identity, political rights."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The July 13, 1931 Incident",
+          "given": ["The July 13, 1931 incident marked the beginning of the modern political movement in Kashmir."],
+          "find": "What was the significance of this event?",
+          "steps": [
+            "It marked the beginning of organized resistance against the Dogra monarchy.",
+            "It united Kashmiris across communities.",
+            "It led to the formation of political parties like the Muslim Conference.",
+            "It paved the way for the eventual accession of J&K to India."
+          ],
+          "answer": "The July 13 incident ignited the political awakening and freedom movement in J&K.",
+          "formula_used": "Historical significance analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Sheikh Abdullah was the first Prime Minister of J&K.",
+          "wrong": "Sheikh Abdullah was the first Prime Minister of J&K.",
+          "correct": "Sheikh Abdullah was the Prime Minister of J&K (1948–1953), but the position existed before him.",
+          "tip": "Sheikh Abdullah = First elected Prime Minister under the National Conference."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "July 13, 1931: Protests against Dogra rule, police firing.",
+            "Sheikh Abdullah: Leader of the National Conference, 'Quit Kashmir' movement.",
+            "Muslim Conference (1932) converted to National Conference (1939).",
+            "Ladakh Buddhist Association (LBA): Protected Ladakhi identity.",
+            "The political awakening led to the demand for democratic reforms."
+          ]
+        }
+      ]
+    },  {
+      "id": "jk_dogra_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Dogra Dynasty – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the Treaty of Amritsar (1846), the creation of the Dogra state, the Gilgit Agency, the July 13, 1931 incident, Sheikh Abdullah, and the formation of the National Conference. Memorize key dates and the roles of important leaders.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Treaty of Amritsar, which created the princely state of Jammu & Kashmir, was signed in which year?",
+          "options": ["1845", "1846", "1847", "1849"],
+          "answer": 1,
+          "explanation": "The Treaty of Amritsar was signed on 16th March 1846, selling Kashmir to Gulab Singh for 75 lakh rupees.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "What was the cost of the Kashmir Valley in the Treaty of Amritsar (1846)?",
+          "options": ["50 lakh rupees", "75 lakh Nanakshahi rupees", "1 crore rupees", "30 lakh rupees"],
+          "answer": 1,
+          "explanation": "The British sold Kashmir to Gulab Singh for 75 lakh Nanakshahi rupees.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which British institution was established to create a buffer against Russian expansion in the northern frontier?",
+          "options": ["Gilgit Agency", "Ladakh Wazarat", "Kashmir Agency", "Jhelum Valley Agency"],
+          "answer": 0,
+          "explanation": "The Gilgit Agency was established in 1889 by the British as a buffer against Russian expansion during the Great Game.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Maharaja introduced administrative reforms, education, and public works in the Dogra state?",
+          "options": ["Gulab Singh", "Ranbir Singh", "Pratap Singh", "Hari Singh"],
+          "answer": 2,
+          "explanation": "Maharaja Pratap Singh (1885–1925) introduced administrative reforms, public works, and education initiatives.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The July 13, 1931 incident is significant because it:",
+          "options": [
+            "Marked the beginning of the political freedom movement in J&K",
+            "Led to the Dogra annexation of Ladakh",
+            "Resulted in the creation of the Gilgit Agency",
+            "Caused the Treaty of Amritsar"
+          ],
+          "answer": 0,
+          "explanation": "The July 13, 1931 incident marked the beginning of the organized political freedom movement against Dogra rule.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the founder of the National Conference in Jammu & Kashmir?",
+          "options": ["Maharaja Hari Singh", "Sheikh Abdullah", "Sardar Patel", "Jawaharlal Nehru"],
+          "answer": 1,
+          "explanation": "Sheikh Abdullah founded the Muslim Conference (1932), which was converted to the National Conference in 1939.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "When was the Muslim Conference founded in Jammu & Kashmir?",
+          "options": ["1930", "1931", "1932", "1939"],
+          "answer": 2,
+          "explanation": "Sheikh Abdullah founded the Muslim Conference in 1932, which later became the National Conference in 1939.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The 'Quit Kashmir' movement was launched in which year?",
+          "options": ["1942", "1944", "1946", "1947"],
+          "answer": 2,
+          "explanation": "Sheikh Abdullah launched the 'Quit Kashmir' movement in 1946 against Maharaja Hari Singh.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which organization was formed to protect the distinct identity of Ladakh?",
+          "options": ["Ladakh Buddhist Association", "Leh Council", "Kargil Council", "Ladakh Autonomous Council"],
+          "answer": 0,
+          "explanation": "The Ladakh Buddhist Association (LBA) was formed in the 1930s to protect Ladakhi identity and political rights.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What was the primary purpose of the Jhelum Valley Cart Road?",
+          "options": ["To connect Kashmir to the outside world", "To transport army supplies", "To promote tourism", "To facilitate the Silk Route trade"],
+          "answer": 0,
+          "explanation": "The Jhelum Valley Cart Road connected the Kashmir Valley to the outside world, facilitating trade and movement.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Maharaja was ruling Jammu & Kashmir at the time of India's independence (1947)?",
+          "options": ["Gulab Singh", "Ranbir Singh", "Pratap Singh", "Hari Singh"],
+          "answer": 3,
+          "explanation": "Maharaja Hari Singh was the ruler of Jammu & Kashmir in 1947 during the partition and accession crisis.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the Treaty of Amritsar (1846), the Gilgit Agency, the July 13, 1931 incident, Sheikh Abdullah's role, and the formation of the National Conference. Focus on the socio-political awakening and the demands for democracy."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – The Dogra Dynasty",
+          "points": [
+            "Treaty of Amritsar (1846): Creation of J&K under Dogra rule.",
+            "Gilgit Agency (1889): British buffer against Russia.",
+            "Jhelum Valley Cart Road: Connected Kashmir to the outside.",
+            "Maharaja Pratap Singh: Administrative reforms, public works.",
+            "July 13, 1931: Beginning of the political freedom movement.",
+            "Sheikh Abdullah: Founder of National Conference, 'Quit Kashmir' (1946).",
+            "Ladakh Buddhist Association (LBA): Protected Ladakhi identity.",
+            "Maharaja Hari Singh: Ruler at the time of independence (1947)."
+          ]
+        }
+      ]
+    }
+  ]
+}

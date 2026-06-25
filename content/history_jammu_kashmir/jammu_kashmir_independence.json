@@ -1,0 +1,464 @@
+{
+  "id": "jammu_kashmir_independence",
+  "subject_id": "history_jammu_kashmir",
+  "title": "Independence, Partition & The Cold War Era: 1947 – 2019",
+  "subtopics": [
+    {
+      "id": "jk_partition_crisis",
+      "title": "The Partition Crisis of 1947 – Accession and the First War",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Partition Crisis of 1947",
+          "subtitle": "The Standstill Dilemma, Tribal Invasion, and the Instrument of Accession",
+          "tags": ["JKSSB", "High Weightage", "Jammu & Kashmir History"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The Standstill Dilemma – Maharaja Hari Singh's Gamble",
+          "content": "At the time of India's partition in August 1947, Maharaja Hari Singh, the Dogra ruler of Jammu & Kashmir, tried to keep his state independent of both India and Pakistan. He signed a Standstill Agreement with Pakistan (but not with India), hoping to maintain the status quo.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Tribal Invasion (October 1947)",
+          "content": "In October 1947, Pakistan-backed armed tribesmen (Pashtuns) from the North-West Frontier invaded Kashmir. They advanced towards Srinagar, looting and burning villages. The Maharaja, facing an existential threat, appealed to India for military assistance. India agreed, but only on the condition that the Maharaja signed the Instrument of Accession.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The Instrument of Accession (26th October 1947)",
+          "content": "On 26th October 1947, Maharaja Hari Singh signed the Instrument of Accession, acceding Jammu & Kashmir to India. India accepted the accession and immediately airlifted troops to Srinagar to defend the valley. The tribal invasion was repelled, but Pakistan continued its military intervention.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The War on the Frontiers (1947–1948)",
+          "content": "Following the accession, fierce battles were fought in the Kargil, Drass, and Leh sectors. The Indian Army fought alongside local forces to push back the Pakistani invaders. By the end of 1948, a ceasefire was brokered by the United Nations. The ceasefire line (later the Line of Control – LoC) was established, with Gilgit-Baltistan falling under Pakistani control.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Events of the 1947–1948 Crisis",
+          "headers": ["Event", "Date", "Significance"],
+          "rows": [
+            ["Standstill Agreement with Pakistan", "August 1947", "Maharaja's attempt to remain independent."],
+            ["Tribal Invasion", "October 1947", "Pakistan-backed tribesmen enter Kashmir."],
+            ["Instrument of Accession", "26th October 1947", "Kashmir accedes to India."],
+            ["Indian Troop Airlift", "27th October 1947", "Indian forces defend Srinagar."],
+            ["UN Ceasefire", "1st January 1949", "Line of Control (LoC) established."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Instrument of Accession",
+          "given": ["Maharaja Hari Singh signed the Instrument of Accession on 26th October 1947."],
+          "find": "What were the key provisions of the Instrument of Accession?",
+          "steps": [
+            "Kashmir acceded to India in defense, external affairs, and communications.",
+            "The Maharaja retained control over other matters (internal autonomy).",
+            "India accepted the accession and sent troops to defend Kashmir.",
+            "This was a temporary arrangement, with the promise of a future plebiscite."
+          ],
+          "answer": "The Instrument of Accession granted India control over defense, external affairs, and communications.",
+          "formula_used": "Geopolitical treaty analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Kashmir acceded to India on 15th August 1947.",
+          "wrong": "Kashmir acceded to India on 15th August 1947.",
+          "correct": "Kashmir acceded to India on 26th October 1947.",
+          "tip": "Accession = 26th October 1947."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Maharaja Hari Singh tried to keep Kashmir independent.",
+            "Tribal invasion in October 1947 forced the Maharaja to sign the Instrument of Accession.",
+            "India accepted the accession on 26th October 1947.",
+            "The UN brokered a ceasefire in 1949, creating the Line of Control (LoC).",
+            "Gilgit-Baltistan came under Pakistani control."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_article370",
+      "title": "Article 370 and Internal Geopolitics – The Special Status and Indo-China Wars",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Article 370 and Internal Geopolitics",
+          "subtitle": "The Special Status, the Indo-China Wars, and Sheikh Abdullah's Reforms",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Article 370 and Article 35A – The Special Status",
+          "content": "Article 370 of the Indian Constitution (adopted in 1949) granted special autonomous status to Jammu & Kashmir. It allowed the state to have its own constitution, flag, and residency laws (Article 35A). This special status was a temporary provision, intended to be a transitional arrangement.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Indo-China War (1962) and Aksai Chin",
+          "content": "In 1962, India and China fought a brief but intense war over border disputes. China occupied Aksai Chin (eastern Ladakh), a strategic region connecting Xinjiang to Tibet. The war turned Ladakh into a heavily militarized, double-frontier zone, with India facing threats from both China and Pakistan.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Indo-Pak Wars (1948, 1965, 1971)",
+          "content": "Kashmir remained a flashpoint between India and Pakistan. Wars were fought in 1948 (UN ceasefire), 1965 (UN ceasefire, Tashkent Agreement), and 1971 (creation of Bangladesh). The Line of Control (LoC) was maintained as the de facto border.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Sheikh Abdullah's Naya Kashmir Reforms",
+          "content": "Sheikh Abdullah, as Prime Minister of J&K (1948–1953), introduced landmark land reforms under the Naya Kashmir (New Kashmir) initiative. He abolished the large landlord estates (Jagirdari system) without compensation, redistributing land to landless peasants. This transformed the rural economy of the valley.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Geopolitical Developments (1947–1970s)",
+          "headers": ["Event", "Year", "Significance"],
+          "rows": [
+            ["Article 370 Adopted", "1949", "Special status for J&K, own constitution, flag."],
+            ["Indo-China War", "1962", "China occupied Aksai Chin, Ladakh militarized."],
+            ["Indo-Pak War (1965)", "1965", "UN ceasefire, Tashkent Agreement."],
+            ["Indo-Pak War (1971)", "1971", "Creation of Bangladesh, Shimla Agreement."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Article 370 and Article 35A",
+          "given": ["Article 370 granted special status to Jammu & Kashmir."],
+          "find": "What were the key provisions of Article 370 and 35A?",
+          "steps": [
+            "Article 370 gave J&K its own constitution and flag.",
+            "Article 35A allowed the state to define permanent residents and their rights.",
+            "The state had autonomy over internal matters.",
+            "This special status was intended to be temporary."
+          ],
+          "answer": "Article 370 and 35A granted J&K significant autonomy, including its own constitution.",
+          "formula_used": "Constitutional analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Article 370 was a permanent provision.",
+          "wrong": "Article 370 was a permanent provision of the Constitution.",
+          "correct": "Article 370 was a temporary provision (it was rendered inoperative in 2019).",
+          "tip": "Article 370 = Temporary (abrogated in 2019)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Article 370 (1949): Special status, own constitution, flag.",
+            "Article 35A: Residency laws and permanent resident rights.",
+            "1962 War: China occupied Aksai Chin, Ladakh militarized.",
+            "1965 & 1971 Wars: Kashmir remained a flashpoint.",
+            "Sheikh Abdullah's Naya Kashmir: Land reforms, abolition of Jagirdari."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_insurgency_kargil",
+      "title": "Insurgency, Exodus, and the Kargil War (1987–1999)",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Insurgency, Exodus, and the Kargil War",
+          "subtitle": "Militancy, Pandit Exodus, and the 1999 Conflict",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The 1987 Elections and the Rise of Militancy",
+          "content": "The 1987 state assembly elections were marked by allegations of widespread rigging against the opposition parties. This led to a political crisis, with the Kashmir Valley witnessing the rise of Pakistan-backed armed insurgency in 1989. The insurgency was characterized by armed attacks, bombings, and a crackdown by Indian security forces.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕊️",
+          "title": "The Kashmiri Pandit Exodus (1990)",
+          "content": "Beginning in January 1990, a wave of targeted killings and a climate of fear forced the Kashmiri Pandit community (the Hindu minority in the valley) to flee their homes. Over 300,000 Pandits left the Kashmir Valley, seeking safety in Jammu and other parts of India. This exodus created a lasting demographic and cultural shift in the valley.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Kargil War (1999)",
+          "content": "The Kargil War was a major conflict between India and Pakistan in 1999, following the infiltration of Pakistani regulars and militants into the high-altitude peaks of Kargil and Drass. The Indian Army launched 'Operation Vijay' to evict the intruders. The war lasted for two months (May–July 1999) and ended with India recapturing all positions.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Events of the Insurgency Era",
+          "headers": ["Event", "Year", "Significance"],
+          "rows": [
+            ["1987 Elections", "1987", "Allegations of rigging, political crisis."],
+            ["Rise of Militancy", "1989", "Pakistan-backed armed insurgency."],
+            ["Kashmiri Pandit Exodus", "1990", "Targeted killings, mass exodus."],
+            ["Kargil War", "1999", "Operation Vijay, Indian victory."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Kargil War",
+          "given": ["The Kargil War was fought between India and Pakistan in 1999."],
+          "find": "What was the significance of the Kargil War?",
+          "steps": [
+            "Pakistan's nuclear weapons did not deter Indian military action.",
+            "The war was fought in high-altitude peaks (Kargil, Drass).",
+            "India successfully recaptured all positions.",
+            "The war strengthened India's position on the Line of Control."
+          ],
+          "answer": "The Kargil War was a significant military victory for India, showcasing its resilience.",
+          "formula_used": "Military analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Kargil War was fought in 1998.",
+          "wrong": "The Kargil War was fought in 1998.",
+          "correct": "The Kargil War was fought in 1999.",
+          "tip": "Kargil War = 1999."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "1987 Elections: Rigging allegations, political crisis.",
+            "1989 Militancy: Pakistan-backed armed insurgency.",
+            "Kashmiri Pandit Exodus (1990): Mass displacement of the Hindu community.",
+            "Kargil War (1999): Operation Vijay, Indian victory."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_ladakh_struggle",
+      "title": "The Internal Struggle of Ladakh – The Kashmir-Centric Grievance and the Creation of LAHDC",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Internal Struggle of Ladakh",
+          "subtitle": "The Kashmir-Centric Grievance and the Creation of LAHDC",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📢",
+          "title": "Decades of Protest – The Kashmir-Centric Grievance",
+          "content": "For decades, the people of Ladakh (both Leh and Kargil) felt that their funds, political voice, and cultural identity were completely ignored by the leadership in Srinagar. The state government in Srinagar allocated most funds to the Kashmir Valley, leaving Ladakh underdeveloped. This led to protests and demands for greater autonomy.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "The Creation of LAHDC Leh (1995) and Kargil (2003)",
+          "content": "In response to the protests, the central government granted partial self-governance to Ladakh by creating the Ladakh Autonomous Hill Development Councils (LAHDC). The LAHDC Leh was established in 1995, and LAHDC Kargil in 2003. These councils were given limited autonomy over local governance, development, and cultural affairs.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "LAHDC – Key Features",
+          "headers": ["LAHDC", "Year", "Key Powers"],
+          "rows": [
+            ["LAHDC Leh", "1995", "Local governance, development, cultural affairs."],
+            ["LAHDC Kargil", "2003", "Limited autonomy, local administration."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The LAHDC Creation",
+          "given": ["LAHDC Leh was created in 1995 and LAHDC Kargil in 2003."],
+          "find": "What was the significance of these councils?",
+          "steps": [
+            "They granted Ladakh limited self-governance.",
+            "They gave the region a political voice separate from Srinagar.",
+            "They allowed Ladakh to manage local development funds.",
+            "They recognized the distinct identity and needs of Ladakh."
+          ],
+          "answer": "LAHDC gave Ladakh limited autonomy and a political voice.",
+          "formula_used": "Political reform analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: LAHDC Kargil was established in 1995.",
+          "wrong": "LAHDC Kargil was established in 1995.",
+          "correct": "LAHDC Kargil was established in 2003.",
+          "tip": "LAHDC Leh = 1995; LAHDC Kargil = 2003."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Ladakh felt neglected by the Srinagar leadership.",
+            "Decades of protests led to the creation of LAHDC Leh (1995) and Kargil (2003).",
+            "LAHDC gave Ladakh limited autonomy and a distinct political voice.",
+            "The creation of LAHDC was a significant step towards recognizing Ladakh's identity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_independence_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Independence, Partition & Cold War Era – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the Instrument of Accession (1947), Article 370 & 35A, the 1962 Indo-China War, the rise of militancy (1989), the Kashmiri Pandit Exodus (1990), the Kargil War (1999), and the creation of LAHDC Leh (1995) and Kargil (2003).",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "On which date did Maharaja Hari Singh sign the Instrument of Accession?",
+          "options": ["15th August 1947", "26th October 1947", "26th January 1950", "1st January 1949"],
+          "answer": 1,
+          "explanation": "Maharaja Hari Singh signed the Instrument of Accession on 26th October 1947, acceding Jammu & Kashmir to India.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which tribal invasion forced Maharaja Hari Singh to seek Indian military assistance?",
+          "options": ["Pashtun tribesmen from Pakistan", "Chinese forces", "Afghan tribesmen", "Russian forces"],
+          "answer": 0,
+          "explanation": "Pakistan-backed Pashtun tribesmen invaded Kashmir in October 1947, forcing the Maharaja to sign the Instrument of Accession.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Article 370 of the Indian Constitution granted which special provision to Jammu & Kashmir?",
+          "options": [
+            "Full statehood",
+            "Special autonomous status with its own constitution and flag",
+            "Complete independence",
+            "A separate prime minister"
+          ],
+          "answer": 1,
+          "explanation": "Article 370 granted Jammu & Kashmir special autonomous status, including its own constitution, flag, and residency laws (Article 35A).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which war resulted in China occupying Aksai Chin (eastern Ladakh)?",
+          "options": ["Indo-Pak War 1965", "Indo-China War 1962", "Kargil War 1999", "Indo-Pak War 1971"],
+          "answer": 1,
+          "explanation": "The Indo-China War of 1962 resulted in China occupying Aksai Chin, a strategic region in eastern Ladakh.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "In which year did the Kashmiri Pandit exodus begin?",
+          "options": ["1989", "1990", "1992", "1995"],
+          "answer": 1,
+          "explanation": "The Kashmiri Pandit exodus began in January 1990, following targeted killings and a climate of fear in the Kashmir Valley.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Kargil War between India and Pakistan was fought in which year?",
+          "options": ["1998", "1999", "2000", "2001"],
+          "answer": 1,
+          "explanation": "The Kargil War was fought in 1999, following the infiltration of Pakistani regulars and militants into Kargil and Drass.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What was the name of the Indian military operation to evict intruders during the Kargil War?",
+          "options": ["Operation Shakti", "Operation Vijay", "Operation Blue Star", "Operation Cactus"],
+          "answer": 1,
+          "explanation": "The Indian Army launched 'Operation Vijay' to evict intruders during the Kargil War (1999).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "In which year was the Ladakh Autonomous Hill Development Council (LAHDC) Leh established?",
+          "options": ["1990", "1995", "2000", "2003"],
+          "answer": 1,
+          "explanation": "LAHDC Leh was established in 1995 to grant partial self-governance to Ladakh.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "In which year was LAHDC Kargil established?",
+          "options": ["1995", "2000", "2003", "2010"],
+          "answer": 2,
+          "explanation": "LAHDC Kargil was established in 2003 to give limited autonomy to Kargil.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which political party was formed by Sheikh Abdullah in 1939 after converting the Muslim Conference?",
+          "options": ["Muslim League", "National Conference", "Indian National Congress", "Awami League"],
+          "answer": 1,
+          "explanation": "Sheikh Abdullah converted the Muslim Conference into the National Conference in 1939, making it a secular platform.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What was the primary grievance of Ladakh against the Kashmir-centric leadership in Srinagar?",
+          "options": [
+            "Religious discrimination",
+            "Lack of political representation and funds",
+            "Lack of tourism",
+            "Caste discrimination"
+          ],
+          "answer": 1,
+          "explanation": "Ladakh felt that its funds, political voice, and cultural identity were ignored by the Srinagar leadership, leading to demands for autonomy.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the Instrument of Accession (1947), Article 370 & 35A, the 1962 Indo-China War, the 1990 Pandit Exodus, the Kargil War (1999), and the creation of LAHDC Leh (1995) and Kargil (2003). Focus on key dates and their significance."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Independence, Partition & Cold War Era",
+          "points": [
+            "Instrument of Accession: 26th October 1947.",
+            "Article 370 (1949): Special status, own constitution, flag.",
+            "1962 Indo-China War: China occupied Aksai Chin.",
+            "1987 Elections: Rigging allegations, political crisis.",
+            "1989 Militancy: Rise of armed insurgency.",
+            "Kashmiri Pandit Exodus: 1990, mass displacement.",
+            "Kargil War (1999): Operation Vijay, Indian victory.",
+            "LAHDC Leh: 1995; LAHDC Kargil: 2003.",
+            "Sheikh Abdullah: National Conference, Naya Kashmir reforms."
+          ]
+        }
+      ]
+    }
+  ]
+}

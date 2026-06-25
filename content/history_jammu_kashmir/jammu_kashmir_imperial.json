@@ -1,0 +1,344 @@
+{
+  "id": "jammu_kashmir_imperial",
+  "subject_id": "history_jammu_kashmir",
+  "title": "Imperial Overlords & Brutal Transitions: 1586 – 1819",
+  "subtopics": [
+    {
+      "id": "jk_mughal_annexation",
+      "title": "The Mughal Annexation of Kashmir",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Mughal Annexation of Kashmir",
+          "subtitle": "From Sovereign Kingdom to Imperial Province",
+          "tags": ["JKSSB", "High Weightage", "Jammu & Kashmir History"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "Akbar's Conquest of Kashmir (1586)",
+          "content": "In 1586, the Mughal Emperor Akbar launched a military campaign to annex Kashmir. The Mughal forces, led by General Qasim Khan, defeated the Chak ruler Yousuf Shah Chak. Kashmir lost its independence and became a province (Subah) of the Mughal Empire. The valley was placed under the governance of imperial viceroys (Subahdars).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Mughal Governance in Kashmir",
+          "content": "Kashmir was administered by Mughal governors who were appointed directly by the emperor. The region was divided into administrative units (Parganas). The Mughals imposed a land revenue system (Zabt) and collected taxes through local intermediaries (zamindars). However, Kashmir remained a distant province, often neglected or exploited.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏞️",
+          "title": "The Pleasure Gardens of the Mughals",
+          "content": "The Mughal emperors, particularly Jahangir and Shah Jahan, were enchanted by the beauty of Kashmir. They built iconic pleasure gardens during their summer migrations to the valley. Key gardens: Shalimar Bagh (built by Jahangir), Nishat Bagh (built by Asif Khan, brother of Nur Jahan), and Chashme Shahi (built by Shah Jahan). These gardens became symbols of Mughal architectural and horticultural excellence.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Mughal Gardens in Kashmir",
+          "headers": ["Garden", "Builder", "Period", "Significance"],
+          "rows": [
+            ["Shalimar Bagh", "Jahangir", "1619", "Terraced gardens, water channels, Mughal aesthetics."],
+            ["Nishat Bagh", "Asif Khan", "1633", "Largest Mughal garden in Kashmir, views of Dal Lake."],
+            ["Chashme Shahi", "Shah Jahan", "1632", "Freshwater spring, small but charming."],
+            ["Pari Mahal", "Dara Shikoh", "17th Century", "Mughal observatory and garden."]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Mughal Summer Migrations",
+          "given": ["The Mughal emperors migrated to Kashmir during the summer months."],
+          "find": "Why was Kashmir important to the Mughals?",
+          "steps": [
+            "Kashmir's cool climate provided relief from the heat of Delhi and Agra.",
+            "It was a source of scenic beauty, inspiration for art and literature.",
+            "The valley was a centre for shawl production and trade.",
+            "It served as a strategic frontier against Central Asian powers."
+          ],
+          "answer": "Kashmir provided a summer retreat, cultural inspiration, and economic value.",
+          "formula_used": "Strategic and cultural analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Kashmir was ruled directly by the Mughal emperors.",
+          "wrong": "The Mughal emperors directly ruled Kashmir.",
+          "correct": "Kashmir was ruled by governors (Subahdars) appointed by the emperor.",
+          "tip": "Kashmir was a province, not a personal fiefdom of the emperor."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Akbar conquered Kashmir in 1586, ending its independence.",
+            "Kashmir became a province (Subah) under Mughal governors.",
+            "Jahangir and Shah Jahan built Shalimar, Nishat, and Chashme Shahi gardens.",
+            "Kashmir provided a summer retreat and shawl trade for the Mughals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_tibet_mughal_war",
+      "title": "Ladakh's Zenith and the Tibet-Mughal War",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Ladakh's Zenith and the Tibet-Mughal War",
+          "subtitle": "The Lion King and the Treaty of Tingmosgang",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Sengge Namgyal (The Lion King) (1616–1642)",
+          "content": "Sengge Namgyal was the greatest ruler of the Namgyal dynasty in Ladakh. He expanded the kingdom to its maximum territorial extent, reaching the borders of Tibet. He is best known for building the 9-story Leh Palace (inspired by the Potala Palace in Lhasa) and patronizing the construction of the famous Hemis Monastery (the largest Buddhist monastery in Ladakh).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Leh Palace – The 9-Story Marvel",
+          "content": "Leh Palace was constructed by Sengge Namgyal in the 17th century. It is a 9-story, fortress-like structure built on a hilltop overlooking the town of Leh. The palace was the residence of the Namgyal royal family and served as the administrative centre of the kingdom. It is considered one of the architectural wonders of Ladakh.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Tibet-Ladakh War (1679–1684)",
+          "content": "In 1679, the Tibetan army invaded Ladakh under the leadership of the Fifth Dalai Lama's regent. The Ladakhi forces were pushed back, and the war threatened the existence of the Namgyal kingdom. Ladakh sought military aid from the Mughal governor of Kashmir. The Mughals intervened and helped Ladakh regain its territory.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "The Treaty of Tingmosgang (1684)",
+          "content": "The Treaty of Tingmosgang was signed between Ladakh and Tibet in 1684. It fixed the modern border between Ladakh and Tibet, which remains the basis of the Line of Actual Control (LAC) today. The treaty also established trade relations and guaranteed peace. As a result of Mughal assistance, the Ladakhi king agreed to build a mosque in Leh, marking the beginning of Islamic influence in the royal court.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Treaty of Tingmosgang",
+          "given": ["The Treaty of Tingmosgang (1684) ended the Tibet-Ladakh war."],
+          "find": "What were the key outcomes of the treaty?",
+          "steps": [
+            "Fixed the modern Ladakh-Tibet border (LAC).",
+            "Ended the war and established peace.",
+            "Allowed trade relations between Ladakh and Tibet.",
+            "Ladakh built a mosque in Leh as a gesture of gratitude to the Mughals.",
+            "Islamic influence began to integrate into Leh's royal court."
+          ],
+          "answer": "The treaty fixed the border, established peace, and allowed Islamic influence in Leh.",
+          "formula_used": "Geopolitical treaty analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Kargil became predominantly Buddhist after the treaty.",
+          "wrong": "After the treaty, Kargil became predominantly Buddhist.",
+          "correct": "Kargil's population was already predominantly Shia Muslim due to influences from Baltistan. The treaty did not change this.",
+          "tip": "Kargil = Shia Muslim; Leh = Buddhist."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Sengge Namgyal: Greatest Ladakhi ruler, built Leh Palace and Hemis Monastery.",
+            "Tibet-Ladakh War (1679–1684): Ladakh sought Mughal help.",
+            "Treaty of Tingmosgang (1684): Fixed the border, established peace.",
+            "Ladakh built a mosque in Leh as Mughal gratitude.",
+            "Islamic influence began to integrate into Leh's royal court."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_afghan_reign",
+      "title": "The Afghan (Durrani) Reign of Terror",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Afghan (Durrani) Reign of Terror",
+          "subtitle": "The Darkest Period of Kashmiri History",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "The Decline of Mughal Power and the Invitation to the Afghans",
+          "content": "By the mid-18th century, the Mughal Empire was in decline. Local Kashmiri leaders, unhappy with the oppressive rule of the Mughal governors, invited Ahmad Shah Durrani (the Afghan ruler) to overthrow them in 1753. Durrani's forces easily captured Kashmir, beginning a period of brutal Afghan rule.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "Economic Exploitation and the Shawl Industry",
+          "content": "The Afghans imposed crushing taxes on the Kashmiri people. They heavily taxed the shawl industry, which was the backbone of Kashmir's economy. Shawl merchants were forced to pay exorbitant duties, and many weavers and artisans were reduced to poverty. The exploitation of the shawl industry severely damaged Kashmir's economy.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕊️",
+          "title": "Persecution of Kashmiri Pandits and Shia Muslims",
+          "content": "The Afghan rulers practiced religious persecution. Kashmiri Pandits (Hindus) were subjected to heavy taxes (Jizya) and forced conversions. Shia Muslims were also persecuted for their religious beliefs, as the Afghans were Sunni Muslims. Many Pandits fled the valley to escape the oppression.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Impact of Afghan Rule on Kashmir",
+          "given": ["Afghan rule (1753–1819) is considered the darkest period in Kashmiri history."],
+          "find": "Why was Afghan rule so brutal?",
+          "steps": [
+            "Crushing taxes destroyed the economy, especially the shawl industry.",
+            "Religious persecution forced many Hindus and Shias to flee.",
+            "The Afghans had no interest in the welfare of the people, only extraction.",
+            "Infrastructure and agriculture were neglected, leading to poverty."
+          ],
+          "answer": "Afghan rule was a period of economic exploitation and religious persecution.",
+          "formula_used": "Historical impact analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Afghan rule improved Kashmir's economy.",
+          "wrong": "Afghan rule improved Kashmir's economy.",
+          "correct": "Afghan rule destroyed Kashmir's economy, particularly the shawl industry.",
+          "tip": "Afghans = Exploitation, not development."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points",
+          "points": [
+            "Local leaders invited Ahmad Shah Durrani in 1753.",
+            "Afghans imposed crushing taxes on the shawl industry.",
+            "Kashmiri Pandits and Shia Muslims were persecuted.",
+            "The economy collapsed under Afghan rule.",
+            "This period is remembered as the 'Dark Age' of Kashmir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jk_imperial_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Imperial Overlords – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on key events: Mughal conquest (1586), Mughal gardens, Sengge Namgyal's contributions, the Tibet-Mughal War (1679–1684), Treaty of Tingmosgang (1684), and the Afghan exploitation period. Memorize important years and rulers.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "In which year did Akbar annex Kashmir into the Mughal Empire?",
+          "options": ["1556", "1586", "1605", "1627"],
+          "answer": 1,
+          "explanation": "Akbar annexed Kashmir in 1586, ending the Chak dynasty's rule and making Kashmir a Mughal province.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which Mughal emperor built the Shalimar Bagh in Kashmir?",
+          "options": ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
+          "answer": 1,
+          "explanation": "Jahangir built Shalimar Bagh in 1619 as a summer retreat and symbol of Mughal aesthetics.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who was the greatest ruler of the Namgyal dynasty in Ladakh?",
+          "options": ["Palgyigon", "Bhagan", "Sengge Namgyal", "Rinchan"],
+          "answer": 2,
+          "explanation": "Sengge Namgyal (1616–1642) was the greatest Namgyal ruler, known for building Leh Palace and Hemis Monastery.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Treaty of Tingmosgang was signed in which year?",
+          "options": ["1679", "1684", "1700", "1725"],
+          "answer": 1,
+          "explanation": "The Treaty of Tingmosgang was signed in 1684, ending the Tibet-Ladakh war and fixing the modern border.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Mughal garden in Kashmir was built by Shah Jahan?",
+          "options": ["Shalimar Bagh", "Nishat Bagh", "Chashme Shahi", "Pari Mahal"],
+          "answer": 2,
+          "explanation": "Chashme Shahi was built by Shah Jahan in 1632 and is known for its freshwater spring.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which ruler is known as the 'Lion King' of Ladakh?",
+          "options": ["Sengge Namgyal", "Bhagan", "Palgyigon", "Tashi Namgyal"],
+          "answer": 0,
+          "explanation": "Sengge Namgyal is known as the 'Lion King' for his military expansions and architectural achievements.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What was the immediate result of the Tibetan invasion of Ladakh in 1679?",
+          "options": ["Ladakh became a Tibetan province", "Ladakh sought Mughal military aid", "Kargil became Buddhist", "The Namgyal dynasty ended"],
+          "answer": 1,
+          "explanation": "Ladakh sought Mughal military aid to repel the Tibetan invasion, which led to the Treaty of Tingmosgang.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who invited Ahmad Shah Durrani to conquer Kashmir in 1753?",
+          "options": ["Mughal governors", "Local Kashmiri leaders", "Shia Muslims", "Kashmiri Pandits"],
+          "answer": 1,
+          "explanation": "Local Kashmiri leaders, unhappy with Mughal governors, invited Ahmad Shah Durrani to overthrow them.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which industry was most heavily taxed during Afghan rule in Kashmir?",
+          "options": ["Agriculture", "Silk weaving", "Shawl weaving", "Carpet weaving"],
+          "answer": 2,
+          "explanation": "The Afghan rulers heavily taxed the shawl industry, which was the backbone of Kashmir's economy.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What was the primary effect of Afghan rule on Kashmiri Pandits?",
+          "options": ["They gained political power", "They faced religious persecution and heavy taxes", "They migrated to Afghanistan", "They became wealthy"],
+          "answer": 1,
+          "explanation": "Kashmiri Pandits faced religious persecution and heavy taxes (Jizya) under Afghan rule, leading many to flee.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the Mughal annexation (1586), Mughal gardens (Shalimar, Nishat, Chashme Shahi), Sengge Namgyal's contributions, Treaty of Tingmosgang (1684), and the Afghan exploitation period. Focus on key years and rulers."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Imperial Overlords",
+          "points": [
+            "Akbar annexed Kashmir in 1586, ending its independence.",
+            "Mughal gardens: Shalimar (Jahangir), Nishat (Asif Khan), Chashme Shahi (Shah Jahan).",
+            "Sengge Namgyal: Built Leh Palace, Hemis Monastery, expanded Ladakh.",
+            "Tibet-Ladakh War (1679–1684): Ladakh sought Mughal help.",
+            "Treaty of Tingmosgang (1684): Fixed modern Ladakh-Tibet border.",
+            "Afghan (Durrani) rule (1753–1819): Economic exploitation, persecution of Pandits and Shias."
+          ]
+        }
+      ]
+    }
+  ]
+}

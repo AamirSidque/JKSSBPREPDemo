@@ -1,1 +1,120 @@
 
+{
+  "subject_id": "ai_ds_automation",
+  "topics": [
+    {
+      "id": "ai_introduction",
+      "title": "Introduction to Artificial Intelligence",
+      "file": "content/ai_ds_automation/ai_intro.json",
+      "available": true
+    },
+    {
+      "id": "machine_learning_fundamentals",
+      "title": "Machine Learning Fundamentals",
+      "file": "content/ai_ds_automation/machine_learning_fundamentals.json",
+      "available": true
+    },
+    {
+      "id": "deep_learning",
+      "title": "Deep Learning",
+      "file": "content/ai_ds_automation/deep_learning.json",
+      "available": true
+    },
+    {
+      "id": "natural_language_processing",
+      "title": "Natural Language Processing",
+      "file": "content/ai_ds_automation/natural_language_processing.json",
+      "available": true
+    },
+    {
+      "id": "computer_vision",
+      "title": "Computer Vision",
+      "file": "content/ai_ds_automation/computer_vision.json",
+      "available": true
+    },
+    {
+      "id": "robotics_automation",
+      "title": "Robotics and Intelligent Automation",
+      "file": "content/ai_ds_automation/robotics_automation.json",
+      "available": true
+    },
+    {
+      "id": "ai_techniques",
+      "title": "AI Techniques",
+      "file": "content/ai_ds_automation/ai_techniques.json",
+      "available": true
+    },
+    {
+      "id": "ai_applications_engineering",
+      "title": "AI Applications in Engineering",
+      "file": "content/ai_ds_automation/ai_applications_engineering.json",
+      "available": true
+    },
+    {
+      "id": "ai_applications_government",
+      "title": "AI Applications in Government Systems",
+      "file": "content/ai_ds_automation/ai_applications_government.json",
+      "available": true
+    },
+    {
+      "id": "data_science_fundamentals",
+      "title": "Data Science Fundamentals",
+      "file": "content/ai_ds_automation/data_science_fundamentals.json",
+      "available": true
+    },
+    {
+      "id": "big_data",
+      "title": "Big Data",
+      "file": "content/ai_ds_automation/big_data.json",
+      "available": true
+    },
+    {
+      "id": "data_analytics",
+      "title": "Data Analytics",
+      "file": "content/ai_ds_automation/data_analytics.json",
+      "available": true
+    },
+    {
+      "id": "law_enforcement_analytics",
+      "title": "Big Data and Analytics in Law Enforcement",
+      "file": "content/ai_ds_automation/law_enforcement_analytics.json",
+      "available": true
+    },
+    {
+      "id": "automation",
+      "title": "Automation",
+      "file": "content/ai_ds_automation/automation.json",
+      "available": true
+    },
+    {
+      "id": "advantages_of_ai",
+      "title": "Advantages of AI",
+      "file": "content/ai_ds_automation/advantages_of_ai.json",
+      "available": true
+    },
+    {
+      "id": "limitations_of_ai",
+      "title": "Limitations of AI",
+      "file": "content/ai_ds_automation/limitations_of_ai.json",
+      "available": true
+    },
+    {
+      "id": "ethical_concerns_ai",
+      "title": "Ethical Concerns of AI",
+      "file": "content/ai_ds_automation/ethical_concerns_ai.json",
+      "available": true
+    },
+    {
+      "id": "ai_policies_governance",
+      "title": "AI Policies, Standards and Governance",
+      "file": "content/ai_ds_automation/ai_policies_governance.json",
+      "available": true
+    },
+    {
+      "id": "emerging_trends_ai",
+      "title": "Emerging Trends in AI",
+      "file": "content/ai_ds_automation/emerging_trends_ai.json",
+      "available": true
+    }
+  ]
+}

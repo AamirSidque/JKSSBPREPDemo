@@ -49,6 +49,15 @@
       "theme_color": "#9B59B6",
       "description": "Study of computers, software, and network communication",
       "topics_file": "content/computer_science_networking/topics.json"
+    },
+        {
+      "id": "ai_ds_automation",
+      "title": "AI, DS and Automation",
+      "emoji": "💻",
+      "theme_color": "#9B59B6",
+      "description": "Study of AI, DS, and Automation",
+      "topics_file": "content/ai_ds_automation/topics.json"
     }
+    
   ]
 }

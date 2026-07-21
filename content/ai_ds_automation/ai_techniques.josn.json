@@ -1,0 +1,521 @@
+{
+  "id": "ai_techniques",
+  "subject_id": "artificial_intelligence",
+  "title": "AI Techniques",
+  "subtopics": [
+    {
+      "id": "knowledge_based_systems",
+      "title": "Knowledge-Based Systems – Expert Systems, Rule-Based Reasoning, Knowledge Representation, and Ontologies",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Knowledge-Based Systems",
+          "subtitle": "Capturing and Using Human Expertise",
+          "tags": ["JKSSB", "High Weightage", "AI"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What are Knowledge-Based Systems (KBS)?",
+          "content": "Knowledge-Based Systems are AI systems that use a knowledge base (explicit rules and facts) and an inference engine to solve problems that normally require human expertise. They are designed to capture, store, and apply knowledge to make decisions or provide recommendations.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Expert Systems – The Classic KBS",
+          "content": "Expert systems are the most prominent type of KBS. They mimic the decision-making ability of a human expert in a specific domain. They consist of: 1. **Knowledge Base**: Domain-specific facts and rules, 2. **Inference Engine**: Applies rules to facts to reach conclusions, 3. **User Interface**: For interaction, 4. **Explanation Facility**: Explains reasoning.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Rule-Based Reasoning – The Core of Many Expert Systems",
+          "content": "Rule-based reasoning uses 'IF-THEN' rules to represent knowledge. IF (condition) THEN (action/conclusion). Example: IF (temperature > 100°C) THEN (water is boiling).\n1. **Forward Chaining**: Data-driven – starts with facts and applies rules to reach conclusions.\n2. **Backward Chaining**: Goal-driven – starts with a hypothesis and works backward to find supporting facts.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "Knowledge Representation – Storing Knowledge in AI",
+          "content": "Knowledge representation is the way knowledge is structured and stored in an AI system. Common methods:\n1. **Production Rules**: IF-THEN statements (used in expert systems).\n2. **Semantic Networks**: Graphs with nodes (concepts) and edges (relationships).\n3. **Frames**: Object-oriented structures with attributes and values.\n4. **Logic**: Propositional and predicate logic for formal reasoning.\n5. **Ontologies**: Formal representation of concepts and relationships in a domain.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗺️",
+          "title": "Ontologies – Formal Domain Models",
+          "content": "An ontology is a formal representation of a domain's concepts, categories, properties, and relationships. It defines a shared vocabulary for a domain. Examples: WordNet (lexical ontology), Gene Ontology (biology), Cyc (common sense knowledge).\nComponents: Classes, Properties, Relations, Axioms.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Knowledge Representation Methods – Comparison",
+          "headers": ["Method", "Description", "Strengths", "Weaknesses"],
+          "rows": [
+            ["Production Rules", "IF-THEN rules", "Simple, intuitive, modular", "Can be hard to manage when many rules"],
+            ["Semantic Networks", "Graph of concepts and relationships", "Visual, intuitive", "Limited expressiveness"],
+            ["Frames", "Object-oriented structures", "Organized, modular", "Complex to implement"],
+            ["Logic", "Formal reasoning (propositional/predicate)", "Precise, mathematically sound", "Computationally expensive"],
+            ["Ontologies", "Formal domain models", "Shared vocabulary, interoperable", "Complex to build and maintain"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Expert System in Healthcare",
+          "given": ["MYCIN was an expert system for diagnosing bacterial infections."],
+          "find": "How did MYCIN work?",
+          "steps": [
+            "MYCIN had a knowledge base of rules about bacterial infections.",
+            "Doctors entered patient symptoms and test results.",
+            "The inference engine applied rules (forward/backward chaining).",
+            "It provided a diagnosis and treatment recommendations.",
+            "It could explain its reasoning (explanation facility).",
+            "It was one of the first successful expert systems."
+          ],
+          "answer": "MYCIN used rule-based reasoning and an inference engine to diagnose infections.",
+          "formula_used": "Expert system architecture analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Expert systems are the same as modern AI models.",
+          "wrong": "Expert systems are the same as deep learning models.",
+          "correct": "Expert systems are rule-based (symbolic AI); modern AI (LLMs, neural networks) is data-driven (statistical AI).",
+          "tip": "Expert systems = Rules; Neural Networks = Data."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Knowledge-Based Systems",
+          "points": [
+            "Knowledge-Based Systems (KBS) capture human expertise.",
+            "Expert Systems: Knowledge base + Inference engine + User Interface + Explanation facility.",
+            "Rule-Based Reasoning: IF-THEN rules; Forward chaining (data-driven) and Backward chaining (goal-driven).",
+            "Knowledge Representation: Production rules, Semantic networks, Frames, Logic, Ontologies.",
+            "Ontologies: Formal domain models with shared vocabulary."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search_algorithms",
+      "title": "Search Algorithms – BFS, DFS, A* Search, and Heuristic Search",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Search Algorithms",
+          "subtitle": "Finding Solutions in State Spaces",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "What are Search Algorithms in AI?",
+          "content": "Search algorithms are used to explore a state space to find a solution to a problem. They are fundamental to AI, especially in problem-solving, planning, and decision-making. A state space consists of all possible states (configurations) and the transitions between them.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌳",
+          "title": "BFS (Breadth-First Search)",
+          "content": "BFS explores all states at the current depth before moving to the next depth. It uses a queue (FIFO). It is complete (finds a solution if one exists) and optimal for unweighted graphs (finds the shortest path).\nCharacteristics: Level-by-level exploration, memory-intensive (stores all nodes at current depth).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧭",
+          "title": "DFS (Depth-First Search)",
+          "content": "DFS explores as far as possible along each branch before backtracking. It uses a stack (LIFO). It is complete (for finite search spaces) but not optimal (may find a non-shortest path).\nCharacteristics: Memory-efficient, may get stuck in infinite loops (if no cycle detection).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⭐",
+          "title": "A* Search – Optimal and Informed",
+          "content": "A* is a heuristic-based search algorithm that combines the benefits of BFS and DFS. It uses a cost function: f(n) = g(n) + h(n), where g(n) = cost to reach node n, h(n) = heuristic estimate of cost to goal. It is optimal if the heuristic is admissible (never overestimates).\nCharacteristics: Efficient, uses priority queue (based on f(n)), finds optimal path.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Heuristic Search – Using Domain Knowledge",
+          "content": "Heuristic search uses domain-specific knowledge (heuristics) to guide the search toward the goal. Heuristics are estimates of how close a state is to the goal. They improve efficiency by reducing the search space. Common heuristics: Manhattan distance, Euclidean distance, number of misplaced tiles (8-puzzle).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Search Algorithms – Comparison",
+          "headers": ["Algorithm", "Data Structure", "Type", "Optimal?", "Complete?", "Memory Requirement"],
+          "rows": [
+            ["BFS", "Queue (FIFO)", "Uninformed", "Yes", "Yes", "High"],
+            ["DFS", "Stack (LIFO)", "Uninformed", "No", "Yes (finite spaces)", "Low"],
+            ["A*", "Priority Queue", "Informed", "Yes (admissible heuristic)", "Yes", "Medium-High"],
+            ["Greedy BFS", "Priority Queue", "Informed", "No", "Yes", "Medium"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: A* Search in Pathfinding",
+          "given": ["A robot uses A* to find the shortest path in a warehouse."],
+          "find": "How does A* help the robot?",
+          "steps": [
+            "The robot's current position is the start node.",
+            "The goal is a target location.",
+            "A* uses a heuristic (e.g., Manhattan distance) to estimate the remaining distance.",
+            "It explores nodes with the lowest f(n) = g(n) + h(n).",
+            "It finds the optimal path to the goal.",
+            "The robot follows the path to navigate the warehouse."
+          ],
+          "answer": "A* uses a heuristic to find the optimal path efficiently.",
+          "formula_used": "A* algorithm application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: DFS is always better than BFS.",
+          "wrong": "DFS is always better than BFS.",
+          "correct": "BFS is optimal for shortest paths in unweighted graphs; DFS is memory-efficient but may not find the shortest path.",
+          "tip": "Choose BFS for shortest paths, DFS for memory-limited scenarios."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Search Algorithms",
+          "points": [
+            "BFS: Level-by-level, queue, complete, optimal (unweighted).",
+            "DFS: Branch-first, stack, complete (finite), not optimal.",
+            "A*: f(n) = g(n) + h(n), optimal if heuristic is admissible.",
+            "Heuristic Search: Uses domain knowledge to guide search.",
+            "Heuristics: Manhattan distance, Euclidean distance."
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+    {
+      "id": "reasoning",
+      "title": "Reasoning – Logical, Probabilistic, Bayesian Inference, and Fuzzy Logic",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Reasoning in AI",
+          "subtitle": "Drawing Conclusions from Knowledge",
+          "tags": ["JKSSB", "High Weightage", "AI"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What is Reasoning in AI?",
+          "content": "Reasoning is the process of drawing conclusions from available knowledge and evidence. It is a core component of intelligent systems, enabling them to make decisions, solve problems, and understand the world. AI uses various types of reasoning: logical, probabilistic, Bayesian, and fuzzy reasoning.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Logical Reasoning – Deductive and Inductive",
+          "content": "1. **Deductive Reasoning**: Draws specific conclusions from general premises. (If all humans are mortal, and Socrates is human, then Socrates is mortal.)\n2. **Inductive Reasoning**: Draws general conclusions from specific observations. (Every swan observed is white → all swans are white.)\n3. **Abductive Reasoning**: Infers the best explanation for a set of observations. (The grass is wet → it probably rained.)",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Probabilistic Reasoning – Handling Uncertainty",
+          "content": "Probabilistic reasoning uses probability theory to handle uncertainty in decision-making. It is used when knowledge is incomplete or uncertain. Key concepts: Probability distributions, conditional probability, Bayes' theorem, Markov networks.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Bayesian Inference – Updating Beliefs",
+          "content": "Bayesian inference is a method of statistical inference that updates the probability for a hypothesis as more evidence becomes available. It is based on Bayes' theorem: P(H|E) = P(E|H) * P(H) / P(E). It is widely used in machine learning, medical diagnosis, and spam filtering.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌫️",
+          "title": "Fuzzy Logic – Reasoning with Degrees of Truth",
+          "content": "Fuzzy logic is a form of many-valued logic that handles partial truth. Instead of true/false, values range between 0 and 1. It is used in control systems, decision-making, and pattern recognition. Example: Instead of 'temperature is hot' (true/false), fuzzy logic defines 'hot' as a degree (e.g., 0.8).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Reasoning Types – Comparison",
+          "headers": ["Type", "Description", "Key Features", "Applications"],
+          "rows": [
+            ["Logical", "Draws conclusions from premises", "Deductive, inductive, abductive", "Expert systems, theorem proving"],
+            ["Probabilistic", "Handles uncertainty using probability", "Probability distributions, Bayes", "Medical diagnosis, risk analysis"],
+            ["Bayesian", "Updates beliefs with evidence", "Bayes' theorem, prior/posterior", "Spam filtering, diagnostics"],
+            ["Fuzzy Logic", "Degrees of truth (0-1)", "Membership functions, rules", "Control systems, fuzzy controllers"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Bayesian Inference in Medical Diagnosis",
+          "given": ["A doctor uses Bayes' theorem to diagnose a disease based on test results."],
+          "find": "How does Bayesian inference help?",
+          "steps": [
+            "Let D = Disease, T = Positive Test.",
+            "P(D) = Prior probability of the disease (e.g., 1%).",
+            "P(T|D) = Probability of a positive test given the disease (e.g., 95%).",
+            "P(T|¬D) = Probability of a positive test given no disease (e.g., 10%).",
+            "Use Bayes' theorem: P(D|T) = P(T|D) * P(D) / P(T).",
+            "The posterior probability (P(D|T)) is the updated probability of the disease given the test result.",
+            "This helps doctors make better diagnostic decisions."
+          ],
+          "answer": "Bayesian inference updates disease probability based on test results.",
+          "formula_used": "Bayesian inference analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Fuzzy logic uses binary values.",
+          "wrong": "Fuzzy logic only uses true/false values.",
+          "correct": "Fuzzy logic uses degrees of truth between 0 and 1.",
+          "tip": "Fuzzy = Degrees; Boolean = Binary."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Reasoning",
+          "points": [
+            "Logical: Deductive (general → specific), Inductive (specific → general), Abductive (best explanation).",
+            "Probabilistic: Handles uncertainty using probability.",
+            "Bayesian: Updates beliefs with evidence (Bayes' theorem).",
+            "Fuzzy Logic: Degrees of truth (0-1), used in control systems.",
+            "Bayes' theorem: P(H|E) = P(E|H) * P(H) / P(E)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optimization_techniques",
+      "title": "Optimization Techniques – Genetic Algorithms, Evolutionary Computing, and Swarm Intelligence",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Optimization Techniques",
+          "subtitle": "Finding Optimal Solutions in Complex Spaces",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧬",
+          "title": "Genetic Algorithms – Inspired by Natural Selection",
+          "content": "Genetic Algorithms (GAs) are optimization techniques inspired by Charles Darwin's theory of natural selection. They evolve a population of candidate solutions through selection, crossover (recombination), and mutation. GAs are used for complex optimization problems where traditional methods fail.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧬",
+          "title": "Genetic Algorithm – Key Steps",
+          "content": "1. **Initialization**: Generate a random population of solutions.\n2. **Selection**: Select the fittest individuals (based on a fitness function).\n3. **Crossover (Recombination)**: Combine two parent solutions to create offspring.\n4. **Mutation**: Introduce small random changes to offspring.\n5. **Evaluation**: Compute the fitness of the new generation.\n6. **Repeat**: Until a stopping criterion is met (generations, convergence).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌱",
+          "title": "Evolutionary Computing – Beyond Genetic Algorithms",
+          "content": "Evolutionary computing encompasses a broader family of algorithms inspired by biological evolution. Types:\n1. **Genetic Algorithms**: Most common.\n2. **Evolutionary Strategies**: Focus on mutation and selection.\n3. **Evolutionary Programming**: Uses finite-state machines.\n4. **Genetic Programming**: Evolves computer programs.\nApplications: Robotics, scheduling, engineering design.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🐝",
+          "title": "Swarm Intelligence – Collective Behaviour",
+          "content": "Swarm intelligence is inspired by the collective behavior of social insects (ants, bees, birds). It uses decentralized, self-organized systems.\n1. **Ant Colony Optimization (ACO)**: Inspired by ant foraging; used for pathfinding.\n2. **Particle Swarm Optimization (PSO)**: Inspired by bird flocking; used for optimization.\n3. **Artificial Bee Colony (ABC)**: Inspired by bee foraging.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Optimization Techniques – Comparison",
+          "headers": ["Technique", "Inspiration", "Mechanism", "Applications"],
+          "rows": [
+            ["Genetic Algorithm", "Natural selection", "Selection, crossover, mutation", "Scheduling, design, robotics"],
+            ["Evolutionary Computing", "Biological evolution", "Variation, selection", "Engineering, optimization"],
+            ["Ant Colony Optimization", "Ant foraging", "Pheromone trails", "Pathfinding, routing"],
+            ["Particle Swarm Optimization", "Bird flocking", "Velocity/position updates", "Function optimization"],
+            ["Artificial Bee Colony", "Bee foraging", "Forager/scout/employed bees", "Optimization, clustering"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Genetic Algorithm in Scheduling",
+          "given": ["A factory uses a genetic algorithm to optimize its production schedule."],
+          "find": "How does the genetic algorithm work?",
+          "steps": [
+            "A population of schedules (solutions) is generated.",
+            "Each schedule is evaluated based on a fitness function (e.g., minimize completion time).",
+            "The fittest schedules are selected for reproduction.",
+            "Crossover combines parts of two schedules to create new schedules.",
+            "Mutation introduces small changes to avoid local optima.",
+            "The process repeats for many generations.",
+            "The best schedule is selected as the solution."
+          ],
+          "answer": "Genetic algorithms evolve production schedules to minimize completion time.",
+          "formula_used": "Genetic algorithm application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Genetic algorithms always find the global optimum.",
+          "wrong": "Genetic algorithms always find the global optimum.",
+          "correct": "Genetic algorithms can get stuck in local optima and are heuristic, not guaranteed to find the global optimum.",
+          "tip": "GAs are heuristic (approximate), not exact."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Optimization Techniques",
+          "points": [
+            "Genetic Algorithms: Inspired by natural selection (selection, crossover, mutation).",
+            "Evolutionary Computing: Broader family (Genetic Algorithms, Evolutionary Strategies, Genetic Programming).",
+            "Swarm Intelligence: Inspired by social insects (Ant Colony, Particle Swarm, Bee Colony).",
+            "Applications: Scheduling, pathfinding, engineering design, function optimization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_techniques_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI Techniques – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on expert systems, rule-based reasoning, knowledge representation methods, BFS/DFS/A*, Bayesian inference, fuzzy logic, genetic algorithms, and swarm intelligence.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the inference engine in an expert system?",
+          "options": [
+            "The knowledge base",
+            "The part that applies rules to reach conclusions",
+            "The user interface",
+            "The explanation facility"
+          ],
+          "answer": 1,
+          "explanation": "The inference engine applies rules to the knowledge base to reach conclusions.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which search algorithm uses f(n) = g(n) + h(n) to find the optimal path?",
+          "options": ["BFS", "DFS", "A*", "Greedy BFS"],
+          "answer": 2,
+          "explanation": "A* uses the cost function f(n) = g(n) + h(n) to find the optimal path.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which knowledge representation method uses IF-THEN rules?",
+          "options": ["Semantic Networks", "Frames", "Production Rules", "Ontologies"],
+          "answer": 2,
+          "explanation": "Production rules are IF-THEN statements used in expert systems and rule-based reasoning.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which reasoning technique updates beliefs as new evidence becomes available?",
+          "options": ["Logical reasoning", "Fuzzy logic", "Bayesian inference", "Inductive reasoning"],
+          "answer": 2,
+          "explanation": "Bayesian inference updates beliefs using Bayes' theorem as new evidence is available.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which optimization technique is inspired by natural selection?",
+          "options": ["Particle Swarm Optimization", "Ant Colony Optimization", "Genetic Algorithms", "Fuzzy Logic"],
+          "answer": 2,
+          "explanation": "Genetic Algorithms are inspired by Charles Darwin's theory of natural selection.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which search algorithm uses a stack (LIFO) and explores one branch at a time?",
+          "options": ["BFS", "DFS", "A*", "Greedy BFS"],
+          "answer": 1,
+          "explanation": "DFS uses a stack and explores one branch to its full depth before backtracking.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a swarm intelligence algorithm?",
+          "options": ["Genetic Algorithm", "Ant Colony Optimization", "A*", "Bayesian Inference"],
+          "answer": 1,
+          "explanation": "Ant Colony Optimization (ACO) is a swarm intelligence algorithm inspired by ant foraging behavior.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the function of an ontology in AI?",
+          "options": [
+            "To generate random numbers",
+            "To represent domain concepts and relationships",
+            "To train neural networks",
+            "To search for paths"
+          ],
+          "answer": 1,
+          "explanation": "An ontology is a formal representation of domain concepts, categories, and relationships.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which reasoning type uses degrees of truth between 0 and 1?",
+          "options": ["Logical reasoning", "Fuzzy logic", "Bayesian inference", "Inductive reasoning"],
+          "answer": 1,
+          "explanation": "Fuzzy logic uses degrees of truth between 0 and 1, handling partial truth.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "In genetic algorithms, what is the purpose of mutation?",
+          "options": [
+            "To select the fittest individuals",
+            "To introduce small random changes",
+            "To combine two parent solutions",
+            "To evaluate fitness"
+          ],
+          "answer": 1,
+          "explanation": "Mutation introduces small random changes to offspring to maintain genetic diversity and avoid local optima.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review expert systems and inference engines, search algorithms (BFS, DFS, A*), reasoning types (logical, Bayesian, fuzzy), and optimization techniques (genetic algorithms, swarm intelligence)."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – AI Techniques",
+          "points": [
+            "Expert Systems: Knowledge base, inference engine, rule-based reasoning.",
+            "Search: BFS (queue, optimal), DFS (stack, memory-efficient), A* (heuristic, f(n)=g(n)+h(n)).",
+            "Reasoning: Logical (deductive, inductive), Probabilistic, Bayesian (Bayes' theorem), Fuzzy (degrees 0-1).",
+            "Optimization: Genetic Algorithms (selection, crossover, mutation), Swarm Intelligence (ACO, PSO)."
+          ]
+        }
+      ]
+    }
+  ]
+}
+  

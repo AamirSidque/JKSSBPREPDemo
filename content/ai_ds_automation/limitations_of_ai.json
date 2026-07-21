@@ -1,0 +1,304 @@
+{
+  "id": "limitations_of_ai",
+  "subject_id": "artificial_intelligence",
+  "title": "Limitations of AI",
+  "subtopics": [
+    {
+      "id": "ai_limitations",
+      "title": "Limitations of Artificial Intelligence – Challenges and Constraints",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Limitations of AI",
+          "subtitle": "Understanding the Challenges and Constraints of AI",
+          "tags": ["JKSSB", "High Weightage", "AI"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Data Dependency – AI Needs Quality Data",
+          "content": "AI systems require large amounts of high-quality, labeled data for training. If data is biased, incomplete, or noisy, the model's performance suffers. Applications: Machine learning models are only as good as their training data.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "High Implementation Cost",
+          "content": "Building and deploying AI systems is expensive. Costs include data collection, infrastructure (GPUs, TPUs), skilled personnel (data scientists, ML engineers), and ongoing maintenance. It is often inaccessible for smaller organizations.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Bias in Datasets",
+          "content": "AI models inherit biases present in training data. This can lead to discrimination based on race, gender, age, or socioeconomic status. Examples: Bias in hiring algorithms, facial recognition errors, loan approval discrimination.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Lack of Common Sense Reasoning",
+          "content": "AI lacks human-level common sense and understanding. It cannot apply real-world knowledge to situations it has not encountered before. It may make illogical decisions in unfamiliar contexts.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Explainability Issues – The Black-Box Problem",
+          "content": "Many AI models, particularly deep neural networks, are 'black boxes'. It is difficult to understand how they arrive at a decision. This is problematic in high-stakes applications like healthcare, finance, and criminal justice.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "Black-Box Models – Lack of Transparency",
+          "content": "Black-box models make it hard to audit, debug, or trust AI decisions. This is a barrier to adoption in regulated industries. Explainable AI (XAI) is an active area of research to address this.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔓",
+          "title": "Security Vulnerabilities – AI Can Be Attacked",
+          "content": "AI systems are vulnerable to adversarial attacks (subtle input manipulations that cause misclassification) and data poisoning (corrupting training data). These vulnerabilities can lead to security breaches and system failures.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔐",
+          "title": "Privacy Concerns – Data Privacy Risks",
+          "content": "AI systems often require access to sensitive personal data. This raises privacy concerns, especially in healthcare, finance, and surveillance. Regulations like GDPR and DPDP Act aim to address these issues.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💻",
+          "title": "High Computational Requirements",
+          "content": "Training large AI models requires enormous computational power (GPUs, TPUs). This contributes to high costs and environmental impact. Edge AI (on-device AI) is a solution but has limited processing capability.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Energy Consumption – Environmental Impact",
+          "content": "Training large AI models consumes significant electricity and generates carbon emissions. The environmental cost of AI is a growing concern. Research is underway to create more energy-efficient AI.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📉",
+          "title": "Model Drift – Performance Degrades Over Time",
+          "content": "AI models degrade over time due to changes in data, environment, or user behavior. This is called 'model drift' or 'concept drift'. Regular retraining is required to maintain performance.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎨",
+          "title": "Limited Creativity – AI Follows Patterns",
+          "content": "AI systems are pattern recognizers, not creative thinkers. They cannot generate truly novel ideas, art, or music with human-level creativity. They can only combine existing patterns.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚠️",
+          "title": "Adversarial Attacks – Exploiting Vulnerabilities",
+          "content": "Adversarial attacks involve making small, imperceptible changes to inputs to fool AI models. For example, adding noise to an image can cause a classifier to mislabel it. This poses security risks.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚠️",
+          "title": "Reliability Issues – AI Is Not Always Trustworthy",
+          "content": "AI systems are not 100% reliable. They can make mistakes, particularly in novel or ambiguous situations. This limits their use in safety-critical applications (autonomous driving, healthcare).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Limitations of AI – Summary",
+          "headers": ["Limitation", "Description", "Impact"],
+          "rows": [
+            ["Data Dependency", "Requires large, high-quality datasets", "Performance issues with poor data"],
+            ["High Implementation Cost", "Expensive to build and maintain", "Barrier to entry for small organizations"],
+            ["Bias in Datasets", "Models inherit biases", "Discrimination, unfair outcomes"],
+            ["Lack of Common Sense", "Cannot apply real-world knowledge", "Illogical decisions"],
+            ["Explainability Issues", "Black-box models", "Trust and accountability problems"],
+            ["Black-Box Models", "Lack of transparency", "Difficult to audit"],
+            ["Security Vulnerabilities", "Adversarial attacks, data poisoning", "System failures, breaches"],
+            ["Privacy Concerns", "Access to sensitive data", "Regulatory risks"],
+            ["High Computational Requirements", "Requires GPUs/TPUs", "High costs, environmental impact"],
+            ["Energy Consumption", "High electricity usage", "Carbon emissions"],
+            ["Model Drift", "Performance degrades over time", "Requires retraining"],
+            ["Limited Creativity", "Cannot generate novel ideas", "Pattern recognition only"],
+            ["Adversarial Attacks", "Input manipulations", "Security risks"],
+            ["Reliability Issues", "Not 100% accurate", "Safety concerns"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI Bias in Hiring",
+          "given": ["An AI recruitment tool is biased against women."],
+          "find": "How does bias occur in AI systems?",
+          "steps": [
+            "The AI model was trained on historical hiring data.",
+            "The historical data was biased (e.g., more men in leadership roles).",
+            "The model learned that men are more suitable for leadership.",
+            "It started penalizing women candidates.",
+            "This led to unfair and discriminatory hiring decisions."
+          ],
+          "answer": "AI bias occurs when training data contains historical biases, leading to unfair outcomes.",
+          "formula_used": "AI bias analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI is always reliable and unbiased.",
+          "wrong": "AI systems are always reliable and unbiased.",
+          "correct": "AI can be biased, unreliable, and vulnerable to attacks.",
+          "tip": "AI systems are not perfect and require careful oversight."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Limitations of AI",
+          "points": [
+            "Data Dependency: Needs large, quality data.",
+            "High Cost: Expensive to build and maintain.",
+            "Bias: Models inherit biases from data.",
+            "Lack of Common Sense: Cannot reason like humans.",
+            "Explainability: Black-box models are hard to interpret.",
+            "Security Vulnerabilities: Adversarial attacks, data poisoning.",
+            "Privacy Concerns: Access to sensitive personal data.",
+            "High Computational Requirements: Requires GPUs/TPUs.",
+            "Energy Consumption: High carbon footprint.",
+            "Model Drift: Performance degrades over time.",
+            "Limited Creativity: Cannot generate novel ideas.",
+            "Adversarial Attacks: Input manipulations.",
+            "Reliability Issues: Not 100% accurate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_limitations_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Limitations of AI – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the key limitations: data dependency, bias, cost, lack of common sense, explainability, security, privacy, computational requirements, model drift, and reliability.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation of AI arises when models inherit biases from training data?",
+          "options": ["Data dependency", "Bias in datasets", "High implementation cost", "Lack of common sense"],
+          "answer": 1,
+          "explanation": "AI models can inherit biases present in training data, leading to unfair outcomes.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation makes it difficult to understand how AI models arrive at a decision?",
+          "options": ["Model drift", "Explainability issues", "High computational requirements", "Security vulnerabilities"],
+          "answer": 1,
+          "explanation": "Explainability issues arise when AI models are 'black boxes' that are difficult to interpret.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation refers to the degradation of AI model performance over time?",
+          "options": ["Model drift", "Adversarial attacks", "Bias in datasets", "Data dependency"],
+          "answer": 0,
+          "explanation": "Model drift refers to the degradation of AI model performance due to changes in data or environment.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation involves small, imperceptible changes to inputs that fool AI models?",
+          "options": ["Privacy concerns", "Adversarial attacks", "Model drift", "Bias in datasets"],
+          "answer": 1,
+          "explanation": "Adversarial attacks involve manipulating inputs to cause AI models to make errors.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation of AI is a barrier to adoption in regulated industries like healthcare and finance?",
+          "options": ["High computational requirements", "Explainability issues", "Data dependency", "Energy consumption"],
+          "answer": 1,
+          "explanation": "Explainability issues make it difficult to trust and audit AI systems in regulated industries.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation of AI raises concerns about access to sensitive personal data?",
+          "options": ["Security vulnerabilities", "Privacy concerns", "Model drift", "Adversarial attacks"],
+          "answer": 1,
+          "explanation": "Privacy concerns arise when AI systems require access to sensitive personal data.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation makes AI unsuitable for safety-critical applications like autonomous driving?",
+          "options": ["Reliability issues", "High implementation cost", "Data dependency", "Bias in datasets"],
+          "answer": 0,
+          "explanation": "Reliability issues (AI is not 100% accurate) limit its use in safety-critical applications.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation of AI is related to the high carbon footprint of training large models?",
+          "options": ["High computational requirements", "Energy consumption", "Both (a) and (b)", "None of the above"],
+          "answer": 2,
+          "explanation": "High computational requirements and energy consumption are both related to AI's environmental impact.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation of AI prevents it from generating truly novel ideas or art?",
+          "options": ["Limited creativity", "Lack of common sense", "Bias in datasets", "Model drift"],
+          "answer": 0,
+          "explanation": "Limited creativity means AI can only combine existing patterns, not generate truly novel ideas.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which limitation refers to AI's inability to apply real-world knowledge to unfamiliar situations?",
+          "options": ["Lack of common sense", "Explainability issues", "Data dependency", "Model drift"],
+          "answer": 0,
+          "explanation": "Lack of common sense means AI cannot reason about the world like humans.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the key limitations: data dependency, bias, cost, lack of common sense, explainability, security, privacy, computational requirements, energy consumption, model drift, limited creativity, adversarial attacks, and reliability.",
+          "points": [
+            "Data Dependency: Needs quality data.",
+            "Bias: Inherits biases from training data.",
+            "Cost: Expensive to build and maintain.",
+            "Lack of Common Sense: Cannot reason like humans.",
+            "Explainability: Black-box models are hard to interpret.",
+            "Security Vulnerabilities: Adversarial attacks, data poisoning.",
+            "Privacy: Access to sensitive data.",
+            "Computational Requirements: High compute power.",
+            "Energy Consumption: Environmental impact.",
+            "Model Drift: Performance degrades over time.",
+            "Limited Creativity: Cannot generate novel ideas.",
+            "Adversarial Attacks: Input manipulations.",
+            "Reliability: Not 100% accurate."
+          ]
+        }
+      ]
+    }
+  ]
+}

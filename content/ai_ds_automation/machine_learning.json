@@ -1,0 +1,748 @@
+{
+  "id": "machine_learning_part1",
+  "subject_id": "artificial_intelligence",
+  "title": "Machine Learning Fundamentals",
+  "subtopics": [
+    {
+      "id": "ml_introduction",
+      "title": "Introduction to Machine Learning",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Introduction to Machine Learning",
+          "subtitle": "Teaching Machines to Learn from Data",
+          "tags": ["JKSSB", "High Weightage", "Machine Learning"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What is Machine Learning?",
+          "content": "Machine Learning (ML) is a subset of Artificial Intelligence that enables systems to learn and improve from experience without being explicitly programmed. Instead of following fixed rules, ML algorithms build mathematical models based on training data, allowing them to make predictions or decisions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Why is Machine Learning Important?",
+          "content": "1. **Handles Complexity**: Can model complex patterns beyond human ability.\n2. **Scalability**: Automates data analysis and decision-making at scale.\n3. **Adaptability**: Improves over time with new data.\n4. **Insights**: Discovers hidden patterns and correlations.\n5. **Automation**: Reduces manual effort and human error.\n6. **Personalization**: Delivers customized experiences (e.g., recommendations).",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Machine Learning Applications Across Industries",
+          "headers": ["Industry", "ML Application", "Example"],
+          "rows": [
+            ["Healthcare", "Medical diagnosis", "Cancer detection from X-rays"],
+            ["Finance", "Fraud detection", "Credit card fraud prevention"],
+            ["E-commerce", "Recommendation systems", "Amazon product suggestions"],
+            ["Transportation", "Autonomous driving", "Self-driving cars"],
+            ["Marketing", "Customer segmentation", "Targeted advertising"],
+            ["Manufacturing", "Predictive maintenance", "Equipment failure prediction"],
+            ["Government", "Public safety", "Crime prediction and prevention"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "process_flow",
+          "title": "Machine Learning Workflow",
+          "steps": [
+            "Step 1: Define the Problem – Identify the objective and success metrics.",
+            "Step 2: Collect Data – Gather relevant datasets.",
+            "Step 3: Prepare Data – Clean, transform, and split data.",
+            "Step 4: Choose Model – Select the appropriate algorithm.",
+            "Step 5: Train Model – Fit the model to the training data.",
+            "Step 6: Evaluate Model – Assess performance on validation/test data.",
+            "Step 7: Tune Hyperparameters – Optimize for better performance.",
+            "Step 8: Deploy Model – Integrate into the production environment.",
+            "Step 9: Monitor & Maintain – Track performance and retrain as needed."
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: ML in Email Spam Detection",
+          "given": ["Gmail uses machine learning to filter spam emails."],
+          "find": "How does the ML workflow apply?",
+          "steps": [
+            "Problem: Classify emails as spam or legitimate.",
+            "Data: Millions of labeled emails (spam/not spam).",
+            "Prepare: Extract features (words, sender, subject line).",
+            "Model: Use algorithms like Naive Bayes or SVM.",
+            "Train: Train on labeled dataset.",
+            "Evaluate: Measure accuracy and false positives/negatives.",
+            "Deploy: Integrate into Gmail's email processing pipeline.",
+            "Monitor: Continuously update with user feedback (report spam)."
+          ],
+          "answer": "Gmail uses a full ML workflow: data collection, feature extraction, model training, deployment, and continuous learning from user feedback.",
+          "formula_used": "ML workflow application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Machine Learning is the same as programming.",
+          "wrong": "Machine Learning is just another way of programming.",
+          "correct": "Traditional programming uses explicit rules; ML uses data to discover rules on its own.",
+          "tip": "Programming = Rule-based; ML = Data-driven."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Introduction to ML",
+          "points": [
+            "ML is a subset of AI that learns from data without explicit programming.",
+            "ML improves over time with new data (adaptive).",
+            "Applications: Healthcare, Finance, E-commerce, Transportation, Marketing.",
+            "ML Workflow: Problem → Data → Model → Training → Evaluation → Deployment → Monitoring.",
+            "ML discovers hidden patterns and insights in data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ml_types",
+      "title": "Types of Machine Learning – Supervised, Unsupervised, Semi-Supervised, Reinforcement",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Types of Machine Learning",
+          "subtitle": "Four Approaches to Learning from Data",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Supervised Learning",
+          "content": "Supervised learning uses labeled data to train models. The algorithm learns the mapping from input to output. It is used for classification and regression tasks. The model is evaluated on unseen test data to measure its generalization.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏷️",
+          "title": "Supervised Learning – Classification vs Regression",
+          "content": "1. **Classification**: Predict a discrete class label (e.g., spam/not spam, cat/dog).\n2. **Regression**: Predict a continuous value (e.g., house price, temperature, stock price).\n3. **Examples**: Logistic Regression (classification), Linear Regression (regression).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Unsupervised Learning",
+          "content": "Unsupervised learning uses unlabeled data to find hidden patterns or structures. There is no output variable to predict. It is used for clustering, dimensionality reduction, and anomaly detection. The model identifies groupings or patterns in the data.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Unsupervised Learning – Clustering vs Dimensionality Reduction",
+          "content": "1. **Clustering**: Group similar data points together (e.g., customer segmentation).\n2. **Dimensionality Reduction**: Reduce the number of features while preserving information (e.g., PCA).\n3. **Anomaly Detection**: Identify unusual data points (e.g., fraud detection).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔀",
+          "title": "Semi-Supervised Learning",
+          "content": "Semi-supervised learning uses a small amount of labeled data and a large amount of unlabeled data. It combines the strengths of supervised and unsupervised learning. It is useful when labeling data is expensive or time-consuming.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎮",
+          "title": "Reinforcement Learning",
+          "content": "Reinforcement learning involves an agent learning to make decisions by interacting with an environment. The agent receives rewards or penalties based on its actions and learns to maximize cumulative reward. It is used in robotics, game playing, and autonomous systems.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Comparison of ML Types",
+          "headers": ["Aspect", "Supervised", "Unsupervised", "Semi-Supervised", "Reinforcement"],
+          "rows": [
+            ["Data", "Labeled", "Unlabeled", "Small labeled + Large unlabeled", "Trial & error"],
+            ["Goal", "Predict output", "Discover patterns", "Improve labeling accuracy", "Maximize reward"],
+            ["Algorithm Types", "Classification, Regression", "Clustering, Dimensionality Reduction", "Combination", "Policy Learning, Q-Learning"],
+            ["Examples", "Spam detection, House price prediction", "Customer segmentation, Anomaly detection", "Image classification (limited labels)", "Self-driving cars, Game playing (AlphaGo)"],
+            ["Feedback", "Supervisor provides labels", "No feedback", "Limited supervision", "Reward/Penalty"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Choosing the Right ML Type",
+          "given": ["A company wants to segment its customers into distinct groups for targeted marketing."],
+          "find": "Which type of ML should be used?",
+          "steps": [
+            "The goal is to discover natural groups in the data.",
+            "No labels are available (customer groups are unknown).",
+            "This is a clustering problem.",
+            "Unsupervised learning (clustering) is the correct approach."
+          ],
+          "answer": "Unsupervised learning (clustering) is used for customer segmentation.",
+          "formula_used": "ML type selection"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Reinforcement Learning in Games",
+          "given": ["AlphaGo used reinforcement learning to beat the world champion Go player."],
+          "find": "How did reinforcement learning work in AlphaGo?",
+          "steps": [
+            "AlphaGo played millions of games against itself.",
+            "It received rewards for wins and penalties for losses.",
+            "It learned policies to maximize its chances of winning.",
+            "It used neural networks to evaluate board positions and select moves.",
+            "It surpassed human-level performance."
+          ],
+          "answer": "AlphaGo used reinforcement learning (trial and error) to master the game of Go.",
+          "formula_used": "Reinforcement learning analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Supervised and Unsupervised Learning use the same data.",
+          "wrong": "Both types use the same data.",
+          "correct": "Supervised uses labeled data; unsupervised uses unlabeled data.",
+          "tip": "Labels are the key difference between supervised and unsupervised learning."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Types of ML",
+          "points": [
+            "Supervised Learning: Labeled data, prediction (classification/regression).",
+            "Unsupervised Learning: Unlabeled data, pattern discovery (clustering/reduction).",
+            "Semi-Supervised: Small labeled + large unlabeled data.",
+            "Reinforcement Learning: Trial and error, reward/penalty (game playing, robotics).",
+            "Choose the type based on the data available and the goal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ml_algorithms_part1",
+      "title": "Common Machine Learning Algorithms – Part 1",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Common ML Algorithms (Part 1)",
+          "subtitle": "Linear Regression, Logistic Regression, Decision Trees, Random Forest",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Linear Regression",
+          "content": "Linear Regression is a supervised learning algorithm used for regression tasks. It models the relationship between a dependent variable (target) and one or more independent variables (features) using a linear equation. It is simple, interpretable, and widely used for forecasting and prediction.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Logistic Regression",
+          "content": "Logistic Regression is a supervised learning algorithm used for classification tasks. Despite its name, it is used for binary classification (e.g., yes/no, spam/not spam). It applies the sigmoid function to produce a probability between 0 and 1. It is simple, efficient, and interpretable.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌳",
+          "title": "Decision Trees",
+          "content": "Decision Trees are supervised learning algorithms used for both classification and regression. They create a tree-like model of decisions based on feature values. They are interpretable, easy to understand, and can handle both numerical and categorical data. They are prone to overfitting.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌲",
+          "title": "Random Forest",
+          "content": "Random Forest is an ensemble learning method that combines multiple decision trees to improve performance and reduce overfitting. It builds many decision trees on different subsets of the data and averages their predictions. It is robust, accurate, and handles high-dimensional data well.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "ML Algorithms – Comparison",
+          "headers": ["Algorithm", "Type", "Task", "Pros", "Cons"],
+          "rows": [
+            ["Linear Regression", "Supervised", "Regression", "Simple, fast, interpretable", "Assumes linearity, sensitive to outliers"],
+            ["Logistic Regression", "Supervised", "Classification", "Probabilistic, fast, interpretable", "Assumes linear decision boundary"],
+            ["Decision Trees", "Supervised", "Both", "Interpretable, handles mixed data", "Prone to overfitting"],
+            ["Random Forest", "Supervised", "Both", "High accuracy, robust, reduces overfitting", "Less interpretable, computationally heavy"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Linear Regression for House Price Prediction",
+          "given": ["A real estate company wants to predict house prices based on features like size, bedrooms, and location."],
+          "find": "How can linear regression help?",
+          "steps": [
+            "Collect data: House prices (target) and features (size, bedrooms, location).",
+            "Train a linear regression model: price = a*size + b*bedrooms + c*location + d.",
+            "The model learns the coefficients (a, b, c, d) from the data.",
+            "To predict a new house price, input its features into the model.",
+            "The model outputs a continuous value (price)."
+          ],
+          "answer": "Linear regression predicts house prices by learning the relationship between features and the target.",
+          "formula_used": "Linear regression application"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Random Forest for Fraud Detection",
+          "given": ["A bank uses Random Forest to detect fraudulent transactions."],
+          "find": "How does Random Forest help?",
+          "steps": [
+            "Build many decision trees on different subsets of transaction data.",
+            "Each tree votes whether a transaction is fraud.",
+            "The forest combines the votes to make a final decision.",
+            "Random Forest reduces overfitting and improves accuracy.",
+            "It can handle high-dimensional data with many features."
+          ],
+          "answer": "Random Forest improves fraud detection by combining multiple decision trees for robust predictions.",
+          "formula_used": "Ensemble learning application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Random Forest always outperforms Decision Trees.",
+          "wrong": "Random Forest is always better than a single decision tree.",
+          "correct": "Random Forest generally improves accuracy but reduces interpretability and increases computational cost.",
+          "tip": "Choose Random Forest for accuracy, Decision Trees for interpretability."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Common ML Algorithms (Part 1)",
+          "points": [
+            "Linear Regression: Supervised, regression, linear relationship.",
+            "Logistic Regression: Supervised, classification, probabilistic.",
+            "Decision Trees: Supervised, both, interpretable, prone to overfitting.",
+            "Random Forest: Ensemble, supervised, high accuracy, reduces overfitting.",
+            "Choose algorithms based on task, data, and interpretability needs."
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "ml_algorithms_part2",
+      "title": "Common Machine Learning Algorithms – Part 2",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Common ML Algorithms (Part 2)",
+          "subtitle": "SVM, K-Means, Naive Bayes, KNN, Neural Networks",
+          "tags": ["JKSSB", "High Weightage", "Machine Learning"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔲",
+          "title": "Support Vector Machine (SVM)",
+          "content": "SVM is a supervised learning algorithm used for classification and regression. It finds the optimal hyperplane that separates data into classes. It uses kernel functions to handle non-linear data. SVM is effective in high-dimensional spaces and is memory efficient.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔲",
+          "title": "SVM – Key Concepts",
+          "content": "1. **Hyperplane**: The decision boundary that separates classes.\n2. **Support Vectors**: Data points closest to the hyperplane that define it.\n3. **Margin**: The distance between the hyperplane and the support vectors. SVM maximizes this margin.\n4. **Kernel Trick**: Transforms data into higher dimensions to make it linearly separable.\n5. **Common Kernels**: Linear, Polynomial, RBF (Radial Basis Function), Sigmoid.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "K-Means Clustering",
+          "content": "K-Means is an unsupervised learning algorithm used for clustering. It partitions data into K distinct clusters based on similarity. It iteratively assigns data points to the nearest cluster centre (centroid) and updates the centroids. It is simple, fast, and widely used.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "K-Means – How It Works",
+          "content": "1. Choose the number of clusters (K).\n2. Initialize K centroids randomly.\n3. Assign each data point to the nearest centroid (based on distance).\n4. Recalculate centroids as the mean of all points in the cluster.\n5. Repeat steps 3-4 until convergence (no changes).\n6. The result is K clusters with minimal intra-cluster variance.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Naive Bayes",
+          "content": "Naive Bayes is a supervised learning algorithm based on Bayes' theorem. It assumes that features are independent (naive assumption). It is used for classification and is particularly effective for text classification (e.g., spam detection, sentiment analysis). It is simple, fast, and works well with high-dimensional data.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Naive Bayes – Bayes' Theorem",
+          "content": "Bayes' Theorem: P(A|B) = P(B|A) * P(A) / P(B).\nIn classification: P(class|features) = P(features|class) * P(class) / P(features).\nNaive assumption: Features are conditionally independent given the class.\nThis simplifies the calculation and makes it efficient.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "K-Nearest Neighbors (KNN)",
+          "content": "KNN is a supervised learning algorithm used for classification and regression. It is a non-parametric, lazy learning algorithm. It classifies a data point based on the majority class of its K nearest neighbours. It is simple and effective, but computationally expensive for large datasets.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "KNN – Key Concepts",
+          "content": "1. **K**: The number of neighbours to consider.\n2. **Distance Metric**: Measures proximity (Euclidean, Manhattan, Minkowski).\n3. **Lazy Learning**: Does not build a model; stores all training data.\n4. **Voting**: Classification uses majority vote; regression uses average of neighbours.\n5. **Challenges**: Choosing K, scaling features, handling high-dimensional data.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Neural Networks (NN)",
+          "content": "Neural Networks are supervised learning algorithms inspired by the human brain. They consist of interconnected layers of neurons (input, hidden, output). They learn complex patterns through forward propagation and backpropagation. They are powerful for non-linear problems and are the foundation of deep learning.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Neural Networks – Key Concepts",
+          "content": "1. **Neuron**: Basic unit that applies a weighted sum and activation function.\n2. **Weights**: Parameters that adjust the strength of connections.\n3. **Bias**: Additional parameter to shift the activation.\n4. **Activation Function**: Introduces non-linearity (ReLU, Sigmoid, Tanh).\n5. **Forward Propagation**: Passes input through the network to produce output.\n6. **Backpropagation**: Updates weights to minimize error.\n7. **Epoch**: One complete pass of the training data through the network.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "ML Algorithms Comparison – Part 2",
+          "headers": ["Algorithm", "Type", "Task", "Pros", "Cons"],
+          "rows": [
+            ["SVM", "Supervised", "Both", "Works in high dimensions, memory efficient", "Not interpretable, sensitive to parameters"],
+            ["K-Means", "Unsupervised", "Clustering", "Simple, fast, efficient", "Requires K, sensitive to initial centroids"],
+            ["Naive Bayes", "Supervised", "Classification", "Simple, fast, works with high dimensions", "Assumes feature independence (often violated)"],
+            ["KNN", "Supervised", "Both", "Simple, no training phase", "Slow, memory-intensive, requires feature scaling"],
+            ["Neural Networks", "Supervised", "Both", "Powerful, handles non-linear patterns", "Black-box, computationally expensive, requires large data"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: SVM for Image Classification",
+          "given": ["SVM can be used to classify handwritten digits (e.g., MNIST dataset)."],
+          "find": "How does SVM handle image data?",
+          "steps": [
+            "Images are flattened into feature vectors (pixel values).",
+            "SVM finds a hyperplane that separates different digit classes.",
+            "For non-linear data, SVM uses a kernel (e.g., RBF).",
+            "The model maps inputs to a higher-dimensional space.",
+            "It finds the optimal separating hyperplane for classification."
+          ],
+          "answer": "SVM classifies images by finding hyperplanes that separate digit classes, using kernels for non-linear patterns.",
+          "formula_used": "SVM application analysis"
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: K-Means for Customer Segmentation",
+          "given": ["A retail company uses K-Means to segment customers."],
+          "find": "How does K-Means help?",
+          "steps": [
+            "Choose K (e.g., 3 segments: low, medium, high spenders).",
+            "Initialize centroids for each segment.",
+            "Assign each customer to the nearest centroid.",
+            "Recalculate centroids based on assigned customers.",
+            "Repeat until stable clusters are formed.",
+            "The company can then target each segment differently."
+          ],
+          "answer": "K-Means groups customers into clusters, enabling targeted marketing.",
+          "formula_used": "K-Means clustering application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: KNN requires a training phase.",
+          "wrong": "KNN has a training phase like other ML algorithms.",
+          "correct": "KNN is a lazy learner; it stores all training data and makes predictions on the fly.",
+          "tip": "KNN = No training phase; prediction time is expensive."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Common ML Algorithms (Part 2)",
+          "points": [
+            "SVM: Supervised, classification/regression, uses hyperplanes and kernels.",
+            "K-Means: Unsupervised, clustering, partitions data into K clusters.",
+            "Naive Bayes: Supervised, classification, based on Bayes' theorem (naive assumption).",
+            "KNN: Supervised, classification/regression, lazy learning, uses nearest neighbours.",
+            "Neural Networks: Supervised, powerful for non-linear problems, foundation of deep learning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ml_evaluation",
+      "title": "Model Evaluation – Metrics, Techniques, and Common Pitfalls",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Model Evaluation",
+          "subtitle": "Measuring Performance and Avoiding Pitfalls",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Why Model Evaluation Matters",
+          "content": "Model evaluation is critical to ensure an ML model performs well on unseen data. Without proper evaluation, a model may overfit (perform well on training data but poorly on new data) or underfit (perform poorly on all data). Evaluation helps select the best model, tune hyperparameters, and build trust.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Evaluation Metrics",
+          "headers": ["Metric", "Definition", "Formula", "Use Case"],
+          "rows": [
+            ["Accuracy", "Proportion of correct predictions", "(TP+TN)/(TP+TN+FP+FN)", "Balanced datasets"],
+            ["Precision", "Accuracy of positive predictions", "TP/(TP+FP)", "When false positives are costly (e.g., spam detection)"],
+            ["Recall", "Proportion of actual positives correctly identified", "TP/(TP+FN)", "When false negatives are costly (e.g., disease detection)"],
+            ["F1 Score", "Harmonic mean of precision and recall", "2*(P*R)/(P+R)", "When you need a balance between precision and recall"],
+            ["Specificity", "Proportion of actual negatives correctly identified", "TN/(TN+FP)", "When false positives are costly"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Confusion Matrix – A Visual Summary",
+          "content": "A confusion matrix is a table used to evaluate the performance of a classification model. It shows the counts of true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN). It is the foundation for metrics like accuracy, precision, recall, and F1.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Confusion Matrix Structure",
+          "headers": ["", "Predicted Positive", "Predicted Negative"],
+          "rows": [
+            ["Actual Positive", "True Positive (TP)", "False Negative (FN)"],
+            ["Actual Negative", "False Positive (FP)", "True Negative (TN)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "ROC Curve and AUC",
+          "content": "The ROC (Receiver Operating Characteristic) curve plots the True Positive Rate (TPR) against the False Positive Rate (FPR) at various threshold settings. The AUC (Area Under the ROC Curve) measures the overall performance of a classifier. A perfect classifier has AUC = 1; a random classifier has AUC = 0.5.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚠️",
+          "title": "Overfitting – Memorizing Instead of Learning",
+          "content": "Overfitting occurs when a model learns the training data too well, including noise and outliers. It performs well on training data but poorly on unseen data. Causes: Model too complex, insufficient training data, or too many features.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚠️",
+          "title": "Underfitting – Not Learning Enough",
+          "content": "Underfitting occurs when a model is too simple to capture the underlying patterns in the data. It performs poorly on both training and test data. Causes: Model too simple, insufficient features, or too much regularization.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Overfitting vs Underfitting",
+          "left_header": "Overfitting",
+          "right_header": "Underfitting",
+          "rows": [
+            { "left": "High training accuracy, low test accuracy", "right": "Low training accuracy, low test accuracy" },
+            { "left": "Model too complex", "right": "Model too simple" },
+            { "left": "Learns noise and outliers", "right": "Fails to learn underlying patterns" },
+            { "left": "Cannot generalize", "right": "Cannot perform well on any data" },
+            { "left": "Causes: Too many features, insufficient data", "right": "Causes: Too few features, too much regularization" }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Cross Validation – A Robust Evaluation Technique",
+          "content": "Cross validation is a technique to evaluate model performance and avoid overfitting. It divides the data into multiple subsets (folds), trains the model on some folds, and validates on the remaining fold. The most common form is K-Fold Cross Validation. It gives a more reliable estimate of model performance.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: K-Fold Cross Validation",
+          "given": ["A dataset has 1000 samples. K=5 is used."],
+          "find": "How does K-Fold cross validation work?",
+          "steps": [
+            "The data is split into 5 folds (200 samples each).",
+            "For each of 5 iterations:\n  - Train on 4 folds (800 samples).\n  - Validate on 1 fold (200 samples).",
+            "Each fold is used once for validation.",
+            "The average performance across all 5 folds is reported.",
+            "This provides a more robust estimate of model performance."
+          ],
+          "answer": "K-Fold cross validation (K=5) trains on 80% of data and validates on 20%, repeated 5 times, for robust performance estimation.",
+          "formula_used": "Cross validation technique"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: High accuracy always means a good model.",
+          "wrong": "If accuracy is high, the model is perfect.",
+          "correct": "Accuracy can be misleading, especially with imbalanced datasets. Consider precision, recall, and F1 score.",
+          "tip": "Always evaluate models using multiple metrics."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Model Evaluation",
+          "points": [
+            "Accuracy: Overall correctness.",
+            "Precision: Quality of positive predictions.",
+            "Recall: Coverage of actual positives.",
+            "F1 Score: Harmonic mean of precision and recall.",
+            "Confusion Matrix: Visual summary of predictions.",
+            "ROC-AUC: Measures classifier performance across thresholds.",
+            "Overfitting: High training, low test performance.",
+            "Underfitting: Low performance on all data.",
+            "Cross Validation: Robust evaluation using multiple folds."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ml_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Machine Learning – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the differences between ML types (supervised, unsupervised, reinforcement), key algorithms, and evaluation metrics (accuracy, precision, recall, F1). Understand overfitting and underfitting.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of ML algorithm uses labeled data to train a model?",
+          "options": ["Unsupervised Learning", "Supervised Learning", "Reinforcement Learning", "All of the above"],
+          "answer": 1,
+          "explanation": "Supervised learning uses labeled data (input-output pairs) to train the model.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which algorithm is used for clustering data points into groups?",
+          "options": ["Linear Regression", "Logistic Regression", "K-Means", "SVM"],
+          "answer": 2,
+          "explanation": "K-Means is a clustering algorithm used to partition data into K distinct groups.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What does the F1 score measure?",
+          "options": [
+            "Accuracy only",
+            "Harmonic mean of precision and recall",
+            "True positive rate only",
+            "False positive rate only"
+          ],
+          "answer": 1,
+          "explanation": "The F1 score is the harmonic mean of precision and recall, providing a balance between them.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "When a model performs well on training data but poorly on unseen data, it is called:",
+          "options": ["Underfitting", "Overfitting", "Regularization", "Normalization"],
+          "answer": 1,
+          "explanation": "Overfitting occurs when a model learns the training data too well, including noise, and fails to generalize.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which algorithm uses the concept of support vectors and hyperplanes?",
+          "options": ["Random Forest", "SVM", "K-Means", "Naive Bayes"],
+          "answer": 1,
+          "explanation": "SVM (Support Vector Machine) uses support vectors and hyperplanes to separate data classes.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the primary goal of reinforcement learning?",
+          "options": [
+            "Classify data into categories",
+            "Maximize cumulative reward",
+            "Find hidden patterns in unlabeled data",
+            "Reduce dimensionality"
+          ],
+          "answer": 1,
+          "explanation": "Reinforcement learning aims to maximize cumulative reward through trial and error.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The confusion matrix includes which of the following?",
+          "options": [
+            "TP, TN, FP, FN",
+            "Only TP and TN",
+            "Only FP and FN",
+            "Accuracy and Precision only"
+          ],
+          "answer": 0,
+          "explanation": "A confusion matrix includes True Positives (TP), True Negatives (TN), False Positives (FP), and False Negatives (FN).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which algorithm is known for the 'naive' assumption of feature independence?",
+          "options": ["SVM", "KNN", "Naive Bayes", "Logistic Regression"],
+          "answer": 2,
+          "explanation": "Naive Bayes assumes that features are conditionally independent, which is a 'naive' assumption.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "K-Fold Cross Validation helps to:",
+          "options": [
+            "Increase training data",
+            "Evaluate model performance robustly",
+            "Reduce model complexity",
+            "Remove outliers"
+          ],
+          "answer": 1,
+          "explanation": "K-Fold Cross Validation provides a robust evaluation of model performance by using multiple validation sets.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is an unsupervised learning algorithm?",
+          "options": ["Logistic Regression", "Decision Trees", "K-Means", "SVM"],
+          "answer": 2,
+          "explanation": "K-Means is an unsupervised learning algorithm used for clustering.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the four types of ML (Supervised, Unsupervised, Semi-Supervised, Reinforcement), key algorithms (SVM, K-Means, Naive Bayes, KNN, Neural Networks), and evaluation metrics (Accuracy, Precision, Recall, F1, Confusion Matrix, ROC-AUC)."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Machine Learning Fundamentals",
+          "points": [
+            "Supervised Learning: Labeled data, classification/regression.",
+            "Unsupervised Learning: Unlabeled data, clustering/dimensionality reduction.",
+            "Reinforcement Learning: Trial and error, reward/penalty.",
+            "Linear Regression: Regression, linear relationships.",
+            "Logistic Regression: Classification, probabilistic.",
+            "Decision Trees: Both, interpretable, prone to overfitting.",
+            "Random Forest: Ensemble, high accuracy, reduces overfitting.",
+            "SVM: Hyperplanes, kernels, classification/regression.",
+            "K-Means: Clustering, partitions data into K clusters.",
+            "Naive Bayes: Classification, Bayes' theorem, naive assumption.",
+            "KNN: Lazy learning, nearest neighbours.",
+            "Neural Networks: Deep learning, powerful for non-linear patterns.",
+            "Evaluation: Accuracy, Precision, Recall, F1, Confusion Matrix, ROC-AUC.",
+            "Overfitting vs Underfitting.",
+            "Cross Validation: K-Fold for robust evaluation."
+          ]
+        }
+      ]
+    }
+  ]
+}

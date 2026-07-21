@@ -1,0 +1,530 @@
+{
+  "id": "ai_engineering",
+  "subject_id": "artificial_intelligence",
+  "title": "AI Applications in Engineering",
+  "subtopics": [
+    {
+      "id": "ai_manufacturing",
+      "title": "AI in Manufacturing – Predictive Maintenance, Quality Inspection, Smart Factories, Industrial IoT, and Digital Twins",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Manufacturing",
+          "subtitle": "Revolutionizing Production with Intelligence",
+          "tags": ["JKSSB", "High Weightage", "AI Engineering"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏭",
+          "title": "Predictive Maintenance – Preventing Failures Before They Happen",
+          "content": "Predictive maintenance uses AI to analyze sensor data from equipment to predict when maintenance should be performed. It reduces downtime, extends equipment life, and lowers costs. Techniques: Vibration analysis, thermal imaging, oil analysis, and machine learning models that detect anomalies.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Quality Inspection – Automated Visual Inspection",
+          "content": "AI-powered computer vision systems inspect products for defects with greater speed and accuracy than humans. They use deep learning (CNNs) to detect scratches, dents, misalignments, and other defects. Applications: Semiconductor inspection, surface defect detection, assembly verification.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "Smart Factories – The Factory of the Future",
+          "content": "Smart factories use AI, IoT, and automation to create highly efficient, flexible, and connected manufacturing systems. They enable real-time monitoring, predictive analytics, and autonomous decision-making. Key technologies: MES (Manufacturing Execution Systems), SCADA, robotics, and digital twins.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "Industrial IoT (IIoT) – Connecting Machines",
+          "content": "IIoT connects machines, sensors, and systems to collect and analyze data in real-time. AI processes this data to optimize operations, predict failures, and improve quality. Examples: Condition monitoring, asset tracking, energy optimization.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Digital Twins – Virtual Mirrors of Physical Assets",
+          "content": "A digital twin is a virtual replica of a physical asset (machine, production line, factory). AI simulations on the digital twin allow testing of scenarios, predictive maintenance, and process optimization without disrupting real operations.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in Manufacturing",
+          "headers": ["Application", "Description", "Key Technologies"],
+          "rows": [
+            ["Predictive Maintenance", "Predict equipment failures before they occur", "ML, anomaly detection, IoT sensors"],
+            ["Quality Inspection", "Automated visual defect detection", "CNN, computer vision, deep learning"],
+            ["Smart Factories", "Connected, automated production", "IIoT, AI, robotics, MES"],
+            ["Industrial IoT", "Real-time data collection and analysis", "Sensors, cloud, edge AI"],
+            ["Digital Twins", "Virtual replicas for simulation and optimization", "Simulation, AI, IoT"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Predictive Maintenance in a Factory",
+          "given": ["A factory uses AI to monitor conveyor belt motors."],
+          "find": "How does predictive maintenance work?",
+          "steps": [
+            "Sensors measure temperature, vibration, and current draw.",
+            "ML models are trained on historical data to detect normal/abnormal patterns.",
+            "Anomalies are flagged as potential failures.",
+            "Maintenance is scheduled before the failure occurs.",
+            "This reduces unplanned downtime and extends motor life."
+          ],
+          "answer": "AI monitors sensor data to predict and prevent motor failures.",
+          "formula_used": "Predictive maintenance analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Digital twins are only for simulation.",
+          "wrong": "Digital twins are only used for simulation.",
+          "correct": "Digital twins are used for simulation, predictive maintenance, optimization, and real-time monitoring.",
+          "tip": "Digital twins are much more than simulation tools."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Manufacturing",
+          "points": [
+            "Predictive Maintenance: Predicts failures, reduces downtime.",
+            "Quality Inspection: Automated defect detection using computer vision.",
+            "Smart Factories: Connected, AI-driven manufacturing.",
+            "IIoT: Real-time data collection and analysis.",
+            "Digital Twins: Virtual replicas for simulation and optimization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_civil_engineering",
+      "title": "AI in Civil Engineering – Smart Infrastructure, Structural Health Monitoring, Traffic Prediction, and Urban Planning",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Civil Engineering",
+          "subtitle": "Building Smarter Cities and Infrastructure",
+          "tags": ["JKSSB", "Important", "AI Engineering"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "Smart Infrastructure – AI-Powered Design and Management",
+          "content": "AI is used to design and manage infrastructure more efficiently. It optimizes structural designs, reduces material waste, and improves safety. Examples: AI-generated building designs (generative design), traffic management, and energy-efficient building systems.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "Structural Health Monitoring – Detecting Damage Early",
+          "content": "AI analyzes data from sensors (accelerometers, strain gauges) on bridges, dams, and buildings to detect damage. It uses vibration analysis and pattern recognition to identify cracks, corrosion, or deformation. This enables early maintenance and prevents catastrophic failures.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚦",
+          "title": "Traffic Prediction and Management",
+          "content": "AI analyzes traffic data (cameras, GPS, sensors) to predict congestion and optimize traffic flow. It powers: Adaptive traffic signals, route recommendation (Google Maps), and incident detection. It reduces travel time, fuel consumption, and emissions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏙️",
+          "title": "Urban Planning – Smarter City Design",
+          "content": "AI assists urban planners in analysing land use, population density, and transportation networks. It can simulate urban growth, optimise public transport routes, and plan for sustainable development. AI-powered tools: UrbanSim, CityEngine.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Structural Health Monitoring of a Bridge",
+          "given": ["A bridge is equipped with vibration sensors."],
+          "find": "How does AI detect damage?",
+          "steps": [
+            "Sensors continuously measure vibrations.",
+            "AI models are trained on normal vibration patterns.",
+            "Deviations (change in frequency, damping) indicate potential damage.",
+            "The system alerts engineers to inspect specific areas.",
+            "Early detection prevents bridge failure."
+          ],
+          "answer": "AI detects damage by identifying anomalies in vibration patterns.",
+          "formula_used": "Structural health monitoring analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI cannot be used for structural design.",
+          "wrong": "AI is not used in structural engineering.",
+          "correct": "AI is used for generative design, optimization, and analysis in structural engineering.",
+          "tip": "AI is increasingly used in civil engineering."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Civil Engineering",
+          "points": [
+            "Smart Infrastructure: Generative design, resource optimization.",
+            "Structural Health Monitoring: Damage detection using sensor data.",
+            "Traffic Prediction: Congestion forecasting, route optimization.",
+            "Urban Planning: Land use simulation, sustainable development.",
+            "AI improves safety, efficiency, and sustainability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_electrical_engineering",
+      "title": "AI in Electrical Engineering – Smart Grids, Load Forecasting, and Fault Detection",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Electrical Engineering",
+          "subtitle": "Powering the Future with Intelligent Systems",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Smart Grids – Intelligent Power Distribution",
+          "content": "Smart grids use AI and IoT to manage electricity distribution efficiently. They integrate renewable sources, balance supply and demand, and improve reliability. Features: Automated fault detection and isolation, demand-response systems, real-time monitoring.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Load Forecasting – Predicting Energy Demand",
+          "content": "AI models (ML, neural networks) predict electricity demand based on historical data, weather, and events. Accurate forecasting helps utilities optimize power generation, reduce costs, and prevent blackouts. Applications: Day-ahead load forecasting, short-term and long-term forecasting.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Fault Detection and Diagnosis – Maintaining Grid Health",
+          "content": "AI analyzes grid data to detect faults (line faults, equipment failures) and diagnose their causes. It uses pattern recognition, anomaly detection, and classification models. It enables rapid restoration of power and reduces downtime.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Smart Grid Integration",
+          "given": ["A city integrates renewable solar energy into its power grid."],
+          "find": "How does AI help in smart grid management?",
+          "steps": [
+            "AI forecasts solar generation based on weather data.",
+            "It predicts electricity demand patterns.",
+            "It optimizes energy distribution (using energy storage, balancing loads).",
+            "It detects faults and initiates self-healing.",
+            "The grid becomes more reliable, efficient, and green."
+          ],
+          "answer": "AI enables efficient integration of renewables, demand forecasting, and fault management.",
+          "formula_used": "Smart grid analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Load forecasting is only used for billing.",
+          "wrong": "Load forecasting is only for calculating bills.",
+          "correct": "Load forecasting helps utilities optimize generation, distribution, and planning.",
+          "tip": "Load forecasting is critical for grid stability and cost efficiency."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Electrical Engineering",
+          "points": [
+            "Smart Grids: AI-driven power distribution, renewable integration.",
+            "Load Forecasting: Predicts energy demand for optimization.",
+            "Fault Detection: Identifies and diagnoses grid faults.",
+            "AI improves grid reliability, efficiency, and sustainability."
+          ]
+        }
+      ]
+    },
+
+
+
+    {
+      "id": "ai_mechanical_engineering",
+      "title": "AI in Mechanical Engineering – CAD Automation, Robotics, and Manufacturing Optimization",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Mechanical Engineering",
+          "subtitle": "Intelligent Design, Robotics, and Process Optimization",
+          "tags": ["JKSSB", "High Weightage", "AI Engineering"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "CAD Automation – Generative Design and Optimization",
+          "content": "AI is transforming Computer-Aided Design (CAD) through generative design and optimization. AI algorithms generate multiple design alternatives based on constraints (material, weight, strength, cost). They optimize designs for performance, reducing human effort. Tools: Autodesk Generative Design, Siemens NX. Applications: Lightweight structural components, heat exchangers, engine parts.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "Robotics in Mechanical Engineering – Intelligent Automation",
+          "content": "AI enhances robotics with perception, planning, and control. Robots can adapt to changing environments, perform complex tasks, and learn from experience. Applications: Welding, painting, assembly, inspection, material handling, and collaborative operations. Autonomous mobile robots (AMRs) are used in factories and warehouses.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏭",
+          "title": "Manufacturing Optimization – Process Improvement",
+          "content": "AI optimizes manufacturing processes, improving efficiency and quality. It analyzes process data to identify bottlenecks, optimize parameters, and reduce waste. Applications: CNC machining optimization, injection molding optimization, and additive manufacturing (3D printing) process control.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in Mechanical Engineering",
+          "headers": ["Application", "Description", "AI Techniques"],
+          "rows": [
+            ["CAD Automation", "Generative design, design optimization", "Genetic algorithms, neural networks"],
+            ["Robotics", "Intelligent automation, adaptive control", "Reinforcement learning, computer vision"],
+            ["Manufacturing Optimization", "Process parameter optimization", "ML, optimization algorithms"],
+            ["Predictive Maintenance", "Equipment failure prediction", "Anomaly detection, time series analysis"],
+            ["Quality Control", "Automated inspection", "Computer vision, CNN"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Generative Design in Aerospace",
+          "given": ["An aerospace engineer uses generative design to create a lightweight aircraft bracket."],
+          "find": "How does generative design help?",
+          "steps": [
+            "The engineer inputs constraints (load, material, weight limit).",
+            "The AI algorithm generates thousands of design variations.",
+            "Each design is evaluated for weight, strength, and manufacturability.",
+            "The best designs are selected and refined.",
+            "The result is a lightweight, strong component that minimizes material waste."
+          ],
+          "answer": "Generative design creates optimized, lightweight components using AI algorithms.",
+          "formula_used": "Generative design analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI in CAD only creates random designs.",
+          "wrong": "AI in CAD creates random, non-optimized designs.",
+          "correct": "AI in CAD creates optimized designs based on constraints and objectives.",
+          "tip": "Generative design is goal-driven, not random."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Mechanical Engineering",
+          "points": [
+            "CAD Automation: Generative design optimizes structures.",
+            "Robotics: AI-driven automation, adaptive control.",
+            "Manufacturing Optimization: Process parameter tuning.",
+            "AI reduces material waste, improves performance, and accelerates design."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_computer_engineering",
+      "title": "AI in Computer Engineering – Cybersecurity, Software Testing Automation, Intelligent Systems, and Cloud AI",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Computer Engineering",
+          "subtitle": "Securing, Testing, and Powering Intelligent Systems",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "AI in Cybersecurity – Intelligent Threat Detection",
+          "content": "AI is a critical tool in cybersecurity. It detects threats faster and more accurately than traditional systems. Applications: Intrusion Detection Systems (IDS), malware detection, phishing detection, zero-day exploit detection, and automated incident response.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔧",
+          "title": "Software Testing Automation – AI-Powered QA",
+          "content": "AI automates software testing, improving speed and coverage. It generates test cases, identifies bugs, and predicts defect-prone areas. Techniques: Model-based testing, fuzzing, test case generation using ML. Tools: Test.ai, Functionize, Applitools.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Intelligent Systems – AI-Powered Software",
+          "content": "AI is embedded in many software applications to make them smarter. Examples: Recommendation systems, chatbots, intelligent search, personal assistants, and fraud detection. These systems use ML, NLP, and deep learning.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "☁️",
+          "title": "Cloud AI – AI as a Service (AIaaS)",
+          "content": "Cloud AI provides AI capabilities as a service, allowing developers to integrate AI without building models from scratch. Services: AWS AI Services, Google Cloud AI, Azure Cognitive Services. Offerings: Vision APIs, speech APIs, language APIs, ML platforms.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in Computer Engineering",
+          "headers": ["Application", "Description", "AI Techniques"],
+          "rows": [
+            ["Cybersecurity", "Threat detection, intrusion prevention", "ML, anomaly detection, NLP"],
+            ["Software Testing", "Test case generation, bug detection", "ML, fuzzing"],
+            ["Intelligent Systems", "Recommendations, chatbots", "ML, NLP, deep learning"],
+            ["Cloud AI", "AI services on-demand", "Vision, speech, language APIs"],
+            ["DevOps", "Automated deployment, monitoring", "ML, automation"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI in Cybersecurity",
+          "given": ["A company uses AI to detect malware in its network."],
+          "find": "How does AI detect threats?",
+          "steps": [
+            "Network traffic data is analyzed in real-time.",
+            "ML models are trained on known attack patterns.",
+            "Anomalies in traffic are flagged as potential threats.",
+            "Threats are classified (malware, ransomware, phishing).",
+            "Automated responses isolate infected systems.",
+            "Security teams are alerted for further investigation."
+          ],
+          "answer": "AI detects threats by analyzing network traffic and identifying anomalies.",
+          "formula_used": "Cybersecurity AI analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Cloud AI requires you to build models from scratch.",
+          "wrong": "Cloud AI requires you to build models from scratch.",
+          "correct": "Cloud AI provides pre-built APIs and services that can be used without building models.",
+          "tip": "Cloud AI (AIaaS) provides ready-to-use services."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Computer Engineering",
+          "points": [
+            "Cybersecurity: Threat detection, intrusion detection, malware detection.",
+            "Software Testing: Automated test case generation and bug detection.",
+            "Intelligent Systems: Recommendations, chatbots, personal assistants.",
+            "Cloud AI: AI services on-demand (vision, speech, language APIs).",
+            "AI improves security, testing, and software intelligence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_engineering_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Engineering – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on key applications: Predictive maintenance, quality inspection, smart grids, structural health monitoring, generative design, cybersecurity, and cloud AI.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI technique is used to predict equipment failures before they occur?",
+          "options": ["Quality inspection", "Predictive maintenance", "Smart factories", "Digital twins"],
+          "answer": 1,
+          "explanation": "Predictive maintenance uses AI to predict equipment failures based on sensor data.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in civil engineering monitors bridges and dams for damage?",
+          "options": ["Traffic prediction", "Urban planning", "Structural health monitoring", "Smart infrastructure"],
+          "answer": 2,
+          "explanation": "Structural health monitoring uses sensors and AI to detect damage in infrastructure.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI technology creates virtual replicas of physical assets for simulation?",
+          "options": ["IIoT", "Digital twins", "Smart factories", "Predictive maintenance"],
+          "answer": 1,
+          "explanation": "Digital twins are virtual replicas used for simulation, monitoring, and optimization.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application is used to predict electricity demand?",
+          "options": ["Fault detection", "Load forecasting", "Smart grids", "Quality inspection"],
+          "answer": 1,
+          "explanation": "Load forecasting predicts electricity demand using AI models.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI technique generates optimized designs for engineering components?",
+          "options": ["Predictive maintenance", "Generative design", "Smart grids", "Quality inspection"],
+          "answer": 1,
+          "explanation": "Generative design uses AI to create optimized designs based on constraints.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in cybersecurity detects threats in network traffic?",
+          "options": ["Intrusion detection", "Software testing", "Cloud AI", "Generative design"],
+          "answer": 0,
+          "explanation": "Intrusion detection systems use AI to detect threats in network traffic.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which cloud service model provides AI services on-demand?",
+          "options": ["IaaS", "PaaS", "AIaaS (Cloud AI)", "SaaS"],
+          "answer": 2,
+          "explanation": "AIaaS (AI as a Service) provides AI services like vision, speech, and language APIs on-demand.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI technology in manufacturing connects machines for real-time data collection?",
+          "options": ["Digital twins", "IIoT", "Smart factories", "Quality inspection"],
+          "answer": 1,
+          "explanation": "Industrial IoT (IIoT) connects machines and sensors for real-time data collection.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application optimizes traffic signals to reduce congestion?",
+          "options": ["Structural health monitoring", "Traffic prediction", "Urban planning", "Smart grids"],
+          "answer": 1,
+          "explanation": "Traffic prediction and management uses AI to optimize traffic signals and routes.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application automates software test case generation?",
+          "options": ["Cybersecurity", "Software testing automation", "Cloud AI", "Generative design"],
+          "answer": 1,
+          "explanation": "Software testing automation uses AI to generate test cases and detect bugs.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review predictive maintenance, quality inspection, smart grids, generative design, cybersecurity, cloud AI, and software testing automation. Understand the key technologies and applications."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – AI in Engineering",
+          "points": [
+            "Manufacturing: Predictive maintenance, quality inspection, IIoT, digital twins.",
+            "Civil: Structural health monitoring, traffic prediction, urban planning.",
+            "Electrical: Smart grids, load forecasting, fault detection.",
+            "Mechanical: CAD automation, robotics, manufacturing optimization.",
+            "Computer: Cybersecurity, software testing automation, cloud AI."
+          ]
+        }
+      ]
+    }
+  ]
+}

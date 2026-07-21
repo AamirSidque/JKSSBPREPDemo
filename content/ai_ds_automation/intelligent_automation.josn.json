@@ -1,0 +1,498 @@
+{
+  "id": "robotics_automation_part1",
+  "subject_id": "artificial_intelligence",
+  "title": "Robotics and Intelligent Automation",
+  "subtopics": [
+    {
+      "id": "robotics_introduction",
+      "title": "Introduction to Robotics – Industrial, Service, and Autonomous Robots",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Robotics Fundamentals",
+          "subtitle": "The Science of Designing, Building, and Operating Robots",
+          "tags": ["JKSSB", "High Weightage", "Robotics"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "What is Robotics?",
+          "content": "Robotics is the interdisciplinary field that combines mechanical engineering, electrical engineering, computer science, and AI to design, build, and operate robots. A robot is a programmable machine that can carry out a series of actions autonomously or semi-autonomously.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏭",
+          "title": "Industrial Robots – The Backbone of Manufacturing",
+          "content": "Industrial robots are automated machines used in manufacturing and industrial settings. They perform repetitive tasks with high precision and speed. Common applications: welding, painting, assembly, pick-and-place, packaging, and palletizing. Examples: Articulated robots, SCARA robots, Cartesian robots.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧹",
+          "title": "Service Robots – Assisting Humans",
+          "content": "Service robots assist humans in non-industrial settings. They perform useful tasks for people or equipment. Categories: Professional service robots (medical, logistics, defense) and personal service robots (domestic, entertainment). Examples: Robot vacuum cleaners (Roomba), delivery robots, surgical robots (Da Vinci), exoskeletons.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚗",
+          "title": "Autonomous Robots – Operating Without Human Intervention",
+          "content": "Autonomous robots can operate independently without continuous human guidance. They use sensors, AI, and decision-making algorithms to navigate and perform tasks. Examples: Self-driving cars, autonomous drones, robotic explorers (Mars rovers), warehouse robots (Amazon robotics).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Robots – Comparison",
+          "headers": ["Type", "Environment", "Key Feature", "Examples"],
+          "rows": [
+            ["Industrial Robots", "Factories, manufacturing", "High precision, repetitive tasks", "Welding arms, assembly robots"],
+            ["Service Robots", "Homes, hospitals, offices", "Assist humans, non-industrial", "Vacuum cleaners, surgical robots"],
+            ["Autonomous Robots", "Indoor/outdoor, unpredictable", "Independent operation, AI-driven", "Self-driving cars, drones"],
+            ["Mobile Robots", "Varied environments", "Ability to move", "AGVs, drones, rovers"],
+            ["Collaborative Robots (Cobots)", "Shared workspace with humans", "Safe interaction", "Cobot arms (UR series)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Service Robots in Healthcare",
+          "given": ["Da Vinci surgical robot assists doctors in minimally invasive surgeries."],
+          "find": "How does the surgical robot help?",
+          "steps": [
+            "The surgeon controls the robot from a console.",
+            "The robot translates the surgeon's hand movements into precise actions.",
+            "It provides 3D visualization and tremor filtration.",
+            "It performs surgeries with greater precision, smaller incisions, and faster recovery.",
+            "It is a type of service robot used in healthcare."
+          ],
+          "answer": "Surgical robots enable minimally invasive, precise surgeries with faster recovery.",
+          "formula_used": "Service robot application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All robots are autonomous.",
+          "wrong": "All robots operate without human intervention.",
+          "correct": "Many robots are semi-autonomous (require human guidance) or remote-controlled.",
+          "tip": "Autonomous = Self-operated; Semi-autonomous = Human-assisted."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Robotics Introduction",
+          "points": [
+            "Robotics: Design, construction, operation of robots.",
+            "Industrial Robots: Manufacturing, repetitive tasks.",
+            "Service Robots: Assist humans in non-industrial settings.",
+            "Autonomous Robots: Independent operation using AI.",
+            "Cobots: Collaborative robots that work alongside humans."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robot_sensors_control",
+      "title": "Robot Sensors and Control Systems",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Robot Sensors and Control Systems",
+          "subtitle": "The Eyes, Ears, and Brains of Robots",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "Robot Sensors – How Robots Perceive the World",
+          "content": "Sensors are the input devices that allow robots to perceive their environment. They measure physical properties like distance, light, sound, temperature, pressure, and motion. Sensors provide the data that robots use to make decisions and take actions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📷",
+          "title": "Types of Robot Sensors",
+          "content": "1. **Vision Sensors**: Cameras, LiDAR (Light Detection and Ranging), depth sensors. Used for object detection, navigation, and inspection.\n2. **Proximity Sensors**: Ultrasonic, infrared, capacitive. Used for obstacle detection and distance measurement.\n3. **Touch Sensors**: Tactile sensors, force sensors, pressure sensors. Used for gripping and manipulation.\n4. **Position/Orientation Sensors**: Encoders, gyroscopes, accelerometers, GPS. Used for motion tracking and localization.\n5. **Environmental Sensors**: Temperature, humidity, gas, light sensors. Used for environmental monitoring.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Robot Control Systems – The Brain of the Robot",
+          "content": "Control systems process sensor data and generate commands to actuate the robot. They can be:\n1. **Open-Loop Control**: No feedback; actions are predetermined.\n2. **Closed-Loop Control (Feedback Control)**: Uses sensor feedback to adjust actions (PID controllers).\n3. **Adaptive Control**: Adjusts parameters based on changing conditions.\n4. **Intelligent Control**: Uses AI (neural networks, fuzzy logic) for complex decision-making.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Robot Control System Components",
+          "content": "1. **Controller (CPU)**: The central processing unit that executes the control algorithm.\n2. **Actuators**: Motors, hydraulic/pneumatic cylinders that produce movement.\n3. **Sensors**: Provide feedback on position, speed, force, etc.\n4. **Communication Interfaces**: For interaction with other systems and humans.\n5. **Power Supply**: Provides energy to the robot systems.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Robot Sensors – Types and Applications",
+          "headers": ["Sensor Type", "Measurement", "Technology", "Applications"],
+          "rows": [
+            ["Vision", "Images, depth, distance", "Cameras, LiDAR, ToF", "Object detection, navigation, inspection"],
+            ["Proximity", "Distance, obstacle presence", "Ultrasonic, IR, capacitive", "Obstacle avoidance, collision detection"],
+            ["Touch", "Force, pressure, contact", "Tactile sensors, strain gauges", "Gripping, assembly"],
+            ["Position/Orientation", "Motion, location, angle", "Encoders, Gyroscopes, GPS", "Motion control, localization"],
+            ["Environmental", "Temperature, humidity, gas", "Thermistors, gas sensors", "Environmental monitoring"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Autonomous Robot Navigation",
+          "given": ["An autonomous vacuum cleaner navigates a room using sensors."],
+          "find": "How do sensors help the robot navigate?",
+          "steps": [
+            "Proximity sensors detect walls and obstacles.",
+            "Cameras or LiDAR map the environment.",
+            "Encoders track wheel rotations to measure distance.",
+            "The control system uses this data to plan a path.",
+            "It avoids obstacles and ensures full room coverage."
+          ],
+          "answer": "Sensors provide data for mapping, localization, and obstacle avoidance.",
+          "formula_used": "Sensor application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Open-loop control always works best.",
+          "wrong": "Open-loop control is always the best choice.",
+          "correct": "Open-loop control is simple but less accurate; closed-loop control is preferred for precision.",
+          "tip": "Closed-loop = Feedback; Open-loop = No feedback."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Robot Sensors and Control",
+          "points": [
+            "Sensors: Vision, proximity, touch, position, environmental.",
+            "Vision: Cameras, LiDAR for navigation and inspection.",
+            "Proximity: Ultrasonic, IR for obstacle detection.",
+            "Control Systems: Open-loop, closed-loop (feedback), adaptive, intelligent.",
+            "Closed-loop control uses sensor feedback for precise control."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robotics_advanced",
+      "title": "Advanced Robotics – Cobots, Swarm Robotics, and Humanoid Robots",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Advanced Robotics",
+          "subtitle": "Collaborative Robots, Swarms, and Humanoids",
+          "tags": ["JKSSB", "Advanced"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤝",
+          "title": "Collaborative Robots (Cobots)",
+          "content": "Cobots are designed to work alongside humans in a shared workspace. They are equipped with force and proximity sensors to ensure safety. They are lightweight, flexible, and easy to program. Applications: Assembly, packaging, quality inspection. Examples: Universal Robots, Franka Emika.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🐝",
+          "title": "Swarm Robotics – Collective Intelligence",
+          "content": "Swarm robotics studies the coordination of multiple robots to achieve a common goal. Inspired by social insects (ants, bees). Key features: Decentralised control, local communication, scalability, robustness. Applications: Search and rescue, environmental monitoring, warehouse coordination.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧑",
+          "title": "Humanoid Robots – Robots That Look Like Humans",
+          "content": "Humanoid robots are designed to resemble the human body. They have a torso, head, arms, legs, and sometimes fingers. They are used for research, entertainment, and human-robot interaction. Examples: ASIMO (Honda), Atlas (Boston Dynamics), Sophia.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Cobots in Manufacturing",
+          "given": ["A factory uses cobots to assist workers in assembly tasks."],
+          "find": "How do cobots improve safety and efficiency?",
+          "steps": [
+            "Cobots perform repetitive or physically demanding tasks.",
+            "Force sensors stop the robot if it contacts a human.",
+            "They work alongside workers without safety cages.",
+            "Workers can focus on complex or cognitive tasks.",
+            "Productivity increases due to human-robot collaboration."
+          ],
+          "answer": "Cobots improve safety and efficiency by handling repetitive tasks alongside humans.",
+          "formula_used": "Cobot application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Swarm robots require a central controller.",
+          "wrong": "Swarm robots need a central controller for coordination.",
+          "correct": "Swarm robots use decentralised control; each robot makes decisions locally.",
+          "tip": "Swarm = Decentralised; Centralized = Single controller."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Advanced Robotics",
+          "points": [
+            "Cobots: Collaborate with humans safely.",
+            "Swarm Robotics: Decentralised coordination of multiple robots.",
+            "Humanoid Robots: Resemble human body, used for research and interaction.",
+            "Swarm robotics is inspired by social insects."
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "intelligent_automation",
+      "title": "Intelligent Automation – RPA, IPA, Workflow, Business Process, and Government Automation",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Intelligent Automation",
+          "subtitle": "Automating Tasks and Processes with AI",
+          "tags": ["JKSSB", "High Weightage", "Automation"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "What is Intelligent Automation?",
+          "content": "Intelligent Automation (IA) is the combination of Artificial Intelligence (AI) and automation technologies to automate complex business processes. It goes beyond simple rule-based automation by incorporating cognitive capabilities like learning, reasoning, and decision-making.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "Robotic Process Automation (RPA) – The Foundation",
+          "content": "RPA is the use of software robots (bots) to automate repetitive, rule-based tasks. RPA bots mimic human interactions with digital systems (clicking, typing, copying-pasting). They work at the user interface level and do not require deep integration with underlying systems. Applications: Data entry, invoice processing, report generation, payroll processing.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Intelligent Process Automation (IPA) – The Next Level",
+          "content": "IPA combines RPA with AI capabilities like natural language processing (NLP), machine learning, and computer vision. It can handle unstructured data (emails, documents, images), make decisions, and learn from experience. Applications: Customer service automation, document processing, fraud detection, intelligent document processing (IDP).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Workflow Automation – Streamlining Processes",
+          "content": "Workflow automation is the automation of a series of tasks that form a business process. It ensures tasks are completed in the correct order, by the right people, and with minimal manual intervention. Tools: Zapier, Microsoft Power Automate, UiPath. Applications: Approval processes, employee onboarding, customer onboarding.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Business Process Automation (BPA) – End-to-End Automation",
+          "content": "BPA is the automation of entire business processes across departments. It aims to improve efficiency, reduce costs, and enhance customer experience. BPA often involves integration with ERP, CRM, and other enterprise systems. Applications: Order-to-cash, procure-to-pay, hire-to-retire.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Government Automation – Digital Governance",
+          "content": "Government automation uses technology to improve public service delivery and administrative efficiency. Applications:\n1. **Citizen Services**: Online portals for birth certificates, tax filing, pension applications.\n2. **Grievance Redressal**: Automated complaint tracking and resolution.\n3. **Document Processing**: Digitisation of records and automated verification.\n4. **Smart Governance**: AI-powered decision support for policy making.\n5. **Public Safety**: Automated emergency response systems.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Automation Types – Comparison",
+          "headers": ["Type", "Capability", "Technology", "Applications"],
+          "rows": [
+            ["RPA", "Rule-based, repetitive tasks", "UI automation, scripting", "Data entry, invoice processing"],
+            ["IPA", "RPA + AI (NLP, ML, CV)", "ML, NLP, computer vision", "Intelligent document processing, customer service"],
+            ["Workflow Automation", "Task orchestration", "Workflow engines, no-code tools", "Approval workflows, onboarding"],
+            ["BPA", "End-to-end process automation", "Integration, ERP, CRM", "Order-to-cash, procure-to-pay"],
+            ["Government Automation", "Public service delivery", "AI, citizen portals, ID systems", "Grievance redressal, citizen services"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: IPA in Customer Service",
+          "given": ["A company uses IPA to automate customer support inquiries."],
+          "find": "How does IPA handle customer queries?",
+          "steps": [
+            "An incoming email or chat is received.",
+            "NLP extracts the intent and entities (product, issue, urgency).",
+            "If it's a simple query, the bot provides an automated response.",
+            "For complex queries, the bot suggests solutions or escalates to a human agent.",
+            "Machine learning improves responses over time.",
+            "This reduces response time and improves customer satisfaction."
+          ],
+          "answer": "IPA automates customer support by using NLP and ML to handle inquiries intelligently.",
+          "formula_used": "IPA application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: RPA and IPA are the same.",
+          "wrong": "RPA and IPA are identical.",
+          "correct": "IPA is RPA plus AI capabilities (NLP, ML, CV) for handling complex and unstructured tasks.",
+          "tip": "RPA = Rule-based; IPA = AI-powered."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Intelligent Automation",
+          "points": [
+            "RPA: Rule-based automation of repetitive tasks.",
+            "IPA: RPA + AI for complex, intelligent automation.",
+            "Workflow Automation: Orchestrates tasks in a process.",
+            "Business Process Automation: End-to-end automation.",
+            "Government Automation: Citizen services, public safety, digital governance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robotics_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Robotics and Intelligent Automation – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on robot types (industrial, service, autonomous), sensors, control systems, RPA vs IPA, and government automation applications.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of robot is used in manufacturing for welding and assembly?",
+          "options": ["Service Robots", "Industrial Robots", "Swarm Robots", "Cobots"],
+          "answer": 1,
+          "explanation": "Industrial robots are used in manufacturing for tasks like welding, painting, and assembly.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which sensor is used for distance measurement and obstacle detection in robots?",
+          "options": ["Camera", "Ultrasonic Sensor", "LiDAR", "GPS"],
+          "answer": 1,
+          "explanation": "Ultrasonic sensors are commonly used for distance measurement and obstacle detection.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the difference between RPA and IPA?",
+          "options": [
+            "RPA uses AI; IPA does not.",
+            "IPA combines RPA with AI capabilities.",
+            "They are the same.",
+            "RPA is for unstructured data; IPA is for structured data."
+          ],
+          "answer": 1,
+          "explanation": "IPA combines RPA with AI capabilities (NLP, ML, CV) to handle complex and unstructured tasks.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of robot is designed to work alongside humans safely?",
+          "options": ["Industrial Robot", "Cobot", "Autonomous Robot", "Humanoid Robot"],
+          "answer": 1,
+          "explanation": "Cobots (Collaborative Robots) are designed to work alongside humans in a shared workspace.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which sensor is used for environment monitoring in robots?",
+          "options": ["Temperature sensor", "Ultrasonic sensor", "Camera", "GPS"],
+          "answer": 0,
+          "explanation": "Temperature sensors (and other environmental sensors) are used for monitoring environmental conditions.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the primary characteristic of swarm robotics?",
+          "options": [
+            "Centralized control",
+            "Decentralized coordination",
+            "Humanoid design",
+            "Single robot operation"
+          ],
+          "answer": 1,
+          "explanation": "Swarm robotics uses decentralized coordination, inspired by social insects like ants and bees.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which automation technique mimics human interactions with digital systems at the UI level?",
+          "options": ["IPA", "RPA", "Workflow Automation", "BPA"],
+          "answer": 1,
+          "explanation": "RPA mimics human interactions (clicking, typing) at the user interface level.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is an example of government automation?",
+          "options": ["RPA", "IPA", "Citizen service portals", "Cobots"],
+          "answer": 2,
+          "explanation": "Citizen service portals for birth certificates, tax filing, and pension applications are examples of government automation.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which control system uses feedback to adjust actions?",
+          "options": ["Open-loop control", "Closed-loop control", "Open-loop control", "Manual control"],
+          "answer": 1,
+          "explanation": "Closed-loop control uses sensor feedback to adjust actions, enabling more precise control.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which sensor provides 3D mapping and depth information for robots?",
+          "options": ["Ultrasonic", "LiDAR", "Temperature", "Touch"],
+          "answer": 1,
+          "explanation": "LiDAR (Light Detection and Ranging) provides 3D mapping and depth information for navigation and inspection.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review robot types (industrial, service, autonomous, cobots), sensors (vision, proximity, touch, position, environmental), control systems (open-loop, closed-loop), and automation types (RPA, IPA, workflow, BPA, government automation)."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Robotics and Intelligent Automation",
+          "points": [
+            "Industrial Robots: Manufacturing, repetitive tasks.",
+            "Service Robots: Assist humans (healthcare, logistics).",
+            "Autonomous Robots: Independent operation (self-driving cars, drones).",
+            "Cobots: Collaborative, work alongside humans.",
+            "Sensors: Vision (cameras, LiDAR), Proximity (ultrasonic, IR), Touch (force), Position (encoders, GPS).",
+            "Control Systems: Open-loop (no feedback), Closed-loop (feedback).",
+            "Swarm Robotics: Decentralised coordination.",
+            "RPA: Rule-based UI automation.",
+            "IPA: RPA + AI (NLP, ML, CV).",
+            "Workflow Automation: Orchestrates tasks.",
+            "BPA: End-to-end process automation.",
+            "Government Automation: Citizen services, grievance redressal."
+          ]
+        }
+      ]
+    }
+  ]
+}
+  

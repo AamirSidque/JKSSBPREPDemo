@@ -1,0 +1,729 @@
+{
+  "id": "ethical_concerns_ai",
+  "subject_id": "artificial_intelligence",
+  "title": "Ethical Concerns of AI",
+  "subtopics": [
+    {
+      "id": "ai_fairness",
+      "title": "Fairness – Algorithmic Bias, Discrimination, and Inclusive AI",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Fairness in AI",
+          "subtitle": "Ensuring Equity and Justice in AI Systems",
+          "tags": ["JKSSB", "High Weightage", "AI Ethics"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Algorithmic Bias – Unfair Outcomes",
+          "content": "Algorithmic bias occurs when an AI system systematically produces unfair outcomes due to biases in training data, algorithm design, or deployment context. Bias can arise from historical discrimination, underrepresented groups, or flawed feature selection. It can affect hiring, lending, healthcare, and criminal justice.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚫",
+          "title": "Discrimination in AI",
+          "content": "AI systems can discriminate based on race, gender, age, religion, or socioeconomic status. Examples: Facial recognition systems with higher error rates for people of colour, hiring algorithms favouring male candidates, credit scoring systems discriminating against minorities. Discrimination is often unintentional but has real-world consequences.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤝",
+          "title": "Inclusive AI – Designing for All",
+          "content": "Inclusive AI aims to create systems that are fair, accessible, and beneficial to all groups. Key principles: Diverse and representative data, bias mitigation techniques, participatory design involving affected communities, and continuous auditing. Inclusive AI ensures that benefits are distributed equitably.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Fairness in AI – Key Concepts",
+          "headers": ["Concept", "Description", "Mitigation Approaches"],
+          "rows": [
+            ["Algorithmic Bias", "Systematic unfair outcomes", "Bias detection, fair data collection"],
+            ["Discrimination", "Disparate impact based on protected attributes", "Anti-discrimination, fairness constraints"],
+            ["Inclusive AI", "Designing for diverse groups", "Participatory design, diverse datasets"],
+            ["Fairness Metrics", "Quantify fairness (e.g., demographic parity)", "Measuring disparate impact"],
+            ["Bias Mitigation", "Techniques to reduce bias", "Pre-processing, in-processing, post-processing"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Algorithmic Bias in Hiring",
+          "given": ["An AI recruitment tool is found to penalize female candidates."],
+          "find": "How does bias occur, and how can it be addressed?",
+          "steps": [
+            "Bias: The AI was trained on historical hiring data that favoured men.",
+            "Impact: Female candidates were systematically ranked lower.",
+            "Mitigation: Auditing the model for bias, removing gender-related features, re-training on balanced data.",
+            "Prevention: Diverse training data, continuous fairness monitoring, and human oversight."
+          ],
+          "answer": "Algorithmic bias in hiring can be addressed through fairness auditing, balanced data, and human oversight.",
+          "formula_used": "Bias mitigation analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI is always objective and unbiased.",
+          "wrong": "AI systems are completely objective and free from bias.",
+          "correct": "AI systems can be biased due to biased data, flawed algorithms, or deployment contexts.",
+          "tip": "AI is not inherently objective; it reflects the data and assumptions it is built on."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Fairness in AI",
+          "points": [
+            "Algorithmic Bias: Unfair outcomes due to biased data or design.",
+            "Discrimination: AI can disproportionately harm certain groups.",
+            "Inclusive AI: Designing systems that are fair to all.",
+            "Mitigation: Fair data, bias detection, fairness constraints, human oversight."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_privacy",
+      "title": "Privacy – Data Protection, Consent, Surveillance, and Personal Data Usage",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Privacy in AI",
+          "subtitle": "Protecting Personal Data in the Age of AI",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔐",
+          "title": "Data Protection – Safeguarding Personal Information",
+          "content": "AI systems often require access to large amounts of personal data. Data protection involves ensuring that this data is collected, stored, and processed securely. Key principles: Data minimisation (only collect what is necessary), purpose limitation (use data only for specified purposes), and security (encryption, access controls).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "Consent – User Agreement and Transparency",
+          "content": "Consent is a fundamental requirement for data collection and use. Users must be informed about how their data will be used, and they must provide explicit, informed, and freely given consent. Consent should be specific, revocable, and not buried in lengthy terms of service.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📹",
+          "title": "Surveillance – Balancing Security and Privacy",
+          "content": "AI-powered surveillance (CCTV, facial recognition, location tracking) raises significant privacy concerns. While it can enhance security, it can also lead to mass surveillance, profiling, and chilling effects on freedom of expression. Regulations like GDPR and the DPDP Act aim to balance surveillance with privacy rights.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Personal Data Usage – Ethical Data Practices",
+          "content": "Personal data should be used ethically, respecting user rights. Best practices: Anonymisation and pseudonymisation, data minimisation, purpose limitation, and user control over data. Unethical data practices include selling data, using data for unintended purposes, and sharing data without consent.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Privacy in AI – Key Concepts",
+          "headers": ["Concept", "Description", "Best Practices"],
+          "rows": [
+            ["Data Protection", "Safeguarding personal data", "Encryption, access controls, data minimisation"],
+            ["Consent", "User agreement for data use", "Explicit, informed, revocable consent"],
+            ["Surveillance", "Monitoring and tracking", "Proportionality, transparency, regulation"],
+            ["Personal Data Usage", "Ethical data practices", "Anonymisation, purpose limitation, user control"],
+            ["Privacy Regulations", "Legal frameworks", "GDPR, DPDP Act, data protection laws"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Surveillance and Privacy Concerns",
+          "given": ["A city implements AI-powered facial recognition cameras in public spaces."],
+          "find": "What are the privacy concerns, and how can they be addressed?",
+          "steps": [
+            "Concerns: Mass surveillance, profiling, chilling effect on rights.",
+            "Mitigation: Clear legal framework, transparency, oversight, proportional use.",
+            "Safeguards: Data minimisation, purpose limitation, periodic audits.",
+            "Regulation: Compliance with privacy laws (e.g., DPDP Act)."
+          ],
+          "answer": "AI surveillance must be balanced with privacy rights through regulation, transparency, and oversight.",
+          "formula_used": "Privacy analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Consent is always valid if it is in the terms of service.",
+          "wrong": "Consent buried in terms of service is valid.",
+          "correct": "Consent must be explicit, informed, and freely given, not hidden in fine print.",
+          "tip": "Meaningful consent is a legal and ethical requirement."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Privacy in AI",
+          "points": [
+            "Data Protection: Secure storage, encryption, access controls.",
+            "Consent: Explicit, informed, revocable agreement.",
+            "Surveillance: Balance security with privacy rights.",
+            "Personal Data Usage: Ethical practices, anonymisation, purpose limitation.",
+            "Regulations: GDPR, DPDP Act."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_accountability",
+      "title": "Accountability – Responsibility, Human Oversight, Transparency, and Auditability",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Accountability in AI",
+          "subtitle": "Who Is Responsible for AI Decisions?",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👤",
+          "title": "Responsibility – Assigning Accountability",
+          "content": "When AI systems cause harm, who is responsible? Developers, deployers, or users? Clear lines of responsibility are essential. Organizations must have policies for AI governance, incident response, and liability. Responsibility includes ensuring compliance with laws and ethical standards.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👁️",
+          "title": "Human Oversight – The Human-in-the-Loop",
+          "content": "Human oversight ensures that AI systems operate within acceptable boundaries and can be overridden when necessary. Types: Human-in-the-loop (continuous oversight), Human-on-the-loop (supervisory), Human-out-of-the-loop (fully autonomous). Oversight is critical in high-stakes applications.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Transparency – Openness About AI Systems",
+          "content": "Transparency involves providing clear information about how AI systems work, their capabilities, limitations, and data usage. It builds trust and enables accountability. Transparency includes documentation, explainability, and disclosure of AI use.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Auditability – Reviewing AI Systems",
+          "content": "Auditability means that AI systems can be reviewed and evaluated by independent parties. Audits assess fairness, bias, security, and compliance. They provide assurance that AI systems are trustworthy. Audits should be conducted regularly and be transparent.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Accountability in AI – Key Concepts",
+          "headers": ["Concept", "Description", "Implementation"],
+          "rows": [
+            ["Responsibility", "Assigning accountability for AI decisions", "Clear governance, liability frameworks"],
+            ["Human Oversight", "Humans monitoring AI operations", "Human-in-the-loop, supervisory, review processes"],
+            ["Transparency", "Openness about AI systems", "Documentation, explainability, disclosure"],
+            ["Auditability", "Independent review of AI systems", "Regular audits, fairness assessments, compliance checks"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Accountability in Autonomous Vehicles",
+          "given": ["An autonomous vehicle causes an accident."],
+          "find": "Who is responsible, and how is accountability ensured?",
+          "steps": [
+            "Responsibility: The manufacturer, software developer, or operator may be liable.",
+            "Human Oversight: Remote monitoring may be required.",
+            "Transparency: The vehicle's decision-making must be traceable.",
+            "Auditability: The incident must be investigated through data logs and reports."
+          ],
+          "answer": "Accountability in autonomous vehicles involves clear responsibility, oversight, transparency, and auditability.",
+          "formula_used": "Accountability analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI systems are fully accountable.",
+          "wrong": "AI systems can be fully accountable for their actions.",
+          "correct": "Humans and organizations are ultimately accountable for AI systems.",
+          "tip": "Accountability rests with developers, deployers, and users, not the AI itself."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Accountability in AI",
+          "points": [
+            "Responsibility: Clear lines of accountability for AI decisions.",
+            "Human Oversight: Humans must supervise AI, especially in high-stakes applications.",
+            "Transparency: Openness about AI systems builds trust.",
+            "Auditability: Regular independent reviews ensure compliance and fairness."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_security",
+      "title": "Security – AI Misuse, Deepfakes, Autonomous Weapons, and AI-Enabled Cyber Attacks",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Security in AI",
+          "subtitle": "Protecting Against Misuse and Malicious Use",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚠️",
+          "title": "AI Misuse – Malicious Applications",
+          "content": "AI can be used for malicious purposes, including disinformation campaigns, social engineering, automated hacking, and surveillance. Misuse can undermine trust, manipulate public opinion, and threaten national security. Safeguards: Ethical guidelines, regulation, and monitoring.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎭",
+          "title": "Deepfakes – Synthetic Media",
+          "content": "Deepfakes are AI-generated synthetic media (videos, audio, images) that appear authentic. They can be used for misinformation, fraud, reputational damage, and political manipulation. Detection technologies are being developed, but deepfakes pose significant security and privacy risks.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚔️",
+          "title": "Autonomous Weapons – Lethal Autonomous Systems",
+          "content": "Autonomous weapons are military systems that can select and engage targets without human intervention. They raise serious ethical, legal, and security concerns. The use of autonomous weapons is debated, with calls for international regulations and bans.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "AI-Enabled Cyber Attacks – Intelligent Threats",
+          "content": "AI can be used to enhance cyber attacks: automated phishing, intelligent malware, adaptive attacks, and vulnerability discovery. AI-enabled attacks are more sophisticated and harder to defend against. Cybersecurity systems must also use AI to detect and respond to threats.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Security Threats in AI",
+          "headers": ["Threat", "Description", "Examples", "Mitigation"],
+          "rows": [
+            ["AI Misuse", "Malicious applications of AI", "Disinformation, automated hacking, surveillance", "Ethical guidelines, regulation"],
+            ["Deepfakes", "AI-generated synthetic media", "Fake videos, audio, images", "Detection technologies, authentication"],
+            ["Autonomous Weapons", "Lethal AI military systems", "Drones, robotic weapons", "International regulations, bans"],
+            ["AI-Enabled Cyber Attacks", "AI-enhanced hacking", "Automated phishing, intelligent malware", "AI-based defense, monitoring"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Deepfakes and Misinformation",
+          "given": ["A deepfake video of a political leader spreads on social media."],
+          "find": "What are the risks, and how can they be addressed?",
+          "steps": [
+            "Risks: Reputational damage, social unrest, election interference.",
+            "Detection: AI-based detection tools to identify deepfakes.",
+            "Prevention: Watermarking, authentication, and provenance tracking.",
+            "Regulation: Legal frameworks for synthetic media.",
+            "Public Education: Awareness campaigns to combat misinformation."
+          ],
+          "answer": "Deepfakes pose serious risks; detection, regulation, and public education are essential countermeasures.",
+          "formula_used": "Security threat analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Deepfakes are always obvious.",
+          "wrong": "Deepfakes are easy to detect by the human eye.",
+          "correct": "Deepfakes are becoming increasingly realistic and difficult to distinguish from authentic content.",
+          "tip": "Deepfakes are a serious threat requiring technological and regulatory solutions."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Security in AI",
+          "points": [
+            "AI Misuse: Malicious applications (disinformation, hacking).",
+            "Deepfakes: AI-generated synthetic media, difficult to detect.",
+            "Autonomous Weapons: Lethal AI systems, ethical and legal concerns.",
+            "AI-Enabled Cyber Attacks: Intelligent, adaptive threats.",
+            "Mitigation: Detection, regulation, ethical guidelines, AI-based defense."
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+    {
+      "id": "ai_employment",
+      "title": "Employment – Job Displacement, Workforce Transformation, Reskilling, and the Future of Work",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Employment and AI",
+          "subtitle": "The Impact of AI on Jobs and Work",
+          "tags": ["JKSSB", "High Weightage", "AI Ethics"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💼",
+          "title": "Job Displacement – Automation of Tasks",
+          "content": "AI and automation are replacing jobs that involve repetitive, predictable tasks. Industries affected: Manufacturing, customer service, data entry, transportation (autonomous vehicles). Low-skill and routine jobs are most vulnerable, leading to unemployment and economic displacement.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Workforce Transformation – Changing Job Roles",
+          "content": "AI transforms job roles rather than just eliminating them. New roles are emerging: AI trainers, data scientists, robot maintenance, prompt engineers, and ethicists. Skills in demand: AI literacy, data analysis, programming, problem-solving, and critical thinking.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "Reskilling and Upskilling – Preparing for the Future",
+          "content": "Governments and organizations must invest in reskilling (learning new skills) and upskilling (enhancing existing skills) programs. Focus areas: Digital literacy, AI fundamentals, soft skills (communication, adaptability), and technical training. Lifelong learning is essential.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔮",
+          "title": "Future of Work – Human-AI Collaboration",
+          "content": "The future of work involves collaboration between humans and AI, not replacement. Humans will focus on: Creativity, emotional intelligence, complex problem-solving, and ethical oversight. AI will handle: Repetitive tasks, data analysis, and automation.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Employment and AI – Key Concepts",
+          "headers": ["Concept", "Description", "Response"],
+          "rows": [
+            ["Job Displacement", "Loss of jobs due to automation", "Social safety nets, transition support"],
+            ["Workforce Transformation", "Changing job roles and skills", "Education, training, career guidance"],
+            ["Reskilling", "Learning new skills", "Vocational training, online courses"],
+            ["Future of Work", "Human-AI collaboration", "New roles, flexible work models"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI and Job Displacement",
+          "given": ["A manufacturing plant introduces AI-powered automation."],
+          "find": "How does it affect employment, and what can be done?",
+          "steps": [
+            "Impact: Many assembly line jobs become redundant.",
+            "Response: The company offers reskilling programs for affected workers.",
+            "New Roles: Workers transition to robot maintenance, quality control, and supervision.",
+            "Policy: Government provides unemployment support and retraining funds."
+          ],
+          "answer": "AI displaces some jobs but creates new roles, requiring reskilling and policy support.",
+          "formula_used": "Employment impact analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI will cause mass unemployment with no solutions.",
+          "wrong": "AI will lead to mass unemployment and nothing can be done.",
+          "correct": "AI will transform the workforce; proactive reskilling and policy measures can mitigate job displacement.",
+          "tip": "The future of work requires adaptation and lifelong learning."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Employment and AI",
+          "points": [
+            "Job Displacement: Routine tasks are automated.",
+            "Workforce Transformation: New roles and skills are emerging.",
+            "Reskilling: Training for new roles is essential.",
+            "Future of Work: Human-AI collaboration, not replacement.",
+            "Proactive policies: Social safety nets, education reforms."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_legal_issues",
+      "title": "Legal Issues – Intellectual Property, Copyright, AI-Generated Content Ownership, and Liability",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Legal Issues in AI",
+          "subtitle": "Navigating the Legal Landscape",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Intellectual Property – Who Owns AI-Created Work?",
+          "content": "Intellectual property (IP) laws are challenged by AI-generated content. Questions: Who owns AI-created art, music, or inventions? Is it the developer, the user, or the AI itself? Current laws are unclear, and new frameworks are needed.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "©️",
+          "title": "Copyright – AI and Creative Works",
+          "content": "Copyright protects original works. AI-generated works may not qualify for copyright protection if they lack human authorship. Some jurisdictions are exploring AI-specific copyright frameworks. Issues: Ownership, licensing, and infringement.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "AI-Generated Content Ownership",
+          "content": "Ownership of AI-generated content depends on: The degree of human involvement, the user agreement of the AI tool, and the jurisdiction. Examples: OpenAI grants ownership to the user, but other platforms may claim rights. Clear legal frameworks are needed.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Liability – Who Is Responsible for AI Harm?",
+          "content": "When AI systems cause harm (accidents, erroneous decisions, privacy breaches), liability must be assigned. Questions: Is the developer liable? The deployer? The user? Product liability, negligence, and strict liability are relevant. Regulations like the EU AI Act address liability.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Legal Issues in AI",
+          "headers": ["Issue", "Description", "Current Status"],
+          "rows": [
+            ["Intellectual Property", "Ownership of AI-created content", "Unclear, evolving"],
+            ["Copyright", "Protection for AI-generated works", "Lack of human authorship is a barrier"],
+            ["AI-Generated Content Ownership", "Who owns AI outputs", "Depends on terms of service, jurisdiction"],
+            ["Liability", "Responsibility for AI harm", "Regulations developing (EU AI Act)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI-Generated Art and Copyright",
+          "given": ["An artist uses an AI tool to generate a digital artwork."],
+          "find": "Who owns the copyright to the artwork?",
+          "steps": [
+            "The AI tool's terms of service typically assign ownership to the user.",
+            "However, the artwork may not qualify for copyright protection if it lacks substantial human authorship.",
+            "Some jurisdictions are considering new frameworks for AI-generated works.",
+            "The artist should check the terms of service of the AI tool."
+          ],
+          "answer": "Copyright ownership of AI-generated art depends on the terms of service and jurisdiction.",
+          "formula_used": "Legal analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All AI-generated content is in the public domain.",
+          "wrong": "AI-generated content is always public domain.",
+          "correct": "AI-generated content ownership varies; it may be owned by the user or the tool provider.",
+          "tip": "Check terms of service and applicable laws."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Legal Issues in AI",
+          "points": [
+            "Intellectual Property: Ownership of AI-created works is unclear.",
+            "Copyright: AI-generated works may lack protection without human authorship.",
+            "Ownership: Depends on terms of service and jurisdiction.",
+            "Liability: Clear responsibility is needed for AI-caused harm.",
+            "Regulation: EU AI Act and other frameworks are addressing these issues."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "responsible_ai",
+      "title": "Responsible AI – Explainable AI, Trustworthy AI, Human-Centered AI, AI Governance, and AI Ethics Frameworks",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Responsible AI",
+          "subtitle": "Building Ethical, Trustworthy, and Accountable AI",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Explainable AI (XAI) – Making AI Understandable",
+          "content": "Explainable AI is a set of techniques that make AI decisions understandable to humans. It is essential for trust, accountability, and compliance. Methods: Feature importance, LIME, SHAP, saliency maps. XAI helps identify biases and verify outcomes.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "✅",
+          "title": "Trustworthy AI – Principles and Practices",
+          "content": "Trustworthy AI is built on principles: Lawfulness, Ethics, Robustness. Key aspects: Fairness, transparency, accountability, privacy, safety, and human oversight. Organizations must implement policies, audits, and governance frameworks.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👤",
+          "title": "Human-Centered AI – Putting People First",
+          "content": "Human-centered AI prioritises human well-being, autonomy, and dignity. It involves: Participatory design, user empowerment, and addressing social impacts. AI should augment human capabilities, not replace or undermine them.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "AI Governance – Structuring Oversight",
+          "content": "AI governance involves creating policies, structures, and processes for AI development and deployment. Key elements: Ethics committees, risk assessments, compliance frameworks, incident response plans, and stakeholder engagement.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "AI Ethics Frameworks – Guiding Principles",
+          "content": "AI ethics frameworks provide principles and guidelines for responsible AI. Examples: UNESCO AI Ethics Recommendation, OECD AI Principles, EU Ethics Guidelines. They cover: Human rights, transparency, accountability, fairness, sustainability, and inclusivity.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Responsible AI – Key Concepts",
+          "headers": ["Concept", "Description", "Key Practices"],
+          "rows": [
+            ["Explainable AI", "Making AI decisions understandable", "LIME, SHAP, saliency maps"],
+            ["Trustworthy AI", "Building trust through fairness and accountability", "Policies, audits, human oversight"],
+            ["Human-Centered AI", "Prioritising human well-being", "Participatory design, user empowerment"],
+            ["AI Governance", "Structured oversight of AI", "Ethics committees, risk assessments"],
+            ["AI Ethics Frameworks", "Guiding principles", "UNESCO, OECD, EU Ethics Guidelines"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Implementing Responsible AI",
+          "given": ["A healthcare organization deploys an AI system for diagnosis."],
+          "find": "How can they ensure responsible AI?",
+          "steps": [
+            "Explainability: Use XAI techniques to explain diagnosis decisions.",
+            "Fairness: Audit for bias across demographic groups.",
+            "Governance: Establish an ethics committee and risk framework.",
+            "Transparency: Document AI capabilities and limitations.",
+            "Oversight: Include human review for critical decisions.",
+            "Compliance: Follow regulations like GDPR and medical device standards."
+          ],
+          "answer": "Responsible AI involves explainability, fairness, governance, transparency, and human oversight.",
+          "formula_used": "Responsible AI implementation"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Responsible AI is optional.",
+          "wrong": "Responsible AI is just a recommendation.",
+          "correct": "Responsible AI is becoming a legal and regulatory requirement.",
+          "tip": "Regulations like the EU AI Act are making responsible AI mandatory."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Responsible AI",
+          "points": [
+            "Explainable AI: Makes decisions understandable (LIME, SHAP).",
+            "Trustworthy AI: Built on fairness, transparency, accountability.",
+            "Human-Centered AI: Prioritises human well-being.",
+            "AI Governance: Structured oversight and risk management.",
+            "AI Ethics Frameworks: UNESCO, OECD, EU Ethics Guidelines."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethical_concerns_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Ethical Concerns of AI – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on fairness (bias, discrimination), privacy (data protection, consent), accountability (responsibility, transparency), security (deepfakes, autonomous weapons), employment (job displacement, reskilling), legal issues (IP, copyright, liability), and responsible AI (explainability, governance).",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which ethical concern arises when AI systems produce unfair outcomes due to biased data?",
+          "options": ["Privacy", "Algorithmic bias", "Security", "Liability"],
+          "answer": 1,
+          "explanation": "Algorithmic bias occurs when AI systems produce unfair outcomes due to biases in training data or design.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which principle ensures that AI decisions can be understood by humans?",
+          "options": ["Explainable AI", "Human oversight", "Data protection", "Security"],
+          "answer": 0,
+          "explanation": "Explainable AI (XAI) ensures that AI decisions are understandable to humans.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which ethical concern involves the use of AI-generated synthetic media?",
+          "options": ["Deepfakes", "Privacy", "Bias", "Employment"],
+          "answer": 0,
+          "explanation": "Deepfakes are AI-generated synthetic media that can be used for misinformation and fraud.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What does the 'L' in SOLID principles stand for?",
+          "options": ["Liskov Substitution", "Liability", "Learning", "Logic"],
+          "answer": 0,
+          "explanation": "The L in SOLID stands for Liskov Substitution Principle.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which ethical concern involves the loss of jobs due to automation?",
+          "options": ["Job displacement", "Reskilling", "Workforce transformation", "All of the above"],
+          "answer": 3,
+          "explanation": "All of these are related to the impact of AI on employment.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which legal issue concerns ownership of AI-created content?",
+          "options": ["Intellectual Property", "Liability", "Privacy", "Surveillance"],
+          "answer": 0,
+          "explanation": "Intellectual property law is challenged by AI-generated content ownership.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which responsible AI principle involves creating policies for AI oversight?",
+          "options": ["AI governance", "Explainable AI", "Human-centered AI", "Trustworthy AI"],
+          "answer": 0,
+          "explanation": "AI governance involves creating policies, structures, and processes for AI oversight.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which ethical concern involves AI-powered surveillance and data collection?",
+          "options": ["Privacy", "Security", "Fairness", "Accountability"],
+          "answer": 0,
+          "explanation": "Privacy concerns arise from AI-powered surveillance and personal data usage.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which international organization published the AI Ethics Recommendation?",
+          "options": ["UNESCO", "OECD", "EU", "UN"],
+          "answer": 0,
+          "explanation": "UNESCO published a comprehensive AI Ethics Recommendation.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which principle of responsible AI ensures that AI systems are regularly reviewed?",
+          "options": ["Auditability", "Explainability", "Transparency", "Security"],
+          "answer": 0,
+          "explanation": "Auditability ensures that AI systems can be reviewed by independent parties.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review fairness (bias, discrimination), privacy (data protection, consent), accountability (responsibility, transparency), security (deepfakes, autonomous weapons), employment (job displacement, reskilling), legal issues (IP, copyright, liability), and responsible AI (explainability, governance).",
+          "points": [
+            "Fairness: Algorithmic bias, discrimination, inclusive AI.",
+            "Privacy: Data protection, consent, surveillance.",
+            "Accountability: Responsibility, human oversight, transparency, auditability.",
+            "Security: AI misuse, deepfakes, autonomous weapons.",
+            "Employment: Job displacement, reskilling, future of work.",
+            "Legal Issues: Intellectual property, copyright, liability.",
+            "Responsible AI: Explainability, trustworthy AI, governance, ethics frameworks."
+          ]
+        }
+      ]
+    }
+  ]
+}

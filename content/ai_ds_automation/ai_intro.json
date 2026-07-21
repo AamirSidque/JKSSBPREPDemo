@@ -1,0 +1,753 @@
+{
+  "id": "ai_intro_part1",
+  "subject_id": "artificial_intelligence",
+  "title": "Introduction to Artificial Intelligence",
+  "subtopics": [
+    {
+      "id": "ai_fundamentals",
+      "title": "Fundamentals of Artificial Intelligence",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Fundamentals of Artificial Intelligence",
+          "subtitle": "Understanding the Core Concepts of AI",
+          "tags": ["JKSSB", "High Weightage", "AI"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "Definition of Artificial Intelligence",
+          "content": "Artificial Intelligence (AI) is the simulation of human intelligence processes by computer systems. These processes include learning (the acquisition of information and rules for using the information), reasoning (using rules to reach approximate or definite conclusions), and self-correction. The term was coined by John McCarthy in 1956.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⏳",
+          "title": "History and Evolution of AI",
+          "content": "1. **1940s-1950s**: Early neural networks and the Turing Test (Alan Turing).\n2. **1956**: Dartmouth Conference – AI coined by John McCarthy.\n3. **1960s-1970s**: Early expert systems, symbolic AI.\n4. **1980s**: Expert systems boom, knowledge-based systems.\n5. **1990s-2000s**: Machine learning resurgence, neural networks.\n6. **2010s**: Deep learning revolution, big data, GPUs.\n7. **2020s**: Generative AI, LLMs (ChatGPT), multimodal AI.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Goals of AI",
+          "content": "1. **Reasoning**: Solve problems logically.\n2. **Knowledge Representation**: Store and use knowledge.\n3. **Planning**: Sequence actions to achieve goals.\n4. **Learning**: Improve performance from experience.\n5. **Natural Language Processing**: Understand and generate human language.\n6. **Perception**: Interpret sensory inputs (vision, speech).\n7. **Motion and Manipulation**: Control robots and devices.\n8. **Social Intelligence**: Interact with humans effectively.\n9. **General Intelligence**: Achieve human-level cognitive abilities.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "AI vs Human Intelligence – Key Differences",
+          "headers": ["Aspect", "AI", "Human Intelligence"],
+          "rows": [
+            ["Speed", "Extremely fast (milliseconds)", "Slower (seconds/minutes)"],
+            ["Memory", "Perfect recall (if stored)", "Imperfect, forgetting"],
+            ["Learning", "Data-driven, requires large datasets", "Intuitive, one-shot learning"],
+            ["Reasoning", "Logical, rule-based", "Intuitive, emotional, creative"],
+            ["Fatigue", "No fatigue", "Gets tired"],
+            ["Creativity", "Limited, pattern-based", "Highly creative"],
+            ["Common Sense", "Weak", "Strong"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "AI vs Automation vs ML vs DL vs Data Science",
+          "headers": ["Term", "Definition", "Scope"],
+          "rows": [
+            ["Automation", "Using technology to perform tasks with minimal human intervention", "Broad – includes non-AI automation"],
+            ["AI", "Simulation of human intelligence in machines", "Broad – includes ML, DL, reasoning"],
+            ["Machine Learning", "Subset of AI that learns from data without explicit programming", "Focuses on learning from data"],
+            ["Deep Learning", "Subset of ML using neural networks with many layers", "Focuses on complex pattern recognition"],
+            ["Data Science", "Interdisciplinary field extracting insights from data", "Includes statistics, ML, visualization"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "comparison",
+          "title": "Strong AI vs Weak AI",
+          "left_header": "Strong AI (AGI)",
+          "right_header": "Weak AI (Narrow AI)",
+          "rows": [
+            { "left": "General intelligence, human-level", "right": "Limited to specific tasks" },
+            { "left": "Can perform any intellectual task", "right": "Can only perform one task (or a few)" },
+            { "left": "Self-aware, conscious", "right": "Not self-aware" },
+            { "left": "Has understanding and reasoning", "right": "Follows patterns, no deep understanding" },
+            { "left": "Not yet achieved (future)", "right": "Most AI today (e.g., chatbots, image recognition)" }
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Symbolic AI vs Statistical AI",
+          "left_header": "Symbolic AI",
+          "right_header": "Statistical AI",
+          "rows": [
+            { "left": "Uses symbols, rules, logic", "right": "Uses probability, data, patterns" },
+            { "left": "Knowledge represented explicitly", "right": "Knowledge learned from data" },
+            { "left": "Explainable (rules are clear)", "right": "Black-box (harder to explain)" },
+            { "left": "Good for structured domains", "right": "Good for unstructured data" },
+            { "left": "Example: Expert systems", "right": "Example: Neural networks" }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Narrow AI, AGI, Super AI – Comparison",
+          "headers": ["Type", "Definition", "Current Status"],
+          "rows": [
+            ["Narrow AI (Weak AI)", "AI designed for specific tasks", "Exists today (e.g., Siri, face recognition)"],
+            ["AGI (Strong AI)", "AI with general intelligence like human", "Theoretical, not yet achieved"],
+            ["Super AI", "AI surpassing human intelligence in all domains", "Hypothetical, beyond AGI"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "process_flow",
+          "title": "The AI Lifecycle",
+          "steps": [
+            "Step 1: Problem Identification – Define the problem and objectives.",
+            "Step 2: Data Collection – Gather relevant data from sources.",
+            "Step 3: Data Preparation – Clean, transform, and split data.",
+            "Step 4: Model Selection – Choose the appropriate AI/ML model.",
+            "Step 5: Model Training – Train the model on training data.",
+            "Step 6: Model Evaluation – Evaluate on validation/test data.",
+            "Step 7: Model Deployment – Deploy the model to production.",
+            "Step 8: Monitoring and Maintenance – Monitor performance and retrain."
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI in Healthcare",
+          "given": ["An AI system is developed to detect tumors in X-ray images."],
+          "find": "Explain the AI lifecycle steps for this application.",
+          "steps": [
+            "Problem: Detect tumors in X-rays.",
+            "Data: Collect thousands of labelled X-ray images.",
+            "Preparation: Normalize and split images into training/validation/test.",
+            "Model: Choose a CNN (Convolutional Neural Network).",
+            "Training: Train the CNN on the training images.",
+            "Evaluation: Test accuracy and precision on test images.",
+            "Deployment: Integrate into hospital systems.",
+            "Monitoring: Track performance and update with new data."
+          ],
+          "answer": "The AI lifecycle for tumor detection involves problem definition, data collection, model selection, training, deployment, and monitoring.",
+          "formula_used": "AI lifecycle application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI is the same as automation.",
+          "wrong": "Automation and AI are identical.",
+          "correct": "Automation includes non-AI methods; AI adds intelligence and learning capabilities.",
+          "tip": "AI is a subset of automation that involves learning and reasoning."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI Fundamentals",
+          "points": [
+            "AI simulates human intelligence (learning, reasoning, self-correction).",
+            "History: Dartmouth 1956, expert systems, deep learning, generative AI.",
+            "AI Goals: Reasoning, learning, perception, language, motion.",
+            "AI vs Automation: AI adds intelligence.",
+            "Strong AI (AGI) vs Weak AI (Narrow AI).",
+            "Symbolic AI (rules) vs Statistical AI (data-driven).",
+            "AI Lifecycle: Problem → Data → Model → Training → Evaluation → Deployment → Monitoring."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_components",
+      "title": "Components of Artificial Intelligence",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Components of AI",
+          "subtitle": "The Building Blocks of Intelligent Systems",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Data – The Fuel of AI",
+          "content": "Data is the foundation of any AI system. AI models learn patterns from data. Types: structured (tables), semi-structured (JSON, XML), unstructured (text, images, audio). Quality, quantity, and diversity of data directly impact model performance.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Algorithms – The Brain of AI",
+          "content": "Algorithms are step-by-step procedures for solving problems. In AI, they define how to learn from data and make predictions. Examples: Linear Regression, Decision Trees, Neural Networks, Reinforcement Learning.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "Models – The Trained Algorithm",
+          "content": "A model is the output of training an algorithm on data. It contains the learned parameters and can be used to make predictions on new data. Examples: Trained CNN for image classification, fine-tuned LLM for text generation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💻",
+          "title": "Computing Power – The Engine of AI",
+          "content": "AI requires significant computing resources. CPUs, GPUs, TPUs, and cloud computing platforms (AWS, Google Cloud, Azure) provide the necessary power for training large models. Distributed computing and parallel processing are essential for large-scale AI.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "Sensors – The Senses of AI",
+          "content": "Sensors capture data from the real world. Examples: cameras (vision), microphones (audio), temperature sensors, GPS, LiDAR (autonomous vehicles). Sensors enable AI systems to perceive their environment.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Knowledge Representation",
+          "content": "Knowledge representation is the way AI systems store and organize information. Methods: ontologies, semantic networks, frames, rule-based systems. It allows the system to reason about the world.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Reasoning Engine – The Logic Processor",
+          "content": "The reasoning engine applies logic to knowledge to draw conclusions. It can be deductive (general to specific), inductive (specific to general), or abductive (inference to best explanation). Used in expert systems, planning, and decision-making.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Learning Systems – The Adaptive Component",
+          "content": "Learning systems improve performance over time using data. Types: supervised learning (labelled data), unsupervised learning (unlabelled data), reinforcement learning (trial and error). They update models based on new data and feedback.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Decision-Making Systems",
+          "content": "Decision-making systems select actions based on the output of AI models. They consider uncertainty, constraints, and objectives. Examples: autonomous driving decisions, recommendation systems, fraud detection.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Feedback Mechanisms – Continuous Improvement",
+          "content": "Feedback mechanisms allow AI systems to learn from the outcomes of their decisions. Human feedback (reinforcement), automated evaluation metrics, and real-world performance data drive iterative improvement. Examples: A/B testing, user ratings, reinforcement learning.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "AI Components – Overview",
+          "headers": ["Component", "Description", "Key Technologies"],
+          "rows": [
+            ["Data", "Foundation for learning", "Databases, APIs, IoT, web scraping"],
+            ["Algorithms", "Procedures for learning", "Regression, Trees, Neural Nets, RL"],
+            ["Models", "Trained algorithm", "Trained CNNs, LLMs, SVMs"],
+            ["Computing Power", "Resources for training", "CPUs, GPUs, TPUs, Cloud"],
+            ["Sensors", "Input capture", "Cameras, microphones, LiDAR, GPS"],
+            ["Knowledge Representation", "Organizing knowledge", "Ontologies, semantic networks"],
+            ["Reasoning Engine", "Applying logic", "Inference engines, rule engines"],
+            ["Learning Systems", "Adaptive improvement", "ML algorithms, RL"],
+            ["Decision-Making Systems", "Action selection", "Optimization, planning"],
+            ["Feedback Mechanisms", "Continuous learning", "Reinforcement, user feedback"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI Components in a Self-Driving Car",
+          "given": ["A self-driving car uses AI to navigate roads."],
+          "find": "Identify each AI component in the system.",
+          "steps": [
+            "Data: Camera images, LiDAR point clouds, GPS coordinates.",
+            "Algorithms: CNN for image processing, path planning algorithm.",
+            "Model: Trained object detection and path planning models.",
+            "Computing Power: High-performance GPUs onboard.",
+            "Sensors: Cameras, LiDAR, radar, GPS.",
+            "Knowledge Representation: Maps and traffic rules.",
+            "Reasoning Engine: Decision-making for lane changes, obstacle avoidance.",
+            "Learning Systems: Reinforcement learning for driving policies.",
+            "Decision-Making: Accelerate, brake, turn.",
+            "Feedback: Real-time sensor data for adjustments."
+          ],
+          "answer": "A self-driving car uses all AI components: data, algorithms, models, computing power, sensors, knowledge representation, reasoning, learning, decision-making, and feedback.",
+          "formula_used": "AI component identification"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Data and algorithms are sufficient for AI.",
+          "wrong": "AI only needs data and an algorithm.",
+          "correct": "AI requires many components: data, algorithms, computing power, sensors, knowledge representation, reasoning, learning, decision-making, and feedback.",
+          "tip": "AI is a complex system with multiple interacting components."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI Components",
+          "points": [
+            "Data: Foundation, fuel for learning.",
+            "Algorithms: Procedures for learning patterns.",
+            "Models: Trained outputs of algorithms.",
+            "Computing Power: GPUs, TPUs, cloud.",
+            "Sensors: Perceive the environment.",
+            "Knowledge Representation: Store and organize knowledge.",
+            "Reasoning Engine: Apply logic to knowledge.",
+            "Learning Systems: Improve performance over time.",
+            "Decision-Making Systems: Select actions.",
+            "Feedback Mechanisms: Continuous improvement."
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "id": "ai_types",
+      "title": "Types of Artificial Intelligence",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Types of Artificial Intelligence",
+          "subtitle": "Classifying AI by Capability and Functionality",
+          "tags": ["JKSSB", "High Weightage", "AI"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "AI by Capability (Based on Functionality)",
+          "content": "This classification is based on how closely an AI system mimics human intelligence and its ability to perform tasks. The four types are: Reactive Machines, Limited Memory AI, Theory of Mind AI, and Self-Aware AI.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of AI by Capability – Overview",
+          "headers": ["Type", "Description", "Characteristics", "Examples"],
+          "rows": [
+            ["Reactive Machines", "Cannot learn from past experiences, only react to current inputs.", "No memory, no learning, simple rule-based", "IBM's Deep Blue (chess), early chatbots"],
+            ["Limited Memory AI", "Can learn from past experiences and use that knowledge for a limited time.", "Memory-based, learns from data, improves over time", "Self-driving cars, virtual assistants (Siri, Alexa), LLMs"],
+            ["Theory of Mind AI", "Understands human emotions, beliefs, intentions, and social interactions.", "Understands mental states, predicts human behaviour", "Not yet achieved (research stage)"],
+            ["Self-Aware AI", "Has consciousness, self-awareness, and understanding of its own existence.", "Human-like consciousness, self-reflection", "Hypothetical (not yet developed)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Reactive Machines – The Simplest AI",
+          "content": "Reactive machines are the most basic type of AI. They do not have memory or the ability to learn from past experiences. They simply react to current inputs using pre-defined rules. They are designed for specific tasks and cannot handle situations outside their programmed scope.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: IBM's Deep Blue",
+          "given": ["Deep Blue defeated Garry Kasparov in chess in 1997."],
+          "find": "Why is Deep Blue considered a reactive machine?",
+          "steps": [
+            "Deep Blue evaluated positions and selected moves based on a pre-programmed evaluation function.",
+            "It did not learn from its previous games or adapt its strategy.",
+            "It could only play chess and could not apply its intelligence to any other domain.",
+            "It had no memory of past games, only the current board state."
+          ],
+          "answer": "Deep Blue is a reactive machine because it could only react to the current chessboard without learning or memory.",
+          "formula_used": "AI capability classification"
+        },
+        {
+          "type": "fact_card",
+          "icon": "💾",
+          "title": "Limited Memory AI – The Most Common Type",
+          "content": "Limited Memory AI can learn from past experiences and store that knowledge for a limited time. This allows it to improve its performance over time. Most modern AI systems (like self-driving cars, recommendation systems, and language models) fall into this category. They use supervised, unsupervised, or reinforcement learning.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Self-Driving Cars",
+          "given": ["Self-driving cars use limited memory AI."],
+          "find": "How does limited memory AI work in self-driving cars?",
+          "steps": [
+            "The car collects data from sensors (cameras, LiDAR, radar).",
+            "It uses past driving experiences (labeled data) to train models.",
+            "It continuously updates its understanding of the environment.",
+            "It makes decisions based on current sensor data and learned patterns.",
+            "However, it does not have long-term memory of every trip."
+          ],
+          "answer": "Self-driving cars use limited memory AI to learn from past driving data and make real-time decisions.",
+          "formula_used": "AI capability classification"
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Theory of Mind AI – The Next Frontier",
+          "content": "Theory of Mind AI aims to understand human emotions, beliefs, intentions, and social interactions. It would be able to predict human behaviour and respond appropriately. This requires a deep understanding of mental states, which is currently a major challenge in AI research. This type of AI is still in the experimental stage.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "💭",
+          "title": "Self-Aware AI – The Ultimate Goal",
+          "content": "Self-aware AI would have consciousness and self-awareness. It would not only understand its own existence but also have a sense of purpose and desire. This is the highest level of AI capability and is purely hypothetical at this point. It raises profound ethical, philosophical, and safety concerns.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "AI by Functionality – Types of Systems",
+          "headers": ["Type", "Description", "Key Features", "Applications"],
+          "rows": [
+            ["Rule-based Systems", "Follows explicit rules (if-then) to make decisions.", "Transparent, easy to debug, limited to defined rules", "Expert systems, fraud detection"],
+            ["Expert Systems", "Mimics the decision-making ability of a human expert.", "Knowledge base, inference engine, rules", "Medical diagnosis, legal advisory"],
+            ["Intelligent Agents", "Perceives environment and acts autonomously.", "Autonomous, goal-oriented, adaptive", "Chatbots, trading bots, autonomous vehicles"],
+            ["Autonomous Systems", "Operates independently without human intervention.", "Self-governing, adaptive, complex", "Self-driving cars, drones, robotics"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Rule-based Systems",
+          "content": "Rule-based systems use a set of 'if-then' rules to make decisions. They are common in expert systems and fraud detection. The system processes inputs and applies rules to determine the output. They are simple, interpretable, but limited to the rules they are given.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Expert Systems",
+          "content": "Expert systems are a type of AI that mimics the decision-making ability of a human expert. They consist of a knowledge base (domain-specific facts and rules) and an inference engine (which applies rules to the facts to reach conclusions). Examples: MYCIN (medical diagnosis), DENDRAL (chemistry).",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: MYCIN Medical Expert System",
+          "given": ["MYCIN was developed in the 1970s to diagnose bacterial infections."],
+          "find": "How did MYCIN work?",
+          "steps": [
+            "MYCIN had a knowledge base of rules about bacterial infections.",
+            "Doctors input symptoms and test results.",
+            "The inference engine applied rules to the input data.",
+            "MYCIN would output a diagnosis and treatment recommendations.",
+            "It was one of the first successful expert systems."
+          ],
+          "answer": "MYCIN used a knowledge base and inference engine to diagnose bacterial infections.",
+          "formula_used": "Expert system architecture"
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Intelligent Agents",
+          "content": "Intelligent agents perceive their environment and act autonomously to achieve goals. They are reactive (respond to changes), proactive (take initiative), and social (interact with other agents). Examples: chatbots, recommendation systems, autonomous drones.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛸",
+          "title": "Autonomous Systems",
+          "content": "Autonomous systems can operate independently without human intervention. They make decisions, adapt to changes, and learn from experience. They often combine multiple AI techniques (perception, planning, learning, control). Examples: self-driving cars, unmanned aerial vehicles (UAVs), robotic process automation.",
+          "highlight": false
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All AI systems are self-aware.",
+          "wrong": "All AI systems are conscious.",
+          "correct": "Most AI today are reactive or limited-memory; self-aware AI is only hypothetical.",
+          "tip": "Current AI is far from self-awareness."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Types of AI",
+          "points": [
+            "By Capability: Reactive Machines, Limited Memory, Theory of Mind, Self-Aware.",
+            "Reactive: No memory, only current inputs.",
+            "Limited Memory: Learns from data, most common.",
+            "Theory of Mind: Understands emotions and intentions (experimental).",
+            "Self-Aware: Conscious and self-reflective (hypothetical).",
+            "By Functionality: Rule-based, Expert Systems, Intelligent Agents, Autonomous Systems."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_development_process",
+      "title": "AI Development Process – From Problem to Deployment",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI Development Process",
+          "subtitle": "Building an AI System Step-by-Step",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "process_flow",
+          "title": "AI Development Lifecycle",
+          "steps": [
+            "Step 1: Problem Identification – Define the problem clearly, set objectives, and establish success metrics.",
+            "Step 2: Data Collection – Gather relevant data from internal databases, APIs, IoT sensors, web scraping, or publicly available datasets.",
+            "Step 3: Data Preprocessing – Clean, normalize, handle missing values, remove duplicates, and perform feature engineering.",
+            "Step 4: Model Selection – Choose the appropriate algorithm or architecture (e.g., linear regression, decision tree, neural network).",
+            "Step 5: Model Training – Train the model on the training dataset, adjusting parameters to minimize error.",
+            "Step 6: Model Validation – Evaluate the model using validation data, tune hyperparameters to improve performance.",
+            "Step 7: Model Testing – Test the final model on a separate test dataset to assess generalization.",
+            "Step 8: Model Deployment – Deploy the model to a production environment (API, edge device, cloud).",
+            "Step 9: Model Monitoring – Continuously monitor model performance (accuracy, latency, drift) and set up alerts.",
+            "Step 10: Continuous Learning – Retrain the model with new data to maintain performance and adapt to changes."
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Step 1: Problem Identification",
+          "content": "This is the most critical step. Define the problem precisely, set measurable goals (e.g., 'reduce fraud detection false positives by 20%'), and determine success metrics (accuracy, precision, recall, business impact). Understand stakeholder needs and constraints.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Step 2: Data Collection",
+          "content": "Data is the foundation. Collect representative, diverse, and high-quality data. Sources: SQL databases, NoSQL stores, APIs, IoT devices, web scraping, user-generated content. Ensure data is sufficient in volume and covers all relevant scenarios.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧹",
+          "title": "Step 3: Data Preprocessing",
+          "content": "Clean and transform raw data into a usable format. Tasks: handling missing values, removing duplicates, outlier detection, normalization/standardization, encoding categorical variables, feature selection/extraction, splitting into training/validation/test sets (e.g., 70/15/15).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Step 4: Model Selection",
+          "content": "Choose the right algorithm based on the problem type: regression, classification, clustering, reinforcement learning. Consider factors: interpretability, scalability, training time, and resource constraints. Evaluate multiple models and compare performance.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "Step 5: Model Training",
+          "content": "Train the selected model on the training data. The model learns patterns by adjusting its parameters to minimize error (loss function). Use optimization techniques like gradient descent. Hyperparameters (learning rate, number of epochs) are tuned during validation.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Step 6: Model Validation",
+          "content": "Validate the model using a separate validation set. Evaluate metrics (accuracy, precision, recall, F1, ROC-AUC) and adjust hyperparameters to improve performance. Use cross-validation for robustness. Avoid overfitting by early stopping or regularization.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "✅",
+          "title": "Step 7: Model Testing",
+          "content": "After finalizing the model, test it on a completely unseen test dataset. This gives an unbiased estimate of performance. If the model fails, revisit steps 2-6. If it passes, proceed to deployment.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚀",
+          "title": "Step 8: Model Deployment",
+          "content": "Deploy the model into production. This could be as an API (REST), embedded in an application, or on edge devices. Ensure scalability, latency, security, and versioning. Use CI/CD pipelines for automated deployment.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Step 9: Model Monitoring",
+          "content": "Monitor model performance in production. Track metrics: accuracy, drift (data and concept), latency, throughput. Set up alerts for anomalies. Log predictions and inputs for audits and improvement.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Step 10: Continuous Learning",
+          "content": "AI models degrade over time (model drift). Continuously collect new data, retrain models periodically, and update to maintain performance. Implement automated pipelines for retraining (e.g., using new data, re-evaluating models).",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI Development for Fraud Detection",
+          "given": ["A bank wants to build an AI system to detect fraudulent transactions."],
+          "find": "Walk through the AI development process.",
+          "steps": [
+            "Problem: Reduce fraud losses and false positives.",
+            "Data: Historical transactions labelled as fraud/legitimate.",
+            "Preprocess: Clean data, handle missing values, normalize amounts, encode categories.",
+            "Model: Train classification algorithms (logistic regression, random forest, XGBoost).",
+            "Validate: Use cross-validation to tune hyperparameters.",
+            "Test: Evaluate on unseen test data.",
+            "Deploy: Integrate as a real-time API for transaction screening.",
+            "Monitor: Track detection rate, false positives, and drift.",
+            "Retrain: Periodically retrain with new transactions."
+          ],
+          "answer": "The fraud detection system follows a full AI development lifecycle: problem, data, preprocessing, model selection, training, validation, testing, deployment, monitoring, and continuous learning.",
+          "formula_used": "AI lifecycle application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Testing is optional if validation is done.",
+          "wrong": "Testing is not needed if you already validated the model.",
+          "correct": "Validation is for tuning; testing is for final unbiased evaluation on unseen data.",
+          "tip": "Always keep a separate test set untouched until the final model is ready."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI Development Process",
+          "points": [
+            "1. Problem Identification: Define objectives and metrics.",
+            "2. Data Collection: Gather relevant data.",
+            "3. Data Preprocessing: Clean, transform, split.",
+            "4. Model Selection: Choose the right algorithm.",
+            "5. Model Training: Train on training data.",
+            "6. Model Validation: Tune hyperparameters.",
+            "7. Model Testing: Evaluate on unseen data.",
+            "8. Model Deployment: Deploy to production.",
+            "9. Model Monitoring: Track performance and drift.",
+            "10. Continuous Learning: Retrain with new data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_intro_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Artificial Intelligence – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on AI definitions, types by capability, the AI lifecycle, and differences between AI, ML, and automation. Memorize key terms and examples.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who coined the term 'Artificial Intelligence'?",
+          "options": ["Alan Turing", "John McCarthy", "Marvin Minsky", "Ray Kurzweil"],
+          "answer": 1,
+          "explanation": "John McCarthy coined the term 'Artificial Intelligence' during the Dartmouth Conference in 1956.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of AI has no memory and can only react to current inputs?",
+          "options": ["Limited Memory AI", "Reactive Machines", "Theory of Mind AI", "Self-Aware AI"],
+          "answer": 1,
+          "explanation": "Reactive machines have no memory and only react to current inputs. Example: IBM's Deep Blue.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is an example of a self-aware AI?",
+          "options": ["ChatGPT", "Self-driving car", "Siri", "None of the above"],
+          "answer": 3,
+          "explanation": "Self-aware AI does not currently exist; it is purely hypothetical. All listed are limited memory or reactive systems.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the difference between AI and automation?",
+          "options": [
+            "AI is a subset of automation.",
+            "Automation always involves learning; AI does not.",
+            "AI adds intelligence and learning to automation.",
+            "Both are the same."
+          ],
+          "answer": 2,
+          "explanation": "Automation can be non-intelligent (e.g., simple rules), while AI adds learning and reasoning capabilities.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "In the AI lifecycle, which step involves cleaning and transforming raw data?",
+          "options": ["Data Collection", "Data Preprocessing", "Model Training", "Model Deployment"],
+          "answer": 1,
+          "explanation": "Data Preprocessing includes cleaning, normalizing, and transforming raw data into a usable format.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a component of AI?",
+          "options": ["Data", "Algorithms", "Hardware only", "Feedback mechanisms"],
+          "answer": 2,
+          "explanation": "AI components include data, algorithms, models, computing power, sensors, knowledge representation, reasoning, learning, decision-making, and feedback. Hardware alone is not sufficient.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the primary purpose of the validation step in AI development?",
+          "options": [
+            "To train the model on all data.",
+            "To evaluate final model performance.",
+            "To tune hyperparameters and avoid overfitting.",
+            "To deploy the model."
+          ],
+          "answer": 2,
+          "explanation": "Validation is used to tune hyperparameters, evaluate the model on validation data, and prevent overfitting.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of AI system uses a knowledge base and inference engine?",
+          "options": ["Rule-based Systems", "Expert Systems", "Reactive Machines", "Neural Networks"],
+          "answer": 1,
+          "explanation": "Expert systems consist of a knowledge base (facts and rules) and an inference engine to apply rules and reach conclusions.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Dartmouth Conference (1956) is significant because:",
+          "options": [
+            "It was the first AI winter.",
+            "The term 'Artificial Intelligence' was coined.",
+            "The first self-driving car was demonstrated.",
+            "The first neural network was developed."
+          ],
+          "answer": 1,
+          "explanation": "The Dartmouth Conference in 1956 is where John McCarthy coined the term 'Artificial Intelligence' and launched the field.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Continuous learning in AI development means:",
+          "options": [
+            "Training the model only once.",
+            "Retraining the model periodically with new data.",
+            "Deploying the model without monitoring.",
+            "Collecting data only at the start."
+          ],
+          "answer": 1,
+          "explanation": "Continuous learning involves retraining models periodically with new data to maintain performance and adapt to changes.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review AI definitions, the four types by capability (Reactive, Limited Memory, Theory of Mind, Self-Aware), and the AI lifecycle steps. Understand the difference between AI, ML, and automation."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Introduction to AI",
+          "points": [
+            "AI: Simulation of human intelligence.",
+            "History: Dartmouth 1956 (McCarthy).",
+            "Goals: Reasoning, learning, perception, language, motion.",
+            "AI vs Automation: AI adds intelligence.",
+            "Strong AI (AGI) vs Weak AI (Narrow AI).",
+            "Symbolic AI (rules) vs Statistical AI (data-driven).",
+            "AI Types by Capability: Reactive Machines, Limited Memory, Theory of Mind, Self-Aware.",
+            "AI Types by Functionality: Rule-based, Expert Systems, Intelligent Agents, Autonomous Systems.",
+            "AI Lifecycle: Problem → Data → Preprocessing → Model Selection → Training → Validation → Testing → Deployment → Monitoring → Continuous Learning.",
+            "Components: Data, Algorithms, Models, Computing Power, Sensors, Knowledge Representation, Reasoning, Learning, Decision-Making, Feedback."
+          ]
+        }
+      ]
+    }
+  
+  ]
+}

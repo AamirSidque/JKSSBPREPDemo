@@ -1,0 +1,739 @@
+{
+  "id": "ai_government",
+  "subject_id": "artificial_intelligence",
+  "title": "AI Applications in Government Systems",
+  "subtopics": [
+    {
+      "id": "ai_egovernance",
+      "title": "E-Governance – Smart Governance, Digital Government, Citizen Services, AI-Based Grievance Redressal, and Intelligent Public Administration",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "E-Governance and Smart Government",
+          "subtitle": "Transforming Public Administration with AI",
+          "tags": ["JKSSB", "High Weightage", "AI in Government"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "What is E-Governance?",
+          "content": "E-Governance is the use of information and communication technologies (ICT) to deliver government services, exchange information, and integrate systems across government departments. AI enhances e-governance by automating decision-making, improving service delivery, and enabling data-driven policy making.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📱",
+          "title": "Digital Government – Citizen-Centric Services",
+          "content": "Digital government uses technology to make government services more accessible, efficient, and transparent. AI enables personalized services, 24/7 availability, and faster processing. Examples: Online portals for tax filing (e.g., Income Tax Portal), passport applications, Aadhaar verification, and digital health records.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "AI-Based Grievance Redressal – Resolving Citizen Issues",
+          "content": "AI-powered systems automate the process of receiving, categorizing, and resolving citizen complaints. NLP is used to understand and classify complaints. Chatbots provide instant responses to common queries. The system tracks complaints and escalates unresolved issues automatically.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Intelligent Public Administration – Data-Driven Decision Making",
+          "content": "AI enables governments to make decisions based on data analysis rather than intuition. Applications: Resource allocation optimization, budget forecasting, policy impact analysis, and fraud detection in welfare schemes.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in E-Governance",
+          "headers": ["Application", "Description", "AI Techniques"],
+          "rows": [
+            ["Digital Citizen Services", "Online portals for government services", "NLP, chatbots, recommendation systems"],
+            ["Grievance Redressal", "Automated complaint resolution", "NLP, sentiment analysis, classification"],
+            ["Public Administration", "Data-driven policy making", "Analytics, forecasting, optimization"],
+            ["Fraud Detection", "Detect fraud in welfare schemes", "Anomaly detection, pattern recognition"],
+            ["Knowledge Management", "Manage government records", "Information retrieval, NLP"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI-Based Grievance Redressal System",
+          "given": ["A city government implements an AI-based system to handle citizen complaints."],
+          "find": "How does the system work?",
+          "steps": [
+            "Citizens submit complaints via a mobile app, email, or web portal.",
+            "NLP processes the complaint, extracting intent and entities (type, location).",
+            "The system classifies the complaint and routes it to the correct department.",
+            "Common queries are answered instantly by a chatbot.",
+            "Status updates are sent to the citizen automatically.",
+            "Escalations occur if the complaint is not resolved within a timeframe."
+          ],
+          "answer": "AI automates complaint processing, classification, and resolution.",
+          "formula_used": "Grievance redressal analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: E-Governance only means online portals.",
+          "wrong": "E-Governance is just about creating government websites.",
+          "correct": "E-Governance includes online services, automation, analytics, and citizen engagement.",
+          "tip": "E-Governance is broader than just websites; it includes automation, analytics, and citizen interaction."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – E-Governance",
+          "points": [
+            "E-Governance uses ICT to deliver government services.",
+            "AI enhances service delivery, transparency, and efficiency.",
+            "Digital government: Citizen-centric online services.",
+            "Grievance redressal: AI automates complaint resolution.",
+            "Intelligent public administration: Data-driven decision-making."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_healthcare",
+      "title": "AI in Healthcare – Disease Prediction, Medical Imaging, Telemedicine, and Drug Discovery",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Healthcare",
+          "subtitle": "Revolutionizing Medicine and Patient Care",
+          "tags": ["JKSSB", "High Weightage", "AI in Government"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏥",
+          "title": "Disease Prediction – Early Detection and Prevention",
+          "content": "AI models analyze patient data (medical history, genetics, lifestyle, and test results) to predict the risk of diseases. Early detection improves outcomes and reduces treatment costs. Applications: Diabetes prediction, cardiovascular risk assessment, cancer screening, and mental health risk prediction.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🖼️",
+          "title": "Medical Imaging – AI-Powered Diagnosis",
+          "content": "AI, especially CNNs, is used to analyze medical images (X-rays, CT scans, MRI, pathology slides). It detects anomalies faster and often more accurately than human radiologists. Applications: Breast cancer detection (mammograms), lung disease detection (chest X-rays), brain tumor detection (MRI), and diabetic retinopathy detection.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📹",
+          "title": "Telemedicine – Remote Healthcare Delivery",
+          "content": "AI powers telemedicine platforms, enabling remote consultations, diagnosis, and monitoring. Features: Symptom checking chatbots, remote patient monitoring (vital signs), and AI-assisted diagnosis. It improves access to healthcare in rural and underserved areas.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💊",
+          "title": "Drug Discovery – Accelerating Pharmaceutical Research",
+          "content": "AI accelerates drug discovery by predicting drug-protein interactions, screening compounds, and optimizing molecular structures. It reduces the time and cost of bringing new drugs to market. Applications: COVID-19 drug repurposing, cancer drug discovery, and protein folding prediction (AlphaFold).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in Healthcare",
+          "headers": ["Application", "Description", "AI Techniques"],
+          "rows": [
+            ["Disease Prediction", "Predict disease risk from patient data", "ML, logistic regression, deep learning"],
+            ["Medical Imaging", "Detect anomalies in images", "CNN, transfer learning, computer vision"],
+            ["Telemedicine", "Remote diagnosis and monitoring", "NLP, chatbots, signal processing"],
+            ["Drug Discovery", "Predict and optimize drug candidates", "Molecular modeling, GNNs, reinforcement learning"],
+            ["Personalized Medicine", "Tailor treatments to individual patients", "ML, genomics, data analytics"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI in Cancer Detection",
+          "given": ["An AI system analyzes mammograms for breast cancer detection."],
+          "find": "How does the AI system work?",
+          "steps": [
+            "Thousands of labelled mammogram images are used to train a CNN.",
+            "The CNN learns to identify patterns associated with cancerous tissue.",
+            "The trained model analyzes new mammograms.",
+            "It flags suspicious regions for radiologists to review.",
+            "AI helps reduce false negatives and improves early detection."
+          ],
+          "answer": "AI detects cancer by learning patterns from labelled medical images.",
+          "formula_used": "Medical imaging AI analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI will replace doctors.",
+          "wrong": "AI will completely replace human doctors.",
+          "correct": "AI assists doctors by providing faster and more accurate analysis; human oversight remains essential.",
+          "tip": "AI augments, not replaces, medical professionals."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Healthcare",
+          "points": [
+            "Disease Prediction: Early detection using patient data.",
+            "Medical Imaging: AI detects anomalies in X-rays, CT scans, and MRIs.",
+            "Telemedicine: Remote consultations and monitoring.",
+            "Drug Discovery: Accelerates pharmaceutical research.",
+            "AI improves accuracy, speed, and access to healthcare."
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+    {
+      "id": "ai_agriculture",
+      "title": "AI in Agriculture – Precision Farming, Crop Monitoring, Pest Detection, Yield Prediction, and Smart Irrigation",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Agriculture",
+          "subtitle": "Feeding the Future with Intelligent Farming",
+          "tags": ["JKSSB", "High Weightage", "AI in Government"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌾",
+          "title": "Precision Farming – Optimizing Agriculture",
+          "content": "Precision farming uses AI to optimize agricultural practices at a granular level. It analyzes data from sensors, satellites, and drones to guide planting, fertilizing, and harvesting decisions. AI ensures that crops get exactly what they need (water, nutrients) when they need it, reducing waste and increasing yields.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛰️",
+          "title": "Crop Monitoring – Satellite and Drone Analytics",
+          "content": "AI analyzes satellite and drone imagery to monitor crop health. It detects stress due to water, nutrient deficiency, or diseases. Using computer vision and spectral analysis, it identifies problem areas in fields. It provides early warnings and recommendations for corrective action.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🐛",
+          "title": "Pest Detection – Early Warning Systems",
+          "content": "AI detects pests and diseases using image recognition and sensor data. Cameras trap images of insects, and AI identifies species. It predicts outbreaks and recommends targeted treatments. This reduces pesticide use and protects crops.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Yield Prediction – Forecasting Crop Production",
+          "content": "AI models predict crop yields using historical data (weather, soil, satellite images, and past yields). Accurate yield prediction helps farmers plan harvests, logistics, and marketing. Governments use it for food security planning and policy making.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💧",
+          "title": "Smart Irrigation – Water Conservation",
+          "content": "AI optimizes irrigation by analyzing soil moisture, weather forecasts, and crop water needs. It controls irrigation systems (drip, sprinkler) to provide water only when needed. It reduces water wastage, lowers costs, and prevents waterlogging and salinization.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in Agriculture",
+          "headers": ["Application", "Description", "AI Techniques"],
+          "rows": [
+            ["Precision Farming", "Optimize planting, fertilizing, harvesting", "ML, IoT, computer vision"],
+            ["Crop Monitoring", "Monitor crop health from satellites/drones", "CNN, spectral analysis"],
+            ["Pest Detection", "Identify pests and diseases", "Image recognition, CNNs"],
+            ["Yield Prediction", "Forecast crop production", "ML, time series analysis, regression"],
+            ["Smart Irrigation", "Optimize water usage", "ML, IoT, predictive analytics"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI in Precision Farming",
+          "given": ["A farmer uses AI to manage a large wheat farm."],
+          "find": "How does precision farming help?",
+          "steps": [
+            "Drones capture images of the farm.",
+            "AI analyzes the images to detect areas with nutrient deficiencies.",
+            "It recommends variable-rate fertilizing (applying different amounts in different areas).",
+            "It predicts optimal planting times based on weather forecasts.",
+            "It identifies pest hotspots and recommends targeted pesticide application.",
+            "Yield predictions help plan harvest and sales."
+          ],
+          "answer": "Precision farming optimizes every aspect of farming using AI, increasing yield and reducing waste.",
+          "formula_used": "Precision farming analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Precision farming is only for large farms.",
+          "wrong": "Precision farming can only be used on large farms.",
+          "correct": "Precision farming can be scaled to small and medium farms using cost-effective sensors and drones.",
+          "tip": "AI in agriculture is increasingly accessible and scalable."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Agriculture",
+          "points": [
+            "Precision Farming: Optimizes planting, fertilizing, harvesting.",
+            "Crop Monitoring: Satellite/drone analysis for crop health.",
+            "Pest Detection: Early warning and targeted treatment.",
+            "Yield Prediction: Forecasting crop production.",
+            "Smart Irrigation: Water conservation using AI.",
+            "AI improves productivity, reduces waste, and supports sustainability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_education",
+      "title": "AI in Education – Adaptive Learning, Intelligent Tutoring Systems, and Automated Assessment",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Education",
+          "subtitle": "Personalized Learning and Intelligent Assessment",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "Adaptive Learning – Personalized Education",
+          "content": "Adaptive learning uses AI to tailor educational content to individual students. It adjusts the difficulty, pace, and style of content based on a student's performance. It identifies strengths and weaknesses and provides targeted practice. Platforms: Khan Academy, Duolingo, Coursera.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "Intelligent Tutoring Systems – AI Tutors",
+          "content": "Intelligent tutoring systems (ITS) provide personalized instruction and feedback to students. They simulate one-on-one tutoring. They monitor student progress, identify misconceptions, and offer explanations. Examples: Carnegie Learning, Cognitive Tutor.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "Automated Assessment – AI-Powered Grading",
+          "content": "AI automates the grading of assignments and exams. It can grade objective questions (MCQs) and subjective answers using NLP. It provides instant feedback to students. Applications: Essay grading, code evaluation (e.g., coding platforms), and plagiarism detection.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in Education",
+          "headers": ["Application", "Description", "AI Techniques"],
+          "rows": [
+            ["Adaptive Learning", "Personalized content delivery", "ML, reinforcement learning"],
+            ["Intelligent Tutoring", "Personalized instruction and feedback", "NLP, ML, knowledge tracing"],
+            ["Automated Assessment", "AI-powered grading", "NLP, deep learning, pattern matching"],
+            ["Learning Analytics", "Track and analyze student progress", "Analytics, visualization"],
+            ["Content Recommendation", "Recommend learning materials", "Recommendation systems"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Intelligent Tutoring in Math",
+          "given": ["A student uses an AI-powered math tutoring system."],
+          "find": "How does the system help the student learn?",
+          "steps": [
+            "The student answers a series of math questions.",
+            "The system tracks correctness, time taken, and patterns of errors.",
+            "It identifies the student's weak areas (e.g., fractions).",
+            "It provides targeted exercises on fractions with step-by-step explanations.",
+            "It adapts difficulty based on the student's progress.",
+            "The student receives immediate feedback and explanations."
+          ],
+          "answer": "Intelligent tutoring provides personalized instruction and feedback.",
+          "formula_used": "Intelligent tutoring system analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Automated assessment can only grade MCQs.",
+          "wrong": "AI can only grade multiple-choice questions.",
+          "correct": "AI can grade subjective answers (essays, coding) using NLP and deep learning.",
+          "tip": "AI grading is advancing rapidly and can handle complex responses."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Education",
+          "points": [
+            "Adaptive Learning: Personalizes content based on performance.",
+            "Intelligent Tutoring: Provides one-on-one instruction.",
+            "Automated Assessment: AI-powered grading for assignments and exams.",
+            "AI improves accessibility, personalization, and efficiency in education."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_transportation",
+      "title": "AI in Transportation – Smart Traffic Management, Intelligent Transportation Systems, and Autonomous Vehicles",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Transportation",
+          "subtitle": "Smarter Traffic, Safer Roads, and Autonomous Mobility",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚦",
+          "title": "Smart Traffic Management – Reducing Congestion",
+          "content": "AI optimizes traffic flow by analyzing real-time data from cameras, sensors, and GPS. It controls traffic signals, recommends alternate routes, and predicts congestion. Applications: Adaptive traffic signals (e.g., in smart cities), incident detection, and traffic prediction (Google Maps).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏙️",
+          "title": "Intelligent Transportation Systems (ITS) – Integrated Mobility",
+          "content": "ITS uses AI and communication technologies to improve transportation safety, efficiency, and sustainability. Components: Smart traffic signals, dynamic message signs, automated toll collection, and public transport optimization (scheduling and routing).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚗",
+          "title": "Autonomous Vehicles – Self-Driving Cars",
+          "content": "Autonomous vehicles use AI to navigate roads without human intervention. They combine computer vision, LiDAR, radar, GPS, and deep learning to perceive their environment. They are expected to reduce accidents and improve mobility. Levels: Level 0 (no automation) to Level 5 (full autonomy).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in Transportation",
+          "headers": ["Application", "Description", "AI Techniques"],
+          "rows": [
+            ["Smart Traffic Management", "Optimize traffic signals and routes", "ML, reinforcement learning, computer vision"],
+            ["ITS", "Integrated mobility systems", "ML, optimization, IoT"],
+            ["Autonomous Vehicles", "Self-driving navigation", "CNN, LiDAR, radar, deep learning"],
+            ["Predictive Maintenance", "Maintain infrastructure", "Anomaly detection, ML"],
+            ["Public Transport Optimization", "Optimize schedules and routes", "Optimization, ML"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Autonomous Vehicle Navigation",
+          "given": ["A self-driving car navigates through city traffic."],
+          "find": "How does the car sense and respond to its environment?",
+          "steps": [
+            "Sensors: Cameras, LiDAR, radar, and GPS collect data.",
+            "Computer vision detects objects (pedestrians, vehicles, traffic signs).",
+            "Path planning: AI calculates the optimal route and trajectory.",
+            "Control: The car accelerates, brakes, and steers based on decisions.",
+            "Machine learning improves driving performance over time."
+          ],
+          "answer": "Autonomous vehicles use AI for perception, planning, and control.",
+          "formula_used": "Autonomous vehicle analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Autonomous vehicles are already at Level 5.",
+          "wrong": "Fully autonomous vehicles (Level 5) are widely available.",
+          "correct": "Most autonomous vehicles are at Level 2-4; Level 5 (full autonomy) is still in development.",
+          "tip": "Level 5 autonomy is not yet commercially available."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Transportation",
+          "points": [
+            "Smart Traffic Management: AI optimizes signals, routes, and congestion.",
+            "ITS: Integrated systems for safety and efficiency.",
+            "Autonomous Vehicles: Self-driving cars (Level 0-5).",
+            "AI improves safety, reduces congestion, and enables autonomous mobility."
+          ]
+        }
+      ]
+    },
+
+    
+    {
+      "id": "ai_disaster_management",
+      "title": "AI in Disaster Management – Flood Prediction, Earthquake Monitoring, Early Warning Systems, and Resource Allocation",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Disaster Management",
+          "subtitle": "Predicting, Preparing, and Responding to Disasters",
+          "tags": ["JKSSB", "High Weightage", "AI in Government"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌊",
+          "title": "Flood Prediction – Forecasting Natural Disasters",
+          "content": "AI models predict floods by analyzing weather data, river levels, rainfall patterns, and satellite imagery. Machine learning and deep learning models forecast water levels and predict flood events. Early warnings allow authorities to evacuate people and minimize damage.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Earthquake Monitoring – Seismic Data Analysis",
+          "content": "AI analyzes seismic data to detect and monitor earthquakes. It identifies patterns that precede earthquakes. It can estimate magnitude and epicenter quickly. Real-time analysis helps in issuing warnings and coordinating response.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📢",
+          "title": "Early Warning Systems – Automated Alerts",
+          "content": "AI-powered early warning systems analyze data from multiple sources (weather, seismic, satellite) and automatically issue alerts. They send notifications via mobile apps, SMS, and public address systems. They reduce response time and save lives.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "Resource Allocation – Optimizing Relief Efforts",
+          "content": "AI optimizes resource allocation during disasters. It analyzes data on affected areas, population density, and damage extent. It recommends where to send rescue teams, food, water, and medical supplies. It helps avoid resource wastage and ensures efficient distribution.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in Disaster Management",
+          "headers": ["Application", "Description", "AI Techniques"],
+          "rows": [
+            ["Flood Prediction", "Forecast floods using weather and satellite data", "ML, time series analysis, CNNs"],
+            ["Earthquake Monitoring", "Detect and analyze seismic activity", "Signal processing, pattern recognition"],
+            ["Early Warning Systems", "Automated alert generation", "Anomaly detection, predictive modeling"],
+            ["Resource Allocation", "Optimize relief distribution", "Optimization, geospatial analysis"],
+            ["Damage Assessment", "Assess damage from satellite/drone images", "Computer vision, CNNs"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI in Flood Prediction",
+          "given": ["An AI system predicts floods in a river basin."],
+          "find": "How does the AI predict floods?",
+          "steps": [
+            "Data: Historical rainfall, river water levels, weather forecasts, and satellite imagery.",
+            "ML models learn patterns between data and flood events.",
+            "Real-time data is fed into the model.",
+            "The model predicts water levels for the next 24-72 hours.",
+            "If water levels exceed a threshold, an alert is issued.",
+            "Authorities evacuate vulnerable areas and prepare for response."
+          ],
+          "answer": "AI predicts floods by analyzing historical and real-time data.",
+          "formula_used": "Flood prediction analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Early warning systems are always accurate.",
+          "wrong": "AI early warning systems are 100% accurate.",
+          "correct": "AI systems provide probabilistic forecasts; false positives and false negatives are possible.",
+          "tip": "AI warnings should be validated with human expertise."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Disaster Management",
+          "points": [
+            "Flood Prediction: Forecasts floods using ML and satellite data.",
+            "Earthquake Monitoring: Detects and analyzes seismic activity.",
+            "Early Warning Systems: Automated alerts for timely response.",
+            "Resource Allocation: Optimizes relief efforts.",
+            "AI saves lives by providing early warnings and efficient response."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_finance",
+      "title": "AI in Finance – Fraud Detection, Credit Scoring, Tax Compliance, and Financial Analytics",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Finance",
+          "subtitle": "Securing, Analyzing, and Automating Financial Systems",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "Fraud Detection – Identifying Anomalies",
+          "content": "AI detects fraudulent transactions by analyzing patterns and anomalies. Machine learning models are trained on historical transaction data to distinguish legitimate and fraudulent transactions. Techniques: Anomaly detection, classification models (random forest, neural networks).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Credit Scoring – Assessing Risk",
+          "content": "AI improves credit scoring by analyzing alternative data sources (transaction history, social behavior, payment records). It assesses creditworthiness more accurately and reduces bias. Techniques: ML classification, logistic regression, gradient boosting.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Tax Compliance – AI-Powered Auditing",
+          "content": "AI helps governments detect tax evasion and improve tax compliance. It analyzes financial data to identify inconsistencies and potential fraud. AI-powered tax systems calculate liabilities, automate filing, and flag suspicious returns.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Financial Analytics – Data-Driven Insights",
+          "content": "AI analyzes financial data to provide insights for policy making, investment, and economic planning. Applications: GDP forecasting, inflation prediction, market trend analysis, and budget optimization.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Applications in Finance",
+          "headers": ["Application", "Description", "AI Techniques"],
+          "rows": [
+            ["Fraud Detection", "Detect fraudulent transactions", "Anomaly detection, classification"],
+            ["Credit Scoring", "Assess creditworthiness", "ML classification, logistic regression"],
+            ["Tax Compliance", "Detect evasion and improve compliance", "Pattern recognition, ML"],
+            ["Financial Analytics", "Data-driven policy making", "ML, time series analysis"],
+            ["Algorithmic Trading", "Automated trading decisions", "Reinforcement learning, time series"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: AI in Credit Scoring",
+          "given": ["A bank uses AI to assess loan applicants."],
+          "find": "How does AI-based credit scoring work?",
+          "steps": [
+            "The applicant's financial data is collected (income, expenses, history).",
+            "The ML model analyzes patterns and assesses risk.",
+            "It generates a credit score and a decision (approve/reject).",
+            "AI reduces bias and improves accuracy.",
+            "It enables faster processing of loan applications."
+          ],
+          "answer": "AI assesses credit risk based on financial data, improving accuracy and fairness.",
+          "formula_used": "Credit scoring analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI in finance is only for large institutions.",
+          "wrong": "AI is only accessible to large financial institutions.",
+          "correct": "AI solutions are increasingly accessible to small banks, fintechs, and governments.",
+          "tip": "AI in finance is democratizing."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI in Finance",
+          "points": [
+            "Fraud Detection: Identifies anomalies in transactions.",
+            "Credit Scoring: Assesses risk accurately.",
+            "Tax Compliance: Detects evasion and improves compliance.",
+            "Financial Analytics: Data-driven policy making and forecasting.",
+            "AI improves security, efficiency, and decision-making."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_government_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI in Government – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on applications in e-governance, healthcare, agriculture, education, transportation, disaster management, and finance. Understand the role of AI in improving public services.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in government helps resolve citizen complaints automatically?",
+          "options": ["Smart grids", "Grievance redressal", "Digital twins", "Predictive maintenance"],
+          "answer": 1,
+          "explanation": "AI-based grievance redressal systems automate complaint processing and resolution.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI technique is used for detecting tumors in medical imaging?",
+          "options": ["RNN", "CNN", "SVM", "K-Means"],
+          "answer": 1,
+          "explanation": "Convolutional Neural Networks (CNNs) are widely used for medical image analysis.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in agriculture monitors crop health using satellite imagery?",
+          "options": ["Smart irrigation", "Yield prediction", "Crop monitoring", "Pest detection"],
+          "answer": 2,
+          "explanation": "Crop monitoring uses satellite and drone imagery to assess crop health.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in education personalizes content based on student performance?",
+          "options": ["Automated assessment", "Adaptive learning", "Learning analytics", "Intelligent tutoring"],
+          "answer": 1,
+          "explanation": "Adaptive learning adjusts content based on individual student performance.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in transportation uses real-time data to manage traffic signals?",
+          "options": ["Autonomous vehicles", "Smart traffic management", "ITS", "Predictive maintenance"],
+          "answer": 1,
+          "explanation": "Smart traffic management uses AI to optimize traffic signals and reduce congestion.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in disaster management predicts floods using weather data?",
+          "options": ["Earthquake monitoring", "Flood prediction", "Early warning systems", "Resource allocation"],
+          "answer": 1,
+          "explanation": "Flood prediction uses AI to forecast floods based on weather and river data.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in finance detects fraudulent transactions?",
+          "options": ["Credit scoring", "Tax compliance", "Fraud detection", "Financial analytics"],
+          "answer": 2,
+          "explanation": "Fraud detection uses AI to identify anomalies in transactions.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in healthcare enables remote consultations and monitoring?",
+          "options": ["Medical imaging", "Disease prediction", "Telemedicine", "Drug discovery"],
+          "answer": 2,
+          "explanation": "Telemedicine uses AI for remote diagnosis, consultation, and monitoring.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in agriculture predicts crop production using historical data?",
+          "options": ["Precision farming", "Yield prediction", "Pest detection", "Smart irrigation"],
+          "answer": 1,
+          "explanation": "Yield prediction uses ML to forecast crop production.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI application in government helps in tax evasion detection?",
+          "options": ["Fraud detection", "Tax compliance", "Credit scoring", "Financial analytics"],
+          "answer": 1,
+          "explanation": "AI-powered tax compliance detects evasion and improves tax collection.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review AI applications in e-governance, healthcare, agriculture, education, transportation, disaster management, and finance. Understand the technologies and benefits.",
+          "points": [
+            "E-Governance: Digital citizen services, grievance redressal.",
+            "Healthcare: Disease prediction, medical imaging, telemedicine, drug discovery.",
+            "Agriculture: Precision farming, crop monitoring, pest detection, yield prediction.",
+            "Education: Adaptive learning, intelligent tutoring, automated assessment.",
+            "Transportation: Smart traffic, ITS, autonomous vehicles.",
+            "Disaster Management: Flood prediction, earthquake monitoring, early warning systems.",
+            "Finance: Fraud detection, credit scoring, tax compliance, financial analytics."
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+

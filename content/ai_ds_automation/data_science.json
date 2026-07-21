@@ -1,0 +1,553 @@
+{
+  "id": "data_science",
+  "subject_id": "artificial_intelligence",
+  "title": "Data Science Fundamentals",
+  "subtopics": [
+    {
+      "id": "ds_introduction",
+      "title": "Introduction to Data Science – Definition, Importance, and Lifecycle",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Introduction to Data Science",
+          "subtitle": "Extracting Insights from Data",
+          "tags": ["JKSSB", "High Weightage", "Data Science"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What is Data Science?",
+          "content": "Data Science is an interdisciplinary field that uses scientific methods, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It combines statistics, computer science, and domain expertise to solve complex problems and drive decision-making.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💡",
+          "title": "Importance of Data Science",
+          "content": "1. **Decision Making**: Data-driven decisions are more accurate and objective.\n2. **Predictive Insights**: Forecast trends, customer behavior, and risks.\n3. **Efficiency**: Automates processes and optimizes operations.\n4. **Innovation**: Enables new products, services, and business models.\n5. **Competitive Advantage**: Organizations that use data effectively outperform competitors.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Data Science Lifecycle – The End-to-End Process",
+          "content": "The Data Science lifecycle consists of the following stages:\n1. **Problem Definition**: Understand the business problem and objectives.\n2. **Data Collection**: Gather relevant data from various sources.\n3. **Data Preparation**: Clean, transform, and organize data.\n4. **Exploratory Data Analysis (EDA)**: Visualize and explore data to find patterns.\n5. **Model Building**: Apply machine learning or statistical models.\n6. **Model Evaluation**: Assess performance and validate results.\n7. **Deployment**: Integrate the model into production.\n8. **Monitoring**: Track performance and update as needed.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Data Science in Business",
+          "given": ["A retail company uses data science to improve sales."],
+          "find": "Walk through the data science lifecycle.",
+          "steps": [
+            "Problem: Increase sales and customer retention.",
+            "Data: Collect customer purchase history, demographics, and online behavior.",
+            "Prepare: Clean and merge data from different sources.",
+            "EDA: Identify trends (seasonal patterns, popular products).",
+            "Model: Build a recommendation system (collaborative filtering).",
+            "Evaluate: Measure click-through rate and sales uplift.",
+            "Deploy: Integrate the system into the website.",
+            "Monitor: Track performance and retrain with new data."
+          ],
+          "answer": "Data science lifecycle helps businesses improve sales through data-driven recommendations.",
+          "formula_used": "Data science lifecycle analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Data science is only about machine learning.",
+          "wrong": "Data science is only about applying ML models.",
+          "correct": "Data science includes problem definition, data collection, cleaning, visualization, modeling, deployment, and monitoring.",
+          "tip": "ML is a part of data science, but not the whole picture."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Introduction to Data Science",
+          "points": [
+            "Data science extracts insights from data using statistics, ML, and domain expertise.",
+            "Importance: Better decisions, predictions, efficiency, and innovation.",
+            "Data Science Lifecycle: Problem → Data → Prep → EDA → Model → Evaluate → Deploy → Monitor."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ds_data_types",
+      "title": "Data Types – Structured, Semi-Structured, and Unstructured Data",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Data Types",
+          "subtitle": "Understanding the Nature of Data",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Structured Data",
+          "content": "Structured data is highly organized and easily searchable. It is stored in a fixed format (rows and columns). Typically found in relational databases. Examples: Customer records (names, addresses, phone numbers), sales data, transaction logs.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📄",
+          "title": "Semi-Structured Data",
+          "content": "Semi-structured data has some organizational properties but does not fit neatly into a rigid schema. It contains tags or markers to separate semantic elements. Examples: JSON, XML, HTML, emails (with subject, body, attachments), log files.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📁",
+          "title": "Unstructured Data",
+          "content": "Unstructured data does not have a predefined data model or is not organized in a predefined manner. It is the most common type of data and is difficult to analyze using traditional methods. Examples: Text documents, emails, social media posts, images, videos, audio files, PDFs.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Data Types – Comparison",
+          "headers": ["Type", "Definition", "Examples", "Storage", "Analysis Difficulty"],
+          "rows": [
+            ["Structured", "Fixed format, rows and columns", "SQL databases, Excel sheets", "Relational databases", "Low"],
+            ["Semi-Structured", "Flexible format, some organization", "JSON, XML, HTML", "NoSQL, file systems", "Medium"],
+            ["Unstructured", "No predefined format", "Text, images, audio, video", "Object storage, data lakes", "High"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Data Types in E-Commerce",
+          "given": ["An e-commerce platform collects various types of data."],
+          "find": "Classify the data types.",
+          "steps": [
+            "Structured Data: Order details, customer profiles, inventory records.",
+            "Semi-Structured Data: Product descriptions in JSON or XML format.",
+            "Unstructured Data: Customer reviews (text), product images, and videos."
+          ],
+          "answer": "E-commerce data includes structured, semi-structured, and unstructured data.",
+          "formula_used": "Data type classification"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Semi-structured data is the same as unstructured.",
+          "wrong": "Semi-structured and unstructured data are the same.",
+          "correct": "Semi-structured data has some organization (tags), while unstructured data has no predefined format.",
+          "tip": "Semi-structured = some structure; Unstructured = no structure."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Data Types",
+          "points": [
+            "Structured: Fixed format, rows and columns (SQL databases).",
+            "Semi-Structured: Tags/markers, some organization (JSON, XML).",
+            "Unstructured: No predefined format (text, images, audio, video).",
+            "Understanding data types is essential for choosing storage and analysis methods."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ds_data_collection",
+      "title": "Data Collection – Databases, APIs, IoT Sensors, Surveys, and Web Scraping",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Data Collection",
+          "subtitle": "Gathering Data for Analysis",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗄️",
+          "title": "Databases – Structured Data Repositories",
+          "content": "Databases are organized collections of data. Types: \n1. **Relational (SQL)**: Structured data (MySQL, PostgreSQL, Oracle).\n2. **Non-Relational (NoSQL)**: Semi-structured/unstructured (MongoDB, Cassandra, Redis).\nData is extracted using SQL queries or API calls.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "APIs (Application Programming Interfaces)",
+          "content": "APIs allow applications to exchange data programmatically. They provide structured access to data from services (social media, weather, finance). Data is typically returned in JSON or XML format. Authentication (API keys) is often required.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "IoT Sensors – Real-Time Data",
+          "content": "IoT sensors collect data from the physical world. Examples: Temperature sensors, GPS, cameras, accelerometers. Data is sent to cloud platforms for storage and analysis. Applications: Smart homes, industrial monitoring, agriculture.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Surveys – Human-Generated Data",
+          "content": "Surveys collect data directly from people. They are used for market research, feedback, and public opinion. Tools: Google Forms, SurveyMonkey, Qualtrics. Data is often stored as structured data for analysis.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕸️",
+          "title": "Web Scraping – Extracting Data from Websites",
+          "content": "Web scraping is the process of extracting data from websites. It uses automated scripts to parse HTML and extract structured data. Libraries: BeautifulSoup (Python), Selenium, Scrapy. Legal considerations: Terms of Service, robots.txt.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Data Collection Methods – Comparison",
+          "headers": ["Method", "Description", "Data Type", "Key Tools"],
+          "rows": [
+            ["Databases", "Organized data storage", "Structured/Semi-structured", "SQL, NoSQL"],
+            ["APIs", "Programmatic data exchange", "Structured", "REST, GraphQL"],
+            ["IoT Sensors", "Real-time physical data", "Structured/Unstructured", "MQTT, Kafka"],
+            ["Surveys", "Human-generated responses", "Structured", "Google Forms, SurveyMonkey"],
+            ["Web Scraping", "Extract from websites", "Structured", "BeautifulSoup, Scrapy"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Data Collection for a Weather App",
+          "given": ["A company builds a weather app."],
+          "find": "How do they collect weather data?",
+          "steps": [
+            "Use APIs: Weather data providers (OpenWeatherMap, WeatherAPI) provide real-time weather data via REST APIs.",
+            "IoT Sensors: Government weather stations collect temperature, humidity, and wind speed.",
+            "Databases: Historical weather data is stored in databases for analysis.",
+            "The app aggregates data from multiple sources for accurate forecasts."
+          ],
+          "answer": "Weather apps collect data from APIs, IoT sensors, and databases.",
+          "formula_used": "Data collection analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Web scraping is always legal.",
+          "wrong": "Web scraping is always legal and allowed.",
+          "correct": "Web scraping must comply with terms of service and robots.txt; some websites prohibit scraping.",
+          "tip": "Always check legal and ethical considerations before scraping."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Data Collection",
+          "points": [
+            "Databases: Structured data repositories (SQL/NoSQL).",
+            "APIs: Programmatic data exchange (JSON/XML).",
+            "IoT Sensors: Real-time physical data.",
+            "Surveys: Human-generated responses.",
+            "Web Scraping: Extracting data from websites.",
+            "Choose the right method based on data type and source."
+          ]
+        }
+      ]
+    },
+
+
+
+
+    {
+      "id": "ds_data_cleaning",
+      "title": "Data Cleaning – Missing Values, Duplicate Removal, Outlier Detection, and Feature Engineering",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Data Cleaning",
+          "subtitle": "Preparing Data for Analysis",
+          "tags": ["JKSSB", "High Weightage", "Data Science"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧹",
+          "title": "What is Data Cleaning?",
+          "content": "Data cleaning (or data cleansing) is the process of identifying and correcting errors, inconsistencies, and inaccuracies in data. It is a critical step in the data science lifecycle. 'Garbage in, garbage out' – the quality of insights depends on the quality of data.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "❓",
+          "title": "Handling Missing Values",
+          "content": "Missing values are common in datasets. Strategies:\n1. **Deletion**: Remove rows or columns with missing values (if missing percentage is low).\n2. **Imputation**: Replace missing values with a statistic (mean, median, mode).\n3. **Interpolation**: Estimate missing values based on neighboring values.\n4. **Prediction**: Use ML to predict missing values.\n5. **Flagging**: Add a flag column to indicate missing data.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Duplicate Removal – Eliminating Redundancy",
+          "content": "Duplicates are identical or near-identical records. They can skew analysis and model performance. Steps:\n1. **Identify Duplicates**: Find rows with identical values (or subset of columns).\n2. **Remove Duplicates**: Keep the first occurrence (or aggregate).\n3. **Deduplicate Similar Records**: Use fuzzy matching for near-duplicates.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Outlier Detection – Identifying Anomalies",
+          "content": "Outliers are data points that deviate significantly from the rest. They can be caused by errors or rare events. Methods:\n1. **Statistical Methods**: Z-score, IQR (Interquartile Range).\n2. **Visual Methods**: Box plots, scatter plots.\n3. **Machine Learning**: Isolation Forest, DBSCAN.\n4. **Treatment**: Remove, transform (log), or cap (winsorize).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔧",
+          "title": "Feature Engineering – Creating Better Features",
+          "content": "Feature engineering is the process of creating new features from raw data to improve model performance. Techniques:\n1. **Transformation**: Log, square root, Box-Cox.\n2. **Encoding**: One-hot encoding, label encoding for categorical variables.\n3. **Scaling**: Normalization (min-max) and Standardization (z-score).\n4. **Interaction**: Product of two features.\n5. **Polynomial Features**: Square, cube, etc.\n6. **Domain-Specific**: Ratios, differences, aggregations.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Data Cleaning Techniques – Overview",
+          "headers": ["Technique", "Purpose", "Methods", "When to Use"],
+          "rows": [
+            ["Missing Values", "Fill or remove missing data", "Mean/median imputation, deletion, ML prediction", "Any dataset with missing values"],
+            ["Duplicate Removal", "Remove redundant records", "Full duplicate, fuzzy matching", "When duplicate records exist"],
+            ["Outlier Detection", "Identify and handle anomalies", "IQR, Z-score, Isolation Forest", "When data has extreme values"],
+            ["Feature Engineering", "Create new features", "Transformations, encoding, interactions", "To improve model performance"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Data Cleaning in a Customer Dataset",
+          "given": ["A company has a customer dataset with missing values, duplicates, and outliers."],
+          "find": "Apply data cleaning steps.",
+          "steps": [
+            "Missing Values: Fill missing age with median age.",
+            "Duplicates: Identify and remove duplicate customer IDs.",
+            "Outliers: Detect and remove income outliers (using IQR).",
+            "Feature Engineering: Create a new feature 'income_per_age'.",
+            "After cleaning, the dataset is ready for analysis."
+          ],
+          "answer": "Data cleaning improves data quality by handling missing values, duplicates, outliers, and creating new features.",
+          "formula_used": "Data cleaning process"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Dropping missing values is always the best option.",
+          "wrong": "Dropping missing values is always the best approach.",
+          "correct": "Dropping can lead to information loss; imputation is often better.",
+          "tip": "Consider the percentage of missing values and the importance of the variable."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Data Cleaning",
+          "points": [
+            "Data cleaning is essential for high-quality analysis.",
+            "Missing Values: Deletion, imputation, interpolation, prediction.",
+            "Duplicates: Identify and remove redundant records.",
+            "Outliers: Detect and handle using IQR, Z-score, or ML.",
+            "Feature Engineering: Create new features to improve models."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ds_data_visualization",
+      "title": "Data Visualization – Charts, Dashboards, Business Intelligence, and Storytelling",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Data Visualization",
+          "subtitle": "Communicating Insights Effectively",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What is Data Visualization?",
+          "content": "Data visualization is the graphical representation of data and insights. It helps in understanding patterns, trends, and outliers. Good visualization tells a story and drives decision-making.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Types of Charts",
+          "content": "1. **Bar Charts**: Compare categories.\n2. **Line Charts**: Show trends over time.\n3. **Scatter Plots**: Show relationships between two variables.\n4. **Histograms**: Show distribution of a single variable.\n5. **Box Plots**: Show distribution and outliers.\n6. **Pie Charts**: Show parts of a whole (use sparingly).\n7. **Heatmaps**: Show patterns in 2D data.\n8. **Area Charts**: Show cumulative trends.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Dashboards – Interactive Visualization",
+          "content": "Dashboards are interactive visual interfaces that display key metrics and data in real-time. They allow users to drill down and explore data. Tools: Tableau, Power BI, Google Data Studio. Dashboards are used for monitoring, decision-making, and reporting.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💼",
+          "title": "Business Intelligence (BI) – Data-Driven Business Decisions",
+          "content": "BI is the use of data analysis and visualization to support business decisions. It involves: Data collection, analysis, and reporting. BI tools provide interactive dashboards and ad-hoc analysis. BI improves efficiency, identifies opportunities, and monitors performance.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📖",
+          "title": "Storytelling with Data – Engaging Your Audience",
+          "content": "Data storytelling combines data visualization with narrative to communicate insights effectively. Elements:\n1. **Context**: Set the stage (what, why).\n2. **Visuals**: Choose the right charts.\n3. **Narrative**: Tell a story (problem, solution, impact).\n4. **Call to Action**: What should the audience do?",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Data Visualization – Overview",
+          "headers": ["Aspect", "Description", "Tools"],
+          "rows": [
+            ["Charts", "Graphical representation of data", "Matplotlib, Seaborn, Plotly"],
+            ["Dashboards", "Interactive, real-time visual interfaces", "Tableau, Power BI, Data Studio"],
+            ["BI", "Data-driven business decision-making", "Power BI, Tableau, Qlik"],
+            ["Storytelling", "Communicating insights with narrative", "Narrative, visuals, call to action"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Data Visualization for Sales",
+          "given": ["A sales manager wants to understand monthly sales trends and regional performance."],
+          "find": "How can data visualization help?",
+          "steps": [
+            "Use a line chart to show monthly sales trends over time.",
+            "Use a bar chart to compare sales across regions.",
+            "Create a dashboard with both charts for real-time monitoring.",
+            "Add filters for product categories and time periods.",
+            "Storytelling: 'Sales are increasing in the West region, but declining in the East.'"
+          ],
+          "answer": "Data visualization helps identify trends, compare regions, and drive decisions.",
+          "formula_used": "Data visualization application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Pie charts are always the best choice.",
+          "wrong": "Pie charts should be used for all proportional data.",
+          "correct": "Pie charts are suitable only for a small number of categories; bar charts are often better.",
+          "tip": "Use pie charts sparingly and only when categories are distinct."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Data Visualization",
+          "points": [
+            "Data visualization communicates insights visually.",
+            "Charts: Bar, line, scatter, histogram, box plot, heatmap.",
+            "Dashboards: Interactive, real-time monitoring.",
+            "BI: Data-driven business decisions.",
+            "Storytelling: Engaging narrative with visuals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data_science_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Data Science – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the data science lifecycle, data types (structured/semi-structured/unstructured), data collection methods, data cleaning techniques (missing values, outliers, duplicates), and visualization types.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which stage of the data science lifecycle involves cleaning and transforming data?",
+          "options": ["Data Collection", "Data Preparation", "Model Building", "Deployment"],
+          "answer": 1,
+          "explanation": "Data Preparation (or Preprocessing) involves cleaning, transforming, and organizing data.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which data type is characterized by a fixed format of rows and columns?",
+          "options": ["Unstructured", "Semi-structured", "Structured", "All of the above"],
+          "answer": 2,
+          "explanation": "Structured data is highly organized and stored in rows and columns (e.g., SQL databases).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a method for handling missing values?",
+          "options": ["Mean imputation", "Deletion", "Outlier detection", "Median imputation"],
+          "answer": 2,
+          "explanation": "Outlier detection is a separate technique; missing values are handled by imputation or deletion.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which chart is best for showing trends over time?",
+          "options": ["Bar chart", "Line chart", "Pie chart", "Scatter plot"],
+          "answer": 1,
+          "explanation": "Line charts are best for displaying trends over time.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which tool is commonly used for creating interactive dashboards?",
+          "options": ["Matplotlib", "Tableau", "Excel", "Jupyter"],
+          "answer": 1,
+          "explanation": "Tableau is a popular tool for creating interactive dashboards.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the purpose of feature engineering?",
+          "options": ["To clean data", "To create new features", "To remove outliers", "To visualize data"],
+          "answer": 1,
+          "explanation": "Feature engineering creates new features from raw data to improve model performance.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which method is used for detecting outliers using statistical analysis?",
+          "options": ["IQR", "Linear regression", "K-Means", "Decision trees"],
+          "answer": 0,
+          "explanation": "The Interquartile Range (IQR) method is used to detect outliers in data.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which API format is commonly used for data exchange?",
+          "options": ["JSON", "CSV", "PDF", "DOC"],
+          "answer": 0,
+          "explanation": "JSON (JavaScript Object Notation) is a common data format for APIs.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which stage of the data science lifecycle involves deploying the model into production?",
+          "options": ["Model Building", "Model Evaluation", "Deployment", "Monitoring"],
+          "answer": 2,
+          "explanation": "Deployment is the stage where the model is integrated into production.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which technique is used to standardize feature values for ML models?",
+          "options": ["Normalization", "One-hot encoding", "Feature engineering", "Outlier detection"],
+          "answer": 0,
+          "explanation": "Normalization (min-max scaling) standardizes feature values to a range, often [0, 1].",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the data science lifecycle, data types, collection methods, cleaning techniques, and visualization types. Practice with diverse datasets."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Data Science Fundamentals",
+          "points": [
+            "Data Science Lifecycle: Problem → Data → Prep → EDA → Model → Evaluate → Deploy → Monitor.",
+            "Data Types: Structured (SQL), Semi-structured (JSON), Unstructured (text, images).",
+            "Data Collection: Databases, APIs, IoT sensors, surveys, web scraping.",
+            "Data Cleaning: Missing values (imputation, deletion), Duplicates (remove), Outliers (IQR, Z-score), Feature engineering.",
+            "Data Visualization: Charts (bar, line, scatter), Dashboards (Tableau, Power BI), BI, Storytelling."
+          ]
+        }
+      ]
+    }
+  ]
+}

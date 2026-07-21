@@ -1,0 +1,573 @@
+{
+  "id": "nlp_part1",
+  "subject_id": "artificial_intelligence",
+  "title": "Natural Language Processing",
+  "subtopics": [
+    {
+      "id": "nlp_basics",
+      "title": "Basics of Natural Language Processing – Human Language Processing and Text Analytics",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Basics of Natural Language Processing",
+          "subtitle": "Bridging the Gap Between Human Language and Machines",
+          "tags": ["JKSSB", "High Weightage", "NLP"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗣️",
+          "title": "What is Natural Language Processing (NLP)?",
+          "content": "Natural Language Processing is a subfield of AI that focuses on the interaction between computers and human language. It enables computers to understand, interpret, and generate human language in a way that is both meaningful and useful.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧩",
+          "title": "Human Language Processing – The Challenge",
+          "content": "Human language is complex and ambiguous. Challenges include: \n1. **Ambiguity**: Words can have multiple meanings (e.g., 'bank' = river bank or financial institution).\n2. **Context**: Meaning depends on the surrounding words and situation.\n3. **Grammar**: Variations in syntax and grammar across languages.\n4. **Sarcasm/Irony**: Understanding tone and intent.\n5. **Cultural Nuance**: Idioms and expressions vary by culture.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Text Analytics – Extracting Insights from Text",
+          "content": "Text analytics is the process of deriving insights from unstructured text data. It involves: \n1. **Information Extraction**: Extracting structured data (names, dates, entities) from text.\n2. **Sentiment Analysis**: Determining the emotional tone (positive, negative, neutral).\n3. **Topic Modelling**: Identifying themes in a collection of documents.\n4. **Text Classification**: Categorizing text into predefined classes.\n5. **Text Summarization**: Generating concise summaries of longer texts.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "Language Modeling – Understanding Language Structure",
+          "content": "Language modeling is the task of predicting the next word(s) in a sequence. It is the foundation of many NLP applications. Models learn the statistical structure of language from large text corpora. Examples: n-gram models, neural language models (RNNs, Transformers), and large language models (LLMs).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "NLP – Key Components and Applications",
+          "headers": ["Component", "Description", "Applications"],
+          "rows": [
+            ["Text Analytics", "Extracting insights from text", "Sentiment analysis, topic modelling"],
+            ["Information Extraction", "Structured data from text", "Named Entity Recognition, relation extraction"],
+            ["Language Modeling", "Predicting next words", "Text generation, chatbots, translation"],
+            ["Speech Processing", "Converting speech to text", "Voice assistants, transcription"],
+            ["Machine Translation", "Translating between languages", "Google Translate, DeepL"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: NLP in Sentiment Analysis",
+          "given": ["A company wants to analyze customer reviews of its product."],
+          "find": "How does NLP help in this task?",
+          "steps": [
+            "Collect customer reviews (text data).",
+            "Apply text preprocessing (tokenization, stopword removal).",
+            "Use a sentiment classification model (e.g., Naive Bayes, LSTM, BERT).",
+            "Classify each review as positive, negative, or neutral.",
+            "Aggregate results to understand overall customer sentiment.",
+            "Identify key issues or positive features mentioned."
+          ],
+          "answer": "NLP helps analyze customer sentiment by classifying text reviews into positive, negative, or neutral categories.",
+          "formula_used": "NLP application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: NLP only works with English.",
+          "wrong": "NLP is only effective for the English language.",
+          "correct": "NLP works for many languages, but performance varies based on available training data and linguistic complexity.",
+          "tip": "NLP is language-agnostic but data-dependent."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – NLP Basics",
+          "points": [
+            "NLP bridges human language and machine understanding.",
+            "Human language is ambiguous, context-dependent, and culturally nuanced.",
+            "Text analytics extracts insights from unstructured text.",
+            "Language modeling predicts next words and is the foundation of many NLP applications.",
+            "NLP powers sentiment analysis, translation, chatbots, and more."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nlp_techniques_part1",
+      "title": "NLP Techniques – Tokenization, Stemming, Lemmatization, NER, Sentiment Analysis, and Machine Translation",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "NLP Techniques (Part 1)",
+          "subtitle": "Tokenization, Stemming, Lemmatization, NER, Sentiment Analysis, and Machine Translation",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "✂️",
+          "title": "Tokenization – Breaking Text into Tokens",
+          "content": "Tokenization is the process of splitting text into smaller units called tokens. Tokens can be words, subwords, or characters. It is the first step in most NLP pipelines. Example: 'I love NLP' → ['I', 'love', 'NLP'].",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📏",
+          "title": "Stemming – Reducing Words to Roots",
+          "content": "Stemming is the process of reducing words to their root form (stem) by removing suffixes. It is simple and fast but may produce non-words. Example: 'running' → 'run', 'studies' → 'studi'.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "Lemmatization – Finding the Dictionary Form",
+          "content": "Lemmatization reduces words to their base dictionary form (lemma) using a vocabulary and morphological analysis. It is more accurate than stemming but slower. Example: 'running' → 'run', 'studies' → 'study'.",
+          "highlight": true
+        },
+        {
+          "type": "comparison",
+          "title": "Stemming vs Lemmatization",
+          "left_header": "Stemming",
+          "right_header": "Lemmatization",
+          "rows": [
+            { "left": "Removes suffixes using heuristics", "right": "Uses vocabulary and morphological analysis" },
+            { "left": "Faster", "right": "Slower" },
+            { "left": "May produce non-words", "right": "Always produces valid words" },
+            { "left": "Less accurate", "right": "More accurate" },
+            { "left": "Example: 'studies' → 'studi'", "right": "Example: 'studies' → 'study'" },
+            { "left": "Used for search engines", "right": "Used for chatbots and question answering" }
+          ]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Named Entity Recognition (NER) – Identifying Key Entities",
+          "content": "NER is the process of identifying and classifying named entities in text into predefined categories (people, organisations, locations, dates, etc.). It helps in information extraction and knowledge discovery. Example: 'Apple Inc. was founded by Steve Jobs in Cupertino.' → 'Apple Inc.' (ORG), 'Steve Jobs' (PERSON), 'Cupertino' (LOCATION).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "❤️",
+          "title": "Sentiment Analysis – Understanding Emotions in Text",
+          "content": "Sentiment analysis determines the emotional tone or sentiment expressed in a piece of text. It classifies text as positive, negative, or neutral. It is used in customer feedback analysis, social media monitoring, and brand reputation management.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Machine Translation – Translating Between Languages",
+          "content": "Machine translation automatically translates text from one language to another. Modern systems use neural machine translation (NMT) with transformer architectures. Examples: Google Translate, DeepL. It involves encoding the source language and decoding into the target language.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "NLP Techniques – Overview",
+          "headers": ["Technique", "Purpose", "Example", "Common Use"],
+          "rows": [
+            ["Tokenization", "Split text into tokens", "'I love NLP' → ['I', 'love', 'NLP']", "First step in NLP pipelines"],
+            ["Stemming", "Reduce words to roots", "'running' → 'run'", "Search engines, information retrieval"],
+            ["Lemmatization", "Reduce to dictionary form", "'running' → 'run'", "Chatbots, question answering"],
+            ["NER", "Identify entities (people, places, etc.)", "'Steve Jobs' → PERSON", "Knowledge extraction"],
+            ["Sentiment Analysis", "Classify emotional tone", "'I love this!' → Positive", "Customer feedback, social media"],
+            ["Machine Translation", "Translate text between languages", "'Hello' → 'Bonjour'", "Google Translate"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: NER in News Articles",
+          "given": ["A news article mentions 'Prime Minister Narendra Modi visited the United States last week.'"],
+          "find": "Identify the named entities.",
+          "steps": [
+            "The sentence contains: 'Narendra Modi' (PERSON), 'United States' (LOCATION), 'last week' (DATE).",
+            "NER algorithms can extract these entities automatically.",
+            "This helps in building knowledge graphs and search systems."
+          ],
+          "answer": "Entities: Narendra Modi (PERSON), United States (LOCATION), last week (DATE).",
+          "formula_used": "NER application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Stemming and lemmatization are the same.",
+          "wrong": "Stemming and lemmatization are identical.",
+          "correct": "Stemming is heuristic and faster; lemmatization is dictionary-based and more accurate.",
+          "tip": "Choose stemming for speed, lemmatization for accuracy."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – NLP Techniques (Part 1)",
+          "points": [
+            "Tokenization: Splitting text into tokens (words, subwords).",
+            "Stemming: Reducing words to roots using heuristics (fast but less accurate).",
+            "Lemmatization: Reducing to dictionary form using vocabulary (accurate but slower).",
+            "NER: Identifying entities (people, places, organisations).",
+            "Sentiment Analysis: Classifying text as positive, negative, or neutral.",
+            "Machine Translation: Translating between languages using neural models."
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "nlp_techniques_part2",
+      "title": "NLP Techniques – Text Summarization, Speech-to-Text, and Text-to-Speech",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "NLP Techniques (Part 2)",
+          "subtitle": "Text Summarization, Speech-to-Text, and Text-to-Speech",
+          "tags": ["JKSSB", "Important", "NLP"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📄",
+          "title": "Text Summarization – Condensing Information",
+          "content": "Text summarization is the process of generating a concise and meaningful summary of a longer text. It can be:\n1. **Extractive Summarization**: Selects key sentences directly from the source text.\n2. **Abstractive Summarization**: Generates new sentences that capture the essence of the text (similar to human summarization).\nApplications: News summarization, document summarization, research paper abstracts.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎙️",
+          "title": "Speech-to-Text (Automatic Speech Recognition)",
+          "content": "Speech-to-Text (STT) or Automatic Speech Recognition (ASR) converts spoken language into written text. It involves acoustic modeling (recognising phonemes), language modeling (predicting word sequences), and decoding. Applications: Voice assistants, transcription services, real-time captioning, voice-controlled interfaces.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔊",
+          "title": "Text-to-Speech (TTS) – Generating Voice from Text",
+          "content": "Text-to-Speech (TTS) converts written text into spoken language. Modern TTS uses neural networks (e.g., WaveNet, Tacotron) to generate human-like speech with natural intonation. Applications: Audiobooks, navigation systems, voice assistants, accessibility tools for the visually impaired.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "NLP Techniques – Overview (Part 2)",
+          "headers": ["Technique", "Description", "Key Applications"],
+          "rows": [
+            ["Text Summarization", "Generates summaries from longer texts", "News summarization, document summarization"],
+            ["Speech-to-Text (STT)", "Converts speech to written text", "Voice assistants, transcription, captioning"],
+            ["Text-to-Speech (TTS)", "Converts text to spoken language", "Audiobooks, navigation, accessibility"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Speech-to-Text in Healthcare",
+          "given": ["A doctor uses speech-to-text to dictate patient notes."],
+          "find": "How does the system work?",
+          "steps": [
+            "The doctor speaks into a microphone.",
+            "The STT system converts speech into text.",
+            "It uses acoustic models (phoneme recognition) and language models (word sequences).",
+            "The transcribed text is saved into the patient's electronic health record.",
+            "This saves time and reduces manual documentation errors."
+          ],
+          "answer": "Speech-to-Text converts doctor's speech into text for efficient record-keeping.",
+          "formula_used": "STT application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Extractive summarization creates new sentences.",
+          "wrong": "Extractive summarization generates new sentences.",
+          "correct": "Extractive summarization selects existing sentences; abstractive summarization generates new sentences.",
+          "tip": "Extractive = Copy; Abstractive = Rewrite."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – NLP Techniques (Part 2)",
+          "points": [
+            "Text Summarization: Extractive (selects sentences) vs Abstractive (generates new text).",
+            "Speech-to-Text: Acoustic + language models convert speech to text.",
+            "Text-to-Speech: Neural TTS generates natural-sounding speech from text.",
+            "Applications: Healthcare, accessibility, automation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generative_ai",
+      "title": "Generative AI – Chatbots, Virtual Assistants, LLMs, Prompt Engineering, Hallucinations, and RAG",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Generative AI",
+          "subtitle": "The Power to Create Text, Code, Images, and More",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "What is Generative AI?",
+          "content": "Generative AI refers to artificial intelligence systems that can generate new content (text, images, audio, video) rather than just analyzing or classifying existing data. It is powered by large models trained on vast datasets, enabling them to create human-like outputs. Examples: ChatGPT, DALL-E, Stable Diffusion, Midjourney.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💬",
+          "title": "Chatbots – AI-Powered Conversational Agents",
+          "content": "Chatbots are AI systems designed to simulate human conversation. They can be:\n1. **Rule-based**: Follows predefined scripts.\n2. **AI-powered**: Uses NLP and ML to understand and respond naturally.\n3. **LLM-based**: Powered by large language models for human-like responses.\nApplications: Customer support, personal assistants, education, healthcare.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎤",
+          "title": "Virtual Assistants – Siri, Alexa, Google Assistant",
+          "content": "Virtual assistants are intelligent agents that perform tasks or services for users. They combine speech recognition, NLP, and decision-making. They can: Set reminders, answer questions, control smart home devices, play music, send messages, and search the internet.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "Large Language Models (LLMs) – The Foundation of Generative AI",
+          "content": "LLMs are massive neural networks trained on vast text corpora. They use transformer architectures and learn to predict the next token in a sequence. They exhibit emergent abilities: reasoning, code generation, translation, creative writing, and more. Examples: GPT-4, Gemini, LLaMA, Claude.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "Prompt Engineering – Getting the Best Outputs from LLMs",
+          "content": "Prompt engineering is the practice of designing inputs (prompts) to guide LLMs to produce desired outputs. Techniques:\n1. **Zero-shot**: No examples, just a direct instruction.\n2. **Few-shot**: Provide a few examples in the prompt.\n3. **Chain-of-thought**: Ask the model to think step by step.\n4. **Role-playing**: Assign a persona to the model.\n5. **Context Injection**: Provide relevant background information.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "✨",
+          "title": "AI-Generated Content – Text, Images, Audio, Video",
+          "content": "Generative AI can create various types of content:\n1. **Text**: Articles, stories, summaries, translations.\n2. **Images**: Realistic images from text descriptions (DALL-E).\n3. **Audio**: Music, voice cloning, sound effects.\n4. **Video**: Synthetic video, deepfakes.\nApplications: Media, marketing, entertainment, education.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚠️",
+          "title": "Hallucinations – When AI Generates False Information",
+          "content": "Hallucinations are instances where an AI model generates plausible but factually incorrect information. Causes: Training data gaps, overconfidence, lack of grounding. Mitigations: Retrieval-Augmented Generation (RAG), fact-checking, human oversight.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📚",
+          "title": "Retrieval-Augmented Generation (RAG) – Grounding AI in Knowledge",
+          "content": "RAG is a technique that enhances LLM outputs by retrieving relevant information from an external knowledge base (documents, databases) before generating a response. It reduces hallucinations and improves factual accuracy. Applications: Question answering, customer support, research assistance.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Generative AI – Key Concepts",
+          "headers": ["Concept", "Description", "Examples"],
+          "rows": [
+            ["Chatbots", "AI conversational agents", "Customer support bots, ChatGPT"],
+            ["Virtual Assistants", "Agents performing tasks", "Siri, Alexa, Google Assistant"],
+            ["LLMs", "Large language models", "GPT-4, Gemini, LLaMA, Claude"],
+            ["Prompt Engineering", "Designing inputs for LLMs", "Zero-shot, few-shot, chain-of-thought"],
+            ["AI-generated Content", "Text, images, audio, video from AI", "DALL-E, Midjourney, text generators"],
+            ["Hallucinations", "AI generating false information", "Common in LLMs"],
+            ["RAG", "Retrieval-Augmented Generation", "Grounding AI in external knowledge"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: RAG in Customer Support",
+          "given": ["A customer support chatbot uses RAG to answer queries."],
+          "find": "How does RAG improve the chatbot?",
+          "steps": [
+            "The chatbot receives a user query.",
+            "It retrieves relevant documents from a knowledge base (e.g., FAQs, manuals).",
+            "The LLM generates a response using both the query and retrieved documents.",
+            "This ensures accurate, up-to-date answers.",
+            "It reduces hallucinations and improves customer satisfaction."
+          ],
+          "answer": "RAG grounds the LLM in external knowledge, improving accuracy and reducing hallucinations.",
+          "formula_used": "RAG application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: LLMs always produce correct information.",
+          "wrong": "LLMs are always accurate and never generate false information.",
+          "correct": "LLMs can hallucinate and generate plausible but incorrect information.",
+          "tip": "Always validate LLM outputs, especially for critical applications."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Generative AI",
+          "points": [
+            "Generative AI creates new content (text, images, audio, video).",
+            "Chatbots: AI conversational agents for support and interaction.",
+            "Virtual Assistants: Siri, Alexa, Google Assistant.",
+            "LLMs: Large language models (GPT-4, Gemini).",
+            "Prompt Engineering: Guides LLMs to produce desired outputs.",
+            "AI-generated Content: Text, images, audio, video.",
+            "Hallucinations: AI generates false information (mitigated by RAG).",
+            "RAG (Retrieval-Augmented Generation): Grounds AI in external knowledge."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nlp_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Natural Language Processing – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on NLP tasks (tokenization, stemming, lemmatization, NER, sentiment analysis), speech-to-text, text-to-speech, generative AI concepts (LLMs, prompt engineering, hallucinations, RAG), and applications.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which NLP technique reduces words to their root form using a vocabulary?",
+          "options": ["Stemming", "Lemmatization", "Tokenization", "NER"],
+          "answer": 1,
+          "explanation": "Lemmatization reduces words to their dictionary form (lemma) using vocabulary and morphological analysis.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "What is the primary purpose of Named Entity Recognition (NER)?",
+          "options": [
+            "Split text into tokens",
+            "Classify emotional tone",
+            "Identify entities like names, dates, locations",
+            "Translate text"
+          ],
+          "answer": 2,
+          "explanation": "NER identifies and classifies entities (people, places, organizations, dates) in text.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of summarization selects existing sentences from the source text?",
+          "options": ["Abstractive summarization", "Extractive summarization", "Both", "None"],
+          "answer": 1,
+          "explanation": "Extractive summarization selects key sentences directly from the source text.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which technique converts spoken language into written text?",
+          "options": ["Text-to-Speech", "Speech-to-Text", "Translation", "Summarization"],
+          "answer": 1,
+          "explanation": "Speech-to-Text (STT) converts spoken language into written text.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the primary purpose of Retrieval-Augmented Generation (RAG)?",
+          "options": [
+            "To generate text from images",
+            "To ground LLM outputs in external knowledge",
+            "To translate text",
+            "To classify text"
+          ],
+          "answer": 1,
+          "explanation": "RAG retrieves relevant external knowledge to ground LLM responses and reduce hallucinations.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is prompt engineering?",
+          "options": [
+            "Writing code for LLMs",
+            "Designing inputs to guide LLM outputs",
+            "Training LLMs from scratch",
+            "Evaluating LLM performance"
+          ],
+          "answer": 1,
+          "explanation": "Prompt engineering is the practice of designing inputs to guide LLMs toward desired outputs.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is an example of a Large Language Model (LLM)?",
+          "options": ["CNN", "RNN", "GPT-4", "SVM"],
+          "answer": 2,
+          "explanation": "GPT-4 is a large language model based on the transformer architecture.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the difference between stemming and lemmatization?",
+          "options": [
+            "Stemming is faster but less accurate; lemmatization is slower but more accurate",
+            "Stemming is more accurate; lemmatization is faster",
+            "Both are identical",
+            "Neither is used in NLP"
+          ],
+          "answer": 0,
+          "explanation": "Stemming is heuristic-based and faster but less accurate; lemmatization uses vocabulary and is more accurate but slower.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What are hallucinations in the context of LLMs?",
+          "options": [
+            "AI generating false information",
+            "AI generating images",
+            "AI translating text",
+            "AI summarizing text"
+          ],
+          "answer": 0,
+          "explanation": "Hallucinations occur when LLMs generate plausible but factually incorrect information.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which technique is used in Text-to-Speech systems to generate natural-sounding voices?",
+          "options": ["CNN", "RNN", "WaveNet", "SVM"],
+          "answer": 2,
+          "explanation": "WaveNet (a neural network) is commonly used in modern Text-to-Speech systems to generate natural-sounding voices.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review NLP techniques (tokenization, stemming, lemmatization, NER, sentiment analysis, summarization, STT, TTS), generative AI concepts (LLMs, prompt engineering, hallucinations, RAG), and their applications."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Natural Language Processing",
+          "points": [
+            "Tokenization: Splits text into tokens.",
+            "Stemming: Heuristic root reduction.",
+            "Lemmatization: Dictionary-based root reduction.",
+            "NER: Identifies entities (people, places, organizations).",
+            "Sentiment Analysis: Classifies emotional tone.",
+            "Machine Translation: Translates between languages.",
+            "Text Summarization: Extractive (selects) vs Abstractive (generates).",
+            "Speech-to-Text: Speech → text.",
+            "Text-to-Speech: Text → speech.",
+            "LLMs: Large language models (GPT-4, Gemini).",
+            "Prompt Engineering: Guides LLM outputs.",
+            "Hallucinations: AI generates false information.",
+            "RAG: Retrieval-Augmented Generation (grounds AI in external knowledge)."
+          ]
+        }
+      ]
+    }
+  ]
+}

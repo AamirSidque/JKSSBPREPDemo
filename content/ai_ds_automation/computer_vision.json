@@ -1,0 +1,433 @@
+{
+  "id": "computer_vision",
+  "subject_id": "artificial_intelligence",
+  "title": "Computer Vision",
+  "subtopics": [
+    {
+      "id": "cv_digital_image_processing",
+      "title": "Digital Image Processing – The Foundation of Computer Vision",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Digital Image Processing",
+          "subtitle": "Transforming Images for Analysis and Understanding",
+          "tags": ["JKSSB", "High Weightage", "Computer Vision"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🖼️",
+          "title": "What is Digital Image Processing (DIP)?",
+          "content": "Digital Image Processing is the use of computer algorithms to perform operations on digital images. It is the foundation of computer vision. Key operations include image enhancement, restoration, compression, segmentation, and feature extraction.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔧",
+          "title": "Key Operations in Image Processing",
+          "content": "1. **Image Enhancement**: Improving image quality (contrast, brightness, noise reduction).\n2. **Image Restoration**: Correcting blur, distortion, or degradation.\n3. **Image Compression**: Reducing file size (JPEG, PNG).\n4. **Image Segmentation**: Partitioning an image into regions of interest.\n5. **Feature Extraction**: Detecting edges, corners, textures, and shapes.\n6. **Morphological Operations**: Dilation, erosion, opening, closing.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Image Processing Techniques – Overview",
+          "headers": ["Technique", "Purpose", "Examples"],
+          "rows": [
+            ["Enhancement", "Improve visual quality", "Contrast adjustment, denoising, sharpening"],
+            ["Restoration", "Correct degradation", "Deblurring, demosaicing, inpainting"],
+            ["Compression", "Reduce file size", "JPEG, PNG, WebP"],
+            ["Segmentation", "Partition into regions", "Thresholding, edge detection, clustering"],
+            ["Feature Extraction", "Identify key elements", "Edges, corners, SIFT, HOG"],
+            ["Morphological Operations", "Modify shape/structure", "Dilation, erosion, opening, closing"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Image Segmentation in Medical Imaging",
+          "given": ["A radiologist wants to detect tumors in an MRI scan."],
+          "find": "How does image segmentation help?",
+          "steps": [
+            "The MRI scan is processed using segmentation algorithms.",
+            "Different tissues (bone, muscle, fat) are separated.",
+            "Abnormal regions (tumors) are highlighted as distinct segments.",
+            "This helps the radiologist identify and measure the tumor.",
+            "Segmentation enables automated tumor detection and tracking."
+          ],
+          "answer": "Image segmentation separates tissues and highlights abnormal regions for diagnosis.",
+          "formula_used": "DIP application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Image processing and computer vision are the same.",
+          "wrong": "Image processing and computer vision are identical.",
+          "correct": "Image processing is the foundation; computer vision includes understanding and interpreting images.",
+          "tip": "Image processing = Manipulation; Computer Vision = Understanding."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Digital Image Processing",
+          "points": [
+            "DIP is the foundation of computer vision.",
+            "Key operations: Enhancement, Restoration, Compression, Segmentation, Feature Extraction.",
+            "Segmentation partitions images into regions of interest.",
+            "Feature extraction identifies edges, corners, and textures.",
+            "DIP is used in medical imaging, surveillance, and photography."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cv_image_recognition",
+      "title": "Image Recognition and Object Detection",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Image Recognition and Object Detection",
+          "subtitle": "Teaching Computers to See and Understand",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👁️",
+          "title": "Image Recognition (Image Classification)",
+          "content": "Image recognition is the task of assigning a label to an entire image. It answers the question: 'What is this image?' It is typically performed using Convolutional Neural Networks (CNNs). Examples: Identifying if an image contains a cat, dog, or car.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Object Detection – Finding and Classifying Objects",
+          "content": "Object detection goes beyond classification. It identifies objects in an image and draws bounding boxes around them. It answers: 'Where are the objects and what are they?' Examples: Self-driving cars detecting pedestrians, vehicles, and traffic signs.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Popular Object Detection Algorithms",
+          "content": "1. **R-CNN (Region-Based CNN)**: Proposes regions and classifies them.\n2. **Fast R-CNN**: Faster version with shared convolutional layers.\n3. **Faster R-CNN**: Uses a Region Proposal Network (RPN).\n4. **YOLO (You Only Look Once)**: Single-pass detection, very fast.\n5. **SSD (Single Shot Detector)**: Multi-scale feature maps for detection.\n6. **Mask R-CNN**: Adds instance segmentation (pixel-level masks).",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Object Detection Algorithms – Comparison",
+          "headers": ["Algorithm", "Approach", "Speed", "Accuracy", "Use Case"],
+          "rows": [
+            ["R-CNN", "Region proposal + CNN", "Slow", "High", "Research"],
+            ["Fast R-CNN", "Shared conv layers", "Medium", "High", "General purpose"],
+            ["Faster R-CNN", "Region Proposal Network", "Medium", "High", "General purpose"],
+            ["YOLO", "Single-pass detection", "Very Fast", "Good", "Real-time applications"],
+            ["SSD", "Multi-scale detection", "Fast", "Good", "Real-time applications"],
+            ["Mask R-CNN", "Instance segmentation", "Medium", "High", "Segmentation tasks"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: YOLO in Self-Driving Cars",
+          "given": ["A self-driving car uses YOLO for real-time object detection."],
+          "find": "How does YOLO help the car navigate?",
+          "steps": [
+            "YOLO processes camera frames in a single pass (very fast).",
+            "It detects pedestrians, vehicles, traffic signs, and obstacles.",
+            "It draws bounding boxes around each object.",
+            "The car's decision-making system uses this information.\n- Brakes if a pedestrian is detected.\n- Changes lanes if an obstacle is detected.\n- Follows traffic signs."
+          ],
+          "answer": "YOLO enables real-time detection of objects, allowing self-driving cars to navigate safely.",
+          "formula_used": "Object detection application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Image recognition and object detection are identical.",
+          "wrong": "Image recognition and object detection are the same.",
+          "correct": "Image recognition classifies the whole image; object detection finds and classifies individual objects.",
+          "tip": "Recognition = What is it?; Detection = Where is it and what is it?"
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Image Recognition and Object Detection",
+          "points": [
+            "Image Recognition: Classifies the entire image.",
+            "Object Detection: Finds and classifies objects (bounding boxes).",
+            "YOLO: Fast, single-pass detection (real-time).",
+            "R-CNN: Region-based CNN (accurate but slow).",
+            "Applications: Self-driving cars, surveillance, medical imaging."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cv_face_recognition",
+      "title": "Face Recognition and OCR",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Face Recognition and OCR",
+          "subtitle": "Identifying People and Reading Text",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👤",
+          "title": "Face Recognition – Identifying Individuals",
+          "content": "Face recognition is the process of identifying or verifying a person using their facial features. It involves: Face detection → Feature extraction (landmarks, embeddings) → Matching against a database. It is used in security, authentication, law enforcement, and social media.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👤",
+          "title": "Face Recognition – Key Steps",
+          "content": "1. **Face Detection**: Locate faces in an image (using Haar cascades, MTCNN).\n2. **Face Alignment**: Align faces to a standard pose.\n3. **Feature Extraction**: Extract facial features (using deep networks like FaceNet).\n4. **Face Encoding**: Convert features into a vector (embedding).\n5. **Matching**: Compare embedding against a database.\n6. **Verification**: Confirm identity; Identification: Find identity.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📄",
+          "title": "OCR – Optical Character Recognition",
+          "content": "OCR is the process of converting images of text (printed or handwritten) into machine-readable text. It involves: Preprocessing (binarization, noise removal), Text detection (identifying text regions), Character recognition (classifying individual characters), and Post-processing (spell-check, formatting).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📄",
+          "title": "OCR – Applications",
+          "content": "1. **Document Digitization**: Scanning books, invoices, contracts.\n2. **Automatic Number Plate Recognition (ANPR)**: Reading vehicle plates.\n3. **Receipt Scanning**: Processing receipts for expense tracking.\n4. **Aadhaar/Passport Scanning**: Extracting information from ID documents.\n5. **Handwriting Recognition**: Reading handwritten notes and forms.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: OCR in Document Digitization",
+          "given": ["A government office digitizes old records using OCR."],
+          "find": "How does OCR help?",
+          "steps": [
+            "Old paper documents are scanned into images.",
+            "OCR software detects text regions in the images.",
+            "It recognizes characters and converts them to digital text.",
+            "The text is indexed and made searchable.",
+            "This improves access to information and reduces physical storage."
+          ],
+          "answer": "OCR converts physical documents into searchable digital text.",
+          "formula_used": "OCR application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: OCR is the same as face recognition.",
+          "wrong": "OCR and face recognition are the same.",
+          "correct": "OCR reads text; face recognition identifies people.",
+          "tip": "OCR = Text; Face Recognition = People."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Face Recognition and OCR",
+          "points": [
+            "Face Recognition: Detects, encodes, and matches facial features.",
+            "Applications: Security, authentication, law enforcement.",
+            "OCR: Converts image text to machine-readable text.",
+            "Applications: Document digitization, ANPR, receipt scanning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cv_video_analytics",
+      "title": "Video Analytics, CCTV Analytics, and Autonomous Surveillance",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Video Analytics, CCTV Analytics, and Autonomous Surveillance",
+          "subtitle": "Analyzing Live Video Streams for Intelligence",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📹",
+          "title": "Video Analytics – Extracting Information from Video",
+          "content": "Video analytics is the automated analysis of video footage to detect patterns, events, and anomalies. It involves: Object tracking, Activity recognition, Behavior analysis, Event detection, and Summarization. Applications: Crowd monitoring, traffic analysis, retail analytics, and security.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📹",
+          "title": "CCTV Analytics – Smart Surveillance",
+          "content": "CCTV analytics uses AI to analyze video feeds from surveillance cameras. It enables:\n1. **Motion Detection**: Detect movement in specific areas.\n2. **Loitering Detection**: Alert on suspicious extended stays.\n3. **Intrusion Detection**: Alert on unauthorized entry.\n4. **Crowd Counting**: Estimate the number of people.\n5. **Anomaly Detection**: Identify unusual behavior or events.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛸",
+          "title": "Autonomous Surveillance – AI-Powered Monitoring",
+          "content": "Autonomous surveillance systems use AI to operate with minimal human intervention. They combine:\n1. **Computer Vision**: For object detection and tracking.\n2. **ML/DL**: For anomaly detection and prediction.\n3. **Drone Technology**: Aerial surveillance.\n4. **IoT Sensors**: Integration with other sensors.\n5. **Real-time Alerts**: Automated notifications to security teams.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Video Analytics Applications",
+          "headers": ["Application", "Description", "Industry"],
+          "rows": [
+            ["Crowd Monitoring", "Track crowd density and movement", "Public safety, events"],
+            ["Traffic Analysis", "Monitor traffic flow and congestion", "Transportation"],
+            ["Retail Analytics", "Track customer behavior and dwell time", "Retail"],
+            ["Security Surveillance", "Detect intrusions and suspicious activity", "Security"],
+            ["Industrial Monitoring", "Monitor safety compliance", "Manufacturing"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: CCTV Analytics in Smart Cities",
+          "given": ["A smart city uses CCTV analytics to monitor public spaces."],
+          "find": "How does CCTV analytics improve safety?",
+          "steps": [
+            "Cameras are installed in public areas.",
+            "AI algorithms analyze video in real-time.",
+            "It detects suspicious activities (loitering, unattended bags).",
+            "Alerts are sent to security personnel.",
+            "Anomaly detection identifies potential threats.",
+            "Traffic patterns are analyzed for congestion management."
+          ],
+          "answer": "CCTV analytics enables real-time threat detection and traffic management.",
+          "formula_used": "Video analytics application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Video analytics requires manual review.",
+          "wrong": "All CCTV footage must be reviewed by humans.",
+          "correct": "AI-powered video analytics automates detection and alerts, reducing the need for manual review.",
+          "tip": "Video analytics = Automated; Human review = For validation."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Video Analytics and Surveillance",
+          "points": [
+            "Video analytics: Automated analysis of video footage.",
+            "CCTV analytics: AI-powered surveillance for security.",
+            "Autonomous surveillance: Minimal human intervention.",
+            "Applications: Crowd monitoring, traffic analysis, retail analytics.",
+            "Smart cities use CCTV analytics for real-time safety monitoring."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cv_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Computer Vision – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on image processing techniques, object detection vs image recognition, face recognition steps, OCR applications, and video analytics use cases.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which technique partitions an image into regions of interest?",
+          "options": ["Enhancement", "Segmentation", "Compression", "Restoration"],
+          "answer": 1,
+          "explanation": "Image segmentation partitions an image into regions of interest, separating different objects or areas.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which object detection algorithm is known for real-time performance?",
+          "options": ["R-CNN", "YOLO", "Fast R-CNN", "Faster R-CNN"],
+          "answer": 1,
+          "explanation": "YOLO (You Only Look Once) is known for real-time object detection due to its single-pass architecture.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the difference between image recognition and object detection?",
+          "options": [
+            "They are the same.",
+            "Recognition classifies the whole image; detection finds and classifies objects.",
+            "Detection classifies the whole image; recognition finds objects.",
+            "Both are used for segmentation."
+          ],
+          "answer": 1,
+          "explanation": "Image recognition classifies the entire image, while object detection identifies and locates multiple objects.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT an OCR application?",
+          "options": ["Document digitization", "Face recognition", "Number plate recognition", "Receipt scanning"],
+          "answer": 1,
+          "explanation": "Face recognition is not an OCR application; OCR is for reading text from images.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the purpose of feature extraction in computer vision?",
+          "options": [
+            "To compress images",
+            "To identify key elements (edges, corners, textures)",
+            "To restore degraded images",
+            "To enhance contrast"
+          ],
+          "answer": 1,
+          "explanation": "Feature extraction identifies key elements like edges, corners, and textures for further analysis.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which technique is used in face recognition to convert facial features into a vector?",
+          "options": ["Feature extraction", "Face encoding", "Face alignment", "Face detection"],
+          "answer": 1,
+          "explanation": "Face encoding converts extracted facial features into a vector (embedding) for matching.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "CCTV analytics uses AI to detect:",
+          "options": ["Text", "Music", "Suspicious activities", "Emails"],
+          "answer": 2,
+          "explanation": "CCTV analytics detects suspicious activities like loitering, intrusion, and anomalies in video feeds.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which operation in image processing reduces file size?",
+          "options": ["Enhancement", "Compression", "Restoration", "Segmentation"],
+          "answer": 1,
+          "explanation": "Image compression reduces the file size of images (e.g., JPEG, PNG).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which deep learning architecture is most commonly used for image recognition?",
+          "options": ["RNN", "CNN", "Transformer", "SVM"],
+          "answer": 1,
+          "explanation": "CNN (Convolutional Neural Network) is the most common architecture for image recognition tasks.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review image processing operations, object detection algorithms (YOLO, R-CNN), face recognition steps, OCR applications, and video analytics use cases.",
+          "points": [
+            "DIP: Enhancement, Segmentation, Compression, Feature Extraction.",
+            "Image Recognition: Classifies entire image.",
+            "Object Detection: Locates and classifies objects (YOLO, R-CNN).",
+            "Face Recognition: Detection → Alignment → Feature Extraction → Encoding → Matching.",
+            "OCR: Converts image text to machine-readable text.",
+            "Video Analytics: Automated analysis of video feeds (CCTV, traffic)."
+          ]
+        }
+      ]
+    }
+  ]
+}

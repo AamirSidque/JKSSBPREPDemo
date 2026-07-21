@@ -1,0 +1,564 @@
+{
+  "id": "deep_learning_part1",
+  "subject_id": "artificial_intelligence",
+  "title": "Deep Learning",
+  "subtopics": [
+    {
+      "id": "dl_fundamentals",
+      "title": "Fundamentals of Deep Learning – Neural Networks and Backpropagation",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Fundamentals of Deep Learning",
+          "subtitle": "Building Intelligent Systems with Neural Networks",
+          "tags": ["JKSSB", "High Weightage", "Deep Learning"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "What is Deep Learning?",
+          "content": "Deep Learning is a subset of Machine Learning that uses artificial neural networks with multiple layers (deep architectures) to learn representations of data. It is inspired by the structure and function of the human brain. Deep learning has revolutionized fields like computer vision, natural language processing, and speech recognition.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧬",
+          "title": "Biological Inspiration – The Human Brain",
+          "content": "The human brain contains approximately 86 billion neurons connected by synapses. Each neuron receives signals from other neurons, processes them, and transmits output. Artificial neural networks mimic this structure with artificial neurons (nodes) and connections (weights). Learning occurs by adjusting the strength of these connections.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "The Perceptron – The Simplest Neural Network",
+          "content": "The perceptron is the simplest artificial neural network, developed by Frank Rosenblatt in 1958. It consists of a single layer of neurons that takes inputs, applies weights, sums them, and passes through an activation function to produce an output. It can only solve linearly separable problems.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "Activation Functions – Introducing Non-Linearity",
+          "content": "Activation functions determine the output of a neuron. They introduce non-linearity, allowing the network to learn complex patterns. Common activation functions: \n1. **ReLU (Rectified Linear Unit)**: f(x) = max(0, x) – most commonly used.\n2. **Sigmoid**: f(x) = 1/(1+e^(-x)) – outputs between 0 and 1.\n3. **Tanh**: f(x) = (e^x - e^(-x))/(e^x + e^(-x)) – outputs between -1 and 1.\n4. **Softmax**: Converts outputs to probabilities (used in classification).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "Hidden Layers – The Depth of Deep Learning",
+          "content": "Hidden layers are the layers between the input and output layers. They allow the network to learn hierarchical representations of the data. The term 'deep' refers to the number of hidden layers. Each layer learns increasingly abstract features: low-level (edges) → mid-level (shapes) → high-level (objects).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Backpropagation – The Learning Algorithm",
+          "content": "Backpropagation is the algorithm used to train neural networks by updating weights to minimize error. It works by: 1. Forward pass: Compute the output and calculate loss (error). 2. Backward pass: Compute the gradient of the loss with respect to each weight. 3. Update weights using gradient descent (weight = weight - learning_rate * gradient).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Activation Functions – Comparison",
+          "headers": ["Function", "Equation", "Range", "Pros", "Cons"],
+          "rows": [
+            ["ReLU", "max(0, x)", "[0, ∞)", "Fast, non-saturating, simple", "Dead neurons (dying ReLU)"],
+            ["Sigmoid", "1/(1+e^(-x))", "(0, 1)", "Smooth, differentiable", "Gradient vanishing, not zero-centered"],
+            ["Tanh", "(e^x - e^(-x))/(e^x + e^(-x))", "(-1, 1)", "Zero-centered, smooth", "Gradient vanishing"],
+            ["Softmax", "e^(x_i)/Σe^(x_j)", "[0, 1] (probabilities)", "Probabilistic output", "Used only in output layer"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: How a Neural Network Learns",
+          "given": ["A neural network is trained to classify images of cats and dogs."],
+          "find": "How does backpropagation help?",
+          "steps": [
+            "Forward pass: Input image passes through the network, producing a prediction (e.g., 0.7 cat, 0.3 dog).",
+            "Loss calculation: Compare prediction to actual label (e.g., cat = 1, dog = 0) using cross-entropy loss.",
+            "Backward pass: Compute gradient of the loss with respect to each weight.",
+            "Weight update: Adjust weights in the direction that reduces the loss (gradient descent).",
+            "Repeat for many epochs until the network learns to classify correctly."
+          ],
+          "answer": "Backpropagation adjusts weights to minimize the loss, enabling the network to learn from data.",
+          "formula_used": "Backpropagation and gradient descent analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: More hidden layers always improve performance.",
+          "wrong": "Adding more hidden layers always increases accuracy.",
+          "correct": "Too many layers can lead to overfitting, vanishing gradients, and higher computational cost.",
+          "tip": "The number of layers should be optimized based on the problem and data."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Deep Learning Fundamentals",
+          "points": [
+            "Deep Learning uses multi-layered neural networks to learn hierarchical features.",
+            "Inspired by the human brain (neurons, synapses).",
+            "Perceptron: Simplest neural network (linear classifier).",
+            "Activation functions: ReLU, Sigmoid, Tanh, Softmax.",
+            "Hidden layers: Enable deep learning, each layer learns more abstract features.",
+            "Backpropagation: Algorithm for training neural networks (forward pass → loss → backward pass → update weights).",
+            "Gradient descent optimizes weights by minimizing loss."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dl_models_part1",
+      "title": "Deep Learning Models – CNNs, RNNs, and LSTMs",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Deep Learning Models (Part 1)",
+          "subtitle": "CNNs, RNNs, and LSTMs – The Building Blocks of Modern AI",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🖼️",
+          "title": "Convolutional Neural Networks (CNNs) – For Image and Spatial Data",
+          "content": "CNNs are designed for processing structured grid data, such as images. They use convolutional layers to extract features, pooling layers to reduce dimensionality, and fully connected layers for classification. CNNs are the foundation of modern computer vision.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🖼️",
+          "title": "CNN – Key Components",
+          "content": "1. **Convolutional Layer**: Applies filters (kernels) to input to detect features (edges, textures, shapes).\n2. **Pooling Layer**: Reduces spatial dimensions (max pooling, average pooling) to decrease computational load.\n3. **Activation Function**: ReLU is commonly used to introduce non-linearity.\n4. **Fully Connected Layer**: Flattens the feature maps and connects to output for classification.\n5. **Dropout**: Prevents overfitting by randomly dropping neurons during training.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: CNN for Image Classification",
+          "given": ["A CNN is trained on the ImageNet dataset to classify images into 1000 categories."],
+          "find": "How does a CNN process an image?",
+          "steps": [
+            "Input: An image (e.g., 224x224x3 pixels) is fed into the network.",
+            "Convolution: Multiple filters slide over the image to detect features (e.g., edges, textures).",
+            "Pooling: Reduces dimensions (e.g., from 224x224 to 112x112).",
+            "Repeat: Multiple convolutional and pooling layers learn hierarchical features.",
+            "Fully Connected: The final feature maps are flattened and passed to a classifier.",
+            "Output: A probability distribution over 1000 categories."
+          ],
+          "answer": "CNNs process images through convolutional, pooling, and fully connected layers to classify them.",
+          "formula_used": "CNN architecture analysis"
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "Recurrent Neural Networks (RNNs) – For Sequential Data",
+          "content": "RNNs are designed for sequential data where order matters (e.g., time series, text, speech). They have internal memory (hidden state) that captures information from previous steps. RNNs are used in natural language processing, speech recognition, and time series forecasting.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📝",
+          "title": "RNN – Key Concepts",
+          "content": "1. **Hidden State**: The memory of the network that captures information from previous time steps.\n2. **Unrolling**: RNNs are represented as a chain of repeating modules (one for each time step).\n3. **Backpropagation Through Time (BPTT)**: The learning algorithm for RNNs (backpropagation applied to unrolled sequence).\n4. **Challenges**: Vanishing and exploding gradients (difficult to learn long-term dependencies).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Long Short-Term Memory (LSTM) – Solving the Vanishing Gradient Problem",
+          "content": "LSTMs are a special type of RNN designed to learn long-term dependencies. They use a gating mechanism (input gate, forget gate, output gate) to control the flow of information. LSTMs can remember information for long periods and are widely used in language modeling, machine translation, and speech recognition.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "CNN vs RNN vs LSTM – Comparison",
+          "headers": ["Feature", "CNN", "RNN", "LSTM"],
+          "rows": [
+            ["Data Type", "Grid data (images)", "Sequential data (text, time series)", "Sequential data (long-term dependencies)"],
+            ["Memory", "No memory (static)", "Short-term memory (hidden state)", "Long-term memory (gates)"],
+            ["Training", "Stable with large datasets", "Vanishing/exploding gradients", "Handles long sequences well"],
+            ["Applications", "Image recognition, object detection", "Text generation, speech recognition", "Language translation, sentiment analysis"],
+            ["Key Component", "Convolutional layers", "Hidden state", "Gating mechanism (input/forget/output)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: LSTM for Language Translation",
+          "given": ["LSTMs are used in machine translation (e.g., Google Translate)."],
+          "find": "How does an LSTM process a sentence?",
+          "steps": [
+            "Input: Words are fed sequentially into the LSTM (e.g., 'I', 'love', 'you').",
+            "The LSTM maintains a hidden state that captures the context of the sentence.",
+            "Gates control which information to keep, update, or forget.",
+            "The output is the translated sentence in another language (e.g., 'Je t'aime').",
+            "LSTMs handle long sentences by retaining important information over time."
+          ],
+          "answer": "LSTMs process sequential data using gates to retain long-term context, enabling tasks like translation.",
+          "formula_used": "LSTM architecture analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: RNNs and LSTMs are the same.",
+          "wrong": "RNNs and LSTMs are identical.",
+          "correct": "LSTMs are a specialized type of RNN designed to overcome the vanishing gradient problem.",
+          "tip": "LSTM = RNN + gating mechanism for long-term memory."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Deep Learning Models (Part 1)",
+          "points": [
+            "CNN: For image and spatial data (convolution, pooling, fully connected).",
+            "CNN Applications: Image classification, object detection, face recognition.",
+            "RNN: For sequential data (hidden state, unrolling, BPTT).",
+            "RNN Challenges: Vanishing and exploding gradients.",
+            "LSTM: Special RNN with gates (input, forget, output) for long-term memory.",
+            "LSTM Applications: Language translation, speech recognition, text generation."
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id": "dl_models_part2",
+      "title": "Deep Learning Models – Transformers, Attention Mechanism, and Large Language Models",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Deep Learning Models (Part 2)",
+          "subtitle": "Transformers, Attention, and LLMs – The State of the Art",
+          "tags": ["JKSSB", "High Weightage", "Deep Learning"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "The Attention Mechanism – Focusing on What Matters",
+          "content": "The attention mechanism allows neural networks to focus on the most relevant parts of the input when making predictions. It was introduced to address the limitations of RNNs and LSTMs in handling long sequences. Instead of compressing the entire input into a fixed vector, attention computes a weighted sum of all inputs, giving higher weight to more important elements.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "How Attention Works",
+          "content": "1. **Query (Q)**: What the model is looking for.\n2. **Key (K)**: What each input element offers.\n3. **Value (V)**: The actual content of each input element.\n4. **Attention Score**: Computes compatibility between Query and Keys (e.g., dot product).\n5. **Softmax**: Converts scores to probability weights.\n6. **Weighted Sum**: Multiplies Values by the attention weights.\n7. **Output**: The attended representation (focus on important parts).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "Transformers – The Architecture That Changed Everything",
+          "content": "Transformers were introduced in the paper 'Attention is All You Need' (2017). They rely entirely on attention mechanisms and do not use recurrence or convolution. They consist of an encoder and a decoder, each with multiple layers of self-attention and feed-forward networks. They are more parallelizable and have achieved state-of-the-art results in NLP.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "Transformer Architecture – Key Components",
+          "content": "1. **Self-Attention**: Each token attends to all other tokens in the sequence.\n2. **Multi-Head Attention**: Multiple attention heads run in parallel, capturing different relationships.\n3. **Positional Encoding**: Adds information about the position of tokens (since transformers have no inherent sequence order).\n4. **Feed-Forward Network**: A fully connected network applied to each token independently.\n5. **Layer Normalization**: Stabilizes training.\n6. **Residual Connections**: Helps gradients flow through the network.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Transformer vs RNN/LSTM – Comparison",
+          "headers": ["Feature", "RNN/LSTM", "Transformer"],
+          "rows": [
+            ["Sequence Processing", "Sequential (one token at a time)", "Parallel (all tokens at once)"],
+            ["Memory", "Limited by hidden state", "Can attend to all positions"],
+            ["Training Speed", "Slow (sequential)", "Fast (parallelizable)"],
+            ["Long-Range Dependencies", "Struggles (vanishing gradients)", "Excellent (direct attention)"],
+            ["Computational Complexity", "O(n) for sequence length", "O(n²) for sequence length"],
+            ["Interpretability", "Low", "Higher (attention visualization)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "Large Language Models (LLMs) – The Giants of AI",
+          "content": "Large Language Models are transformer-based models trained on massive amounts of text data (billions of parameters). They can generate human-like text, answer questions, translate languages, and perform tasks with minimal fine-tuning. Examples: GPT (OpenAI), Gemini (Google), LLaMA (Meta), Claude (Anthropic).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "LLM – Key Characteristics",
+          "content": "1. **Scale**: Billions to trillions of parameters.\n2. **Pre-training**: Trained on large, diverse text corpora (next-word prediction).\n3. **Fine-tuning**: Adapted to specific tasks with smaller datasets.\n4. **Zero-shot/Few-shot Learning**: Can perform tasks with minimal examples.\n5. **Emergent Abilities**: Reasoning, code generation, tool use, and more.\n6. **Tokenization**: Text is broken into subword units (tokens) for processing.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: GPT-4's Attention Mechanism",
+          "given": ["GPT-4 processes a long document to answer a question."],
+          "find": "How does attention help in this task?",
+          "steps": [
+            "The question is used as the Query.",
+            "All tokens in the document are Keys and Values.",
+            "Attention scores measure the relevance of each document token to the question.",
+            "The model focuses on the most relevant parts of the document.",
+            "The attended representation is passed to generate the answer.",
+            "Multi-head attention allows the model to capture different aspects of the text."
+          ],
+          "answer": "Attention helps GPT-4 focus on the most relevant parts of the document to answer the question.",
+          "formula_used": "Attention mechanism application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Transformers do not use any form of recurrence.",
+          "wrong": "Transformers use recurrence like RNNs.",
+          "correct": "Transformers use attention mechanisms and do not use recurrence, making them parallelizable.",
+          "tip": "Transformers = Attention only (no RNN/CNN)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Deep Learning Models (Part 2)",
+          "points": [
+            "Attention: Weights input elements based on relevance (Query, Key, Value).",
+            "Transformers: Encoder-decoder architecture with self-attention, multi-head attention, positional encoding.",
+            "Transformers are parallelizable and handle long-range dependencies well.",
+            "Large Language Models (LLMs): Transformer-based, trained on massive text data.",
+            "LLMs exhibit emergent abilities: reasoning, translation, code generation, etc.",
+            "Examples: GPT-4, Gemini, LLaMA, Claude."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dl_applications",
+      "title": "Deep Learning Applications – Image, Speech, Language, Autonomous Driving, and Healthcare",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Deep Learning Applications",
+          "subtitle": "Transforming Industries with AI",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🖼️",
+          "title": "Image Recognition and Computer Vision",
+          "content": "Deep learning, particularly CNNs, has revolutionized image recognition. Applications: Face recognition (security, authentication), Object detection (autonomous vehicles, surveillance), Medical imaging (disease detection from X-rays, MRIs), Image generation (DALL-E, Stable Diffusion).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎙️",
+          "title": "Speech Recognition and Speech-to-Text",
+          "content": "Deep learning models (RNNs, LSTMs, Transformers) power speech recognition systems. Applications: Virtual assistants (Siri, Alexa, Google Assistant), Transcription services, Voice-controlled interfaces, Hearing aids.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "Language Translation and NLP",
+          "content": "Transformer-based models have set new records in machine translation. Applications: Real-time translation tools (Google Translate), Multilingual communication, Cross-border commerce.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚗",
+          "title": "Autonomous Driving",
+          "content": "Deep learning is the backbone of autonomous vehicles. CNNs process camera images (object detection), RNNs/LSTMs track motion and predict trajectories, Reinforcement learning makes decisions. Applications: Self-driving cars, Delivery robots, Drone navigation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏥",
+          "title": "Medical Diagnosis and Healthcare",
+          "content": "Deep learning is transforming healthcare. Applications: Disease detection (cancer, diabetic retinopathy from images), Drug discovery, Personalized medicine, Medical text analysis (clinical notes, research papers).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Deep Learning Applications – Overview",
+          "headers": ["Application", "Deep Learning Model", "Industry", "Examples"],
+          "rows": [
+            ["Image Recognition", "CNN", "Technology, Security", "Face recognition, object detection"],
+            ["Speech Recognition", "RNN, LSTM, Transformer", "Consumer Tech, Healthcare", "Siri, Google Assistant, transcription"],
+            ["Language Translation", "Transformer", "Technology, Communication", "Google Translate, DeepL"],
+            ["Autonomous Driving", "CNN, LSTM, RL", "Automotive", "Tesla Autopilot, Waymo"],
+            ["Medical Diagnosis", "CNN, Transformer", "Healthcare", "Cancer detection, drug discovery"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Deep Learning in Healthcare",
+          "given": ["A hospital uses deep learning to detect tumors in X-ray images."],
+          "find": "How does the system work?",
+          "steps": [
+            "Collect a large dataset of X-ray images labeled as 'tumor' or 'healthy'.",
+            "Train a CNN on the labelled images.",
+            "The CNN learns features associated with tumors (edges, shapes, textures).",
+            "The trained model can classify new X-rays.",
+            "It assists radiologists in making faster and more accurate diagnoses."
+          ],
+          "answer": "Deep learning (CNN) detects tumors by learning patterns from labelled medical images.",
+          "formula_used": "Deep learning application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Deep learning is only used for image processing.",
+          "wrong": "Deep learning is only useful for computer vision.",
+          "correct": "Deep learning is used in many fields: vision, speech, NLP, healthcare, autonomous systems.",
+          "tip": "Deep learning is versatile across many domains."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Deep Learning Applications",
+          "points": [
+            "Image Recognition: CNNs for face detection, object recognition.",
+            "Speech Recognition: RNNs, LSTMs, Transformers for virtual assistants.",
+            "Language Translation: Transformers for real-time translation.",
+            "Autonomous Driving: CNNs, RNNs, RL for self-driving cars.",
+            "Healthcare: CNNs and Transformers for disease detection and drug discovery.",
+            "Deep learning is transforming multiple industries."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dl_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Deep Learning – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on neural network fundamentals (perceptron, activation functions, backpropagation), CNN architecture, RNN vs LSTM, Transformers and attention, and key applications.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which activation function is most commonly used in hidden layers of deep neural networks?",
+          "options": ["Sigmoid", "Tanh", "ReLU", "Softmax"],
+          "answer": 2,
+          "explanation": "ReLU (Rectified Linear Unit) is the most commonly used activation function due to its simplicity and efficiency.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which algorithm is used to train neural networks by minimizing the error through backward propagation?",
+          "options": ["Forward propagation", "Backpropagation", "Gradient descent", "Both (b) and (c)"],
+          "answer": 3,
+          "explanation": "Backpropagation computes gradients, and gradient descent updates weights to minimize the loss.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which deep learning model is specifically designed for image recognition tasks?",
+          "options": ["RNN", "CNN", "LSTM", "Transformer"],
+          "answer": 1,
+          "explanation": "CNNs (Convolutional Neural Networks) are designed for processing grid data like images.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which model is used for sequential data and is known for handling long-term dependencies?",
+          "options": ["CNN", "RNN", "LSTM", "Perceptron"],
+          "answer": 2,
+          "explanation": "LSTM (Long Short-Term Memory) is designed to handle long-term dependencies in sequential data.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The attention mechanism was introduced to address the limitations of which model?",
+          "options": ["CNN", "RNN/LSTM", "Perceptron", "Autoencoder"],
+          "answer": 1,
+          "explanation": "Attention was introduced to overcome the limitations of RNNs and LSTMs in handling long sequences.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which paper introduced the Transformer architecture?",
+          "options": [
+            "Attention is All You Need",
+            "Deep Learning",
+            "ImageNet Classification with CNNs",
+            "BERT: Pre-training of Deep Bidirectional Transformers"
+          ],
+          "answer": 0,
+          "explanation": "The paper 'Attention is All You Need' (2017) introduced the Transformer architecture.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which component of a CNN is responsible for reducing the spatial dimensions of feature maps?",
+          "options": ["Convolutional layer", "Pooling layer", "Fully connected layer", "Dropout layer"],
+          "answer": 1,
+          "explanation": "Pooling layers reduce the spatial dimensions (e.g., max pooling, average pooling).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the purpose of the softmax activation function?",
+          "options": [
+            "To introduce non-linearity",
+            "To output probabilities",
+            "To detect edges",
+            "To reduce dimensions"
+          ],
+          "answer": 1,
+          "explanation": "Softmax converts the output into a probability distribution over classes.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a typical application of deep learning?",
+          "options": ["Image recognition", "Speech recognition", "Sorting algorithms", "Medical diagnosis"],
+          "answer": 2,
+          "explanation": "Sorting algorithms are a fundamental computer science concept, not a deep learning application.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which component of the Transformer architecture provides information about token positions?",
+          "options": ["Self-attention", "Multi-head attention", "Positional encoding", "Feed-forward network"],
+          "answer": 2,
+          "explanation": "Positional encoding adds information about token positions since Transformers have no inherent sequence order.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review neural network fundamentals (backpropagation, activation functions), key deep learning models (CNN, RNN, LSTM, Transformer), and applications (image recognition, NLP, autonomous driving, healthcare)."
+        },
+        {
+          "type": "revision",
+          "title": "Final Revision – Deep Learning",
+          "points": [
+            "Perceptron: Simplest neural network.",
+            "Activation functions: ReLU, Sigmoid, Tanh, Softmax.",
+            "Backpropagation: Computes gradients to update weights.",
+            "CNN: Convolution, pooling, fully connected layers (image processing).",
+            "RNN: Sequential data, hidden state, BPTT.",
+            "LSTM: Gated RNN for long-term dependencies.",
+            "Attention: Query, Key, Value, weighted focus.",
+            "Transformer: Self-attention, multi-head attention, positional encoding.",
+            "LLMs: Large-scale transformer models (GPT-4, Gemini).",
+            "Applications: Image recognition, speech recognition, translation, autonomous driving, healthcare."
+          ]
+        }
+      ]
+    }
+  ]
+}

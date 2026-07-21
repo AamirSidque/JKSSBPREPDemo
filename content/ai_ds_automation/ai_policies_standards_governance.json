@@ -1,0 +1,279 @@
+{
+  "id": "ai_policies_standards_governance",
+  "subject_id": "artificial_intelligence",
+  "title": "AI Policies, Standards & Governance",
+  "subtopics": [
+    {
+      "id": "ai_governance",
+      "title": "AI Policies, Standards & Governance – National Strategies, Frameworks, Regulations, and Compliance",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI Policies, Standards & Governance",
+          "subtitle": "Building a Framework for Responsible AI",
+          "tags": ["JKSSB", "High Weightage", "AI Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "National AI Strategies – Country-Level Roadmaps",
+          "content": "Many countries have developed national AI strategies to guide AI development and deployment. These strategies outline investment, research priorities, ethical guidelines, and regulatory frameworks. Examples: India's 'AI for All' strategy, USA's 'American AI Initiative', China's 'New Generation AI Development Plan', EU's 'AI for Europe'.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "AI Governance Frameworks – Structuring Oversight",
+          "content": "AI governance frameworks provide guidelines for responsible AI development and deployment. They cover: Ethical principles, risk management, accountability, transparency, and compliance. Examples: NIST AI Risk Management Framework, EU AI Act risk-based approach, and various organizational frameworks.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚠️",
+          "title": "AI Risk Management – Identifying and Mitigating Risks",
+          "content": "AI risk management involves identifying, assessing, and mitigating risks associated with AI systems. Key areas: Bias, security vulnerabilities, privacy breaches, and misuse. Frameworks: NIST AI RMF, ISO 31000. Risk management is critical for safety-critical and high-stakes applications.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "AI Regulations – Legal Frameworks",
+          "content": "Regulations are being developed to govern AI use. Key regulations:\n1. **EU AI Act**: Risk-based regulation (unacceptable, high-risk, limited, minimal risk).\n2. **India's DPDP Act**: Digital Personal Data Protection Act (data privacy).\n3. **USA's AI Bill of Rights**: Blueprint for an AI Bill of Rights.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔐",
+          "title": "Data Governance – Managing Data Lifecycle",
+          "content": "Data governance ensures that data is managed properly throughout its lifecycle. Key principles: Data quality, security, privacy, and compliance. Data governance is essential for ethical AI. Frameworks: ISO 27001, GDPR, DPDP Act.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🇮🇳",
+          "title": "Digital Personal Data Protection (DPDP) Act (India)",
+          "content": "The DPDP Act (2023) is India's data protection law. Key provisions: Consent-based data processing, data localization, user rights (access, correction, deletion), and penalties for violations. It applies to all entities processing personal data in India.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "UNESCO AI Ethics Recommendation",
+          "content": "UNESCO's Recommendation on the Ethics of AI is a global framework adopted by all 193 member states. Key principles: Human rights, transparency, accountability, fairness, sustainability, and inclusivity. It provides guidance for national AI policies and regulations.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "OECD AI Principles",
+          "content": "The OECD AI Principles (2019) are the first intergovernmental standards on AI. They include: Inclusive growth, human-centered values, transparency and explainability, robustness, and accountability. They serve as a foundation for national AI policies.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📐",
+          "title": "ISO/IEC AI Standards – Technical Standards",
+          "content": "ISO/IEC is developing international standards for AI: ISO/IEC 22989 (AI concepts and terminology), ISO/IEC 23053 (Framework for AI systems), ISO/IEC 42001 (AI Management System). These standards provide technical guidance and best practices.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "AI Safety – Ensuring Safe Operation",
+          "content": "AI safety involves ensuring that AI systems operate safely and do not cause harm. Key areas: Robustness, fail-safety, adversarial robustness, and alignment with human values. AI safety is critical for autonomous systems, healthcare, and critical infrastructure.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "AI Audits – Independent Reviews",
+          "content": "AI audits are independent reviews of AI systems to assess fairness, bias, security, and compliance. They provide assurance that AI systems are trustworthy. Audits should be conducted regularly and be transparent.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "✅",
+          "title": "AI Compliance – Meeting Legal Requirements",
+          "content": "AI compliance involves ensuring that AI systems meet legal and regulatory requirements. This includes data protection, fairness, transparency, and accountability. Organizations must implement compliance programs and conduct regular assessments.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "AI Policies, Standards & Governance – Overview",
+          "headers": ["Category", "Framework/Standard", "Key Focus"],
+          "rows": [
+            ["National Strategies", "India's AI for All, USA AI Initiative", "Investment, research priorities"],
+            ["Governance Frameworks", "NIST AI RMF, EU AI Act", "Risk management, compliance"],
+            ["Regulations", "EU AI Act, DPDP Act", "Legal requirements, risk-based approach"],
+            ["Data Governance", "GDPR, DPDP Act, ISO 27001", "Data protection, privacy"],
+            ["Global Standards", "UNESCO AI Ethics, OECD AI Principles", "Ethics, human-centered AI"],
+            ["Technical Standards", "ISO/IEC 22989, 23053, 42001", "Technical guidance, best practices"],
+            ["AI Safety", "Robustness, alignment", "Safe operation, harm prevention"],
+            ["AI Audits", "Fairness, bias, compliance", "Independent reviews, trust"],
+            ["AI Compliance", "Legal and regulatory requirements", "Compliance programs, assessments"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: India's AI Governance Framework",
+          "given": ["India is developing a comprehensive AI governance framework."],
+          "find": "What are the key components?",
+          "steps": [
+            "National AI Strategy: 'AI for All' – leveraging AI for inclusive growth.",
+            "Data Governance: DPDP Act (2023) for data protection.",
+            "Regulation: Risk-based approach similar to the EU AI Act.",
+            "Ethics: Alignment with UNESCO AI Ethics Recommendation.",
+            "Standards: Adoption of ISO/IEC AI standards.",
+            "Risk Management: NIST AI RMF principles.",
+            "Awareness: Public awareness and skill development."
+          ],
+          "answer": "India's AI governance framework includes strategy, data protection, regulation, ethics, standards, and risk management.",
+          "formula_used": "AI governance analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: AI governance is optional.",
+          "wrong": "AI governance is just a recommendation and not mandatory.",
+          "correct": "AI governance is becoming legally mandatory through regulations like the EU AI Act and DPDP Act.",
+          "tip": "AI governance is essential for compliance and risk management."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – AI Policies, Standards & Governance",
+          "points": [
+            "National Strategies: India, USA, China, EU.",
+            "Governance Frameworks: NIST AI RMF, EU AI Act.",
+            "Regulations: EU AI Act, DPDP Act (India).",
+            "Data Governance: GDPR, DPDP Act.",
+            "Global Standards: UNESCO AI Ethics, OECD AI Principles.",
+            "Technical Standards: ISO/IEC 22989, 23053, 42001.",
+            "AI Safety: Robustness, alignment, harm prevention.",
+            "AI Audits: Independent reviews for fairness and compliance.",
+            "AI Compliance: Meeting legal and regulatory requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_governance_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "AI Policies, Standards & Governance – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on national AI strategies, governance frameworks (NIST, EU AI Act), regulations (DPDP Act, EU AI Act), global standards (UNESCO, OECD), technical standards (ISO/IEC), and AI safety and audits.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Indian act regulates the processing of personal data?",
+          "options": ["IT Act", "DPDP Act", "Companies Act", "IPC"],
+          "answer": 1,
+          "explanation": "The Digital Personal Data Protection (DPDP) Act (2023) regulates the processing of personal data in India.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which international organization published the AI Ethics Recommendation?",
+          "options": ["UNESCO", "OECD", "EU", "UN"],
+          "answer": 0,
+          "explanation": "UNESCO published the comprehensive AI Ethics Recommendation, adopted by all 193 member states.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which regulation follows a risk-based approach to AI governance?",
+          "options": ["DPDP Act", "EU AI Act", "GDPR", "ISO 27001"],
+          "answer": 1,
+          "explanation": "The EU AI Act follows a risk-based approach (unacceptable, high-risk, limited, minimal risk).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which technical standard provides guidance on AI concepts and terminology?",
+          "options": ["ISO/IEC 22989", "ISO/IEC 27001", "ISO/IEC 42001", "ISO 31000"],
+          "answer": 0,
+          "explanation": "ISO/IEC 22989 provides guidance on AI concepts and terminology.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which framework provides a blueprint for an AI Bill of Rights?",
+          "options": ["EU AI Act", "USA AI Bill of Rights", "UNESCO AI Ethics", "OECD AI Principles"],
+          "answer": 1,
+          "explanation": "The USA has a Blueprint for an AI Bill of Rights, outlining principles for AI governance.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which principle emphasizes making AI decisions understandable to humans?",
+          "options": ["Transparency", "Explainability", "Accountability", "Privacy"],
+          "answer": 1,
+          "explanation": "Explainability ensures that AI decisions are understandable to humans.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which component of AI governance involves independent reviews of AI systems?",
+          "options": ["AI audits", "AI safety", "AI compliance", "AI risk management"],
+          "answer": 0,
+          "explanation": "AI audits are independent reviews of AI systems to assess fairness, bias, and compliance.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a key principle of the OECD AI Principles?",
+          "options": ["Human-centered values", "Algorithmic bias", "Data localization", "Quantum computing"],
+          "answer": 0,
+          "explanation": "OECD AI Principles include human-centered values, transparency, robustness, and accountability.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which standard provides guidance on AI Management Systems?",
+          "options": ["ISO/IEC 42001", "ISO/IEC 22989", "ISO/IEC 23053", "ISO 31000"],
+          "answer": 0,
+          "explanation": "ISO/IEC 42001 provides guidance on AI Management Systems.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Indian strategy aims for 'AI for All'?",
+          "options": ["Digital India", "Make in India", "AI for All", "Startup India"],
+          "answer": 2,
+          "explanation": "India's national AI strategy is titled 'AI for All', focusing on inclusive growth and AI adoption.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review national AI strategies, governance frameworks (NIST, EU AI Act), regulations (DPDP Act, EU AI Act), global standards (UNESCO, OECD), technical standards (ISO/IEC), and AI safety and audits.",
+          "points": [
+            "National Strategies: India (AI for All), USA, China, EU.",
+            "Governance Frameworks: NIST AI RMF, EU AI Act.",
+            "Regulations: EU AI Act (risk-based), DPDP Act (India).",
+            "Data Governance: GDPR, DPDP Act.",
+            "Global Standards: UNESCO AI Ethics, OECD AI Principles.",
+            "Technical Standards: ISO/IEC 22989, 23053, 42001.",
+            "AI Safety: Robustness, alignment.",
+            "AI Audits: Independent reviews.",
+            "AI Compliance: Meeting legal requirements."
+          ]
+        }
+      ]
+    }
+  ]
+}

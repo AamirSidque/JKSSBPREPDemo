@@ -1,0 +1,327 @@
+{
+  "id": "emerging_trends_ai",
+  "subject_id": "artificial_intelligence",
+  "title": "Emerging Trends in AI",
+  "subtopics": [
+    {
+      "id": "ai_emerging_trends",
+      "title": "Emerging Trends in AI – The Future of Artificial Intelligence",
+      "estimated_minutes": 25,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Emerging Trends in AI",
+          "subtitle": "The Next Frontier of Artificial Intelligence",
+          "tags": ["JKSSB", "High Weightage", "AI Trends"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "✨",
+          "title": "Generative AI – Creating New Content",
+          "content": "Generative AI refers to AI systems that can generate new content (text, images, audio, video, code) rather than just analyzing existing data. It is powered by large language models (LLMs) and diffusion models. Examples: ChatGPT, DALL-E, Stable Diffusion, Midjourney. Generative AI is transforming creative industries, content creation, and software development.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "Agentic AI – Autonomous Goal-Oriented Agents",
+          "content": "Agentic AI refers to autonomous AI agents that can plan, reason, and take actions to achieve goals without human intervention. They can interact with tools, APIs, and other agents. Examples: AutoGPT, AgentGPT, autonomous research agents. Agentic AI is advancing toward artificial general intelligence (AGI).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Multimodal AI – Integrating Multiple Modalities",
+          "content": "Multimodal AI integrates multiple types of data (text, images, audio, video, sensor data) to understand and generate content across modalities. Examples: GPT-4V (vision), Gemini (multimodal), CLIP. Multimodal AI enables more comprehensive and human-like understanding.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏗️",
+          "title": "Foundation Models – The Building Blocks of AI",
+          "content": "Foundation models are large-scale pre-trained models that serve as the foundation for a wide range of downstream tasks. They are trained on massive datasets and can be fine-tuned for specific applications. Examples: GPT-4, Gemini, LLaMA, Claude, BERT. Foundation models are the backbone of modern AI.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📱",
+          "title": "Edge AI – AI on Devices",
+          "content": "Edge AI refers to running AI models on edge devices (smartphones, IoT devices, sensors) rather than in the cloud. It reduces latency, enhances privacy, and enables offline operation. Examples: On-device voice assistants, AI cameras, smart sensors. Edge AI is critical for real-time applications.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔬",
+          "title": "TinyML – AI on Microcontrollers",
+          "content": "TinyML is a subfield of Edge AI that focuses on running machine learning models on extremely low-power microcontrollers (MCUs). It enables AI on battery-powered devices. Examples: Keyword spotting, anomaly detection, gesture recognition. TinyML brings AI to the smallest devices.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Explainable AI (XAI) – Making AI Understandable",
+          "content": "Explainable AI (XAI) aims to make AI decisions transparent and understandable to humans. It addresses the 'black-box' problem of deep learning. Techniques: LIME, SHAP, saliency maps, attention visualizations. XAI is critical for trust, accountability, and regulatory compliance.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔒",
+          "title": "Federated Learning – Privacy-Preserving AI",
+          "content": "Federated Learning enables training AI models on decentralized data without sharing raw data. Data remains on local devices; only model updates are shared. It enhances privacy and security. Examples: Google Gboard (keyboard prediction), healthcare collaborations. Federated learning is a key privacy-preserving technique.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔬",
+          "title": "Quantum AI – The Next Frontier",
+          "content": "Quantum AI combines quantum computing with artificial intelligence. Quantum computers can solve certain problems exponentially faster than classical computers. Applications: Drug discovery, optimization, cryptography, material science. Quantum AI is still in early stages but has enormous potential.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "AI for Cybersecurity – Intelligent Defense",
+          "content": "AI for cybersecurity uses machine learning to detect threats, predict attacks, and automate responses. Applications: Threat intelligence, anomaly detection, malware analysis, zero-day exploit detection. AI-powered cybersecurity is essential in the face of evolving threats.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚀",
+          "title": "AI in Space Technology – Beyond Earth",
+          "content": "AI is being used in space exploration: Autonomous navigation, satellite imagery analysis, rover control, and space debris tracking. Examples: NASA's Mars rovers, satellite imagery analysis. AI is enabling space exploration to go further and faster.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏙️",
+          "title": "AI in Smart Cities – Intelligent Urban Living",
+          "content": "AI is powering smart cities: Traffic management, energy optimization, waste management, public safety, and citizen services. Examples: Smart traffic signals, predictive maintenance, public safety analytics. AI makes cities more efficient, sustainable, and livable.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌍",
+          "title": "AI in Climate Science – Combating Climate Change",
+          "content": "AI is being used to address climate change: Climate modeling, disaster prediction, resource optimization, and renewable energy management. Examples: Flood prediction, carbon emission tracking, energy grid optimization. AI is a powerful tool for climate action.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "AI-Powered Digital Twins – Virtual Replicas",
+          "content": "Digital twins are virtual replicas of physical assets, processes, or systems. AI enhances digital twins with predictive analytics, simulation, and optimization. Examples: Smart factories, smart cities, healthcare simulations. Digital twins enable proactive decision-making.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛸",
+          "title": "Autonomous Systems – Self-Operating Systems",
+          "content": "Autonomous systems can operate independently without human intervention. They combine perception, planning, and control. Examples: Self-driving cars, autonomous drones, robotic process automation. Autonomous systems are transforming industries.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤝",
+          "title": "Human-AI Collaboration – Working Together",
+          "content": "Human-AI collaboration focuses on augmenting human capabilities rather than replacing them. Examples: AI-assisted design, decision support systems, co-writing assistants, collaborative robots. The future is collaborative, not competitive.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Emerging Trends in AI – Overview",
+          "headers": ["Trend", "Description", "Key Technologies", "Applications"],
+          "rows": [
+            ["Generative AI", "Creates new content", "LLMs, diffusion models", "Content creation, software development"],
+            ["Agentic AI", "Autonomous goal-oriented agents", "AutoGPT, AgentGPT", "Automation, research"],
+            ["Multimodal AI", "Integrates multiple data types", "GPT-4V, Gemini, CLIP", "Comprehensive understanding"],
+            ["Foundation Models", "Large pre-trained models", "GPT-4, LLaMA, Claude", "Wide range of tasks"],
+            ["Edge AI", "AI on devices", "On-device models, sensors", "Real-time applications"],
+            ["TinyML", "AI on microcontrollers", "Low-power models", "IoT, wearables"],
+            ["Explainable AI", "Transparent decisions", "LIME, SHAP", "Trust, compliance"],
+            ["Federated Learning", "Privacy-preserving training", "Collaborative learning", "Healthcare, privacy"],
+            ["Quantum AI", "Quantum + AI", "Quantum computing", "Drug discovery, optimization"],
+            ["AI for Cybersecurity", "Intelligent defense", "ML, anomaly detection", "Threat detection, prevention"],
+            ["AI in Space", "Space exploration", "Autonomous navigation", "Rovers, satellite analysis"],
+            ["AI in Smart Cities", "Urban intelligence", "IoT, ML, analytics", "Traffic, energy, safety"],
+            ["AI in Climate Science", "Climate solutions", "ML, analytics", "Prediction, optimization"],
+            ["Digital Twins", "Virtual replicas", "Simulation, AI", "Manufacturing, healthcare"],
+            ["Autonomous Systems", "Self-operating systems", "Perception, planning, control", "Self-driving, drones"],
+            ["Human-AI Collaboration", "Augmenting humans", "AI-assisted tools", "Design, decision support"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Generative AI in Content Creation",
+          "given": ["A marketing agency uses generative AI to create ad campaigns."],
+          "find": "How does generative AI help?",
+          "steps": [
+            "Text Generation: ChatGPT writes ad copy.",
+            "Image Generation: DALL-E creates visuals.",
+            "Video Generation: Runway generates video ads.",
+            "Multimodal: AI integrates text, images, and video.",
+            "The team can generate multiple variations quickly.",
+            "Creative workflows are accelerated."
+          ],
+          "answer": "Generative AI accelerates creative workflows by generating text, images, and video content.",
+          "formula_used": "Generative AI application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Generative AI will replace all human creativity.",
+          "wrong": "Generative AI will replace human creatives.",
+          "correct": "Generative AI augments human creativity and accelerates workflows.",
+          "tip": "AI is a tool for creativity, not a replacement."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Emerging Trends in AI",
+          "points": [
+            "Generative AI: Creates new content (text, images, audio, video).",
+            "Agentic AI: Autonomous, goal-oriented AI agents.",
+            "Multimodal AI: Integrates text, images, audio, and video.",
+            "Foundation Models: Large pre-trained models (GPT-4, LLaMA).",
+            "Edge AI: AI on devices (smartphones, IoT).",
+            "TinyML: AI on microcontrollers (battery-powered).",
+            "Explainable AI: Transparent and understandable decisions.",
+            "Federated Learning: Privacy-preserving training.",
+            "Quantum AI: Quantum computing + AI.",
+            "AI for Cybersecurity: Intelligent threat detection.",
+            "AI in Space: Space exploration and satellite analysis.",
+            "AI in Smart Cities: Urban intelligence and efficiency.",
+            "AI in Climate Science: Climate prediction and solutions.",
+            "Digital Twins: Virtual replicas for simulation.",
+            "Autonomous Systems: Self-driving, drones, automation.",
+            "Human-AI Collaboration: Augmenting human capabilities."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emerging_trends_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Emerging Trends in AI – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on key trends: Generative AI, Agentic AI, Multimodal AI, Foundation Models, Edge AI, TinyML, Explainable AI, Federated Learning, Quantum AI, and Human-AI Collaboration.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend involves creating new content such as text, images, and audio?",
+          "options": ["Edge AI", "Generative AI", "Federated Learning", "Quantum AI"],
+          "answer": 1,
+          "explanation": "Generative AI creates new content such as text, images, audio, and video.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend enables autonomous agents to plan and act independently to achieve goals?",
+          "options": ["Generative AI", "Multimodal AI", "Agentic AI", "Edge AI"],
+          "answer": 2,
+          "explanation": "Agentic AI involves autonomous agents that can plan, reason, and act independently.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend integrates multiple data types such as text, images, and audio?",
+          "options": ["Multimodal AI", "Generative AI", "Edge AI", "TinyML"],
+          "answer": 0,
+          "explanation": "Multimodal AI integrates multiple types of data (text, images, audio, video).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend focuses on running AI models on devices like smartphones and IoT sensors?",
+          "options": ["Cloud AI", "Edge AI", "Quantum AI", "Federated Learning"],
+          "answer": 1,
+          "explanation": "Edge AI runs AI models on edge devices (smartphones, IoT sensors) rather than in the cloud.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend combines quantum computing with artificial intelligence?",
+          "options": ["Quantum AI", "Federated Learning", "TinyML", "Generative AI"],
+          "answer": 0,
+          "explanation": "Quantum AI combines quantum computing with artificial intelligence.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend focuses on making AI decisions transparent and understandable?",
+          "options": ["Explainable AI", "Federated Learning", "Agentic AI", "Multimodal AI"],
+          "answer": 0,
+          "explanation": "Explainable AI (XAI) aims to make AI decisions understandable to humans.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend enables training AI models on decentralized data without sharing raw data?",
+          "options": ["Edge AI", "Federated Learning", "Quantum AI", "Generative AI"],
+          "answer": 1,
+          "explanation": "Federated Learning enables training on decentralized data while preserving privacy.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend involves running AI on extremely low-power microcontrollers?",
+          "options": ["Edge AI", "TinyML", "Quantum AI", "Cloud AI"],
+          "answer": 1,
+          "explanation": "TinyML focuses on running AI on microcontrollers for low-power devices.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend powers applications like ChatGPT and DALL-E?",
+          "options": ["Generative AI", "Edge AI", "Federated Learning", "TinyML"],
+          "answer": 0,
+          "explanation": "Generative AI powers applications like ChatGPT (text) and DALL-E (images).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which AI trend focuses on creating virtual replicas of physical assets?",
+          "options": ["Digital Twins", "Autonomous Systems", "Edge AI", "Generative AI"],
+          "answer": 0,
+          "explanation": "Digital twins are virtual replicas of physical assets, enhanced by AI for simulation and optimization.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review all emerging trends: Generative AI, Agentic AI, Multimodal AI, Foundation Models, Edge AI, TinyML, Explainable AI, Federated Learning, Quantum AI, and Human-AI Collaboration.",
+          "points": [
+            "Generative AI: Creates new content.",
+            "Agentic AI: Autonomous, goal-oriented agents.",
+            "Multimodal AI: Integrates multiple modalities.",
+            "Foundation Models: Large pre-trained models.",
+            "Edge AI: AI on devices.",
+            "TinyML: AI on microcontrollers.",
+            "Explainable AI: Transparent decisions.",
+            "Federated Learning: Privacy-preserving training.",
+            "Quantum AI: Quantum computing + AI.",
+            "AI for Cybersecurity: Intelligent defense.",
+            "AI in Space: Space exploration.",
+            "AI in Smart Cities: Urban intelligence.",
+            "AI in Climate Science: Climate solutions.",
+            "Digital Twins: Virtual replicas.",
+            "Autonomous Systems: Self-operating systems.",
+            "Human-AI Collaboration: Augmenting humans."
+          ]
+        }
+      ]
+    }
+  ]
+}

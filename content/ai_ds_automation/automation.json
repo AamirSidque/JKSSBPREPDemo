@@ -1,0 +1,422 @@
+{
+  "id": "automation",
+  "subject_id": "artificial_intelligence",
+  "title": "Automation",
+  "subtopics": [
+    {
+      "id": "automation_fundamentals",
+      "title": "Fundamentals of Automation – Definition, Types, Industrial, Office, and Process Automation",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Automation Fundamentals",
+          "subtitle": "Transforming Work with Machines and Software",
+          "tags": ["JKSSB", "High Weightage", "Automation"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "What is Automation?",
+          "content": "Automation is the use of technology to perform tasks with minimal human intervention. It involves using machines, control systems, and software to automate processes. Automation increases efficiency, reduces errors, and improves consistency.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏭",
+          "title": "Industrial Automation – Automating Manufacturing and Production",
+          "content": "Industrial automation uses control systems (PLCs, SCADA, robotics) to automate manufacturing processes. It increases productivity, improves quality, and enhances safety. Applications: Assembly lines, material handling, quality inspection, packaging.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💻",
+          "title": "Office Automation – Automating Administrative Tasks",
+          "content": "Office automation uses software to automate routine office tasks. Applications: Document management, email automation, scheduling, invoicing, and HR processes. Tools: Microsoft Office, ERP systems, CRM, workflow automation tools.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "Process Automation – Automating Workflows",
+          "content": "Process automation involves automating a series of tasks that form a business process. It ensures efficiency, consistency, and compliance. Types: Business Process Automation (BPA), Robotic Process Automation (RPA), Intelligent Process Automation (IPA).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Automation – Overview",
+          "headers": ["Type", "Focus", "Key Technologies", "Examples"],
+          "rows": [
+            ["Industrial Automation", "Manufacturing, production", "PLCs, SCADA, robotics", "Assembly lines, quality control"],
+            ["Office Automation", "Administrative tasks", "Software, workflow tools", "Email, invoicing, scheduling"],
+            ["Process Automation", "Business workflows", "BPA, RPA, IPA", "Order processing, HR onboarding"],
+            ["AI-Driven Automation", "Intelligent automation", "AI, ML, NLP", "Chatbots, predictive maintenance"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Industrial Automation in Manufacturing",
+          "given": ["A factory uses industrial automation to assemble electronics."],
+          "find": "How does industrial automation help?",
+          "steps": [
+            "Robotic arms perform precise assembly tasks.",
+            "Conveyor belts move products between stations.",
+            "PLCs control the sequence of operations.",
+            "Sensors monitor quality and detect defects.",
+            "The system operates 24/7 with minimal human intervention."
+          ],
+          "answer": "Industrial automation increases speed, precision, and efficiency in manufacturing.",
+          "formula_used": "Industrial automation analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Automation always replaces human workers.",
+          "wrong": "Automation always leads to job losses.",
+          "correct": "Automation can augment human work, create new roles, and increase productivity.",
+          "tip": "Automation often changes the nature of work, not just eliminates it."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Automation Fundamentals",
+          "points": [
+            "Automation: Technology to perform tasks with minimal human intervention.",
+            "Industrial Automation: Manufacturing, robotics, control systems.",
+            "Office Automation: Administrative tasks, software automation.",
+            "Process Automation: Automating business workflows (BPA, RPA, IPA).",
+            "AI-driven Automation: Intelligent, adaptive automation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation_technologies",
+      "title": "Automation Technologies – IoT, Sensors, PLC, SCADA, Robotics, RPA, and AI-Driven Automation",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Automation Technologies",
+          "subtitle": "The Tools Behind Automated Systems",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📡",
+          "title": "IoT (Internet of Things) – Connecting Devices",
+          "content": "IoT connects physical devices to the internet, enabling data collection and remote control. It is the foundation of smart automation. Applications: Smart homes, industrial monitoring, agriculture, healthcare.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📟",
+          "title": "Sensors – The Eyes and Ears of Automation",
+          "content": "Sensors detect physical properties (temperature, pressure, motion, light, sound) and convert them into signals. They provide real-time data for monitoring and control. Types: Temperature, pressure, proximity, optical, ultrasonic.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔌",
+          "title": "PLC (Programmable Logic Controller) – Industrial Control",
+          "content": "PLCs are ruggedized computers used for industrial automation. They control machinery, processes, and robotics. They are programmable, reliable, and operate in harsh environments. Applications: Manufacturing, power plants, water treatment.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "SCADA (Supervisory Control and Data Acquisition) – Monitoring and Control",
+          "content": "SCADA systems monitor and control industrial processes from a central location. They collect data from sensors and PLCs, display it on dashboards, and enable remote control. Applications: Electrical grids, pipelines, water systems.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "Robotics – Automated Physical Tasks",
+          "content": "Robotics combines mechanical, electrical, and software engineering to create automated machines. Robots perform tasks with speed, precision, and consistency. Applications: Manufacturing, healthcare (surgical robots), logistics (warehouse robots).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤖",
+          "title": "RPA (Robotic Process Automation) – Automating Digital Tasks",
+          "content": "RPA uses software bots to automate repetitive, rule-based digital tasks. Bots interact with applications (clicking, typing, copying) just like humans. Applications: Data entry, invoice processing, report generation, customer onboarding.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🧠",
+          "title": "AI-Driven Automation – Intelligent Automation",
+          "content": "AI-driven automation combines automation with AI capabilities (learning, reasoning, decision-making). It handles complex tasks, unstructured data, and adapts to changes. Applications: Predictive maintenance, intelligent document processing, autonomous vehicles.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Automation Technologies – Overview",
+          "headers": ["Technology", "Purpose", "Key Features", "Applications"],
+          "rows": [
+            ["IoT", "Connect devices to internet", "Sensors, cloud, remote control", "Smart homes, industrial IoT"],
+            ["Sensors", "Detect physical properties", "Temperature, pressure, motion", "Monitoring, control systems"],
+            ["PLC", "Industrial control", "Programmable, rugged", "Manufacturing, power plants"],
+            ["SCADA", "Monitor and control processes", "Centralised control, dashboards", "Electrical grids, pipelines"],
+            ["Robotics", "Automated physical tasks", "Precision, speed", "Manufacturing, healthcare"],
+            ["RPA", "Automate digital tasks", "Software bots, UI automation", "Data entry, invoice processing"],
+            ["AI-Driven Automation", "Intelligent automation", "Learning, decision-making", "Predictive maintenance, autonomous systems"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: RPA in Finance",
+          "given": ["A bank uses RPA to automate invoice processing."],
+          "find": "How does RPA work in invoice processing?",
+          "steps": [
+            "An email with an invoice arrives.",
+            "The RPA bot extracts data from the invoice (amount, vendor, date).",
+            "It validates the data against the database.",
+            "It enters the invoice into the accounting system.",
+            "It sends a confirmation email.",
+            "The process is completed in minutes instead of hours."
+          ],
+          "answer": "RPA automates repetitive tasks like invoice processing, saving time and reducing errors.",
+          "formula_used": "RPA application analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: RPA is the same as AI.",
+          "wrong": "RPA and AI are identical.",
+          "correct": "RPA is rule-based automation; AI adds learning and reasoning capabilities.",
+          "tip": "RPA + AI = Intelligent Automation (IPA)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Automation Technologies",
+          "points": [
+            "IoT: Connects devices for data collection and remote control.",
+            "Sensors: Detect physical properties.",
+            "PLC: Industrial control computers.",
+            "SCADA: Centralised monitoring and control.",
+            "Robotics: Automated physical tasks.",
+            "RPA: Automates digital tasks (rule-based).",
+            "AI-Driven Automation: Intelligent, adaptive automation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation_applications",
+      "title": "Automation Applications – Manufacturing, Healthcare, Banking, Government, and Transportation",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Automation Applications",
+          "subtitle": "Automation Across Industries",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏭",
+          "title": "Manufacturing – The Heart of Automation",
+          "content": "Manufacturing is the largest user of automation. It includes: Robotics (assembly, welding), PLCs (process control), AI-driven quality inspection, predictive maintenance, and automated warehousing. Benefits: Increased productivity, improved quality, reduced costs.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏥",
+          "title": "Healthcare – Automating Patient Care",
+          "content": "Automation in healthcare includes: Robotic surgery, automated diagnostics (AI imaging), telemedicine, patient monitoring, and administrative automation (scheduling, billing). Benefits: Improved accuracy, faster care, reduced administrative burden.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏦",
+          "title": "Banking and Finance – Automation for Efficiency",
+          "content": "Banking uses automation for: RPA (data entry, reconciliation), fraud detection (AI), automated customer service (chatbots), loan processing, and compliance reporting. Benefits: Faster processing, reduced errors, enhanced security.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Government – Automation for Public Services",
+          "content": "Government uses automation for: Citizen services (online portals), grievance redressal (AI chatbots), document processing (OCR), tax compliance, and public safety (surveillance, emergency response). Benefits: Improved service delivery, transparency, efficiency.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚗",
+          "title": "Transportation – Automating Movement",
+          "content": "Transportation automation includes: Autonomous vehicles, smart traffic management, automated toll collection, fleet management, and logistics optimization. Benefits: Improved safety, reduced congestion, efficient logistics.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Automation Applications – Overview",
+          "headers": ["Industry", "Applications", "Key Technologies", "Benefits"],
+          "rows": [
+            ["Manufacturing", "Robotics, quality inspection, predictive maintenance", "PLC, SCADA, AI", "Productivity, quality, cost reduction"],
+            ["Healthcare", "Surgical robots, diagnostics, telemedicine", "AI, robotics, sensors", "Accuracy, faster care"],
+            ["Banking", "RPA, fraud detection, chatbots", "RPA, AI, ML", "Speed, accuracy, security"],
+            ["Government", "Citizen services, grievance redressal", "AI, OCR, chatbots", "Efficiency, transparency"],
+            ["Transportation", "Autonomous vehicles, traffic management", "AI, IoT, sensors", "Safety, efficiency"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Automation in Government Services",
+          "given": ["A government department uses automation for citizen services."],
+          "find": "How does automation improve service delivery?",
+          "steps": [
+            "Citizens apply online through a portal.",
+            "AI chatbots answer common queries instantly.",
+            "OCR automates document verification.",
+            "Workflow automation routes applications to the right department.",
+            "Status updates are sent automatically.",
+            "Processing time is reduced from weeks to days."
+          ],
+          "answer": "Automation improves government service delivery by reducing processing time and improving transparency.",
+          "formula_used": "Government automation analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Automation in healthcare replaces doctors.",
+          "wrong": "Automation will replace all healthcare professionals.",
+          "correct": "Automation augments healthcare professionals, improving accuracy and efficiency.",
+          "tip": "Automation assists, not replaces, healthcare workers."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Automation Applications",
+          "points": [
+            "Manufacturing: Robotics, quality, predictive maintenance.",
+            "Healthcare: Surgical robots, diagnostics, telemedicine.",
+            "Banking: RPA, fraud detection, chatbots.",
+            "Government: Citizen services, grievance redressal, document processing.",
+            "Transportation: Autonomous vehicles, traffic management.",
+            "Automation improves efficiency, accuracy, and service quality across industries."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Automation – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on automation types (industrial, office, process), key technologies (IoT, PLC, SCADA, RPA, AI-driven automation), and applications in different industries.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of automation uses control systems like PLCs and SCADA in manufacturing?",
+          "options": ["Office automation", "Industrial automation", "Process automation", "AI-driven automation"],
+          "answer": 1,
+          "explanation": "Industrial automation uses PLCs, SCADA, and robotics in manufacturing and production.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which technology connects physical devices to the internet for data collection?",
+          "options": ["PLC", "SCADA", "IoT", "RPA"],
+          "answer": 2,
+          "explanation": "IoT (Internet of Things) connects devices to the internet for data collection and remote control.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which device is a ruggedized computer used for industrial control?",
+          "options": ["SCADA", "IoT", "PLC", "RPA"],
+          "answer": 2,
+          "explanation": "PLCs (Programmable Logic Controllers) are ruggedized computers used for industrial automation.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which automation technology uses software bots to automate digital tasks?",
+          "options": ["SCADA", "RPA", "PLC", "IoT"],
+          "answer": 1,
+          "explanation": "RPA (Robotic Process Automation) uses software bots to automate repetitive digital tasks.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which system provides centralised monitoring and control of industrial processes?",
+          "options": ["PLC", "SCADA", "IoT", "RPA"],
+          "answer": 1,
+          "explanation": "SCADA (Supervisory Control and Data Acquisition) provides centralised monitoring and control.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of automation handles complex tasks and adapts to changes using AI?",
+          "options": ["RPA", "Industrial automation", "AI-driven automation", "Office automation"],
+          "answer": 2,
+          "explanation": "AI-driven automation combines AI with automation for intelligent, adaptive processes.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which industry uses automation for surgical robots and diagnostic imaging?",
+          "options": ["Manufacturing", "Banking", "Healthcare", "Transportation"],
+          "answer": 2,
+          "explanation": "Healthcare uses automation for surgical robots, diagnostic imaging, and telemedicine.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which automation application in banking detects suspicious transactions?",
+          "options": ["RPA", "Fraud detection", "Chatbots", "Document processing"],
+          "answer": 1,
+          "explanation": "Fraud detection uses AI to identify suspicious transactions in banking.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which automation technology is used for autonomous vehicles?",
+          "options": ["SCADA", "PLC", "AI-driven automation", "RPA"],
+          "answer": 2,
+          "explanation": "AI-driven automation powers autonomous vehicles using perception, planning, and control.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which automation application in government uses AI chatbots for citizen queries?",
+          "options": ["RPA", "Document processing", "Grievance redressal", "Tax compliance"],
+          "answer": 2,
+          "explanation": "Grievance redressal uses AI chatbots to answer citizen queries and resolve complaints.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review automation types, technologies (IoT, PLC, SCADA, RPA, AI-driven automation), and applications across industries.",
+          "points": [
+            "Industrial Automation: PLC, SCADA, robotics.",
+            "Office Automation: Software tools, workflow automation.",
+            "Process Automation: BPA, RPA, IPA.",
+            "IoT: Connects devices, collects data.",
+            "Sensors: Detect physical properties.",
+            "PLC: Industrial control computers.",
+            "SCADA: Centralised monitoring.",
+            "RPA: Software bots for digital tasks.",
+            "AI-driven Automation: Intelligent, adaptive automation.",
+            "Applications: Manufacturing, healthcare, banking, government, transportation."
+          ]
+        }
+      ]
+    }
+  ]
+}

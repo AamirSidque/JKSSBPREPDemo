@@ -1,0 +1,301 @@
+{
+  "id": "data_analytics",
+  "subject_id": "artificial_intelligence",
+  "title": "Data Analytics",
+  "subtopics": [
+    {
+      "id": "analytics_types",
+      "title": "Types of Analytics – Descriptive, Diagnostic, Predictive, and Prescriptive",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Types of Analytics",
+          "subtitle": "From Understanding the Past to Shaping the Future",
+          "tags": ["JKSSB", "High Weightage", "Data Analytics"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Descriptive Analytics – What Happened?",
+          "content": "Descriptive analytics answers the question 'What happened?' It summarizes historical data to identify patterns and trends. It uses techniques like reporting, data aggregation, and data visualization. Examples: Dashboards, sales reports, website traffic analytics. It forms the foundation for all other analytics.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Diagnostic Analytics – Why Did It Happen?",
+          "content": "Diagnostic analytics answers 'Why did it happen?' It goes beyond describing what happened to understand the root causes. Techniques: Drill-down, data mining, correlation analysis, and hypothesis testing. Examples: Determining why sales dropped in a region, why website traffic declined, why customer churn increased.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔮",
+          "title": "Predictive Analytics – What Will Happen?",
+          "content": "Predictive analytics answers 'What will happen?' It uses historical data and machine learning to forecast future outcomes. Techniques: Regression analysis, time series forecasting, machine learning models (classification, regression). Examples: Sales forecasting, customer churn prediction, demand forecasting.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Prescriptive Analytics – What Should We Do?",
+          "content": "Prescriptive analytics answers 'What should we do?' It recommends actions based on predictions and optimization. Techniques: Optimization algorithms, simulation, decision trees. Examples: Recommending pricing strategies, inventory optimization, resource allocation, personalized recommendations.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Analytics – Comparison",
+          "headers": ["Type", "Question", "Techniques", "Value", "Examples"],
+          "rows": [
+            ["Descriptive", "What happened?", "Reporting, visualization", "Understanding the past", "Sales reports, dashboards"],
+            ["Diagnostic", "Why did it happen?", "Data mining, correlation", "Identifying root causes", "Churn analysis, cause analysis"],
+            ["Predictive", "What will happen?", "ML, regression, forecasting", "Forecasting future", "Sales forecast, churn prediction"],
+            ["Prescriptive", "What should we do?", "Optimization, simulation", "Recommending actions", "Pricing, inventory, resource allocation"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Analytics in E-Commerce",
+          "given": ["An e-commerce company uses all four types of analytics."],
+          "find": "Explain how each type is used.",
+          "steps": [
+            "Descriptive: The dashboard shows total sales, top products, and traffic trends.",
+            "Diagnostic: Analysis reveals that a drop in sales was due to a competitor's price drop.",
+            "Predictive: ML models forecast next month's sales and predict customer churn.",
+            "Prescriptive: The system recommends dynamic pricing to remain competitive."
+          ],
+          "answer": "All four analytics types work together to drive e-commerce decision-making.",
+          "formula_used": "Analytics pyramid application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Predictive and prescriptive analytics are the same.",
+          "wrong": "Predictive and prescriptive analytics are identical.",
+          "correct": "Predictive forecasts what will happen; prescriptive recommends what to do about it.",
+          "tip": "Predictive = Forecast; Prescriptive = Action."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Types of Analytics",
+          "points": [
+            "Descriptive: What happened? (Past, reporting)",
+            "Diagnostic: Why did it happen? (Root cause)",
+            "Predictive: What will happen? (Forecast)",
+            "Prescriptive: What should we do? (Action)",
+            "The four types form a progression from understanding to action."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analytical_techniques",
+      "title": "Analytical Techniques – Statistical Analysis, Predictive Modeling, Trend Analysis, Forecasting, and Data Mining",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Analytical Techniques",
+          "subtitle": "Tools to Extract Insights from Data",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Statistical Analysis – Understanding Data Distributions",
+          "content": "Statistical analysis involves collecting, organizing, and interpreting data. It is the foundation of analytics. Key concepts: Mean, median, mode, variance, standard deviation, correlation, and hypothesis testing. It helps describe data and identify relationships.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📈",
+          "title": "Predictive Modeling – Using ML for Predictions",
+          "content": "Predictive modeling uses machine learning algorithms to predict future outcomes based on historical data. Common models: Linear regression, logistic regression, decision trees, random forest, SVM, neural networks. It is used for classification, regression, and time series forecasting.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📉",
+          "title": "Trend Analysis – Identifying Patterns Over Time",
+          "content": "Trend analysis examines data over time to identify long-term movements. It uses techniques like moving averages, exponential smoothing, and regression. Applications: Sales trends, market trends, user behavior trends.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔮",
+          "title": "Forecasting – Predicting Future Values",
+          "content": "Forecasting predicts future values based on historical data. Techniques: Time series analysis, ARIMA models, exponential smoothing, machine learning. Applications: Sales forecasting, inventory planning, resource allocation, weather prediction.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⛏️",
+          "title": "Data Mining – Discovering Hidden Patterns",
+          "content": "Data mining is the process of discovering patterns and knowledge from large datasets. It combines statistics, machine learning, and database systems. Techniques: Association rule mining (market basket analysis), clustering (customer segmentation), anomaly detection, classification.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Analytical Techniques – Overview",
+          "headers": ["Technique", "Description", "Key Methods", "Applications"],
+          "rows": [
+            ["Statistical Analysis", "Describe and interpret data", "Mean, median, correlation, hypothesis testing", "Reporting, A/B testing"],
+            ["Predictive Modeling", "Predict future outcomes", "Regression, decision trees, neural networks", "Sales prediction, churn prediction"],
+            ["Trend Analysis", "Identify patterns over time", "Moving averages, regression", "Market trends, user behavior"],
+            ["Forecasting", "Predict future values", "Time series, ARIMA, exponential smoothing", "Sales, inventory, weather"],
+            ["Data Mining", "Discover hidden patterns", "Clustering, association, anomaly detection", "Segmentation, fraud detection"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Data Mining in Retail",
+          "given": ["A retail chain uses data mining to improve sales."],
+          "find": "How does data mining help?",
+          "steps": [
+            "Association rule mining discovers that customers who buy diapers also buy baby wipes.",
+            "The store places these items together to increase sales.",
+            "Clustering segments customers into groups based on purchasing behavior.",
+            "Targeted marketing campaigns are created for each segment.",
+            "Anomaly detection identifies fraudulent transactions."
+          ],
+          "answer": "Data mining helps retailers discover patterns, segment customers, and detect fraud.",
+          "formula_used": "Data mining application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Data mining and predictive modeling are the same.",
+          "wrong": "Data mining and predictive modeling are identical.",
+          "correct": "Data mining discovers patterns; predictive modeling uses those patterns to make predictions.",
+          "tip": "Data mining = Discovery; Predictive modeling = Prediction."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Analytical Techniques",
+          "points": [
+            "Statistical Analysis: Describes data distributions and relationships.",
+            "Predictive Modeling: Uses ML to forecast outcomes.",
+            "Trend Analysis: Identifies long-term patterns.",
+            "Forecasting: Predicts future values (time series).",
+            "Data Mining: Discovers hidden patterns (clustering, association, anomaly)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analytics_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Data Analytics – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the four types of analytics (Descriptive, Diagnostic, Predictive, Prescriptive) and key analytical techniques (statistical analysis, predictive modeling, trend analysis, forecasting, data mining).",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of analytics answers the question 'What happened?'",
+          "options": ["Descriptive", "Diagnostic", "Predictive", "Prescriptive"],
+          "answer": 0,
+          "explanation": "Descriptive analytics summarizes historical data to answer 'What happened?'",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of analytics answers the question 'Why did it happen?'",
+          "options": ["Descriptive", "Diagnostic", "Predictive", "Prescriptive"],
+          "answer": 1,
+          "explanation": "Diagnostic analytics looks at root causes to answer 'Why did it happen?'",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of analytics answers the question 'What will happen?'",
+          "options": ["Descriptive", "Diagnostic", "Predictive", "Prescriptive"],
+          "answer": 2,
+          "explanation": "Predictive analytics uses ML and forecasting to predict future outcomes.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of analytics answers the question 'What should we do?'",
+          "options": ["Descriptive", "Diagnostic", "Predictive", "Prescriptive"],
+          "answer": 3,
+          "explanation": "Prescriptive analytics recommends actions based on predictions and optimization.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which analytical technique identifies long-term patterns in time series data?",
+          "options": ["Predictive modeling", "Data mining", "Trend analysis", "Statistical analysis"],
+          "answer": 2,
+          "explanation": "Trend analysis identifies long-term patterns and movements over time.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which analytical technique discovers hidden patterns in large datasets?",
+          "options": ["Predictive modeling", "Data mining", "Trend analysis", "Statistical analysis"],
+          "answer": 1,
+          "explanation": "Data mining discovers hidden patterns using clustering, association, and anomaly detection.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which technique is used for customer segmentation?",
+          "options": ["Association rule mining", "Clustering", "Regression", "Time series"],
+          "answer": 1,
+          "explanation": "Clustering groups similar data points, making it ideal for customer segmentation.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which technique is used for market basket analysis?",
+          "options": ["Association rule mining", "Clustering", "Regression", "Time series"],
+          "answer": 0,
+          "explanation": "Association rule mining discovers items frequently bought together (market basket analysis).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a time series forecasting technique?",
+          "options": ["Linear regression", "ARIMA", "Decision trees", "K-Means"],
+          "answer": 1,
+          "explanation": "ARIMA (AutoRegressive Integrated Moving Average) is a time series forecasting technique.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which statistical measure describes the spread of data?",
+          "options": ["Mean", "Median", "Standard deviation", "Mode"],
+          "answer": 2,
+          "explanation": "Standard deviation measures the spread or dispersion of data around the mean.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the four types of analytics (Descriptive, Diagnostic, Predictive, Prescriptive) and key techniques (statistical analysis, predictive modeling, trend analysis, forecasting, data mining).",
+          "points": [
+            "Descriptive: What happened?",
+            "Diagnostic: Why did it happen?",
+            "Predictive: What will happen?",
+            "Prescriptive: What should we do?",
+            "Techniques: Statistical, predictive modeling, trend, forecasting, data mining."
+          ]
+        }
+      ]
+    }
+  ]
+}

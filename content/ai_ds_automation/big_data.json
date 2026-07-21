@@ -1,0 +1,426 @@
+{
+  "id": "big_data",
+  "subject_id": "artificial_intelligence",
+  "title": "Big Data",
+  "subtopics": [
+    {
+      "id": "big_data_fundamentals",
+      "title": "Fundamentals of Big Data – Definition and Characteristics (5Vs)",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Big Data Fundamentals",
+          "subtitle": "Understanding the 5Vs of Big Data",
+          "tags": ["JKSSB", "High Weightage", "Big Data"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "What is Big Data?",
+          "content": "Big Data refers to extremely large and complex datasets that traditional data processing tools cannot handle effectively. It requires specialized technologies and architectures to store, process, and analyze. Big Data is characterized by the 5Vs: Volume, Velocity, Variety, Veracity, and Value.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📦",
+          "title": "Volume – The Scale of Data",
+          "content": "Volume refers to the sheer amount of data generated every second. It can range from terabytes to petabytes and beyond. Sources: Social media, IoT sensors, transaction logs, videos, images. Examples: Facebook generates 4 petabytes of data daily.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Velocity – The Speed of Data Generation",
+          "content": "Velocity refers to the speed at which data is generated, collected, and processed. It can be real-time or near-real-time. Examples: Stock market data, sensor data, social media feeds. Processing requires stream processing technologies (Kafka, Spark Streaming).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎨",
+          "title": "Variety – The Different Types of Data",
+          "content": "Variety refers to the different forms of data: structured (SQL databases), semi-structured (JSON, XML), unstructured (text, images, video, audio). Big Data systems must handle all types.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Veracity – The Uncertainty of Data",
+          "content": "Veracity refers to the quality, accuracy, and trustworthiness of data. Data may be incomplete, inconsistent, or noisy. Big Data systems need to handle data quality issues and ensure reliable insights. Example: Social media data may contain biases or noise.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💎",
+          "title": "Value – The Business Benefit",
+          "content": "Value refers to the ultimate goal of Big Data: extracting meaningful insights that drive decisions and create business value. Without value, data is just data. The value comes from analytics, machine learning, and visualization.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "The 5Vs of Big Data – Quick Reference",
+          "headers": ["V", "Definition", "Examples", "Challenges"],
+          "rows": [
+            ["Volume", "Sheer amount of data", "TB/PB of data", "Storage, processing"],
+            ["Velocity", "Speed of generation", "Real-time streams", "Processing latency"],
+            ["Variety", "Different data types", "Structured, unstructured, semi-structured", "Integration"],
+            ["Veracity", "Quality and trustworthiness", "Noise, bias, incompleteness", "Data cleaning, validation"],
+            ["Value", "Business insights", "Revenue, efficiency, decisions", "Extracting meaning"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: 5Vs in E-Commerce",
+          "given": ["An e-commerce platform generates massive amounts of data."],
+          "find": "Identify the 5Vs in this scenario.",
+          "steps": [
+            "Volume: Millions of transactions daily.",
+            "Velocity: Real-time clickstream data, order processing.",
+            "Variety: Structured (orders), semi-structured (product JSON), unstructured (customer reviews).",
+            "Veracity: Incomplete data, duplicate entries, fake reviews.",
+            "Value: Insights for recommendations, inventory, and marketing."
+          ],
+          "answer": "E-commerce data exhibits all 5Vs of Big Data.",
+          "formula_used": "5Vs analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Big Data only means Volume.",
+          "wrong": "Big Data is only about large data volumes.",
+          "correct": "Big Data includes Volume, Velocity, Variety, Veracity, and Value.",
+          "tip": "Remember all 5Vs."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Big Data Fundamentals",
+          "points": [
+            "Big Data = complex datasets beyond traditional tools.",
+            "5Vs: Volume, Velocity, Variety, Veracity, Value.",
+            "Volume: Large scale; Velocity: High speed; Variety: Many types; Veracity: Quality; Value: Business insight."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "big_data_technologies",
+      "title": "Big Data Technologies – Hadoop, HDFS, MapReduce, Spark, NoSQL Databases, and Cloud Storage",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Big Data Technologies",
+          "subtitle": "The Tools to Handle Big Data",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🐘",
+          "title": "Hadoop – The Foundation of Big Data",
+          "content": "Apache Hadoop is an open-source framework for distributed storage and processing of large datasets. It provides a reliable, scalable, and fault-tolerant platform. It consists of: HDFS (storage), YARN (resource management), and MapReduce (processing).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💾",
+          "title": "HDFS (Hadoop Distributed File System)",
+          "content": "HDFS is a distributed file system that stores data across multiple nodes. It breaks files into blocks (default 128 MB) and replicates them (default 3 replicas). This ensures fault tolerance and high availability. It is optimized for large files and streaming reads.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚙️",
+          "title": "MapReduce – Batch Processing",
+          "content": "MapReduce is a programming model for processing large datasets in parallel. It consists of two phases:\n1. **Map**: Processes key-value pairs to generate intermediate pairs.\n2. **Reduce**: Combines intermediate pairs to produce the final output.\nIt is fault-tolerant and can handle failures gracefully.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚡",
+          "title": "Apache Spark – Fast, In-Memory Processing",
+          "content": "Spark is an open-source, fast, and general-purpose cluster computing framework. It provides in-memory processing, which makes it significantly faster than MapReduce. It supports multiple languages (Scala, Python, Java, R). It includes libraries for SQL, streaming, ML, and graph processing.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗄️",
+          "title": "NoSQL Databases – Handling Variety",
+          "content": "NoSQL databases are designed for semi-structured and unstructured data. Types:\n1. **Document Stores**: MongoDB (JSON documents).\n2. **Key-Value Stores**: Redis, DynamoDB.\n3. **Column-Family Stores**: Cassandra, HBase.\n4. **Graph Databases**: Neo4j.\nThey offer high scalability and flexibility.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "☁️",
+          "title": "Cloud Storage – Scalable and Cost-Effective",
+          "content": "Cloud storage services provide scalable, on-demand storage for Big Data. Examples: AWS S3, Google Cloud Storage, Azure Blob Storage. They integrate with big data processing frameworks (EMR, Dataproc, HDInsight). They offer pay-as-you-go pricing and global availability.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Big Data Technologies – Comparison",
+          "headers": ["Technology", "Purpose", "Key Features", "Use Cases"],
+          "rows": [
+            ["Hadoop", "Distributed storage and processing", "HDFS, YARN, MapReduce", "Batch processing, ETL"],
+            ["HDFS", "Distributed file storage", "Replication, fault tolerance", "Storing large files"],
+            ["MapReduce", "Batch processing", "Parallel processing, fault-tolerant", "Batch analytics"],
+            ["Spark", "Fast, in-memory processing", "In-memory, unified engine", "Real-time, ML, SQL"],
+            ["NoSQL", "Flexible data storage", "Scalable, schema-less", "Web apps, IoT, real-time"],
+            ["Cloud Storage", "Scalable, on-demand storage", "Pay-as-you-go, global access", "Backup, data lakes"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Choosing Big Data Technologies",
+          "given": ["A company needs to process real-time streaming data and run machine learning models."],
+          "find": "Which technologies should they choose?",
+          "steps": [
+            "Real-time streaming: Apache Spark Streaming or Kafka.",
+            "Machine learning: Spark MLlib (built into Spark).",
+            "Storage: HDFS or cloud storage (S3) for raw data.",
+            "NoSQL: MongoDB for flexible storage.",
+            "Overall: Spark is the best choice for its unified engine."
+          ],
+          "answer": "Spark is ideal for real-time streaming and ML, integrated with HDFS/S3.",
+          "formula_used": "Technology selection analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Hadoop and Spark are the same.",
+          "wrong": "Hadoop and Spark are identical.",
+          "correct": "Hadoop is a distributed storage/processing framework; Spark is an in-memory processing engine that can run on Hadoop.",
+          "tip": "Spark is faster but can use Hadoop's HDFS for storage."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Big Data Technologies",
+          "points": [
+            "Hadoop: HDFS (storage), MapReduce (batch), YARN (resource).",
+            "HDFS: Distributed, replicated file system.",
+            "MapReduce: Batch processing (map and reduce phases).",
+            "Spark: In-memory, fast, unified (SQL, streaming, ML, graph).",
+            "NoSQL: Document, key-value, column-family, graph databases.",
+            "Cloud Storage: Scalable, cost-effective (S3, GCS, Azure)."
+          ]
+        }
+      ]
+    },
+
+
+
+    {
+      "id": "data_warehousing",
+      "title": "Data Warehousing – ETL, Data Lakes, and Data Warehouses",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Data Warehousing",
+          "subtitle": "Storing and Organizing Data for Analysis",
+          "tags": ["JKSSB", "High Weightage", "Big Data"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "What is a Data Warehouse?",
+          "content": "A Data Warehouse (DW) is a centralized repository that stores integrated data from multiple sources. It is optimized for query and analysis (OLAP – Online Analytical Processing). Data is structured, cleansed, and transformed before being loaded. Examples: Amazon Redshift, Google BigQuery, Snowflake, Teradata.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔄",
+          "title": "ETL – Extract, Transform, Load",
+          "content": "ETL is the process of moving data from source systems to a data warehouse:\n1. **Extract**: Data is extracted from source systems (databases, APIs, files).\n2. **Transform**: Data is cleaned, validated, transformed (e.g., aggregations, joins, data type conversions).\n3. **Load**: Data is loaded into the target data warehouse.\nTools: Apache NiFi, Talend, Informatica, Apache Airflow.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌊",
+          "title": "Data Lakes – Raw, Unstructured Data Storage",
+          "content": "A Data Lake is a storage repository that holds vast amounts of raw data in its native format. It stores structured, semi-structured, and unstructured data. Data is loaded without transformation (ELT – Extract, Load, Transform). It is cheaper and more flexible than a data warehouse. Examples: Amazon S3, Azure Data Lake, Hadoop HDFS.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Data Lake vs Data Warehouse – Key Differences",
+          "content": "1. **Data Structure**: Data Lake stores raw data; Data Warehouse stores processed, structured data.\n2. **Schema**: Data Lake uses schema-on-read; Data Warehouse uses schema-on-write.\n3. **Users**: Data Lake used by data scientists and engineers; Data Warehouse used by business analysts.\n4. **Cost**: Data Lake is cheaper; Data Warehouse is more expensive.\n5. **Purpose**: Data Lake for exploration and ML; Data Warehouse for reporting and BI.",
+          "highlight": false
+        },
+        {
+          "type": "comparison",
+          "title": "Data Lake vs Data Warehouse",
+          "left_header": "Data Lake",
+          "right_header": "Data Warehouse",
+          "rows": [
+            { "left": "Raw, unprocessed data", "right": "Cleansed, processed data" },
+            { "left": "Schema-on-read", "right": "Schema-on-write" },
+            { "left": "Cheaper storage", "right": "More expensive" },
+            { "left": "Data scientists, engineers", "right": "Business analysts, BI" },
+            { "left": "Exploration, ML", "right": "Reporting, dashboards" },
+            { "left": "Examples: S3, ADLS", "right": "Examples: Redshift, Snowflake" }
+          ]
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Data Warehouse for Retail Analytics",
+          "given": ["A retail chain uses a data warehouse to analyze sales."],
+          "find": "How does the data warehouse work?",
+          "steps": [
+            "Extract: Sales data is extracted from POS systems, inventory databases, and online stores.",
+            "Transform: Data is cleaned, standardized, and aggregated (daily, weekly, monthly).",
+            "Load: The transformed data is loaded into the data warehouse.",
+            "Analytics: Business analysts run queries to generate reports (sales trends, inventory levels).",
+            "Dashboards: The data feeds into BI dashboards for management."
+          ],
+          "answer": "Data warehouses support analytics by integrating and processing data for reporting.",
+          "formula_used": "Data warehouse application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Data lakes and data warehouses are the same.",
+          "wrong": "Data lakes and data warehouses are interchangeable.",
+          "correct": "Data lakes store raw data; data warehouses store processed data for analytics.",
+          "tip": "Data lakes = raw; Data warehouses = processed."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Data Warehousing",
+          "points": [
+            "Data Warehouse: Centralized, structured repository for analytics.",
+            "ETL: Extract, Transform, Load – the process for moving data.",
+            "Data Lake: Raw, unstructured data storage (schema-on-read).",
+            "Data lakes are cheaper and more flexible; warehouses are optimized for analytics.",
+            "Choose data warehouse for BI/reporting; data lake for data science/exploration."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "big_data_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Big Data – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the 5Vs of Big Data, Hadoop ecosystem (HDFS, MapReduce), Spark, NoSQL databases, and the differences between data lakes and data warehouses.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT one of the 5Vs of Big Data?",
+          "options": ["Volume", "Velocity", "Variance", "Veracity"],
+          "answer": 2,
+          "explanation": "The 5Vs of Big Data are Volume, Velocity, Variety, Veracity, and Value. 'Variance' is not one of them.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which component of Hadoop provides distributed file storage?",
+          "options": ["MapReduce", "YARN", "HDFS", "Spark"],
+          "answer": 2,
+          "explanation": "HDFS (Hadoop Distributed File System) provides distributed storage in Hadoop.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Big Data framework is known for in-memory processing and fast performance?",
+          "options": ["Hadoop", "MapReduce", "Spark", "HBase"],
+          "answer": 2,
+          "explanation": "Apache Spark is known for in-memory processing, making it much faster than Hadoop MapReduce.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the purpose of MapReduce in Hadoop?",
+          "options": ["Data storage", "Resource management", "Batch processing", "In-memory caching"],
+          "answer": 2,
+          "explanation": "MapReduce is Hadoop's batch processing framework (map and reduce phases).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which step in ETL involves cleaning and transforming data?",
+          "options": ["Extract", "Transform", "Load", "All of the above"],
+          "answer": 1,
+          "explanation": "Transform is the step where data is cleaned, validated, and converted.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of database stores data in JSON-like documents?",
+          "options": ["Key-value store", "Document database", "Column-family database", "Relational database"],
+          "answer": 1,
+          "explanation": "Document databases (like MongoDB) store data in JSON-like documents.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is an example of a cloud storage service for Big Data?",
+          "options": ["MongoDB", "AWS S3", "MySQL", "HBase"],
+          "answer": 1,
+          "explanation": "AWS S3 (Simple Storage Service) is a cloud storage service for Big Data.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What is the key difference between a data lake and a data warehouse?",
+          "options": [
+            "Data lakes store only structured data.",
+            "Data warehouses store raw, unprocessed data.",
+            "Data lakes store raw data; data warehouses store processed data.",
+            "They are the same."
+          ],
+          "answer": 2,
+          "explanation": "Data lakes store raw, unprocessed data; data warehouses store processed, structured data.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Hadoop component manages cluster resources?",
+          "options": ["HDFS", "MapReduce", "YARN", "Spark"],
+          "answer": 2,
+          "explanation": "YARN (Yet Another Resource Negotiator) manages cluster resources and job scheduling.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "What does the 'Veracity' V in Big Data refer to?",
+          "options": [
+            "The speed of data generation",
+            "The quality and trustworthiness of data",
+            "The different types of data",
+            "The size of data"
+          ],
+          "answer": 1,
+          "explanation": "Veracity refers to the quality, accuracy, and trustworthiness of data.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the 5Vs, Hadoop ecosystem (HDFS, MapReduce, YARN), Spark, NoSQL databases, ETL process, and data lake vs data warehouse differences.",
+          "points": [
+            "5Vs: Volume, Velocity, Variety, Veracity, Value.",
+            "Hadoop: HDFS (storage), MapReduce (batch), YARN (resource).",
+            "Spark: In-memory, fast, unified.",
+            "NoSQL: Document, key-value, column-family, graph.",
+            "ETL: Extract, Transform, Load.",
+            "Data Lake: Raw data; Data Warehouse: Processed data."
+          ]
+        }
+      ]
+    }
+  ]
+}

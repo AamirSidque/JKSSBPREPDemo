@@ -1,0 +1,656 @@
+{
+  "id": "law_enforcement_analytics",
+  "subject_id": "artificial_intelligence",
+  "title": "Big Data & Analytics in Law Enforcement",
+  "subtopics": [
+    {
+      "id": "crime_analytics",
+      "title": "Crime Analytics – Crime Mapping, Hotspot Detection, Predictive Policing, and Pattern Recognition",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Crime Analytics",
+          "subtitle": "Data-Driven Approaches to Crime Prevention and Investigation",
+          "tags": ["JKSSB", "High Weightage", "Law Enforcement"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗺️",
+          "title": "Crime Mapping – Visualizing Crime Data",
+          "content": "Crime mapping is the process of using geographic information systems (GIS) to visualize and analyze crime incidents. It helps law enforcement identify high-crime areas, allocate resources, and track trends. Maps can show types of crimes, temporal patterns, and spatial distribution.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔥",
+          "title": "Crime Hotspot Detection – Identifying High-Risk Areas",
+          "content": "Hotspot detection uses statistical and machine learning techniques to identify areas with high crime density. Techniques: Kernel Density Estimation, Spatial Autocorrelation, Clustering. Hotspots help law enforcement deploy patrols and resources effectively.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔮",
+          "title": "Predictive Policing – Forecasting Future Crimes",
+          "content": "Predictive policing uses machine learning algorithms to forecast where and when crimes are likely to occur. Models analyze historical data, weather, demographics, and social factors. It enables proactive deployment of police resources.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Pattern Recognition – Detecting Crime Series",
+          "content": "Pattern recognition identifies similarities between crimes to detect series and networks. Techniques: Similarity measures, clustering, link analysis. It helps link cases, identify modus operandi, and catch repeat offenders.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Crime Analytics Techniques – Overview",
+          "headers": ["Technique", "Purpose", "Key Methods", "Output"],
+          "rows": [
+            ["Crime Mapping", "Visualize crime distribution", "GIS, geospatial analysis", "Maps, heatmaps"],
+            ["Hotspot Detection", "Identify high-crime areas", "Kernel Density, Clustering", "Hotspot maps"],
+            ["Predictive Policing", "Forecast future crime", "ML, time series analysis", "Predictions, resource recommendations"],
+            ["Pattern Recognition", "Detect crime series", "Similarity measures, clustering", "Linked cases, offender profiles"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Predictive Policing in Action",
+          "given": ["A city police department uses predictive policing to reduce burglaries."],
+          "find": "How does predictive policing work?",
+          "steps": [
+            "Historical burglary data (location, time, date) is collected.",
+            "Weather and demographic data are added.",
+            "ML models are trained to predict future burglary hotspots.",
+            "The model generates a daily patrol plan.",
+            "Officers are deployed to high-risk areas.",
+            "Burglaries decrease as a result of proactive patrolling."
+          ],
+          "answer": "Predictive policing uses data to forecast crime and deploy resources proactively.",
+          "formula_used": "Predictive policing analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Predictive policing always predicts specific crimes.",
+          "wrong": "Predictive policing can predict exactly when and where a specific crime will occur.",
+          "correct": "Predictive policing forecasts general crime hotspots and probabilities, not specific events.",
+          "tip": "Predictive policing = probabilistic hotspots, not crystal balls."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Crime Analytics",
+          "points": [
+            "Crime Mapping: Visualizes crime data using GIS.",
+            "Hotspot Detection: Identifies high-crime areas.",
+            "Predictive Policing: Forecasts future crime hotspots.",
+            "Pattern Recognition: Detects crime series and links.",
+            "AI helps law enforcement be proactive, not just reactive."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital_forensics",
+      "title": "Digital Forensics – Mobile, Computer, Network, and Cloud Forensics",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Digital Forensics",
+          "subtitle": "Investigating Digital Evidence",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📱",
+          "title": "What is Digital Forensics?",
+          "content": "Digital forensics is the process of collecting, preserving, analyzing, and presenting digital evidence in a legally admissible manner. It involves investigating cybercrimes, data breaches, and criminal activities involving digital devices. It follows a strict chain of custody.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📱",
+          "title": "Mobile Forensics – Investigating Smartphones and Tablets",
+          "content": "Mobile forensics deals with extracting and analyzing data from mobile devices. Data sources: Call logs, SMS, contacts, WhatsApp, photos, GPS, emails. Challenges: Encryption, locked devices, cloud integration. Tools: Cellebrite, XRY, FTK.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💻",
+          "title": "Computer Forensics – Investigating Hard Drives and Systems",
+          "content": "Computer forensics examines desktops, laptops, and servers. It recovers deleted files, analyzes logs, and identifies malware. Techniques: Disk imaging, file recovery, timeline analysis, registry analysis. Tools: EnCase, FTK, Autopsy.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌐",
+          "title": "Network Forensics – Analyzing Network Traffic",
+          "content": "Network forensics captures and analyzes network traffic to detect intrusions, data breaches, and malicious activity. It examines packets, logs, and network flows. Tools: Wireshark, Snort, Splunk. It helps identify the source and impact of attacks.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "☁️",
+          "title": "Cloud Forensics – Investigating Cloud Environments",
+          "content": "Cloud forensics investigates data stored in cloud environments (AWS, Azure, Google Cloud). Challenges: Data location, multi-tenancy, legal jurisdiction. Types: Infrastructure forensics, application forensics, data forensics. Tools: Cloud provider logs, specialized forensic tools.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Digital Forensics Types – Overview",
+          "headers": ["Type", "Focus", "Data Sources", "Challenges"],
+          "rows": [
+            ["Mobile Forensics", "Smartphones, tablets", "SMS, calls, apps, GPS, photos", "Encryption, locked devices"],
+            ["Computer Forensics", "Desktops, laptops, servers", "Hard drives, files, logs, registry", "Deleted files, encryption"],
+            ["Network Forensics", "Network traffic", "Packets, logs, flows", "High data volume, encryption"],
+            ["Cloud Forensics", "Cloud environments", "Cloud logs, storage, apps", "Jurisdiction, multi-tenancy"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Computer Forensics in a Data Breach",
+          "given": ["A company suffers a data breach, and a forensic investigation is launched."],
+          "find": "How does computer forensics help?",
+          "steps": [
+            "The affected computers and servers are isolated.",
+            "A forensic image is created (copy of the hard drive).",
+            "The image is analyzed for evidence of the breach (malware, exfiltration).",
+            "Deleted files are recovered.",
+            "Logs are analyzed to determine the timeline.",
+            "The investigation identifies the entry point and extent of the breach."
+          ],
+          "answer": "Computer forensics recovers evidence, analyzes logs, and reconstructs the breach timeline.",
+          "formula_used": "Computer forensics application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Digital forensics is only about computers.",
+          "wrong": "Digital forensics only deals with computers.",
+          "correct": "Digital forensics covers mobile, computer, network, and cloud forensics.",
+          "tip": "Digital forensics = multiple device types."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Digital Forensics",
+          "points": [
+            "Mobile Forensics: Smartphones, tablets, apps, GPS.",
+            "Computer Forensics: Hard drives, logs, file recovery.",
+            "Network Forensics: Traffic analysis, intrusion detection.",
+            "Cloud Forensics: Cloud environments, data location, jurisdiction.",
+            "A strict chain of custody is essential for legal admissibility."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surveillance",
+      "title": "Surveillance – CCTV Analytics, Facial Recognition, Number Plate Recognition (ANPR), and Drone Surveillance",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Surveillance Technologies",
+          "subtitle": "Monitoring, Tracking, and Analysis",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📹",
+          "title": "CCTV Analytics – Smart Video Surveillance",
+          "content": "CCTV analytics uses AI to analyze video footage in real-time. Capabilities: Motion detection, loitering detection, intrusion detection, crowd counting, behaviour analysis, and anomaly detection. It enables automated monitoring and alerts.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👤",
+          "title": "Facial Recognition – Identifying Individuals",
+          "content": "Facial recognition technology identifies or verifies individuals by analyzing facial features. It is used in law enforcement, border control, and security. Techniques: Face detection, feature extraction, encoding, matching against a database.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚗",
+          "title": "Automatic Number Plate Recognition (ANPR) – Tracking Vehicles",
+          "content": "ANPR is a technology that uses optical character recognition (OCR) to read vehicle registration plates. It is used for traffic management, toll collection, and law enforcement. It can identify stolen vehicles, track movements, and enforce traffic rules.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛸",
+          "title": "Drone Surveillance – Aerial Monitoring",
+          "content": "Drones equipped with cameras and sensors provide aerial surveillance for law enforcement. Applications: Crowd monitoring, traffic management, disaster response, border patrol, and search and rescue. They provide real-time, bird's-eye views.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Surveillance Technologies – Overview",
+          "headers": ["Technology", "Purpose", "Key Techniques", "Applications"],
+          "rows": [
+            ["CCTV Analytics", "Real-time video analysis", "Motion detection, behavior analysis", "Public safety, retail"],
+            ["Facial Recognition", "Identify individuals", "Deep learning, feature matching", "Law enforcement, authentication"],
+            ["ANPR", "Read vehicle plates", "OCR, pattern matching", "Traffic, toll collection"],
+            ["Drone Surveillance", "Aerial monitoring", "Cameras, sensors, autonomous flight", "Border patrol, disaster response"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: CCTV Analytics in Smart Cities",
+          "given": ["A smart city uses CCTV analytics to improve public safety."],
+          "find": "How does CCTV analytics work?",
+          "steps": [
+            "Cameras are installed in public areas.",
+            "AI algorithms analyze video in real-time.",
+            "It detects suspicious activities (loitering, unattended bags).",
+            "Alerts are sent to security personnel.",
+            "Crowd counting helps manage large gatherings.",
+            "Anomaly detection identifies potential threats."
+          ],
+          "answer": "CCTV analytics enables real-time detection and response to security threats.",
+          "formula_used": "CCTV analytics application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: ANPR can read any plate in any condition.",
+          "wrong": "ANPR works perfectly in all conditions.",
+          "correct": "ANPR performance depends on lighting, weather, and plate visibility.",
+          "tip": "ANPR is effective but has limitations."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Surveillance",
+          "points": [
+            "CCTV Analytics: AI-powered video surveillance, real-time alerts.",
+            "Facial Recognition: Identifies individuals from face features.",
+            "ANPR: Reads vehicle plates for tracking and enforcement.",
+            "Drone Surveillance: Aerial monitoring for public safety and border patrol."
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+    {
+      "id": "cybercrime_investigation",
+      "title": "Cybercrime Investigation – Social Media Analytics, Malware Analysis, Cyber Threat Intelligence, and Financial Fraud Detection",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Cybercrime Investigation",
+          "subtitle": "Tracking and Combating Digital Crimes",
+          "tags": ["JKSSB", "High Weightage", "Law Enforcement"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📱",
+          "title": "Social Media Analytics – Monitoring Digital Footprints",
+          "content": "Social media analytics involves analyzing data from social media platforms to detect threats, monitor criminal activity, and gather intelligence. Techniques: Sentiment analysis, network analysis, topic modeling, and anomaly detection. Applications: Tracking extremist activity, identifying cyberbullying, monitoring coordinated disinformation campaigns.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🦠",
+          "title": "Malware Analysis – Understanding Malicious Software",
+          "content": "Malware analysis investigates malicious software to understand its functionality, origin, and impact. Types: Static analysis (examining code without executing), Dynamic analysis (executing in a controlled environment). It helps identify threats, develop signatures, and improve defenses.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔍",
+          "title": "Cyber Threat Intelligence – Proactive Defense",
+          "content": "Cyber threat intelligence (CTI) is knowledge about potential cyber threats. It involves collecting, analyzing, and disseminating information about adversaries, tactics, and vulnerabilities. Types: Strategic (high-level), Operational (technical), Tactical (immediate response). Sources: Open-source intelligence, internal logs, industry sharing.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💳",
+          "title": "Financial Fraud Detection – AI-Powered Anti-Fraud",
+          "content": "AI detects financial fraud in real-time by analyzing patterns and anomalies. Applications: Credit card fraud, insurance fraud, money laundering. Techniques: Anomaly detection, classification models (random forest, neural networks), and network analysis. Systems can flag suspicious transactions and prevent losses.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Cybercrime Investigation Techniques",
+          "headers": ["Technique", "Purpose", "Key Methods", "Applications"],
+          "rows": [
+            ["Social Media Analytics", "Monitor criminal activity", "Sentiment analysis, network analysis", "Tracking extremism, cyberbullying"],
+            ["Malware Analysis", "Understand malicious code", "Static/dynamic analysis", "Threat identification, signature creation"],
+            ["Cyber Threat Intelligence", "Proactive threat defense", "OSINT, sharing, analysis", "Vulnerability assessment, incident response"],
+            ["Fraud Detection", "Identify financial crimes", "Anomaly detection, ML classification", "Credit card fraud, money laundering"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Cyber Threat Intelligence Sharing",
+          "given": ["Multiple organizations share threat intelligence to combat cyberattacks."],
+          "find": "How does threat intelligence sharing help?",
+          "steps": [
+            "One organization detects a new attack pattern.",
+            "They share indicators (IPs, file hashes, attack methods).",
+            "Others update their defenses proactively.",
+            "The attack is blocked before it spreads.",
+            "Collaboration improves overall security."
+          ],
+          "answer": "Threat intelligence sharing enables proactive defense and faster response.",
+          "formula_used": "Cyber threat intelligence analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Malware analysis is only about viruses.",
+          "wrong": "Malware analysis only deals with computer viruses.",
+          "correct": "Malware analysis covers ransomware, spyware, trojans, worms, and other threats.",
+          "tip": "Malware = any malicious software."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Cybercrime Investigation",
+          "points": [
+            "Social Media Analytics: Monitors digital footprints for threats.",
+            "Malware Analysis: Investigates malicious code.",
+            "Cyber Threat Intelligence: Proactive defense through information sharing.",
+            "Financial Fraud Detection: AI-powered identification of anomalies.",
+            "Cybercrime investigation is proactive, not just reactive."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intelligence_analysis",
+      "title": "Intelligence Analysis – Link Analysis, Criminal Network Analysis, Terrorism Detection, and Risk Assessment",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Intelligence Analysis",
+          "subtitle": "Connecting the Dots in Crime and Terrorism",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🔗",
+          "title": "Link Analysis – Discovering Relationships",
+          "content": "Link analysis visualizes and analyzes relationships between entities (people, organizations, events). It identifies connections, networks, and patterns. Techniques: Graph databases, network analysis, social network analysis. Applications: Investigating criminal networks, fraud rings, and terrorist cells.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🕸️",
+          "title": "Criminal Network Analysis – Mapping Criminal Organizations",
+          "content": "Criminal network analysis uses social network analysis techniques to map criminal organizations. It identifies key individuals, hierarchies, and communication patterns. It helps disrupt criminal operations and target leaders. Tools: i2 Analyst's Notebook, Palantir.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "☠️",
+          "title": "Terrorism Detection – Identifying Threats",
+          "content": "AI helps detect terrorist activity by analyzing communication patterns, financial transactions, online activity, and social networks. Techniques: Pattern recognition, anomaly detection, natural language processing. It enables early warnings and preventive action.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📊",
+          "title": "Risk Assessment – Evaluating Threats",
+          "content": "Risk assessment evaluates the likelihood and impact of threats. It combines data analysis and expert judgment. AI can automate risk scoring and prioritization. Applications: Border security, critical infrastructure protection, counter-terrorism.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Intelligence Analysis Techniques",
+          "headers": ["Technique", "Purpose", "Key Methods", "Applications"],
+          "rows": [
+            ["Link Analysis", "Discover relationships", "Graph analysis, network analysis", "Criminal networks, fraud rings"],
+            ["Criminal Network Analysis", "Map criminal organizations", "Social network analysis", "Disrupting operations"],
+            ["Terrorism Detection", "Identify terrorist activity", "Pattern recognition, anomaly detection", "Early warning, prevention"],
+            ["Risk Assessment", "Evaluate threats", "Risk scoring, analytics", "Border security, infrastructure"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Link Analysis in a Fraud Investigation",
+          "given": ["Investigators use link analysis to uncover a fraud ring."],
+          "find": "How does link analysis help?",
+          "steps": [
+            "Data on financial transactions, emails, and phone records is collected.",
+            "Nodes represent individuals and entities; edges represent relationships.",
+            "The visualization shows clusters of highly connected individuals.",
+            "Central nodes reveal key players.",
+            "The investigation focuses on the identified ringleaders."
+          ],
+          "answer": "Link analysis visualizes connections, uncovering hidden networks and leaders.",
+          "formula_used": "Link analysis application"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Link analysis is only for terrorism.",
+          "wrong": "Link analysis is only useful for counter-terrorism.",
+          "correct": "Link analysis is used for fraud, organized crime, cybercrime, and terrorism.",
+          "tip": "Link analysis applies to any network of relationships."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Intelligence Analysis",
+          "points": [
+            "Link Analysis: Visualizes relationships and networks.",
+            "Criminal Network Analysis: Maps criminal organizations.",
+            "Terrorism Detection: Identifies threats proactively.",
+            "Risk Assessment: Evaluates threat likelihood and impact.",
+            "Intelligence analysis connects the dots."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public_safety",
+      "title": "Public Safety – Emergency Response Optimization, Disaster Intelligence, Crowd Monitoring, and Border Surveillance",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Public Safety",
+          "subtitle": "Protecting Communities with Data",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚒",
+          "title": "Emergency Response Optimization – Rapid and Efficient Response",
+          "content": "AI optimizes emergency response by predicting demand, suggesting optimal routes, and dispatching resources efficiently. It analyzes real-time data from sensors, traffic, and emergency calls. Applications: Fire department dispatch, ambulance routing, police deployment. It reduces response times and saves lives.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🌊",
+          "title": "Disaster Intelligence – Predicting and Responding to Disasters",
+          "content": "AI provides disaster intelligence by analyzing satellite imagery, social media, sensors, and historical data. It predicts natural disasters (floods, earthquakes, cyclones), assesses damage, and coordinates relief efforts. Applications: Early warnings, damage assessment, resource allocation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "Crowd Monitoring – Managing Large Gatherings",
+          "content": "Crowd monitoring uses AI and sensors to track crowd density, movement, and behavior. It helps prevent stampedes, manage traffic, and ensure public safety. Applications: Sports events, concerts, festivals, religious gatherings. Techniques: Video analytics, Wi-Fi tracking, thermal imaging.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "Border Surveillance – Securing National Boundaries",
+          "content": "AI-powered border surveillance uses drones, cameras, sensors, and radar to monitor borders. It detects illegal crossings, trafficking, and smuggling. Techniques: Object detection, anomaly detection, automated alerts. Applications: Border patrol, customs, immigration.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Public Safety Applications",
+          "headers": ["Application", "Purpose", "Key Technologies", "Benefits"],
+          "rows": [
+            ["Emergency Response Optimization", "Rapid deployment", "AI, IoT, real-time analytics", "Faster response, saved lives"],
+            ["Disaster Intelligence", "Predict and respond", "Satellite, ML, social media", "Early warnings, efficient relief"],
+            ["Crowd Monitoring", "Manage large gatherings", "Video analytics, Wi-Fi tracking", "Prevent stampedes, improve safety"],
+            ["Border Surveillance", "Secure national borders", "Drones, cameras, sensors", "Detect crossings, prevent smuggling"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Emergency Response Optimization",
+          "given": ["A city uses AI to optimize ambulance dispatch."],
+          "find": "How does the system work?",
+          "steps": [
+            "The system receives real-time data from emergency calls.",
+            "It predicts demand based on historical patterns.",
+            "It recommends optimal ambulance locations.",
+            "When a call comes in, it identifies the nearest available ambulance.",
+            "It calculates the fastest route considering traffic.",
+            "Response times are reduced, improving patient outcomes."
+          ],
+          "answer": "AI optimizes ambulance dispatch by predicting demand and suggesting optimal routes.",
+          "formula_used": "Emergency response optimization"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Crowd monitoring violates all privacy rights.",
+          "wrong": "Crowd monitoring is always a privacy violation.",
+          "correct": "Crowd monitoring can be done while respecting privacy through anonymization and consent.",
+          "tip": "Ethical data use is essential in public safety."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Public Safety",
+          "points": [
+            "Emergency Response Optimization: Faster response, efficient dispatch.",
+            "Disaster Intelligence: Predict and respond to disasters.",
+            "Crowd Monitoring: Manage large gatherings, prevent stampedes.",
+            "Border Surveillance: Drones, cameras, sensors for security.",
+            "AI improves public safety and saves lives."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law_enforcement_mcqs",
+      "title": "Practice MCQs (PYQ Style)",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Big Data & Analytics in Law Enforcement – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on crime analytics (mapping, hotspot detection, predictive policing), digital forensics types, surveillance technologies, cybercrime investigation, intelligence analysis, and public safety applications.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which technique identifies high-crime areas using statistical methods?",
+          "options": ["Crime mapping", "Hotspot detection", "Predictive policing", "Pattern recognition"],
+          "answer": 1,
+          "explanation": "Hotspot detection identifies high-crime areas using statistical and machine learning techniques.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of digital forensics deals with smartphones and tablets?",
+          "options": ["Computer forensics", "Mobile forensics", "Network forensics", "Cloud forensics"],
+          "answer": 1,
+          "explanation": "Mobile forensics deals with extracting and analyzing data from smartphones and tablets.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which surveillance technology uses AI to analyze video footage in real-time?",
+          "options": ["ANPR", "Facial recognition", "CCTV analytics", "Drone surveillance"],
+          "answer": 2,
+          "explanation": "CCTV analytics uses AI to analyze video footage in real-time for threat detection.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which technique is used to visualize relationships between individuals and organizations?",
+          "options": ["Link analysis", "Predictive policing", "Crime mapping", "ANPR"],
+          "answer": 0,
+          "explanation": "Link analysis visualizes relationships to uncover criminal networks.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which cybercrime investigation technique analyzes malicious software?",
+          "options": ["Social media analytics", "Malware analysis", "Threat intelligence", "Fraud detection"],
+          "answer": 1,
+          "explanation": "Malware analysis investigates malicious software to understand its functionality and impact.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which public safety application uses AI to optimize ambulance dispatch?",
+          "options": ["Disaster intelligence", "Crowd monitoring", "Emergency response optimization", "Border surveillance"],
+          "answer": 2,
+          "explanation": "Emergency response optimization uses AI to dispatch ambulances efficiently.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which technology reads vehicle registration plates for law enforcement?",
+          "options": ["Facial recognition", "ANPR", "CCTV analytics", "Drone surveillance"],
+          "answer": 1,
+          "explanation": "ANPR (Automatic Number Plate Recognition) reads vehicle plates for tracking and enforcement.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which type of digital forensics analyzes network traffic?",
+          "options": ["Computer forensics", "Mobile forensics", "Network forensics", "Cloud forensics"],
+          "answer": 2,
+          "explanation": "Network forensics captures and analyzes network traffic to detect intrusions and breaches.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which cybercrime investigation technique analyzes social media data for threats?",
+          "options": ["Malware analysis", "Social media analytics", "Threat intelligence", "Fraud detection"],
+          "answer": 1,
+          "explanation": "Social media analytics monitors social media for criminal activity and threats.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which public safety application uses drones and sensors for border security?",
+          "options": ["Emergency response", "Disaster intelligence", "Crowd monitoring", "Border surveillance"],
+          "answer": 3,
+          "explanation": "Border surveillance uses drones, cameras, and sensors to monitor national borders.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review crime analytics, digital forensics, surveillance, cybercrime investigation, intelligence analysis, and public safety applications. Understand key technologies and techniques.",
+          "points": [
+            "Crime Analytics: Mapping, hotspot, predictive policing.",
+            "Digital Forensics: Mobile, computer, network, cloud.",
+            "Surveillance: CCTV, facial recognition, ANPR, drones.",
+            "Cybercrime: Social media, malware, threat intelligence, fraud.",
+            "Intelligence: Link analysis, criminal networks, terrorism detection.",
+            "Public Safety: Emergency response, disaster, crowd, border."
+          ]
+        }
+      ]
+    }
+  ]
+}

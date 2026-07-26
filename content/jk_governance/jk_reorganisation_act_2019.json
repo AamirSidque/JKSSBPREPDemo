@@ -1,0 +1,745 @@
+{
+  "id": "jk_reorganisation_act_2019",
+  "subject_id": "jk_governance",
+  "title": "The J&K Reorganisation Act, 2019 – Section-wise Mapping",
+  "subtopics": [
+    {
+      "id": "structural_blueprint",
+      "title": "Structural Blueprint – 103 Sections, 14 Parts, 5 Schedules",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The J&K Reorganisation Act, 2019",
+          "subtitle": "The Legal Framework for the Reorganisation of Jammu & Kashmir",
+          "tags": ["JKSSB", "High Weightage", "J&K Reorganisation"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Overview of the Act",
+          "content": "The Jammu and Kashmir Reorganisation Act, 2019 was enacted by the Parliament of India on 9th August 2019. It received the President's assent on 9th August 2019 and came into force on 31st October 2019. The Act provides for the reorganisation of the state of Jammu & Kashmir into two Union Territories: Jammu & Kashmir (with legislature) and Ladakh (without legislature).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Structure of the Act",
+          "content": "The Act consists of: **103 Sections** divided into **14 Parts**; and **5 Schedules**. It comprehensively covers the establishment of the two UTs, the composition of legislatures, the application of central laws, and the transitional provisions.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "The 14 Parts of the J&K Reorganisation Act, 2019",
+          "headers": ["Part", "Sections", "Subject Matter"],
+          "rows": [
+            ["Part I", "Sections 1-2", "Preliminary (Short title, definitions)"],
+            ["Part II", "Sections 3-4", "Reorganisation of the State of Jammu & Kashmir"],
+            ["Part III", "Sections 5-33", "Union Territory of Jammu & Kashmir (Legislative Assembly)"],
+            ["Part IV", "Sections 34-39", "Union Territory of Ladakh (No Legislature)"],
+            ["Part V", "Sections 40-42", "Delimitation of Constituencies"],
+            ["Part VI", "Sections 43-46", "High Court of Jammu & Kashmir and Ladakh"],
+            ["Part VII", "Sections 47-49", "Authorisation of Expenditure and Appropriation"],
+            ["Part VIII", "Sections 50-52", "Distribution of Revenues"],
+            ["Part IX", "Sections 53-55", "Legal and Judicial Provisions"],
+            ["Part X", "Sections 56-59", "Transitional Provisions"],
+            ["Part XI", "Sections 60-61", "Delimitation of Assembly Constituencies"],
+            ["Part XII", "Section 62", "Validation of Acts and Proceedings"],
+            ["Part XIII", "Section 63", "Power to Remove Difficulties"],
+            ["Part XIV", "Section 64-103", "Amendment of Laws and Schedules"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "The 5 Schedules of the Act",
+          "headers": ["Schedule", "Content"],
+          "rows": [
+            ["First Schedule", "Amendments to the Constitution (Application of provisions)"],
+            ["Second Schedule", "Distribution of assets and liabilities"],
+            ["Third Schedule", "Representation of Union Territories in the Rajya Sabha"],
+            ["Fourth Schedule", "Allocation of 4 seats in Rajya Sabha to the UT of J&K"],
+            ["Fifth Schedule", "Application of Central Laws and Repeal of State Laws (106 Central Laws applied; 153 State Laws repealed)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Key Provisions Summary",
+          "given": ["The Act reorganised J&K into two Union Territories."],
+          "find": "What are the key structural changes?",
+          "steps": [
+            "The state of J&K was bifurcated into UT of J&K (with legislature) and UT of Ladakh (without legislature).",
+            "The UT of J&K has a Legislative Assembly with 83-90 seats (after delimitation).",
+            "The UT of Ladakh is governed directly by the President, through an Administrator.",
+            "The Act applies 106 Central Laws and repeals 153 State Laws.",
+            "The High Court of J&K and Ladakh was established (common High Court).",
+            "The Act provides for the allocation of 4 Rajya Sabha seats to J&K."
+          ],
+          "answer": "The Act created two UTs, defined legislative and executive structures, and streamlined laws.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Act came into force on 9th August 2019.",
+          "wrong": "The Act came into force on 9th August 2019.",
+          "correct": "The Act received assent on 9th August 2019 but came into force on 31st October 2019.",
+          "tip": "Assent date vs. enforcement date: 9th August 2019 (assent); 31st October 2019 (commencement)."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Structural Blueprint",
+          "points": [
+            "103 Sections, 14 Parts, 5 Schedules.",
+            "Enacted: 9th August 2019; Effective: 31st October 2019.",
+            "Two UTs: J&K (with legislature) and Ladakh (without legislature).",
+            "5 Schedules: First (Constitution amendments), Second (Assets/Liabilities), Third (Rajya Sabha representation), Fourth (4 seats for J&K), Fifth (106 Central laws, 153 State laws repealed)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_ii_reorganisation",
+      "title": "Part II – Reorganisation: Section 3 and Section 4",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Part II – Reorganisation",
+          "subtitle": "Section 3 and Section 4 – The Core of the Act",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Section 3 – Formation of Union Territory of Ladakh",
+          "content": "Section 3 of the Act provides for the formation of the Union Territory of Ladakh. It states that the existing state of Jammu & Kashmir shall be reorganised into two Union Territories. The UT of Ladakh shall comprise the districts of Kargil and Leh. It shall not have a Legislative Assembly. The President shall administer Ladakh through an Administrator (Lieutenant Governor).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Section 4 – Formation of Union Territory of Jammu & Kashmir",
+          "content": "Section 4 provides for the formation of the Union Territory of Jammu & Kashmir. It shall comprise the remaining territory of the erstwhile state (excluding Ladakh). It shall have a Legislative Assembly. The President shall administer J&K through a Lieutenant Governor, with a Council of Ministers headed by a Chief Minister.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Section 3 vs Section 4 – Comparison",
+          "headers": ["Feature", "UT of Ladakh (Section 3)", "UT of J&K (Section 4)"],
+          "rows": [
+            ["Formation", "Comprises Leh and Kargil districts", "Rest of erstwhile state"],
+            ["Legislative Assembly", "No Legislature", "Yes (Legislative Assembly)"],
+            ["Head of UT", "Administrator (Lieutenant Governor)", "Lieutenant Governor"],
+            ["Council of Ministers", "Not Applicable", "Chief Minister + Council of Ministers"],
+            ["Representation in Parliament", "Nominated to Rajya Sabha?", "4 seats in Rajya Sabha (Fourth Schedule)"],
+            ["Article 239A Application", "Not Applicable", "Applied to J&K"],
+            ["Law-making Powers", "Parliament makes laws", "Legislative Assembly can make laws on State List subjects (except Police, Public Order)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Understanding Section 3 and 4",
+          "given": ["Section 3 and 4 are the core reorganisation provisions."],
+          "find": "What is the significance of these sections?",
+          "steps": [
+            "Section 3 creates Ladakh as a UT without a legislature.",
+            "Section 4 creates J&K as a UT with a legislature.",
+            "This bifurcation is the fundamental restructuring of the erstwhile state.",
+            "Ladakh's administration is directly under the President.",
+            "J&K's administration has a democratic structure with CM and Council."
+          ],
+          "answer": "Sections 3 and 4 define the two UTs and their respective governance structures.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: J&K has no legislature.",
+          "wrong": "UT of J&K has no Legislative Assembly.",
+          "correct": "UT of J&K has a Legislative Assembly (with elections).",
+          "tip": "J&K UT has a legislature; Ladakh UT does not."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Part II",
+          "points": [
+            "Section 3: UT of Ladakh (Leh, Kargil) – no legislature.",
+            "Section 4: UT of J&K (rest) – legislature.",
+            "Ladakh: Administrator (LG) under President.",
+            "J&K: LG + CM + Council of Ministers.",
+            "Article 239A applied to J&K (Puducherry model)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_iii_legislative_structure",
+      "title": "Part III – Legislative Assembly Structure: Article 239A, LG's Powers, Section 15, Section 32",
+      "estimated_minutes": 18,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Part III – Legislative Assembly Structure",
+          "subtitle": "Composition, Powers, and the Role of the Lieutenant Governor",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Application of Article 239A to J&K",
+          "content": "Article 239A provides for the creation of a legislature for certain Union Territories. The J&K Reorganisation Act applies Article 239A to the UT of Jammu & Kashmir, following the Puducherry model. This allows for a Legislative Assembly with elected members, a Chief Minister, and a Council of Ministers. The Lieutenant Governor is the head, but the executive power is exercised by the Council of Ministers on the aid and advice of the LG.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Powers of the Lieutenant Governor (LG)",
+          "content": "The LG of J&K has significant powers under the Act:\n1. **Nomination of Women Members** (Section 15): The LG can nominate two women members to the Legislative Assembly if they are not adequately represented.\n2. **Nomination of Kashmiri Migrants/Displaced Persons**: Recent amendments allow the LG to nominate two members from the Kashmiri migrant community and one from the displaced persons of PoK.\n3. **Discretionary Powers**: The LG can act in his discretion in matters where the Constitution or the Act confers such power (e.g., reservation of bills for President's consideration, promulgation of ordinances when the Assembly is not in session).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Section 15 – Nomination of Women Members",
+          "content": "Section 15 of the Act empowers the LG to nominate up to two women members to the Legislative Assembly if, in his opinion, women are not adequately represented. This is a special provision to ensure gender representation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Section 32 – Scope of Legislative Powers",
+          "content": "Section 32 defines the legislative competence of the J&K Legislative Assembly. It restricts the Assembly's power on two subjects: **Police** and **Public Order** (Entries 1 and 2 of the State List). These subjects are under the control of the Lieutenant Governor and the Central Government. The Assembly can make laws on other State List subjects.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Provisions of Part III",
+          "headers": ["Provision", "Details"],
+          "rows": [
+            ["Article 239A Application", "Puducherry model applied to J&K"],
+            ["LG's Nomination (Section 15)", "Two women members (if inadequate representation)"],
+            ["LG's Nomination (Recent Amendments)", "Two Kashmiri migrants + one displaced person of PoK"],
+            ["LG's Discretionary Powers", "Reservation of bills, ordinances"],
+            ["Section 32 – Legislative Powers", "Assembly cannot make laws on Police and Public Order"],
+            ["Council of Ministers", "Aid and advice to LG (like Puducherry)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Section 32 in Action",
+          "given": ["Section 32 restricts legislative powers on Police and Public Order."],
+          "find": "Why are these subjects excluded from the Assembly's purview?",
+          "steps": [
+            "Police and Public Order are sensitive subjects related to internal security.",
+            "The Union Territory is under the administrative control of the MHA.",
+            "The LG has direct authority over these matters.",
+            "This ensures that the Central Government retains control over law and order.",
+            "The provision reflects the special status of J&K as a UT."
+          ],
+          "answer": "Police and Public Order are excluded to ensure central control over internal security.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The LG has no discretionary powers.",
+          "wrong": "The LG always acts on the aid and advice of the Council of Ministers.",
+          "correct": "The LG has discretionary powers in certain matters (e.g., reservation of bills, ordinances).",
+          "tip": "LG has discretion in matters where the Act confers such power."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Part III",
+          "points": [
+            "Article 239A applied (Puducherry model).",
+            "LG nominates two women (Section 15).",
+            "LG nominates Kashmiri migrants and displaced persons (recent amendments).",
+            "Section 32: Assembly cannot legislate on Police and Public Order.",
+            "LG has discretionary powers.",
+            "Council of Ministers aids and advises LG."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module1_mcqs_part1",
+      "title": "Practice MCQs: Structural Blueprint & Part II/III",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "J&K Reorganisation Act – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the exact section numbers, the number of parts and schedules, the distinction between the two UTs, the application of Article 239A, and the restrictions under Section 32. Memorize key dates and provisions.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The J&K Reorganisation Act, 2019 came into force on which date?",
+          "options": ["9th August 2019", "31st October 2019", "26th January 2020", "5th August 2019"],
+          "answer": 1,
+          "explanation": "The Act received assent on 9th August 2019 but came into force on 31st October 2019.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "How many sections does the J&K Reorganisation Act, 2019 contain?",
+          "options": ["102", "103", "104", "105"],
+          "answer": 1,
+          "explanation": "The Act has 103 Sections, 14 Parts, and 5 Schedules.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Section of the Act provides for the formation of the UT of Ladakh?",
+          "options": ["Section 2", "Section 3", "Section 4", "Section 5"],
+          "answer": 1,
+          "explanation": "Section 3 provides for the formation of the UT of Ladakh.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which UT has a Legislative Assembly as per the Act?",
+          "options": ["Ladakh", "Jammu & Kashmir", "Both", "Neither"],
+          "answer": 1,
+          "explanation": "UT of J&K has a Legislative Assembly; Ladakh does not.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "How many Rajya Sabha seats are allocated to the UT of J&K under the Fourth Schedule?",
+          "options": ["2", "3", "4", "5"],
+          "answer": 2,
+          "explanation": "The Fourth Schedule allocates 4 Rajya Sabha seats to J&K.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Article of the Constitution is applied to the UT of J&K for its legislative structure?",
+          "options": ["Article 239", "Article 239A", "Article 240", "Article 241"],
+          "answer": 1,
+          "explanation": "Article 239A (Puducherry model) is applied to J&K.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Section 32 of the Act restricts legislative powers on which subjects?",
+          "options": ["Education and Health", "Police and Public Order", "Taxation and Finance", "Agriculture and Irrigation"],
+          "answer": 1,
+          "explanation": "Section 32 restricts the Assembly from legislating on Police and Public Order.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The LG can nominate how many women members to the Legislative Assembly under Section 15?",
+          "options": ["One", "Two", "Three", "Four"],
+          "answer": 1,
+          "explanation": "Section 15 allows the LG to nominate two women members if inadequately represented.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Schedule of the Act deals with the application of Central Laws and repeal of State Laws?",
+          "options": ["First Schedule", "Third Schedule", "Fourth Schedule", "Fifth Schedule"],
+          "answer": 3,
+          "explanation": "The Fifth Schedule provides for the application of 106 Central Laws and repeal of 153 State Laws.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who administers the UT of Ladakh?",
+          "options": ["Chief Minister", "Lieutenant Governor", "President", "Governor"],
+          "answer": 1,
+          "explanation": "Ladakh is administered by a Lieutenant Governor (Administrator) appointed by the President.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the structure (103 Sections, 14 Parts, 5 Schedules), the distinction between UTs, the LG's powers, and Section 32 restrictions. Memorize key section numbers.",
+          "points": [
+            "103 Sections, 14 Parts, 5 Schedules.",
+            "Section 3: UT of Ladakh (no legislature).",
+            "Section 4: UT of J&K (legislature).",
+            "Article 239A applied to J&K.",
+            "Section 15: LG nominates 2 women.",
+            "Section 32: No powers on Police and Public Order.",
+            "Fourth Schedule: 4 Rajya Sabha seats.",
+            "Fifth Schedule: 106 Central Laws applied, 153 State Laws repealed."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "fourth_schedule",
+      "title": "Fourth Schedule – Allocation of Rajya Sabha Seats to J&K",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Fourth Schedule – Rajya Sabha Representation",
+          "subtitle": "Allocation of 4 Seats to the UT of J&K",
+          "tags": ["JKSSB", "High Weightage", "J&K Reorganisation"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "What is the Fourth Schedule?",
+          "content": "The Fourth Schedule of the J&K Reorganisation Act, 2019 deals with the representation of the Union Territory of Jammu & Kashmir in the Rajya Sabha (Council of States). It allocates 4 seats to the UT of J&K in the Rajya Sabha.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Key Provisions of the Fourth Schedule",
+          "content": "1. **Allocation of Seats**: The UT of J&K is allocated 4 seats in the Rajya Sabha.\n2. **Manner of Election**: Members are elected by the Legislative Assembly of J&K through proportional representation by means of a single transferable vote.\n3. **Term**: The term of Rajya Sabha members is 6 years, with one-third retiring every two years.\n4. **Comparison with Erstwhile State**: The erstwhile state of J&K had 6 Rajya Sabha seats; the UT has been reduced to 4 seats.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Rajya Sabha Seats – Pre and Post Reorganisation",
+          "headers": ["Period", "Number of Seats", "Remarks"],
+          "rows": [
+            ["Pre-2019 (Erstwhile State)", "6 Seats", "Full state representation"],
+            ["Post-2019 (UT of J&K)", "4 Seats", "Reduced representation"],
+            ["UT of Ladakh", "0 Seats", "No representation (directly nominated)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Rajya Sabha Representation",
+          "given": ["The Fourth Schedule allocates 4 Rajya Sabha seats to J&K."],
+          "find": "How are these seats filled?",
+          "steps": [
+            "The 4 seats are filled by the Legislative Assembly of J&K.",
+            "Members are elected through proportional representation (single transferable vote).",
+            "The term of the members is 6 years.",
+            "The election is conducted by the Election Commission of India."
+          ],
+          "answer": "The 4 seats are filled by the J&K Legislative Assembly through proportional representation.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Ladakh has Rajya Sabha seats.",
+          "wrong": "Ladakh has Rajya Sabha representation.",
+          "correct": "Ladakh has no Rajya Sabha seats. It is represented through nominated members.",
+          "tip": "Ladakh has no legislature and no Rajya Sabha seats."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Fourth Schedule",
+          "points": [
+            "4 Rajya Sabha seats to UT of J&K.",
+            "Elected by the J&K Legislative Assembly (proportional representation).",
+            "Term: 6 years.",
+            "Ladakh has no Rajya Sabha seats.",
+            "Erstwhile state had 6 seats, now reduced to 4."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fifth_schedule",
+      "title": "Fifth Schedule – Application of Central Laws and Repeal of State Laws",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Fifth Schedule – Legal Consolidation",
+          "subtitle": "106 Central Laws Applied, 153 State Laws Repealed",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "What is the Fifth Schedule?",
+          "content": "The Fifth Schedule of the J&K Reorganisation Act, 2019 is the legal mechanism for unifying the legal framework of the new UTs with the rest of India. It provides for:\n1. **Application of 106 Central Laws** to J&K and Ladakh (e.g., IPC, CrPC, Indian Evidence Act, etc.).\n2. **Repeal of 153 State Laws** that were previously applicable to the erstwhile state.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Key Central Laws Applied",
+          "content": "The following key Central Laws were applied to the UTs:\n1. **Indian Penal Code (IPC), 1860** – Criminal law.\n2. **Code of Criminal Procedure (CrPC), 1973** – Procedure for criminal trials.\n3. **Indian Evidence Act, 1872** – Rules of evidence.\n4. **Transfer of Property Act, 1882** – Property law.\n5. **Indian Contract Act, 1872** – Contract law.\n6. **Companies Act, 2013** – Corporate governance.\n7. **Central Goods and Services Tax Act, 2017** – GST (already applied earlier).\n8. **Right to Information Act, 2005** – Transparency.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Key State Laws Repealed",
+          "content": "The Act repealed 153 State Laws that were previously applicable to the erstwhile state of J&K. Some key repeals include:\n1. **J&K Constitution Act, 1956** – The separate state constitution.\n2. **J&K Ranbir Penal Code (RPC)** – Replaced by IPC.\n3. **J&K Criminal Procedure Code** – Replaced by CrPC.\n4. **J&K Land Revenue Act** – Replaced by central land laws.\n5. **J&K Forest Act** – Replaced by central forest laws.\n6. **J&K State Subject Laws** – Replaced by domicile laws.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Central Laws Applied vs State Laws Repealed",
+          "headers": ["Central Laws Applied", "State Laws Repealed"],
+          "rows": [
+            ["Indian Penal Code (IPC), 1860", "J&K Ranbir Penal Code"],
+            ["Code of Criminal Procedure (CrPC), 1973", "J&K Criminal Procedure Code"],
+            ["Indian Evidence Act, 1872", "J&K Evidence Act"],
+            ["Transfer of Property Act, 1882", "J&K Transfer of Property Act"],
+            ["Indian Contract Act, 1872", "J&K Contract Act"],
+            ["Companies Act, 2013", "J&K Companies Act"],
+            ["Right to Information Act, 2005", "J&K RTI Act"],
+            ["Central GST Act, 2017", "J&K GST Act (repealed)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Legal Unification",
+          "given": ["The Fifth Schedule unified the legal framework of J&K with the rest of India."],
+          "find": "What was the significance of this unification?",
+          "steps": [
+            "106 Central Laws were applied, replacing the state-specific laws.",
+            "153 State Laws were repealed, including the J&K Constitution.",
+            "This brought J&K on par with other Indian states and UTs.",
+            "It simplified the legal system and ensured uniform application of laws.",
+            "It integrated J&K fully into the Indian legal framework."
+          ],
+          "answer": "The Fifth Schedule integrated J&K into the Indian legal framework by applying Central Laws and repealing State Laws.",
+          "formula_used": "Legal Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The J&K Constitution was retained.",
+          "wrong": "The J&K Constitution Act, 1956 was retained after 2019.",
+          "correct": "The J&K Constitution Act, 1956 was repealed under the Fifth Schedule.",
+          "tip": "J&K Constitution was repealed; the Indian Constitution fully applies."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Fifth Schedule",
+          "points": [
+            "106 Central Laws applied.",
+            "153 State Laws repealed.",
+            "IPC, CrPC, Evidence Act applied.",
+            "J&K Ranbir Penal Code repealed.",
+            "J&K Constitution Act, 1956 repealed.",
+            "Legal unification with the rest of India."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delimitation_commission",
+      "title": "Delimitation Commission – Composition, Section 60, and SC/ST Reservations",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Delimitation Commission",
+          "subtitle": "Redrawing of Assembly Constituencies",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "What is the Delimitation Commission?",
+          "content": "The Delimitation Commission is a constitutional body established to redraw the boundaries of assembly and parliamentary constituencies. For J&K, the Delimitation Commission was constituted under Section 60 of the J&K Reorganisation Act, 2019. It was set up in 2020 to redraw the 83 existing assembly seats and to increase them to 90 (excluding the 24 reserved for PoK).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Section 60 – Delimitation of Constituencies",
+          "content": "Section 60 of the Act provides for the delimitation of assembly constituencies in the UT of J&K. Key provisions:\n1. **Increase in Seats**: The number of seats increased from 83 to 90.\n2. **Boundaries**: The Commission redraws constituency boundaries based on the latest census data.\n3. **Reservation**: Seats are reserved for Scheduled Castes and Scheduled Tribes based on their population ratio.\n4. **Delimitation Order**: The final order is published in the official gazette and is binding.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Composition of the Delimitation Commission",
+          "content": "The Delimitation Commission for J&K was chaired by a retired Supreme Court judge. Its members included:\n1. **Chairperson**: A retired Supreme Court judge or a judge of a High Court.\n2. **Chief Election Commissioner**: Ex-officio member.\n3. **State Election Commissioner**: Ex-officio member.\n4. **Representatives**: Officials from the Union Territory of J&K.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Delimitation Commission – Key Features",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Legal Basis", "Section 60 of J&K Reorganisation Act, 2019"],
+            ["Constituted", "2020"],
+            ["Total Seats", "90 (increased from 83)"],
+            ["Reserved for PoK", "24 seats (not included in current delimitation)"],
+            ["SC Reservation", "Based on population ratio"],
+            ["ST Reservation", "Based on population ratio"],
+            ["Binding Order", "Final order published in Gazette"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "SC/ST Reservations",
+          "content": "The Delimitation Commission reserved seats for Scheduled Castes (SC) and Scheduled Tribes (ST) in proportion to their population. The reservation ensures adequate representation of these communities in the Legislative Assembly. The reservation is based on the latest census data.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Delimitation Commission's Role",
+          "given": ["The Delimitation Commission increased J&K's assembly seats from 83 to 90."],
+          "find": "What was the significance of this increase?",
+          "steps": [
+            "The increase provided better representation to the people of J&K.",
+            "It adjusted the boundaries based on demographic changes.",
+            "It ensured SC/ST reservations based on population.",
+            "It excluded the 24 seats reserved for PoK, pending restoration.",
+            "The final order is binding and implemented in subsequent elections."
+          ],
+          "answer": "The Delimitation Commission increased seats to ensure better representation and fairness.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The 24 PoK seats are included in the delimitation.",
+          "wrong": "The 24 seats reserved for PoK are included in the current delimitation.",
+          "correct": "The 24 seats reserved for PoK are not included in the current delimitation.",
+          "tip": "PoK seats are reserved but not currently delimited."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Delimitation Commission",
+          "points": [
+            "Section 60: Delimitation of constituencies.",
+            "Seats increased from 83 to 90.",
+            "24 seats reserved for PoK (not delimited).",
+            "SC/ST reservations based on population.",
+            "Chaired by a retired Supreme Court judge.",
+            "Final order published in Gazette and binding."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module1_mcqs_part2",
+      "title": "Practice MCQs: Schedules and Delimitation Commission",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "J&K Reorganisation Act – Practice Set",
+          "subtitle": "Schedules and Delimitation Commission",
+          "tags": ["PYQ", "JKSSB", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the Fourth and Fifth Schedules, the number of Central Laws applied and State Laws repealed, the Delimitation Commission's composition, and Section 60 provisions.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "How many Rajya Sabha seats are allocated to J&K under the Fourth Schedule?",
+          "options": ["2", "3", "4", "6"],
+          "answer": 2,
+          "explanation": "The Fourth Schedule allocates 4 Rajya Sabha seats to the UT of J&K.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "How many Central Laws were applied to J&K under the Fifth Schedule?",
+          "options": ["90", "100", "106", "153"],
+          "answer": 2,
+          "explanation": "The Fifth Schedule provided for the application of 106 Central Laws to J&K.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "How many State Laws were repealed under the Fifth Schedule?",
+          "options": ["100", "130", "153", "160"],
+          "answer": 2,
+          "explanation": "The Fifth Schedule repealed 153 State Laws that were previously applicable to the erstwhile state.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Section of the Act provides for the Delimitation Commission?",
+          "options": ["Section 50", "Section 60", "Section 70", "Section 80"],
+          "answer": 1,
+          "explanation": "Section 60 provides for the delimitation of assembly constituencies in J&K.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "How many assembly seats does J&K have after the delimitation?",
+          "options": ["83", "87", "90", "95"],
+          "answer": 2,
+          "explanation": "The Delimitation Commission increased the seats from 83 to 90.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "How many seats are reserved for PoK in the J&K Legislative Assembly?",
+          "options": ["12", "24", "36", "48"],
+          "answer": 1,
+          "explanation": "24 seats are reserved for PoK, but they are not included in the current delimitation.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following was NOT repealed under the Fifth Schedule?",
+          "options": ["J&K Ranbir Penal Code", "J&K Constitution Act, 1956", "Indian Penal Code", "J&K Criminal Procedure Code"],
+          "answer": 2,
+          "explanation": "The Indian Penal Code (IPC) was applied, not repealed. The state laws like Ranbir Penal Code were repealed.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who chairs the Delimitation Commission?",
+          "options": ["Chief Election Commissioner", "Retired Supreme Court Judge", "State Election Commissioner", "Chief Justice of India"],
+          "answer": 1,
+          "explanation": "The Delimitation Commission is chaired by a retired Supreme Court judge.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The J&K Legislative Assembly now has seats reserved for SC/ST based on:",
+          "options": ["Population ratio", "Land area", "Party representation", "Historical data"],
+          "answer": 0,
+          "explanation": "SC/ST reservations are based on population ratio.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The final order of the Delimitation Commission is:",
+          "options": ["Advisory", "Binding", "Recommendatory", "Subject to judicial review"],
+          "answer": 1,
+          "explanation": "The final delimitation order is published in the Gazette and is binding.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the Fourth Schedule (4 Rajya Sabha seats), Fifth Schedule (106 Central Laws applied, 153 State Laws repealed), and Delimitation Commission (Section 60, 90 seats, SC/ST reservations).",
+          "points": [
+            "Fourth Schedule: 4 Rajya Sabha seats.",
+            "Fifth Schedule: 106 Central Laws applied, 153 State Laws repealed.",
+            "Section 60: Delimitation of constituencies.",
+            "Seats increased from 83 to 90.",
+            "24 seats reserved for PoK (not delimited).",
+            "SC/ST reservations based on population."
+          ]
+        }
+      ]
+    }
+  ]
+}

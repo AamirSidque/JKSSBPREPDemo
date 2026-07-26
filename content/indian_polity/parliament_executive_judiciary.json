@@ -1,0 +1,573 @@
+{
+  "id": "parliament_executive_judiciary",
+  "subject_id": "indian_polity",
+  "title": "Parliament, Executive, Judiciary",
+  "subtopics": [
+    {
+      "id": "union_parliament",
+      "title": "Union Parliament – Composition, Functions, and Powers",
+      "estimated_minutes": 18,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Union Parliament",
+          "subtitle": "The Supreme Legislative Body of India",
+          "tags": ["JKSSB", "High Weightage", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "What is Parliament?",
+          "content": "Parliament is the supreme legislative body of India. It consists of the President and two Houses: Rajya Sabha (Council of States) and Lok Sabha (House of the People). It has legislative, financial, executive, judicial, and constituent functions. Articles 79-122 deal with Parliament.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Parliament – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Composition", "President + Rajya Sabha + Lok Sabha"],
+            ["Maximum Strength (Rajya Sabha)", "250 members"],
+            ["Maximum Strength (Lok Sabha)", "552 members"],
+            ["Lok Sabha Term", "5 years"],
+            ["Rajya Sabha Term", "6 years (1/3rd retire every 2 years)"],
+            ["Budget Session", "February to May"],
+            ["Monsoon Session", "July to September"],
+            ["Winter Session", "November to December"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Lok Sabha – The Lower House",
+          "content": "Lok Sabha is the House of the People. It is directly elected by the people through universal adult franchise. Maximum strength is 552 members (530 from states, 20 from Union Territories, 2 nominated from Anglo-Indian community). The Speaker of Lok Sabha is the presiding officer. Money Bills can only be introduced in Lok Sabha.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Rajya Sabha – The Upper House",
+          "content": "Rajya Sabha is the Council of States. It represents the states and Union Territories. Members are elected by state legislative assemblies using proportional representation. Maximum strength is 250 members (238 elected, 12 nominated by the President). It is a permanent body with one-third members retiring every two years. The Vice-President is the ex-officio Chairman.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Lok Sabha vs Rajya Sabha",
+          "headers": ["Feature", "Lok Sabha", "Rajya Sabha"],
+          "rows": [
+            ["Composition", "Directly elected by the people", "Elected by state legislatures"],
+            ["Strength", "552 (maximum)", "250 (maximum)"],
+            ["Term", "5 years", "6 years (permanent body)"],
+            ["Chairperson", "Speaker", "Vice-President (ex-officio)"],
+            ["Money Bills", "Only can be introduced", "Cannot introduce Money Bills"],
+            ["Dissolution", "Can be dissolved", "Cannot be dissolved"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Powers and Functions of Parliament",
+          "content": "Parliament has the following powers:\n1. **Legislative Power**: Makes laws on Union List, Concurrent List, and Residuary subjects.\n2. **Financial Power**: Controls the purse (budget, taxation, expenditure).\n3. **Executive Power**: Controls the executive (question hour, no-confidence motion, adjournment motion).\n4. **Judicial Power**: Can impeach the President (Article 61) and judges.\n5. **Constituent Power**: Can amend the Constitution (Article 368).\n6. **Electoral Power**: Elects the President and Vice-President.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Money Bill",
+          "given": ["A Money Bill can only be introduced in Lok Sabha."],
+          "find": "What are the key features of a Money Bill?",
+          "steps": [
+            "Money Bills deal with taxation, expenditure, and borrowing.",
+            "It can only be introduced in Lok Sabha (Article 110).",
+            "Rajya Sabha can only make recommendations (not reject).",
+            "The Speaker of Lok Sabha certifies the Bill as a Money Bill.",
+            "It must be passed within 14 days by Rajya Sabha."
+          ],
+          "answer": "Money Bills are introduced in Lok Sabha and Rajya Sabha can only recommend changes.",
+          "formula_used": "Legislative Process Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Rajya Sabha is the lower house.",
+          "wrong": "Rajya Sabha is the lower house of Parliament.",
+          "correct": "Rajya Sabha is the upper house of Parliament; Lok Sabha is the lower house.",
+          "tip": "Rajya Sabha = Upper House; Lok Sabha = Lower House."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Union Parliament",
+          "points": [
+            "Parliament = President + Rajya Sabha + Lok Sabha.",
+            "Lok Sabha: Directly elected, 5-year term, Speaker as chairperson.",
+            "Rajya Sabha: Indirectly elected, 6-year term, permanent body.",
+            "Money Bills can only be introduced in Lok Sabha.",
+            "Vice-President is ex-officio Chairman of Rajya Sabha.",
+            "Parliament has legislative, financial, executive, judicial, and constituent powers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "president_vicepresident",
+      "title": "President and Vice-President – Powers, Functions, and Impeachment",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "President and Vice-President",
+          "subtitle": "The Constitutional Heads of the Union",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The President of India",
+          "content": "The President is the executive head of the Union (Article 52). He is the nominal head (de jure executive), while the Prime Minister is the real executive (de facto executive). The President is elected by an electoral college (Article 54) and holds office for 5 years (Article 56). The President can be removed through impeachment (Article 61).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "Powers of the President",
+          "content": "1. **Executive Powers**: Appoints Prime Minister, Council of Ministers, Governors, judges, etc.\n2. **Legislative Powers**: Summons, prorogues, and dissolves Parliament. Signs bills into laws.\n3. **Financial Powers**: Causes the budget to be laid before Parliament.\n4. **Judicial Powers**: Grants pardon, reprieves, and commutes sentences (Article 72).\n5. **Emergency Powers**: Can declare National Emergency (Article 352), State Emergency (Article 356), and Financial Emergency (Article 360).\n6. **Military Powers**: Supreme Commander of the Armed Forces.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The Vice-President",
+          "content": "The Vice-President is the second highest constitutional office (Article 63). He is the ex-officio Chairman of the Rajya Sabha (Article 64). He is elected by an electoral college consisting of members of both Houses of Parliament. The Vice-President holds office for 5 years and can be removed by a resolution of the Rajya Sabha passed by a majority and agreed to by the Lok Sabha.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "President vs Vice-President",
+          "headers": ["Feature", "President", "Vice-President"],
+          "rows": [
+            ["Constitutional Article", "Article 52", "Article 63"],
+            ["Election", "Electoral College (MPs + MLAs)", "Parliament (both Houses)"],
+            ["Term", "5 years", "5 years"],
+            ["Role", "Executive head, nominal head", "Ex-officio Chairman of Rajya Sabha"],
+            ["Impeachment", "Article 61", "Rajya Sabha resolution"],
+            ["Removal", "Impeachment", "Resolution in Rajya Sabha"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Impeachment of the President",
+          "given": ["The President can be removed through impeachment under Article 61."],
+          "find": "What is the process of impeachment?",
+          "steps": [
+            "The impeachment charge can be initiated in either House of Parliament.",
+            "The charge must be signed by at least one-fourth of the members of that House.",
+            "A 14-day notice must be given before the charge is taken up.",
+            "The other House investigates the charge.",
+            "The President is removed if the resolution is passed by a two-thirds majority of the total membership of the House.",
+            "The process is quasi-judicial."
+          ],
+          "answer": "The President can be removed by impeachment passed by a two-thirds majority in Parliament.",
+          "formula_used": "Constitutional Process Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Vice-President is the head of the state.",
+          "wrong": "The Vice-President is the head of the state.",
+          "correct": "The President is the head of the state; the Vice-President is the second highest office.",
+          "tip": "President = Head of State; Vice-President = Chairman of Rajya Sabha."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – President and Vice-President",
+          "points": [
+            "President: Executive head, nominal head, 5-year term.",
+            "Vice-President: Ex-officio Chairman of Rajya Sabha.",
+            "President's powers: Executive, legislative, financial, judicial, emergency.",
+            "Impeachment: Article 61 (two-thirds majority).",
+            "Vice-President elected by Parliament, removed by Rajya Sabha resolution."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pm_council_ministers",
+      "title": "Prime Minister and Council of Ministers",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Prime Minister and Council of Ministers",
+          "subtitle": "The Real Executive of India",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👨‍💼",
+          "title": "The Prime Minister",
+          "content": "The Prime Minister is the real executive authority of India (de facto head of government). The Prime Minister is appointed by the President (Article 75). He is the leader of the Council of Ministers and the leader of the Lok Sabha. The Prime Minister acts as the chief advisor to the President and is the head of the Council of Ministers.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "Council of Ministers",
+          "content": "The Council of Ministers is headed by the Prime Minister. It consists of three categories: Cabinet Ministers, Ministers of State, and Deputy Ministers. The Council of Ministers is collectively responsible to the Lok Sabha (Article 75). The Prime Minister decides the composition and allocation of portfolios.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Collective Responsibility",
+          "content": "The Council of Ministers is collectively responsible to the Lok Sabha (Article 75). This means that the entire Council resigns if a no-confidence motion is passed. Individual ministers are responsible to the Prime Minister. The principle of collective responsibility ensures unity and accountability.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Powers and Functions of the Prime Minister",
+          "content": "1. **Head of the Government**: The Prime Minister is the chief executive.\n2. **Leader of the Council of Ministers**: Chairs Cabinet meetings.\n3. **Advisor to the President**: Advises the President on appointments, policy, and emergencies.\n4. **Head of the Lok Sabha**: Leads the lower house.\n5. **Foreign Policy**: Represents India in international forums.\n6. **Emergency Powers**: During emergencies, the Prime Minister's role becomes critical.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Prime Minister – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Article", "Article 75"],
+            ["Appointment", "By President (must have majority in Lok Sabha)"],
+            ["Term", "At the pleasure of the President (until majority is lost)"],
+            ["Resignation", "Can resign by submitting to President"],
+            ["Role", "Head of government, leader of Lok Sabha"],
+            ["Collective Responsibility", "Article 75 (Council collectively responsible to Lok Sabha)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: No-Confidence Motion",
+          "given": ["A no-confidence motion can be moved in the Lok Sabha against the government."],
+          "find": "What happens when a no-confidence motion is passed?",
+          "steps": [
+            "A no-confidence motion can be moved by any member of the Lok Sabha.",
+            "It requires the support of at least 50 members.",
+            "If the motion is passed by a majority, the Council of Ministers must resign.",
+            "The Prime Minister then advises the President to dissolve the Lok Sabha.",
+            "The President can either ask the PM to prove majority or dissolve the house."
+          ],
+          "answer": "A no-confidence motion, if passed, forces the Council of Ministers to resign.",
+          "formula_used": "Parliamentary Process Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The President is the real executive.",
+          "wrong": "The President is the real executive of India.",
+          "correct": "The Prime Minister is the real executive; the President is the nominal head.",
+          "tip": "PM = Real Executive; President = Nominal Head."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – PM and Council of Ministers",
+          "points": [
+            "Prime Minister: Real executive, head of government.",
+            "Appointed by President (Article 75).",
+            "Council of Ministers: Cabinet, Ministers of State, Deputy Ministers.",
+            "Collective Responsibility: Article 75 (to Lok Sabha).",
+            "No-confidence motion: Forces resignation if passed.",
+            "PM is leader of Lok Sabha and chief advisor to President."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supreme_court",
+      "title": "Supreme Court – Composition, Jurisdiction, and Judicial Review",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Supreme Court",
+          "subtitle": "The Guardian of the Constitution",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Supreme Court of India",
+          "content": "The Supreme Court is the highest judicial body in India. It is the guardian of the Constitution and the final court of appeal. Articles 124-147 deal with the Supreme Court. It consists of the Chief Justice and a maximum of 33 other judges. The Supreme Court has original, appellate, and advisory jurisdiction.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Jurisdiction of the Supreme Court",
+          "content": "1. **Original Jurisdiction**: Direct cases (Article 131).\n2. **Appellate Jurisdiction**: Appeals from High Courts (Article 132-134).\n3. **Advisory Jurisdiction**: President can seek advice (Article 143).\n4. **Writ Jurisdiction**: Can issue writs for enforcement of Fundamental Rights (Article 32).\n5. **Review Jurisdiction**: Can review its own judgments.\n6. **Curative Petition**: Final remedy to prevent abuse of process.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Judicial Review",
+          "content": "Judicial review is the power of the Supreme Court to review laws and executive actions for constitutionality. It is derived from the 'basic structure doctrine' (Kesavananda Bharati case, 1973). The Supreme Court can declare a law void if it violates the Constitution. Judicial review is a key feature of the Indian Constitution.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Independence of Judiciary",
+          "content": "The independence of the judiciary is ensured through:\n1. **Security of Tenure**: Judges cannot be removed easily (Article 124).\n2. **Fixed Salaries**: Salaries are fixed and cannot be reduced.\n3. **Appointment Process**: Judges are appointed by the President in consultation with the Chief Justice.\n4. **Contempt of Court**: Protects the dignity of the court.\n5. **Judicial Review**: Ensures the Constitution is supreme.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Supreme Court – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Articles", "124-147"],
+            ["Chief Justice", "Head of the Supreme Court"],
+            ["Number of Judges", "34 (Chief Justice + 33 other judges)"],
+            ["Original Jurisdiction", "Article 131"],
+            ["Appellate Jurisdiction", "Articles 132-134"],
+            ["Advisory Jurisdiction", "Article 143"],
+            ["Writ Jurisdiction", "Article 32"],
+            ["Retirement Age", "65 years"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Judicial Review",
+          "given": ["The Supreme Court can review laws for constitutionality."],
+          "find": "What is the basis of judicial review?",
+          "steps": [
+            "Judicial review is derived from the 'basic structure doctrine'.",
+            "The Supreme Court can strike down laws that violate the Constitution.",
+            "The 42nd Amendment attempted to limit judicial review but was curbed by the court.",
+            "Judicial review ensures that the Constitution is supreme.",
+            "It is a key feature of the Indian Constitution."
+          ],
+          "answer": "Judicial review ensures that laws and executive actions are constitutional.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Supreme Court is the only court with appellate jurisdiction.",
+          "wrong": "Only the Supreme Court has appellate jurisdiction.",
+          "correct": "High Courts also have appellate jurisdiction; the Supreme Court is the final court.",
+          "tip": "Supreme Court is the final appellate court, not the only one."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Supreme Court",
+          "points": [
+            "Supreme Court: Guardian of the Constitution.",
+            "Articles 124-147.",
+            "Jurisdiction: Original, Appellate, Advisory, Writ.",
+            "Judicial Review: Derived from basic structure doctrine.",
+            "Independence: Security of tenure, fixed salaries, appointment process."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "high_courts",
+      "title": "High Courts and Subordinate Courts",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "High Courts and Subordinate Courts",
+          "subtitle": "The State Judiciary",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "High Courts",
+          "content": "High Courts are the highest judicial bodies in states. Articles 214-231 deal with High Courts. Each state has a High Court, but some states share a High Court (e.g., Punjab and Haryana). The High Court has original, appellate, and writ jurisdiction. The Chief Justice is appointed by the President.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Powers of High Courts",
+          "content": "1. **Original Jurisdiction**: Civil and criminal cases.\n2. **Appellate Jurisdiction**: Appeals from subordinate courts.\n3. **Writ Jurisdiction**: Can issue writs for enforcement of Fundamental Rights (Article 226).\n4. **Supervisory Jurisdiction**: Over subordinate courts.\n5. **Advisory Jurisdiction**: Can advise the Governor (Article 231).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Subordinate Courts",
+          "content": "Subordinate courts are the lower courts in the judicial hierarchy. They include:\n1. **District Courts**: Highest court in a district.\n2. **Sessions Courts**: Criminal courts at the district level.\n3. **Magistrate Courts**: Lower criminal courts.\n4. **Civil Courts**: Handle civil disputes.\n5. **Special Courts**: Deal with specific subjects (e.g., family courts, labour courts).",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "High Court vs Supreme Court",
+          "headers": ["Feature", "High Court", "Supreme Court"],
+          "rows": [
+            ["Constitutional Articles", "214-231", "124-147"],
+            ["Jurisdiction", "State level", "All India"],
+            ["Writ Jurisdiction", "Article 226", "Article 32"],
+            ["Appeals", "To Supreme Court", "Final court"],
+            ["Retirement Age", "62 years", "65 years"],
+            ["Appointment", "President in consultation", "President in consultation"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: High Court's Power",
+          "given": ["High Courts can issue writs under Article 226."],
+          "find": "What is the difference between Article 32 and Article 226?",
+          "steps": [
+            "Article 32: Supreme Court can issue writs for Fundamental Rights.",
+            "Article 226: High Courts can issue writs for any purpose (not just Fundamental Rights).",
+            "The scope of Article 226 is wider.",
+            "High Courts have concurrent jurisdiction with the Supreme Court."
+          ],
+          "answer": "Article 226 gives High Courts wider writ jurisdiction than Article 32.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Subordinate Courts are part of the High Court.",
+          "wrong": "Subordinate courts are under the direct control of the Supreme Court.",
+          "correct": "Subordinate courts are under the administrative control of the High Court.",
+          "tip": "High Court supervises subordinate courts."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – High Courts and Subordinate Courts",
+          "points": [
+            "High Court: Highest state court (Articles 214-231).",
+            "High Court has original, appellate, and writ jurisdiction.",
+            "Article 226: High Courts can issue writs.",
+            "Subordinate Courts: District Courts, Sessions Courts, Magistrate Courts, Civil Courts.",
+            "High Courts supervise subordinate courts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judiciary_mcqs",
+      "title": "Practice MCQs: Parliament, Executive, Judiciary",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Parliament, Executive, Judiciary – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the composition and functions of Parliament, powers of the President and Vice-President, the role of the Prime Minister and Council of Ministers, and the jurisdiction of the Supreme Court and High Courts.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The maximum strength of Lok Sabha is:",
+          "options": ["250", "545", "552", "550"],
+          "answer": 2,
+          "explanation": "The maximum strength of Lok Sabha is 552 members (530 from states, 20 from UTs, 2 nominated from Anglo-Indian community).",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Who is the ex-officio Chairman of Rajya Sabha?",
+          "options": ["President", "Vice-President", "Prime Minister", "Speaker"],
+          "answer": 1,
+          "explanation": "The Vice-President is the ex-officio Chairman of Rajya Sabha (Article 64).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Council of Ministers is collectively responsible to which House?",
+          "options": ["Rajya Sabha", "Lok Sabha", "President", "Supreme Court"],
+          "answer": 1,
+          "explanation": "The Council of Ministers is collectively responsible to the Lok Sabha (Article 75).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Article deals with the impeachment of the President?",
+          "options": ["Article 54", "Article 56", "Article 61", "Article 75"],
+          "answer": 2,
+          "explanation": "Article 61 deals with the impeachment of the President.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The original jurisdiction of the Supreme Court is mentioned in which Article?",
+          "options": ["Article 131", "Article 132", "Article 143", "Article 226"],
+          "answer": 0,
+          "explanation": "Article 131 deals with the original jurisdiction of the Supreme Court (disputes between Centre and States).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Article allows High Courts to issue writs?",
+          "options": ["Article 32", "Article 226", "Article 143", "Article 132"],
+          "answer": 1,
+          "explanation": "Article 226 allows High Courts to issue writs for the enforcement of any legal right (not just Fundamental Rights).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Money Bills can be introduced only in which House?",
+          "options": ["Rajya Sabha", "Lok Sabha", "Both Houses", "President"],
+          "answer": 1,
+          "explanation": "Money Bills can only be introduced in Lok Sabha (Article 110).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who appoints the Chief Justice of the Supreme Court?",
+          "options": ["Prime Minister", "President", "Chief Justice of India", "Law Minister"],
+          "answer": 1,
+          "explanation": "The President appoints the Chief Justice of the Supreme Court.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "What is the retirement age of a Supreme Court judge?",
+          "options": ["60 years", "62 years", "65 years", "68 years"],
+          "answer": 2,
+          "explanation": "The retirement age of a Supreme Court judge is 65 years.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a jurisdiction of the Supreme Court?",
+          "options": ["Original", "Appellate", "Advisory", "Legislative"],
+          "answer": 3,
+          "explanation": "The Supreme Court has original, appellate, and advisory jurisdiction, but not legislative power.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the composition and functions of Parliament, powers of the President and Vice-President, the role of the Prime Minister and Council of Ministers, and the jurisdiction of the Supreme Court and High Courts.",
+          "points": [
+            "Parliament: President + Rajya Sabha + Lok Sabha.",
+            "Lok Sabha: Directly elected, 5-year term.",
+            "Rajya Sabha: Indirectly elected, 6-year term.",
+            "President: Nominal head, elected by electoral college.",
+            "Vice-President: Ex-officio Chairman of Rajya Sabha.",
+            "Prime Minister: Real executive, leader of Lok Sabha.",
+            "Council of Ministers: Collective responsibility to Lok Sabha.",
+            "Supreme Court: Original (Article 131), Appellate (132-134), Advisory (143), Writ (32).",
+            "High Courts: Article 226 writ jurisdiction.",
+            "Judicial Review: Basic structure doctrine."
+          ]
+        }
+      ]
+    }
+  ]
+}

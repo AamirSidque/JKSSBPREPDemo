@@ -1,0 +1,596 @@
+{
+  "id": "constitutional_non_constitutional_bodies",
+  "subject_id": "indian_polity",
+  "title": "Constitutional & Non-Constitutional Bodies",
+  "subtopics": [
+    {
+      "id": "election_commission",
+      "title": "Election Commission of India",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Election Commission of India",
+          "subtitle": "The Guardian of Democracy",
+          "tags": ["JKSSB", "High Weightage", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗳️",
+          "title": "What is the Election Commission?",
+          "content": "The Election Commission of India (ECI) is an autonomous constitutional body responsible for administering elections in India. It was established on 25th January 1950. Articles 324-329 deal with the Election Commission. The Chief Election Commissioner heads the commission.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Composition of the Election Commission",
+          "content": "The Election Commission consists of the Chief Election Commissioner (CEC) and other Election Commissioners. Originally, it was a single-member body. In 1989, it became a multi-member body. Currently, there are three members: one CEC and two Election Commissioners. They are appointed by the President.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Election Commission – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Article", "Articles 324-329"],
+            ["Establishment", "25th January 1950"],
+            ["Head", "Chief Election Commissioner (CEC)"],
+            ["Composition", "CEC + 2 Election Commissioners"],
+            ["Appointment", "By President"],
+            ["Tenure", "6 years or up to age 65"],
+            ["Removal", "Same as Supreme Court judge"],
+            ["Role", "Supervise, direct, and control elections"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Powers and Functions of Election Commission",
+          "content": "1. **Supervision of Elections**: Supervises elections to Parliament, State Legislatures, and the offices of President and Vice-President.\n2. **Delimitation of Constituencies**: Recommends delimitation (with the help of Delimitation Commission).\n3. **Registration of Political Parties**: Registers political parties and grants recognition.\n4. **Model Code of Conduct**: Enforces the Model Code of Conduct during elections.\n5. **Electoral Rolls**: Prepares and updates electoral rolls.\n6. **Advisory Role**: Advises the President on disqualification of members.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Removal of the Chief Election Commissioner",
+          "given": ["The Chief Election Commissioner can be removed from office."],
+          "find": "What is the process of removal?",
+          "steps": [
+            "The Chief Election Commissioner has the same status as a Supreme Court judge.",
+            "Removal requires a two-thirds majority in both Houses of Parliament.",
+            "The grounds for removal are 'proved misbehaviour or incapacity'.",
+            "The process is quasi-judicial.",
+            "This ensures the independence of the Election Commission."
+          ],
+          "answer": "The CEC can be removed only through impeachment by a two-thirds majority of Parliament.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Election Commission is a permanent body.",
+          "wrong": "The Election Commission is a permanent constitutional body.",
+          "correct": "The Election Commission is a permanent constitutional body (not temporary).",
+          "tip": "It is a permanent body under the Constitution."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Election Commission",
+          "points": [
+            "Articles 324-329.",
+            "Established: 25th January 1950.",
+            "Composition: CEC + 2 Election Commissioners.",
+            "Appointed by President.",
+            "Removal: Same as Supreme Court judge (two-thirds majority).",
+            "Functions: Supervise elections, register parties, enforce Model Code of Conduct."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upsc",
+      "title": "Union Public Service Commission (UPSC)",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Union Public Service Commission",
+          "subtitle": "The Guardian of the Civil Services",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "What is UPSC?",
+          "content": "UPSC is the central recruiting agency for the civil services of India. Articles 315-323 deal with the Public Service Commissions. It is responsible for conducting examinations for the All-India Services (IAS, IPS, IFS) and Group A and B central services.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Composition of UPSC",
+          "content": "The UPSC consists of a Chairman and other members appointed by the President. The number of members is determined by the President. The Chairman and members hold office for a term of 6 years or until they reach the age of 65, whichever is earlier. They can be removed by the President on grounds of misbehaviour, after an inquiry by the Supreme Court.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "UPSC – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Articles", "315-323"],
+            ["Head", "Chairman"],
+            ["Appointment", "By President"],
+            ["Tenure", "6 years or until age 65"],
+            ["Removal", "By President after Supreme Court inquiry"],
+            ["Functions", "Conduct exams for civil services, advise on appointments"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: UPSC Examinations",
+          "given": ["UPSC conducts the Civil Services Examination (CSE)."],
+          "find": "Which services are recruited through the CSE?",
+          "steps": [
+            "The CSE recruits for the All-India Services (IAS, IPS, IFS).",
+            "It also recruits for Group A and Group B central services.",
+            "The examination consists of preliminary, main, and interview stages.",
+            "The CSE is the most prestigious examination in India."
+          ],
+          "answer": "UPSC recruits for IAS, IPS, IFS, and other central services through the CSE.",
+          "formula_used": "Recruitment Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The President can remove the UPSC Chairman arbitrarily.",
+          "wrong": "The President can remove the UPSC Chairman at will.",
+          "correct": "The Chairman can be removed only after an inquiry by the Supreme Court.",
+          "tip": "Independence of UPSC is protected."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – UPSC",
+          "points": [
+            "Articles 315-323.",
+            "Composition: Chairman + Members appointed by President.",
+            "Tenure: 6 years or age 65.",
+            "Removal: By President after Supreme Court inquiry.",
+            "Functions: Conduct civil service examinations, advise on appointments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cag",
+      "title": "Comptroller and Auditor General of India (CAG)",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Comptroller and Auditor General of India",
+          "subtitle": "The Guardian of Public Purse",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "What is CAG?",
+          "content": "The Comptroller and Auditor General of India (CAG) is the supreme audit institution of India. Articles 148-151 deal with CAG. It audits the accounts of the Union, states, and public sector undertakings. The CAG is appointed by the President.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Powers and Functions of CAG",
+          "content": "1. **Audit of Accounts**: Audits the accounts of the Union and State Governments.\n2. **Audit of Public Sector Undertakings**: Audits PSUs and government companies.\n3. **Grants-in-Aid**: Audits bodies receiving grants-in-aid from the government.\n4. **Public Accounts Committee (PAC)**: Assists the PAC in its work.\n5. **Reports**: Submits audit reports to the President and Governors.\n6. **Advice**: Advises the government on financial matters.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "CAG – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Articles", "148-151"],
+            ["Appointment", "By President"],
+            ["Tenure", "6 years or until age 65"],
+            ["Removal", "Same as Supreme Court judge"],
+            ["Role", "Auditor of Union and State accounts"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Role of CAG in Auditing",
+          "given": ["CAG audits the accounts of the Union and State Governments."],
+          "find": "How does CAG ensure accountability?",
+          "steps": [
+            "CAG audits the expenditure and receipts of the government.",
+            "It audits PSUs and government companies.",
+            "It submits audit reports to the President and Governors.",
+            "The reports are examined by the Public Accounts Committee (PAC).",
+            "This ensures financial accountability and transparency."
+          ],
+          "answer": "CAG ensures financial accountability by auditing government accounts and submitting reports.",
+          "formula_used": "Audit Process Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: CAG is part of the executive.",
+          "wrong": "CAG is a part of the executive branch.",
+          "correct": "CAG is an independent constitutional authority, not part of the executive.",
+          "tip": "CAG is independent and reports to the legislature."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – CAG",
+          "points": [
+            "Articles 148-151.",
+            "Appointed by President.",
+            "Tenure: 6 years or age 65.",
+            "Removal: Same as Supreme Court judge.",
+            "Functions: Audit of Union and State accounts, PSUs, and public bodies.",
+            "Reports to President and Governors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance_commission",
+      "title": "Finance Commission",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Finance Commission",
+          "subtitle": "The Bridge Between Centre and States",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "What is the Finance Commission?",
+          "content": "The Finance Commission is a constitutional body that recommends the distribution of tax revenue between the Centre and States. Articles 280-281 deal with the Finance Commission. It is constituted every five years by the President. The Chairman and members are appointed by the President.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "Functions of the Finance Commission",
+          "content": "1. **Tax Distribution**: Recommends the distribution of net proceeds of taxes between the Centre and States.\n2. **Grants-in-Aid**: Recommends grants-in-aid to States (Article 275).\n3. **State Finances**: Recommends measures to improve state finances.\n4. **Local Bodies**: Recommends grants to local bodies.\n5. **Any Other Matter**: Any other matter referred by the President.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Finance Commission – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Articles", "280-281"],
+            ["Appointment", "By President"],
+            ["Tenure", "5 years (constituted every 5 years)"],
+            ["Chairman", "Appointed by President"],
+            ["Members", "4 members (expertise in economics, finance)"],
+            ["Role", "Recommend tax distribution and grants-in-aid"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Recommendations of the Finance Commission",
+          "given": ["The Finance Commission recommends tax distribution between Centre and States."],
+          "find": "What is the importance of these recommendations?",
+          "steps": [
+            "The recommendations are advisory, but usually followed by the government.",
+            "They ensure equitable distribution of resources.",
+            "They reduce regional disparities.",
+            "They provide grants to states for specific purposes.",
+            "The recommendations promote financial cooperation between Centre and States."
+          ],
+          "answer": "Finance Commission recommendations ensure equitable distribution of resources and promote cooperative federalism.",
+          "formula_used": "Financial Relations Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Finance Commission is a permanent body.",
+          "wrong": "The Finance Commission is a permanent body.",
+          "correct": "The Finance Commission is constituted every 5 years, not a permanent body.",
+          "tip": "It is a temporary body, reconstituted periodically."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Finance Commission",
+          "points": [
+            "Articles 280-281.",
+            "Constituted every 5 years.",
+            "Chairman and 4 members appointed by President.",
+            "Recommendations: Tax distribution, grants-in-aid.",
+            "Promotes fiscal federalism."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_constitutional_bodies",
+      "title": "Other Constitutional Bodies – Attorney General, Advocate General, NITI Aayog, etc.",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Other Constitutional Bodies",
+          "subtitle": "Attorney General, Advocate General, NITI Aayog, and Others",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Attorney General of India",
+          "content": "The Attorney General is the highest law officer of India (Article 76). He is appointed by the President and holds office during the pleasure of the President. He gives advice on legal matters and represents the government in legal proceedings. He has the right to speak in Parliament but cannot vote.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Advocate General of the State",
+          "content": "The Advocate General is the highest law officer of the State (Article 165). He is appointed by the Governor and holds office during the pleasure of the Governor. He advises the State government on legal matters. He has the right to speak in the State Legislature but cannot vote.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "NITI Aayog (National Institution for Transforming India)",
+          "content": "NITI Aayog was established in 2015 to replace the Planning Commission. It is a policy think tank of the Government of India. It was created to foster cooperative federalism and provide strategic and technical advice to the government. The Prime Minister is the ex-officio Chairman.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Constitutional Bodies – Summary",
+          "headers": ["Body", "Article", "Appointment", "Role"],
+          "rows": [
+            ["Attorney General", "76", "President", "Highest law officer of India"],
+            ["Advocate General", "165", "Governor", "Highest law officer of the State"],
+            ["Comptroller and Auditor General", "148-151", "President", "Auditor of government accounts"],
+            ["Election Commission", "324-329", "President", "Conduct elections"],
+            ["UPSC", "315-323", "President", "Recruit civil servants"],
+            ["Finance Commission", "280-281", "President", "Tax distribution"],
+            ["National Commission for SC/ST", "338-342", "President", "Protect rights of SC/ST"],
+            ["NITI Aayog", "Executive Order", "Prime Minister", "Policy think tank"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Role of the Attorney General",
+          "given": ["The Attorney General is the highest law officer of India."],
+          "find": "What are his key functions?",
+          "steps": [
+            "He advises the government on legal matters.",
+            "He represents the government in the Supreme Court.",
+            "He has the right to speak in Parliament.",
+            "He cannot vote in Parliament.",
+            "He is not a member of the Council of Ministers."
+          ],
+          "answer": "The Attorney General advises the government and represents it in legal proceedings.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Attorney General is a member of the Cabinet.",
+          "wrong": "The Attorney General is a member of the Council of Ministers.",
+          "correct": "The Attorney General is not a member of the Council of Ministers.",
+          "tip": "He is the highest law officer, but not a Cabinet member."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Other Constitutional Bodies",
+          "points": [
+            "Attorney General: Article 76, highest law officer, appointed by President.",
+            "Advocate General: Article 165, highest law officer of state, appointed by Governor.",
+            "NITI Aayog: Established in 2015, replaced Planning Commission.",
+            "National Commission for SC/ST: Articles 338-342.",
+            "UPSC: Article 315-323, central recruiting agency.",
+            "Finance Commission: Article 280-281, tax distribution."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "non_constitutional_bodies",
+      "title": "Non-Constitutional Bodies – NHRC, CVC, CBI, etc.",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Non-Constitutional Bodies",
+          "subtitle": "Institutions Beyond the Constitution",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "National Human Rights Commission (NHRC)",
+          "content": "The NHRC is a statutory body established under the Protection of Human Rights Act, 1993. It is not a constitutional body. It protects and promotes human rights in India. The NHRC is headed by a Chairperson who is a former Chief Justice of India. It has the power to inquire into violations of human rights.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Central Vigilance Commission (CVC)",
+          "content": "The CVC is a statutory body established in 1964. It is the apex vigilance body of the government. It advises the government on vigilance matters and investigates corruption cases. The CVC has been given statutory status through the CVC Act, 2003.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Central Bureau of Investigation (CBI)",
+          "content": "The CBI is the premier investigating agency of India. It was established in 1963. It is not a constitutional body but derives its powers from the Delhi Special Police Establishment Act, 1946. It handles major criminal cases, corruption cases, and sensitive investigations.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Non-Constitutional Bodies – Summary",
+          "headers": ["Body", "Year", "Act", "Role"],
+          "rows": [
+            ["NHRC", "1993", "Protection of Human Rights Act, 1993", "Protect human rights"],
+            ["CVC", "1964 (2003 Act)", "CVC Act, 2003", "Vigilance and anti-corruption"],
+            ["CBI", "1963", "Delhi Special Police Establishment Act, 1946", "Investigation of crimes"],
+            ["NIA", "2008", "NIA Act, 2008", "Counter-terrorism"],
+            ["ED", "1956", "FEMA, PMLA", "Enforcement of economic laws"],
+            ["SIT", "Temporary", "Executive Order", "Investigate specific cases"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Role of NHRC",
+          "given": ["The NHRC protects human rights in India."],
+          "find": "What are its key powers?",
+          "steps": [
+            "It inquires into violations of human rights.",
+            "It recommends compensation for victims.",
+            "It advises the government on human rights issues.",
+            "It can intervene in court proceedings.",
+            "It publishes reports on the state of human rights."
+          ],
+          "answer": "NHRC protects human rights through inquiries, recommendations, and advocacy.",
+          "formula_used": "Statutory Body Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: NHRC is a constitutional body.",
+          "wrong": "NHRC is a constitutional body under the Constitution.",
+          "correct": "NHRC is a statutory body established by the Protection of Human Rights Act, 1993.",
+          "tip": "NHRC is statutory, not constitutional."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Non-Constitutional Bodies",
+          "points": [
+            "NHRC: Statutory body (1993), protects human rights.",
+            "CVC: Statutory body (1964/2003), vigilance and anti-corruption.",
+            "CBI: Investigating agency (1963), handles major cases.",
+            "NIA: Counter-terrorism agency (2008).",
+            "ED: Enforcement of economic laws (FEMA, PMLA)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bodies_mcqs",
+      "title": "Practice MCQs: Constitutional & Non-Constitutional Bodies",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Constitutional & Non-Constitutional Bodies – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the composition, functions, and constitutional articles of Election Commission, UPSC, CAG, Finance Commission, Attorney General, NITI Aayog, NHRC, CVC, and CBI.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Election Commission of India was established on:",
+          "options": ["26th January 1950", "25th January 1950", "15th August 1947", "1st April 1950"],
+          "answer": 1,
+          "explanation": "The Election Commission of India was established on 25th January 1950.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which Article deals with the Election Commission of India?",
+          "options": ["Articles 280-281", "Articles 324-329", "Articles 315-323", "Articles 148-151"],
+          "answer": 1,
+          "explanation": "Articles 324-329 deal with the Election Commission of India.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Union Public Service Commission (UPSC) is established under which Article?",
+          "options": ["Article 315-323", "Article 324-329", "Article 280-281", "Article 148-151"],
+          "answer": 0,
+          "explanation": "Articles 315-323 deal with the Union Public Service Commission.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Comptroller and Auditor General of India is appointed by:",
+          "options": ["Prime Minister", "President", "Chief Justice", "Speaker"],
+          "answer": 1,
+          "explanation": "The CAG is appointed by the President of India.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Finance Commission is constituted every:",
+          "options": ["3 years", "4 years", "5 years", "6 years"],
+          "answer": 2,
+          "explanation": "The Finance Commission is constituted every 5 years (Article 280).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Who is the ex-officio Chairman of NITI Aayog?",
+          "options": ["President", "Prime Minister", "Finance Minister", "Vice-President"],
+          "answer": 1,
+          "explanation": "The Prime Minister is the ex-officio Chairman of NITI Aayog.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Attorney General of India holds office during the pleasure of:",
+          "options": ["Prime Minister", "President", "Chief Justice", "Parliament"],
+          "answer": 1,
+          "explanation": "The Attorney General holds office during the pleasure of the President (Article 76).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The National Human Rights Commission (NHRC) was established in:",
+          "options": ["1988", "1990", "1993", "1995"],
+          "answer": 2,
+          "explanation": "The NHRC was established in 1993 under the Protection of Human Rights Act, 1993.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a constitutional body?",
+          "options": ["Election Commission", "UPSC", "NHRC", "CAG"],
+          "answer": 2,
+          "explanation": "NHRC is a statutory body, not a constitutional body. Election Commission, UPSC, and CAG are constitutional bodies.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Chief Election Commissioner can be removed through:",
+          "options": ["Impeachment by Parliament", "Simple majority in Parliament", "Two-thirds majority in Parliament", "President's order"],
+          "answer": 2,
+          "explanation": "The CEC can be removed through a two-thirds majority in both Houses of Parliament.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the constitutional bodies (Election Commission, UPSC, CAG, Finance Commission, Attorney General) and non-constitutional bodies (NHRC, CVC, CBI, NIA, ED).",
+          "points": [
+            "Election Commission: Articles 324-329.",
+            "UPSC: Articles 315-323.",
+            "CAG: Articles 148-151.",
+            "Finance Commission: Articles 280-281.",
+            "Attorney General: Article 76.",
+            "NITI Aayog: Established 2015.",
+            "NHRC: Statutory body (1993).",
+            "CVC: Statutory body (1964/2003).",
+            "CBI: Investigating agency (1963)."
+          ]
+        }
+      ]
+    }
+  ]
+}

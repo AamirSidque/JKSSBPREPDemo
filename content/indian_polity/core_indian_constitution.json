@@ -1,0 +1,615 @@
+{
+  "id": "core_indian_constitution",
+  "subject_id": "indian_polity",
+  "title": "Core Indian Constitution",
+  "subtopics": [
+    {
+      "id": "preamble",
+      "title": "Preamble of the Indian Constitution",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Preamble of the Indian Constitution",
+          "subtitle": "The Soul and Spirit of the Constitution",
+          "tags": ["JKSSB", "High Weightage", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "What is the Preamble?",
+          "content": "The Preamble is the introductory statement of the Indian Constitution. It contains the ideals, objectives, and basic principles of the Constitution. It is based on the Objective Resolution moved by Jawaharlal Nehru in the Constituent Assembly on 13th December 1946.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Nature of the Indian State",
+          "content": "The Preamble declares India to be: \n1. **Sovereign**: India is an independent nation with supreme authority over its territory.\n2. **Socialist**: Wealth is generated socially and distributed equally; added by the 42nd Amendment (1976).\n3. **Secular**: All religions are equal before the state; added by the 42nd Amendment (1976).\n4. **Democratic**: The government is elected by the people.\n5. **Republic**: The head of state is elected, not hereditary.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Objectives of the Preamble",
+          "content": "The Preamble aims to secure for all citizens:\n1. **Justice**: Social, economic, and political.\n2. **Liberty**: Of thought, expression, belief, faith, and worship.\n3. **Equality**: Of status and of opportunity.\n4. **Fraternity**: Assuring the dignity of the individual and the unity and integrity of the nation.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Key Facts about the Preamble",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Source", "Objective Resolution by Jawaharlal Nehru (1946)"],
+            ["Part of Constitution", "Yes (Kesavananda Bharati case, 1973)"],
+            ["Amendments", "Amended once (42nd Amendment, 1976)"],
+            ["Words Added", "'Socialist', 'Secular', 'Integrity'"],
+            ["Justiciable", "No (not enforceable in courts)"],
+            ["Status", "Key to the Constitution"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The 42nd Amendment and the Preamble",
+          "given": ["The Preamble was amended by the 42nd Amendment Act, 1976."],
+          "find": "What changes were made to the Preamble?",
+          "steps": [
+            "The 42nd Amendment added three words to the Preamble.",
+            "These words are: 'Socialist', 'Secular', and 'Integrity'.",
+            "'Socialist' was added to emphasize economic equality.",
+            "'Secular' was added to reinforce religious neutrality.",
+            "'Integrity' was added to promote national unity."
+          ],
+          "answer": "The 42nd Amendment added 'Socialist', 'Secular', and 'Integrity' to the Preamble.",
+          "formula_used": "Constitutional Amendment Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Preamble is justiciable.",
+          "wrong": "The Preamble is enforceable in courts of law.",
+          "correct": "The Preamble is non-justiciable, but it is used to interpret the Constitution.",
+          "tip": "Preamble guides interpretation but cannot be enforced directly."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Preamble",
+          "points": [
+            "Based on Nehru's Objective Resolution (1946).",
+            "Nature: Sovereign, Socialist, Secular, Democratic, Republic.",
+            "Objectives: Justice, Liberty, Equality, Fraternity.",
+            "Amended once (42nd Amendment, 1976).",
+            "Added: Socialist, Secular, Integrity.",
+            "Non-justiciable but part of the Constitution."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salient_features",
+      "title": "Salient Features of the Indian Constitution",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Salient Features of the Indian Constitution",
+          "subtitle": "What Makes the Indian Constitution Unique",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📏",
+          "title": "Length – The Longest Written Constitution",
+          "content": "The Indian Constitution is the longest written constitution in the world. It originally had 395 Articles, 22 Parts, and 8 Schedules. Currently, it has over 450 Articles, 25 Parts, and 12 Schedules. It is detailed and comprehensive, covering all aspects of governance.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📖",
+          "title": "Sources – Blend of Various Constitutions",
+          "content": "The structural framework is largely derived from the Government of India Act, 1935. The Constitution has borrowed features from: Britain (Parliamentary system), USA (Fundamental Rights, Judicial Review), Ireland (Directive Principles), Canada (Federal system), Australia (Concurrent list), South Africa (Amendment procedure), and Germany (Emergency provisions).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Flexibility – Blend of Rigidity and Flexibility",
+          "content": "The Constitution is a blend of rigidity and flexibility. Some provisions can be amended by a simple majority of Parliament (e.g., creation of new states), while others require a special majority (2/3rd of members present and voting) and ratification by half of the state legislatures. This balance ensures stability while allowing change.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Federal System with Unitary Bias",
+          "content": "The Constitution establishes a federal system, but with a strong unitary bias. Key unitary features: Single Constitution (except for J&K earlier), Single citizenship, Union's control over states (Emergency provisions, All-India Services), and the Centre's power to appoint Governors.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Parliamentary Form of Government",
+          "content": "India follows a parliamentary system at both the Centre and State levels. The President is the nominal head (head of state), while the Prime Minister is the real executive (head of government). The Council of Ministers is collectively responsible to the Lok Sabha.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Independent and Integrated Judiciary",
+          "content": "The Indian judiciary is independent and integrated. Independence is ensured by: fixed salaries, security of tenure, and removal only by impeachment. It is integrated with the Supreme Court at the apex, followed by High Courts, and subordinate courts. The Supreme Court has original, appellate, and advisory jurisdiction.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Salient Features – Quick Reference",
+          "headers": ["Feature", "Description", "Borrowed From"],
+          "rows": [
+            ["Length", "Longest written constitution", "N/A"],
+            ["Sources", "Derived from multiple constitutions", "Various"],
+            ["Flexibility", "Blend of rigidity and flexibility", "South Africa"],
+            ["Federal System", "Federal with unitary bias", "Canada"],
+            ["Parliamentary System", "PM as real executive", "Britain"],
+            ["Independent Judiciary", "Supreme Court at apex", "USA"],
+            ["Fundamental Rights", "Justiciable rights", "USA"],
+            ["Directive Principles", "Non-justiciable guidelines", "Ireland"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Federal with Unitary Bias",
+          "given": ["The Indian Constitution is described as federal with a unitary bias."],
+          "find": "Explain with examples.",
+          "steps": [
+            "Federal features: Division of powers between Centre and States, Supremacy of Constitution, Independent judiciary.",
+            "Unitary features: Single citizenship, Emergency provisions (Article 352, 356, 360), All-India Services, Appointment of Governors by the Centre.",
+            "During emergencies, the Constitution becomes virtually unitary.",
+            "Thus, the balance is tilted towards the Centre."
+          ],
+          "answer": "Indian Constitution has federal features but a strong unitary bias, especially during emergencies.",
+          "formula_used": "Constitutional Structure Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: India is a purely federal state.",
+          "wrong": "India has a purely federal system like the USA.",
+          "correct": "India has a federal system with a strong unitary bias.",
+          "tip": "Emergency provisions and All-India Services tilt the balance towards the Centre."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Salient Features",
+          "points": [
+            "Longest written constitution in the world.",
+            "Borrowed from many sources (GOI Act 1935, USA, UK, Ireland, etc.).",
+            "Blend of rigidity and flexibility.",
+            "Federal system with unitary bias.",
+            "Parliamentary government (PM real executive).",
+            "Independent and integrated judiciary."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "important_articles",
+      "title": "Important Constitutional Articles – Parts I to IVA",
+      "estimated_minutes": 18,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Important Constitutional Articles",
+          "subtitle": "Structure, Rights, Directives, Duties, and Emergencies",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Part I: Union and its Territory (Articles 1-4)",
+          "content": "Article 1: Name and territory of the Union. Article 2: Admission or establishment of new states. Article 3: Formation of new states and alteration of boundaries. Article 4: Laws made under Articles 2 and 3. The Parliament has the power to create new states, alter boundaries, and change names.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Part II: Citizenship (Articles 5-11)",
+          "content": "Articles 5 to 11 deal with citizenship at the commencement of the Constitution. Article 5: Citizenship by domicile. Article 6: Rights of citizenship of certain persons who have migrated to India from Pakistan. Article 7: Rights of citizenship of certain migrants to Pakistan. Article 8: Rights of citizenship of persons of Indian origin residing outside India. Article 9: Persons voluntarily acquiring citizenship of a foreign state. Article 10: Continuance of rights of citizenship. Article 11: Parliament has the power to regulate citizenship laws.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Part III: Fundamental Rights (Articles 12-35)",
+          "content": "Part III is the Magna Carta of India. It guarantees fundamental rights to all citizens. Article 12: Definition of State. Article 13: Laws inconsistent with fundamental rights are void. Articles 14-18: Right to Equality. Articles 19-22: Right to Freedom. Articles 23-24: Right against Exploitation. Articles 25-28: Right to Freedom of Religion. Articles 29-30: Cultural and Educational Rights. Article 32: Right to Constitutional Remedies (Heart and Soul of the Constitution).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Part IV: Directive Principles of State Policy (Articles 36-51)",
+          "content": "Part IV contains the Directive Principles of State Policy (DPSP). They are guidelines for the State to promote welfare. Article 36: Definition. Article 37: Non-justiciable (not enforceable in courts). Article 38: Social order for welfare. Article 39: Principles of policy. Article 40: Organisation of village panchayats. Article 41: Right to work, education, and public assistance. Article 44: Uniform Civil Code. Article 45: Provision for free and compulsory education. Article 46: Promotion of educational and economic interests of Scheduled Castes, Scheduled Tribes, and other weaker sections. Article 48: Organisation of agriculture and animal husbandry.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Part IVA: Fundamental Duties (Article 51A)",
+          "content": "Part IVA was added by the 42nd Amendment Act, 1976, based on the Swaran Singh Committee report. Article 51A lists the fundamental duties of citizens. Originally 10 duties; an 11th duty was added by the 86th Amendment Act, 2002. They are non-justiciable in nature.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Important Articles – Quick Reference",
+          "headers": ["Article", "Subject", "Significance"],
+          "rows": [
+            ["1", "Name and territory", "India, that is Bharat"],
+            ["2", "New states", "Admission/establishment"],
+            ["3", "Formation of states", "Alter boundaries"],
+            ["12", "Definition of State", "Includes government"],
+            ["13", "Laws inconsistent with FR", "Laws void if violated"],
+            ["14", "Equality before law", "Equal protection"],
+            ["15", "Prohibition of discrimination", "On grounds of religion, race, caste, sex"],
+            ["16", "Equality in public employment", "Equal opportunity"],
+            ["17", "Abolition of Untouchability", "Article 17 abolished"],
+            ["19", "Six freedoms", "Speech, assembly, association, movement, residence, profession"],
+            ["21", "Protection of life and liberty", "Due process"],
+            ["21A", "Right to education", "86th Amendment (2002)"],
+            ["32", "Constitutional Remedies", "Heart and Soul (Ambedkar)"],
+            ["44", "Uniform Civil Code", "DPSP"],
+            ["51A", "Fundamental Duties", "11 duties"],
+            ["352", "National Emergency", "War, external aggression, armed rebellion"],
+            ["356", "State Emergency (President's Rule)", "Failure of constitutional machinery"],
+            ["360", "Financial Emergency", "Threat to financial stability"],
+            ["368", "Amendment of Constitution", "Parliament's power to amend"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Heart and Soul of the Constitution",
+          "given": ["Dr. B.R. Ambedkar called Article 32 the 'Heart and Soul' of the Constitution."],
+          "find": "Why is Article 32 so important?",
+          "steps": [
+            "Article 32 guarantees the right to constitutional remedies.",
+            "It allows citizens to approach the Supreme Court for the enforcement of fundamental rights.",
+            "The Supreme Court can issue writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, and Quo-Warranto.",
+            "Without Article 32, fundamental rights would be meaningless.",
+            "Hence, Ambedkar called it the 'Heart and Soul' of the Constitution."
+          ],
+          "answer": "Article 32 is the 'Heart and Soul' because it provides remedies for the enforcement of fundamental rights.",
+          "formula_used": "Constitutional Remedy Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Article 32 is the only remedy for fundamental rights.",
+          "wrong": "Only the Supreme Court can enforce fundamental rights.",
+          "correct": "Article 32 allows approach to the Supreme Court, and Article 226 allows approach to High Courts.",
+          "tip": "Both Supreme Court (Article 32) and High Courts (Article 226) can enforce fundamental rights."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Important Articles",
+          "points": [
+            "Part I (1-4): Union and Territory.",
+            "Part II (5-11): Citizenship.",
+            "Part III (12-35): Fundamental Rights (Magna Carta).",
+            "Part IV (36-51): Directive Principles (non-justiciable).",
+            "Part IVA (51A): Fundamental Duties (11 duties).",
+            "Article 32: Constitutional Remedies (Heart and Soul).",
+            "Articles 352, 356, 360: Emergency provisions.",
+            "Article 368: Amendment power."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rights_duties",
+      "title": "Fundamental Rights, Directive Principles, and Fundamental Duties",
+      "estimated_minutes": 18,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Fundamental Rights, Directive Principles & Fundamental Duties",
+          "subtitle": "The Trifecta of Constitutional Obligations",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Fundamental Rights (Part III)",
+          "content": "Fundamental Rights are the basic rights guaranteed to all citizens. They are enforceable by courts. The six fundamental rights are:\n1. Right to Equality (Articles 14-18)\n2. Right to Freedom (Articles 19-22)\n3. Right against Exploitation (Articles 23-24)\n4. Right to Freedom of Religion (Articles 25-28)\n5. Cultural and Educational Rights (Articles 29-30)\n6. Right to Constitutional Remedies (Article 32)",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Directive Principles of State Policy (Part IV)",
+          "content": "Directive Principles are guidelines for the State to promote welfare. They are non-justiciable (not enforceable by courts). They are borrowed from the Irish Constitution. They are classified into:\n1. **Socialistic**: Equal pay, wealth distribution (Articles 38-39).\n2. **Gandhian**: Village panchayats, cottage industries, prohibition (Articles 40, 43, 47).\n3. **Liberal-Intellectual**: Uniform Civil Code (Article 44), free education (Article 45).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "Fundamental Duties (Part IVA)",
+          "content": "Fundamental Duties were added by the 42nd Amendment Act, 1976, based on the Swaran Singh Committee. Originally 10 duties; an 11th duty was added by the 86th Amendment Act, 2002. They are moral obligations and are non-justiciable. The 11 duties include: Respecting the Constitution, National Flag, and National Anthem; Cherishing the noble ideals of the freedom struggle; Protecting the sovereignty and integrity of India; Defending the country; Promoting harmony and the spirit of common brotherhood; Preserving the rich heritage of the country; Protecting the natural environment; Developing a scientific temper; Safeguarding public property; Striving for excellence; and Providing education to children (added in 2002).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Comparison of FR, DPSP, and FD",
+          "headers": ["Feature", "Fundamental Rights", "Directive Principles", "Fundamental Duties"],
+          "rows": [
+            ["Part", "III", "IV", "IVA"],
+            ["Justiciable", "Yes (enforceable in courts)", "No (non-justiciable)", "No (non-justiciable)"],
+            ["Nature", "Rights of citizens", "Guidelines for the State", "Obligations of citizens"],
+            ["Source", "USA", "Ireland", "Russia (USSR)"],
+            ["Purpose", "Protect individual liberty", "Promote social welfare", "Duties towards the nation"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "The Five Writs",
+          "headers": ["Writ", "Meaning", "Purpose"],
+          "rows": [
+            ["Habeas Corpus", "You shall have the body", "Protection against illegal detention"],
+            ["Mandamus", "We command", "Command to perform public duty"],
+            ["Prohibition", "To forbid", "Prevent lower court from exceeding jurisdiction"],
+            ["Certiorari", "To be certified", "Quash an order of lower court"],
+            ["Quo-Warranto", "By what authority", "Challenge the legality of holding office"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Right to Constitutional Remedies",
+          "given": ["A citizen's fundamental right is violated."],
+          "find": "What remedies are available?",
+          "steps": [
+            "The citizen can approach the Supreme Court under Article 32.",
+            "The citizen can also approach the High Court under Article 226.",
+            "The courts can issue writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto.",
+            "The aggrieved person can also file a writ petition in the High Court."
+          ],
+          "answer": "Article 32 (Supreme Court) and Article 226 (High Court) provide remedies for violation of fundamental rights.",
+          "formula_used": "Constitutional Remedy Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Directive Principles are enforceable in courts.",
+          "wrong": "Directive Principles are enforceable like Fundamental Rights.",
+          "correct": "Directive Principles are non-justiciable (not enforceable in courts).",
+          "tip": "DPSP are guidelines for the State, not enforceable rights."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Rights & Duties",
+          "points": [
+            "Fundamental Rights: Justiciable, enforceable in courts.",
+            "Six FR: Equality, Freedom, Exploitation, Religion, Culture, Remedies.",
+            "Directive Principles: Non-justiciable, guidelines for the State.",
+            "DPSP classified: Socialistic, Gandhian, Liberal-Intellectual.",
+            "Fundamental Duties: Added by 42nd Amendment (1976).",
+            "11 duties (86th Amendment, 2002 added one).",
+            "Non-justiciable, moral obligations.",
+            "Writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system_of_government",
+      "title": "System of Government – Union and State",
+      "estimated_minutes": 18,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "System of Government",
+          "subtitle": "Union and State Executives and Legislatures",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The President of India",
+          "content": "The President is the executive head of the Union. Articles 52 to 78 deal with the President and Vice-President. The President is elected by an electoral college consisting of elected members of Parliament and State Legislative Assemblies. The President can be impeached under Article 61. The President is the nominal head (de jure executive), while the Prime Minister is the real executive (de facto executive).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The Vice-President and Prime Minister",
+          "content": "The Vice-President is the ex-officio Chairman of the Rajya Sabha (Article 64). The Vice-President is elected by an electoral college consisting of members of both Houses of Parliament. The Prime Minister is the real executive authority (de facto head of government). The Council of Ministers is collectively responsible to the Lok Sabha.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Parliament – The Union Legislature",
+          "content": "Parliament consists of the President and two Houses: Rajya Sabha (Council of States) and Lok Sabha (House of the People). Rajya Sabha is the Upper House, with a maximum strength of 250 members. Lok Sabha is the Lower House, with a maximum strength of 552 members. Parliament has legislative, financial, and deliberative functions.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Governor and Chief Minister",
+          "content": "The Governor is the nominal head of the State (Article 153). The Governor is appointed by the President. The Chief Minister is the real executive head of the State. The State Legislature consists of the Governor and the Legislative Assembly (Vidhan Sabha). Some states have a Legislative Council (Vidhan Parishad).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Union and State Government – Quick Reference",
+          "headers": ["Position", "Union", "State"],
+          "rows": [
+            ["Head of State", "President (nominal)", "Governor (nominal)"],
+            ["Real Executive", "Prime Minister", "Chief Minister"],
+            ["Legislature", "Parliament (Rajya Sabha + Lok Sabha)", "Legislative Assembly (Vidhan Sabha), Legislative Council (Vidhan Parishad)"],
+            ["Electoral Head", "President (elected)", "Governor (appointed by President)"],
+            ["Removal", "Impeachment (Article 61)", "President can dismiss (not automatic)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Election of the President",
+          "given": ["The President is elected by an electoral college."],
+          "find": "Who constitutes the electoral college?",
+          "steps": [
+            "The electoral college consists of elected members of both Houses of Parliament.",
+            "It also includes elected members of the State Legislative Assemblies.",
+            "The value of votes is determined by the population of each state.",
+            "The election is conducted by the Election Commission of India.",
+            "The President is elected through a single transferable vote system."
+          ],
+          "answer": "The President is elected by an electoral college consisting of elected MPs and MLAs.",
+          "formula_used": "Electoral Procedure Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Governor is elected by the people.",
+          "wrong": "The Governor of a state is elected by the people.",
+          "correct": "The Governor is appointed by the President of India.",
+          "tip": "Governor = Appointed by President, not elected."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – System of Government",
+          "points": [
+            "President: Nominal head, elected by electoral college.",
+            "Impeachment: Article 61.",
+            "Prime Minister: Real executive, head of government.",
+            "Parliament: Rajya Sabha (Upper) + Lok Sabha (Lower).",
+            "Governor: Appointed by President, nominal head of state.",
+            "Chief Minister: Real executive of state.",
+            "State Legislature: Legislative Assembly (must) + Legislative Council (optional)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polity_mcqs",
+      "title": "Practice MCQs: Core Indian Constitution",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Indian Polity – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the Preamble, Salient Features, Important Articles, Fundamental Rights, Directive Principles, Fundamental Duties, and the System of Government.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Preamble of the Indian Constitution is based on which resolution?",
+          "options": [
+            "Objective Resolution by Jawaharlal Nehru",
+            "Resolution by Dr. B.R. Ambedkar",
+            "Resolution by Sardar Patel",
+            "Resolution by Rajendra Prasad"
+          ],
+          "answer": 0,
+          "explanation": "The Preamble is based on the Objective Resolution moved by Jawaharlal Nehru in the Constituent Assembly on 13th December 1946.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The words 'Socialist', 'Secular', and 'Integrity' were added to the Preamble by which amendment?",
+          "options": ["42nd Amendment", "44th Amendment", "52nd Amendment", "73rd Amendment"],
+          "answer": 0,
+          "explanation": "The 42nd Amendment Act, 1976 added 'Socialist', 'Secular', and 'Integrity' to the Preamble.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which article is considered the 'Heart and Soul' of the Constitution?",
+          "options": ["Article 14", "Article 19", "Article 21", "Article 32"],
+          "answer": 3,
+          "explanation": "Dr. B.R. Ambedkar called Article 32 (Right to Constitutional Remedies) the 'Heart and Soul' of the Constitution.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which part of the Constitution deals with Fundamental Rights?",
+          "options": ["Part I", "Part II", "Part III", "Part IV"],
+          "answer": 2,
+          "explanation": "Part III (Articles 12-35) deals with Fundamental Rights.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a Fundamental Right?",
+          "options": ["Right to Equality", "Right to Freedom of Religion", "Right to Property", "Right against Exploitation"],
+          "answer": 2,
+          "explanation": "Right to Property (Article 31) is no longer a Fundamental Right; it was removed by the 44th Amendment and made a legal right.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Directive Principles of State Policy are borrowed from which constitution?",
+          "options": ["USA", "UK", "Ireland", "Canada"],
+          "answer": 2,
+          "explanation": "The Directive Principles of State Policy are borrowed from the Irish Constitution.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which writ is issued to prevent a lower court from exceeding its jurisdiction?",
+          "options": ["Habeas Corpus", "Mandamus", "Prohibition", "Quo-Warranto"],
+          "answer": 2,
+          "explanation": "Prohibition is issued to prevent a lower court from exceeding its jurisdiction.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "How many Fundamental Duties are there in the Constitution?",
+          "options": ["9", "10", "11", "12"],
+          "answer": 2,
+          "explanation": "There are 11 Fundamental Duties in the Constitution. Originally 10 were added by the 42nd Amendment, and the 11th was added by the 86th Amendment (2002).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Who appoints the Governor of a state?",
+          "options": ["Chief Minister", "Prime Minister", "President", "Vice-President"],
+          "answer": 2,
+          "explanation": "The Governor of a state is appointed by the President of India (Article 155).",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which part of the Constitution deals with the Union and its Territory?",
+          "options": ["Part I", "Part II", "Part III", "Part IV"],
+          "answer": 0,
+          "explanation": "Part I (Articles 1-4) deals with the Union and its Territory.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the Preamble, Salient Features, Important Articles, Fundamental Rights, Directive Principles, Fundamental Duties, and the System of Government.",
+          "points": [
+            "Preamble: Sovereign, Socialist, Secular, Democratic, Republic.",
+            "Salient Features: Longest, federal with unitary bias, parliamentary system.",
+            "Part I: Union and Territory (1-4).",
+            "Part III: Fundamental Rights (12-35).",
+            "Part IV: DPSP (36-51).",
+            "Part IVA: Fundamental Duties (51A).",
+            "Article 32: Heart and Soul.",
+            "Writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto.",
+            "President: Nominal head, elected by electoral college.",
+            "PM: Real executive.",
+            "Governor: Appointed by President.",
+            "Chief Minister: Real executive of state."
+          ]
+        }
+      ]
+    }
+  ]
+}

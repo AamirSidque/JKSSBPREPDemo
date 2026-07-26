@@ -1,0 +1,527 @@
+{
+  "id": "state_government_local_governance",
+  "subject_id": "indian_polity",
+  "title": "State Government, Local Governance",
+  "subtopics": [
+    {
+      "id": "governor",
+      "title": "The Governor – Appointment, Powers, and Functions",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Governor",
+          "subtitle": "The Constitutional Head of the State",
+          "tags": ["JKSSB", "High Weightage", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "What is the Governor?",
+          "content": "The Governor is the constitutional head of a state (Article 153). He is the nominal head (de jure executive), while the Chief Minister is the real executive (de facto executive). The Governor is appointed by the President of India.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Appointment and Tenure of the Governor",
+          "content": "The Governor is appointed by the President (Article 155). He holds office during the pleasure of the President (Article 156). The Governor's term is 5 years, but he can be removed earlier by the President. The Governor is not elected, which is a unitary feature.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Powers and Functions of the Governor",
+          "content": "1. **Executive Powers**: Appoints Chief Minister, Council of Ministers, and Advocate General.\n2. **Legislative Powers**: Summons, prorogues, and dissolves the Legislative Assembly. Signs bills into laws.\n3. **Financial Powers**: Causes the budget to be laid before the Legislature.\n4. **Judicial Powers**: Grants pardon, reprieves, and commutes sentences (Article 161).\n5. **Emergency Powers**: Can recommend President's Rule (Article 356).\n6. **Discretionary Powers**: Can act without the advice of the Council of Ministers.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Governor – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Articles", "153-162"],
+            ["Appointment", "By President"],
+            ["Tenure", "5 years (during pleasure of President)"],
+            ["Removal", "By President"],
+            ["Role", "Nominal head of the state"],
+            ["Powers", "Executive, legislative, financial, judicial"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Discretionary Powers of the Governor",
+          "given": ["The Governor has discretionary powers under Article 356."],
+          "find": "When can the Governor use discretionary powers?",
+          "steps": [
+            "When no party has a clear majority.",
+            "When the Chief Minister loses the confidence of the House.",
+            "When the state government is unable to function constitutionally.",
+            "When the Governor is satisfied that a situation has arisen.",
+            "The Governor's report on Article 356 is discretionary."
+          ],
+          "answer": "The Governor uses discretionary powers in situations of political instability and constitutional breakdown.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Governor is elected by the people.",
+          "wrong": "The Governor of a state is elected by the people.",
+          "correct": "The Governor is appointed by the President of India.",
+          "tip": "Governor = Appointed by President, not elected."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Governor",
+          "points": [
+            "Articles 153-162.",
+            "Appointed by President.",
+            "Tenure: 5 years (during pleasure of President).",
+            "Nominal head of the state.",
+            "Powers: Executive, legislative, financial, judicial.",
+            "Discretionary powers in emergencies."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chief_minister",
+      "title": "Chief Minister and Council of Ministers",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Chief Minister and Council of Ministers",
+          "subtitle": "The Real Executive of the State",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👨‍💼",
+          "title": "The Chief Minister",
+          "content": "The Chief Minister is the real executive authority of the state (de facto head of government). The Chief Minister is appointed by the Governor (Article 164). He is the leader of the Council of Ministers and the leader of the Legislative Assembly. The Chief Minister acts as the chief advisor to the Governor.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "Council of Ministers",
+          "content": "The Council of Ministers is headed by the Chief Minister. It consists of Cabinet Ministers, Ministers of State, and Deputy Ministers. The Council of Ministers is collectively responsible to the Legislative Assembly (Article 164). The Chief Minister decides the composition and allocation of portfolios.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Chief Minister – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Article", "Article 164"],
+            ["Appointment", "By Governor"],
+            ["Term", "During the pleasure of the Governor"],
+            ["Role", "Head of the state government"],
+            ["Collective Responsibility", "Article 164"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Collective Responsibility",
+          "given": ["The Council of Ministers is collectively responsible to the Legislative Assembly."],
+          "find": "What does collective responsibility mean?",
+          "steps": [
+            "The entire Council of Ministers is responsible for the decisions of the government.",
+            "If a no-confidence motion is passed, the entire Council must resign.",
+            "Individual ministers are responsible to the Chief Minister.",
+            "The principle ensures unity and accountability."
+          ],
+          "answer": "Collective responsibility means the entire Council is responsible to the Legislative Assembly.",
+          "formula_used": "Parliamentary Process Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Governor is the real executive of the state.",
+          "wrong": "The Governor is the real executive of the state.",
+          "correct": "The Chief Minister is the real executive; the Governor is the nominal head.",
+          "tip": "CM = Real Executive; Governor = Nominal Head."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Chief Minister",
+          "points": [
+            "Article 164.",
+            "Appointed by Governor.",
+            "Real executive of the state.",
+            "Council of Ministers collectively responsible to Legislative Assembly.",
+            "CM is leader of the Legislative Assembly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state_legislature",
+      "title": "State Legislature – Composition, Powers, and Functions",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "State Legislature",
+          "subtitle": "The Law-Making Body of the State",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "What is the State Legislature?",
+          "content": "The State Legislature is the law-making body of the state. It consists of the Governor and the Legislative Assembly (Vidhan Sabha). In some states, there is also a Legislative Council (Vidhan Parishad). Articles 168-212 deal with State Legislatures.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "State Legislature – Key Facts",
+          "headers": ["Feature", "Legislative Assembly", "Legislative Council"],
+          "rows": [
+            ["Constitutional Articles", "168-177", "178-196"],
+            ["Composition", "Directly elected by the people", "Indirectly elected/nominated"],
+            ["Term", "5 years", "6 years (permanent body)"],
+            ["Strength", "60-500 members", "Not more than 1/3rd of Assembly"],
+            ["Chairperson", "Speaker", "Chairman"],
+            ["Money Bills", "Only can be introduced", "Cannot introduce Money Bills"],
+            ["Dissolution", "Can be dissolved", "Cannot be dissolved"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Legislative Assembly (Vidhan Sabha)",
+          "content": "The Legislative Assembly is the lower house of the state legislature. It is directly elected by the people through universal adult franchise. The maximum strength is 500 members, and the minimum is 60. The Governor has the power to dissolve the Assembly. The Speaker is the presiding officer.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Legislative Council (Vidhan Parishad)",
+          "content": "The Legislative Council is the upper house of the state legislature. It is not present in all states. It is a permanent body with members elected by MLAs, local bodies, teachers, graduates, and nominated by the Governor. The Chairman is the presiding officer. It can delay bills but not veto them.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Money Bill in the State Legislature",
+          "given": ["Money Bills can only be introduced in the Legislative Assembly."],
+          "find": "What is the role of the Legislative Council in Money Bills?",
+          "steps": [
+            "Money Bills are introduced only in the Legislative Assembly.",
+            "The Legislative Council can only make recommendations (not reject).",
+            "The Assembly can accept or reject the recommendations.",
+            "The Governor certifies Money Bills.",
+            "The Council has limited power over Money Bills."
+          ],
+          "answer": "Money Bills can only be introduced in the Legislative Assembly; the Council can only recommend changes.",
+          "formula_used": "Legislative Process Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All states have a Legislative Council.",
+          "wrong": "All states have a Legislative Council.",
+          "correct": "Only a few states have a Legislative Council (e.g., Bihar, UP, Maharashtra, Karnataka).",
+          "tip": "Legislative Council exists only in some states."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – State Legislature",
+          "points": [
+            "Articles 168-212.",
+            "Legislative Assembly: Directly elected, 5-year term.",
+            "Legislative Council: Indirectly elected/nominated, 6-year term.",
+            "Money Bills: Only introduced in Assembly.",
+            "Speaker: Presiding officer of Assembly.",
+            "Chairman: Presiding officer of Council."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panchayati_raj",
+      "title": "Panchayati Raj System – History, Structure, and Powers",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Panchayati Raj System",
+          "subtitle": "The Third Tier of Government",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "What is Panchayati Raj?",
+          "content": "Panchayati Raj is the system of local self-government in rural areas. It is the third tier of government (after the Union and State). Articles 243-243O deal with Panchayats. The 73rd Amendment Act (1992) gave constitutional status to Panchayats.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "History of Panchayati Raj",
+          "content": "Panchayati Raj has existed in India since ancient times. The Balwant Rai Mehta Committee (1957) recommended a three-tier structure. The Ashok Mehta Committee (1977) recommended a two-tier structure. The 73rd Amendment Act (1992) made Panchayats a constitutional body.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Panchayati Raj – Structure",
+          "headers": ["Level", "Name", "Composition"],
+          "rows": [
+            ["Village Level", "Gram Panchayat", "Directly elected by villagers"],
+            ["Intermediate Level", "Panchayat Samiti", "Elected by Gram Panchayats"],
+            ["District Level", "Zila Parishad", "Elected by Panchayat Samitis"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Powers and Functions of Panchayats",
+          "content": "1. **Agriculture**: Land improvement, agricultural extension.\n2. **Health**: Primary health centres, sanitation.\n3. **Education**: Primary and secondary education.\n4. **Infrastructure**: Roads, water supply, electricity.\n5. **Social Welfare**: Welfare of SC/ST and women.\n6. **Local Planning**: Preparation of plans for economic development.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Important Provisions of the 73rd Amendment",
+          "content": "1. **Three-Tier System**: Gram Panchayat, Panchayat Samiti, Zila Parishad.\n2. **Direct Elections**: Members are directly elected.\n3. **Reservation**: 1/3rd seats reserved for women; seats reserved for SC/ST.\n4. **State Finance Commission**: Constituted every 5 years.\n5. **Gram Sabha**: All adult members of the village.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: 73rd Amendment Act, 1992",
+          "given": ["The 73rd Amendment gave constitutional status to Panchayats."],
+          "find": "What are the key provisions of the amendment?",
+          "steps": [
+            "Three-tier system: Gram Panchayat, Panchayat Samiti, Zila Parishad.",
+            "Direct elections for all levels.",
+            "Reservation for SC/ST and women (1/3rd).",
+            "State Finance Commission for financial devolution.",
+            "Gram Sabha for village-level participation."
+          ],
+          "answer": "The 73rd Amendment established a three-tier Panchayati Raj system with reservations and Gram Sabha.",
+          "formula_used": "Constitutional Amendment Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Panchayati Raj was introduced after independence.",
+          "wrong": "Panchayati Raj is a post-independence invention.",
+          "correct": "Panchayati Raj has existed since ancient times; the 73rd Amendment gave it constitutional status.",
+          "tip": "Panchayats existed before, but they got constitutional status in 1992."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Panchayati Raj",
+          "points": [
+            "Articles 243-243O.",
+            "73rd Amendment Act, 1992.",
+            "Three-tier system: Gram Panchayat, Panchayat Samiti, Zila Parishad.",
+            "Gram Sabha: All adult villagers.",
+            "Reservation: 1/3rd women, SC/ST.",
+            "State Finance Commission."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban_local_bodies",
+      "title": "Urban Local Bodies – Municipalities, Municipal Corporations, and Nagar Panchayats",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Urban Local Bodies",
+          "subtitle": "Local Self-Government in Urban Areas",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "What are Urban Local Bodies?",
+          "content": "Urban Local Bodies (ULBs) are institutions of local self-government in urban areas. They are governed by Articles 243P-243ZG. The 74th Amendment Act (1992) gave constitutional status to ULBs. They include Municipal Corporations, Municipalities, and Nagar Panchayats.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Urban Local Bodies – Types",
+          "headers": ["Type", "Area", "Composition"],
+          "rows": [
+            ["Nagar Panchayat", "Transitional areas (small towns)", "Elected members"],
+            ["Municipality (Municipal Council)", "Smaller urban areas", "Elected members"],
+            ["Municipal Corporation", "Large urban areas (cities)", "Elected members + Mayor"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Powers and Functions of Urban Local Bodies",
+          "content": "1. **Urban Planning**: Town planning, land use.\n2. **Infrastructure**: Roads, bridges, water supply.\n3. **Public Health**: Sanitation, hospitals, waste management.\n4. **Education**: Primary and secondary education.\n5. **Social Welfare**: Welfare of SC/ST and women.\n6. **Revenue**: Tax collection, fees, and user charges.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Important Provisions of the 74th Amendment",
+          "content": "1. **Three-Tier Structure**: Nagar Panchayat, Municipality, Municipal Corporation.\n2. **Direct Elections**: Members are directly elected.\n3. **Reservation**: 1/3rd seats reserved for women; seats reserved for SC/ST.\n4. **State Finance Commission**: Constituted every 5 years.\n5. **Ward Committees**: For better citizen participation.\n6. **Mayor**: Elected by the members of the Corporation.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: 74th Amendment Act, 1992",
+          "given": ["The 74th Amendment gave constitutional status to Urban Local Bodies."],
+          "find": "What are the key provisions of the amendment?",
+          "steps": [
+            "Three-tier structure: Nagar Panchayat, Municipality, Municipal Corporation.",
+            "Direct elections for all levels.",
+            "Reservation for SC/ST and women (1/3rd).",
+            "State Finance Commission for financial devolution.",
+            "Ward Committees for citizen participation."
+          ],
+          "answer": "The 74th Amendment established a three-tier Urban Local Body system with reservations and Ward Committees.",
+          "formula_used": "Constitutional Amendment Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The 74th Amendment is for rural areas.",
+          "wrong": "The 74th Amendment deals with rural local bodies.",
+          "correct": "The 73rd Amendment is for rural areas (Panchayats); the 74th Amendment is for urban areas (ULBs).",
+          "tip": "73rd = Rural; 74th = Urban."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Urban Local Bodies",
+          "points": [
+            "Articles 243P-243ZG.",
+            "74th Amendment Act, 1992.",
+            "Three-tier system: Nagar Panchayat, Municipality, Municipal Corporation.",
+            "Reservation: 1/3rd women, SC/ST.",
+            "State Finance Commission.",
+            "Ward Committees for citizen participation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state_government_mcqs",
+      "title": "Practice MCQs: State Government, Local Governance",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "State Government, Local Governance – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the Governor, Chief Minister, State Legislature, Panchayati Raj system (73rd Amendment), and Urban Local Bodies (74th Amendment).",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Governor of a state is appointed by:",
+          "options": ["Chief Minister", "Prime Minister", "President", "Vice-President"],
+          "answer": 2,
+          "explanation": "The Governor is appointed by the President of India (Article 155).",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The Chief Minister of a state is appointed by:",
+          "options": ["President", "Governor", "Prime Minister", "Speaker"],
+          "answer": 1,
+          "explanation": "The Chief Minister is appointed by the Governor (Article 164).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Legislative Council (Vidhan Parishad) is a permanent body with a term of:",
+          "options": ["4 years", "5 years", "6 years", "7 years"],
+          "answer": 2,
+          "explanation": "The Legislative Council is a permanent body with a term of 6 years.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which amendment gave constitutional status to Panchayats?",
+          "options": ["73rd Amendment", "74th Amendment", "72nd Amendment", "75th Amendment"],
+          "answer": 0,
+          "explanation": "The 73rd Amendment Act (1992) gave constitutional status to Panchayats.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which amendment gave constitutional status to Urban Local Bodies?",
+          "options": ["73rd Amendment", "74th Amendment", "72nd Amendment", "75th Amendment"],
+          "answer": 1,
+          "explanation": "The 74th Amendment Act (1992) gave constitutional status to Urban Local Bodies.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Gram Sabha consists of:",
+          "options": ["Elected panchayat members", "All adult villagers", "Only women", "Only SC/ST members"],
+          "answer": 1,
+          "explanation": "The Gram Sabha consists of all adult members of the village.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a type of Urban Local Body?",
+          "options": ["Nagar Panchayat", "Municipality", "Municipal Corporation", "Gram Panchayat"],
+          "answer": 3,
+          "explanation": "Gram Panchayat is a rural local body, not an urban local body.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The maximum strength of the Legislative Assembly is:",
+          "options": ["400", "450", "500", "550"],
+          "answer": 2,
+          "explanation": "The maximum strength of the Legislative Assembly is 500 members.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Article deals with the powers of the Governor?",
+          "options": ["Articles 153-162", "Articles 163-170", "Articles 171-177", "Articles 178-185"],
+          "answer": 0,
+          "explanation": "Articles 153-162 deal with the Governor and his powers.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The 73rd Amendment Act reserves what percentage of seats for women in Panchayats?",
+          "options": ["1/3rd", "1/4th", "1/2", "1/5th"],
+          "answer": 0,
+          "explanation": "The 73rd Amendment reserves 1/3rd (33%) of seats for women in Panchayats.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the Governor's appointment and powers, the Chief Minister's role, the State Legislature, Panchayati Raj (73rd Amendment), and Urban Local Bodies (74th Amendment).",
+          "points": [
+            "Governor: Articles 153-162, appointed by President.",
+            "Chief Minister: Article 164, appointed by Governor.",
+            "Legislative Assembly: Directly elected, 5-year term.",
+            "Legislative Council: Indirectly elected, 6-year term.",
+            "73rd Amendment: Panchayati Raj (1992).",
+            "74th Amendment: Urban Local Bodies (1992).",
+            "Gram Sabha: All adult villagers.",
+            "Reservation: 1/3rd women in Panchayats and ULBs."
+          ]
+        }
+      ]
+    }
+  ]
+}

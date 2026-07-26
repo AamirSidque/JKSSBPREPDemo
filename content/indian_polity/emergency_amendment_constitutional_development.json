@@ -1,0 +1,542 @@
+{
+  "id": "emergency_amendment_constitutional_development",
+  "subject_id": "indian_polity",
+  "title": "Emergency Provisions, Amendment, Constitutional Development",
+  "subtopics": [
+    {
+      "id": "national_emergency",
+      "title": "National Emergency (Article 352)",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "National Emergency (Article 352)",
+          "subtitle": "The Most Powerful Emergency Provision",
+          "tags": ["JKSSB", "High Weightage", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚨",
+          "title": "What is National Emergency?",
+          "content": "National Emergency is declared under Article 352 when the security of India or any part of it is threatened by war, external aggression, or armed rebellion. The President can declare an emergency after receiving a written recommendation from the Cabinet.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Grounds for National Emergency",
+          "content": "1. **War**: External aggression by a foreign country.\n2. **External Aggression**: Armed attack from outside.\n3. **Armed Rebellion**: Internal armed rebellion (added by the 44th Amendment, 1978).\nThe term 'armed rebellion' replaced 'internal disturbance' to prevent misuse (Emergency of 1975).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "National Emergency – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Article", "Article 352"],
+            ["Declaration", "By President"],
+            ["Approval", "Parliament within 1 month"],
+            ["Approval Majority", "Special majority (2/3rd present and voting)"],
+            ["Duration", "6 months (can be extended with Parliament approval)"],
+            ["Effect on FR", "All Fundamental Rights except Articles 20 and 21 (suspended)"],
+            ["Effect on Centre-State", "Centre can give directions to States"],
+            ["Amendments", "44th Amendment (1978) made it difficult to declare"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Effect of National Emergency on Fundamental Rights",
+          "content": "During National Emergency, the President can suspend the right to move courts for the enforcement of Fundamental Rights (Article 359). However, Articles 20 (protection against double jeopardy) and 21 (right to life and liberty) cannot be suspended.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: 1975 Emergency",
+          "given": ["The 1975 Emergency was declared under Article 352 on grounds of 'internal disturbance'."],
+          "find": "What was the significance of this Emergency?",
+          "steps": [
+            "The Emergency was declared by President Fakhruddin Ali Ahmed on 25th June 1975.",
+            "It was declared on the grounds of 'internal disturbance'.",
+            "Civil liberties were suspended, and political opposition was suppressed.",
+            "The Emergency was criticised as a misuse of constitutional provisions.",
+            "The 44th Amendment (1978) replaced 'internal disturbance' with 'armed rebellion'."
+          ],
+          "answer": "The 1975 Emergency is a landmark event that led to constitutional safeguards against misuse.",
+          "formula_used": "Historical Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All Fundamental Rights are suspended during National Emergency.",
+          "wrong": "All Fundamental Rights are suspended during National Emergency.",
+          "correct": "Articles 20 and 21 are never suspended even during National Emergency.",
+          "tip": "Right to Life and Liberty (Article 21) is non-suspendable."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – National Emergency",
+          "points": [
+            "Article 352: National Emergency.",
+            "Grounds: War, external aggression, armed rebellion.",
+            "Approval: Parliament within 1 month (special majority).",
+            "Duration: 6 months (extendable).",
+            "Effect: Suspension of Fundamental Rights (except Articles 20 and 21).",
+            "44th Amendment (1978): Replaced 'internal disturbance' with 'armed rebellion'."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state_emergency",
+      "title": "State Emergency / President's Rule (Article 356)",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "State Emergency (Article 356)",
+          "subtitle": "President's Rule – When the State Machinery Fails",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🚨",
+          "title": "What is President's Rule?",
+          "content": "President's Rule is imposed under Article 356 when the constitutional machinery of a state fails. The President can take over the administration of the state. The Governor's report is the basis for imposing President's Rule.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Grounds for President's Rule",
+          "content": "1. **Constitutional Failure**: When the state government cannot function as per the Constitution.\n2. **Breakdown of Law and Order**: Severe breakdown of law and order.\n3. **Loss of Majority**: When the government loses the confidence of the House.\n4. **Governor's Report**: Based on the Governor's recommendation.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "President's Rule – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Article", "Article 356"],
+            ["Declaration", "By President (based on Governor's report)"],
+            ["Approval", "Parliament within 2 months"],
+            ["Approval Majority", "Simple majority"],
+            ["Duration", "6 months (can be extended up to 3 years)"],
+            ["Effect", "President takes over state administration"],
+            ["Amendment", "44th Amendment (1978) made it difficult to extend"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Effect of President's Rule",
+          "content": "1. **State Government**: The state government is dismissed.\n2. **Legislative Assembly**: The Assembly is either dissolved or suspended.\n3. **Governor**: The Governor administers the state.\n4. **President**: The President takes over the executive powers.\n5. **Parliament**: Parliament makes laws for the state.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: S.R. Bommai Case (1994)",
+          "given": ["The Supreme Court, in the S.R. Bommai case, laid down guidelines for Article 356."],
+          "find": "What were the key rulings of the Bommai case?",
+          "steps": [
+            "Article 356 is a drastic power and should be used sparingly.",
+            "The President's decision is subject to judicial review.",
+            "The court can restore the state government if President's Rule was unconstitutional.",
+            "The floor of the Assembly is the proper test of majority, not the Governor's discretion."
+          ],
+          "answer": "The Bommai case restricted the misuse of Article 356 and made it subject to judicial review.",
+          "formula_used": "Judicial Interpretation Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: President's Rule is the same as National Emergency.",
+          "wrong": "President's Rule and National Emergency are the same.",
+          "correct": "President's Rule (Article 356) is for state failure; National Emergency (Article 352) is for national security.",
+          "tip": "Article 352 = National; Article 356 = State."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – President's Rule",
+          "points": [
+            "Article 356: President's Rule.",
+            "Grounds: Failure of constitutional machinery.",
+            "Approval: Parliament within 2 months (simple majority).",
+            "Duration: 6 months (up to 3 years).",
+            "Effect: State government dismissed, President takes over.",
+            "S.R. Bommai Case (1994): Judicial review and restrictions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "financial_emergency",
+      "title": "Financial Emergency (Article 360)",
+      "estimated_minutes": 10,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Financial Emergency (Article 360)",
+          "subtitle": "The Rarely Used Emergency Provision",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "What is Financial Emergency?",
+          "content": "Financial Emergency is declared under Article 360 when the financial stability or credit of India is threatened. The President can declare a financial emergency. It has never been declared so far.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Financial Emergency – Key Facts",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Constitutional Article", "Article 360"],
+            ["Declaration", "By President"],
+            ["Approval", "Parliament within 2 months"],
+            ["Approval Majority", "Simple majority"],
+            ["Duration", "Indefinite (until revoked)"],
+            ["Effect", "Centre can give directions to States on financial matters"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Effect of Financial Emergency",
+          "content": "1. **Centre's Direction**: The Centre can give directions to States on financial matters.\n2. **Salary Reduction**: The President can reduce the salaries of government employees.\n3. **Financial Stability**: The Centre can ensure financial stability.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Financial Emergency in India",
+          "given": ["Financial Emergency has never been declared in India."],
+          "find": "What are the reasons?",
+          "steps": [
+            "India has maintained financial stability since independence.",
+            "The provision is seen as a last resort.",
+            "Even in the 1991 balance of payment crisis, financial emergency was not declared.",
+            "The government used other measures to manage the crisis."
+          ],
+          "answer": "Financial Emergency has never been declared due to India's financial stability and other available remedies.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Financial Emergency is frequently used.",
+          "wrong": "Financial Emergency is often used by the government.",
+          "correct": "Financial Emergency has never been declared in India.",
+          "tip": "Article 360 is a rarely used provision."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Financial Emergency",
+          "points": [
+            "Article 360: Financial Emergency.",
+            "Grounds: Threat to financial stability.",
+            "Approval: Parliament within 2 months (simple majority).",
+            "Duration: Indefinite.",
+            "Effect: Centre can direct States on financial matters.",
+            "Never declared."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amendment_of_constitution",
+      "title": "Amendment of the Constitution (Article 368)",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Amendment of the Constitution",
+          "subtitle": "The Power to Change and the Limits on Change",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "What is Article 368?",
+          "content": "Article 368 deals with the power of Parliament to amend the Constitution. It provides the procedure for amending the Constitution. It is the most important article for constitutional change.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Procedure for Amendment",
+          "content": "1. **Initiation**: An amendment bill can be introduced in either House of Parliament.\n2. **Passage**: It must be passed by each House by a majority of the total membership and a majority of not less than 2/3rd of members present and voting.\n3. **President's Assent**: After passage, it is presented to the President for assent.\n4. **Ratification**: Some amendments require ratification by half of the state legislatures.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Types of Amendments",
+          "headers": ["Type", "Majority", "Examples"],
+          "rows": [
+            ["Simple Majority", "Simple majority of members present", "Creation of new states, citizenship laws"],
+            ["Special Majority", "2/3rd of members present and voting", "Most constitutional amendments"],
+            ["Special Majority + State Ratification", "2/3rd majority + half of states", "Federal provisions (e.g., Article 368 itself)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Basic Structure Doctrine",
+          "content": "The Supreme Court, in the Kesavananda Bharati case (1973), held that the Parliament cannot amend the 'basic structure' of the Constitution. The basic structure includes: Supremacy of the Constitution, Separation of Powers, Judicial Review, Federalism, Secularism, and Rule of Law. This doctrine limits the amending power of Parliament.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Kesavananda Bharati Case (1973)",
+          "given": ["The Supreme Court laid down the Basic Structure Doctrine in the Kesavananda Bharati case."],
+          "find": "What is the Basic Structure Doctrine?",
+          "steps": [
+            "It limits the power of Parliament to amend the Constitution.",
+            "Parliament cannot amend the 'basic structure' of the Constitution.",
+            "The basic structure includes: Supremacy of the Constitution, Separation of Powers, Judicial Review, Federalism.",
+            "The judgment overruled the earlier Golaknath case (1967).",
+            "It ensured that the Constitution remains fundamental."
+          ],
+          "answer": "The Basic Structure Doctrine limits Parliament's amending power to preserve the essence of the Constitution.",
+          "formula_used": "Constitutional Law Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: Parliament can amend any part of the Constitution.",
+          "wrong": "Parliament can amend any part of the Constitution without limits.",
+          "correct": "Parliament cannot amend the 'basic structure' of the Constitution.",
+          "tip": "Basic Structure Doctrine is a judicial limitation."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Amendment of the Constitution",
+          "points": [
+            "Article 368: Power of Parliament to amend.",
+            "Procedure: Special majority (2/3rd present and voting).",
+            "Some amendments require state ratification.",
+            "Basic Structure Doctrine: Kesavananda Bharati case (1973).",
+            "Basic structure includes: Supremacy, Separation of Powers, Judicial Review, Federalism."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "constitutional_development",
+      "title": "Constitutional Development – Historical Background",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Constitutional Development",
+          "subtitle": "The Evolution of the Indian Constitution",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Regulating Act, 1773",
+          "content": "The Regulating Act of 1773 was the first step by the British Parliament to regulate the affairs of the East India Company. It created the office of the Governor-General of Bengal, with Warren Hastings as the first Governor-General. It provided for a Council of four members.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Pitt's India Act, 1784",
+          "content": "The Pitt's India Act of 1784 established a dual control system: the Board of Control (British government) and the Court of Directors (Company). It placed the Company's political affairs under the British Crown.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Key Constitutional Acts – Historical Background",
+          "headers": ["Act", "Year", "Key Provisions"],
+          "rows": [
+            ["Regulating Act", "1773", "Governor-General of Bengal, Council of 4"],
+            ["Pitt's India Act", "1784", "Dual control (Board of Control + Court of Directors)"],
+            ["Charter Act", "1813", "End of Company's monopoly on trade"],
+            ["Charter Act", "1833", "Governor-General of India, Law Commission"],
+            ["Charter Act", "1853", "First separate legislative council"],
+            ["Government of India Act", "1858", "Crown took over, Secretary of State"],
+            ["Indian Councils Act", "1861", "Portfolio system, legislative councils"],
+            ["Indian Councils Act", "1892", "Indirect elections, limited representation"],
+            ["Morley-Minto Reforms", "1909", "Separate electorates for Muslims"],
+            ["Government of India Act", "1919", "Dyarchy, bicameral legislature"],
+            ["Government of India Act", "1935", "Federal structure, provincial autonomy"],
+            ["Indian Independence Act", "1947", "Independence and partition"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Government of India Act, 1858",
+          "content": "The Government of India Act, 1858 transferred the rule of India from the East India Company to the British Crown. The Crown took over the administration, and the Secretary of State for India was created. The Governor-General became the Viceroy.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Government of India Act, 1935",
+          "content": "The Government of India Act, 1935 was the most comprehensive act. It established a federal structure, provincial autonomy, and a bicameral legislature. It provided for the establishment of the Reserve Bank of India (RBI). It was the major source of the Indian Constitution.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Government of India Act, 1935",
+          "given": ["The Government of India Act, 1935 was the major source of the Indian Constitution."],
+          "find": "What features were borrowed from the 1935 Act?",
+          "steps": [
+            "Federal structure.",
+            "Provincial autonomy.",
+            "Bicameral legislature.",
+            "Reserve Bank of India (RBI).",
+            "Division of powers (Union and State lists).",
+            "Emergency provisions."
+          ],
+          "answer": "The Indian Constitution borrowed federal structure, provincial autonomy, and the division of powers from the 1935 Act.",
+          "formula_used": "Historical Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Government of India Act, 1935 was a fully federal act.",
+          "wrong": "The 1935 Act was fully federal.",
+          "correct": "The 1935 Act provided for a federal structure but it was never fully implemented.",
+          "tip": "The federal provisions were not implemented; only the provincial part was."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Constitutional Development",
+          "points": [
+            "Regulating Act, 1773: Governor-General of Bengal.",
+            "Pitt's India Act, 1784: Dual control.",
+            "Charter Acts (1813, 1833, 1853).",
+            "Government of India Act, 1858: Crown took over.",
+            "Indian Councils Acts (1861, 1892).",
+            "Morley-Minto Reforms, 1909: Separate electorates.",
+            "Government of India Act, 1919: Dyarchy.",
+            "Government of India Act, 1935: Federal structure, provincial autonomy.",
+            "Indian Independence Act, 1947: Independence and partition."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polity_mcqs_final",
+      "title": "Practice MCQs: Emergency, Amendment, Constitutional Development",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Emergency, Amendment, Constitutional Development – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on National Emergency (Article 352), President's Rule (Article 356), Financial Emergency (Article 360), Article 368 (Amendment), Basic Structure Doctrine, and the historical development of the Constitution.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "National Emergency is declared under which Article?",
+          "options": ["Article 352", "Article 356", "Article 360", "Article 368"],
+          "answer": 0,
+          "explanation": "National Emergency is declared under Article 352.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The 44th Amendment replaced 'internal disturbance' with which term?",
+          "options": ["War", "External aggression", "Armed rebellion", "Civil unrest"],
+          "answer": 2,
+          "explanation": "The 44th Amendment (1978) replaced 'internal disturbance' with 'armed rebellion'.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "President's Rule is imposed under which Article?",
+          "options": ["Article 352", "Article 356", "Article 360", "Article 368"],
+          "answer": 1,
+          "explanation": "President's Rule is imposed under Article 356.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Basic Structure Doctrine was laid down in which case?",
+          "options": ["Golaknath case", "Kesavananda Bharati case", "Minerva Mills case", "S.R. Bommai case"],
+          "answer": 1,
+          "explanation": "The Basic Structure Doctrine was laid down in the Kesavananda Bharati case (1973).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which amendment added the term 'armed rebellion' in Article 352?",
+          "options": ["42nd Amendment", "44th Amendment", "52nd Amendment", "73rd Amendment"],
+          "answer": 1,
+          "explanation": "The 44th Amendment (1978) replaced 'internal disturbance' with 'armed rebellion'.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Regulating Act was passed in which year?",
+          "options": ["1772", "1773", "1784", "1793"],
+          "answer": 1,
+          "explanation": "The Regulating Act was passed in 1773.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Government of India Act, 1935 established:",
+          "options": ["Dyarchy", "Federal structure", "Crown rule", "Provincial autonomy"],
+          "answer": 1,
+          "explanation": "The Government of India Act, 1935 established a federal structure.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Financial Emergency is declared under which Article?",
+          "options": ["Article 352", "Article 356", "Article 360", "Article 368"],
+          "answer": 2,
+          "explanation": "Financial Emergency is declared under Article 360.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Governor's report is the basis for imposing:",
+          "options": ["National Emergency", "President's Rule", "Financial Emergency", "All of the above"],
+          "answer": 1,
+          "explanation": "President's Rule (Article 356) is based on the Governor's report.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT part of the basic structure of the Constitution?",
+          "options": ["Supremacy of the Constitution", "Separation of Powers", "Rule of Law", "Uniform Civil Code"],
+          "answer": 3,
+          "explanation": "Uniform Civil Code is a Directive Principle, not part of the basic structure.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review National Emergency (Article 352), President's Rule (Article 356), Financial Emergency (Article 360), Article 368 (Amendment), Basic Structure Doctrine, and the historical acts.",
+          "points": [
+            "National Emergency: Article 352, 44th Amendment (1978).",
+            "President's Rule: Article 356, S.R. Bommai case (1994).",
+            "Financial Emergency: Article 360, never declared.",
+            "Amendment: Article 368, Basic Structure Doctrine (Kesavananda Bharati, 1973).",
+            "Regulating Act, 1773: Governor-General of Bengal.",
+            "Pitt's India Act, 1784: Dual control.",
+            "Government of India Act, 1935: Federal structure.",
+            "Indian Independence Act, 1947: Independence."
+          ]
+        }
+      ]
+    }
+  ]
+}

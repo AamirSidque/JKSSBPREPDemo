@@ -1,0 +1,41 @@
+{
+  "subject_id": "indian_polity",
+  "topics": [
+    {
+      "id": "core_indian_constitution",
+      "title": "Core Indian Constitution",
+      "file": "content/indian_polity/core_indian_constitution.json",
+      "available": true
+    },
+    {
+      "id": "federalism_centre_state_relations",
+      "title": "Federalism & Centre-State Relations",
+      "file": "content/indian_polity/federalism_centre_state_relations.json",
+      "available": true
+    },
+    {
+      "id": "parliament_executive_judiciary",
+      "title": "Parliament, Executive, Judiciary",
+      "file": "content/indian_polity/parliament_executive_judiciary.json",
+      "available": true
+    },
+    {
+      "id": "constitutional_non_constitutional_bodies",
+      "title": "Constitutional & Non-Constitutional Bodies",
+      "file": "content/indian_polity/constitutional_non_constitutional_bodies.json",
+      "available": true
+    },
+    {
+      "id": "state_government_local_governance",
+      "title": "State Government, Local Governance",
+      "file": "content/indian_polity/state_government_local_governance.json",
+      "available": true
+    },
+    {
+      "id": "emergency_amendment_constitutional_development",
+      "title": "Emergency Provisions, Amendment, Constitutional Development",
+      "file": "content/indian_polity/emergency_amendment_constitutional_development.json",
+      "available": true
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "id": "local_self_governance",
+  "subject_id": "jk_governance",
+  "title": "Advanced Local Self-Governance – Statutory Level",
+  "subtopics": [
+    {
+      "id": "panchayati_raj_amendment",
+      "title": "J&K Panchayati Raj (Amendment) Act, 2020 – DDC Framework",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "J&K Panchayati Raj (Amendment) Act, 2020",
+          "subtitle": "The DDC Framework and Structural Reforms",
+          "tags": ["JKSSB", "High Weightage", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Overview of the Amendment Act",
+          "content": "The J&K Panchayati Raj (Amendment) Act, 2020 was enacted to strengthen local self-governance in the Union Territory of Jammu & Kashmir. It established a three-tier Panchayati Raj system: Halqa Panchayat (Village level), Block Development Council (BDC) at the intermediate level, and District Development Council (DDC) at the district level. The Act aims to devolve powers and functions to these bodies, ensuring grassroots democracy.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "The DDC Framework – Structure and Composition",
+          "content": "The District Development Council (DDC) is the apex body of the Panchayati Raj system in J&K. Key features:\n1. **Composition**: Each district is divided into 14 directly elected constituencies (DCCs - District Constituency Councillors).\n2. **Direct Elections**: Members are directly elected by the people of the district.\n3. **Chairperson and Vice-Chairperson**: Elected by the members from among themselves.\n4. **Term**: The term of the DDC is 5 years.\n5. **Representation**: Includes elected members, MPs, MLAs, and Chairpersons of BDCs (as ex-officio members).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Structural Division – District into 14 Constituencies",
+          "content": "Section-wise breakdown of the DDC structure:\n1. **14 Directly Elected Constituencies**: Every district is divided into 14 constituencies.\n2. **Reservation**: Seats are reserved for Scheduled Castes (SC), Scheduled Tribes (ST), and Women (1/3rd reservation).\n3. **Single-Member Constituencies**: Each constituency elects one member.\n4. **Total DDC Members**: The total number of DDC members varies by district (14 per district, with additional ex-officio members).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "The BDC and Halqa Panchayat Structure",
+          "content": "1. **Block Development Council (BDC)**: It is the intermediate level of the Panchayati Raj system. The BDC consists of elected Sarpanches from the Halqa Panchayats within the block. It coordinates the development activities at the block level.\n2. **Halqa Panchayat**: It is the village-level institution. Each Halqa Panchayat consists of a Sarpanch (elected directly) and Panches (elected from wards). Gram Sabha is the general body of all adult voters in the village.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Three-Tier Panchayati Raj Structure in J&K",
+          "headers": ["Level", "Body", "Composition"],
+          "rows": [
+            ["Village Level", "Halqa Panchayat", "Sarpanch + Panches (elected from wards)"],
+            ["Intermediate Level", "Block Development Council (BDC)", "Elected Sarpanches from Halqa Panchayats"],
+            ["District Level", "District Development Council (DDC)", "14 Directly elected members + ex-officio members (MPs, MLAs, BDC Chairpersons)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: DDC Composition",
+          "given": ["A district in J&K has 14 DDC constituencies."],
+          "find": "Who elects the DDC members, and what is their term?",
+          "steps": [
+            "The DDC members are directly elected by the people of the district from 14 constituencies.",
+            "The term of the DDC is 5 years.",
+            "The members elect the Chairperson and Vice-Chairperson from among themselves.",
+            "Ex-officio members include MPs, MLAs, and BDC Chairpersons."
+          ],
+          "answer": "DDC members are directly elected for a 5-year term, with 14 constituencies per district.",
+          "formula_used": "Electoral Structure Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: DDC members are appointed by the LG.",
+          "wrong": "DDC members are appointed by the Lieutenant Governor.",
+          "correct": "DDC members are directly elected by the people of the district.",
+          "tip": "DDC members are elected, not appointed."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Panchayati Raj Amendment",
+          "points": [
+            "Three-tier system: Halqa Panchayat, BDC, DDC.",
+            "DDC: Apex body, 14 directly elected constituencies per district.",
+            "Term: 5 years.",
+            "Reservation: SC/ST and Women (1/3rd).",
+            "Ex-officio members: MPs, MLAs, BDC Chairpersons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ddc_functions",
+      "title": "Powers and Functions of DDC – Role of DPDB, Financial Autonomy, and CSS Implementation",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Powers and Functions of DDC",
+          "subtitle": "Planning, Financial Autonomy, and Implementation of Schemes",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Powers and Functions of DDC",
+          "content": "The DDC performs the following key functions:\n1. **Developmental Planning**: Formulates plans for the economic development and social justice of the district.\n2. **Implementation of Schemes**: Implements Centrally Sponsored Schemes (CSS) and state schemes.\n3. **Financial Powers**: Prepares the district budget and allocates funds.\n4. **Monitoring**: Monitors the performance of Panchayats and BDCs.\n5. **Coordination**: Coordinates with the District Planning and Development Board (DPDB).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Role of the District Planning and Development Board (DPDB)",
+          "content": "The DPDB is a statutory body that plays a crucial role in district-level planning. It is headed by the Chairperson of the DDC. The DPDB:\n1. **Approves the District Plan**: Reviews and approves the district development plan.\n2. **Coordinates with DDC**: Works closely with the DDC to implement schemes.\n3. **Allocates Resources**: Recommends allocation of resources for various projects.\n4. **Monitors Progress**: Tracks the progress of development works.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "Financial Autonomy of DDC",
+          "content": "The DDC has significant financial autonomy under the Act:\n1. **Own Revenue Sources**: Can levy taxes and fees (e.g., property tax, professional tax, etc.).\n2. **Grants-in-Aid**: Receives grants from the State Finance Commission and the Central Government.\n3. **Devolution of Funds**: Funds are devolved from the UT government for the implementation of CSS and other schemes.\n4. **Budget**: The DDC prepares its own budget and allocates funds for development works.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Role in Implementing Centrally Sponsored Schemes (CSS)",
+          "content": "The DDC plays a key role in the implementation of Centrally Sponsored Schemes (CSS) at the district level. Key CSS schemes implemented through the DDC include:\n1. **MGNREGA** (Mahatma Gandhi National Rural Employment Guarantee Act).\n2. **PM Awas Yojana** (PMAY) – Housing for all.\n3. **PM Gram Sadak Yojana** (PMGSY) – Rural road connectivity.\n4. **SBM-G** (Swachh Bharat Mission – Gramin).\n5. **National Rural Health Mission** (NRHM) and others.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Financial Autonomy – Sources and Applications",
+          "headers": ["Source", "Application"],
+          "rows": [
+            ["Own Tax Revenue (Property Tax, Professional Tax)", "Local development works"],
+            ["Grants-in-Aid (State Finance Commission)", "Infrastructure development"],
+            ["Devolution of Funds (CSS)", "Implementation of Centrally Sponsored Schemes"],
+            ["District Budget", "Allocation for various projects"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Financial Autonomy of DDC",
+          "given": ["The DDC has powers to levy taxes and receive grants."],
+          "find": "How does the DDC fund its development activities?",
+          "steps": [
+            "The DDC raises revenue through own taxes (property tax, professional tax).",
+            "It receives grants-in-aid from the State Finance Commission.",
+            "It receives funds from the UT government for CSS implementation.",
+            "It prepares its own budget and allocates funds for projects."
+          ],
+          "answer": "The DDC funds its activities through own taxes, grants, and devolved funds.",
+          "formula_used": "Financial Administration Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The DDC has no financial powers.",
+          "wrong": "The DDC is only a planning body with no financial powers.",
+          "correct": "The DDC has financial autonomy, including the power to levy taxes and prepare its own budget.",
+          "tip": "DDC has significant financial powers under the Act."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – DDC Functions",
+          "points": [
+            "DDC: Development planning, implementation of schemes, monitoring.",
+            "DPDB: Approves district plans and coordinates with DDC.",
+            "Financial Autonomy: Own taxes, grants-in-aid, devolved funds.",
+            "CSS Implementation: MGNREGA, PMAY, PMGSY, SBM-G, etc."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state_election_commission",
+      "title": "State Election Commission (SEC) – Appointment, Removal, and Constitutional Independence",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "State Election Commission (SEC)",
+          "subtitle": "Constitutional Independence and Conduct of Elections",
+          "tags": ["JKSSB", "Important", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🗳️",
+          "title": "What is the State Election Commission?",
+          "content": "The State Election Commission (SEC) is a constitutional body responsible for conducting elections to Panchayats and Urban Local Bodies. The SEC is constituted under Article 243K of the Constitution (for Panchayats) and Article 243ZA (for Municipalities). In J&K, the SEC is an independent authority that ensures free and fair elections.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Appointment of the State Election Commissioner",
+          "content": "The State Election Commissioner is appointed by the Lieutenant Governor of J&K. The appointment is made on the recommendations of a committee consisting of:\n1. **Chief Minister**: As the head of the UT government.\n2. **Leader of Opposition**: In the Legislative Assembly.\n3. **Chief Justice of the High Court**: Of J&K and Ladakh.\nThe SEC is given a fixed tenure of 5 years or until the age of 65, whichever is earlier.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Removal of the State Election Commissioner",
+          "content": "The State Election Commissioner can be removed from office only on the grounds of proven misbehaviour or incapacity. The removal process is similar to that of a judge of a High Court:\n1. **Impeachment**: The Commissioner can be removed by a resolution passed by a two-thirds majority of the total membership of the Legislative Assembly.\n2. **Judicial Review**: The removal is subject to judicial review.\n3. **Equal Status**: The SEC has the same status as a judge of the High Court.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Constitutional Independence of SEC",
+          "content": "The SEC is an independent constitutional authority. Its independence is ensured through:\n1. **Security of Tenure**: The SEC cannot be removed easily.\n2. **Fixed Salaries**: The salary and allowances are fixed and cannot be reduced.\n3. **Financial Independence**: The SEC's budget is charged on the Consolidated Fund of the State.\n4. **Functional Autonomy**: The SEC is not under the control of the UT government.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: SEC Appointment Process",
+          "given": ["The State Election Commissioner is appointed by the LG."],
+          "find": "What is the process of appointment?",
+          "steps": [
+            "The LG appoints the SEC on the recommendation of a committee.",
+            "The committee consists of the CM, Leader of Opposition, and Chief Justice of the High Court.",
+            "The SEC is given a fixed tenure of 5 years or until the age of 65.",
+            "The appointment process ensures independence."
+          ],
+          "answer": "The SEC is appointed by the LG on the recommendation of a committee, ensuring independence.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The SEC is appointed by the Chief Minister.",
+          "wrong": "The State Election Commissioner is appointed by the Chief Minister.",
+          "correct": "The SEC is appointed by the Lieutenant Governor on the recommendation of a committee.",
+          "tip": "The LG appoints the SEC, not the CM."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – State Election Commission",
+          "points": [
+            "Conducts elections to Panchayats and Urban Local Bodies.",
+            "Appointed by LG on the recommendation of a committee (CM, Leader of Opposition, CJ of HC).",
+            "Term: 5 years or until age 65.",
+            "Removal: Two-thirds majority in Legislative Assembly.",
+            "Constitutional independence is ensured."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module3_mcqs_part1",
+      "title": "Practice MCQs: Panchayati Raj and SEC",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Local Self-Governance – Practice Set",
+          "subtitle": "Panchayati Raj and State Election Commission",
+          "tags": ["PYQ", "JKSSB", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the three-tier structure, DDC composition (14 constituencies), financial autonomy, and the SEC's appointment and removal process.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "How many directly elected constituencies does a DDC have in each district?",
+          "options": ["10", "12", "14", "16"],
+          "answer": 2,
+          "explanation": "Each district is divided into 14 directly elected constituencies for the DDC.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The State Election Commissioner of J&K is appointed by:",
+          "options": ["Chief Minister", "Lieutenant Governor", "President", "Chief Justice"],
+          "answer": 1,
+          "explanation": "The SEC is appointed by the Lieutenant Governor on the recommendation of a committee.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The term of the State Election Commissioner is:",
+          "options": ["3 years", "4 years", "5 years", "6 years"],
+          "answer": 2,
+          "explanation": "The SEC holds office for a term of 5 years or until the age of 65.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The State Election Commissioner can be removed by:",
+          "options": ["LG", "Chief Minister", "Two-thirds majority in Legislative Assembly", "Supreme Court"],
+          "answer": 2,
+          "explanation": "The SEC can be removed by a resolution passed by a two-thirds majority of the Legislative Assembly.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The District Planning and Development Board (DPDB) is headed by:",
+          "options": ["Chief Minister", "LG", "Chairperson of DDC", "Deputy Commissioner"],
+          "answer": 2,
+          "explanation": "The DPDB is headed by the Chairperson of the DDC.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a source of revenue for the DDC?",
+          "options": ["Property tax", "Professional tax", "Grants-in-aid", "All of the above"],
+          "answer": 3,
+          "explanation": "The DDC has multiple revenue sources: own taxes, grants, and devolved funds.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The BDC consists of which members?",
+          "options": ["Panches", "Sarpanches", "DDC members", "MLAs"],
+          "answer": 1,
+          "explanation": "The BDC consists of elected Sarpanches from the Halqa Panchayats.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Constitution guarantees the independence of SEC under which Article?",
+          "options": ["Article 243K", "Article 243ZA", "Both", "None"],
+          "answer": 2,
+          "explanation": "Article 243K (Panchayats) and Article 243ZA (Municipalities) provide for the SEC.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the three-tier structure (Halqa, BDC, DDC), DDC composition (14 constituencies), financial autonomy, and SEC appointment and removal.",
+          "points": [
+            "Three-tier: Halqa Panchayat, BDC, DDC.",
+            "DDC: 14 directly elected constituencies.",
+            "Financial autonomy: Own taxes, grants-in-aid, devolved funds.",
+            "SEC: Appointed by LG (committee), term 5 years, removal by 2/3rd majority."
+          ]
+        }
+      ]
+    },
+
+
+
+
+    {
+      "id": "jk_municipal_corporation_act",
+      "title": "J&K Municipal Corporation Act – Institutional Layout, Powers, and Ward Committees",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "J&K Municipal Corporation Act",
+          "subtitle": "The Structure and Functions of Urban Local Bodies",
+          "tags": ["JKSSB", "High Weightage", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Overview of the J&K Municipal Corporation Act",
+          "content": "The Jammu and Kashmir Municipal Corporation Act governs the establishment, administration, and functioning of Municipal Corporations in the UT of J&K. It provides for the creation of Corporations for the two largest cities in the UT: Jammu Municipal Corporation (JMC) and Srinagar Municipal Corporation (SMC). The Act outlines the composition, powers, functions, and financial provisions for these urban local bodies.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Institutional Layout – Jammu and Srinagar Municipal Corporations",
+          "content": "1. **Jammu Municipal Corporation (JMC)**: Established for the city of Jammu, it is the urban local body responsible for the administration of Jammu city.\n2. **Srinagar Municipal Corporation (SMC)**: Established for the city of Srinagar, it is the urban local body for the summer capital of the UT.\nBoth Corporations are headed by a **Mayor** (elected by the members) and a **Commissioner** (appointed by the UT government). The structure includes Deputy Mayor, Standing Committees, and Ward Committees.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Composition of a Municipal Corporation",
+          "content": "A Municipal Corporation consists of:\n1. **Elected Members (Councillors)**: Directly elected from the wards of the city.\n2. **Mayor**: Elected by the Councillors from among themselves for a term of 5 years.\n3. **Deputy Mayor**: Elected by the Councillors to assist the Mayor.\n4. **Municipal Commissioner**: Appointed by the UT government (an IAS officer or senior civil servant).\n5. **Standing Committees**: Various committees for finance, works, health, education, etc.\n6. **Ward Committees**: At the ward level to ensure citizen participation.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Jammu vs Srinagar Municipal Corporations",
+          "headers": ["Feature", "Jammu Municipal Corporation", "Srinagar Municipal Corporation"],
+          "rows": [
+            ["Established", "For Jammu city", "For Srinagar city"],
+            ["Head of Corporation", "Mayor (elected by councillors)", "Mayor (elected by councillors)"],
+            ["Chief Executive Officer", "Municipal Commissioner (appointed)", "Municipal Commissioner (appointed)"],
+            ["Number of Wards", "Varies (recent delimitation)", "Varies (recent delimitation)"],
+            ["Role", "Urban administration of Jammu", "Urban administration of Srinagar"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Executive Powers of the Municipal Commissioner",
+          "content": "The Municipal Commissioner is the chief executive officer of the Corporation. He/She is responsible for the implementation of the decisions of the Corporation and its committees. Key powers include:\n1. **Administrative Control**: Supervises all departments of the Corporation.\n2. **Financial Powers**: Prepares the budget and manages the financial affairs.\n3. **Implementation of Schemes**: Executes development projects and schemes.\n4. **Staff Management**: Appoints and manages staff (subject to UT rules).\n5. **Law and Order**: Enforces municipal laws and bylaws.\n6. **Reporting**: Reports to the Mayor and the UT government.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Urban Ward Committees – Citizen Participation",
+          "content": "Ward Committees are formed at the ward level to involve citizens in local governance. Each ward in a Municipal Corporation has a Ward Committee. Key features:\n1. **Composition**: The Ward Committee consists of the elected Councillor of the ward and representatives of residents.\n2. **Functions**: It discusses local issues, suggests improvements, and oversees the implementation of schemes in the ward.\n3. **Financial Role**: It monitors the utilization of funds allocated to the ward.\n4. **Citizen Engagement**: Provides a platform for citizens to voice their concerns and participate in decision-making.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Role of the Municipal Commissioner",
+          "given": ["The Municipal Commissioner is the chief executive officer of a Municipal Corporation."],
+          "find": "What are the key powers of the Municipal Commissioner?",
+          "steps": [
+            "The Commissioner administers the Corporation's departments.",
+            "He/she prepares the budget and manages finances.",
+            "He/she implements development projects.",
+            "He/she enforces municipal laws.",
+            "He/she reports to the Mayor and the UT government."
+          ],
+          "answer": "The Municipal Commissioner has administrative, financial, and executive powers in the Corporation.",
+          "formula_used": "Urban Governance Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Municipal Commissioner is elected by the people.",
+          "wrong": "The Municipal Commissioner is directly elected by the citizens.",
+          "correct": "The Municipal Commissioner is appointed by the UT government (not elected).",
+          "tip": "The Mayor is elected; the Commissioner is appointed."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Municipal Corporation Act",
+          "points": [
+            "JMC and SMC: Jammu and Srinagar Municipal Corporations.",
+            "Mayor: Elected by Councillors (5-year term).",
+            "Municipal Commissioner: Appointed by UT government (chief executive).",
+            "Ward Committees: Citizen participation at the ward level.",
+            "Standing Committees: For finance, works, health, education, etc."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "municipal_mcqs",
+      "title": "Practice MCQs: Municipal Corporations and Ward Committees",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Municipal Corporations – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the composition of Municipal Corporations, the role of the Municipal Commissioner, and the structure of Ward Committees.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Municipal Commissioner of a Municipal Corporation is appointed by:",
+          "options": ["Chief Minister", "Lieutenant Governor", "President", "Chief Justice"],
+          "answer": 1,
+          "explanation": "The Municipal Commissioner is appointed by the UT government (Lieutenant Governor).",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The Mayor of a Municipal Corporation is elected by:",
+          "options": ["People of the city", "Councillors", "Commissioner", "LG"],
+          "answer": 1,
+          "explanation": "The Mayor is elected by the Councillors from among themselves.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a function of the Municipal Commissioner?",
+          "options": ["Supervising staff", "Preparing budget", "Enforcing municipal laws", "Election of the Mayor"],
+          "answer": 3,
+          "explanation": "The Municipal Commissioner does not elect the Mayor; the Councillors do.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Ward Committees are formed at which level?",
+          "options": ["District level", "Block level", "Ward level", "State level"],
+          "answer": 2,
+          "explanation": "Ward Committees are formed at the ward level for citizen participation.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The term of the Mayor of a Municipal Corporation is:",
+          "options": ["3 years", "4 years", "5 years", "6 years"],
+          "answer": 2,
+          "explanation": "The Mayor holds office for a term of 5 years.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is a Standing Committee in a Municipal Corporation?",
+          "options": ["Finance Committee", "Works Committee", "Health Committee", "All of the above"],
+          "answer": 3,
+          "explanation": "All these are Standing Committees in a Municipal Corporation.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Municipal Commissioner is the chief executive officer of the Corporation, but the head of the Corporation is the:",
+          "options": ["Mayor", "Deputy Mayor", "Chief Minister", "LG"],
+          "answer": 0,
+          "explanation": "The Mayor is the head of the Corporation, while the Commissioner is the chief executive.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the roles of the Mayor, Municipal Commissioner, and Ward Committees. Understand the distinction between elected and appointed officials.",
+          "points": [
+            "Mayor: Elected by Councillors, head of Corporation.",
+            "Municipal Commissioner: Appointed by LG, chief executive.",
+            "Ward Committees: Citizen participation at ward level.",
+            "Standing Committees: Finance, Works, Health, etc."
+          ]
+        }
+      ]
+    }
+  ]
+}

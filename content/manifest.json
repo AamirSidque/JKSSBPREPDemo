@@ -26,6 +26,14 @@
       "description": "History ( IVC to Present )",
       "topics_file": "content/indian_history/topics.json"
     },
+        {
+      "id": "indian_polity",
+      "title": "Polity - Indian",
+      "emoji": "📜",
+      "theme_color": "#9B59B6",
+      "description": "indian polity )",
+      "topics_file": "content/indian_polity/topics.json"
+    },
     {
       "id": "history_jammu_kashmir",
       "title": "History - Jammu and Kashmir",

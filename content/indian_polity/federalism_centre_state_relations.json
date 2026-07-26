@@ -1,0 +1,462 @@
+{
+  "id": "federalism_centre_state_relations",
+  "subject_id": "indian_polity",
+  "title": "Federalism & Centre-State Relations",
+  "subtopics": [
+    {
+      "id": "nature_of_federalism",
+      "title": "Nature of Indian Federalism",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Nature of Indian Federalism",
+          "subtitle": "A Unique Blend of Federal and Unitary Features",
+          "tags": ["JKSSB", "High Weightage", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "What is Federalism?",
+          "content": "Federalism is a system of government where power is divided between a central authority and constituent political units (states). India is described as a 'Union of States' (Article 1), not a federation. The Indian federal system has both federal and unitary features.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Federal Features of Indian Constitution",
+          "content": "1. **Dual Polity**: The Constitution establishes two levels of government – Union and States.\n2. **Division of Powers**: The Constitution divides powers between the Centre and States through three lists (Union, State, Concurrent).\n3. **Supremacy of the Constitution**: The Constitution is the supreme law of the land.\n4. **Independent Judiciary**: The Supreme Court acts as the guardian of the Constitution.\n5. **Bicameral Legislature**: Parliament has two Houses, representing the States in Rajya Sabha.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Unitary Features of Indian Constitution",
+          "content": "1. **Single Constitution**: India has a single Constitution for the Centre and States.\n2. **Single Citizenship**: All citizens have single citizenship (unlike USA).\n3. **All-India Services**: IAS, IPS, IFS are common to Centre and States.\n4. **Emergency Provisions**: During emergencies, the Constitution becomes unitary.\n5. **Appointment of Governors**: Governors are appointed by the President (not elected).\n6. **Parliament's Power to Amend**: Parliament can amend the Constitution (including federal features).\n7. **Residuary Powers**: Residuary powers belong to the Centre.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Federal vs Unitary Features – Comparison",
+          "headers": ["Feature", "Federal Feature", "Unitary Feature"],
+          "rows": [
+            ["Constitution", "Supremacy of Constitution", "Single Constitution"],
+            ["Citizenship", "Dual citizenship (in US)", "Single citizenship (India)"],
+            ["Legislature", "Bicameral", "Upper House represents states"],
+            ["Judiciary", "Independent", "Integrated judiciary"],
+            ["Emergency", "No change in normal times", "Becomes unitary during emergencies"],
+            ["Appointment of Governors", "Elected in some federations", "Appointed by President"],
+            ["Residuary Powers", "States have residuary powers in some", "Centre has residuary powers"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: India as a 'Union of States'",
+          "given": ["Article 1 declares India as a 'Union of States'."],
+          "find": "Why is the term 'Union' used instead of 'Federation'?",
+          "steps": [
+            "The term 'Union' emphasizes that India is not a result of an agreement between states.",
+            "It indicates that the Union is indestructible, while states are not.",
+            "The term was chosen by Dr. B.R. Ambedkar to avoid the right of secession.",
+            "It reflects the strong unitary bias of the Constitution."
+          ],
+          "answer": "India is called a 'Union of States' to emphasize its indestructible unity and prevent secession.",
+          "formula_used": "Constitutional Interpretation"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: India is a purely federal state.",
+          "wrong": "India is a purely federal state like the USA.",
+          "correct": "India has a federal system with a strong unitary bias.",
+          "tip": "During emergencies, the Constitution becomes virtually unitary."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Nature of Federalism",
+          "points": [
+            "India is a 'Union of States' (Article 1).",
+            "Federal features: Division of powers, independent judiciary, bicameral legislature.",
+            "Unitary features: Single citizenship, All-India Services, emergency provisions, appointment of Governors.",
+            "The Constitution has a strong unitary bias."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "division_of_powers",
+      "title": "Division of Powers – Union, State, and Concurrent Lists",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Division of Powers",
+          "subtitle": "The Seventh Schedule – Union, State, and Concurrent Lists",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "The Seventh Schedule",
+          "content": "The Seventh Schedule (Article 246) divides legislative powers between the Union and States through three lists:\n1. **Union List**: Subjects on which only Parliament can legislate (originally 97 subjects, now 100).\n2. **State List**: Subjects on which only State Legislatures can legislate (originally 66 subjects, now 61).\n3. **Concurrent List**: Subjects on which both Parliament and State Legislatures can legislate (originally 47 subjects, now 52).\n4. **Residuary Powers**: Subjects not mentioned in any list belong to the Union (Article 248).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Union List – Key Subjects",
+          "headers": ["Subject", "Article", "Examples"],
+          "rows": [
+            ["Defense", "246", "Armed forces, war, defense production"],
+            ["Foreign Affairs", "246", "Diplomacy, treaties, international relations"],
+            ["Railways", "246", "Railway transport, safety, operations"],
+            ["Currency", "246", "Coinage, currency, RBI"],
+            ["Communications", "246", "Posts, telegraphs, telephones"],
+            ["National Highways", "246", "Highway construction and maintenance"],
+            ["Atomic Energy", "246", "Nuclear energy, radioactive substances"],
+            ["Citizenship", "246", "Citizenship rights, naturalization"],
+            ["Inter-State Trade", "246", "Inter-state commerce, foreign trade"],
+            ["Elections", "246", "Elections to Parliament and State Legislatures"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "State List – Key Subjects",
+          "headers": ["Subject", "Article", "Examples"],
+          "rows": [
+            ["Police", "246", "Police forces, public order"],
+            ["Public Health", "246", "Hospitals, sanitation"],
+            ["Agriculture", "246", "Crops, livestock, agricultural marketing"],
+            ["Irrigation", "246", "Water supply, irrigation projects"],
+            ["State Public Services", "246", "State government employees"],
+            ["Land Revenue", "246", "Land taxes, collection"],
+            ["Local Government", "246", "Panchayats, municipalities"],
+            ["Fisheries", "246", "Fishing, aquaculture"],
+            ["Forests (earlier)", "246", "Now in Concurrent List (42nd Amendment)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "table",
+          "title": "Concurrent List – Key Subjects",
+          "headers": ["Subject", "Article", "Examples"],
+          "rows": [
+            ["Education", "246", "Schools, universities, literacy"],
+            ["Criminal Law", "246", "IPC, CrPC, evidence"],
+            ["Social Welfare", "246", "Social security, women/child welfare"],
+            ["Forests", "246", "Forest protection, wildlife"],
+            ["Protection of Wildlife", "246", "Animals, sanctuaries"],
+            ["Population Control", "246", "Family planning"],
+            ["Electricity", "246", "Power generation, supply"],
+            ["Economic Planning", "246", "Planning Commission, NITI Aayog"],
+            ["Drugs and Poisons", "246", "Pharmaceutical regulations"],
+            ["Trade Unions", "246", "Labour unions, industrial disputes"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Residuary Powers",
+          "given": ["Subjects not mentioned in any of the three lists belong to the Centre."],
+          "find": "Which article deals with residuary powers?",
+          "steps": [
+            "Article 248 deals with residuary powers.",
+            "It states that Parliament has exclusive power to make laws on any matter not enumerated in the Concurrent or State Lists.",
+            "The entry 'residuary' ensures the Centre has supremacy in new areas.",
+            "The Supreme Court has interpreted residuary powers broadly."
+          ],
+          "answer": "Article 248 gives residuary powers to the Centre.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The State List has more subjects than the Union List.",
+          "wrong": "The State List has more subjects than the Union List.",
+          "correct": "The Union List has more subjects (100) than the State List (61) and Concurrent List (52).",
+          "tip": "Union List has the highest number of subjects."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Division of Powers",
+          "points": [
+            "Three Lists: Union List (100 subjects), State List (61), Concurrent List (52).",
+            "Residuary powers belong to the Centre (Article 248).",
+            "In case of conflict between Union and State law on Concurrent List, Union law prevails (Article 254).",
+            "Parliament can legislate on State List subjects during emergencies."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "centre_state_relations",
+      "title": "Centre-State Relations – Administrative, Financial, and Legislative",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Centre-State Relations",
+          "subtitle": "Legislative, Administrative, and Financial Dimensions",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Legislative Relations (Articles 245-255)",
+          "content": "The Constitution defines legislative relations between the Centre and States through:\n1. **Territorial Jurisdiction**: Parliament can make laws for the whole of India, while State Legislatures can make laws for their respective states (Article 245).\n2. **Subject Matter**: The three lists (Union, State, Concurrent) divide legislative powers (Article 246).\n3. **Parliament's Supremacy**: In case of conflict, Union law prevails (Article 254).\n4. **Parliament's Power over State List**: Parliament can legislate on State List subjects during emergency (Article 356, 352).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Administrative Relations (Articles 256-263)",
+          "content": "The Centre has significant control over State administration:\n1. **Executive Power**: The executive power of the Centre and States extends to matters in their respective lists (Article 256).\n2. **Direction to States**: The Centre can give directions to States for execution of laws (Article 257).\n3. **All-India Services**: IAS, IPS, IFS serve both Centre and States (Article 312).\n4. **Delegation**: Parliament can confer powers on the Union to State governments (Article 258).\n5. **Inter-State Council**: The President can establish an Inter-State Council (Article 263).",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "💰",
+          "title": "Financial Relations (Articles 264-293)",
+          "content": "Financial relations between Centre and States are governed by:\n1. **Taxation**: Parliament levies taxes in the Union List; State Legislatures in the State List.\n2. **Tax Sharing**: Taxes are shared between Centre and States (e.g., Income Tax, GST).\n3. **Finance Commission**: Appointed by the President (Article 280) to recommend distribution of tax revenue.\n4. **Grants-in-Aid**: States receive grants-in-aid from the Centre (Article 275).\n5. **Borrowing**: States can borrow only within India (Article 293).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Centre-State Relations – Key Articles",
+          "headers": ["Type", "Articles", "Key Features"],
+          "rows": [
+            ["Legislative", "245-255", "Division of powers, Union supremacy, Concurrent List conflict"],
+            ["Administrative", "256-263", "Directions to States, All-India Services, Delegation"],
+            ["Financial", "264-293", "Tax sharing, Finance Commission, Grants-in-Aid"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Finance Commission",
+          "given": ["The Finance Commission recommends tax distribution between Centre and States."],
+          "find": "What is the role of the Finance Commission?",
+          "steps": [
+            "The Finance Commission is constituted every 5 years (Article 280).",
+            "It recommends the distribution of net proceeds of taxes between Centre and States.",
+            "It also recommends grants-in-aid to States.",
+            "The President appoints the Chairman and members.",
+            "The recommendations are advisory but are usually followed."
+          ],
+          "answer": "The Finance Commission recommends tax distribution and grants-in-aid to States.",
+          "formula_used": "Financial Relations Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Finance Commission is a permanent body.",
+          "wrong": "The Finance Commission is a permanent constitutional body.",
+          "correct": "The Finance Commission is constituted every 5 years (not permanent).",
+          "tip": "It is a temporary body, reconstituted periodically."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Centre-State Relations",
+          "points": [
+            "Legislative Relations: Division of powers, Union supremacy (Article 254).",
+            "Administrative Relations: Centre can give directions, All-India Services.",
+            "Financial Relations: Tax sharing, Finance Commission (Article 280).",
+            "Grants-in-Aid: Article 275.",
+            "Inter-State Council: Article 263."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cooperative_federalism",
+      "title": "Cooperative Federalism and Federal Conflicts",
+      "estimated_minutes": 12,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Cooperative Federalism and Federal Conflicts",
+          "subtitle": "Working Together and Resolving Disputes",
+          "tags": ["JKSSB", "Important"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🤝",
+          "title": "Cooperative Federalism",
+          "content": "Cooperative federalism emphasizes collaboration between the Centre and States. Mechanisms include:\n1. **Inter-State Council**: Article 263 – resolves disputes and promotes cooperation.\n2. **Zonal Councils**: Created by the States Reorganisation Act (1956) to promote regional cooperation.\n3. **NITI Aayog**: Replaced Planning Commission (2015) to foster cooperative federalism.\n4. **Goods and Services Tax (GST) Council**: Cooperative decision-making on taxation.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Federal Conflicts and Dispute Resolution",
+          "content": "Conflicts between Centre and States are resolved through:\n1. **Inter-State Council**: Article 263 – investigates disputes between States.\n2. **Supreme Court**: Original jurisdiction in disputes between Centre and States (Article 131).\n3. **Zonal Councils**: Resolve regional issues.\n4. **Negotiation and Dialogue**: Political mechanisms to resolve conflicts.\n5. **Tribunals**: For specific disputes (e.g., river water disputes).",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Cooperative Federalism Mechanisms",
+          "headers": ["Mechanism", "Article/Act", "Purpose"],
+          "rows": [
+            ["Inter-State Council", "Article 263", "Resolve disputes, promote cooperation"],
+            ["Zonal Councils", "States Reorganisation Act 1956", "Regional cooperation"],
+            ["NITI Aayog", "Executive Order (2015)", "Cooperative federalism, planning"],
+            ["GST Council", "101st Amendment (2016)", "Taxation decisions"],
+            ["River Water Tribunals", "Inter-State River Water Disputes Act", "Resolve river disputes"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: The Inter-State Council",
+          "given": ["The Inter-State Council was established under Article 263."],
+          "find": "What is the role of the Inter-State Council?",
+          "steps": [
+            "It investigates disputes between States.",
+            "It discusses subjects common to the Centre and States.",
+            "It makes recommendations for better coordination.",
+            "It is chaired by the Prime Minister.",
+            "It promotes cooperative federalism."
+          ],
+          "answer": "The Inter-State Council resolves disputes and promotes cooperation between Centre and States.",
+          "formula_used": "Constitutional Mechanism Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Inter-State Council is a permanent body.",
+          "wrong": "The Inter-State Council is a permanent constitutional body.",
+          "correct": "Article 263 provides for the establishment of an Inter-State Council, but it is not a permanent body.",
+          "tip": "It is established as and when needed by the President."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Cooperative Federalism",
+          "points": [
+            "Cooperative federalism emphasizes collaboration.",
+            "Inter-State Council (Article 263) resolves disputes.",
+            "Zonal Councils promote regional cooperation.",
+            "NITI Aayog replaced Planning Commission (2015).",
+            "GST Council ensures cooperative taxation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "federalism_mcqs",
+      "title": "Practice MCQs: Federalism & Centre-State Relations",
+      "estimated_minutes": 20,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Federalism & Centre-State Relations – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "Indian Polity"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the nature of Indian federalism, division of powers (Union, State, Concurrent Lists), Centre-State relations (legislative, administrative, financial), and cooperative federalism mechanisms.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "India is described as a 'Union of States' under which Article?",
+          "options": ["Article 1", "Article 2", "Article 3", "Article 4"],
+          "answer": 0,
+          "explanation": "Article 1 declares India as a 'Union of States'.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a federal feature of the Indian Constitution?",
+          "options": ["Division of powers", "Independent judiciary", "Single citizenship", "Bicameral legislature"],
+          "answer": 2,
+          "explanation": "Single citizenship is a unitary feature, not a federal feature. Federal states usually have dual citizenship.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Union List contains how many subjects?",
+          "options": ["52", "61", "100", "97"],
+          "answer": 2,
+          "explanation": "The Union List originally had 97 subjects, now it has 100 subjects.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The residuary powers in India belong to which authority?",
+          "options": ["State Governments", "Union (Parliament)", "State Legislatures", "Local Governments"],
+          "answer": 1,
+          "explanation": "Residuary powers (subjects not in any list) belong to the Union (Article 248).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which Article deals with the Finance Commission?",
+          "options": ["Article 263", "Article 280", "Article 275", "Article 312"],
+          "answer": 1,
+          "explanation": "Article 280 deals with the Finance Commission, which recommends tax distribution between Centre and States.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which mechanism promotes cooperative federalism in India?",
+          "options": ["Inter-State Council", "NITI Aayog", "GST Council", "All of the above"],
+          "answer": 3,
+          "explanation": "All of these – Inter-State Council (Article 263), NITI Aayog (2015), and GST Council (2016) – promote cooperative federalism.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "In case of a conflict between Union and State law on a Concurrent List subject, which law prevails?",
+          "options": ["State law", "Union law", "Both equally", "Supreme Court decides"],
+          "answer": 1,
+          "explanation": "Article 254 states that in case of conflict, Union law prevails over State law on Concurrent List subjects.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Article provides for the establishment of an Inter-State Council?",
+          "options": ["Article 263", "Article 256", "Article 280", "Article 312"],
+          "answer": 0,
+          "explanation": "Article 263 provides for the establishment of an Inter-State Council to resolve disputes and promote cooperation.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The All-India Services are a feature of which type of system?",
+          "options": ["Federal", "Unitary", "Both federal and unitary", "Neither"],
+          "answer": 1,
+          "explanation": "All-India Services (IAS, IPS, IFS) are a unitary feature, as they are common to the Centre and States.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which list contains subjects on which both Parliament and State Legislatures can legislate?",
+          "options": ["Union List", "State List", "Concurrent List", "Residuary List"],
+          "answer": 2,
+          "explanation": "The Concurrent List contains subjects on which both Parliament and State Legislatures can legislate.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the nature of Indian federalism, division of powers, Centre-State relations, and cooperative federalism mechanisms.",
+          "points": [
+            "India: 'Union of States' (Article 1).",
+            "Federal features: Division of powers, independent judiciary.",
+            "Unitary features: Single citizenship, All-India Services, emergency provisions.",
+            "Union List: 100 subjects.",
+            "State List: 61 subjects.",
+            "Concurrent List: 52 subjects.",
+            "Residuary powers: Centre (Article 248).",
+            "Finance Commission: Article 280.",
+            "Inter-State Council: Article 263.",
+            "Cooperative federalism: NITI Aayog, GST Council."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "id": "administrative_accountability",
+  "subject_id": "jk_governance",
+  "title": "Administrative Accountability, Rights, & Special Acts",
+  "subtopics": [
+    {
+      "id": "rti_act_2005",
+      "title": "The Central RTI Act, 2005 – UT Application",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Central RTI Act, 2005",
+          "subtitle": "Application to the Union Territory of Jammu & Kashmir",
+          "tags": ["JKSSB", "High Weightage", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📜",
+          "title": "Overview of the RTI Act, 2005",
+          "content": "The Right to Information Act, 2005 was enacted to promote transparency and accountability in the working of the government. It empowers citizens to seek information from public authorities. In the UT of J&K, the Central RTI Act, 2005 is fully applicable (as per the Fifth Schedule of the J&K Reorganisation Act, 2019). The J&K RTI Act, 2009 was repealed, and the Central Act now governs RTI in the UT.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Key Provisions of the RTI Act",
+          "content": "1. **Right to Information**: Every citizen has the right to access information held by public authorities.\n2. **Public Information Officer (PIO)**: Every public authority must appoint a PIO to handle RTI requests.\n3. **Timeframe**: Information must be provided within 30 days (or 48 hours if life/liberty is involved).\n4. **Fees**: A nominal fee is charged for filing RTI applications.\n5. **Appeals**: First appeal to the Appellate Authority; second appeal to the Central Information Commission (CIC).",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Section 8 – Exemption from Disclosure",
+          "content": "Section 8 of the RTI Act provides for exemptions from disclosure of certain categories of information. These exemptions are absolute and mandatory. Key exemptions include:\n1. **National Security**: Information affecting the sovereignty, security, or integrity of India.\n2. **Cabinet Papers**: Records of deliberations of the Council of Ministers (subject to public interest).\n3. **Privacy**: Information that infringes on personal privacy.\n4. **Commercial Confidence**: Trade secrets and commercial confidence (unless public interest overrides).\n5. **Fiduciary Relationship**: Information held in fiduciary capacity.\n6. **Foreign Government**: Information received from a foreign government.\n7. **Law Enforcement**: Information that would impede investigation or prosecution.\n8. **Intellectual Property**: Information involving intellectual property rights.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Section 24 – Security Organizations Exempted",
+          "content": "Section 24 of the RTI Act provides for the exemption of certain security and intelligence organizations from the purview of the RTI Act. In the UT of J&K, the following organizations are exempted:\n1. **Intelligence Bureau (IB)**\n2. **Research and Analysis Wing (RAW)**\n3. **Central Bureau of Investigation (CBI)**\n4. **National Intelligence Grid (NATGRID)**\n5. **Defence Intelligence Agency (DIA)**\n6. **National Technical Research Organisation (NTRO)**\n7. **Directorate of Revenue Intelligence (DRI)**\nThese organizations are exempted from the RTI Act to protect national security and intelligence operations.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "RTI Act – Key Sections",
+          "headers": ["Section", "Description"],
+          "rows": [
+            ["Section 8", "Exemption from disclosure (national security, privacy, commercial confidence, etc.)"],
+            ["Section 24", "Security organizations exempted from RTI (IB, RAW, CBI, etc.)"],
+            ["Section 19", "First and Second Appeals (to CIC)"],
+            ["Section 20", "Penalties for non-compliance"],
+            ["Section 22", "Act to have overriding effect"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Section 8 Exemption in Practice",
+          "given": ["A citizen seeks information about cabinet decisions on a policy matter."],
+          "find": "Can this information be disclosed under the RTI Act?",
+          "steps": [
+            "Cabinet papers are exempted under Section 8(1)(i) of the RTI Act.",
+            "However, the exemption is not absolute; the information can be disclosed if public interest overrides.",
+            "The decision to disclose is made by the competent authority.",
+            "The citizen can appeal if the information is denied."
+          ],
+          "answer": "Cabinet papers are exempted, but disclosure is possible if public interest overrides.",
+          "formula_used": "RTI Act Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: All information is available under RTI.",
+          "wrong": "All government information is available under the RTI Act.",
+          "correct": "Certain information (e.g., national security, privacy) is exempted under Section 8.",
+          "tip": "Section 8 provides for mandatory exemptions."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – RTI Act, 2005",
+          "points": [
+            "Central RTI Act applies to J&K UT (Fifth Schedule).",
+            "Section 8: Exemptions (national security, cabinet papers, privacy, commercial confidence).",
+            "Section 24: Exemption for security organizations (IB, RAW, CBI, etc.).",
+            "First Appeal: Appellate Authority; Second Appeal: Central Information Commission (CIC).",
+            "Timeframe: 30 days (48 hours for life/liberty)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rti_appeals",
+      "title": "Appeals under RTI – First Appeal, Second Appeal to CIC, and Timelines",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Appeals under RTI",
+          "subtitle": "Timelines and the Role of the Central Information Commission",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "First Appeal – Appellate Authority",
+          "content": "If a citizen is not satisfied with the response from the Public Information Officer (PIO), they can file a first appeal. Key features:\n1. **Authority**: The First Appeal is filed before the Appellate Authority (usually a senior officer in the department).\n2. **Timeline**: The appeal must be filed within 30 days of receiving the PIO's response.\n3. **Decision**: The Appellate Authority must decide within 30 days (extendable to 45 days).\n4. **Remedy**: If the decision is not satisfactory, the citizen can file a second appeal.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Second Appeal – Central Information Commission (CIC)",
+          "content": "If the citizen is not satisfied with the first appeal decision, they can file a second appeal before the Central Information Commission (CIC). Key features:\n1. **Authority**: The CIC is the final appellate authority under the RTI Act.\n2. **Timeline**: The second appeal must be filed within 90 days of the first appeal decision.\n3. **Decision**: The CIC must decide within 30 days (extendable to 45 days).\n4. **Powers**: The CIC can order disclosure of information, impose penalties, and issue directions.\n5. **Composition**: The CIC consists of a Chief Information Commissioner and up to 10 Information Commissioners (appointed by the President).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "RTI Appeal Process – Timeline",
+          "headers": ["Stage", "Authority", "Timeline"],
+          "rows": [
+            ["PIO Response", "Public Information Officer", "30 days (48 hours for life/liberty)"],
+            ["First Appeal", "Appellate Authority", "Within 30 days of PIO's response; decision in 30 days"],
+            ["Second Appeal", "Central Information Commission (CIC)", "Within 90 days of first appeal; decision in 30 days"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Powers of the Central Information Commission (CIC)",
+          "content": "The CIC has the following powers:\n1. **Order Disclosure**: Can order disclosure of information if the exemption does not apply.\n2. **Impose Penalties**: Can impose penalties on the PIO for unjustified denial of information.\n3. **Issue Directions**: Can issue directions to public authorities for better compliance.\n4. **Summoning**: Can summon and examine witnesses.\n5. **Non-compliance**: Non-compliance with the CIC's orders is punishable.",
+          "highlight": false
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: RTI Appeal Process",
+          "given": ["A citizen files an RTI application and receives a denial from the PIO."],
+          "find": "What is the process for appealing the decision?",
+          "steps": [
+            "The citizen files a First Appeal before the Appellate Authority within 30 days.",
+            "The Appellate Authority decides within 30 days.",
+            "If dissatisfied, the citizen files a Second Appeal before the CIC within 90 days.",
+            "The CIC decides within 30 days and can order disclosure."
+          ],
+          "answer": "The citizen can file a First Appeal and, if dissatisfied, a Second Appeal before the CIC.",
+          "formula_used": "RTI Appeal Process Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The CIC is under the control of the government.",
+          "wrong": "The CIC is a government-controlled body.",
+          "correct": "The CIC is an independent statutory body that operates autonomously.",
+          "tip": "CIC is independent and can order disclosure against the government."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – RTI Appeals",
+          "points": [
+            "First Appeal: Appellate Authority (30 days).",
+            "Second Appeal: Central Information Commission (CIC) (90 days).",
+            "CIC powers: Order disclosure, impose penalties, issue directions.",
+            "CIC is an independent statutory body."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module4_mcqs_part1",
+      "title": "Practice MCQs: RTI Act, 2005",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "RTI Act – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on Section 8 (exemptions), Section 24 (security organizations), the appeal process, and the role of the CIC.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Central RTI Act, 2005 was applied to J&K under which Schedule of the J&K Reorganisation Act?",
+          "options": ["First Schedule", "Third Schedule", "Fourth Schedule", "Fifth Schedule"],
+          "answer": 3,
+          "explanation": "The Fifth Schedule of the J&K Reorganisation Act applied the Central RTI Act, 2005 to J&K.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Section 8 of the RTI Act deals with:",
+          "options": ["Appeals", "Exemption from disclosure", "Penalties", "Security organizations"],
+          "answer": 1,
+          "explanation": "Section 8 provides for exemptions from disclosure (national security, cabinet papers, etc.).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is exempted from the RTI Act under Section 24?",
+          "options": ["Education Department", "Health Department", "Intelligence Bureau", "Municipal Corporation"],
+          "answer": 2,
+          "explanation": "Section 24 exempts security organizations like the Intelligence Bureau (IB), RAW, and CBI.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Second Appeal under the RTI Act is filed before:",
+          "options": ["Supreme Court", "Central Information Commission", "High Court", "State Information Commission"],
+          "answer": 1,
+          "explanation": "The Second Appeal is filed before the Central Information Commission (CIC).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The First Appeal under the RTI Act must be filed within how many days?",
+          "options": ["15 days", "30 days", "60 days", "90 days"],
+          "answer": 1,
+          "explanation": "The First Appeal must be filed within 30 days of receiving the PIO's response.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Second Appeal under the RTI Act must be filed within how many days?",
+          "options": ["30 days", "60 days", "90 days", "120 days"],
+          "answer": 2,
+          "explanation": "The Second Appeal must be filed within 90 days of the First Appeal decision.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Central Information Commission consists of how many Information Commissioners (maximum)?",
+          "options": ["5", "8", "10", "12"],
+          "answer": 2,
+          "explanation": "The CIC consists of a Chief Information Commissioner and up to 10 Information Commissioners.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review Section 8 (exemptions), Section 24 (security organizations), the appeal process, and the CIC's role.",
+          "points": [
+            "Section 8: Exemptions (national security, cabinet papers, privacy).",
+            "Section 24: Exemption for security organizations (IB, RAW, CBI).",
+            "First Appeal: Appellate Authority (30 days).",
+            "Second Appeal: Central Information Commission (90 days).",
+            "CIC: Independent, can order disclosure and impose penalties."
+          ]
+        }
+      ]
+    },
+
+
+
+
+    {
+      "id": "anti_corruption_bureau",
+      "title": "Anti-Corruption Bureau (ACB) J&K – Statutory Powers, Structure, and Reporting Hierarchy",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Anti-Corruption Bureau (ACB) J&K",
+          "subtitle": "Statutory Powers and Reporting Hierarchy",
+          "tags": ["JKSSB", "High Weightage", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🛡️",
+          "title": "Overview of ACB J&K",
+          "content": "The Anti-Corruption Bureau (ACB) of Jammu & Kashmir is the premier anti-corruption agency in the Union Territory. It is responsible for investigating and prosecuting corruption cases involving public servants. The ACB derives its powers from the Prevention of Corruption Act, 1988, and operates under the administrative control of the UT administration.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Statutory Powers under the Prevention of Corruption Act, 1988",
+          "content": "The ACB has the following statutory powers:\n1. **Investigation**: Power to investigate cases of corruption involving public servants.\n2. **Search and Seizure**: Power to search premises and seize documents, assets, and evidence.\n3. **Arrest**: Power to arrest individuals involved in corruption.\n4. **Prosecution**: Power to file chargesheets and prosecute offenders.\n5. **Attachment**: Power to attach assets acquired through corrupt means (under the Prevention of Money Laundering Act).\n6. **Trap Operations**: Power to conduct trap operations against corrupt officials.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "🏛️",
+          "title": "Internal Structure of ACB J&K",
+          "content": "The ACB is headed by the Director (ACB), who is typically a senior IPS officer. The structure includes:\n1. **Director (ACB)**: Head of the bureau, responsible for overall supervision.\n2. **Additional Directors**: Assist in investigations and administration.\n3. **Superintendent of Police (SP)**: Heads investigation teams.\n4. **Deputy Superintendents of Police (DySP)**: Handle field investigations.\n5. **Legal Advisors**: Provide legal guidance and prosecute cases.\n6. **Administrative Staff**: Support the bureau's functioning.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Reporting Hierarchy of ACB J&K",
+          "content": "The ACB reports to the UT administration through the following hierarchy:\n1. **Administrative Control**: The ACB is under the administrative control of the Lieutenant Governor (LG) of J&K.\n2. **Functional Independence**: The ACB functions independently in its investigations and prosecutions.\n3. **Reporting to LG**: The Director (ACB) submits reports to the LG on important cases and overall functioning.\n4. **Financial Control**: The ACB's budget is approved by the UT administration.\n5. **Central Government Oversight**: In cases of Central Government officials, the ACB coordinates with the Central Vigilance Commission (CVC) and the Central Bureau of Investigation (CBI).",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "ACB J&K – Key Powers and Functions",
+          "headers": ["Power/Function", "Legal Basis", "Scope"],
+          "rows": [
+            ["Investigation", "Prevention of Corruption Act, 1988", "Corruption cases involving public servants"],
+            ["Search and Seizure", "CrPC, 1973", "Premises, documents, assets"],
+            ["Arrest", "Prevention of Corruption Act, 1988", "Individuals involved in corruption"],
+            ["Prosecution", "Prevention of Corruption Act, 1988", "Filing chargesheets"],
+            ["Attachment", "PMLA, 2002", "Assets acquired through corruption"],
+            ["Trap Operations", "Prevention of Corruption Act, 1988", "Corrupt officials"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: ACB Investigation Process",
+          "given": ["The ACB receives a complaint of corruption against a public servant."],
+          "find": "What is the process followed by the ACB?",
+          "steps": [
+            "The complaint is registered and preliminarily verified.",
+            "If sufficient evidence is found, a formal investigation is initiated.",
+            "Search and seizure operations may be conducted.",
+            "The accused may be arrested and questioned.",
+            "A chargesheet is filed in the competent court.",
+            "The case is prosecuted by the ACB's legal team."
+          ],
+          "answer": "The ACB investigates corruption cases through verification, search, arrest, and prosecution.",
+          "formula_used": "Anti-Corruption Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The ACB is under the control of the Chief Minister.",
+          "wrong": "The ACB reports to the Chief Minister of J&K.",
+          "correct": "The ACB is under the administrative control of the Lieutenant Governor.",
+          "tip": "ACB reports to the LG, not the CM."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – ACB J&K",
+          "points": [
+            "ACB: Premier anti-corruption agency in J&K.",
+            "Powers: Investigation, search and seizure, arrest, prosecution.",
+            "Head: Director (ACB), senior IPS officer.",
+            "Reporting: Administrative control of the LG.",
+            "Functions independently in investigations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unified_judicial_framework",
+      "title": "The Unified Judicial Framework – High Court, Advocate General, Subordinate Judiciary, and Prosecution Wings",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Unified Judicial Framework",
+          "subtitle": "High Court of J&K and Ladakh, Advocate General, and Subordinate Judiciary",
+          "tags": ["JKSSB", "High Weightage", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "The High Court of Jammu & Kashmir and Ladakh",
+          "content": "The High Court of Jammu & Kashmir and Ladakh is the common High Court for both Union Territories. It was established under the J&K Reorganisation Act, 2019. The High Court has jurisdiction over both the UT of J&K and the UT of Ladakh. It has the same powers and functions as other High Courts in India. The Chief Justice is appointed by the President of India.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Jurisdiction of the High Court",
+          "content": "The High Court has the following jurisdictions:\n1. **Original Jurisdiction**: Direct cases (e.g., writ petitions under Article 226).\n2. **Appellate Jurisdiction**: Appeals from subordinate courts.\n3. **Writ Jurisdiction**: Can issue writs for enforcement of Fundamental Rights and other legal rights.\n4. **Supervisory Jurisdiction**: Over subordinate courts.\n5. **Advisory Jurisdiction**: Can advise the LG/Governor on legal matters.\n6. **Criminal Jurisdiction**: Handles criminal appeals and revisions.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Appointment of the Advocate General",
+          "content": "The Advocate General is the highest law officer of the UT of J&K (Article 165, applicable to UTs under the Act). He/She is appointed by the Lieutenant Governor. Key features:\n1. **Appointment**: By the LG on the advice of the Chief Minister.\n2. **Tenure**: Holds office during the pleasure of the LG.\n3. **Functions**: Advises the UT government on legal matters, represents the government in the High Court.\n4. **Role**: Can speak in the Legislative Assembly but cannot vote.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Changes to the Subordinate Judiciary and Prosecution Wings",
+          "content": "Under the J&K Reorganisation Act, 2019, the subordinate judiciary and prosecution wings were integrated with the Union Territory framework. Key changes:\n1. **Subordinate Judiciary**: The District and Sessions Courts, Magistrate Courts, and other subordinate courts now function under the High Court's supervision.\n2. **Prosecution Wings**: The prosecution functions (Public Prosecutors, Assistant Public Prosecutors) are now part of the UT's prosecution framework.\n3. **Appointments**: Judges of subordinate courts are appointed by the LG in consultation with the High Court.\n4. **Administrative Control**: The High Court has full administrative control over the subordinate judiciary.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Judicial Framework – Key Components",
+          "headers": ["Component", "Details"],
+          "rows": [
+            ["High Court", "Common High Court for J&K and Ladakh (Chief Justice appointed by President)"],
+            ["Advocate General", "Highest law officer of UT (appointed by LG, advised by CM)"],
+            ["Subordinate Judiciary", "District courts, Magistrate courts under High Court supervision"],
+            ["Prosecution Wing", "Public Prosecutors and Assistant Public Prosecutors under UT framework"],
+            ["Writ Jurisdiction", "Article 226 (High Courts can issue writs)"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Appointment of the Advocate General",
+          "given": ["The Advocate General is appointed by the Lieutenant Governor."],
+          "find": "What is the process of appointment?",
+          "steps": [
+            "The LG appoints the Advocate General on the advice of the Chief Minister.",
+            "The AG holds office during the pleasure of the LG.",
+            "The AG advises the UT government on legal matters.",
+            "The AG can appear in court on behalf of the UT government."
+          ],
+          "answer": "The Advocate General is appointed by the LG on the advice of the CM.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Advocate General is elected by the Legislative Assembly.",
+          "wrong": "The Advocate General is elected by the Legislative Assembly.",
+          "correct": "The Advocate General is appointed by the Lieutenant Governor (not elected).",
+          "tip": "AG is appointed, not elected."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Judicial Framework",
+          "points": [
+            "High Court: Common for J&K and Ladakh.",
+            "Chief Justice: Appointed by President.",
+            "Advocate General: Appointed by LG (advised by CM).",
+            "Subordinate Judiciary: Under High Court supervision.",
+            "Prosecution Wing: Under UT framework."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module4_mcqs_part2",
+      "title": "Practice MCQs: ACB and Judicial Framework",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "ACB and Judicial Framework – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the ACB's statutory powers, reporting hierarchy, the High Court's jurisdiction, and the role of the Advocate General.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Anti-Corruption Bureau (ACB) of J&K derives its powers from which Act?",
+          "options": ["RTI Act, 2005", "Prevention of Corruption Act, 1988", "CrPC, 1973", "IPC, 1860"],
+          "answer": 1,
+          "explanation": "The ACB derives its statutory powers from the Prevention of Corruption Act, 1988.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The Director of ACB J&K is usually a senior officer of which service?",
+          "options": ["IAS", "IPS", "IFoS", "JKAS"],
+          "answer": 1,
+          "explanation": "The Director of ACB is typically a senior IPS officer.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The ACB J&K is under the administrative control of:",
+          "options": ["Chief Minister", "Lieutenant Governor", "President", "Chief Justice"],
+          "answer": 1,
+          "explanation": "The ACB is under the administrative control of the Lieutenant Governor.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The High Court of J&K and Ladakh has jurisdiction over:",
+          "options": ["Only J&K", "Only Ladakh", "Both J&K and Ladakh", "Neither"],
+          "answer": 2,
+          "explanation": "The High Court has jurisdiction over both UT of J&K and UT of Ladakh.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Advocate General of J&K is appointed by:",
+          "options": ["Chief Minister", "Lieutenant Governor", "President", "Chief Justice"],
+          "answer": 1,
+          "explanation": "The Advocate General is appointed by the Lieutenant Governor on the advice of the Chief Minister.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Chief Justice of the High Court of J&K and Ladakh is appointed by:",
+          "options": ["Chief Minister", "Lieutenant Governor", "President", "Prime Minister"],
+          "answer": 2,
+          "explanation": "The Chief Justice is appointed by the President of India.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The ACB J&K can conduct trap operations under which Act?",
+          "options": ["IPC, 1860", "CrPC, 1973", "Prevention of Corruption Act, 1988", "RTI Act, 2005"],
+          "answer": 2,
+          "explanation": "Trap operations are conducted under the Prevention of Corruption Act, 1988.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the ACB's statutory powers, reporting hierarchy, the High Court's jurisdiction, and the Advocate General's role.",
+          "points": [
+            "ACB: Powers under Prevention of Corruption Act, 1988.",
+            "ACB reports to LG.",
+            "High Court: Common for J&K and Ladakh.",
+            "Advocate General: Appointed by LG.",
+            "Subordinate judiciary under High Court supervision."
+          ]
+        }
+      ]
+    }
+  ]
+}

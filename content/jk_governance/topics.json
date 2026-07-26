@@ -1,0 +1,29 @@
+{
+  "subject_id": "jk_governance",
+  "topics": [
+    {
+      "id": "jk_reorganisation_act_2019",
+      "title": "The J&K Reorganisation Act, 2019 – Section-wise Mapping",
+      "file": "content/jk_governance/jk_reorganisation_act_2019.json",
+      "available": true
+    },
+    {
+      "id": "ut_executive_business_rules",
+      "title": "UT Executive & J&K Transaction of Business Rules",
+      "file": "content/jk_governance/ut_executive_business_rules.json",
+      "available": true
+    },
+    {
+      "id": "local_self_governance",
+      "title": "Advanced Local Self-Governance – Statutory Level",
+      "file": "content/jk_governance/local_self_governance.json",
+      "available": true
+    },
+    {
+      "id": "administrative_accountability",
+      "title": "Administrative Accountability, Rights, & Special Acts",
+      "file": "content/jk_governance/administrative_accountability.json",
+      "available": true
+    }
+  ]
+}

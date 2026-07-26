@@ -1,0 +1,479 @@
+{
+  "id": "ut_executive_business_rules",
+  "subject_id": "jk_governance",
+  "title": "UT Executive & J&K Transaction of Business Rules",
+  "subtopics": [
+    {
+      "id": "lg_domain",
+      "title": "The Lieutenant Governor's Appointed Domain",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The Lieutenant Governor's Domain",
+          "subtitle": "Discretionary Powers vs Executive Actions",
+          "tags": ["JKSSB", "High Weightage", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👑",
+          "title": "The Lieutenant Governor of J&K",
+          "content": "The Lieutenant Governor (LG) of Jammu & Kashmir is the constitutional head of the Union Territory. He is appointed by the President of India under Article 239 of the Constitution. The LG exercises powers conferred by the J&K Reorganisation Act, 2019, and the Transaction of Business Rules notified by the Ministry of Home Affairs.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Executive Actions on the 'Aid and Advice' of the Council of Ministers",
+          "content": "In the UT of J&K, which has a Legislative Assembly, the executive power of the UT is exercised by the LG on the 'aid and advice' of the Council of Ministers, headed by the Chief Minister. This is similar to the Puducherry model (Article 239A). The Council of Ministers is collectively responsible to the Legislative Assembly.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Discretionary Powers of the Lieutenant Governor",
+          "content": "The LG of J&K has certain discretionary powers where he can act without the advice of the Council of Ministers. These powers are derived from the Constitution, the J&K Reorganisation Act, 2019, and the Transaction of Business Rules. Key discretionary powers include: \n1. **Reservation of Bills**: The LG can reserve certain bills for the consideration of the President.\n2. **Ordinance-making Power**: The LG can promulgate ordinances when the Legislative Assembly is not in session.\n3. **Matters relating to Police and Public Order**: These are excluded from the Assembly's purview, and the LG acts on these matters in consultation with the Central Government.\n4. **Nomination of Members**: The LG can nominate two women members (Section 15) and Kashmiri migrants/displaced persons.\n5. **Reports to the President**: The LG can report to the President on matters of governance and constitutional breakdown.",
+          "highlight": false
+        },
+        {
+          "type": "table",
+          "title": "Discretionary Powers vs Executive Actions",
+          "headers": ["Aspect", "Discretionary Powers", "Executive Actions (Aid and Advice)"],
+          "rows": [
+            ["Source", "Constitution, Act, Transaction of Business Rules", "Council of Ministers' advice"],
+            ["Nature", "Personal judgment of LG", "Collective decision of Council"],
+            ["Examples", "Reservation of bills, ordinances, Police and Public Order", "Most administrative and policy matters"],
+            ["Review", "Subject to judicial review", "Subject to judicial review"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Discretionary Power in Action",
+          "given": ["The LG reserves a bill passed by the Legislative Assembly for the President's consideration."],
+          "find": "Is this a discretionary power or an executive action?",
+          "steps": [
+            "The LG's power to reserve a bill for the President's consideration is a discretionary power.",
+            "This power is derived from the Constitution and the J&K Reorganisation Act.",
+            "The LG can exercise this power even if the Council of Ministers advises otherwise.",
+            "The decision is subject to judicial review."
+          ],
+          "answer": "Reserving a bill for the President's consideration is a discretionary power of the LG.",
+          "formula_used": "Constitutional Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The LG always acts on the advice of the Council of Ministers.",
+          "wrong": "The LG always acts on the advice of the Council of Ministers.",
+          "correct": "The LG has discretionary powers in certain matters (e.g., reservation of bills, Police and Public Order).",
+          "tip": "LG has both executive (aid and advice) and discretionary powers."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – LG's Domain",
+          "points": [
+            "LG is appointed by the President.",
+            "Executive power exercised on the 'aid and advice' of the Council of Ministers.",
+            "Discretionary powers: Reservation of bills, ordinances, Police and Public Order, nomination of members.",
+            "The LG can report to the President on governance matters."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lg_cm_relations",
+      "title": "LG-CM Relations – Powers and Dynamics",
+      "estimated_minutes": 14,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "LG-CM Relations",
+          "subtitle": "The Power Dynamics Between the Constitutional Head and the Elected Government",
+          "tags": ["JKSSB", "High Weightage"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Relationship Between LG and Chief Minister",
+          "content": "The relationship between the Lieutenant Governor and the Chief Minister is governed by the Constitution, the J&K Reorganisation Act, 2019, and the Transaction of Business Rules. The LG is the head of the UT, while the CM is the head of the elected government. The relationship involves cooperation and consultation on policy matters.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Areas of Cooperation",
+          "content": "1. **Policy Formulation**: The LG and CM work together on policy matters.\n2. **Legislative Business**: The LG summons, prorogues, and dissolves the Legislative Assembly.\n3. **Appointments**: The LG appoints the Chief Minister and other ministers on the advice of the CM.\n4. **Emergency Situations**: Both work together in crisis situations.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Areas of Potential Conflict",
+          "content": "1. **Discretionary Powers**: The LG's discretionary powers can lead to differences.\n2. **Police and Public Order**: These are outside the Assembly's purview, leading to potential conflicts.\n3. **Bills**: The LG can reserve bills for the President's consideration, leading to differences.\n4. **Ordinances**: The LG's ordinance-making power can be a point of contention.",
+          "highlight": true
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: LG-CM Tension",
+          "given": ["The LG and CM have differing views on a policy matter."],
+          "find": "How is the difference resolved?",
+          "steps": [
+            "The matter may be referred to the Central Government (MHA).",
+            "The Transaction of Business Rules provide a procedure for resolving differences.",
+            "The LG may use discretionary powers in matters of public interest.",
+            "The matter may be resolved through consultation and dialogue."
+          ],
+          "answer": "Differences are resolved through consultation, referral to the Central Government, or the LG's discretionary powers.",
+          "formula_used": "Administrative Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The LG is subordinate to the CM.",
+          "wrong": "The LG is subordinate to the Chief Minister.",
+          "correct": "The LG is the constitutional head of the UT and is not subordinate to the CM.",
+          "tip": "LG is the head of the UT; CM is the head of the elected government."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – LG-CM Relations",
+          "points": [
+            "LG is the constitutional head; CM is the head of the elected government.",
+            "Cooperation: Policy formulation, legislative business, appointments.",
+            "Conflict: Discretionary powers, Police and Public Order, bills.",
+            "Differences resolved through consultation, referral to MHA, or LG's discretionary powers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module2_mcqs_part1",
+      "title": "Practice MCQs: LG's Domain and LG-CM Relations",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "UT Executive – Practice Set",
+          "subtitle": "Mixed Questions for JKSSB",
+          "tags": ["PYQ", "JKSSB", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the LG's discretionary powers, the 'aid and advice' principle, and the LG-CM relationship.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "The Lieutenant Governor of J&K is appointed by:",
+          "options": ["Chief Minister", "Prime Minister", "President", "Vice-President"],
+          "answer": 2,
+          "explanation": "The LG is appointed by the President of India under Article 239.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following is NOT a discretionary power of the LG of J&K?",
+          "options": ["Reservation of bills", "Ordinance-making", "Appointment of Chief Minister", "Police and Public Order"],
+          "answer": 2,
+          "explanation": "The LG appoints the Chief Minister on the advice of the political party, not as a discretionary power.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The executive power of the UT of J&K is exercised by the LG on the:",
+          "options": ["Advice of the Council of Ministers", "Discretion alone", "Orders of the President", "Advice of the Chief Justice"],
+          "answer": 0,
+          "explanation": "The executive power is exercised by the LG on the 'aid and advice' of the Council of Ministers.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which subjects are excluded from the J&K Legislative Assembly's purview?",
+          "options": ["Education and Health", "Police and Public Order", "Agriculture and Irrigation", "Taxation and Finance"],
+          "answer": 1,
+          "explanation": "Police and Public Order are excluded from the Assembly's purview and are under the LG's control.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The LG can reserve bills for the consideration of:",
+          "options": ["Chief Minister", "Supreme Court", "President", "Governor"],
+          "answer": 2,
+          "explanation": "The LG can reserve bills for the consideration of the President.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which Article of the Constitution deals with the appointment of the Lieutenant Governor?",
+          "options": ["Article 239", "Article 239A", "Article 240", "Article 241"],
+          "answer": 0,
+          "explanation": "Article 239 deals with the administration of Union Territories.",
+          "is_pyq": false
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the LG's discretionary powers, the 'aid and advice' principle, and the LG-CM relationship.",
+          "points": [
+            "LG appointed by President.",
+            "Executive power on aid and advice of Council of Ministers.",
+            "Discretionary powers: Reservation of bills, ordinances, Police and Public Order.",
+            "LG-CM relationship: Cooperation and potential conflict.",
+            "Differences resolved through consultation or referral to MHA."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "services_conundrum",
+      "title": "The 'Services' Conundrum – Administrative Control and Cadre Management",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "The 'Services' Conundrum",
+          "subtitle": "Administrative Control over All India Services and Local Services",
+          "tags": ["JKSSB", "High Weightage", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "👥",
+          "title": "Overview of Administrative Services in J&K UT",
+          "content": "After the reorganisation, the administrative services of J&K are governed by a dual framework. The All India Services (IAS, IPS, IFoS) are under the control of the Ministry of Home Affairs (MHA), while the local J&K Administrative Services (JKAS, JKPS) are also under the control of the MHA through the Lieutenant Governor and the UT administration.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "All India Services – IAS, IPS, IFoS",
+          "content": "1. **IAS (Indian Administrative Service)**: The cadre of IAS officers in J&K is now a part of the UT cadre under the control of the MHA. The cadre strength, postings, and transfers are managed by the Department of Personnel and Training (DoPT) in consultation with the UT administration.\n2. **IPS (Indian Police Service)**: The IPS cadre is also under the MHA. The UT's police forces are headed by an IPS officer. The LG exercises control over police and public order matters.\n3. **IFoS (Indian Forest Service)**: The IFoS cadre is under the MHA, and the UT's forest department is administered accordingly.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Local J&K Administrative Services – JKAS and JKPS",
+          "content": "1. **JKAS (J&K Administrative Service)**: This is the state-level administrative service that was earlier part of the state civil service. After the reorganisation, the JKAS cadre is now part of the UT administration under the control of the LG. Recruitment, promotions, and transfers are governed by the UT's Service Rules and the MHA guidelines.\n2. **JKPS (J&K Police Service)**: The JKPS is the state-level police service. It is now under the control of the LG and the UT administration, with recruitment and service conditions governed by the UT's Police Service Rules.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Services and Their Controlling Authority",
+          "headers": ["Service", "Cadre Control", "Key Authority"],
+          "rows": [
+            ["IAS (Indian Administrative Service)", "MHA (DoPT)", "LG / UT Administration"],
+            ["IPS (Indian Police Service)", "MHA", "LG / UT Administration (Police and Public Order)"],
+            ["IFoS (Indian Forest Service)", "MHA", "LG / UT Administration"],
+            ["JKAS (J&K Administrative Service)", "UT Administration (under MHA)", "LG / UT Administration"],
+            ["JKPS (J&K Police Service)", "UT Administration (under MHA)", "LG / UT Administration"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: IAS Posting in J&K",
+          "given": ["An IAS officer is transferred within the UT of J&K."],
+          "find": "Who has the authority to transfer an IAS officer?",
+          "steps": [
+            "The IAS is an All India Service, controlled by the MHA.",
+            "The DoPT (Department of Personnel and Training) under the MHA handles cadre management.",
+            "The UT administration (LG) can request a transfer, but the final authority rests with the MHA.",
+            "The LG, however, exercises day-to-day administrative control."
+          ],
+          "answer": "The MHA (through DoPT) has the final authority over IAS postings and transfers.",
+          "formula_used": "Administrative Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The Chief Minister controls All India Services.",
+          "wrong": "The Chief Minister has direct control over IAS, IPS, and IFoS.",
+          "correct": "All India Services in J&K are under the control of the MHA, not the Chief Minister.",
+          "tip": "All India Services are under the MHA; the CM can recommend but does not control."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Services Conundrum",
+          "points": [
+            "IAS, IPS, IFoS are All India Services under MHA.",
+            "JKAS and JKPS are local services under the UT administration (MHA control).",
+            "The LG exercises administrative control over these services.",
+            "The MHA retains final authority on cadre management and transfers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transaction_business_rules",
+      "title": "Transaction of Business Rules (MHA Notifications) – Resolving Differences and Referral to Centre",
+      "estimated_minutes": 16,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "Transaction of Business Rules",
+          "subtitle": "Procedures for Resolving Differences and Compulsory Referral to the Central Government",
+          "tags": ["JKSSB", "High Weightage", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "What are the Transaction of Business Rules?",
+          "content": "The Transaction of Business Rules (TBR) for the UT of J&K are notified by the Ministry of Home Affairs (MHA) under the J&K Reorganisation Act, 2019. These rules govern the day-to-day functioning of the UT administration, including the distribution of business among ministers, the LG's powers, and the procedures for decision-making.",
+          "highlight": true
+        },
+        {
+          "type": "fact_card",
+          "icon": "⚖️",
+          "title": "Resolving Differences of Opinion Between LG and CM",
+          "content": "When there is a difference of opinion between the Lieutenant Governor and the Chief Minister, the Transaction of Business Rules provide the following procedure:\n1. **Consultation**: Both parties attempt to resolve the issue through consultation.\n2. **Reference to MHA**: If consultation fails, the matter is referred to the Ministry of Home Affairs for a final decision.\n3. **Decision by Central Government**: The Central Government (through MHA) takes a final decision, which is binding on both parties.\n4. **Execution**: The LG implements the decision of the Central Government.",
+          "highlight": false
+        },
+        {
+          "type": "fact_card",
+          "icon": "📋",
+          "title": "Matters Compulsorily Referred to the Central Government",
+          "content": "Certain matters must be compulsorily referred to the Central Government (MHA) before execution. These include:\n1. **Police and Public Order**: Any decision on law and order matters must be referred to the MHA.\n2. **All India Services**: Matters relating to IAS, IPS, and IFoS must be referred to the MHA.\n3. **Financial Matters**: Major financial decisions involving the UT's budget may be referred.\n4. **Sensitive Issues**: Any issue that may impact the security or integrity of the Union Territory.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "title": "Transaction of Business Rules – Key Features",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Legal Basis", "J&K Reorganisation Act, 2019 and MHA Notifications"],
+            ["Purpose", "Define procedures for decision-making and dispute resolution"],
+            ["Resolving Differences", "Consultation → Referral to MHA → Central Government decision"],
+            ["Compulsory Reference", "Police, Public Order, All India Services, Financial matters"],
+            ["Binding Decisions", "Central Government decisions are binding on LG and CM"]
+          ],
+          "highlight_row": 0
+        },
+        {
+          "type": "solved_example",
+          "title": "Example: Dispute Resolution",
+          "given": ["The LG and CM differ on a proposal to increase police powers."],
+          "find": "How is this dispute resolved under the Transaction of Business Rules?",
+          "steps": [
+            "Both parties attempt to resolve the issue through consultation.",
+            "If not resolved, the matter is referred to the Ministry of Home Affairs.",
+            "The MHA takes a final decision, which is binding.",
+            "The LG implements the decision of the Central Government."
+          ],
+          "answer": "The dispute is resolved through consultation and, if needed, referral to the MHA for a final decision.",
+          "formula_used": "Administrative Procedure Analysis"
+        },
+        {
+          "type": "exam_trap",
+          "title": "Trap: The CM has the final say on Police matters.",
+          "wrong": "The Chief Minister has the final say on Police and Public Order matters.",
+          "correct": "Police and Public Order matters are outside the Assembly's purview and are under the LG and MHA.",
+          "tip": "Police and Public Order are compulsorily referred to the Central Government."
+        },
+        {
+          "type": "revision",
+          "title": "Key Points – Transaction of Business Rules",
+          "points": [
+            "Notified by MHA under the J&K Reorganisation Act.",
+            "Dispute resolution: Consultation → Referral to MHA → Central Government decision.",
+            "Compulsory reference: Police, Public Order, All India Services, Financial matters.",
+            "Central Government decisions are binding."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "module2_mcqs_part2",
+      "title": "Practice MCQs: Services and Transaction of Business Rules",
+      "estimated_minutes": 15,
+      "blocks": [
+        {
+          "type": "hero",
+          "title": "UT Executive – Practice Set (Part 2)",
+          "subtitle": "Services and Transaction of Business Rules",
+          "tags": ["PYQ", "JKSSB", "J&K Governance"]
+        },
+        {
+          "type": "fact_card",
+          "icon": "🎯",
+          "title": "Exam Strategy",
+          "content": "Focus on the control over All India Services, the role of JKAS/JKPS, the dispute resolution mechanism, and matters compulsorily referred to the Central Government.",
+          "highlight": true
+        },
+        {
+          "type": "mcq",
+          "question": "All India Services in J&K are under the control of which authority?",
+          "options": ["Chief Minister", "Lieutenant Governor", "Ministry of Home Affairs", "Supreme Court"],
+          "answer": 2,
+          "explanation": "All India Services (IAS, IPS, IFoS) are under the control of the Ministry of Home Affairs.",
+          "is_pyq": true,
+          "year": "2021",
+          "source": "JKSSB"
+        },
+        {
+          "type": "mcq",
+          "question": "The local J&K Administrative Services (JKAS) are controlled by:",
+          "options": ["Chief Minister", "Lieutenant Governor", "Prime Minister", "President"],
+          "answer": 1,
+          "explanation": "JKAS is under the control of the LG and the UT administration (under MHA guidance).",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "When the LG and CM differ on a matter, the dispute is resolved by:",
+          "options": ["Chief Justice", "Supreme Court", "Ministry of Home Affairs", "Parliament"],
+          "answer": 2,
+          "explanation": "Differences are resolved through consultation, and if needed, referred to the MHA for a final decision.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following matters is compulsorily referred to the Central Government?",
+          "options": ["Education policy", "Agriculture", "Police and Public Order", "Tourism"],
+          "answer": 2,
+          "explanation": "Police and Public Order are compulsorily referred to the Central Government.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "The Transaction of Business Rules for J&K are notified by:",
+          "options": ["Chief Minister", "Lieutenant Governor", "Ministry of Home Affairs", "President"],
+          "answer": 2,
+          "explanation": "The TBR are notified by the Ministry of Home Affairs.",
+          "is_pyq": true
+        },
+        {
+          "type": "mcq",
+          "question": "The All India Service cadre management in J&K is handled by:",
+          "options": ["LG", "Chief Minister", "DoPT (MHA)", "UPSC"],
+          "answer": 2,
+          "explanation": "The Department of Personnel and Training (DoPT) under the MHA manages the cadre of All India Services.",
+          "is_pyq": false
+        },
+        {
+          "type": "mcq",
+          "question": "Which of the following services is NOT under the MHA's control?",
+          "options": ["IAS", "IPS", "JKAS", "IFoS"],
+          "answer": 2,
+          "explanation": "JKAS is a local service under the UT administration, though the MHA has overall control through the LG.",
+          "is_pyq": true
+        },
+        {
+          "type": "note_card",
+          "title": "Post-Test Review",
+          "variant": "important",
+          "content": "Review the control over All India Services, the role of JKAS/JKPS, the dispute resolution mechanism (consultation → MHA referral), and matters compulsorily referred to the Central Government.",
+          "points": [
+            "IAS, IPS, IFoS are under MHA.",
+            "JKAS, JKPS are under UT administration (LG).",
+            "Dispute resolution: Consultation → MHA referral.",
+            "Compulsory reference: Police, Public Order, All India Services, Financial matters."
+          ]
+        }
+      ]
+    }
+  ]
+}
